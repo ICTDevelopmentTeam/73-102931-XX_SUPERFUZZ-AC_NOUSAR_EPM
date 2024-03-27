@@ -1,0 +1,19 @@
+!!!!   21    1    1 1472197468  Vbef7                                         
+
+diode "cr", 800m, 400m, nr
+
+pin library "pwr_on_off", nr, pn"nfet_pwr", "FET ON OFF Tests Failed."
+
+external pins 1
+   device "cr" pins "A"
+   device "pwr_on_off" pins 3
+
+external pins 2; noconnect
+external pins 3; noconnect
+
+external pins 4
+   device "pwr_on_off" pins 1
+
+external pins 8
+   device "cr" pins "C"
+   device "pwr_on_off" pins 2

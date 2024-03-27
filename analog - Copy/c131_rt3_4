@@ -1,0 +1,5 @@
+!!!!    2    0    1 1647864037   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:38 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "c131_rt3_4" is not accessible at node "BV0_CLK_IN_AC_P_RT3_4".

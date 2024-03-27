@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517001  Va071                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:56 2022
+disconnect all
+connect s to "PMOD_DIF_RC_P3V3_SFP0_ALT"
+connect i to "PMOD_VDIF_P3V3_SFP0_ALT"
+connect g to "PMOD_FB_P3V3_SFP0_ALT"
+!B!capacitor 8.2n, 20.00, 20.00, fr1024, re4, wb, ar100m, nocomp
+capacitor 8.2n,35.00,40.00,fr1024,re4,wb,ar100m,nocomp
+! "c11_sf0" test.

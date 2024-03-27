@@ -1,0 +1,13 @@
+!!!!   21    2    1 1647590626  V1baf                                         
+
+!#  11-3495-01
+!#  11-3495-01 CAP,CE,8.2nF,25.0 V,10%,X7R,S
+!#  Thu Mar 17 16:55:37 2022
+
+capacitor *, 8.2n, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

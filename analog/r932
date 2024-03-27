@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863954   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:15 2022
+on failure
+   report parallel devices
+   report "c401 220p"
+end on failure
+disconnect all
+connect s to "P1V8"
+connect i to "P1V8_FB"
+jumper 10.0k, re4, wb, ar100m, op
+! "r932" test.
+off failure

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648518991  V5f61                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:58 2022
+disconnect all
+connect s to "GND"
+connect i to "QSFP_P1_P2_ILIM_Q2"
+!B!resistor 24.3k, 6.00, 6.00, re5, wb, ar500m
+resistor 24.3k,25.00,25.00,re5,wb,ar500m
+! "r3_q2" test.

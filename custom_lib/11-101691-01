@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573441429  V8143                                         
+
+!#  11-101691-01
+!#  11-101691-01 CAP,AP,560.0uF,2.0 V,20%,SM
+!#  Fri Mar 17 17:18:46 2017
+
+capacitor *, 0.47u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

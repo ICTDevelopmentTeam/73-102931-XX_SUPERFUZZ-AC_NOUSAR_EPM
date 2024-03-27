@@ -1,0 +1,21 @@
+!!!!   21    0    1 1493288812  Vcba5                                         
+!
+zener "zerer",  3.3,  10,  10
+!diode "cr", 900m, 400m
+
+external pins 1
+
+external pins 2
+
+external pins 3
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+!!!!    2    0    1 1651025161   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:36 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c137 10.0n"                                                                                                                                             
+report "r1007 3.48k"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "SNDN_0P9_VDD_PMB_ADDR"                                                                                                                            
+!B!capacitor 20n, 20.00, 20.00, fr1024, re3, wb, ar50.0m, nocomp                                                                                                
+capacitor 20n,35.00,40.0,fr1024,re5,wb,ar100m,nocomp,en                                                                                                            
+! "c10_5" test.                                                                                                                                                 
+off failure                                                                                                                                                     

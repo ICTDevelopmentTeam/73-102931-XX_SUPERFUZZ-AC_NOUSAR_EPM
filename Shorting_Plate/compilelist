@@ -1,0 +1,2559 @@
+!!!!    4    0    1 1545183921   0000                                         
+print"1/1279"
+compile"analog/r9_rt5_6" ,ERR
+print"2/1279"
+compile"analog/c419_3" ,ERR
+print"3/1279"
+compile"analog/rn44_s1%pin_1_8" ,ERR
+print"4/1279"
+compile"analog/r211" ,ERR
+print"5/1279"
+compile"analog/rn109_s0%pin_4_5" ,ERR
+print"6/1279"
+compile"analog/c7_q1" ,ERR
+print"7/1279"
+compile"analog/rn50_s0%pin_4_5" ,ERR
+print"8/1279"
+compile"analog/r390" ,ERR
+print"9/1279"
+compile"analog/c19_1v2s" ,ERR
+print"10/1279"
+compile"analog/r1136" ,ERR
+print"11/1279"
+compile"analog/r88" ,ERR
+print"12/1279"
+compile"analog/rn47_s0%pin_2_7" ,ERR
+print"13/1279"
+compile"analog/rn53_s0%pin_1_8" ,ERR
+print"14/1279"
+compile"analog/p3_s0%grn" ,ERR
+print"15/1279"
+compile"analog/p2_s1%yel" ,ERR
+print"16/1279"
+compile"analog/c146" ,ERR
+print"17/1279"
+compile"analog/r525" ,ERR
+print"18/1279"
+compile"analog/rn47_s0%pin_3_6" ,ERR
+print"19/1279"
+compile"analog/rn43_s0%pin_4_5" ,ERR
+print"20/1279"
+compile"analog/r523" ,ERR
+print"21/1279"
+compile"analog/p10_s1%grn" ,ERR
+print"22/1279"
+compile"analog/c3057" ,ERR
+print"23/1279"
+compile"analog/c06_98_rtv1" ,ERR
+print"24/1279"
+compile"analog/cr11%grn" ,ERR
+print"25/1279"
+compile"analog/c19_sf0" ,ERR
+print"26/1279"
+compile"analog/r223" ,ERR
+print"27/1279"
+compile"analog/rn42_s0%pin_4_5" ,ERR
+print"28/1279"
+compile"analog/r661" ,ERR
+print"29/1279"
+compile"analog/p11_s0%yel" ,ERR
+print"30/1279"
+compile"analog/r1844" ,ERR
+print"31/1279"
+compile"analog/rn46_s1%pin_4_5" ,ERR
+print"32/1279"
+compile"analog/rn94_s0%pin_4_5" ,ERR
+print"33/1279"
+compile"analog/rn99_s0%pin_3_6" ,ERR
+print"34/1279"
+compile"analog/rn52_s1%pin_2_7" ,ERR
+print"35/1279"
+compile"analog/cr108%grn" ,ERR
+print"36/1279"
+compile"analog/r1317" ,ERR
+print"37/1279"
+compile"analog/rn37_s0%pin_2_7" ,ERR
+print"38/1279"
+compile"analog/r10_pm" ,ERR
+print"39/1279"
+compile"analog/r125" ,ERR
+print"40/1279"
+compile"analog/p20_s1%yel" ,ERR
+print"41/1279"
+compile"analog/r137" ,ERR
+print"42/1279"
+compile"analog/rn46_s0%pin_2_7" ,ERR
+print"43/1279"
+compile"analog/rn93_s1%pin_1_8" ,ERR
+print"44/1279"
+compile"analog/rn58_s0%pin_2_7" ,ERR
+print"45/1279"
+compile"analog/rn44_s0%pin_4_5" ,ERR
+print"46/1279"
+compile"analog/rn60_s0%pin_1_8" ,ERR
+print"47/1279"
+compile"analog/rn96_s1%pin_3_6" ,ERR
+print"48/1279"
+compile"analog/r09_5" ,ERR
+print"49/1279"
+compile"analog/c72" ,ERR
+print"50/1279"
+compile"analog/rn102_s1%pin_3_6" ,ERR
+print"51/1279"
+compile"analog/rn93_s1%pin_3_6" ,ERR
+print"52/1279"
+compile"analog/rn53_s0%pin_4_5" ,ERR
+print"53/1279"
+compile"analog/r9_rt7_8" ,ERR
+print"54/1279"
+compile"analog/c10_rtv2" ,ERR
+print"55/1279"
+compile"analog/c2_q2" ,ERR
+print"56/1279"
+compile"analog/rn68_s0%pin_2_7" ,ERR
+print"57/1279"
+compile"analog/r26_s1" ,ERR
+print"58/1279"
+compile"analog/r760" ,ERR
+print"59/1279"
+compile"analog/r46" ,ERR
+print"60/1279"
+compile"analog/r475" ,ERR
+print"61/1279"
+compile"analog/cr2_q1%cr" ,ERR
+print"62/1279"
+compile"analog/rn55_s0%pin_2_7" ,ERR
+print"63/1279"
+compile"analog/rn42_s1%pin_2_7" ,ERR
+print"64/1279"
+compile"analog/r1855_3" ,ERR
+print"65/1279"
+compile"analog/rn49_s1%pin_3_6" ,ERR
+print"66/1279"
+compile"analog/rn66_s0%pin_3_6" ,ERR
+print"67/1279"
+compile"analog/c09_rtv1" ,ERR
+print"68/1279"
+compile"analog/rn108_s1%pin_4_5" ,ERR
+print"69/1279"
+compile"analog/rn37_s0%pin_4_5" ,ERR
+print"70/1279"
+compile"analog/rn111_s0%pin_2_7" ,ERR
+print"71/1279"
+compile"analog/rn58_s0%pin_4_5" ,ERR
+print"72/1279"
+compile"analog/rn68_s1%pin_2_7" ,ERR
+print"73/1279"
+compile"analog/c21_pm" ,ERR
+print"74/1279"
+compile"analog/c22_a" ,ERR
+print"75/1279"
+compile"analog/rn33_s1%pin_1_8" ,ERR
+print"76/1279"
+compile"analog/rn34_s1%pin_2_7" ,ERR
+print"77/1279"
+compile"analog/rn107_s0%pin_1_8" ,ERR
+print"78/1279"
+compile"analog/r793" ,ERR
+print"79/1279"
+compile"analog/rn3_q0%pin_1_8" ,ERR
+print"80/1279"
+compile"analog/rn34_s0%pin_4_5" ,ERR
+print"81/1279"
+compile"analog/p2_s0%yel" ,ERR
+print"82/1279"
+compile"analog/r56_s0" ,ERR
+print"83/1279"
+compile"analog/q23%q" ,ERR
+print"84/1279"
+compile"analog/r867" ,ERR
+print"85/1279"
+compile"analog/r685" ,ERR
+print"86/1279"
+compile"analog/rn31_s1%pin_2_7" ,ERR
+print"87/1279"
+compile"analog/r354" ,ERR
+print"88/1279"
+compile"analog/rn100_s0%pin_3_6" ,ERR
+print"89/1279"
+compile"analog/rn80_s1%pin_1_8" ,ERR
+print"90/1279"
+compile"analog/rn96_s0%pin_3_6" ,ERR
+print"91/1279"
+compile"analog/p18_s0%yel" ,ERR
+print"92/1279"
+compile"analog/c06_94_5" ,ERR
+print"93/1279"
+compile"analog/r1199" ,ERR
+print"94/1279"
+compile"analog/rn60_s1%pin_1_8" ,ERR
+print"95/1279"
+compile"analog/rn3_q0%pin_4_5" ,ERR
+print"96/1279"
+compile"analog/p9_s0%grn" ,ERR
+print"97/1279"
+compile"analog/r202" ,ERR
+print"98/1279"
+compile"analog/r1856_3" ,ERR
+print"99/1279"
+compile"analog/r145" ,ERR
+print"100/1279"
+compile"analog/r4_a" ,ERR
+print"101/1279"
+compile"analog/rn57_s1%pin_4_5" ,ERR
+print"102/1279"
+compile"analog/r3_a" ,ERR
+print"103/1279"
+compile"analog/rn42_s1%pin_4_5" ,ERR
+print"104/1279"
+compile"analog/cr5%grn" ,ERR
+print"105/1279"
+compile"analog/r203" ,ERR
+print"106/1279"
+compile"analog/r444" ,ERR
+print"107/1279"
+compile"analog/rn61_s1%pin_3_6" ,ERR
+print"108/1279"
+compile"analog/r266" ,ERR
+print"109/1279"
+compile"analog/r196" ,ERR
+print"110/1279"
+compile"analog/r1019" ,ERR
+print"111/1279"
+compile"analog/rn69_s1%pin_1_8" ,ERR
+print"112/1279"
+compile"analog/r759" ,ERR
+print"113/1279"
+compile"analog/r402" ,ERR
+print"114/1279"
+compile"analog/rn44_s0%pin_2_7" ,ERR
+print"115/1279"
+compile"analog/r256" ,ERR
+print"116/1279"
+compile"analog/r4_q1" ,ERR
+print"117/1279"
+compile"analog/rn49_s0%pin_2_7" ,ERR
+print"118/1279"
+compile"analog/r21" ,ERR
+print"119/1279"
+compile"analog/p7_s0%yel" ,ERR
+print"120/1279"
+compile"analog/rn32_s1%pin_2_7" ,ERR
+print"121/1279"
+compile"analog/r39_3" ,ERR
+print"122/1279"
+compile"analog/rn34_s1%pin_4_5" ,ERR
+print"123/1279"
+compile"analog/r52" ,ERR
+print"124/1279"
+compile"analog/rn56_s1%pin_1_8" ,ERR
+print"125/1279"
+compile"analog/rn62_s1%pin_3_6" ,ERR
+print"126/1279"
+compile"analog/rn97_s1%pin_1_8" ,ERR
+print"127/1279"
+compile"analog/r601" ,ERR
+print"128/1279"
+compile"analog/r1256" ,ERR
+print"129/1279"
+compile"analog/rn60_s0%pin_3_6" ,ERR
+print"130/1279"
+compile"analog/rn3_q1%pin_2_7" ,ERR
+print"131/1279"
+compile"analog/rn44_s1%pin_3_6" ,ERR
+print"132/1279"
+compile"analog/c727" ,ERR
+print"133/1279"
+compile"analog/rn109_s1%pin_3_6" ,ERR
+print"134/1279"
+compile"analog/rn66_s1%pin_3_6" ,ERR
+print"135/1279"
+compile"analog/p16_s0%yel" ,ERR
+print"136/1279"
+compile"analog/rn52_s1%pin_3_6" ,ERR
+print"137/1279"
+compile"analog/rn63_s1%pin_3_6" ,ERR
+print"138/1279"
+compile"analog/rn67_s1%pin_2_7" ,ERR
+print"139/1279"
+compile"analog/r22_s1" ,ERR
+print"140/1279"
+compile"analog/r551" ,ERR
+print"141/1279"
+compile"analog/r41" ,ERR
+print"142/1279"
+compile"analog/r5_6" ,ERR
+print"143/1279"
+compile"analog/rn46_s1%pin_2_7" ,ERR
+print"144/1279"
+compile"analog/rn97_s0%pin_3_6" ,ERR
+print"145/1279"
+compile"analog/p17_s0%yel" ,ERR
+print"146/1279"
+compile"analog/r2_a" ,ERR
+print"147/1279"
+compile"analog/c06_rtv1" ,ERR
+print"148/1279"
+compile"analog/rn1_q1%pin_1_8" ,ERR
+print"149/1279"
+compile"analog/c3062" ,ERR
+print"150/1279"
+compile"analog/r704" ,ERR
+print"151/1279"
+compile"analog/r2439" ,ERR
+print"152/1279"
+compile"analog/rn45_s0%pin_4_5" ,ERR
+print"153/1279"
+compile"analog/p21_s1%yel" ,ERR
+print"154/1279"
+compile"analog/rn66_s1%pin_4_5" ,ERR
+print"155/1279"
+compile"analog/r40_s1" ,ERR
+print"156/1279"
+compile"analog/rn38_s0%pin_2_7" ,ERR
+print"157/1279"
+compile"analog/rn47_s1%pin_4_5" ,ERR
+print"158/1279"
+compile"analog/q27%q" ,ERR
+print"159/1279"
+compile"analog/r775" ,ERR
+print"160/1279"
+compile"analog/rn103_s0%pin_1_8" ,ERR
+print"161/1279"
+compile"analog/r442" ,ERR
+print"162/1279"
+compile"analog/rn55_s0%pin_3_6" ,ERR
+print"163/1279"
+compile"analog/rn46_s0%pin_1_8" ,ERR
+print"164/1279"
+compile"analog/rn52_s0%pin_1_8" ,ERR
+print"165/1279"
+compile"analog/rn92_s1%pin_3_6" ,ERR
+print"166/1279"
+compile"analog/r200" ,ERR
+print"167/1279"
+compile"analog/r373_3" ,ERR
+print"168/1279"
+compile"analog/r307" ,ERR
+print"169/1279"
+compile"analog/r550" ,ERR
+print"170/1279"
+compile"analog/c7_6" ,ERR
+print"171/1279"
+compile"analog/r6_q1" ,ERR
+print"172/1279"
+compile"analog/r40_s0" ,ERR
+print"173/1279"
+compile"analog/r193" ,ERR
+print"174/1279"
+compile"analog/rn35_s1%pin_3_6" ,ERR
+print"175/1279"
+compile"analog/rn57_s0%pin_3_6" ,ERR
+print"176/1279"
+compile"analog/rn55_s0%pin_4_5" ,ERR
+print"177/1279"
+compile"analog/c728" ,ERR
+print"178/1279"
+compile"analog/r745" ,ERR
+print"179/1279"
+compile"analog/rn54_s1%pin_1_8" ,ERR
+print"180/1279"
+compile"analog/p3_s0%yel" ,ERR
+print"181/1279"
+compile"analog/rn100_s0%pin_4_5" ,ERR
+print"182/1279"
+compile"analog/rn41_s0%pin_3_6" ,ERR
+print"183/1279"
+compile"analog/rn49_s0%pin_4_5" ,ERR
+print"184/1279"
+compile"analog/r18" ,ERR
+print"185/1279"
+compile"analog/rn80_s1%pin_4_5" ,ERR
+print"186/1279"
+compile"analog/r59_3" ,ERR
+print"187/1279"
+compile"analog/rn68_s0%pin_1_8" ,ERR
+print"188/1279"
+compile"analog/r37" ,ERR
+print"189/1279"
+compile"analog/r2429" ,ERR
+print"190/1279"
+compile"analog/rn108_s0%pin_4_5" ,ERR
+print"191/1279"
+compile"analog/r526" ,ERR
+print"192/1279"
+compile"analog/r736" ,ERR
+print"193/1279"
+compile"analog/rn46_s0%pin_4_5" ,ERR
+print"194/1279"
+compile"analog/rn61_s0%pin_3_6" ,ERR
+print"195/1279"
+compile"analog/r21_5" ,ERR
+print"196/1279"
+compile"analog/c6_1v2s" ,ERR
+print"197/1279"
+compile"analog/r207" ,ERR
+print"198/1279"
+compile"analog/r29_rtv1" ,ERR
+print"199/1279"
+compile"analog/r403" ,ERR
+print"200/1279"
+compile"analog/rn93_s0%pin_1_8" ,ERR
+print"201/1279"
+compile"analog/r35_3" ,ERR
+print"202/1279"
+compile"analog/rn96_s1%pin_4_5" ,ERR
+print"203/1279"
+compile"analog/cr6%grn" ,ERR
+print"204/1279"
+compile"analog/r3_q0" ,ERR
+print"205/1279"
+compile"analog/p1_s1%yel" ,ERR
+print"206/1279"
+compile"analog/r609" ,ERR
+print"207/1279"
+compile"analog/cr10%grn" ,ERR
+print"208/1279"
+compile"analog/rn65_s1%pin_1_8" ,ERR
+print"209/1279"
+compile"analog/p17_s0%grn" ,ERR
+print"210/1279"
+compile"analog/r158" ,ERR
+print"211/1279"
+compile"analog/r929" ,ERR
+print"212/1279"
+compile"analog/rn109_s0%pin_3_6" ,ERR
+print"213/1279"
+compile"analog/rn52_s0%pin_4_5" ,ERR
+print"214/1279"
+compile"analog/r56_s1" ,ERR
+print"215/1279"
+compile"analog/r480" ,ERR
+print"216/1279"
+compile"analog/r613" ,ERR
+print"217/1279"
+compile"analog/rn31_s1%pin_1_8" ,ERR
+print"218/1279"
+compile"analog/rn62_s0%pin_3_6" ,ERR
+print"219/1279"
+compile"analog/rn50_s1%pin_3_6" ,ERR
+print"220/1279"
+compile"analog/rn33_s1%pin_2_7" ,ERR
+print"221/1279"
+compile"analog/c2_q1" ,ERR
+print"222/1279"
+compile"analog/r164" ,ERR
+print"223/1279"
+compile"analog/rn33_s0%pin_1_8" ,ERR
+print"224/1279"
+compile"analog/r10_rtv1" ,ERR
+print"225/1279"
+compile"analog/p2_q2%yel" ,ERR
+print"226/1279"
+compile"analog/r677" ,ERR
+print"227/1279"
+compile"analog/rn32_s1%pin_3_6" ,ERR
+print"228/1279"
+compile"analog/r23_rtv2" ,ERR
+print"229/1279"
+compile"analog/r558" ,ERR
+print"230/1279"
+compile"analog/rn89_s0%pin_4_5" ,ERR
+print"231/1279"
+compile"analog/r38_s0" ,ERR
+print"232/1279"
+compile"analog/r16_rt3_4" ,ERR
+print"233/1279"
+compile"analog/rn94_s0%pin_1_8" ,ERR
+print"234/1279"
+compile"analog/c176" ,ERR
+print"235/1279"
+compile"analog/r626" ,ERR
+print"236/1279"
+compile"analog/r396" ,ERR
+print"237/1279"
+compile"analog/r400" ,ERR
+print"238/1279"
+compile"analog/r393" ,ERR
+print"239/1279"
+compile"analog/p14_s0%yel" ,ERR
+print"240/1279"
+compile"analog/r10_rtv2" ,ERR
+print"241/1279"
+compile"analog/rn107_s1%pin_4_5" ,ERR
+print"242/1279"
+compile"analog/r103" ,ERR
+print"243/1279"
+compile"analog/rn58_s0%pin_3_6" ,ERR
+print"244/1279"
+compile"analog/rn32_s1%pin_4_5" ,ERR
+print"245/1279"
+compile"analog/rn56_s0%pin_2_7" ,ERR
+print"246/1279"
+compile"analog/rn31_s0%pin_2_7" ,ERR
+print"247/1279"
+compile"analog/rn2_q1%pin_2_7" ,ERR
+print"248/1279"
+compile"analog/c578" ,ERR
+print"249/1279"
+compile"analog/rn36_s0%pin_2_7" ,ERR
+print"250/1279"
+compile"analog/rn79_s0%pin_1_8" ,ERR
+print"251/1279"
+compile"analog/rn63_s0%pin_4_5" ,ERR
+print"252/1279"
+compile"analog/rn69_s0%pin_2_7" ,ERR
+print"253/1279"
+compile"analog/p2_q0%yel" ,ERR
+print"254/1279"
+compile"analog/p2_s0%grn" ,ERR
+print"255/1279"
+compile"analog/r3_6" ,ERR
+print"256/1279"
+compile"analog/r868" ,ERR
+print"257/1279"
+compile"analog/rn38_s1%pin_3_6" ,ERR
+print"258/1279"
+compile"analog/rn99_s1%pin_3_6" ,ERR
+print"259/1279"
+compile"analog/r325" ,ERR
+print"260/1279"
+compile"analog/rn99_s1%pin_4_5" ,ERR
+print"261/1279"
+compile"analog/p9_s0%yel" ,ERR
+print"262/1279"
+compile"analog/r536" ,ERR
+print"263/1279"
+compile"analog/rn49_s1%pin_4_5" ,ERR
+print"264/1279"
+compile"analog/r9_rt3_4" ,ERR
+print"265/1279"
+compile"analog/rn103_s0%pin_2_7" ,ERR
+print"266/1279"
+compile"analog/r670" ,ERR
+print"267/1279"
+compile"analog/rn50_s0%pin_2_7" ,ERR
+print"268/1279"
+compile"analog/rn57_s0%pin_1_8" ,ERR
+print"269/1279"
+compile"analog/c8_q0" ,ERR
+print"270/1279"
+compile"analog/r649" ,ERR
+print"271/1279"
+compile"analog/r469" ,ERR
+print"272/1279"
+compile"analog/c06_91_5" ,ERR
+print"273/1279"
+compile"analog/r794" ,ERR
+print"274/1279"
+compile"analog/r1132" ,ERR
+print"275/1279"
+compile"analog/r494" ,ERR
+print"276/1279"
+compile"analog/rn97_s1%pin_2_7" ,ERR
+print"277/1279"
+compile"analog/rn89_s1%pin_3_6" ,ERR
+print"278/1279"
+compile"analog/r177" ,ERR
+print"279/1279"
+compile"analog/c06_92_5" ,ERR
+print"280/1279"
+compile"analog/r2_rt9" ,ERR
+print"281/1279"
+compile"analog/rn38_s0%pin_3_6" ,ERR
+print"282/1279"
+compile"analog/rn100_s1%pin_1_8" ,ERR
+print"283/1279"
+compile"analog/r439" ,ERR
+print"284/1279"
+compile"analog/rn36_s0%pin_4_5" ,ERR
+print"285/1279"
+compile"analog/rn47_s1%pin_1_8" ,ERR
+print"286/1279"
+compile"analog/rn57_s1%pin_3_6" ,ERR
+print"287/1279"
+compile"analog/r619" ,ERR
+print"288/1279"
+compile"analog/rn108_s1%pin_3_6" ,ERR
+print"289/1279"
+compile"analog/r493" ,ERR
+print"290/1279"
+compile"analog/c06_93_5" ,ERR
+print"291/1279"
+compile"analog/r701" ,ERR
+print"292/1279"
+compile"analog/c171" ,ERR
+print"293/1279"
+compile"analog/r559" ,ERR
+print"294/1279"
+compile"analog/r675" ,ERR
+print"295/1279"
+compile"analog/c1243" ,ERR
+print"296/1279"
+compile"analog/rn93_s1%pin_4_5" ,ERR
+print"297/1279"
+compile"analog/r492" ,ERR
+print"298/1279"
+compile"analog/p3_s1%yel" ,ERR
+print"299/1279"
+compile"analog/p17_s1%yel" ,ERR
+print"300/1279"
+compile"analog/c78" ,ERR
+print"301/1279"
+compile"analog/r1582" ,ERR
+print"302/1279"
+compile"analog/c178" ,ERR
+print"303/1279"
+compile"analog/r1204" ,ERR
+print"304/1279"
+compile"analog/r590" ,ERR
+print"305/1279"
+compile"analog/r394" ,ERR
+print"306/1279"
+compile"analog/c8_q2" ,ERR
+print"307/1279"
+compile"analog/rn94_s0%pin_3_6" ,ERR
+print"308/1279"
+compile"analog/r165" ,ERR
+print"309/1279"
+compile"analog/rn100_s1%pin_3_6" ,ERR
+print"310/1279"
+compile"analog/c06_rtv2" ,ERR
+print"311/1279"
+compile"analog/rn50_s1%pin_2_7" ,ERR
+print"312/1279"
+compile"analog/rn45_s1%pin_1_8" ,ERR
+print"313/1279"
+compile"analog/cr2_q2%cr" ,ERR
+print"314/1279"
+compile"analog/rn107_s0%pin_2_7" ,ERR
+print"315/1279"
+compile"analog/c11" ,ERR
+print"316/1279"
+compile"analog/rn65_s1%pin_2_7" ,ERR
+print"317/1279"
+compile"analog/rn66_s0%pin_1_8" ,ERR
+print"318/1279"
+compile"analog/p8_s0%grn" ,ERR
+print"319/1279"
+compile"analog/r24_rtv1" ,ERR
+print"320/1279"
+compile"analog/rn64_s0%pin_1_8" ,ERR
+print"321/1279"
+compile"analog/rn57_s1%pin_2_7" ,ERR
+print"322/1279"
+compile"analog/rn103_s1%pin_1_8" ,ERR
+print"323/1279"
+compile"analog/r6_s0" ,ERR
+print"324/1279"
+compile"analog/p1_q2%grn" ,ERR
+print"325/1279"
+compile"analog/p10_s1%yel" ,ERR
+print"326/1279"
+compile"analog/r587" ,ERR
+print"327/1279"
+compile"analog/rn2_q2%pin_1_8" ,ERR
+print"328/1279"
+compile"analog/r920" ,ERR
+print"329/1279"
+compile"analog/rn1_q0%pin_3_6" ,ERR
+print"330/1279"
+compile"analog/r6_q0" ,ERR
+print"331/1279"
+compile"analog/rn2_q2%pin_2_7" ,ERR
+print"332/1279"
+compile"analog/p0_s0%grn" ,ERR
+print"333/1279"
+compile"analog/p21_s0%grn" ,ERR
+print"334/1279"
+compile"analog/r698" ,ERR
+print"335/1279"
+compile"analog/r371_3" ,ERR
+print"336/1279"
+compile"analog/p8_s1%grn" ,ERR
+print"337/1279"
+compile"analog/rn51_s0%pin_2_7" ,ERR
+print"338/1279"
+compile"analog/rn1_q0%pin_4_5" ,ERR
+print"339/1279"
+compile"analog/r468" ,ERR
+print"340/1279"
+compile"analog/cr7%grn" ,ERR
+print"341/1279"
+compile"analog/c186" ,ERR
+print"342/1279"
+compile"analog/r738" ,ERR
+print"343/1279"
+compile"analog/r2_s0" ,ERR
+print"344/1279"
+compile"analog/r23_rtv1" ,ERR
+print"345/1279"
+compile"analog/r4_q2" ,ERR
+print"346/1279"
+compile"analog/r436" ,ERR
+print"347/1279"
+compile"analog/r353" ,ERR
+print"348/1279"
+compile"analog/c13_91_rtv1" ,ERR
+print"349/1279"
+compile"analog/rn59_s0%pin_1_8" ,ERR
+print"350/1279"
+compile"analog/r3_q2" ,ERR
+print"351/1279"
+compile"analog/rn31_s1%pin_3_6" ,ERR
+print"352/1279"
+compile"analog/c221_5v" ,ERR
+print"353/1279"
+compile"analog/r18_s1" ,ERR
+print"354/1279"
+compile"analog/rn59_s0%pin_3_6" ,ERR
+print"355/1279"
+compile"analog/c24_a" ,ERR
+print"356/1279"
+compile"analog/r452" ,ERR
+print"357/1279"
+compile"analog/rn45_s0%pin_1_8" ,ERR
+print"358/1279"
+compile"analog/rn41_s1%pin_3_6" ,ERR
+print"359/1279"
+compile"analog/r1583" ,ERR
+print"360/1279"
+compile"analog/rn1%pin_2_7" ,ERR
+print"361/1279"
+compile"analog/r1318" ,ERR
+print"362/1279"
+compile"analog/cr11%red" ,ERR
+print"363/1279"
+compile"analog/r9_rt1_2" ,ERR
+print"364/1279"
+compile"analog/r1156" ,ERR
+print"365/1279"
+compile"analog/rn107_s0%pin_4_5" ,ERR
+print"366/1279"
+compile"analog/r25_3" ,ERR
+print"367/1279"
+compile"analog/r134" ,ERR
+print"368/1279"
+compile"analog/r2_s1" ,ERR
+print"369/1279"
+compile"analog/rn3_q2%pin_3_6" ,ERR
+print"370/1279"
+compile"analog/r81" ,ERR
+print"371/1279"
+compile"analog/rn34_s1%pin_3_6" ,ERR
+print"372/1279"
+compile"analog/rn37_s1%pin_3_6" ,ERR
+print"373/1279"
+compile"analog/r543" ,ERR
+print"374/1279"
+compile"analog/r21_rtv2" ,ERR
+print"375/1279"
+compile"analog/rn57_s1%pin_1_8" ,ERR
+print"376/1279"
+compile"analog/r20_5" ,ERR
+print"377/1279"
+compile"analog/r38_3" ,ERR
+print"378/1279"
+compile"analog/rn79_s0%pin_2_7" ,ERR
+print"379/1279"
+compile"analog/p0_s1%grn" ,ERR
+print"380/1279"
+compile"analog/rn55_s1%pin_4_5" ,ERR
+print"381/1279"
+compile"analog/rn48_s1%pin_2_7" ,ERR
+print"382/1279"
+compile"analog/r441" ,ERR
+print"383/1279"
+compile"analog/r755" ,ERR
+print"384/1279"
+compile"analog/rn111_s0%pin_4_5" ,ERR
+print"385/1279"
+compile"analog/c224_3v3" ,ERR
+print"386/1279"
+compile"analog/rn56_s1%pin_2_7" ,ERR
+print"387/1279"
+compile"analog/p11_s1%grn" ,ERR
+print"388/1279"
+compile"analog/rn1_q1%pin_3_6" ,ERR
+print"389/1279"
+compile"analog/r21_3" ,ERR
+print"390/1279"
+compile"analog/rn51_s0%pin_4_5" ,ERR
+print"391/1279"
+compile"analog/p20_s1%grn" ,ERR
+print"392/1279"
+compile"analog/rn37_s1%pin_4_5" ,ERR
+print"393/1279"
+compile"analog/r392" ,ERR
+print"394/1279"
+compile"analog/p16_s1%grn" ,ERR
+print"395/1279"
+compile"analog/c2_6" ,ERR
+print"396/1279"
+compile"analog/rn102_s0%pin_2_7" ,ERR
+print"397/1279"
+compile"analog/p1_q1%yel" ,ERR
+print"398/1279"
+compile"analog/r206" ,ERR
+print"399/1279"
+compile"analog/rn59_s1%pin_2_7" ,ERR
+print"400/1279"
+compile"analog/c5_6" ,ERR
+print"401/1279"
+compile"analog/r464" ,ERR
+print"402/1279"
+compile"analog/rn103_s1%pin_4_5" ,ERR
+print"403/1279"
+compile"analog/rn108_s0%pin_2_7" ,ERR
+print"404/1279"
+compile"analog/r712" ,ERR
+print"405/1279"
+compile"analog/rn2_q1%pin_3_6" ,ERR
+print"406/1279"
+compile"analog/rn35_s0%pin_1_8" ,ERR
+print"407/1279"
+compile"analog/rn56_s1%pin_3_6" ,ERR
+print"408/1279"
+compile"analog/cr25%red" ,ERR
+print"409/1279"
+compile"analog/r32" ,ERR
+print"410/1279"
+compile"analog/r754" ,ERR
+print"411/1279"
+compile"analog/r1203" ,ERR
+print"412/1279"
+compile"analog/r1951" ,ERR
+print"413/1279"
+compile"analog/rn93_s0%pin_2_7" ,ERR
+print"414/1279"
+compile"analog/r2_pm" ,ERR
+print"415/1279"
+compile"analog/r194" ,ERR
+print"416/1279"
+compile"analog/rn55_s1%pin_3_6" ,ERR
+print"417/1279"
+compile"analog/rn36_s1%pin_3_6" ,ERR
+print"418/1279"
+compile"analog/r24_5" ,ERR
+print"419/1279"
+compile"analog/c04_rtv2" ,ERR
+print"420/1279"
+compile"analog/p11_s0%grn" ,ERR
+print"421/1279"
+compile"analog/r31" ,ERR
+print"422/1279"
+compile"analog/rn60_s1%pin_2_7" ,ERR
+print"423/1279"
+compile"analog/rn104_s0%pin_4_5" ,ERR
+print"424/1279"
+compile"analog/rn80_s0%pin_3_6" ,ERR
+print"425/1279"
+compile"analog/p1_q0%yel" ,ERR
+print"426/1279"
+compile"analog/rn111_s1%pin_1_8" ,ERR
+print"427/1279"
+compile"analog/r63" ,ERR
+print"428/1279"
+compile"analog/r45" ,ERR
+print"429/1279"
+compile"analog/p5_s1%grn" ,ERR
+print"430/1279"
+compile"analog/p9_s1%grn" ,ERR
+print"431/1279"
+compile"analog/rn89_s0%pin_3_6" ,ERR
+print"432/1279"
+compile"analog/rn49_s0%pin_3_6" ,ERR
+print"433/1279"
+compile"analog/rn89_s1%pin_1_8" ,ERR
+print"434/1279"
+compile"analog/c13_98_5" ,ERR
+print"435/1279"
+compile"analog/c181" ,ERR
+print"436/1279"
+compile"analog/r13_rt3_4" ,ERR
+print"437/1279"
+compile"analog/r608" ,ERR
+print"438/1279"
+compile"analog/cr2%grn" ,ERR
+print"439/1279"
+compile"analog/r1_sf1" ,ERR
+print"440/1279"
+compile"analog/rn31_s0%pin_1_8" ,ERR
+print"441/1279"
+compile"analog/r945" ,ERR
+print"442/1279"
+compile"analog/rn109_s0%pin_1_8" ,ERR
+print"443/1279"
+compile"analog/p19_s0%grn" ,ERR
+print"444/1279"
+compile"analog/r114" ,ERR
+print"445/1279"
+compile"analog/rn79_s1%pin_2_7" ,ERR
+print"446/1279"
+compile"analog/r3_rt9" ,ERR
+print"447/1279"
+compile"analog/cr33%red" ,ERR
+print"448/1279"
+compile"analog/rn59_s0%pin_4_5" ,ERR
+print"449/1279"
+compile"analog/r1952" ,ERR
+print"450/1279"
+compile"analog/r8_s0" ,ERR
+print"451/1279"
+compile"analog/rn43_s1%pin_1_8" ,ERR
+print"452/1279"
+compile"analog/rn69_s0%pin_4_5" ,ERR
+print"453/1279"
+compile"analog/r535" ,ERR
+print"454/1279"
+compile"analog/rn68_s1%pin_4_5" ,ERR
+print"455/1279"
+compile"analog/r243" ,ERR
+print"456/1279"
+compile"analog/r13_rt5_6" ,ERR
+print"457/1279"
+compile"analog/r6_q2" ,ERR
+print"458/1279"
+compile"analog/c06_98_5" ,ERR
+print"459/1279"
+compile"analog/r126" ,ERR
+print"460/1279"
+compile"analog/r61" ,ERR
+print"461/1279"
+compile"analog/cr1_q0%cr" ,ERR
+print"462/1279"
+compile"analog/rn64_s1%pin_2_7" ,ERR
+print"463/1279"
+compile"analog/r32_s0" ,ERR
+print"464/1279"
+compile"analog/r30_s0" ,ERR
+print"465/1279"
+compile"analog/rn1_q2%pin_2_7" ,ERR
+print"466/1279"
+compile"analog/r496" ,ERR
+print"467/1279"
+compile"analog/p1_s1%grn" ,ERR
+print"468/1279"
+compile"analog/r77" ,ERR
+print"469/1279"
+compile"analog/rn59_s1%pin_4_5" ,ERR
+print"470/1279"
+compile"analog/r1101" ,ERR
+print"471/1279"
+compile"analog/r254" ,ERR
+print"472/1279"
+compile"analog/rn109_s1%pin_1_8" ,ERR
+print"473/1279"
+compile"analog/r1133" ,ERR
+print"474/1279"
+compile"analog/r201_pm" ,ERR
+print"475/1279"
+compile"analog/rn107_s1%pin_2_7" ,ERR
+print"476/1279"
+compile"analog/rn102_s0%pin_1_8" ,ERR
+print"477/1279"
+compile"analog/c408" ,ERR
+print"478/1279"
+compile"analog/rn111_s1%pin_3_6" ,ERR
+print"479/1279"
+compile"analog/p19_s0%yel" ,ERR
+print"480/1279"
+compile"analog/rn67_s0%pin_4_5" ,ERR
+print"481/1279"
+compile"analog/r19" ,ERR
+print"482/1279"
+compile"analog/r97" ,ERR
+print"483/1279"
+compile"analog/rn100_s1%pin_4_5" ,ERR
+print"484/1279"
+compile"analog/p16_s1%yel" ,ERR
+print"485/1279"
+compile"analog/r74" ,ERR
+print"486/1279"
+compile"analog/r548" ,ERR
+print"487/1279"
+compile"analog/c30" ,ERR
+print"488/1279"
+compile"analog/p15_s0%yel" ,ERR
+print"489/1279"
+compile"analog/r55_3" ,ERR
+print"490/1279"
+compile"analog/r53_3" ,ERR
+print"491/1279"
+compile"analog/r72" ,ERR
+print"492/1279"
+compile"analog/r5_q2" ,ERR
+print"493/1279"
+compile"analog/r689" ,ERR
+print"494/1279"
+compile"analog/cr6%red" ,ERR
+print"495/1279"
+compile"analog/r539" ,ERR
+print"496/1279"
+compile"analog/rn36_s0%pin_1_8" ,ERR
+print"497/1279"
+compile"analog/p6_s0%yel" ,ERR
+print"498/1279"
+compile"analog/rn64_s1%pin_4_5" ,ERR
+print"499/1279"
+compile"analog/r115" ,ERR
+print"500/1279"
+compile"analog/cr3%cr" ,ERR
+print"501/1279"
+compile"analog/rn104_s1%pin_2_7" ,ERR
+print"502/1279"
+compile"analog/r60" ,ERR
+print"503/1279"
+compile"analog/r28_s1" ,ERR
+print"504/1279"
+compile"analog/r658" ,ERR
+print"505/1279"
+compile"analog/p22_s0%grn" ,ERR
+print"506/1279"
+compile"analog/rn31_s0%pin_4_5" ,ERR
+print"507/1279"
+compile"analog/rn97_s1%pin_4_5" ,ERR
+print"508/1279"
+compile"analog/rn63_s0%pin_2_7" ,ERR
+print"509/1279"
+compile"analog/r44" ,ERR
+print"510/1279"
+compile"analog/cr32%red" ,ERR
+print"511/1279"
+compile"analog/r160" ,ERR
+print"512/1279"
+compile"analog/c3_a" ,ERR
+print"513/1279"
+compile"analog/r25_5" ,ERR
+print"514/1279"
+compile"analog/p19_s1%yel" ,ERR
+print"515/1279"
+compile"analog/r49" ,ERR
+print"516/1279"
+compile"analog/r577" ,ERR
+print"517/1279"
+compile"analog/r195" ,ERR
+print"518/1279"
+compile"analog/p22_s1%grn" ,ERR
+print"519/1279"
+compile"analog/rn49_s0%pin_1_8" ,ERR
+print"520/1279"
+compile"analog/r1142" ,ERR
+print"521/1279"
+compile"analog/rn61_s1%pin_4_5" ,ERR
+print"522/1279"
+compile"analog/c2_a" ,ERR
+print"523/1279"
+compile"analog/c1815" ,ERR
+print"524/1279"
+compile"analog/r156" ,ERR
+print"525/1279"
+compile"analog/rn48_s0%pin_3_6" ,ERR
+print"526/1279"
+compile"analog/r300" ,ERR
+print"527/1279"
+compile"analog/r12_3" ,ERR
+print"528/1279"
+compile"analog/r377" ,ERR
+print"529/1279"
+compile"analog/rn102_s0%pin_4_5" ,ERR
+print"530/1279"
+compile"analog/rn107_s0%pin_3_6" ,ERR
+print"531/1279"
+compile"analog/c10_rtv1" ,ERR
+print"532/1279"
+compile"analog/c90_rt1_2" ,ERR
+print"533/1279"
+compile"analog/r32_3" ,ERR
+print"534/1279"
+compile"analog/r34_3" ,ERR
+print"535/1279"
+compile"analog/r778" ,ERR
+print"536/1279"
+compile"analog/rn1%pin_3_6" ,ERR
+print"537/1279"
+compile"analog/r37_3" ,ERR
+print"538/1279"
+compile"analog/rn69_s1%pin_3_6" ,ERR
+print"539/1279"
+compile"analog/rn102_s1%pin_4_5" ,ERR
+print"540/1279"
+compile"analog/rn53_s0%pin_3_6" ,ERR
+print"541/1279"
+compile"analog/rn54_s0%pin_3_6" ,ERR
+print"542/1279"
+compile"analog/r524" ,ERR
+print"543/1279"
+compile"analog/rn63_s1%pin_1_8" ,ERR
+print"544/1279"
+compile"analog/rn32_s0%pin_2_7" ,ERR
+print"545/1279"
+compile"analog/r557" ,ERR
+print"546/1279"
+compile"analog/r22_rtv2" ,ERR
+print"547/1279"
+compile"analog/r541" ,ERR
+print"548/1279"
+compile"analog/rn65_s0%pin_2_7" ,ERR
+print"549/1279"
+compile"analog/r540" ,ERR
+print"550/1279"
+compile"analog/p21_s0%yel" ,ERR
+print"551/1279"
+compile"analog/p19_s1%grn" ,ERR
+print"552/1279"
+compile"analog/rn102_s1%pin_2_7" ,ERR
+print"553/1279"
+compile"analog/p18_s1%grn" ,ERR
+print"554/1279"
+compile"analog/p12_s0%grn" ,ERR
+print"555/1279"
+compile"analog/rn35_s1%pin_4_5" ,ERR
+print"556/1279"
+compile"analog/r190" ,ERR
+print"557/1279"
+compile"analog/rn3_q0%pin_3_6" ,ERR
+print"558/1279"
+compile"analog/r606" ,ERR
+print"559/1279"
+compile"analog/rn3_q1%pin_3_6" ,ERR
+print"560/1279"
+compile"analog/rn36_s1%pin_4_5" ,ERR
+print"561/1279"
+compile"analog/rn44_s1%pin_2_7" ,ERR
+print"562/1279"
+compile"analog/r1151" ,ERR
+print"563/1279"
+compile"analog/rn94_s1%pin_4_5" ,ERR
+print"564/1279"
+compile"analog/p15_s0%grn" ,ERR
+print"565/1279"
+compile"analog/r1706" ,ERR
+print"566/1279"
+compile"analog/r45_3" ,ERR
+print"567/1279"
+compile"analog/r589" ,ERR
+print"568/1279"
+compile"analog/rn45_s0%pin_3_6" ,ERR
+print"569/1279"
+compile"analog/rn94_s1%pin_3_6" ,ERR
+print"570/1279"
+compile"analog/rn47_s1%pin_2_7" ,ERR
+print"571/1279"
+compile"analog/rn96_s0%pin_1_8" ,ERR
+print"572/1279"
+compile"analog/rn41_s0%pin_4_5" ,ERR
+print"573/1279"
+compile"analog/r16_a" ,ERR
+print"574/1279"
+compile"analog/p16_s0%grn" ,ERR
+print"575/1279"
+compile"analog/r690" ,ERR
+print"576/1279"
+compile"analog/c175" ,ERR
+print"577/1279"
+compile"analog/rn80_s1%pin_3_6" ,ERR
+print"578/1279"
+compile"analog/rn63_s1%pin_4_5" ,ERR
+print"579/1279"
+compile"analog/rn41_s1%pin_2_7" ,ERR
+print"580/1279"
+compile"analog/p3_s1%grn" ,ERR
+print"581/1279"
+compile"analog/r687" ,ERR
+print"582/1279"
+compile"analog/c23_a" ,ERR
+print"583/1279"
+compile"analog/c03_rtv1" ,ERR
+print"584/1279"
+compile"analog/c04_5" ,ERR
+print"585/1279"
+compile"analog/r2427" ,ERR
+print"586/1279"
+compile"analog/r450" ,ERR
+print"587/1279"
+compile"analog/r48" ,ERR
+print"588/1279"
+compile"analog/r691" ,ERR
+print"589/1279"
+compile"analog/rn65_s0%pin_3_6" ,ERR
+print"590/1279"
+compile"analog/rn67_s1%pin_1_8" ,ERR
+print"591/1279"
+compile"analog/cr28%red" ,ERR
+print"592/1279"
+compile"analog/c10_sf1" ,ERR
+print"593/1279"
+compile"analog/rn89_s1%pin_2_7" ,ERR
+print"594/1279"
+compile"analog/r614" ,ERR
+print"595/1279"
+compile"analog/r1099" ,ERR
+print"596/1279"
+compile"analog/r157" ,ERR
+print"597/1279"
+compile"analog/rn47_s1%pin_3_6" ,ERR
+print"598/1279"
+compile"analog/rn48_s1%pin_3_6" ,ERR
+print"599/1279"
+compile"analog/r159" ,ERR
+print"600/1279"
+compile"analog/rn32_s0%pin_4_5" ,ERR
+print"601/1279"
+compile"analog/rn2_q0%pin_2_7" ,ERR
+print"602/1279"
+compile"analog/p2_q2%grn" ,ERR
+print"603/1279"
+compile"analog/p7_s0%grn" ,ERR
+print"604/1279"
+compile"analog/r412" ,ERR
+print"605/1279"
+compile"analog/p5v%grn" ,ERR
+print"606/1279"
+compile"analog/rn99_s0%pin_1_8" ,ERR
+print"607/1279"
+compile"analog/p0_s1%yel" ,ERR
+print"608/1279"
+compile"analog/p1_q2%yel" ,ERR
+print"609/1279"
+compile"analog/r166" ,ERR
+print"610/1279"
+compile"analog/rn44_s1%pin_4_5" ,ERR
+print"611/1279"
+compile"analog/rn69_s1%pin_2_7" ,ERR
+print"612/1279"
+compile"analog/r6_s1" ,ERR
+print"613/1279"
+compile"analog/rn51_s1%pin_2_7" ,ERR
+print"614/1279"
+compile"analog/r14_rt5_6" ,ERR
+print"615/1279"
+compile"analog/rn49_s1%pin_2_7" ,ERR
+print"616/1279"
+compile"analog/r8_q0" ,ERR
+print"617/1279"
+compile"analog/rn1%pin_4_5" ,ERR
+print"618/1279"
+compile"analog/r1077" ,ERR
+print"619/1279"
+compile"analog/r25_rtv2" ,ERR
+print"620/1279"
+compile"analog/rn1_q2%pin_1_8" ,ERR
+print"621/1279"
+compile"analog/r398" ,ERR
+print"622/1279"
+compile"analog/r295" ,ERR
+print"623/1279"
+compile"analog/r112" ,ERR
+print"624/1279"
+compile"analog/r742" ,ERR
+print"625/1279"
+compile"analog/r44_3" ,ERR
+print"626/1279"
+compile"analog/p13_s0%yel" ,ERR
+print"627/1279"
+compile"analog/p13_s0%grn" ,ERR
+print"628/1279"
+compile"analog/r52_s0" ,ERR
+print"629/1279"
+compile"analog/r1324" ,ERR
+print"630/1279"
+compile"analog/cr1_q2%cr" ,ERR
+print"631/1279"
+compile"analog/r100" ,ERR
+print"632/1279"
+compile"analog/r16_rt1_2" ,ERR
+print"633/1279"
+compile"analog/rn104_s0%pin_3_6" ,ERR
+print"634/1279"
+compile"analog/p17_s1%grn" ,ERR
+print"635/1279"
+compile"analog/p2_s1%grn" ,ERR
+print"636/1279"
+compile"analog/rn3_q2%pin_1_8" ,ERR
+print"637/1279"
+compile"analog/rn92_s0%pin_4_5" ,ERR
+print"638/1279"
+compile"analog/r583" ,ERR
+print"639/1279"
+compile"analog/r13_3" ,ERR
+print"640/1279"
+compile"analog/p12_s0%yel" ,ERR
+print"641/1279"
+compile"analog/rn51_s1%pin_1_8" ,ERR
+print"642/1279"
+compile"analog/r693" ,ERR
+print"643/1279"
+compile"analog/r283" ,ERR
+print"644/1279"
+compile"analog/r710" ,ERR
+print"645/1279"
+compile"analog/r853" ,ERR
+print"646/1279"
+compile"analog/c165" ,ERR
+print"647/1279"
+compile"analog/c1_q0" ,ERR
+print"648/1279"
+compile"analog/c5_a" ,ERR
+print"649/1279"
+compile"analog/rn61_s0%pin_1_8" ,ERR
+print"650/1279"
+compile"analog/rn34_s0%pin_3_6" ,ERR
+print"651/1279"
+compile"analog/r612" ,ERR
+print"652/1279"
+compile"analog/r542" ,ERR
+print"653/1279"
+compile"analog/r8_3" ,ERR
+print"654/1279"
+compile"analog/r607" ,ERR
+print"655/1279"
+compile"analog/rn51_s1%pin_4_5" ,ERR
+print"656/1279"
+compile"analog/r62" ,ERR
+print"657/1279"
+compile"analog/r385_3" ,ERR
+print"658/1279"
+compile"analog/rn89_s0%pin_2_7" ,ERR
+print"659/1279"
+compile"analog/r14_rt3_4" ,ERR
+print"660/1279"
+compile"analog/rn3_q2%pin_4_5" ,ERR
+print"661/1279"
+compile"analog/p1_q1%grn" ,ERR
+print"662/1279"
+compile"analog/p15_s1%grn" ,ERR
+print"663/1279"
+compile"analog/c04_rtv1" ,ERR
+print"664/1279"
+compile"analog/rn45_s1%pin_2_7" ,ERR
+print"665/1279"
+compile"analog/rn58_s0%pin_1_8" ,ERR
+print"666/1279"
+compile"analog/r16_s1" ,ERR
+print"667/1279"
+compile"analog/rn54_s1%pin_2_7" ,ERR
+print"668/1279"
+compile"analog/r657" ,ERR
+print"669/1279"
+compile"analog/r546" ,ERR
+print"670/1279"
+compile"analog/p5_s0%yel" ,ERR
+print"671/1279"
+compile"analog/rn32_s0%pin_3_6" ,ERR
+print"672/1279"
+compile"analog/rn68_s0%pin_3_6" ,ERR
+print"673/1279"
+compile"analog/r768" ,ERR
+print"674/1279"
+compile"analog/rn2_q2%pin_3_6" ,ERR
+print"675/1279"
+compile"analog/rn97_s0%pin_4_5" ,ERR
+print"676/1279"
+compile"analog/r731" ,ERR
+print"677/1279"
+compile"analog/rn1_q2%pin_3_6" ,ERR
+print"678/1279"
+compile"analog/rn34_s0%pin_2_7" ,ERR
+print"679/1279"
+compile"analog/r14_rt7_8" ,ERR
+print"680/1279"
+compile"analog/r1028" ,ERR
+print"681/1279"
+compile"analog/rn35_s1%pin_1_8" ,ERR
+print"682/1279"
+compile"analog/r60_3" ,ERR
+print"683/1279"
+compile"analog/rn80_s0%pin_4_5" ,ERR
+print"684/1279"
+compile"analog/r140" ,ERR
+print"685/1279"
+compile"analog/rn50_s1%pin_1_8" ,ERR
+print"686/1279"
+compile"analog/rn35_s1%pin_2_7" ,ERR
+print"687/1279"
+compile"analog/r16_s0" ,ERR
+print"688/1279"
+compile"analog/rn52_s1%pin_1_8" ,ERR
+print"689/1279"
+compile"analog/rn62_s1%pin_2_7" ,ERR
+print"690/1279"
+compile"analog/r18_s0" ,ERR
+print"691/1279"
+compile"analog/r42_3" ,ERR
+print"692/1279"
+compile"analog/p5_s1%yel" ,ERR
+print"693/1279"
+compile"analog/rn48_s0%pin_2_7" ,ERR
+print"694/1279"
+compile"analog/rn48_s1%pin_1_8" ,ERR
+print"695/1279"
+compile"analog/c06_91_rtv2" ,ERR
+print"696/1279"
+compile"analog/p14_s1%grn" ,ERR
+print"697/1279"
+compile"analog/r174_pm" ,ERR
+print"698/1279"
+compile"analog/cr13%red" ,ERR
+print"699/1279"
+compile"analog/p5_s0%grn" ,ERR
+print"700/1279"
+compile"analog/p11_s1%yel" ,ERR
+print"701/1279"
+compile"analog/r262" ,ERR
+print"702/1279"
+compile"analog/r21_rtv1" ,ERR
+print"703/1279"
+compile"analog/cr19%red" ,ERR
+print"704/1279"
+compile"analog/c182" ,ERR
+print"705/1279"
+compile"analog/p1_s0%yel" ,ERR
+print"706/1279"
+compile"analog/rn1_q1%pin_2_7" ,ERR
+print"707/1279"
+compile"analog/cr8%cr" ,ERR
+print"708/1279"
+compile"analog/r1154" ,ERR
+print"709/1279"
+compile"analog/rn52_s1%pin_4_5" ,ERR
+print"710/1279"
+compile"analog/r667" ,ERR
+print"711/1279"
+compile"analog/rn2_q0%pin_1_8" ,ERR
+print"712/1279"
+compile"analog/rn47_s0%pin_1_8" ,ERR
+print"713/1279"
+compile"analog/rn100_s1%pin_2_7" ,ERR
+print"714/1279"
+compile"analog/p22_s0%yel" ,ERR
+print"715/1279"
+compile"analog/r107" ,ERR
+print"716/1279"
+compile"analog/r679" ,ERR
+print"717/1279"
+compile"analog/rn38_s1%pin_1_8" ,ERR
+print"718/1279"
+compile"analog/rn58_s1%pin_2_7" ,ERR
+print"719/1279"
+compile"analog/r617" ,ERR
+print"720/1279"
+compile"analog/rn54_s0%pin_2_7" ,ERR
+print"721/1279"
+compile"analog/c189_3v3" ,ERR
+print"722/1279"
+compile"analog/rn102_s0%pin_3_6" ,ERR
+print"723/1279"
+compile"analog/r36_s1" ,ERR
+print"724/1279"
+compile"analog/r10_s1" ,ERR
+print"725/1279"
+compile"analog/r8_q1" ,ERR
+print"726/1279"
+compile"analog/r624" ,ERR
+print"727/1279"
+compile"analog/r135" ,ERR
+print"728/1279"
+compile"analog/r414" ,ERR
+print"729/1279"
+compile"analog/r29_rtv2" ,ERR
+print"730/1279"
+compile"analog/rn93_s0%pin_4_5" ,ERR
+print"731/1279"
+compile"analog/r566" ,ERR
+print"732/1279"
+compile"analog/rn63_s1%pin_2_7" ,ERR
+print"733/1279"
+compile"analog/p12v%grn" ,ERR
+print"734/1279"
+compile"analog/c05_5" ,ERR
+print"735/1279"
+compile"analog/r9_3" ,ERR
+print"736/1279"
+compile"analog/p12_s1%yel" ,ERR
+print"737/1279"
+compile"analog/p23_s0%grn" ,ERR
+print"738/1279"
+compile"analog/r355" ,ERR
+print"739/1279"
+compile"analog/c6_sf0" ,ERR
+print"740/1279"
+compile"analog/rn38_s0%pin_1_8" ,ERR
+print"741/1279"
+compile"analog/rn53_s1%pin_1_8" ,ERR
+print"742/1279"
+compile"analog/r8_q2" ,ERR
+print"743/1279"
+compile"analog/r7_a" ,ERR
+print"744/1279"
+compile"analog/rn111_s1%pin_2_7" ,ERR
+print"745/1279"
+compile"analog/rn80_s0%pin_1_8" ,ERR
+print"746/1279"
+compile"analog/rn32_s0%pin_1_8" ,ERR
+print"747/1279"
+compile"analog/r30" ,ERR
+print"748/1279"
+compile"analog/r36_3" ,ERR
+print"749/1279"
+compile"analog/rn94_s0%pin_2_7" ,ERR
+print"750/1279"
+compile"analog/rn60_s0%pin_4_5" ,ERR
+print"751/1279"
+compile"analog/r1422" ,ERR
+print"752/1279"
+compile"analog/rn109_s1%pin_2_7" ,ERR
+print"753/1279"
+compile"analog/r1201" ,ERR
+print"754/1279"
+compile"analog/c2_q0" ,ERR
+print"755/1279"
+compile"analog/p14_s0%grn" ,ERR
+print"756/1279"
+compile"analog/rn111_s0%pin_3_6" ,ERR
+print"757/1279"
+compile"analog/r2_rt1_2" ,ERR
+print"758/1279"
+compile"analog/r659" ,ERR
+print"759/1279"
+compile"analog/r585" ,ERR
+print"760/1279"
+compile"analog/r4_s1" ,ERR
+print"761/1279"
+compile"analog/rn60_s1%pin_4_5" ,ERR
+print"762/1279"
+compile"analog/r545" ,ERR
+print"763/1279"
+compile"analog/rn63_s0%pin_3_6" ,ERR
+print"764/1279"
+compile"analog/rn79_s0%pin_3_6" ,ERR
+print"765/1279"
+compile"analog/c33" ,ERR
+print"766/1279"
+compile"analog/r4_3" ,ERR
+print"767/1279"
+compile"analog/c173" ,ERR
+print"768/1279"
+compile"analog/r50_s0" ,ERR
+print"769/1279"
+compile"analog/rn68_s1%pin_3_6" ,ERR
+print"770/1279"
+compile"analog/r9_rt9" ,ERR
+print"771/1279"
+compile"analog/r322" ,ERR
+print"772/1279"
+compile"analog/rn51_s0%pin_3_6" ,ERR
+print"773/1279"
+compile"analog/c06_98_rtv2" ,ERR
+print"774/1279"
+compile"analog/r327" ,ERR
+print"775/1279"
+compile"analog/r699" ,ERR
+print"776/1279"
+compile"analog/r395" ,ERR
+print"777/1279"
+compile"analog/rn53_s1%pin_3_6" ,ERR
+print"778/1279"
+compile"analog/rn58_s1%pin_1_8" ,ERR
+print"779/1279"
+compile"analog/r347" ,ERR
+print"780/1279"
+compile"analog/rn93_s0%pin_3_6" ,ERR
+print"781/1279"
+compile"analog/r11_3" ,ERR
+print"782/1279"
+compile"analog/r234" ,ERR
+print"783/1279"
+compile"analog/r378" ,ERR
+print"784/1279"
+compile"analog/r700" ,ERR
+print"785/1279"
+compile"analog/p0_s0%yel" ,ERR
+print"786/1279"
+compile"analog/r129" ,ERR
+print"787/1279"
+compile"analog/c177" ,ERR
+print"788/1279"
+compile"analog/r47" ,ERR
+print"789/1279"
+compile"analog/r1007" ,ERR
+print"790/1279"
+compile"analog/rn37_s1%pin_1_8" ,ERR
+print"791/1279"
+compile"analog/r14_s0" ,ERR
+print"792/1279"
+compile"analog/rn67_s0%pin_2_7" ,ERR
+print"793/1279"
+compile"analog/rn97_s0%pin_2_7" ,ERR
+print"794/1279"
+compile"analog/p14_s1%yel" ,ERR
+print"795/1279"
+compile"analog/r14_s1" ,ERR
+print"796/1279"
+compile"analog/rn51_s0%pin_1_8" ,ERR
+print"797/1279"
+compile"analog/r8_a" ,ERR
+print"798/1279"
+compile"analog/r391" ,ERR
+print"799/1279"
+compile"analog/cr10%red" ,ERR
+print"800/1279"
+compile"analog/r3_rt5_6" ,ERR
+print"801/1279"
+compile"analog/c1816" ,ERR
+print"802/1279"
+compile"analog/rn56_s0%pin_1_8" ,ERR
+print"803/1279"
+compile"analog/rn45_s0%pin_2_7" ,ERR
+print"804/1279"
+compile"analog/p21_s1%grn" ,ERR
+print"805/1279"
+compile"analog/c8_6" ,ERR
+print"806/1279"
+compile"analog/r692" ,ERR
+print"807/1279"
+compile"analog/rn56_s0%pin_3_6" ,ERR
+print"808/1279"
+compile"analog/c8_q1" ,ERR
+print"809/1279"
+compile"analog/r294" ,ERR
+print"810/1279"
+compile"analog/rn64_s1%pin_3_6" ,ERR
+print"811/1279"
+compile"analog/r189" ,ERR
+print"812/1279"
+compile"analog/rn59_s1%pin_3_6" ,ERR
+print"813/1279"
+compile"analog/rn79_s1%pin_3_6" ,ERR
+print"814/1279"
+compile"analog/rn35_s0%pin_3_6" ,ERR
+print"815/1279"
+compile"analog/cr22%red" ,ERR
+print"816/1279"
+compile"analog/p9_s1%yel" ,ERR
+print"817/1279"
+compile"analog/r2_rt7_8" ,ERR
+print"818/1279"
+compile"analog/rn48_s0%pin_4_5" ,ERR
+print"819/1279"
+compile"analog/cr9%cr" ,ERR
+print"820/1279"
+compile"analog/r216" ,ERR
+print"821/1279"
+compile"analog/r22_s0" ,ERR
+print"822/1279"
+compile"analog/r23_3" ,ERR
+print"823/1279"
+compile"analog/r944" ,ERR
+print"824/1279"
+compile"analog/p12_s1%grn" ,ERR
+print"825/1279"
+compile"analog/r15_pm" ,ERR
+print"826/1279"
+compile"analog/r875_5v" ,ERR
+print"827/1279"
+compile"analog/r25_rtv1" ,ERR
+print"828/1279"
+compile"analog/c3061" ,ERR
+print"829/1279"
+compile"analog/rn107_s1%pin_1_8" ,ERR
+print"830/1279"
+compile"analog/r324" ,ERR
+print"831/1279"
+compile"analog/r399" ,ERR
+print"832/1279"
+compile"analog/r38" ,ERR
+print"833/1279"
+compile"analog/rn94_s1%pin_2_7" ,ERR
+print"834/1279"
+compile"analog/p13_s1%grn" ,ERR
+print"835/1279"
+compile"analog/r34_s1" ,ERR
+print"836/1279"
+compile"analog/r463" ,ERR
+print"837/1279"
+compile"analog/p13_s1%yel" ,ERR
+print"838/1279"
+compile"analog/c06_91_rtv1" ,ERR
+print"839/1279"
+compile"analog/rn59_s1%pin_1_8" ,ERR
+print"840/1279"
+compile"analog/rn57_s0%pin_2_7" ,ERR
+print"841/1279"
+compile"analog/c2868" ,ERR
+print"842/1279"
+compile"analog/rn59_s0%pin_2_7" ,ERR
+print"843/1279"
+compile"analog/rn103_s0%pin_4_5" ,ERR
+print"844/1279"
+compile"analog/c13_98_rtv1" ,ERR
+print"845/1279"
+compile"analog/c10_sf0" ,ERR
+print"846/1279"
+compile"analog/r1148" ,ERR
+print"847/1279"
+compile"analog/rn38_s1%pin_2_7" ,ERR
+print"848/1279"
+compile"analog/r387" ,ERR
+print"849/1279"
+compile"analog/rn64_s0%pin_4_5" ,ERR
+print"850/1279"
+compile"analog/r326" ,ERR
+print"851/1279"
+compile"analog/r10_3" ,ERR
+print"852/1279"
+compile"analog/rn69_s1%pin_4_5" ,ERR
+print"853/1279"
+compile"analog/rn96_s1%pin_2_7" ,ERR
+print"854/1279"
+compile"analog/r10_5" ,ERR
+print"855/1279"
+compile"analog/rn104_s1%pin_3_6" ,ERR
+print"856/1279"
+compile"analog/r14_a" ,ERR
+print"857/1279"
+compile"analog/p23_s0%yel" ,ERR
+print"858/1279"
+compile"analog/r105" ,ERR
+print"859/1279"
+compile"analog/r22_3" ,ERR
+print"860/1279"
+compile"analog/r600" ,ERR
+print"861/1279"
+compile"analog/r12_a" ,ERR
+print"862/1279"
+compile"analog/r274" ,ERR
+print"863/1279"
+compile"analog/r921" ,ERR
+print"864/1279"
+compile"analog/c1_q1" ,ERR
+print"865/1279"
+compile"analog/rn107_s1%pin_3_6" ,ERR
+print"866/1279"
+compile"analog/r22_rtv1" ,ERR
+print"867/1279"
+compile"analog/rn108_s1%pin_1_8" ,ERR
+print"868/1279"
+compile"analog/r191" ,ERR
+print"869/1279"
+compile"analog/rn31_s0%pin_3_6" ,ERR
+print"870/1279"
+compile"analog/r433" ,ERR
+print"871/1279"
+compile"analog/r23_5" ,ERR
+print"872/1279"
+compile"analog/r205" ,ERR
+print"873/1279"
+compile"analog/rn92_s1%pin_2_7" ,ERR
+print"874/1279"
+compile"analog/r477" ,ERR
+print"875/1279"
+compile"analog/r1768" ,ERR
+print"876/1279"
+compile"analog/p4_s1%grn" ,ERR
+print"877/1279"
+compile"analog/c529" ,ERR
+print"878/1279"
+compile"analog/r748" ,ERR
+print"879/1279"
+compile"analog/rn47_s0%pin_4_5" ,ERR
+print"880/1279"
+compile"analog/rn49_s1%pin_1_8" ,ERR
+print"881/1279"
+compile"analog/c9_6" ,ERR
+print"882/1279"
+compile"analog/rn42_s1%pin_3_6" ,ERR
+print"883/1279"
+compile"analog/r596" ,ERR
+print"884/1279"
+compile"analog/c7_a" ,ERR
+print"885/1279"
+compile"analog/rn2_q0%pin_4_5" ,ERR
+print"886/1279"
+compile"analog/cr18%red" ,ERR
+print"887/1279"
+compile"analog/rn57_s0%pin_4_5" ,ERR
+print"888/1279"
+compile"analog/r495" ,ERR
+print"889/1279"
+compile"analog/r232" ,ERR
+print"890/1279"
+compile"analog/cr14%red" ,ERR
+print"891/1279"
+compile"analog/r1_sf0" ,ERR
+print"892/1279"
+compile"analog/c06_5" ,ERR
+print"893/1279"
+compile"analog/r28" ,ERR
+print"894/1279"
+compile"analog/rn103_s1%pin_3_6" ,ERR
+print"895/1279"
+compile"analog/r33_3" ,ERR
+print"896/1279"
+compile"analog/c06_95_5" ,ERR
+print"897/1279"
+compile"analog/r4_6" ,ERR
+print"898/1279"
+compile"analog/p22_s1%yel" ,ERR
+print"899/1279"
+compile"analog/r290" ,ERR
+print"900/1279"
+compile"analog/rn66_s1%pin_2_7" ,ERR
+print"901/1279"
+compile"analog/r1021" ,ERR
+print"902/1279"
+compile"analog/r711" ,ERR
+print"903/1279"
+compile"analog/rn58_s1%pin_3_6" ,ERR
+print"904/1279"
+compile"analog/r102" ,ERR
+print"905/1279"
+compile"analog/r40_3" ,ERR
+print"906/1279"
+compile"analog/rn97_s1%pin_3_6" ,ERR
+print"907/1279"
+compile"analog/c03_rtv2" ,ERR
+print"908/1279"
+compile"analog/r36_s0" ,ERR
+print"909/1279"
+compile"analog/r779" ,ERR
+print"910/1279"
+compile"analog/r388" ,ERR
+print"911/1279"
+compile"analog/r14_rt1_2" ,ERR
+print"912/1279"
+compile"analog/r24_rtv2" ,ERR
+print"913/1279"
+compile"analog/r155" ,ERR
+print"914/1279"
+compile"analog/rn104_s0%pin_1_8" ,ERR
+print"915/1279"
+compile"analog/r3_3" ,ERR
+print"916/1279"
+compile"analog/r192" ,ERR
+print"917/1279"
+compile"analog/rn92_s0%pin_1_8" ,ERR
+print"918/1279"
+compile"analog/r47_3" ,ERR
+print"919/1279"
+compile"analog/r705" ,ERR
+print"920/1279"
+compile"analog/r1665" ,ERR
+print"921/1279"
+compile"analog/r76" ,ERR
+print"922/1279"
+compile"analog/rn104_s0%pin_2_7" ,ERR
+print"923/1279"
+compile"analog/r564" ,ERR
+print"924/1279"
+compile"analog/rn34_s0%pin_1_8" ,ERR
+print"925/1279"
+compile"analog/rn53_s0%pin_2_7" ,ERR
+print"926/1279"
+compile"analog/r3_rt7_8" ,ERR
+print"927/1279"
+compile"analog/r1202" ,ERR
+print"928/1279"
+compile"analog/rn1_q2%pin_4_5" ,ERR
+print"929/1279"
+compile"analog/r1_1v2s" ,ERR
+print"930/1279"
+compile"analog/r09_rtv2" ,ERR
+print"931/1279"
+compile"analog/rn62_s0%pin_1_8" ,ERR
+print"932/1279"
+compile"analog/rn92_s1%pin_4_5" ,ERR
+print"933/1279"
+compile"analog/r346" ,ERR
+print"934/1279"
+compile"analog/r296" ,ERR
+print"935/1279"
+compile"analog/r1_a" ,ERR
+print"936/1279"
+compile"analog/r562" ,ERR
+print"937/1279"
+compile"analog/rn50_s1%pin_4_5" ,ERR
+print"938/1279"
+compile"analog/rn67_s0%pin_3_6" ,ERR
+print"939/1279"
+compile"analog/r602" ,ERR
+print"940/1279"
+compile"analog/rn37_s0%pin_1_8" ,ERR
+print"941/1279"
+compile"analog/p18_s0%grn" ,ERR
+print"942/1279"
+compile"analog/r75" ,ERR
+print"943/1279"
+compile"analog/rn54_s1%pin_4_5" ,ERR
+print"944/1279"
+compile"analog/c09_5" ,ERR
+print"945/1279"
+compile"analog/rn103_s0%pin_3_6" ,ERR
+print"946/1279"
+compile"analog/c03_5" ,ERR
+print"947/1279"
+compile"analog/rn43_s1%pin_4_5" ,ERR
+print"948/1279"
+compile"analog/p4_s1%yel" ,ERR
+print"949/1279"
+compile"analog/r2_rt5_6" ,ERR
+print"950/1279"
+compile"analog/r144" ,ERR
+print"951/1279"
+compile"analog/r64" ,ERR
+print"952/1279"
+compile"analog/p10_s0%grn" ,ERR
+print"953/1279"
+compile"analog/r12_s1" ,ERR
+print"954/1279"
+compile"analog/rn65_s1%pin_3_6" ,ERR
+print"955/1279"
+compile"analog/rn2_q1%pin_1_8" ,ERR
+print"956/1279"
+compile"analog/r660" ,ERR
+print"957/1279"
+compile"analog/r62_3" ,ERR
+print"958/1279"
+compile"analog/r616" ,ERR
+print"959/1279"
+compile"analog/r24_s1" ,ERR
+print"960/1279"
+compile"analog/cr30%red" ,ERR
+print"961/1279"
+compile"analog/rn92_s0%pin_2_7" ,ERR
+print"962/1279"
+compile"analog/p6_s0%grn" ,ERR
+print"963/1279"
+compile"analog/r595" ,ERR
+print"964/1279"
+compile"analog/r46_3" ,ERR
+print"965/1279"
+compile"analog/r432" ,ERR
+print"966/1279"
+compile"analog/r15_a" ,ERR
+print"967/1279"
+compile"analog/rn33_s0%pin_4_5" ,ERR
+print"968/1279"
+compile"analog/rn96_s0%pin_2_7" ,ERR
+print"969/1279"
+compile"analog/p15_s1%yel" ,ERR
+print"970/1279"
+compile"analog/rn67_s1%pin_4_5" ,ERR
+print"971/1279"
+compile"analog/r34_s0" ,ERR
+print"972/1279"
+compile"analog/rn99_s1%pin_1_8" ,ERR
+print"973/1279"
+compile"analog/rn33_s0%pin_3_6" ,ERR
+print"974/1279"
+compile"analog/r16_rt7_8" ,ERR
+print"975/1279"
+compile"analog/r4_q0" ,ERR
+print"976/1279"
+compile"analog/rn52_s0%pin_2_7" ,ERR
+print"977/1279"
+compile"analog/rn50_s0%pin_1_8" ,ERR
+print"978/1279"
+compile"analog/rn66_s1%pin_1_8" ,ERR
+print"979/1279"
+compile"analog/r57_3" ,ERR
+print"980/1279"
+compile"analog/rn100_s0%pin_1_8" ,ERR
+print"981/1279"
+compile"analog/r1027" ,ERR
+print"982/1279"
+compile"analog/r615" ,ERR
+print"983/1279"
+compile"analog/rn58_s1%pin_4_5" ,ERR
+print"984/1279"
+compile"analog/rn32_s1%pin_1_8" ,ERR
+print"985/1279"
+compile"analog/p2_q1%yel" ,ERR
+print"986/1279"
+compile"analog/p10_s0%yel" ,ERR
+print"987/1279"
+compile"analog/rn3_q2%pin_2_7" ,ERR
+print"988/1279"
+compile"analog/c18_a" ,ERR
+print"989/1279"
+compile"analog/rn97_s0%pin_1_8" ,ERR
+print"990/1279"
+compile"analog/rn56_s1%pin_4_5" ,ERR
+print"991/1279"
+compile"analog/rn2_q2%pin_4_5" ,ERR
+print"992/1279"
+compile"analog/rn99_s1%pin_2_7" ,ERR
+print"993/1279"
+compile"analog/rn108_s1%pin_2_7" ,ERR
+print"994/1279"
+compile"analog/rn80_s0%pin_2_7" ,ERR
+print"995/1279"
+compile"analog/rn92_s0%pin_3_6" ,ERR
+print"996/1279"
+compile"analog/rn43_s0%pin_2_7" ,ERR
+print"997/1279"
+compile"analog/rn46_s0%pin_3_6" ,ERR
+print"998/1279"
+compile"analog/rn55_s0%pin_1_8" ,ERR
+print"999/1279"
+compile"analog/r30_s1" ,ERR
+print"1000/1279"
+compile"analog/r940" ,ERR
+print"1001/1279"
+compile"analog/r58_3" ,ERR
+print"1002/1279"
+compile"analog/r678" ,ERR
+print"1003/1279"
+compile"analog/r38_s1" ,ERR
+print"1004/1279"
+compile"analog/r5_q1" ,ERR
+print"1005/1279"
+compile"analog/r51" ,ERR
+print"1006/1279"
+compile"analog/r14_3" ,ERR
+print"1007/1279"
+compile"analog/r202_pm" ,ERR
+print"1008/1279"
+compile"analog/r219" ,ERR
+print"1009/1279"
+compile"analog/rn41_s0%pin_2_7" ,ERR
+print"1010/1279"
+compile"analog/rn1_q1%pin_4_5" ,ERR
+print"1011/1279"
+compile"analog/rn96_s1%pin_1_8" ,ERR
+print"1012/1279"
+compile"analog/p1_s0%grn" ,ERR
+print"1013/1279"
+compile"analog/p6_s1%grn" ,ERR
+print"1014/1279"
+compile"analog/r401" ,ERR
+print"1015/1279"
+compile"analog/c6_sf1" ,ERR
+print"1016/1279"
+compile"analog/r8_s1" ,ERR
+print"1017/1279"
+compile"analog/r443" ,ERR
+print"1018/1279"
+compile"analog/r1022" ,ERR
+print"1019/1279"
+compile"analog/r67" ,ERR
+print"1020/1279"
+compile"analog/rn44_s0%pin_3_6" ,ERR
+print"1021/1279"
+compile"analog/c05_rtv2" ,ERR
+print"1022/1279"
+compile"analog/c06_96_5" ,ERR
+print"1023/1279"
+compile"analog/rn65_s0%pin_1_8" ,ERR
+print"1024/1279"
+compile"analog/rn43_s1%pin_2_7" ,ERR
+print"1025/1279"
+compile"analog/rn43_s1%pin_3_6" ,ERR
+print"1026/1279"
+compile"analog/r922" ,ERR
+print"1027/1279"
+compile"analog/rn53_s1%pin_4_5" ,ERR
+print"1028/1279"
+compile"analog/rn68_s0%pin_4_5" ,ERR
+print"1029/1279"
+compile"analog/r664" ,ERR
+print"1030/1279"
+compile"analog/p23_s1%grn" ,ERR
+print"1031/1279"
+compile"analog/r7_3" ,ERR
+print"1032/1279"
+compile"analog/c214_5v" ,ERR
+print"1033/1279"
+compile"analog/c7_q2" ,ERR
+print"1034/1279"
+compile"analog/r54_s0" ,ERR
+print"1035/1279"
+compile"analog/rn104_s1%pin_4_5" ,ERR
+print"1036/1279"
+compile"analog/p7_s1%grn" ,ERR
+print"1037/1279"
+compile"analog/r544" ,ERR
+print"1038/1279"
+compile"analog/rn50_s0%pin_3_6" ,ERR
+print"1039/1279"
+compile"analog/r389" ,ERR
+print"1040/1279"
+compile"analog/r09_rtv1" ,ERR
+print"1041/1279"
+compile"analog/p1_q0%grn" ,ERR
+print"1042/1279"
+compile"analog/rn41_s0%pin_1_8" ,ERR
+print"1043/1279"
+compile"analog/r136" ,ERR
+print"1044/1279"
+compile"analog/r29_5" ,ERR
+print"1045/1279"
+compile"analog/r549" ,ERR
+print"1046/1279"
+compile"analog/rn3_q1%pin_1_8" ,ERR
+print"1047/1279"
+compile"analog/r48_3" ,ERR
+print"1048/1279"
+compile"analog/r16" ,ERR
+print"1049/1279"
+compile"analog/c19_sf1" ,ERR
+print"1050/1279"
+compile"analog/c228_3v3" ,ERR
+print"1051/1279"
+compile"analog/r2428" ,ERR
+print"1052/1279"
+compile"analog/c09_rtv2" ,ERR
+print"1053/1279"
+compile"analog/r297" ,ERR
+print"1054/1279"
+compile"analog/rn92_s1%pin_1_8" ,ERR
+print"1055/1279"
+compile"analog/rn93_s1%pin_2_7" ,ERR
+print"1056/1279"
+compile"analog/r101" ,ERR
+print"1057/1279"
+compile"analog/rn111_s1%pin_4_5" ,ERR
+print"1058/1279"
+compile"analog/c10_1v2s" ,ERR
+print"1059/1279"
+compile"analog/rn108_s0%pin_1_8" ,ERR
+print"1060/1279"
+compile"analog/p8_s0%yel" ,ERR
+print"1061/1279"
+compile"analog/rn41_s1%pin_4_5" ,ERR
+print"1062/1279"
+compile"analog/r56_3" ,ERR
+print"1063/1279"
+compile"analog/rn80_s1%pin_2_7" ,ERR
+print"1064/1279"
+compile"analog/rn102_s1%pin_1_8" ,ERR
+print"1065/1279"
+compile"analog/rn60_s0%pin_2_7" ,ERR
+print"1066/1279"
+compile"analog/r674" ,ERR
+print"1067/1279"
+compile"analog/r22_5" ,ERR
+print"1068/1279"
+compile"analog/r28_s0" ,ERR
+print"1069/1279"
+compile"analog/r40" ,ERR
+print"1070/1279"
+compile"analog/rn46_s1%pin_1_8" ,ERR
+print"1071/1279"
+compile"analog/rn66_s0%pin_4_5" ,ERR
+print"1072/1279"
+compile"analog/rn67_s0%pin_1_8" ,ERR
+print"1073/1279"
+compile"analog/rn109_s0%pin_2_7" ,ERR
+print"1074/1279"
+compile"analog/r717" ,ERR
+print"1075/1279"
+compile"analog/cr31%red" ,ERR
+print"1076/1279"
+compile"analog/rn43_s0%pin_1_8" ,ERR
+print"1077/1279"
+compile"analog/p8_s1%yel" ,ERR
+print"1078/1279"
+compile"analog/rn69_s0%pin_1_8" ,ERR
+print"1079/1279"
+compile"analog/p2_q1%grn" ,ERR
+print"1080/1279"
+compile"analog/r3_rt1_2" ,ERR
+print"1081/1279"
+compile"analog/rn45_s1%pin_3_6" ,ERR
+print"1082/1279"
+compile"analog/rn108_s0%pin_3_6" ,ERR
+print"1083/1279"
+compile"analog/r344" ,ERR
+print"1084/1279"
+compile"analog/r1845" ,ERR
+print"1085/1279"
+compile"analog/r465" ,ERR
+print"1086/1279"
+compile"analog/rn54_s0%pin_1_8" ,ERR
+print"1087/1279"
+compile"analog/rn65_s1%pin_4_5" ,ERR
+print"1088/1279"
+compile"analog/r1153" ,ERR
+print"1089/1279"
+compile"analog/cr7%red" ,ERR
+print"1090/1279"
+compile"analog/r553" ,ERR
+print"1091/1279"
+compile"analog/rn66_s0%pin_2_7" ,ERR
+print"1092/1279"
+compile"analog/c75" ,ERR
+print"1093/1279"
+compile"analog/r665" ,ERR
+print"1094/1279"
+compile"analog/p4_s0%yel" ,ERR
+print"1095/1279"
+compile"analog/r1_6" ,ERR
+print"1096/1279"
+compile"analog/r1223" ,ERR
+print"1097/1279"
+compile"analog/rn79_s1%pin_1_8" ,ERR
+print"1098/1279"
+compile"analog/r454" ,ERR
+print"1099/1279"
+compile"analog/rn37_s0%pin_3_6" ,ERR
+print"1100/1279"
+compile"analog/p20_s0%grn" ,ERR
+print"1101/1279"
+compile"analog/rn62_s1%pin_1_8" ,ERR
+print"1102/1279"
+compile"analog/r306" ,ERR
+print"1103/1279"
+compile"analog/rn42_s0%pin_3_6" ,ERR
+print"1104/1279"
+compile"analog/r620" ,ERR
+print"1105/1279"
+compile"analog/r686" ,ERR
+print"1106/1279"
+compile"analog/r547" ,ERR
+print"1107/1279"
+compile"analog/r1053" ,ERR
+print"1108/1279"
+compile"analog/rn68_s1%pin_1_8" ,ERR
+print"1109/1279"
+compile"analog/rn103_s1%pin_2_7" ,ERR
+print"1110/1279"
+compile"analog/r709" ,ERR
+print"1111/1279"
+compile"analog/r428" ,ERR
+print"1112/1279"
+compile"analog/rn67_s1%pin_3_6" ,ERR
+print"1113/1279"
+compile"analog/r5_q0" ,ERR
+print"1114/1279"
+compile"analog/c13_98_rtv2" ,ERR
+print"1115/1279"
+compile"analog/r43_3" ,ERR
+print"1116/1279"
+compile"analog/rn109_s1%pin_4_5" ,ERR
+print"1117/1279"
+compile"analog/r3_q1" ,ERR
+print"1118/1279"
+compile"analog/r33" ,ERR
+print"1119/1279"
+compile"analog/r24_s0" ,ERR
+print"1120/1279"
+compile"analog/r93" ,ERR
+print"1121/1279"
+compile"analog/cr1_q1%cr" ,ERR
+print"1122/1279"
+compile"analog/cr5%red" ,ERR
+print"1123/1279"
+compile"analog/r584" ,ERR
+print"1124/1279"
+compile"analog/r10_s0" ,ERR
+print"1125/1279"
+compile"analog/rn64_s0%pin_3_6" ,ERR
+print"1126/1279"
+compile"analog/r706" ,ERR
+print"1127/1279"
+compile"analog/rn2_q1%pin_4_5" ,ERR
+print"1128/1279"
+compile"analog/rn33_s1%pin_3_6" ,ERR
+print"1129/1279"
+compile"analog/rn36_s1%pin_1_8" ,ERR
+print"1130/1279"
+compile"analog/rn48_s1%pin_4_5" ,ERR
+print"1131/1279"
+compile"analog/rn36_s0%pin_3_6" ,ERR
+print"1132/1279"
+compile"analog/rn33_s0%pin_2_7" ,ERR
+print"1133/1279"
+compile"analog/c1242" ,ERR
+print"1134/1279"
+compile"analog/r15_3" ,ERR
+print"1135/1279"
+compile"analog/r54_s1" ,ERR
+print"1136/1279"
+compile"analog/rn31_s1%pin_4_5" ,ERR
+print"1137/1279"
+compile"analog/rn46_s1%pin_3_6" ,ERR
+print"1138/1279"
+compile"analog/r1129" ,ERR
+print"1139/1279"
+compile"analog/rn64_s0%pin_2_7" ,ERR
+print"1140/1279"
+compile"analog/r16_rt5_6" ,ERR
+print"1141/1279"
+compile"analog/rn42_s0%pin_2_7" ,ERR
+print"1142/1279"
+compile"analog/rn38_s0%pin_4_5" ,ERR
+print"1143/1279"
+compile"analog/c24_pm" ,ERR
+print"1144/1279"
+compile"analog/r26_s0" ,ERR
+print"1145/1279"
+compile"analog/p2_q0%grn" ,ERR
+print"1146/1279"
+compile"analog/r206_pm" ,ERR
+print"1147/1279"
+compile"analog/p7_s1%yel" ,ERR
+print"1148/1279"
+compile"analog/rn53_s1%pin_2_7" ,ERR
+print"1149/1279"
+compile"analog/r8" ,ERR
+print"1150/1279"
+compile"analog/r4_s0" ,ERR
+print"1151/1279"
+compile"analog/rn48_s0%pin_1_8" ,ERR
+print"1152/1279"
+compile"analog/r556" ,ERR
+print"1153/1279"
+compile"analog/rn35_s0%pin_4_5" ,ERR
+print"1154/1279"
+compile"analog/r50_s1" ,ERR
+print"1155/1279"
+compile"analog/rn44_s0%pin_1_8" ,ERR
+print"1156/1279"
+compile"analog/p6_s1%yel" ,ERR
+print"1157/1279"
+compile"analog/r653" ,ERR
+print"1158/1279"
+compile"analog/r1_pm" ,ERR
+print"1159/1279"
+compile"analog/r1152" ,ERR
+print"1160/1279"
+compile"analog/r695" ,ERR
+print"1161/1279"
+compile"analog/rn3_q1%pin_4_5" ,ERR
+print"1162/1279"
+compile"analog/rn63_s0%pin_1_8" ,ERR
+print"1163/1279"
+compile"analog/rn64_s1%pin_1_8" ,ERR
+print"1164/1279"
+compile"analog/r321" ,ERR
+print"1165/1279"
+compile"analog/rn65_s0%pin_4_5" ,ERR
+print"1166/1279"
+compile"analog/rn61_s1%pin_1_8" ,ERR
+print"1167/1279"
+compile"analog/rn34_s1%pin_1_8" ,ERR
+print"1168/1279"
+compile"analog/rn62_s0%pin_2_7" ,ERR
+print"1169/1279"
+compile"analog/r154" ,ERR
+print"1170/1279"
+compile"analog/cr4%red" ,ERR
+print"1171/1279"
+compile"analog/rn89_s1%pin_4_5" ,ERR
+print"1172/1279"
+compile"analog/c172" ,ERR
+print"1173/1279"
+compile"analog/c10_5" ,ERR
+print"1174/1279"
+compile"analog/c58_5v" ,ERR
+print"1175/1279"
+compile"analog/r12" ,ERR
+print"1176/1279"
+compile"analog/r676" ,ERR
+print"1177/1279"
+compile"analog/rn61_s0%pin_2_7" ,ERR
+print"1178/1279"
+compile"analog/rn1_q0%pin_1_8" ,ERR
+print"1179/1279"
+compile"analog/rn42_s0%pin_1_8" ,ERR
+print"1180/1279"
+compile"analog/r825" ,ERR
+print"1181/1279"
+compile"analog/cr29%red" ,ERR
+print"1182/1279"
+compile"analog/c180" ,ERR
+print"1183/1279"
+compile"analog/rn1_q0%pin_2_7" ,ERR
+print"1184/1279"
+compile"analog/rn33_s1%pin_4_5" ,ERR
+print"1185/1279"
+compile"analog/r1200" ,ERR
+print"1186/1279"
+compile"analog/r1029" ,ERR
+print"1187/1279"
+compile"analog/r662" ,ERR
+print"1188/1279"
+compile"analog/c1_q2" ,ERR
+print"1189/1279"
+compile"analog/rn69_s0%pin_3_6" ,ERR
+print"1190/1279"
+compile"analog/rn94_s1%pin_1_8" ,ERR
+print"1191/1279"
+compile"analog/cr1%cr" ,ERR
+print"1192/1279"
+compile"analog/rn79_s1%pin_4_5" ,ERR
+print"1193/1279"
+compile"analog/r249" ,ERR
+print"1194/1279"
+compile"analog/r27" ,ERR
+print"1195/1279"
+compile"analog/rn60_s1%pin_3_6" ,ERR
+print"1196/1279"
+compile"analog/r11_a" ,ERR
+print"1197/1279"
+compile"analog/rn52_s0%pin_3_6" ,ERR
+print"1198/1279"
+compile"analog/r582" ,ERR
+print"1199/1279"
+compile"analog/r1194" ,ERR
+print"1200/1279"
+compile"analog/rn54_s0%pin_4_5" ,ERR
+print"1201/1279"
+compile"analog/r445" ,ERR
+print"1202/1279"
+compile"analog/r688" ,ERR
+print"1203/1279"
+compile"analog/r479" ,ERR
+print"1204/1279"
+compile"analog/rn45_s1%pin_4_5" ,ERR
+print"1205/1279"
+compile"analog/rn38_s1%pin_4_5" ,ERR
+print"1206/1279"
+compile"analog/r694" ,ERR
+print"1207/1279"
+compile"analog/r877_3v3" ,ERR
+print"1208/1279"
+compile"analog/r2_rt3_4" ,ERR
+print"1209/1279"
+compile"analog/r1198" ,ERR
+print"1210/1279"
+compile"analog/rn35_s0%pin_2_7" ,ERR
+print"1211/1279"
+compile"analog/r654" ,ERR
+print"1212/1279"
+compile"analog/c7_q0" ,ERR
+print"1213/1279"
+compile"analog/r941" ,ERR
+print"1214/1279"
+compile"analog/cr2_q0%cr" ,ERR
+print"1215/1279"
+compile"analog/c77" ,ERR
+print"1216/1279"
+compile"analog/r563" ,ERR
+print"1217/1279"
+compile"analog/p23_s1%yel" ,ERR
+print"1218/1279"
+compile"analog/r3780" ,ERR
+print"1219/1279"
+compile"analog/r118" ,ERR
+print"1220/1279"
+compile"analog/c23_pm" ,ERR
+print"1221/1279"
+compile"analog/cr17%red" ,ERR
+print"1222/1279"
+compile"analog/cr16%red" ,ERR
+print"1223/1279"
+compile"analog/rn99_s0%pin_4_5" ,ERR
+print"1224/1279"
+compile"analog/rn62_s0%pin_4_5" ,ERR
+print"1225/1279"
+compile"analog/rn3_q0%pin_2_7" ,ERR
+print"1226/1279"
+compile"analog/rn42_s1%pin_1_8" ,ERR
+print"1227/1279"
+compile"analog/c3060" ,ERR
+print"1228/1279"
+compile"analog/r3_rt3_4" ,ERR
+print"1229/1279"
+compile"analog/rn56_s0%pin_4_5" ,ERR
+print"1230/1279"
+compile"analog/rn62_s1%pin_4_5" ,ERR
+print"1231/1279"
+compile"analog/r53" ,ERR
+print"1232/1279"
+compile"analog/r96" ,ERR
+print"1233/1279"
+compile"analog/rn104_s1%pin_1_8" ,ERR
+print"1234/1279"
+compile"analog/r164_pm" ,ERR
+print"1235/1279"
+compile"analog/r440" ,ERR
+print"1236/1279"
+compile"analog/r1020" ,ERR
+print"1237/1279"
+compile"analog/rn51_s1%pin_3_6" ,ERR
+print"1238/1279"
+compile"analog/r643" ,ERR
+print"1239/1279"
+compile"analog/rn99_s0%pin_2_7" ,ERR
+print"1240/1279"
+compile"analog/rn111_s0%pin_1_8" ,ERR
+print"1241/1279"
+compile"analog/p4_s0%grn" ,ERR
+print"1242/1279"
+compile"analog/r13_rt7_8" ,ERR
+print"1243/1279"
+compile"analog/rn61_s0%pin_4_5" ,ERR
+print"1244/1279"
+compile"analog/c05_rtv1" ,ERR
+print"1245/1279"
+compile"analog/rn89_s0%pin_1_8" ,ERR
+print"1246/1279"
+compile"analog/rn54_s1%pin_3_6" ,ERR
+print"1247/1279"
+compile"analog/r384_3" ,ERR
+print"1248/1279"
+compile"analog/r52_s1" ,ERR
+print"1249/1279"
+compile"analog/r34" ,ERR
+print"1250/1279"
+compile"analog/rn41_s1%pin_1_8" ,ERR
+print"1251/1279"
+compile"analog/c174" ,ERR
+print"1252/1279"
+compile"analog/rn61_s1%pin_2_7" ,ERR
+print"1253/1279"
+compile"analog/rn43_s0%pin_3_6" ,ERR
+print"1254/1279"
+compile"analog/r32_s1" ,ERR
+print"1255/1279"
+compile"analog/r618" ,ERR
+print"1256/1279"
+compile"analog/c179" ,ERR
+print"1257/1279"
+compile"analog/r13_rt1_2" ,ERR
+print"1258/1279"
+compile"analog/p18_s1%yel" ,ERR
+print"1259/1279"
+compile"analog/rn96_s0%pin_4_5" ,ERR
+print"1260/1279"
+compile"analog/p20_s0%yel" ,ERR
+print"1261/1279"
+compile"analog/rn37_s1%pin_2_7" ,ERR
+print"1262/1279"
+compile"analog/cr101%blu" ,ERR
+print"1263/1279"
+compile"analog/r41_3" ,ERR
+print"1264/1279"
+compile"analog/rn2_q0%pin_3_6" ,ERR
+print"1265/1279"
+compile"analog/rn100_s0%pin_2_7" ,ERR
+print"1266/1279"
+compile"analog/r6" ,ERR
+print"1267/1279"
+compile"analog/r30_3" ,ERR
+print"1268/1279"
+compile"analog/r20_s0" ,ERR
+print"1269/1279"
+compile"analog/r26" ,ERR
+print"1270/1279"
+compile"analog/r132" ,ERR
+print"1271/1279"
+compile"analog/rn55_s1%pin_1_8" ,ERR
+print"1272/1279"
+compile"analog/r345" ,ERR
+print"1273/1279"
+compile"analog/r12_s0" ,ERR
+print"1274/1279"
+compile"analog/r20_s1" ,ERR
+print"1275/1279"
+compile"analog/rn36_s1%pin_2_7" ,ERR
+print"1276/1279"
+compile"analog/rn55_s1%pin_2_7" ,ERR
+print"1277/1279"
+compile"analog/rn79_s0%pin_4_5" ,ERR
+print"1278/1279"
+compile"analog/r1767" ,ERR
+print"1279/1279"
+compile"analog/r554" ,ERR

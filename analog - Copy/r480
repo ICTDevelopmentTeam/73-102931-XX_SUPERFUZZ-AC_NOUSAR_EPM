@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675179132   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:52 2022
+disconnect all
+connect s to "CLK_1PPS_RS422_RXD_R" ;  a to "CLK_1PPS_RS422_RXD_R"
+connect i to "CLK_1PPS_RS422_RXD" ;  b to "CLK_1PPS_RS422_RXD"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+!resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+resistor 33.2,40.0,20.00,re2,ar200m   !ADV
+! "r480" test.

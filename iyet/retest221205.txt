@@ -1,0 +1,127 @@
+----------------------------------------
+73-102898-01_03
+Mon Dec 05 13:49:18 2022
+----------------------------------------
+c05_5
+Compensation capacitance has not been
+learned
+----------------------------------------
+c05_rtv1
+Compensation capacitance has not been
+learned
+----------------------------------------
+c05_rtv2
+Compensation capacitance has not been
+learned
+----------------------------------------
+c06_5
+Compensation capacitance has not been
+learned
+----------------------------------------
+c06_rtv1
+Compensation capacitance has not been
+learned
+----------------------------------------
+c06_rtv2
+Compensation capacitance has not been
+learned
+----------------------------------------
+c110
+Compensation capacitance has not been
+learned
+----------------------------------------
+c408
+Compensation capacitance has not been
+learned
+----------------------------------------
+c1815
+Compensation capacitance has not been
+learned
+----------------------------------------
+c1816
+Compensation capacitance has not been
+learned
+----------------------------------------
+c23_pm
+Compensation capacitance has not been
+learned
+----------------------------------------
+c76
+Compensation capacitance has not been
+learned
+----------------------------------------
+c3061
+Compensation capacitance has not been
+learned
+----------------------------------------
+c389
+Compensation capacitance has not been
+learned
+----------------------------------------
+r2_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   152.07
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r2_rt3_4 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   152.17
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r13_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   151.92
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r13_rt3_4 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   152.45
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r618 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   1.2151k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Mon Dec 05 14:01:07 2022
+----------------------------------------
+r13_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   132.48
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Mon Dec 05 14:01:25 2022
+----------------------------------------
+r13_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   132.48
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700K4

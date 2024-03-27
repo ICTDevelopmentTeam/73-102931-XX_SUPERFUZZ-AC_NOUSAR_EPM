@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520497  Vab9b                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:08 2022
+disconnect all
+connect s to "SFP_YEL_R_L<5>_S0"
+connect i to "FPGA_SFP_LED_YEL_L<5>"
+!B!resistor 150, 13.33, 10.00, re3, ar1.00
+resistor 150,30.0,20.00,re3,ar100m
+! "rn41_s0%pin_2_7" test.

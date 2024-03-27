@@ -1,0 +1,12 @@
+!!!!   21    2    1 1552285118  V0d8f                                         
+
+!* 12-4629-01
+!* 12-4629-01 RES,TKF,31.6 k ohm,0.063W,1%,
+
+resistor *, 31.6k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

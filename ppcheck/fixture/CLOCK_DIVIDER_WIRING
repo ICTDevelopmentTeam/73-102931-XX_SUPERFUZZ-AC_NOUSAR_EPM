@@ -1,0 +1,89 @@
+
+                    CLOCK DIVIDER BOARD LAYOUT                     
+   ----------------------------------------------------------------
+   | (GND1)  (IN-)                                          (GND4)|
+   |                                                        (OUT) |
+   |                                                              |
+   | (+3.3V)   (BYP-)                                               |
+   | (GND2)  (BYP+)                                               |
+   |                                                              |
+   |                                                              |
+   | (GND3)  (IN+)                                                |
+   ----------------------------------------------------------------
+   Instruction For Wiring                                          
+     1.CONNECT Board(+3.3V)  To CLCKDIV-PWR-ISLAND(+) *RED*
+     2.CONNECT Board(GND2) To CLCKDIV-PWR-ISLAND(-) *BLACK*
+     3.(IN-) AND (GND1) TWISTED PAIR 
+     4.(IN+) AND (GND3) TWISTED PAIR 
+     5.(OUT_CLK_DIV) AND (GND4) TWISTED PAIR 
+     6.PUT BOARD as close as possible to IN(+) and IN(-) PROBES
+===============================================================================
+===============================================================================
+REMOVE WIRE LIST
+-Remove   :(2 08.00  12.0) from [2 08.34  11.8] <CLK212M_OSC_P>
+-Remove   :(2 08.50  12.0) from [2 08.27  11.8] <CLK212M_OSC_N>
+-Remove   :(1 13.00  75.0) from [1 12.44  82.0] <CLK114M_XO>
+-Remove   :(1 12.38  73.0) from [1 12.44  82.0] <CLK114M_XO>
+-Remove   :(2 08.07  23.0) from [2 07.77  27.2] <CLK125M_MIFPGA>
+-Remove   :(2 08.50  17.0) from [2 07.77  27.2] <CLK125M_MIFPGA>
+-Remove   :(1 07.00  73.0) from [1 08.29  72.9] <AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_P>
+-Remove   :(1 06.50  73.0) from [1 08.36  72.9] <AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N>
+===============================================================================
+ADDED WIRE LIST
+Power Supply#: 1
+CLCKDIV-PWR-ISLAND(+)
+ -Connect (2 13.00  03.0) To (2 13.00  04.0) *RED*
+ -Connect (2 13.00  03.0) To (2 13.00  06.0) *RED*
+ -Connect (2 13.00  06.0) To CLCKDIV-PWR-ISLAND(+) *RED*
+CLCKDIV-GND-ISLAND(-)
+ -Connect (2 13.00  01.0) To (2 13.00  02.0) *BLACK*
+ -Connect (2 13.00  01.0) To (2 13.00  05.0) *BLACK*
+ -Connect (2 13.00  05.0) To FixtureGroundPlane *BLACK*
+ -Connect (2 13.00  05.0) To CLCKDIV-GND-ISLAND(-) *BLACK*
+
+CLOCK DIVIDER # 1 to test : u51 
+ -Connect   :CLKDIV1(+3.3V)    To CLCKDIV-PWR-ISLAND(+) *RED*
+ -Connect   :CLKDIV1(GND2)   To CLCKDIV-PWR-ISLAND(-) *BLACK*
+ -Connect   :[2 08.34  11.8] To CLKDIV1(IN+) *TwistPair*<CLK212M_OSC_P>
+ -Connect   :(2 08.00  12.0) To CLKDIV1(BYP+) *Blue*<CLK212M_OSC_P>
+ -Connect   :[2 08.27  11.8] To CLKDIV1(IN-) *TwistPair*<CLK212M_OSC_N>
+ -Connect   :(2 08.50  12.0) To CLKDIV1(BYP-) *Blue*<CLK212M_OSC_N>
+CLOCK DIVIDER # 2 to test : u2 
+ -Connect   :CLKDIV2(+3.3V)    To CLCKDIV-PWR-ISLAND(+) *RED*
+ -Connect   :CLKDIV2(GND2)   To CLCKDIV-PWR-ISLAND(-) *BLACK*
+ -Connect   :[1 12.44  82.0] To CLKDIV2(IN+) *TwistPair*<CLK114M_XO>
+ -Connect   :(1 13.00  75.0) To CLKDIV2(BYP+) *Blue*<CLK114M_XO>
+ -Connect   :(1 12.38  73.0) To CLKDIV2(BYP+) *Blue*<CLK114M_XO>
+CLOCK DIVIDER # 3 to test : u44 
+ -Connect   :CLKDIV3(+3.3V)    To CLCKDIV-PWR-ISLAND(+) *RED*
+ -Connect   :CLKDIV3(GND2)   To CLCKDIV-PWR-ISLAND(-) *BLACK*
+ -Connect   :[2 07.77  27.2] To CLKDIV3(IN+) *TwistPair*<CLK125M_MIFPGA>
+ -Connect   :(2 08.07  23.0) To CLKDIV3(BYP+) *Blue*<CLK125M_MIFPGA>
+ -Connect   :(2 08.50  17.0) To CLKDIV3(BYP+) *Blue*<CLK125M_MIFPGA>
+CLOCK DIVIDER # 4 to test : u56 
+ -Connect   :CLKDIV4(+3.3V)    To CLCKDIV-PWR-ISLAND(+) *RED*
+ -Connect   :CLKDIV4(GND2)   To CLCKDIV-PWR-ISLAND(-) *BLACK*
+ -Connect   :[1 08.29  72.9] To CLKDIV4(IN+) *TwistPair*<AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_P>
+ -Connect   :(1 07.00  73.0) To CLKDIV4(BYP+) *Blue*<AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_P>
+ -Connect   :[1 08.36  72.9] To CLKDIV4(IN-) *TwistPair*<AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N>
+ -Connect   :(1 06.50  73.0) To CLKDIV4(BYP-) *Blue*<AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N>
+CLOCK DIVIDER OUTPUT CONNECTION: 
+ -Connect (1 03.50  68.0) To CLKDIV1(OUT) *TwistPair*
+ -Connect (1 04.00  68.0) To CLKDIV2(OUT) *TwistPair*
+ -Connect (1 03.50  69.0) To CLKDIV3(OUT) *TwistPair*
+ -Connect (1 04.00  69.0) To CLKDIV4(OUT) *TwistPair*
+
+
+
+Wednesday, March 23, 2022 9:37:39 AM
+|-------------------------------|
+| Flextronics' Infrastructure   |
+| ICT Development               |
+| 12455 Research Boulevard      |
+| Austin, Texas 78759           |
+| USA                           |
+|-------------------------------|
+    //--- //    //--- \\  // 
+   //__  //    //__    \\// 
+  //    //    //       //\   
+ //    //___ //___    // \\ 

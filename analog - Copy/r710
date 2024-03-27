@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520835  V27da                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:35 2022
+disconnect all
+connect s to "P2_5VA"
+connect i to "UNNAMED_4133_LED_I170_A"
+!B!resistor 220, 12.27, 10.00, re3, ar500m
+resistor 220,30.0,20.00,re3,ar500m
+! "r710" test.

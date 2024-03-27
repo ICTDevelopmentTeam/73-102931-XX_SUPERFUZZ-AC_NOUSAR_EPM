@@ -1,0 +1,55 @@
+!!!!    6    0    1 1573458196  V5127                                         
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VCC to pins 5
+assign GND to pins 2
+
+assign A1  to pins 1
+assign A2  to pins 3
+assign Y1  to pins 6
+assign Y2  to pins 4
+
+power  VCC,GND
+inputs A1,A2
+outputs Y1,Y2
+
+family LVT
+
+!set load on pins 2,4,6,8,18,16,14,12 to pull up
+!set load on pins 11,13,15,17,9,7,5,3 to pull up
+
+! ******** A to Y ********
+
+vector A1Y1_0
+ set A1  to "0"
+ set Y1  to "0"
+end vector
+
+vector A1Y1_1
+ set A1  to "1"
+ set Y1  to "1"
+end vector
+
+vector A2Y2_0
+ set A2  to "0"
+ set Y2  to "0"
+end vector
+
+vector A2Y2_1
+ set A2  to "1"
+ set Y2  to "1"
+end vector
+! **************************************************************************
+
+unit "A to Y"
+ execute A1Y1_0
+ execute A1Y1_1
+ execute A2Y2_0
+ execute A2Y2_1
+end unit
+
+

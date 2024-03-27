@@ -1,0 +1,13 @@
+!!!!   21    2    1 1489742837   0000                                         
+
+!#  11-2039-02
+!#  11-2039-02 CAP,CE,0.1uF,16V,10%,X7R,SM,0
+!#  Fri Mar 17 17:18:45 2017
+
+capacitor *, 0.1u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

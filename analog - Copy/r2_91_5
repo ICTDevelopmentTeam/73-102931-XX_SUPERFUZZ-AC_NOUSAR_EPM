@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863900   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:21 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_2_RES_I61_B_2"
+jumper 10.0k, re4, wb, ar100m, op
+! "r2_91_5" test.

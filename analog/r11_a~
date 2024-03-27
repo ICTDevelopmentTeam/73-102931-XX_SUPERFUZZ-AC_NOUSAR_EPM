@@ -1,0 +1,9 @@
+!!!!    2    0    1 1650873950   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:46 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "UNNAMED_2_RES_I573_A_A"
+connect g to "GND"!#; l to "GND"
+!B!resistor 4.53k, 10.00, 10.00, re4, wb, ar200m, wa326u, sl
+resistor 4.53k,25.00,20.00,re4,wb,ar200m,wa10m,ed
+! "r11_a" test.

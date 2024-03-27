@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651024809  V46b3                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:39 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "SW2_6"                                                                                                                                            
+connect i to "VBST2_6"                                                                                                                                          
+!B!capacitor 100n, 15.00, 15.00, fr1024, re3, wb, ar100m, nocomp                                                                                                
+capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,nocomp                                                                                                           
+! "c2_6" test.                                                                                                                                                  

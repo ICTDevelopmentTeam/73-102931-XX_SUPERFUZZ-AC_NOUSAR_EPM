@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  Ve00b                                         
+
+!#  11-101466-01
+!#  11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+!#  Wed Apr 17 16:02:55 2019
+
+capacitor *, 220u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026049  V4658                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:41 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect i to "P1V8_TRIM"                                                                                                                                        
+connect s to "GND"                                                                                                                                              
+connect g to "P1V8_FB"                                                                                                                                          
+!B!capacitor 100n, 15.00, 15.00, fr1024, re3, wb, ar100m, nocomp                                                                                                
+capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,nocomp                                                                                                           
+! "c11" test.                                                                                                                                                   

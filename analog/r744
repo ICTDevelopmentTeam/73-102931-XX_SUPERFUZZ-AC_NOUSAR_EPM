@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863953   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:14 2022
+disconnect all
+connect i to "MIFPGA_BRD_REV<1>"
+connect s to "GND"
+jumper 3.57k, re4, wb, ar200m, op
+! "r744" test.

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863964   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:25 2022
+disconnect all
+connect s to "UNNAMED_32_CAP_I55_B"
+connect i to "FLT_P3V3_OSC25M_OCXO"
+jumper 15, re1, ar200m
+! "fl1%1_3" test.

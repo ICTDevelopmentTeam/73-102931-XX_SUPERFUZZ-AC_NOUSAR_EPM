@@ -1,0 +1,9 @@
+!!!!    2    0    1 1656493702   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:07 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_4141_CAP_I112_B"
+connect g to "P1V8"
+!B!capacitor 270p, 30.00, 20.00, fr1024, re5, wb, ar20.0m, comp
+capacitor 270p,35.0,35.0,fr8192,re5,wb,ar100m,comp,ed,en
+! "c389" test.

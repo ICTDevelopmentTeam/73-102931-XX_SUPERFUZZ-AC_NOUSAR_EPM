@@ -1,0 +1,8 @@
+!!!!    2    0    1 1650962130   0000                                         
+!* 102898 nostuff ,102931 stuff
+disconnect all
+connect s to "UNNAMED_4095_RES_I478_A"
+connect i to "PMOD_SYNC_P3V3_SFP1_ALT"
+!#jumper 10k,re3,ar100m,op
+resistor 2.32k, 20,20,re4,ar100m
+! "r1_sf1" test.

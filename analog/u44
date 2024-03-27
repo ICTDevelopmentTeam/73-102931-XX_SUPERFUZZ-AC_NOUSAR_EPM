@@ -1,0 +1,15 @@
+!!!!    2    0    1 1652251770   0000                                         
+ 
+ test powered analog
+   on failure
+      report "Test u44 at Nodes: CLK125M_MIFPGA "
+      report "Freq Measuremet = 125.0M"
+      report "Use Clock Divider. 125.0M/80"
+   end on failure
+ 
+     connect rcva to nodes  "OUT_CLK_DIV_3"
+ 
+     detector frequency, gate 1, expect (125.0M * 0.125), threshold 2.5
+     measure (125.0M * 0.125) * 1.05, (125.0M * 0.125) *.95
+ off failure
+ end test

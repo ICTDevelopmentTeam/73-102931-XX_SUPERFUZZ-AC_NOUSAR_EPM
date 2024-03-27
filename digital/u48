@@ -1,0 +1,48 @@
+!!!!    6    0    1 1652334496  V60c5                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u48"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign G1B to pins 1
+assign A1  to pins * !2 !TCK short probe
+assign A2  to pins 4
+assign A3  to pins 6
+assign A4  to pins 8
+assign X1  to pins * !18 !TCK short probe
+assign X2  to pins 16
+assign X3  to pins 14
+assign X4  to pins 12
+
+assign G2B to pins 19
+assign B1  to pins 11
+assign B2  to pins 13
+assign B3  to pins 15
+assign B4  to pins 17
+assign Y1  to pins 9
+assign Y2  to pins 7
+assign Y3  to pins *
+assign Y4  to pins *
+
+power  VCC,GND
+inputs G1B,G2B
+inputs  A1,A2,A3,A4,B1,B2,B3,B4
+outputs X1,X2,X3,X4,Y1,Y2,Y3,Y4
+
+family LVT_2V5
+
+pcf order default SCAN is G1B,G2B
+pcf order default SCAN is A1,A2,A3,A4,B1,B2,B3,B4
+pcf order default SCAN is X1,X2,X3,X4,Y1,Y2,Y3,Y4
+
+unit
+pcf
+  "00 1001 1100 HLLH HHLL"
+  "00 1110 0000 HHHL LLLL"
+  "11 1000 0011 HHHH HHHH"
+end pcf
+end unit
+

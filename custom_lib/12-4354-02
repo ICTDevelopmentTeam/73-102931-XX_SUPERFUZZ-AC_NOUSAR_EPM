@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V243a                                         
+
+!  12-4354-02
+!  12-4354-02 RES,TKF,4.02 k ohm,.063W,1%,S
+
+resistor *, 4.02k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

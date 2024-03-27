@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519838  Vfc53                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:03 2022
+disconnect all
+connect s to "SRT_FPGA_CPLD3_CLK" ;  a to "SRT_FPGA_CPLD3_CLK"
+connect i to "FPGA_CPLD3_CLK" ;  b to "FPGA_CPLD3_CLK"
+!B!resistor 33, 25.15, 10.00, re2, ar200m ,sa,sb,ed,en
+resistor 33,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r45" test.

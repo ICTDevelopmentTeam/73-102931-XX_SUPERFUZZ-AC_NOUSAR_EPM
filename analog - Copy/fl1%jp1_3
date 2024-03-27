@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648036604   0000                                         
+! IPG: rev 09.20pc Wed Mar 23 19:56:45 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+disconnect all
+connect s to "UNNAMED_32_CAP_I55_B"
+connect i to "FLT_P3V3_OSC25M_OCXO"
+jumper 5.85, re1, ar200m
+! "fl1%jp1_3" test.
+! DUT: nominal 1, plus tol 0.00 %, minus tol 99.9 %
+! DUT: high 1, low 1m
+! TEST: high limit 5.851, low limit 3.895
+! Tolerance Multiplier 1.00
+! Remote Sensing is not Allowed

@@ -1,0 +1,22 @@
+!!!!    2    0    1 1426362675  Vf12b                                         
+test analog
+  test "GP_ON"
+  test "GP_OFF"
+end test
+
+subtest "GP_ON"
+   gpconnect 20648 to 20649 
+   wait100m
+   connect i to "JTAG_CABLE_PRSNT_L_DAV_HDR"
+   connect s to "P3_3VA"
+   jumper 15,re1,ar100m,ed
+end subtest
+
+subtest "GP_OFF"
+   gpdisconnect 20648 from 20649  
+   wait100m
+   connect i to "JTAG_CABLE_PRSNT_L_DAV_HDR"
+   connect s to "P3_3VA"
+   jumper 15k,re2,ar100m,op
+end subtest
+

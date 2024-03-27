@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519623  V92b2                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:09 2022
+disconnect all
+connect s to "P3V3_STBY"
+connect i to "LED_BCN_BLUE_L"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r657" test.

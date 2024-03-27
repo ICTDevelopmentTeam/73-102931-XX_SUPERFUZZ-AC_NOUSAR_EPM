@@ -1,0 +1,87 @@
+1.- Cambiar a probes cortos                      Noviembre 15, 2022
+		jtag_tck_dav_hdr_3v3
+		IO_MI_STROBE
+		unnamed_4144_cap_i65_b 104176
+
+
+U54
+pin 7, 15, 8, 16
+Pins cortos
+
+ 7.MIFPGA_SPI_CS_L    (Ya tiene pin corto)
+ 8.SRT_MIFPGA_SDO     (Ya tiene pin corto)
+15.MIFPGA_SDI         (Ya tiene pin corto)
+16.MIFPGA_DCLK;       (Ya tiene pin corto)
+
+Seguir las senales del U44 y U44_OPT
+u44.3
+3.SRT_CLK125M_MIFPGA   (Ya tiene pin corto)
+
+u44_opt.3
+3.SRT_CLK125M_MIFPGA_OPT  (Ya tiene pin corto)
+
+
+PMOD_SYNC_1V2S
+!####################################################################
+Limpiar senales con U1_5
+Todos los pines deben ser cortos.
+
+U49
+
+verificar que tenga pines cortos en ambos extremos del componente:
+    R29_5.2            p1 "p5v"  largo                            p2 "PS_EN_5"  corto
+    R79_91_5.2         p1 "unnamed_2_res_i151_a_2"  corto top     p2 "PS_EN_5"  corto
+    R79_92_5.2         p1 "unnamed_2_res_i151_a_92" corto top     p2 "PS_EN_5"  corto
+    R79_93_5.2         p1 "unnamed_2_res_i151_a_93" corto top     p2 "PS_EN_5"  corto
+    R79_94_5.2         p1 "unnamed_2_res_i151_a_94" corto top     p2 "PS_EN_5"  corto
+    R79_95_5.2         p1 "unnamed_2_res_i151_a_95" corto top     p2 "PS_EN_5"  corto
+    R79_96_5.2         p1 "unnamed_2_res_i151_a_96" corto top     p2 "PS_EN_5"  corto
+    R79_98_5.2;        p1 "UNNAMED_2_RES_I151_A_3"  corto top     p2 "PS_EN_5"  corto
+
+!##########################################################################
+
+  U1_5                                 encontrado 
+    1.PWM8_5                             corto
+    2.NC_3094
+    3.PWM6_5                             corto
+    4.PWM5_5                             corto
+    5.PWM4_5                             corto
+    6.PWM3_5                             corto
+    7.PWM2_5                             corto
+    8.PWM1_5                             corto 
+    9.MIFPGA_PMBUS_SDA                   largo   se cambia
+    10.SRT_P0V9_SNDN_SCL                 largo
+    11.PMBUS_ALERT_L                     corto
+    12.VDD_0P875V_PG                     largo
+    13.SNDN_CORE_EN                      corto
+    14.PWR_SNDN_CORE_OVR_CUR_L           corto
+    15.PWR_SNDN_CORE_OVR_PWR_L           corto
+    16.VDDA_0P9V_PG                      largo
+    17.GND
+    18.GND
+    19.NC_3095
+    20.IMON_TP_5                        corto
+    21.DVDD_SENSE_R_5                   corto
+    22.DGND_SENSE_R_5                   corto
+    23.ISEN1_5                          corto
+    24.ISEN2_5                          corto
+    25.ISEN3_5                          corto
+    26.ISEN4_5                          corto top
+    27.ISEN5_5                          corto
+    28.ISEN6_5                          corto
+    29.NC_3096
+    30.AVDD_SENSE_R_5                   corto
+    31.AGND_SENSE_R_5                   corto
+    32.ISEN8_5                          corto
+    33.GP2_5                            corto
+    34.SNDN_0P9_VDD_PMB_ADDR            largo
+    35.TSEN2_R_5                        corto
+    36.TSEN1_R_5                        corto
+    37.UNNAMED_7_CAP_I279_B_5           corto
+    38.UNNAMED_7_CAP_I276_B_5           corto
+    39.VRM2_VDD_P3V3_5                  corto top
+    40.ISENRTN_5                        corto top 
+    41.GND;
+
+
+

@@ -1,0 +1,25 @@
+!!!!    2    0    1 1472201555  V331e                                         
+test powered analog
+
+  nonanalog pins  2,3
+
+  test "Freq_out"
+  test "Freq_in"
+end test
+
+subtest "Freq_out"
+
+  connect rcva to pins 1
+  detector frequency, expect  32.768k
+  measure  32.768k * 1.05, 32.768k * .95
+end subtest
+
+subtest "Freq_in"
+
+  connect rcva to pins 4
+  detector frequency, expect  32.768k
+  measure  32.768k * 1.05, 32.768k * .95
+end subtest
+
+
+

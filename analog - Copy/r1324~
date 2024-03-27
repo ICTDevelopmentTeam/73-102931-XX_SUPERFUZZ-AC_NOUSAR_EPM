@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521898  Vdfd6                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:52 2022
+disconnect all
+connect s to "P3V3_STBY"
+connect i to "UNNAMED_4080_LED_I47_A"
+!B!resistor 120, 10.17, 6.00, re3, ar1.00
+resistor 120,30.0,20.0,re3,ar100m
+! "r1324" test.

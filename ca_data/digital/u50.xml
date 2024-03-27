@@ -1,0 +1,80 @@
+
+<Test name = "u50">
+<FileList>
+<File name = "u50">
+<FilePath>C:/Agilent_ICT/board/Superfuzz_AC/Superfuzz_AC_73-102931_01_A0/digital/u50</FilePath>
+<LastModified>Wed Jun 29, 2022   2:27 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u50">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

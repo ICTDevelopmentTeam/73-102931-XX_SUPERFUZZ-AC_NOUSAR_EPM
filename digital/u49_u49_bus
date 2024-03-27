@@ -1,0 +1,70 @@
+!!!!   24    0    1 1647864719  Vcd9d                                         
+! Copyright (c) Agilent Technologies, Inc. 1995-1996, 1998-2000, 2002-2003, 2006-2008
+!IPG: rev 09.20p  Mon Mar 21 20:12:00 2022
+
+buswire "u49_u49_bus"
+
+!IPG: User may add option statements here if needed.
+
+ground bounce suppression   on
+!IPG  family "???"
+!IPG: Family information could not be found for any node; TTL will be assumed
+
+
+chain "u49_u49"
+  tdi "JTAG_TDI_MIFPGA_3V3"
+  tdo "JTAG_TDO_MIFPGA_3V3"
+  tms "JTAG_TMS_MIFPGA_3V3"
+  tck "SRT_JTAG_TCK_MIFPGA_3V3"
+  devices
+    "u49", "custom_lib/b161014361_5cgxfc4c.bsm", "FBGA672", no
+  end devices
+end chain
+
+!IPG: Family information could not be found for node JTAG_TDI_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TDO_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TMS_MIFPGA_3V3
+!IPG: Family information could not be found for node SRT_JTAG_TCK_MIFPGA_3V3
+
+
+!IPG: The following pins are disabled by Boundary-Scan:
+!IPG:   u2_rt7_8.N10  u29.70  u29.44  u1_rt1_2.N10  u1_rt5_6.P10  u2_rt3_4.P10  u2_rt5_6.N10  u1_rt3_4.N10  u30.70  u30.44  u29.71  u29.45  u30.71  u30.45  u1_rt9.N10  u29.68  u29.56  u30.56  u37.56  u38.55  u1_rt9.C9
+!IPG:   u37.68  u30.68  u1_rt7_8.C9  u2_rt5_6.C9  u2_rt7_8.C9  u38.44  u38.68  u1_rt1_2.C9  u1_rt5_6.C9  u38.45  u30.55  u30.61  u2_rt3_4.C9  u37.44  u2_rt7_8.P10  u29.61  u29.55  u1_rt1_2.C10  u1_rt3_4.C9  u2_rt1_2.C9
+!IPG:   u37.61  u38.71  u37.45  u1_rt9.P10  u37.71  u38.70  u38.61  u37.55  u2_rt3_4.C10  u1_rt5_6.C10  u1_rt7_8.C10  u2_rt5_6.C10  u37.70  u38.60  u1_rt3_4.C10  u2_rt1_2.C10  u1_rt9.C10  u2_rt7_8.C10  u2_rt1_2.N10
+!IPG:   u2_rt3_4.N10  u1_rt1_2.P10  u2_rt1_2.P10  u1_rt7_8.N10  u2_rt5_6.P10  u1_rt7_8.P10  u1_rt3_4.P10  u1_rt5_6.N10
+
+!IPG: Safeguard will ignore disabled outputs
+disabled device "u1_rt1_2" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u1_rt3_4" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u1_rt5_6" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u1_rt7_8" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u1_rt9" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u29" pins 44,45,55,56,61,68,70,71
+!IPG: with boundary scan disabling
+disabled device "u2_rt1_2" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u2_rt3_4" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u2_rt5_6" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u2_rt7_8" pins "C10","C9","N10","P10"
+!IPG: with boundary scan disabling
+disabled device "u30" pins 44,45,55,56,61,68,70,71
+!IPG: with boundary scan disabling
+disabled device "u37" pins 44,45,55,56,61,68,70,71
+!IPG: with boundary scan disabling
+disabled device "u38" pins 44,45,55,60,61,68,70,71
+!IPG: with boundary scan disabling
+
+!IPG: User may add VCL pass-through statements here if needed.
+
+nodes
+end nodes
+
+end buswire
+

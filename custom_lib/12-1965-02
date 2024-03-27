@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  Ve18d                                         
+
+!  12-1965-02
+!  12-1965-02 RES,TKF,100 k ohm,0.1W,1%,SM,
+
+resistor *, 100k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

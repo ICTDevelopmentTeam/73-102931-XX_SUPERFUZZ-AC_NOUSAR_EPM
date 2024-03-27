@@ -1,0 +1,12 @@
+!!!!    2    0    1 1648805052  V4f9a                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:24 2022
+on failure
+report parallel devices
+report "c10_rtv1 10.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_53_ACADIAMPPS11LV_I28_PMBADDR"
+resistor 845,25.00,20.00,re3,ar100m
+! "r590" test.
+off failure

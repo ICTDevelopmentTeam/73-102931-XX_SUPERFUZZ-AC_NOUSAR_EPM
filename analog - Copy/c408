@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026613  Ve17a                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:58 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "SB_THERM_AN_P"                                                                                                                                    
+connect i to "SB_THERM_CA_N"                                                                                                                                    
+!B!capacitor 2.2n, 20.00, 20.00, fr1024, re4, wb, ar20.0m, comp                                                                                                 
+capacitor 2.2n,35.00,40.00,fr1024,re5,wb,ar100m,comp                                                                                                            
+! "c408" test.                                                                                                                                                  

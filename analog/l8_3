@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863967   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+on failure
+   report parallel devices
+   report "l29_3"
+end on failure
+disconnect all
+connect s to "FLTR_VDDHA_1P2V"
+connect i to "VDDHA_1P2V"
+jumper 5.44, re1, ar200m
+! "l8_3" test.
+off failure

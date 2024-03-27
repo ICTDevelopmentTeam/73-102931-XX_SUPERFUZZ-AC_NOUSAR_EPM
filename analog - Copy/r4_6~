@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648860912  V9283                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:42 2022
+disconnect all
+connect s to "ANT_5V"
+connect i to "VFB1_6"
+connect gl to "GND"
+connect g to "P5V"
+resistor 124k, 30.00, 30.00,re6,wb,ar1.00,wa10m,ed
+! "r4_6" test.

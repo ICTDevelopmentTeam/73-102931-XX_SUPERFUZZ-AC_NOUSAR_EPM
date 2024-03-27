@@ -1,0 +1,10 @@
+!!!!    2    0    1 1651024451  V9a8a                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:21 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"
+connect i to "P2V5RT2_SNS"
+connect g to "P2V5RT2"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa70.9u                                                                                                         
+resistor 10k, 25, 25, ar100m, re4 !JJSR
+!resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+! "r102" test.                                                                                                                                                  

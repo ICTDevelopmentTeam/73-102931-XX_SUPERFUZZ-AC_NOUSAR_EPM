@@ -1,0 +1,15 @@
+!!!!   21    1    1 1273139387  V9941                                         
+
+pin library "pwr", pn"nch_fet_power_off"
+diode "cr", 600m, 400m, nr
+
+external pins 4
+   device  "pwr"   pins "G"
+
+external pins 1,2,3
+   device  "pwr"   pins "S"
+   device  "cr"    pins "A"
+
+external pins 5,6,7,8
+   device  "pwr"   pins "D"
+   device  "cr"    pins "C"

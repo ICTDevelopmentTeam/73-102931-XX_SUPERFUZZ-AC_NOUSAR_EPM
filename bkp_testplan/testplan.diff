@@ -1,0 +1,13 @@
+1,2c1,2
+< !!!!    4    0    1 1647866144   0000                                         
+< ! Testplan for Superfuzz_AC_73-102898_01  Mon Mar 21 20:35:45 2022
+---
+> !!!!    4    0    1 1647872070   0000                                         
+> ! Testplan for Superfuzz_AC_73-102898_01  Mon Mar 21 22:14:31 2022
+5037,5039c5037,5038
+<    if Message$ <> "" then  print tab(5);Message$
+<    Status = Status_Code
+<    test "testjet"
+---
+> !   if Message$ <> "" then  print tab(5);Message$
+> !   Status = Status_Code

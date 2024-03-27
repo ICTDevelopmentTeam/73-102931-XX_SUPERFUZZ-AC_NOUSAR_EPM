@@ -1,0 +1,204 @@
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Fri Jan 05 08:27:29 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(204111) FPGA_SNDN_GPIO10
+                r43_3.2
+                u1_3.L10
+------End, 1 Problem Reported-----------
+S/N:FLM280105AV
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Fri Jan 05 08:27:40 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(204111) FPGA_SNDN_GPIO10
+                r43_3.2
+                u1_3.L10
+----------------------------------------
+Failed Open #2
+(10849) rt9_m4_0_3_synce_clk
+                 r284.1
+                u49.C22
+------End, 2 Problems Reported----------
+S/N:FLM280105AV
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Fri Jan 05 08:27:50 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(204111) FPGA_SNDN_GPIO10
+                r43_3.2
+                u1_3.L10
+------End, 1 Problem Reported-----------
+S/N:FLM280105AV
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:44:28 2024
+----------------------------------------
+r20_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   49.261
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:44:43 2024
+----------------------------------------
+r20_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   80.269
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:44:48 2024
+----------------------------------------
+r20_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   210.54
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:44:53 2024
+----------------------------------------
+r20_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   1.3367k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Jan 05 08:47:27 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<13>         22122 3675
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117 3675
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+------End, 1 Problem Reported-----------
+S/N:FLM2742056K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Jan 05 08:47:38 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<13>         22122 4028
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117 4028
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+------End, 1 Problem Reported-----------
+S/N:FLM2742056K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Jan 05 08:47:48 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<13>         22122 Open
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+------End, 1 Problem Reported-----------
+S/N:FLM2742056K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Jan 05 08:47:58 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<13>         22122 Open
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+------End, 1 Problem Reported-----------
+S/N:FLM2742056K
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:50:41 2024
+----------------------------------------
+r20_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   52.862
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r548 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   45.401
+Nominal:    33.000
+High Limit: 41.300
+Low Limit:  29.700
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K
+----------------------------------------
+73-102898-01_03
+Fri Jan 05 08:50:57 2024
+----------------------------------------
+r548 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   132.21
+Nominal:    33.000
+High Limit: 41.300
+Low Limit:  29.700
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056K

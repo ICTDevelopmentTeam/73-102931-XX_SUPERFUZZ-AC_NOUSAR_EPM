@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648519781  Va547                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:53 2022
+disconnect all
+connect s to "PMOD_FB_P3V3_SFP1_ALT"
+connect i to "PMOD_DIF_RC_P3V3_SFP1_ALT"
+connect g to "PMOD_VDIF_P3V3_SFP1_ALT"
+!B!resistor 169, 8.96, 6.00, re3, ar500m
+resistor 169,30.0,20.00,re3,ar500m
+! "r12_sf1" test.

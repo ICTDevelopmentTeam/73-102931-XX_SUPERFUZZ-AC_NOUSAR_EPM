@@ -1,0 +1,12 @@
+!!!!   21    2    1 1647590627  Vfa6c                                         
+
+!  12-5607-01 RES,TKF,4.99 k ohm,0.063W,1.0
+
+resistor *, 4.99k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

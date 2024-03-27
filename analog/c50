@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863880   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:01 2022
+on failure
+   report parallel devices
+   report "r468 220"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "CLK156M_OSC_N"
+jumper 204, re3, wb, ar500m, op
+! "c50" test.
+off failure

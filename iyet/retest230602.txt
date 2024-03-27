@@ -1,0 +1,6944 @@
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 10:05:11 2023
+----------------------------------------
+r547 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   49.792k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+rn37_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn37_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   31.689M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:27:48 2023
+----------------------------------------
+r207 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   391.02k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   12.753M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r921 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   227.11
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+r216 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   41.638M
+Nominal:    25.000
+High Limit: 32.500
+Low Limit:  17.500
+Resistance in OHMS
+----------------------------------------
+r1194 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   34.654
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   10.614M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn2_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   10.614M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+p2_q2%grn HAS FAILED
+
+REPLACE DEVICE: p2_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_q2%yel HAS FAILED
+
+REPLACE DEVICE: p2_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:28:02 2023
+----------------------------------------
+r207 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   6.6879k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   12.753M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   6.7502M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn2_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   10.614M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+p2_q2%yel HAS FAILED
+
+REPLACE DEVICE: p2_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:28:11 2023
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   4.9487M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn2_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   19.580M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:28:20 2023
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   6.7502M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn2_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   19.580M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:28:29 2023
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   6.7502M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:31:47 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -13768u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.589u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4210k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0906k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   196.31k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.38
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.43
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   487.84
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   6.5947k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:32:09 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12766u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.598u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4664k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0282k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   188.30k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.28
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.53
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.11
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4836k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:32:18 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -13748u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.583u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4560k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0278k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   191.65k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.26
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.60
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.11
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4799k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:32:28 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12775u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.523u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4439k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0264k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   191.20k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.23
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.58
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.32
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4636k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:32:37 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12757u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.517u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4476k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0261k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   190.08k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.21
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.63
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.59
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4629k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:35:55 2023
+----------------------------------------
+r477 HAS FAILED
+12-4386-01 RES,TKF,45.3 ohm,0.063W,1%,SM
+Measured:   45.494k
+Nominal:    45.300
+High Limit: 58.890
+Low Limit:  36.240
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160A4M
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:41:59 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12748u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.623u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4228k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0863k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   199.47k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.30
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.52
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.43
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   6.6000k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:42:20 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -14314u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.629u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4792k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0243k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   193.49k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.21
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.64
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.59
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4855k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:42:30 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -14883u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.615u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4761k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0250k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   192.34k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.12
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.70
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.28
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4792k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:42:39 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -11535u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.598u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4645k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0243k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   196.08k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.10
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.74
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.23
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4786k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:42:49 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12331u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.600u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4488k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0233k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   195.36k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.11
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.64
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.18
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.4742k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:49:27 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12438u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -1.0654
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4238k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4361k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4243k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9888k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4159k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4196k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4205k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.529k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.474k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r526 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   427.84
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:49:50 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12420u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -1.4569
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4229k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4745k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4281k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9562k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4180k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4184k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4238k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.548k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.482k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:50:00 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12460u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -2.4268
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4227k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4564k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4273k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9597k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4180k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4188k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4242k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.540k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.484k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:50:10 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12463u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -3.3831
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4224k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4556k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4262k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9583k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4184k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4196k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4242k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.538k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.490k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:50:21 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12505u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -16.644
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4222k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4722k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4348k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9597k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4188k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4196k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4381k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.554k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.488k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:53:30 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -14303u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.544u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.3491k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0939k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   195.84k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.26
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.54
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   488.70
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   6.5878k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:53:52 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -12766u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.260u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4645k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0250k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   191.43k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.16
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.65
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.07
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.3824k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:54:01 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -13263u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.037u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4488k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0254k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   191.65k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.15
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.63
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.07
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.3263k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:54:11 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -15569u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.020u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4445k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0240k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   189.19k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.11
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.65
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.02
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.3269k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 16:54:20 2023
+----------------------------------------
+c23_a HAS FAILED
+11-101466-01 CAP,AP,220.0uF,4.0 V,20%,SM
+Measured:   -14355u
+Nominal:    658.82u
+High Limit: 889.41u
+Low Limit:  395.29u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c13_a 100u
+c1543 47.0u
+c362 22.0u
+c941 22.0u
+c1049 22.0u
+c1185 22.0u
+c15 10.0u
+c20 10.0u
+c21 10.0u
+c22 10.0u
+c23 10.0u
+c24 10.0u
+c36 10.0u
+c38 10.0u
+c39 10.0u
+c99 10.0u
+c554 10.0u
+c937 2.20u
+c939 2.20u
+c3 1.00u
+c6 1.00u
+c9 1.00u
+c10 1.00u
+c12 1.00u
+c13 1.00u
+c14 1.00u
+c21_5 1.00u
+c21_rtv1 1.00u
+c21_rtv2 1.00u
+c32 1.00u
+c34 1.00u
+c35 1.00u
+c98 1.00u
+c347 1.00u
+c350 1.00u
+c353 1.00u
+c354 1.00u
+c357 1.00u
+c367 1.00u
+c370 1.00u
+c376 1.00u
+c380 1.00u
+c386 1.00u
+c387 1.00u
+c390 1.00u
+c409 1.00u
+c410 1.00u
+c411 1.00u
+c412 1.00u
+c413 1.00u
+c414 1.00u
+c415 1.00u
+c416 1.00u
+c417 1.00u
+c420 1.00u
+c421 1.00u
+c422 1.00u
+c423 1.00u
+c424 1.00u
+c425 1.00u
+c426 1.00u
+c427 1.00u
+c492 1.00u
+c496 1.00u
+c498 1.00u
+c501 1.00u
+c504 1.00u
+c509 1.00u
+c512 1.00u
+c515 1.00u
+c516 1.00u
+c523 1.00u
+c526 1.00u
+c531 1.00u
+c537 1.00u
+c540 1.00u
+c541 1.00u
+c544 1.00u
+c547 1.00u
+c548 1.00u
+c550 1.00u
+c551 1.00u
+c552 1.00u
+c553 1.00u
+c556 1.00u
+c557 1.00u
+c558 1.00u
+c559 1.00u
+c560 1.00u
+c561 1.00u
+c562 1.00u
+c563 1.00u
+c564 1.00u
+c565 1.00u
+c566 1.00u
+c567 1.00u
+c568 1.00u
+c569 1.00u
+c968 1.00u
+c1054 1.00u
+fl1%jp1_2 1.00u
+c2_pm 100n
+c18 100n
+c20_5 100n
+c20_pm 100n
+c20_rtv1 100n
+c20_rtv2 100n
+c52 100n
+c102 100n
+c134 100n
+c135 100n
+c151 100n
+c346 100n
+c348 100n
+c349 100n
+c351 100n
+c352 100n
+c356 100n
+c363 100n
+c364 100n
+c365 100n
+c366 100n
+c368 100n
+c371 100n
+c378 100n
+c379 100n
+c381 100n
+c382 100n
+c383 100n
+c384 100n
+c385 100n
+c388 100n
+c391 100n
+c481 100n
+c493 100n
+c495 100n
+c499 100n
+c500 100n
+c502 100n
+c503 100n
+c505 100n
+c508 100n
+c510 100n
+c511 100n
+c513 100n
+c514 100n
+c519 100n
+c522 100n
+c524 100n
+c525 100n
+c527 100n
+c530 100n
+c536 100n
+c538 100n
+c539 100n
+c542 100n
+c543 100n
+c545 100n
+c546 100n
+c549 100n
+c555 100n
+c579 100n
+c580 100n
+c581 100n
+c584 100n
+c938 100n
+c1050 100n
+c1051 100n
+c1053 100n
+c1055 100n
+c1056 100n
+c1098 100n
+c1184 100n
+c1539 100n
+c1818 100n
+c101 10.0n
+c940 10.0n
+c21_a 470p
+r293 4.70k
+----------------------------------------
+c18_a HAS FAILED
+11-3132-02 CAP,CE,1uF,16V,X7R,10%,SM,060
+Measured:   -22.075u
+Nominal:    0.85000u
+High Limit: 1.1475u
+Low Limit:  0.59500u
+Capacitance in FARADS
+----------------------------------------
+r16_a HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   7.4445k
+Nominal:    13.000k
+High Limit: 17.550k
+Low Limit:  9.1000k
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c24_a 100n
+----------------------------------------
+r1845 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   4.0254k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   191.20k
+Nominal:    100.00k
+High Limit: 115.00k
+Low Limit:  85.000k
+Resistance in OHMS
+----------------------------------------
+r12_a HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r541 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r542 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r543 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r7_a HAS FAILED
+12-5406-01 RES,TKF,57.6 k ohm,0.063W,1%,
+Nominal:    57.600k
+High Limit: 72.000k
+Low Limit:  43.200k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r11_a HAS FAILED
+12-5731-01 RES,TNF,4.53 k ohm,0.063W,0.1
+Nominal:    4.5300k
+High Limit: 5.6625k
+Low Limit:  3.6240k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r8_a HAS FAILED
+12-4412-01 RES,TKF,150 k ohm,0.063W,1%,S
+Nominal:    150.00k
+High Limit: 172.50k
+Low Limit:  127.50k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   100.09
+Nominal:    75.000
+High Limit: 97.500
+Low Limit:  60.000
+Resistance in OHMS
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   119.62
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r602 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   489.18
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+r557 HAS FAILED
+12-4451-01 RES,TKF,105 k ohm,0.063W,1%,S
+Measured:   8.3378k
+Nominal:    105.00k
+High Limit: 136.50k
+Low Limit:  73.500k
+Resistance in OHMS
+----------------------------------------
+r562 HAS FAILED
+12-3972-01 RES,TKF,249 k ohm,0.063W,1%,S
+Nominal:    249.00k
+High Limit: 323.70k
+Low Limit:  174.30k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM27100189

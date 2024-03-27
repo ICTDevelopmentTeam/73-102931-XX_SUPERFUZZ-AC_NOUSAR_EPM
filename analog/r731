@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519140  V0a86                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:34 2022
+disconnect all
+connect s to "TI_CABLE_PRSNT"
+connect i to "UNNAMED_4133_HDR2X5_I195_P5"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r731" test.

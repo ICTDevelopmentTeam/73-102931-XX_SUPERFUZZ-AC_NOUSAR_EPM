@@ -1,0 +1,15 @@
+!!!!    2    0    1 1675193580   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:42 2022
+on failure
+report parallel devices
+report "c21_pm 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "VIN_MON_N_PM"
+connect g to "P3_3VA"
+!B!resistor 20k, 10.00, 10.00, re5, wb, ar500m, wa339u
+!resistor 20k, 25, 25, re4, wb, ar500m, ed,en
+resistor 20k, 25, 25, re4, ar50m, ed   !ADV
+! "r10_pm" test.
+off failure

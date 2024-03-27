@@ -1,0 +1,9 @@
+!!!!   21    2    1 1647833734  V892b                                         
+
+diode "grn", 2.60, 1.20, nr
+
+external pins 1
+   device "grn" pins "A"
+
+external pins 2
+   device "grn" pins "C"

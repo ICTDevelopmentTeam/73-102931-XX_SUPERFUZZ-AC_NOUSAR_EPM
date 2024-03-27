@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+AGILENT 3070 BOARD TEST GRADER               Tue May 17 14:38:04 2022  page 1  
+
+Pins REPORT
+-------------------------------------------------------------------------------
+
+Board Path:              ./
+Board Serial #:          Board1
+Date of Data generation: Tue May 17 08:51:02 2022
+
+Number of test runs (in config.bdg): 10
+Number of tests: 1
+
+Test: pins
+Number of test runs passing: 10
+Number of test runs failing: 0
+
+For more Information, please examine: pins.dat

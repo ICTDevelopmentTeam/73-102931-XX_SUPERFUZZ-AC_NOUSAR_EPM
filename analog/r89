@@ -1,0 +1,9 @@
+!!!!    2    0    1 1652947104  V311a                                         
+!* Top probe [SRT_CLK25M_OSC] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:04:03 2022
+disconnect all
+connect s to "SRT_CLK25M_OSC"; a to "SRT_CLK25M_OSC"
+connect i to "CLK25M_MIFPGA"; b to "CLK25M_MIFPGA"
+!B!resistor 33, 25.15, 10.00, re2, ar200m ,sa,sb,ed,en
+resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r89" test.

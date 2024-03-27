@@ -1,0 +1,8 @@
+!!!!    2    0    1 1663224297   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:53 2022
+disconnect all
+connect i to "P1V8"
+connect s to "JTAG_SNDN_TDO"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m, ed, en
+! "r60_3" test.

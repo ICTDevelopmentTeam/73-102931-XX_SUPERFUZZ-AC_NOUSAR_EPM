@@ -1,0 +1,24 @@
+!!!!   21    2    1 1489802779  V95e2                                         
+
+diode "pin_1_3",    600m, 400m, nr
+diode "pin_1_5",    600m, 400m, nr
+diode "pin_3_4",    600m, 400m, nr
+diode "pin_4_5",    600m, 400m, nr
+
+external pins 1
+   device "pin_1_3" pins "C"
+   device "pin_1_5" pins "C"
+
+external pins 2; noconnect
+
+external pins 3
+   device "pin_1_3" pins "A"
+   device "pin_3_4" pins "C"
+
+external pins 4
+   device "pin_3_4" pins "A"
+   device "pin_4_5" pins "A"
+
+external pins 5
+   device "pin_1_5" pins "A"
+   device "pin_4_5" pins "C"

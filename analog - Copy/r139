@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863919   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:40 2022
+on failure
+   report parallel devices
+   report "r143"
+end on failure
+disconnect all
+connect s to "AC_CLK103M_DAV_SNDN1_CORE_REFCLK_P"
+connect i to "AC_CLK103M_DAV_SNDN1_CORE_REFCLK_N"
+jumper 5.00k, re4, wb, ar200m, op
+! "r139" test.
+off failure

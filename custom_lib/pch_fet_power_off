@@ -1,0 +1,35 @@
+!!!!    2    0    1 1070076924  Vedae                                         
+
+
+test powered analog
+
+   disconnect all
+   connect s to pins "S"
+   connect a to pins "G"
+   connect i to pins "S"
+   connect l to pins "D"
+!   connect g to pins "D"
+!   connect g to ground
+
+   source dcv, amplitude 3,terminated 500, on
+
+   test "FET_OFF"
+   test "FET_ON"
+
+end test
+
+!*****************************************!
+
+subtest "FET_ON"
+  auxiliary dcv, amplitude -0.2, on
+  detector dcv, expect 0.5
+  measure 0.1, -0.1
+end subtest
+
+subtest "FET_OFF"
+  auxiliary dcv, amplitude 2.5, on
+  detector dcv, expect 3
+  measure 3, 2
+end subtest
+
+!*****************************************!

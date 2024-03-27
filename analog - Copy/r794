@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519657  V6587                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:13 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_69_AT90SO72_I676_A2"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r794" test.

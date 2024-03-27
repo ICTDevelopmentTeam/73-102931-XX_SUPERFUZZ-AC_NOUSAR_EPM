@@ -1,0 +1,11 @@
+!!!!   21    2    1 1648102936  Vb5bc                                         
+!* 12-2474-02 RES,TKF,10 ohm,0.063W,5%,SM
+
+jumper *, closed
+!resistor *, 10, 1, 1, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

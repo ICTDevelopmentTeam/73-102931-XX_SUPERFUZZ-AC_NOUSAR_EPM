@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026757  V0bfb                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:25 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "MIFPGA_POR_L"                                                                                                                                     
+connect g to "UNNAMED_2_RES_I472_B_A"                                                                                                                           
+!B!resistor 1k, 10.00, 10.00, re3, ar100m, wa17.5u                                                                                                              
+resistor 1k,25.00,20.00,re3,ar100m                                                                                                                              
+! "r321" test.                                                                                                                                                  

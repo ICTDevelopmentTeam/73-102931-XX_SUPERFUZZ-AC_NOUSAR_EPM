@@ -1,0 +1,59 @@
+!!!!    6    0    1 1627787549  V1c79                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u19"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign A1  to pins 1
+assign A2  to pins 3
+assign Y1  to pins 6
+assign Y2  to pins 4
+
+power  VCC,GND
+inputs A1,A2
+outputs Y1,Y2
+
+family LVT
+
+! ******** A to Y ********
+
+vector A1Y1_0
+ set A1  to "0"
+ set Y1  to "0"
+end vector
+
+vector A1Y1_1
+ set A1  to "1"
+ set Y1  to "1"
+end vector
+
+vector A2Y2_0
+ set A2  to "0"
+ set Y2  to "0"
+end vector
+
+vector A2Y2_1
+ set A2  to "1"
+ set Y2  to "1"
+end vector
+! **************************************************************************
+
+unit "A to Y"
+ homingloop 100 times
+ execute A1Y1_0 exit if pass
+ end homingloop
+ homingloop 100 times
+ execute A1Y1_1 exit if pass
+ end homingloop
+ homingloop 100 times
+ execute A2Y2_0 exit if pass
+ end homingloop
+ homingloop 100 times
+ execute A2Y2_1 exit if pass
+ end homingloop
+end unit
+
+

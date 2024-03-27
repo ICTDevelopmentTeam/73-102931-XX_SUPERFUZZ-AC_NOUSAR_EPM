@@ -1,0 +1,39 @@
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 16 17:51:44 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<0>         217141   26
+                r1_s0.1
+               rn33_s0.3
+           rn33_s0%pin_3_6.1
+                u49.V19
+To:     v                     21967   26 
+UNNAMED_3_RES_I174_B_S0                 
+                r1_s0.2
+               sfp_s0.A4
+Common Devices:
+                 r1_s0
+Message is:
+Check R1_S0
+------End, 1 Problem Reported-----------
+S/N:FLM2744001F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 16 17:51:53 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: TSEN2_RTV1              21748 Open
+              r5_98_rtv1.1
+               r06_rtv1.1
+To:   TSEN_R_98              219164
+              r5_98_rtv1.2
+             u1_98_rtv1.36
+Common Devices:
+               r5_98_rtv1
+Message is:
+Check R5_98_RTV1
+------End, 1 Problem Reported-----------
+S/N:FLM2744001F

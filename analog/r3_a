@@ -1,0 +1,10 @@
+!!!!    2    0    1 1651024443  Vf96e                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:11 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"
+connect i to "UNNAMED_2_RES_I471_B_A"
+connect g to "UNNAMED_2_RES_I489_A_A"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa95.4u                                                                                                         
+resistor 10k, 25, 25, ar100m, re4 !JJSR
+!resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+! "r3_a" test.                                                                                                                                                  

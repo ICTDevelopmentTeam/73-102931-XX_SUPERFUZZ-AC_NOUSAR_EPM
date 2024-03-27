@@ -1,0 +1,417 @@
+<!-- Created Tue Mar 22 17:24:00 2022 from ITL Source digital/u29_u1_3_ps -->
+<Test name="u29_u1_3_ps"><Type>"Boundary-Scan Powered Shorts Test"</Type>
+<Chain name="u29_u1_3"><ChainTCK><node name="SRT_JTAG_TCK_HDR_3V3" />
+<opensCoverage>Full</opensCoverage></ChainTCK>
+<ChainTMS><node name="JTAG_TMS_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTMS>
+<ChainTDI><node name="JTAG_TDI_HDR_CPLD1_3V3" /><opensCoverage>Full</opensCoverage></ChainTDI>
+<ChainTDO><node name="JTAG_TDO_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTDO>
+<ChainTRST><node name="JTAG_TRST_L_HDR_3V3" /><opensCoverage>Partial</opensCoverage></ChainTRST>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;0&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;1&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="SNDN_CPU2JTAG_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_EXTLOOP_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_JTAG2CPU_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="TEST_ENABLE_3" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="UNNAMED_4103_AVC8T245_I56_OE" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="UNNAMED_4103_AVC8T245_I60_OE" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="UNNAMED_4103_PCA9617_I144_EN" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+</Chain>
+<Device name="u1_3"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="L9"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="N2"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="L11"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="L4"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="N1"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<DeviceEnable><Pin name="AL7"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AK1"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="K10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N9"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AL5"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+</Device>
+<Device name="u1_rt9"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT9_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u2_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT8_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u1_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT7_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u2_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT6_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u1_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT5_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u2_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT4_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u1_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT3_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u2_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT2_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u1_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<Pin name="T10"><node name="RT1_M2_0_7_SYNCE_CLK" /></Pin>
+</Device>
+<Device name="u38"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<Pin name="1"><node name="NC_3326" /></Pin>
+<Pin name="12"><node name="NC_3327" /></Pin>
+<Pin name="25"><node name="NC_3330" /></Pin>
+<Pin name="33"><node name="NC_3332" /></Pin>
+<Pin name="40"><node name="NC_3333" /></Pin>
+<Pin name="50"><node name="NC_3334" /></Pin>
+<Pin name="57"><node name="NC_3335" /></Pin>
+<Pin name="69"><node name="NC_3337" /></Pin>
+<Pin name="95"><node name="NC_3340" /></Pin>
+<Pin name="96"><node name="NC_3341" /></Pin>
+<Pin name="99"><node name="NC_3342" /></Pin>
+<Pin name="100"><node name="NC_3343" /></Pin>
+<Pin name="109"><node name="NC_3345" /></Pin>
+<Pin name="119"><node name="NC_3346" /></Pin>
+<Pin name="140"><node name="NC_3348" /></Pin>
+<Pin name="141"><node name="NC_3349" /></Pin>
+</Device>
+<Device name="u37"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<Pin name="1"><node name="NC_3303" /></Pin>
+<Pin name="12"><node name="NC_3304" /></Pin>
+<Pin name="25"><node name="NC_3307" /></Pin>
+<Pin name="33"><node name="NC_3309" /></Pin>
+<Pin name="41"><node name="NC_3310" /></Pin>
+<Pin name="47"><node name="NC_3311" /></Pin>
+<Pin name="58"><node name="NC_3312" /></Pin>
+<Pin name="78"><node name="NC_3314" /></Pin>
+<Pin name="93"><node name="NC_3317" /></Pin>
+<Pin name="100"><node name="NC_3318" /></Pin>
+<Pin name="109"><node name="NC_3320" /></Pin>
+<Pin name="115"><node name="NC_3321" /></Pin>
+<Pin name="119"><node name="NC_3322" /></Pin>
+<Pin name="126"><node name="NC_3323" /></Pin>
+<Pin name="142"><node name="NC_3325" /></Pin>
+</Device>
+<Device name="u30"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<Pin name="1"><node name="NC_3280" /></Pin>
+<Pin name="12"><node name="NC_3281" /></Pin>
+<Pin name="25"><node name="NC_3284" /></Pin>
+<Pin name="33"><node name="NC_3286" /></Pin>
+<Pin name="41"><node name="NC_3287" /></Pin>
+<Pin name="47"><node name="NC_3288" /></Pin>
+<Pin name="58"><node name="NC_3289" /></Pin>
+<Pin name="78"><node name="NC_3291" /></Pin>
+<Pin name="93"><node name="NC_3294" /></Pin>
+<Pin name="100"><node name="NC_3295" /></Pin>
+<Pin name="109"><node name="NC_3297" /></Pin>
+<Pin name="115"><node name="NC_3298" /></Pin>
+<Pin name="119"><node name="NC_3299" /></Pin>
+<Pin name="126"><node name="NC_3300" /></Pin>
+<Pin name="142"><node name="NC_3302" /></Pin>
+</Device>
+<Device name="u29"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<Pin name="1"><node name="NC_3257" /></Pin>
+<Pin name="12"><node name="NC_3258" /></Pin>
+<Pin name="25"><node name="NC_3261" /></Pin>
+<Pin name="33"><node name="NC_3263" /></Pin>
+<Pin name="41"><node name="NC_3264" /></Pin>
+<Pin name="47"><node name="NC_3265" /></Pin>
+<Pin name="58"><node name="NC_3266" /></Pin>
+<Pin name="78"><node name="NC_3268" /></Pin>
+<Pin name="93"><node name="NC_3271" /></Pin>
+<Pin name="100"><node name="NC_3272" /></Pin>
+<Pin name="109"><node name="NC_3274" /></Pin>
+<Pin name="115"><node name="NC_3275" /></Pin>
+<Pin name="119"><node name="NC_3276" /></Pin>
+<Pin name="126"><node name="NC_3277" /></Pin>
+<Pin name="142"><node name="NC_3279" /></Pin>
+</Device>
+<NodePair><Node name="NC_3257" /><Node name="SFP_RX_LOS_FPGA&lt;12&gt;" /></NodePair>
+<NodePair><Node name="NC_3257" /><Node name="FPGA_SFP_LED_YEL_L&lt;12&gt;" /></NodePair>
+<NodePair><Node name="NC_3258" /><Node name="SFP_MOD_ABS_FPGA&lt;12&gt;" /></NodePair>
+<NodePair><Node name="NC_3258" /><Node name="SFP_MOD_ABS_FPGA&lt;11&gt;" /></NodePair>
+<NodePair><Node name="NC_3258" /><Node name="SFP_RX_LOS_FPGA&lt;11&gt;" /></NodePair>
+<NodePair><Node name="NC_3258" /><Node name="FPGA_SFP_LED_YEL_L&lt;11&gt;" /></NodePair>
+<NodePair><Node name="NC_3261" /><Node name="FPGA_SFP_TX_DISABLE&lt;10&gt;" /></NodePair>
+<NodePair><Node name="NC_3261" /><Node name="SFP_MOD_ABS_FPGA&lt;10&gt;" /></NodePair>
+<NodePair><Node name="NC_3261" /><Node name="SFP_RX_LOS_FPGA&lt;10&gt;" /></NodePair>
+<NodePair><Node name="NC_3261" /><Node name="FPGA_SFP_LED_GRN_L&lt;9&gt;" /></NodePair>
+<NodePair><Node name="NC_3263" /><Node name="SFP_MOD_ABS_FPGA&lt;9&gt;" /></NodePair>
+<NodePair><Node name="NC_3263" /><Node name="SFP_RX_LOS_FPGA&lt;9&gt;" /></NodePair>
+<NodePair><Node name="NC_3263" /><Node name="FPGA_SFP_LED_YEL_L&lt;9&gt;" /></NodePair>
+<NodePair><Node name="NC_3264" /><Node name="FPGA_SFP_LED_GRN_L&lt;4&gt;" /></NodePair>
+<NodePair><Node name="NC_3264" /><Node name="SFP_MOD_ABS_FPGA&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3264" /><Node name="FPGA_SFP_LED_YEL_L&lt;4&gt;" /></NodePair>
+<NodePair><Node name="NC_3264" /><Node name="FPGA_SFP_TX_DISABLE&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3265" /><Node name="FPGA_SFP_TX_DISABLE&lt;4&gt;" /></NodePair>
+<NodePair><Node name="NC_3265" /><Node name="SFP_RX_LOS_FPGA&lt;4&gt;" /></NodePair>
+<NodePair><Node name="NC_3265" /><Node name="CPLD1_FPGA_SPI_MISO" /></NodePair>
+<NodePair><Node name="NC_3266" /><Node name="FPGA_SFP_LED_YEL_L&lt;3&gt;" /></NodePair>
+<NodePair><Node name="NC_3266" /><Node name="SFP_RX_LOS_FPGA&lt;3&gt;" /></NodePair>
+<NodePair><Node name="NC_3266" /><Node name="SFP_MOD_ABS_FPGA&lt;3&gt;" /></NodePair>
+<NodePair><Node name="NC_3266" /><Node name="FPGA_CPLD_RST_L" /></NodePair>
+<NodePair><Node name="NC_3268" /><Node name="SFP_RX_LOS_FPGA&lt;6&gt;" /></NodePair>
+<NodePair><Node name="NC_3268" /><Node name="SFP_RX_LOS_FPGA&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3271" /><Node name="SFP_MOD_ABS_FPGA&lt;8&gt;" /></NodePair>
+<NodePair><Node name="NC_3271" /><Node name="SFP_MOD_ABS_FPGA&lt;7&gt;" /></NodePair>
+<NodePair><Node name="NC_3271" /><Node name="SFP_RX_LOS_FPGA&lt;7&gt;" /></NodePair>
+<NodePair><Node name="NC_3271" /><Node name="FPGA_SFP_LED_YEL_L&lt;7&gt;" /></NodePair>
+<NodePair><Node name="NC_3272" /><Node name="SFP_RX_LOS_FPGA&lt;8&gt;" /></NodePair>
+<NodePair><Node name="NC_3272" /><Node name="FPGA_SFP_LED_GRN_L&lt;7&gt;" /></NodePair>
+<NodePair><Node name="NC_3274" /><Node name="UNNAMED_4124_LCMXO2640U_I290_PT17CINITM" /></NodePair>
+<NodePair><Node name="NC_3274" /><Node name="FPGA_SFP_TX_DISABLE&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3275" /><Node name="FPGA_SFP_LED_YEL_L&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3275" /><Node name="SFP_RX_LOS_FPGA&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3275" /><Node name="SFP_MOD_ABS_FPGA&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3276" /><Node name="SFP_MOD_ABS_FPGA&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3276" /><Node name="CPLD1_JTAGEN" /></NodePair>
+<NodePair><Node name="NC_3276" /><Node name="SFP_TX_FAULT_FPGA&lt;1&gt;" /></NodePair>
+<NodePair><Node name="NC_3277" /><Node name="SFP_RX_LOS_FPGA&lt;1&gt;" /></NodePair>
+<NodePair><Node name="NC_3277" /><Node name="SFP_MOD_ABS_FPGA&lt;1&gt;" /></NodePair>
+<NodePair><Node name="NC_3277" /><Node name="FPGA_SFP_TX_DISABLE&lt;1&gt;" /></NodePair>
+<NodePair><Node name="NC_3279" /><Node name="SFP_RX_LOS_FPGA&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3279" /><Node name="FPGA_SFP_LED_YEL_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3279" /><Node name="SFP_MOD_ABS_FPGA&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3280" /><Node name="FPGA_SFP_LED_YEL_L&lt;25&gt;" /></NodePair>
+<NodePair><Node name="NC_3280" /><Node name="SFP_RX_LOS_FPGA&lt;25&gt;" /></NodePair>
+<NodePair><Node name="NC_3281" /><Node name="FPGA_SFP_LED_YEL_L&lt;24&gt;" /></NodePair>
+<NodePair><Node name="NC_3281" /><Node name="SFP_RX_LOS_FPGA&lt;24&gt;" /></NodePair>
+<NodePair><Node name="NC_3281" /><Node name="SFP_MOD_ABS_FPGA&lt;24&gt;" /></NodePair>
+<NodePair><Node name="NC_3281" /><Node name="SFP_MOD_ABS_FPGA&lt;25&gt;" /></NodePair>
+<NodePair><Node name="NC_3284" /><Node name="FPGA_SFP_LED_GRN_L&lt;22&gt;" /></NodePair>
+<NodePair><Node name="NC_3284" /><Node name="SFP_RX_LOS_FPGA&lt;23&gt;" /></NodePair>
+<NodePair><Node name="NC_3284" /><Node name="SFP_MOD_ABS_FPGA&lt;23&gt;" /></NodePair>
+<NodePair><Node name="NC_3284" /><Node name="FPGA_SFP_TX_DISABLE&lt;23&gt;" /></NodePair>
+<NodePair><Node name="NC_3286" /><Node name="FPGA_SFP_LED_YEL_L&lt;22&gt;" /></NodePair>
+<NodePair><Node name="NC_3286" /><Node name="SFP_RX_LOS_FPGA&lt;22&gt;" /></NodePair>
+<NodePair><Node name="NC_3286" /><Node name="SFP_MOD_ABS_FPGA&lt;22&gt;" /></NodePair>
+<NodePair><Node name="NC_3287" /><Node name="FPGA_SFP_LED_GRN_L&lt;17&gt;" /></NodePair>
+<NodePair><Node name="NC_3287" /><Node name="FPGA_SFP_LED_YEL_L&lt;17&gt;" /></NodePair>
+<NodePair><Node name="NC_3287" /><Node name="SFP_MOD_ABS_FPGA&lt;18&gt;" /></NodePair>
+<NodePair><Node name="NC_3287" /><Node name="FPGA_SFP_TX_DISABLE&lt;18&gt;" /></NodePair>
+<NodePair><Node name="NC_3288" /><Node name="FPGA_SFP_TX_DISABLE&lt;17&gt;" /></NodePair>
+<NodePair><Node name="NC_3288" /><Node name="SFP_RX_LOS_FPGA&lt;17&gt;" /></NodePair>
+<NodePair><Node name="NC_3288" /><Node name="CPLD2_FPGA_SPI_MISO" /></NodePair>
+<NodePair><Node name="NC_3289" /><Node name="FPGA_SFP_LED_YEL_L&lt;16&gt;" /></NodePair>
+<NodePair><Node name="NC_3289" /><Node name="SFP_RX_LOS_FPGA&lt;16&gt;" /></NodePair>
+<NodePair><Node name="NC_3289" /><Node name="SFP_MOD_ABS_FPGA&lt;16&gt;" /></NodePair>
+<NodePair><Node name="NC_3289" /><Node name="FPGA_CPLD_RST_L" /></NodePair>
+<NodePair><Node name="NC_3291" /><Node name="SFP_RX_LOS_FPGA&lt;18&gt;" /></NodePair>
+<NodePair><Node name="NC_3291" /><Node name="SFP_RX_LOS_FPGA&lt;19&gt;" /></NodePair>
+<NodePair><Node name="NC_3294" /><Node name="FPGA_SFP_LED_YEL_L&lt;20&gt;" /></NodePair>
+<NodePair><Node name="NC_3294" /><Node name="SFP_RX_LOS_FPGA&lt;20&gt;" /></NodePair>
+<NodePair><Node name="NC_3294" /><Node name="SFP_MOD_ABS_FPGA&lt;20&gt;" /></NodePair>
+<NodePair><Node name="NC_3294" /><Node name="SFP_MOD_ABS_FPGA&lt;21&gt;" /></NodePair>
+<NodePair><Node name="NC_3295" /><Node name="FPGA_SFP_LED_GRN_L&lt;20&gt;" /></NodePair>
+<NodePair><Node name="NC_3295" /><Node name="SFP_RX_LOS_FPGA&lt;21&gt;" /></NodePair>
+<NodePair><Node name="NC_3297" /><Node name="UNNAMED_4125_LCMXO2640U_I148_PT17CINITM" /></NodePair>
+<NodePair><Node name="NC_3297" /><Node name="FPGA_SFP_TX_DISABLE&lt;13&gt;" /></NodePair>
+<NodePair><Node name="NC_3298" /><Node name="FPGA_SFP_LED_YEL_L&lt;13&gt;" /></NodePair>
+<NodePair><Node name="NC_3298" /><Node name="SFP_RX_LOS_FPGA&lt;13&gt;" /></NodePair>
+<NodePair><Node name="NC_3298" /><Node name="SFP_MOD_ABS_FPGA&lt;13&gt;" /></NodePair>
+<NodePair><Node name="NC_3299" /><Node name="SFP_MOD_ABS_FPGA&lt;13&gt;" /></NodePair>
+<NodePair><Node name="NC_3299" /><Node name="SFP_TX_FAULT_FPGA&lt;14&gt;" /></NodePair>
+<NodePair><Node name="NC_3299" /><Node name="CPLD2_JTAGEN" /></NodePair>
+<NodePair><Node name="NC_3300" /><Node name="SFP_RX_LOS_FPGA&lt;14&gt;" /></NodePair>
+<NodePair><Node name="NC_3300" /><Node name="FPGA_SFP_TX_DISABLE&lt;14&gt;" /></NodePair>
+<NodePair><Node name="NC_3300" /><Node name="SFP_MOD_ABS_FPGA&lt;14&gt;" /></NodePair>
+<NodePair><Node name="NC_3302" /><Node name="FPGA_SFP_LED_YEL_L&lt;15&gt;" /></NodePair>
+<NodePair><Node name="NC_3302" /><Node name="SFP_RX_LOS_FPGA&lt;15&gt;" /></NodePair>
+<NodePair><Node name="NC_3302" /><Node name="SFP_MOD_ABS_FPGA&lt;15&gt;" /></NodePair>
+<NodePair><Node name="NC_3303" /><Node name="SFP_RX_LOS_FPGA&lt;47&gt;" /></NodePair>
+<NodePair><Node name="NC_3303" /><Node name="FPGA_SFP_LED_YEL_L&lt;47&gt;" /></NodePair>
+<NodePair><Node name="NC_3304" /><Node name="SFP_MOD_ABS_FPGA&lt;47&gt;" /></NodePair>
+<NodePair><Node name="NC_3304" /><Node name="SFP_MOD_ABS_FPGA&lt;46&gt;" /></NodePair>
+<NodePair><Node name="NC_3304" /><Node name="SFP_RX_LOS_FPGA&lt;46&gt;" /></NodePair>
+<NodePair><Node name="NC_3304" /><Node name="FPGA_SFP_LED_YEL_L&lt;46&gt;" /></NodePair>
+<NodePair><Node name="NC_3307" /><Node name="FPGA_SFP_TX_DISABLE&lt;45&gt;" /></NodePair>
+<NodePair><Node name="NC_3307" /><Node name="SFP_MOD_ABS_FPGA&lt;45&gt;" /></NodePair>
+<NodePair><Node name="NC_3307" /><Node name="SFP_RX_LOS_FPGA&lt;45&gt;" /></NodePair>
+<NodePair><Node name="NC_3307" /><Node name="FPGA_SFP_LED_GRN_L&lt;44&gt;" /></NodePair>
+<NodePair><Node name="NC_3309" /><Node name="SFP_MOD_ABS_FPGA&lt;44&gt;" /></NodePair>
+<NodePair><Node name="NC_3309" /><Node name="SFP_RX_LOS_FPGA&lt;44&gt;" /></NodePair>
+<NodePair><Node name="NC_3309" /><Node name="FPGA_SFP_LED_YEL_L&lt;44&gt;" /></NodePair>
+<NodePair><Node name="NC_3310" /><Node name="FPGA_SFP_LED_GRN_L&lt;39&gt;" /></NodePair>
+<NodePair><Node name="NC_3310" /><Node name="FPGA_SFP_LED_YEL_L&lt;39&gt;" /></NodePair>
+<NodePair><Node name="NC_3310" /><Node name="SFP_MOD_ABS_FPGA&lt;40&gt;" /></NodePair>
+<NodePair><Node name="NC_3310" /><Node name="FPGA_SFP_TX_DISABLE&lt;40&gt;" /></NodePair>
+<NodePair><Node name="NC_3311" /><Node name="FPGA_SFP_TX_DISABLE&lt;39&gt;" /></NodePair>
+<NodePair><Node name="NC_3311" /><Node name="SFP_RX_LOS_FPGA&lt;39&gt;" /></NodePair>
+<NodePair><Node name="NC_3311" /><Node name="CPLD3_FPGA_SPI_MISO" /></NodePair>
+<NodePair><Node name="NC_3312" /><Node name="FPGA_SFP_LED_YEL_L&lt;38&gt;" /></NodePair>
+<NodePair><Node name="NC_3312" /><Node name="SFP_RX_LOS_FPGA&lt;38&gt;" /></NodePair>
+<NodePair><Node name="NC_3312" /><Node name="SFP_MOD_ABS_FPGA&lt;38&gt;" /></NodePair>
+<NodePair><Node name="NC_3312" /><Node name="FPGA_CPLD_RST_L" /></NodePair>
+<NodePair><Node name="NC_3314" /><Node name="SFP_RX_LOS_FPGA&lt;41&gt;" /></NodePair>
+<NodePair><Node name="NC_3314" /><Node name="SFP_RX_LOS_FPGA&lt;40&gt;" /></NodePair>
+<NodePair><Node name="NC_3317" /><Node name="SFP_MOD_ABS_FPGA&lt;43&gt;" /></NodePair>
+<NodePair><Node name="NC_3317" /><Node name="SFP_MOD_ABS_FPGA&lt;42&gt;" /></NodePair>
+<NodePair><Node name="NC_3317" /><Node name="SFP_RX_LOS_FPGA&lt;42&gt;" /></NodePair>
+<NodePair><Node name="NC_3317" /><Node name="FPGA_SFP_LED_YEL_L&lt;42&gt;" /></NodePair>
+<NodePair><Node name="NC_3318" /><Node name="SFP_RX_LOS_FPGA&lt;43&gt;" /></NodePair>
+<NodePair><Node name="NC_3318" /><Node name="FPGA_SFP_LED_GRN_L&lt;42&gt;" /></NodePair>
+<NodePair><Node name="NC_3320" /><Node name="UNNAMED_4126_LCMXO2640U_I151_PT17CINITM" /></NodePair>
+<NodePair><Node name="NC_3320" /><Node name="FPGA_SFP_TX_DISABLE&lt;35&gt;" /></NodePair>
+<NodePair><Node name="NC_3321" /><Node name="FPGA_SFP_LED_YEL_L&lt;35&gt;" /></NodePair>
+<NodePair><Node name="NC_3321" /><Node name="SFP_RX_LOS_FPGA&lt;35&gt;" /></NodePair>
+<NodePair><Node name="NC_3321" /><Node name="SFP_MOD_ABS_FPGA&lt;35&gt;" /></NodePair>
+<NodePair><Node name="NC_3322" /><Node name="SFP_MOD_ABS_FPGA&lt;35&gt;" /></NodePair>
+<NodePair><Node name="NC_3322" /><Node name="CPLD3_JTAGEN" /></NodePair>
+<NodePair><Node name="NC_3322" /><Node name="SFP_TX_FAULT_FPGA&lt;36&gt;" /></NodePair>
+<NodePair><Node name="NC_3323" /><Node name="SFP_RX_LOS_FPGA&lt;36&gt;" /></NodePair>
+<NodePair><Node name="NC_3323" /><Node name="SFP_MOD_ABS_FPGA&lt;36&gt;" /></NodePair>
+<NodePair><Node name="NC_3323" /><Node name="FPGA_SFP_TX_DISABLE&lt;36&gt;" /></NodePair>
+<NodePair><Node name="NC_3325" /><Node name="FPGA_SFP_LED_YEL_L&lt;37&gt;" /></NodePair>
+<NodePair><Node name="NC_3325" /><Node name="SFP_RX_LOS_FPGA&lt;37&gt;" /></NodePair>
+<NodePair><Node name="NC_3325" /><Node name="SFP_MOD_ABS_FPGA&lt;37&gt;" /></NodePair>
+<NodePair><Node name="NC_3326" /><Node name="FPGA_SFP_LED_GRN_L&lt;32&gt;" /></NodePair>
+<NodePair><Node name="NC_3326" /><Node name="FPGA_SFP_TX_DISABLE&lt;32&gt;" /></NodePair>
+<NodePair><Node name="NC_3327" /><Node name="FPGA_SFP_LED_GRN_L&lt;31&gt;" /></NodePair>
+<NodePair><Node name="NC_3327" /><Node name="FPGA_SFP_TX_DISABLE&lt;31&gt;" /></NodePair>
+<NodePair><Node name="NC_3327" /><Node name="SFP_TX_FAULT_FPGA&lt;31&gt;" /></NodePair>
+<NodePair><Node name="NC_3327" /><Node name="SFP_TX_FAULT_FPGA&lt;32&gt;" /></NodePair>
+<NodePair><Node name="NC_3330" /><Node name="FPGA_SFP_LED_YEL_L&lt;29&gt;" /></NodePair>
+<NodePair><Node name="NC_3330" /><Node name="FPGA_SFP_TX_DISABLE&lt;30&gt;" /></NodePair>
+<NodePair><Node name="NC_3330" /><Node name="SFP_TX_FAULT_FPGA&lt;30&gt;" /></NodePair>
+<NodePair><Node name="NC_3330" /><Node name="SFP_RX_LOS_FPGA&lt;30&gt;" /></NodePair>
+<NodePair><Node name="NC_3332" /><Node name="FPGA_SFP_LED_GRN_L&lt;29&gt;" /></NodePair>
+<NodePair><Node name="NC_3332" /><Node name="FPGA_SFP_TX_DISABLE&lt;29&gt;" /></NodePair>
+<NodePair><Node name="NC_3332" /><Node name="SFP_TX_FAULT_FPGA&lt;29&gt;" /></NodePair>
+<NodePair><Node name="NC_3333" /><Node name="FPGA_SFP_LED_YEL_L&lt;27&gt;" /></NodePair>
+<NodePair><Node name="NC_3333" /><Node name="FPGA_SFP_TX_DISABLE&lt;28&gt;" /></NodePair>
+<NodePair><Node name="NC_3333" /><Node name="SFP_RX_LOS_FPGA&lt;28&gt;" /></NodePair>
+<NodePair><Node name="NC_3333" /><Node name="SFP_TX_FAULT_FPGA&lt;28&gt;" /></NodePair>
+<NodePair><Node name="NC_3334" /><Node name="SFP_MOD_ABS_FPGA&lt;27&gt;" /></NodePair>
+<NodePair><Node name="NC_3334" /><Node name="SFP_TX_FAULT_FPGA&lt;27&gt;" /></NodePair>
+<NodePair><Node name="NC_3334" /><Node name="FPGA_SFP_LED_GRN_L&lt;27&gt;" /></NodePair>
+<NodePair><Node name="NC_3335" /><Node name="FPGA_SFP_LED_GRN_L&lt;26&gt;" /></NodePair>
+<NodePair><Node name="NC_3335" /><Node name="FPGA_SFP_TX_DISABLE&lt;26&gt;" /></NodePair>
+<NodePair><Node name="NC_3335" /><Node name="FPGA_CPLD_RST_L" /></NodePair>
+<NodePair><Node name="NC_3335" /><Node name="FPGA_SFP_LED_YEL_L&lt;26&gt;" /></NodePair>
+<NodePair><Node name="NC_3337" /><Node name="FPGA_CPLD4_SPI_MOSI" /></NodePair>
+<NodePair><Node name="NC_3337" /><Node name="FPGA_CPLD4_SPI_CS_L" /></NodePair>
+<NodePair><Node name="NC_3337" /><Node name="SFP_TX_FAULT_FPGA&lt;26&gt;" /></NodePair>
+<NodePair><Node name="NC_3337" /><Node name="FPGA_CPLD4_DATA" /></NodePair>
+<NodePair><Node name="NC_3340" /><Node name="QSFP_INT_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3340" /><Node name="QSFP_MOD_ABS&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3340" /><Node name="QSFP_LED_YEL_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3341" /><Node name="QSFP_MOD_ABS&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3341" /><Node name="QSFP_LED_YEL_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3341" /><Node name="QSFP_LED_GRN_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3342" /><Node name="QSFP_LED_YEL_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3342" /><Node name="QSFP_LED_GRN_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3343" /><Node name="QSFP_LED_GRN_L&lt;5&gt;" /></NodePair>
+<NodePair><Node name="NC_3345" /><Node name="UNNAMED_4127_LCMXO2640U_I273_PT17CINITM" /></NodePair>
+<NodePair><Node name="NC_3345" /><Node name="QSFP_INT_L&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3346" /><Node name="QSFP_RST_L&lt;0&gt;" /></NodePair>
+<NodePair><Node name="NC_3346" /><Node name="CPLD4_JTAGEN" /></NodePair>
+<NodePair><Node name="NC_3346" /><Node name="QSFP_INT_L&lt;1&gt;" /></NodePair>
+<NodePair><Node name="NC_3348" /><Node name="QSFP_LPMODE&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3348" /><Node name="QSFP_RST_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3348" /><Node name="QSFP_LED_YEL_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3349" /><Node name="QSFP_RST_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3349" /><Node name="QSFP_LED_YEL_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="NC_3349" /><Node name="QSFP_LED_GRN_L&lt;2&gt;" /></NodePair>
+<NodePair><Node name="RT1_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV0_AVDDL_RT1_2" /></NodePair>
+<NodePair><Node name="RT2_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV1_AVDDL_RT1_2" /></NodePair>
+<NodePair><Node name="RT3_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV0_AVDDL_RT3_4" /></NodePair>
+<NodePair><Node name="RT4_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV1_AVDDL_RT3_4" /></NodePair>
+<NodePair><Node name="RT5_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV0_AVDDL_RT5_6" /></NodePair>
+<NodePair><Node name="RT6_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV1_AVDDL_RT5_6" /></NodePair>
+<NodePair><Node name="RT7_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV0_AVDDL_RT7_8" /></NodePair>
+<NodePair><Node name="RT8_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV1_AVDDL_RT7_8" /></NodePair>
+<NodePair><Node name="RT9_M2_0_7_SYNCE_CLK" /><Node name="FLTR_BV_AVDDL_RT9" /></NodePair>
+</Test>

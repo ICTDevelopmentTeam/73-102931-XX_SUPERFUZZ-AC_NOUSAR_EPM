@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863902   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:23 2022
+on failure
+   report parallel devices
+   report "c05_rtv2 220p"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "TSEN1_R_RTV2"
+jumper 10.0k, re4, wb, ar100m, op
+! "r07_rtv2" test.
+off failure

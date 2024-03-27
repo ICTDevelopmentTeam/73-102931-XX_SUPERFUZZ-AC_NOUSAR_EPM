@@ -1,0 +1,29 @@
+		Agilent Vectorless Test EP AutoDebug Tool
+
+
+
+-------------------------------------------------------------------------------
+AGILENT VECTORLESS TEST EP AUTODEBUG	Thu Feb 23, 2023 15:40:18 PM
+
+testjet
+-------------------------------------------------------------------------------
+
+Autodebugging the entire test.
+Validating output file "testjet"
+Validating input file "debug/testjet/adb/tjraw.txt"
+Getting/validating the header from "testjet"
+Reading data from "debug/testjet/adb/tjraw.txt"
+cp: HiMinOffset 20.0 LowMinOffset 10.0 HiPercent 2.0 MinCpk 2.5 LowPercent 0.50 LowestLowLimit 2.0
+Reading test source "testjet"...
+Analyzing Test Data...
+Backing up file "testjet" to "testjet.bkup6"
+Backing up file "testjet.bd" to "testjet.bd.bkup5"
+Reading bd data from "debug/testjet/adb/testjet.bd.bkup5"
+Writing new test "testjet"
+
+	Devices:                        53
+	Pins:                           1147
+	Pins iVTEP:                     0
+	Power, ground, and fixed pins: Not Reported
+	Pins commented:  303
+

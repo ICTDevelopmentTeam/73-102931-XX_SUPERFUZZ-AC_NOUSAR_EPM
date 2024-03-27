@@ -1,0 +1,15 @@
+!!!!    2    0    1 1648519441  Va272                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:50 2022
+on failure
+report parallel devices
+report "r629 4.70k"
+report "r747 4.70k"
+report "r1139 4.70k"
+end on failure
+disconnect all
+connect s to "P3_3VA"
+connect i to "PMBUS_ALERT_L"
+!B!resistor 1.175k, 10.00, 10.00, re4, wb, ar1.00
+resistor 1.175k,25.00,20.00,re4,wb,ar100m
+! "r18" test.
+off failure

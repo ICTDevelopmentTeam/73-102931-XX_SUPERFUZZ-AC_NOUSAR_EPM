@@ -1,0 +1,15 @@
+!!!!   21    2    1 1419215979  Vd7a2                                         
+!20-100282-01 XTR, NPN, MMBT3904T, 40V, 2
+
+transistor "q1", 200,  50, n, nr, pn"20-100282-01"
+
+external pins "B"
+   device "q1" pins "B"
+
+external pins "C"
+   device "q1" pins "C"
+
+external pins "E"
+   device "q1" pins "E"
+
+

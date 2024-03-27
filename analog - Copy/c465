@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863894   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:15 2022
+on failure
+   report parallel devices
+   report "r194 150"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "CAP_CLK212M_BUF_MM_TOP_REFCLK_P"
+jumper 143, re3, wb, ar1.00, op
+! "c465" test.
+off failure

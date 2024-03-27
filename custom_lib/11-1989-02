@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  V817b                                         
+
+!#  11-1989-02
+!#  11-1989-02 CAP,CE,6.8pF,50V,C0G,0.50pF,S
+!#  Wed Apr 17 16:02:55 2019
+
+capacitor *, 6.8p, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

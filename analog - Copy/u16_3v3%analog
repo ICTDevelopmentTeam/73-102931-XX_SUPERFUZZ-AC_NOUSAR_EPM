@@ -1,0 +1,18 @@
+!!!!    2    0    1 1668535014   0000                                         
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+   disconnect all
+   connect i to nodes "P3_3V"
+   connect l to ground
+
+   detector dcv, expect 3.3
+   measure 3.3 * 1.08, 3.3 * 0.92
+end subtest
+
+
+
+

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651027060  V53a6                                         
+! IPG: rev 09.20p  Mon Mar 21 20:08:54 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "MIFPGA_POR_L"                                                                                                                                     
+connect i to "LED_BY_BMC_L"                                                                                                                                     
+!B!diode 597m, 227m, idc10m, co2.8, ar597m                                                                                                                      
+diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+! "cr8%cr" test.                                                                                                                                                

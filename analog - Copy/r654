@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521817  V05ce                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:22 2022
+disconnect all
+connect s to "MIFPGA_PMBUS_SCL"
+connect i to "SRT_P1V2_TILT_SCL"
+!B!resistor 330, 6.00, 6.00, re3, ar200m
+resistor 330,25.00,20.00,re3,ar200m
+! "r654" test.

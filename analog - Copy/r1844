@@ -1,0 +1,14 @@
+!!!!    2    0    1 1650874291   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:27 2022
+on failure
+report parallel devices
+report "c578 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_4141_CAP_I91_A"
+connect g to "P12V"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa2.20m
+resistor 10k,25.00,20.00,re4,wb,ar100m,wa10m,ed
+! "r1844" test.
+off failure

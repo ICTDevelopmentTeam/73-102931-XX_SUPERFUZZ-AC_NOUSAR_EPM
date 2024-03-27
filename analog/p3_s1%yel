@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651027545  Vce10                                         
+! IPG: rev 09.20p  Mon Mar 21 20:09:09 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "SFP_YEL_R_L<3>_S1"                                                                                                                                
+connect i to "P3_3VA"                                                                                                                                           
+!B!diode 2.65, 1.23, idc10m, co4.8, ar2.65                                                                                                                      
+diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+! "p3_s1%yel" test.                                                                                                                                             

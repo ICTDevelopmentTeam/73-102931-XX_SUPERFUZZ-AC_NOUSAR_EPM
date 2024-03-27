@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863967   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+disconnect all
+connect s to "P1V8"
+connect i to "FLTR_FC_MM_BOT_3"
+jumper 5.94, re1, ar200m
+! "l7_3" test.

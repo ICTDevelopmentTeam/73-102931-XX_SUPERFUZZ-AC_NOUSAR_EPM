@@ -1,0 +1,83 @@
+!!!!    2    0    1 1298426837  V73a5                                         
+!mic29502
+test powered analog
+   disconnect all
+   power pins 10,5
+   test "VCC"
+   test "EN"
+   test "VREF"
+   test "PROG"
+   test "TIMER"
+   test "SENSE"
+   test "GATE"
+   test "OUT"
+   test "PG"
+end test
+!
+!-----------------------------------------------------------------------
+!
+subtest  "VCC"
+   connect i to pins 10           ! Output
+   connect l to pins 5            ! Ground
+   detector dcv, expect  28
+   measure   28.25, 27.75
+end subtest
+
+subtest  "EN"
+   connect i to pins 1            !
+   connect l to pins 5            ! Ground
+   detector dcv, expect  2.5
+   measure  2.7, 2.3
+end subtest
+
+subtest  "VREF"
+   connect i to pins 2            !
+   connect l to pins 5            ! Ground
+   detector dcv, expect 1.2
+   measure  1.4, 1.0
+end subtest
+
+subtest  "PROG"
+   connect i to pins 3            ! Output
+   connect l to pins 5            ! Ground
+   detector dcv, expect  28
+   measure   28.25, 27.75
+end subtest
+
+subtest  "TIMER"
+   connect i to pins 4            !
+   connect l to pins 5            ! Ground
+   detector dcv, expect  2.5
+   measure  2.7, 2.3
+end subtest
+
+subtest  "SENSE"
+   connect i to pins 9            !
+   connect l to pins 5            ! Ground
+   detector dcv, expect 1.2
+   measure  1.4, 1.0
+end subtest
+
+subtest  "GATE"
+   connect i to pins 8            ! Output
+   connect l to pins 5            ! Ground
+   detector dcv, expect  28
+   measure   28.25, 27.75
+end subtest
+
+subtest  "OUT"
+   connect s to pins 1
+   connect i to pins 7           !
+   connect l to pins 5            ! Ground
+
+   source    dcv, amplitude 3.3, terminated 500, icompliance 1, on
+   detector dcv, expect  2.5
+   measure  2.7, 2.3
+end subtest
+
+subtest  "PG"
+   connect i to pins 6            !
+   connect l to pins 5            ! Ground
+   detector dcv, expect 1.2
+   measure  1.4, 1.0
+end subtest

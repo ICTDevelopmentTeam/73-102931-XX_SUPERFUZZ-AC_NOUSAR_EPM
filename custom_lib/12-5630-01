@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V766d                                         
+
+!  12-5630-01
+!  12-5630-01 RES,TKF,1.30 k ohm,0.063W,1.0
+
+resistor *, 1.30k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

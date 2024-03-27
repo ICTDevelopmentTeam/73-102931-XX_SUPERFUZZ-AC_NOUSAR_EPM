@@ -1,0 +1,1138 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 09:52:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    116172 Open
+UNNAMED_4095_RES_I469_A                 
+                r4_sf1.1
+                 r766.1
+To:     v                    119170
+PMOD_VSENP_P3V3_SFP1_ALT                
+                r4_sf1.2
+               u1_sf1.12
+Common Devices:
+                 r4_sf1
+Message is:
+Check R4_SF1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125   90
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135   90
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT3_4    21413
+               c8_rt3_4.1
+              c13_rt3_4.1
+              c15_rt3_4.1
+              c16_rt3_4.1
+              c21_rt3_4.1
+              c22_rt3_4.1
+              c24_rt3_4.1
+              c25_rt3_4.1
+              c27_rt3_4.1
+              c28_rt3_4.1
+Too many to print.
+Common Devices:
+                l5_rt3_4
+Message is:
+Check L5_RT3_4
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT1_2    21416
+              c76_rt1_2.1
+              c78_rt1_2.1
+              c80_rt1_2.1
+              c86_rt1_2.1
+              c88_rt1_2.1
+              c92_rt1_2.1
+              c94_rt1_2.1
+              c96_rt1_2.1
+              c98_rt1_2.1
+              c100_rt1_2.1
+Too many to print.
+Common Devices:
+                l7_rt1_2
+Message is:
+Check L7_RT1_2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT5_6   113147
+              c75_rt5_6.1
+              c77_rt5_6.1
+              c79_rt5_6.1
+              c85_rt5_6.1
+              c87_rt5_6.1
+              c91_rt5_6.1
+              c93_rt5_6.1
+              c95_rt5_6.1
+              c97_rt5_6.1
+              c99_rt5_6.1
+Too many to print.
+Common Devices:
+                l6_rt5_6
+Message is:
+Check L6_RT5_6
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   PMOD_VSENP_3V3         107149
+               r842_3v3.2
+               u16_3v3.12
+Common Devices:
+                r842_3v3
+Message is:
+Check R842_3V3
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  134
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   PMOD_VSENP_5V          221107  134
+                r71_5v.2
+               u15_5v.12
+Common Devices:
+                 r71_5v
+Message is:
+Check R71_5V
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: GND                    215142 Open
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   vdd_ph_92               20353
+               r4_92_5.1
+               u1_92_5.32
+Common Devices:
+                u1_92_5
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: vdd_ph_92               20353 Open
+               r4_92_5.1
+               u1_92_5.32
+To:   VDD_BOOT_R_92          202113
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                r4_92_5
+Message is:
+Check R4_92_5
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: i2c_sda_sfp<44>        116155 Open
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<31>         21558  159
+                r32_s1.2
+                 r846.1
+               rn46_s1.4
+           rn46_s1%pin_4_5.1
+To:   srt_sfp31_i2c_scl_edge  21662  159
+                 r846.2
+                u49.AC15
+Common Devices:
+                  r846
+Message is:
+Check R846
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<47>         21656 Open
+                r40_s1.2
+                 r862.1
+               rn100_s1.4
+           rn100_s1%pin_4_5.1
+To:   srt_sfp47_i2c_scl_edge  21761
+                 r862.2
+                u49.B11
+Common Devices:
+                  r862
+Message is:
+Check R862
+------End, 12 Problems Reported---------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 09:53:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125 Open
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT5_6   113147
+              c75_rt5_6.1
+              c77_rt5_6.1
+              c79_rt5_6.1
+              c85_rt5_6.1
+              c87_rt5_6.1
+              c91_rt5_6.1
+              c93_rt5_6.1
+              c95_rt5_6.1
+              c97_rt5_6.1
+              c99_rt5_6.1
+Too many to print.
+Common Devices:
+                l6_rt5_6
+Message is:
+Check L6_RT5_6
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   PMOD_VSENP_3V3         107149
+               r842_3v3.2
+               u16_3v3.12
+Common Devices:
+                r842_3v3
+Message is:
+Check R842_3V3
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<44>        116155 Open
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<31>         21558 Open
+                r32_s1.2
+                 r846.1
+               rn46_s1.4
+           rn46_s1%pin_4_5.1
+To:   srt_sfp31_i2c_scl_edge  21662
+                 r846.2
+                u49.AC15
+Common Devices:
+                  r846
+Message is:
+Check R846
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<47>         21656 Open
+                r40_s1.2
+                 r862.1
+               rn100_s1.4
+           rn100_s1%pin_4_5.1
+To:   srt_sfp47_i2c_scl_edge  21761
+                 r862.2
+                u49.B11
+Common Devices:
+                  r862
+Message is:
+Check R862
+------End, 6 Problems Reported----------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 09:53:16 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125   69
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135   69
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT5_6   113147
+              c75_rt5_6.1
+              c77_rt5_6.1
+              c79_rt5_6.1
+              c85_rt5_6.1
+              c87_rt5_6.1
+              c91_rt5_6.1
+              c93_rt5_6.1
+              c95_rt5_6.1
+              c97_rt5_6.1
+              c99_rt5_6.1
+Too many to print.
+Common Devices:
+                l6_rt5_6
+Message is:
+Check L6_RT5_6
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   PMOD_VSENP_3V3         107149
+               r842_3v3.2
+               u16_3v3.12
+Common Devices:
+                r842_3v3
+Message is:
+Check R842_3V3
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     11432   53
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435   53
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<44>        116155 Open
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: NC_MIFPGA_OSC_OE       203128  473
+                 r204.1
+To:   CLK_OSC_OE              20915  473
+                 r157.2
+                 r204.2
+                 r365.2
+                 u51.1
+                 u52.1
+                 u53.1
+Common Devices:
+                  r204
+Message is:
+Check R204
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<31>         21558  222
+                r32_s1.2
+                 r846.1
+               rn46_s1.4
+           rn46_s1%pin_4_5.1
+To:   srt_sfp31_i2c_scl_edge  21662  222
+                 r846.2
+                u49.AC15
+Common Devices:
+                  r846
+Message is:
+Check R846
+------End, 7 Problems Reported----------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 09:53:30 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125 Open
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT5_6   113147
+              c75_rt5_6.1
+              c77_rt5_6.1
+              c79_rt5_6.1
+              c85_rt5_6.1
+              c87_rt5_6.1
+              c91_rt5_6.1
+              c93_rt5_6.1
+              c95_rt5_6.1
+              c97_rt5_6.1
+              c99_rt5_6.1
+Too many to print.
+Common Devices:
+                l6_rt5_6
+Message is:
+Check L6_RT5_6
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   PMOD_VSENP_3V3         107149
+               r842_3v3.2
+               u16_3v3.12
+Common Devices:
+                r842_3v3
+Message is:
+Check R842_3V3
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<44>        116155 Open
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<31>         21558 Open
+                r32_s1.2
+                 r846.1
+               rn46_s1.4
+           rn46_s1%pin_4_5.1
+To:   srt_sfp31_i2c_scl_edge  21662
+                 r846.2
+                u49.AC15
+Common Devices:
+                  r846
+Message is:
+Check R846
+------End, 5 Problems Reported----------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:01:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u30
+  Pin 13  Node sfp_rx_los_fpga<24>
+  Measured 0.4              (BRC 21602)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:02:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u30
+  Pin 13  Node sfp_rx_los_fpga<24>
+  Measured 0.4              (BRC 21602)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:02:12 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u30
+  Pin 13  Node sfp_rx_los_fpga<24>
+  Measured 0.5              (BRC 21602)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:02:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u30
+  Pin 13  Node sfp_rx_los_fpga<24>
+  Measured 0.6              (BRC 21602)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:05:11 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021340u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:05:31 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021366u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:05:40 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021365u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:05:49 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021363u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:05:58 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021367u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:19:35 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021358u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:19:55 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021379u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:20:05 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021379u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:20:14 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021381u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:20:23 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021379u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:21:02 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021374u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:21:22 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021387u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:21:31 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021383u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:21:40 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021388u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+73-102898-01_03
+Tue Aug 15 10:21:49 2023
+----------------------------------------
+c2_a HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.021389u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2715064Q
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 10:23:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+------End, 1 Problem Reported-----------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 10:23:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  189
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427  189 
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+------End, 1 Problem Reported-----------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 10:23:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  113
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427  113 
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+------End, 1 Problem Reported-----------
+S/N:FLM2719069T
+----------------------------------------
+Shorts Report for "shorts".
+Tue Aug 15 10:23:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853   27
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427   27 
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+------End, 1 Problem Reported-----------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:24:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.6              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:25:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.5              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:25:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.5              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:25:22 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.5              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:25:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.5              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:26:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.7              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:26:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.0              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:26:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.0              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:26:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.4              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:27:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.7              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:27:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.9              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:27:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 1.5              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:28:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.9              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:28:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.8              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T
+----------------------------------------
+TestJet Report for "testjet".
+Tue Aug 15 10:28:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.9              (BRC 104172)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2719069T

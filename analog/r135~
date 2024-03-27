@@ -1,0 +1,7 @@
+!!!!    2    0    1 1648520074  Vc9ce                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:03 2022
+disconnect all
+connect s to "RT_DOWNLINK_M4_0_3_SYNCE_CLK" ;  a to "RT_DOWNLINK_M4_0_3_SYNCE_CLK"
+connect i to "SRT_RT_DOWNLINK_M4_0_3_SYNCE_CLK" ;  b to "SRT_RT_DOWNLINK_M4_0_3_SYNCE_CLK"
+resistor 33,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r135" test.

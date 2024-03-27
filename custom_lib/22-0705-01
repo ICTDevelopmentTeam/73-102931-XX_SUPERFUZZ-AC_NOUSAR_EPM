@@ -1,0 +1,22 @@
+!!!!   21    2    1 1312388650  V6aa6                                         
+
+jumper "pin_1_2", closed, nr
+jumper "pin_1_3", open, nr
+jumper "pin_3_4", closed, nr
+
+external pins 5; noconnect
+external pins 6; noconnect
+
+external pins 1
+   device "pin_1_2" pins 1
+   device "pin_1_3" pins 1
+
+external pins 2
+   device "pin_1_2" pins 2
+
+external pins 3
+   device "pin_1_3" pins 2
+   device "pin_3_4" pins 1
+
+external pins 4
+   device "pin_3_4" pins 2

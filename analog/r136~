@@ -1,0 +1,7 @@
+!!!!    2    0    1 1648520110  V2a6e                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:04 2022
+disconnect all
+connect s to "SRT_RT_UPLINK_M4_0_3_SYNCE_CLK" ;  a to "SRT_RT_UPLINK_M4_0_3_SYNCE_CLK"
+connect i to "RT_UPLINK_M4_0_3_SYNCE_CLK" ;  b to "RT_UPLINK_M4_0_3_SYNCE_CLK"
+resistor 33,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r136" test.

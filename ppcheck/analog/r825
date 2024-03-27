@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD P-Pin resistance"
+report "check nodes UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PVOU P-Pin resistance"
+end on failure
+disconnect all
+connect s to "UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD"
+connect i to "UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PVOU"
+resistor 12,20,100, re1, ar100m,ed
+off failure

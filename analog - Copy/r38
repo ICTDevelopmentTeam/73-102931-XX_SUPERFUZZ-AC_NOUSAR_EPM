@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517079  V63d4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:19 2022
+disconnect all
+connect s to "GND"
+connect i to "FPGA_CPLD_RST_L"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+!resistor 10k, 25.00, 20.00, wb, ar100m, re4
+! "r38" test.

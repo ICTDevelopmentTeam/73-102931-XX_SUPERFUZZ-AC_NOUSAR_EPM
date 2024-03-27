@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517105  V4bd5                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:25 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "MIFPGA_INIT_DONE"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k,25.00,20.00,re4,wb,ar100m
+! "r601" test.

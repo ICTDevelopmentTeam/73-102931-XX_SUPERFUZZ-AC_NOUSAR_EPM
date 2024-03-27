@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663165  V7e1b                                         
+
+!  12-2588-02
+!  12-2588-02 RES,TKF,1.5 k ohm,0.063W,1%,S
+
+resistor *, 1.5k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

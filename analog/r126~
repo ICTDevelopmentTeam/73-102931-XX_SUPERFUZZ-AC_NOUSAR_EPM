@@ -1,0 +1,11 @@
+!!!!    2    0    1 1651107447   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:23 2022
+disconnect all
+connect i to "MIFPGA_PMBUS_SCL"
+connect s to "P3_3VA"
+connect g to "SRT_P0V9_SNDN_SCL"; l to "SRT_P0V9_SNDN_SCL"
+connect g to "SRT_RT1_PMBUS2_SCL_R"
+connect g to "SRT_RT2_PMBUS2_SCL_R"
+!B!resistor 4.75k, 10.00, 10.00, re4, wb, ar200m, sl
+resistor 4.75k,25.00,20.00,re4,wb,ar200m,ed,wa20m,sl
+! "r126" test.

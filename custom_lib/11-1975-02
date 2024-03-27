@@ -1,0 +1,13 @@
+!!!!   21    2    1 1489746796   0000                                         
+
+!#  11-1975-02
+!#  11-1975-02 CAP,CE,27pF,50V,C0G,5%,SM,040
+!#  Fri Mar 17 17:18:44 2017
+
+capacitor *, 27p, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,17 @@
+
+report level is report
+report is "debug/report"
+buffered reporting on
+log level is failures
+option bit 32
+
+call Disconnect_Power_On_Board 
+call Out_Second_Stage
+unpowered
+call Shorts (Failed_In_Shorts, Mode$ & ShortsMsg$)
+faoff 2
+
+log out "debug/log"
+log clear
+report out
+report is *

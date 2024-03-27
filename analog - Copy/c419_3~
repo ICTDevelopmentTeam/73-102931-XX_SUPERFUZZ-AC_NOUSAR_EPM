@@ -1,0 +1,34 @@
+!!!!    2    0    1 1651023295   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:00 2022
+on failure
+report parallel devices
+report "c423_3 22.0u"
+report "c16 10.0u"
+report "c370_3 4.70u"
+report "c374_3 4.70u"
+report "c378_3 4.70u"
+report "c382_3 4.70u"
+report "c17 2.20u"
+report "c127 1.00u"
+report "c386_3 1.00u"
+report "c390_3 1.00u"
+report "c394_3 1.00u"
+report "c398_3 1.00u"
+report "c752_3 470n"
+report "c19 100n"
+report "c25 100n"
+report "c141 100n"
+report "c142 100n"
+report "c402_3 100n"
+report "c406_3 100n"
+report "c410_3 100n"
+report "c414_3 100n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P1V8"; b to "P1V8"
+!#connect g to "P1V8_FB"
+!B!capacitor 81.27u, 20.00, 20.05, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+capacitor 581.27u,35.00,40.0,fr128,re1,ar100m,ed,sa,sb,en,nocomp
+! "c419_3" test.
+off failure

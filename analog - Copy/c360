@@ -1,0 +1,9 @@
+!!!!    2    0    1 1653033085  V7703                                         
+!* Top probe [CLK103M_DAV_SNDN1_CORE_REFCLK_N] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:00:46 2022
+disconnect all
+connect s to "AC_CLK103M_DAV_SNDN1_CORE_REFCLK_N"
+connect i to "CLK103M_DAV_SNDN1_CORE_REFCLK_N"
+!B!capacitor 100n, 20.00, 20.00, fr1024, re3, wb, ar100m, nocomp
+capacitor 100n, 35.00, 40.0, fr1024, re4, wb, ar100m, nocomp
+! "c360" test.

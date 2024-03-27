@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863953   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:14 2022
+disconnect all
+connect s to "UNNAMED_4136_OSC_I456_OE"
+connect i to "FLTR_MI1_CLK125M_P3V3_OPT"
+jumper 10.0k, re4, wb, ar100m, op
+! "r782" test.

@@ -1,0 +1,92 @@
+Info:
+  App_version: 1.0.0
+  Config_version: 1.0.0
+  Name: sic451
+
+Parameter:
+  - operation.onoff: 'On'
+  - vout.command: '3.301'
+  - vout.scale_loop: '0.25'
+  - operation.offb: 'Immediate'
+  - operation.margin: 'Vout'
+  - operation.margin_fault: 'Enforced'
+  - vin.on: '10.000'
+  - vin.off: '9.000'
+  - onoffconfig.pu: 'on Command'
+  - onoffconfig.cmd: 'Respond'
+  - onoffconfig.en: 'Respond'
+  - onoffconfig.enpol: 'Active High'
+  - onoffconfig.offb: 'with Delay'
+  - sequencing.power_good_on: '2.971'
+  - sequencing.power_good_off: '2.805'
+  - sequencing.ton_delay: '0.000'
+  - sequencing.ton_rise: '5.000'
+  - sequencing.toff_delay: '0.000'
+  - sequencing.toff_fall: '5.000'
+  - comms.write_protect: 'None'
+  - vout.max: '14.000'
+  - vout.margin_high: '3.465'
+  - vout.margin_low: '3.135'
+  - vout.transition_rate: '0.125'
+  - loop.frequency_switch: '600.000'
+  - loop.interleave: 'Master'
+  - faults.vout_ov_warn_limit: '3.631'
+  - faults.vout_ov_fault_limit: '3.795'
+  - faults.vout_ov_fault_response: 'Output Disabled, Restart Continuously'
+  - faults.vout_uv_fault_limit: '2.641'
+  - faults.vout_uv_fault_response: 'Output Disabled, Restart Continuously with 20ms delay'
+  - faults.vout_uv_warn_limit: '2.971'
+  - faults.iout_oc_fault_limit: '26.000'
+  - faults.iout_oc_fault_response: 'Output Disabled after 128 consecutive OC cycles, Hiccup with 20ms delay'
+  - faults.iout_oc_warn_limit: '45.000'
+  - faults.ot_warn_limit: '105.000'
+  - faults.ot_fault_limit: '125.000'
+  - faults.ot_fault_response: 'Output Disabled, Restart Continuously'
+  - faults.vin_ov_fault_limit: '15.000'
+  - faults.vin_ov_fault_response: 'Output Disabled, Restart Continuously *'
+  - faults.vin_uv_warn_limit: '9.000'
+  - faults.Iin_oc_warn_limit: '5.000'
+  - loop.vdrv: 'Internal'
+  - loop.dcm_en: 'CCM'
+  - loop.ss_dcm_en: 'CCM'
+  - loop.se_dcm_en: 'CCM'
+  - loop.ton_max_response: 'PGood'
+  - loop.ultrasonic_en: 'Off'
+
+Sources:
+  - OPERATION: 0x88
+  - VOUT_COMMAND: 0x069A
+  - VOUT_SCALE_LOOP: 0xE802
+  - IOUT_OC_FAULT_RESPONSE: 0xA1
+  - ON_OFF_CONFIG: 0x1F
+  - WRITE_PROTECT: 0x00
+  - VOUT_MAX: 0x1C00
+  - VOUT_MARGIN_HIGH: 0x06EE
+  - VOUT_MARGIN_LOW: 0x0645
+  - VOUT_TRANSITION_RATE: 0xE002
+  - FREQUENCY_SWITCH: 0x0258
+  - VIN_ON: 0xF814
+  - VIN_OFF: 0xF812
+  - INTERLEAVE: 0x0100
+  - VOUT_OV_FAULT_LIMIT: 0x0797
+  - VOUT_OV_FAULT_RESPONSE: 0xF8
+  - VOUT_OV_WARN_LIMIT: 0x0743
+  - VOUT_UV_WARN_LIMIT: 0x05F1
+  - VOUT_UV_FAULT_LIMIT: 0x0548
+  - VOUT_UV_FAULT_RESPONSE: 0xB9
+  - IOUT_OC_FAULT_LIMIT: 0xF834
+  - IOUT_OC_WARN_LIMIT: 0xF85A
+  - OT_FAULT_LIMIT: 0x007D
+  - OT_FAULT_RESPONSE: 0xF9
+  - OT_WARN_LIMIT: 0x0069
+  - VIN_OV_FAULT_LIMIT: 0xF81E
+  - VIN_OV_FAULT_RESPONSE: 0xB8
+  - VIN_UV_WARN_LIMIT: 0xF812
+  - IIN_OC_WARN_LIMIT: 0xF80A
+  - POWER_GOOD_ON: 0x05F1
+  - POWER_GOOD_OFF: 0x059C
+  - TON_DELAY: 0x0000
+  - TON_RISE: 0x0005
+  - TOFF_DELAY: 0x0000
+  - TOFF_FALL: 0x0005
+  - MFR_OP_MODE: 0x00

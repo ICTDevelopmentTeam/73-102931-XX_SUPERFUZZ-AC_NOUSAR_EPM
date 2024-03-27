@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  V66d5                                         
+
+!#  11-2693-01
+!#  11-2693-01 CAP,CE,560pF,50V,X7R,10%,SM,0
+!#  Wed Apr 17 16:02:53 2019
+
+capacitor *, 560p, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

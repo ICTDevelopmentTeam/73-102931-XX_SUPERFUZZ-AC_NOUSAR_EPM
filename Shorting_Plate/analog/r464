@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes P3_3VA P-Pin resistance"
+report "check nodes DPLL_SYNCE_ADDR_SEL0 P-Pin resistance"
+end on failure
+disconnect all
+connect s to "P3_3VA"
+connect i to "DPLL_SYNCE_ADDR_SEL0"
+resistor 10,20,100, re1, ar100m,ed
+off failure

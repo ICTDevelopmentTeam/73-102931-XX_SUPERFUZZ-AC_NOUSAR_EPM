@@ -1,0 +1,10 @@
+!!!!    2    0    1 1653010025  Vd3c9                                         
+!* Top probe [SRT_CPU_PCIE_CLKOUT0_N] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:48 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "SRT_CPU_PCIE_CLKOUT0_N"
+connect g to "GND"
+!B!resistor 100, 15.00, 10.00, re2, ar100m, wa396u
+resistor 100, 30.00, 20.00, re2, ar100m, wa10m, ed
+! "r1015" test.

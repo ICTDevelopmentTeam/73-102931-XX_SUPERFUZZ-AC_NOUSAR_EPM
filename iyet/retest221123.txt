@@ -1,0 +1,613 @@
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 09:49:40 2022
+----------------------------------------
+r321 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.3870k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 09:49:56 2022
+----------------------------------------
+r321 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.3285k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 09:50:03 2022
+----------------------------------------
+r321 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.3336k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 09:50:10 2022
+----------------------------------------
+r321 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.3336k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 09:50:16 2022
+----------------------------------------
+r321 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.3316k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7
+----------------------------------------
+Shorts Report for "shorts".
+Wed Nov 23 12:27:23 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   61
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   61
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Wed Nov 23 12:27:35 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   59
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   59
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Wed Nov 23 12:27:47 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   60
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   60
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Wed Nov 23 12:27:58 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   60
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   60
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Wed Nov 23 12:28:10 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   61
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   61
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:41:08 2022
+----------------------------------------
+r1_1v2s HAS FAILED
+not-in-bom
+Measured:   5.3124k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.70p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K5
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:41:31 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.63p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K5
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:41:38 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.59p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K5
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:41:45 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.53p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K5
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:41:52 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.51p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K5
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:43:35 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.48p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K8
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:43:53 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.82p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K8
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:44:00 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.77p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K8
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:44:08 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.74p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K8
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:44:15 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.74p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K8
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:49:32 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.27p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700KA
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:49:51 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.51p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700KA
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:49:58 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.53p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700KA
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:50:05 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.54p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700KA
+----------------------------------------
+73-102898-01_03
+Wed Nov 23 12:50:12 2022
+----------------------------------------
+c06_rtv1 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   297.58p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700KA
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 01:37:25 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   62
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   62
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 01:37:37 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   61
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   61
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 01:37:49 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   61
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   61
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 01:38:00 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   61
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   61
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 01:38:12 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756   62
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064   62
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM264700K6
+----------------------------------------
+73-102898-01_03
+Thu Nov 24 01:45:01 2022
+----------------------------------------
+rn80_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn80_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   214.95
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700KB
+----------------------------------------
+73-102898-01_03
+Thu Nov 24 01:45:13 2022
+----------------------------------------
+rn80_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn80_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   2.9182M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700KB
+----------------------------------------
+73-102898-01_03
+Thu Nov 24 01:45:19 2022
+----------------------------------------
+rn80_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn80_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   206.87
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264700KB

@@ -1,0 +1,14 @@
+!!!!    2    0    1 1674592165   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:46 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r1844 10.0k"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "UNNAMED_4141_CAP_I91_A"                                                                                                                           
+connect g to "P12V"                                                                                                                                             
+!B!capacitor 100n, 20.00, 20.00, fr1024, re3, wb, ar100m, sa, en, nocomp                                                                                        
+capacitor 100n,35.00,40.0,fr1024,re3,wb,ar100m,sa,en,nocomp  !ADV                                                                                                   
+! "c578" test.                                                                                                                                                  
+off failure                                                                                                                                                     

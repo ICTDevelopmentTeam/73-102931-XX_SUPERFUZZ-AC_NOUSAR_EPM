@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648522167  V4896                                         
+! IPG: rev 09.20p  Mon Mar 21 20:07:47 2022
+disconnect all
+connect s to "P3V3_SFP1"
+connect i to "SFP_TX_FAULT_FPGA<30>"
+!B!resistor 2.2k, 10.00, 10.00, re4, wb, ar500m
+resistor 2.2k,25.00,20.00,re4,wb,ar500m
+! "rn47_s1%pin_3_6" test.

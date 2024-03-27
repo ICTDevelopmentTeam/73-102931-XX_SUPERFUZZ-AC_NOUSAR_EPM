@@ -1,0 +1,13 @@
+!!!!    2    0    1 1648520171  Vcf92                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:06 2022
+on failure
+report parallel devices
+report "r683 33.0"
+end on failure
+disconnect all
+connect s to "SRT_IO_MI_SPARE2" ;  a to "SRT_IO_MI_SPARE2"
+connect i to "IO_MI_SPARE2" ;  b to "IO_MI_SPARE2"
+!B!resistor 16.5, 40.30, 10.00, re2, ar500m ,sa,sb,ed,en
+resistor 16.5,50.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r200" test.
+off failure

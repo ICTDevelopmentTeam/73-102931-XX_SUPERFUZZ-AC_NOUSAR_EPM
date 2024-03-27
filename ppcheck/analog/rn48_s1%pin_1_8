@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes FPGA_SFP_RX_RATE_SEL<28> P-Pin resistance"
+report "check nodes SFP_RS0_R<4>_S1 P-Pin resistance"
+end on failure
+disconnect all
+connect s to "FPGA_SFP_RX_RATE_SEL<28>"
+connect i to "SFP_RS0_R<4>_S1"
+resistor 12,20,100, re1, ar100m,ed
+off failure

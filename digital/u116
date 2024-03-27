@@ -1,0 +1,511 @@
+!!!!    6    0    1 1652338549  V81e0                                         
+sequential
+
+vector cycle 10u
+receive delay 8u
+
+default device "u116"
+set terminators to on
+assign VCC  to pins *
+assign GND  to pins *
+
+assign SER  to pins 14
+assign OEB  to pins 13
+assign RSTB to pins 10
+assign SCLK to pins 11
+assign RCLK to pins 12
+assign Q0   to pins 15
+assign Q1   to pins 1
+assign Q2   to pins 2
+assign Q3   to pins 3
+assign Q4   to pins 4
+assign Q5   to pins 5
+assign Q6   to pins 6
+assign Q7   to pins 7
+assign Q7B  to pins *
+
+power   VCC,GND
+inputs  SER,OEB,RSTB,SCLK,RCLK
+outputs Q0,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q7B
+
+family LVT
+
+vector INIT1
+ set SER  to "1"
+ set OEB  to "0"
+ set RSTB to "0"
+ set SCLK to "0"
+ set RCLK to "0"
+ set Q7B  to "x"
+ set Q7   to "x"
+ set Q6   to "x"
+ set Q5   to "x"
+ set Q4   to "x"
+ set Q3   to "x"
+ set Q2   to "x"
+ set Q1   to "x"
+ set Q0   to "x"
+end vector
+
+vector KEEP1
+ set SER  to "k"
+ set OEB  to "k"
+ set RSTB to "k"
+ set SCLK to "k"
+ set RCLK to "k"
+ set Q7B  to "x"
+ set Q7   to "x"
+ set Q6   to "x"
+ set Q5   to "x"
+ set Q4   to "x"
+ set Q3   to "x"
+ set Q2   to "x"
+ set Q1   to "x"
+ set Q0   to "x"
+end vector
+
+vector SCLK_0
+ initialize to KEEP1
+ set SCLK   to "0"
+end vector
+
+vector SCLK_1
+ initialize to KEEP1
+ set SCLK   to "1"
+end vector
+
+vector RCLK_0
+ initialize to KEEP1
+ set RCLK   to "0"
+end vector
+
+vector RCLK_1
+ initialize to KEEP1
+ set RCLK   to "1"
+end vector
+
+vector D_0
+ initialize to KEEP1
+ set SER    to "0"
+end vector
+
+vector D_1
+ initialize to KEEP1
+ set SER    to "1"
+end vector
+
+vector OEB_1
+ initialize to KEEP1
+ set OEB    to "1"
+end vector
+
+vector RSTB_1
+ initialize to KEEP1
+ set RSTB   to "1"
+end vector
+
+vector Q7B_0
+ initialize to KEEP1
+ set Q7B    to "0"
+end vector
+
+vector Q7B_1
+ initialize to KEEP1
+ set Q7B    to "1"
+end vector
+
+vector OUT_00000000
+ initialize to KEEP1
+ set Q7B    to "0"
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_00000001
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "1"
+end vector
+
+vector OUT_00000010
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "1"
+ set Q0     to "0"
+end vector
+
+vector OUT_00000100
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "1"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_00001000
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "1"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_00010000
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "1"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_00100000
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "0"
+ set Q5     to "1"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_01000000
+ initialize to KEEP1
+ set Q7     to "0"
+ set Q6     to "1"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_10000000
+ initialize to KEEP1
+ set Q7     to "1"
+ set Q6     to "0"
+ set Q5     to "0"
+ set Q4     to "0"
+ set Q3     to "0"
+ set Q2     to "0"
+ set Q1     to "0"
+ set Q0     to "0"
+end vector
+
+vector OUT_11111111
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_11111110
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "0"
+end vector
+
+vector OUT_11111101
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "0"
+ set Q0     to "1"
+end vector
+
+vector OUT_11111011
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "0"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_11110111
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "0"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_11101111
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "0"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_11011111
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "0"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_10111111
+ initialize to KEEP1
+ set Q7B    to "1"
+ set Q7     to "1"
+ set Q6     to "0"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_01111111
+ initialize to KEEP1
+ set Q7B    to "0"
+ set Q7     to "0"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+vector OUT_Z
+ initialize to KEEP1
+ set Q7     to "1"
+ set Q6     to "1"
+ set Q5     to "1"
+ set Q4     to "1"
+ set Q3     to "1"
+ set Q2     to "1"
+ set Q1     to "1"
+ set Q0     to "1"
+end vector
+
+! ****************************************************************************
+
+sub RST_IC
+ execute INIT1
+ repeat 8 times
+  execute SCLK_1
+  execute SCLK_0
+ end repeat
+ execute RSTB_1
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00000000
+end sub
+
+sub SHIFTIN(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SCLK_1
+ execute SCLK_0
+ execute D6
+ execute SCLK_1
+ execute SCLK_0
+ execute D5
+ execute SCLK_1
+ execute SCLK_0
+ execute D4
+ execute SCLK_1
+ execute SCLK_0
+ execute D3
+ execute SCLK_1
+ execute SCLK_0
+ execute D2
+ execute SCLK_1
+ execute SCLK_0
+ execute D1
+ execute SCLK_1
+ execute SCLK_0
+ execute D0
+ execute SCLK_1
+ execute SCLK_0
+end sub
+
+! ****************************************************************************
+
+unit "Output Walking 0 On Outputs"
+ call RST_IC
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11111111
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11111110
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_1,D_1,D_0,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11111101
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_1,D_0,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11111011
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_0,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11110111
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_1,D_0, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11101111
+ execute Q7B_1
+ call SHIFTIN(D_1,D_1,D_0,D_1, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11011111
+ execute Q7B_1
+ call SHIFTIN(D_1,D_0,D_1,D_1, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_10111111
+ execute Q7B_1
+ call SHIFTIN(D_0,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_01111111
+ execute Q7B_0
+end unit
+
+unit "Output Walking 1 On Outputs"
+ call RST_IC
+ call SHIFTIN(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00000001
+ execute Q7B_0
+ call SHIFTIN(D_0,D_0,D_0,D_0, D_0,D_0,D_1,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00000010
+ execute Q7B_0
+ call SHIFTIN(D_0,D_0,D_0,D_0, D_0,D_1,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00000100
+ execute Q7B_0
+ call SHIFTIN(D_0,D_0,D_0,D_0, D_1,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00001000
+ execute Q7B_0
+ call SHIFTIN(D_0,D_0,D_0,D_1, D_0,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00010000
+ execute Q7B_0
+ call SHIFTIN(D_0,D_0,D_1,D_0, D_0,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00100000
+ execute Q7B_0
+ call SHIFTIN(D_0,D_1,D_0,D_0, D_0,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_01000000
+ execute Q7B_0
+ call SHIFTIN(D_1,D_0,D_0,D_0, D_0,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_10000000
+ execute Q7B_1
+end unit
+
+unit "Outputs Toggle"
+ call RST_IC
+ call SHIFTIN(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_0)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_00000000
+ execute Q7B_0
+ call SHIFTIN(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ execute RCLK_1
+ execute RCLK_0
+ execute OUT_11111111
+ execute Q7B_1
+end unit
+
+unit "OEB test"
+ call RST_IC
+ execute OEB_1
+ execute OUT_Z
+end unit
+
+

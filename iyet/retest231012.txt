@@ -1,0 +1,2756 @@
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:34:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:34:27 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_1                10550 Open
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+To:   VDD_BOOT_R_1           105134
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+Common Devices:
+               r4_98_rtv2
+Message is:
+Check R4_98_RTV2
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:34:41 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148   25
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT7_8    11349   25
+              c76_rt7_8.1
+              c78_rt7_8.1
+              c80_rt7_8.1
+              c86_rt7_8.1
+              c88_rt7_8.1
+              c92_rt7_8.1
+              c94_rt7_8.1
+              c96_rt7_8.1
+              c98_rt7_8.1
+              c100_rt7_8.1
+Too many to print.
+Common Devices:
+                l7_rt7_8
+Message is:
+Check L7_RT7_8
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_1                10550 Open
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+To:   VDD_BOOT_R_1           105134
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+Common Devices:
+               r4_98_rtv2
+Message is:
+Check R4_98_RTV2
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:34:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_1                10550 Open
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+To:   VDD_BOOT_R_1           105134
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+Common Devices:
+               r4_98_rtv2
+Message is:
+Check R4_98_RTV2
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:35:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_1                10550 Open
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+To:   VDD_BOOT_R_1           105134
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+Common Devices:
+               r4_98_rtv2
+Message is:
+Check R4_98_RTV2
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:39:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148   32
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT7_8    11348   32
+              c19_rt7_8.1
+              c23_rt7_8.1
+              c38_rt7_8.1
+              c41_rt7_8.1
+              c44_rt7_8.1
+              c47_rt7_8.1
+              c50_rt7_8.1
+              c60_rt7_8.1
+              c61_rt7_8.1
+              c62_rt7_8.1
+Too many to print.
+Common Devices:
+                l3_rt7_8
+Message is:
+Check L3_RT7_8
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_1                10550 Open
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+To:   VDD_BOOT_R_1           105134
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+Common Devices:
+               r4_98_rtv2
+Message is:
+Check R4_98_RTV2
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    2
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    2
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 5 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:39:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 1796
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT7_8    11349 1796
+              c76_rt7_8.1
+              c78_rt7_8.1
+              c80_rt7_8.1
+              c86_rt7_8.1
+              c88_rt7_8.1
+              c92_rt7_8.1
+              c94_rt7_8.1
+              c96_rt7_8.1
+              c98_rt7_8.1
+              c100_rt7_8.1
+Too many to print.
+Common Devices:
+                l7_rt7_8
+Message is:
+Check L7_RT7_8
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                    223130   26
+UNNAMED_17_RES_I312_A_S0                
+                r55_s0.1
+               sfp_s0.Y4
+To:   i2c_sda_sfp<19>         21709   26
+                r55_s0.2
+               rn100_s0.3
+           rn100_s0%pin_3_6.1
+                u49.AF22
+Common Devices:
+                 r55_s0
+Message is:
+Check R55_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<41>         21463 Open
+                r52_s1.2
+                 r856.1
+               rn96_s1.4
+           rn96_s1%pin_4_5.1
+To:   srt_sfp41_i2c_scl_edge 214162
+                 r856.2
+                u49.T19
+Common Devices:
+                  r856
+Message is:
+Check R856
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    4 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 6 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:39:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:40:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    2
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:40:16 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:42:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: GND                    215142 Open
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   P1V0RT1_AGND_SENSE     216149
+               r04_rtv1.1
+                 r581.2
+Common Devices:
+                  r581
+Message is:
+Check R581
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AGND_SENSE     216149 Open
+               r04_rtv1.1
+                 r581.2
+To:   dgnd_sense_r_rtv1      219163
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+Common Devices:
+                r04_rtv1
+Message is:
+Check R04_RTV1
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:42:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    3 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:42:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    3 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:43:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:43:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:43:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    3 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:44:05 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:44:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:44:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    3 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:44:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 131, Delay 50us    Ohms
+From:   v                     20809    3
+unnamed_598_lvc244a_i30_a2              
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+To:     v                    207102    4 
+jtag_trst_l_rt1_rt2_rt3_rt4_2v5         
+              u1_rt1_2.D8
+              u1_rt3_4.D8
+              u2_rt1_2.D8
+              u2_rt3_4.D8
+                 u48.16
+Common Devices:
+                  u48
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27400B2F
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:45:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:45:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    4 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:45:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:46:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:46:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    4 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:47:05 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    2
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:47:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    4 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    4 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:47:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    4 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:47:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 08:48:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                     21052    3
+fpga_sfp_tx_rate_sel<16>                
+               rn103_s0.1
+           rn103_s0%pin_1_8.1
+                 u31.15
+To:     v                    207151    3 
+fpga_sfp_tx_rate_sel<17>                
+               rn103_s0.2
+           rn103_s0%pin_2_7.1
+                 u31.1
+Common Devices:
+                rn103_s0
+                  u31
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From:   v                     10846    3
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+To:     v                     10845    3 
+fpga_sfp_rx_rate_sel<41>                
+               rn104_s1.2
+           rn104_s1%pin_2_7.1
+                 u116.1
+Common Devices:
+                rn104_s1
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:22:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3986
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3986
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652  290
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152  290
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 2 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:22:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3676
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3676
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                    222147   33
+FLTR_P3V3_SFP_RX<16>_S0                 
+               c194_s0.1
+               c202_s0.1
+                l66_s0.1
+               sfp_s0.U15
+To:   PWR_FUSED_SFP<16>_S0    22113   33
+               c209_s0.1
+               c210_s0.1
+                f32_s0.1
+                l51_s0.2
+                l66_s0.2
+Common Devices:
+                 l66_s0
+Message is:
+Check L66_S0
+------End, 2 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:22:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3628
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3628
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:22:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3573
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3573
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:23:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3161
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3161
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:27:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3874
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3874
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:27:14 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3929
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3929
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD_SENSE      21653  305
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+To:   avdd_sense_r_rtv1       21965  305
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+Common Devices:
+                p1_rtv1
+                r01_rtv1
+Message is:
+Check R01_RTV1
+------End, 2 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:27:28 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD_SENSE      21653   25
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+To:   avdd_sense_r_rtv1       21965   25
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+Common Devices:
+                p1_rtv1
+                r01_rtv1
+Message is:
+Check R01_RTV1
+------End, 2 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:27:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 3986
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116 3986
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     21935  281
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+To:     v                     21766  281 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+Common Devices:
+                 r5_sf0
+Message is:
+Check R5_SF0
+------End, 2 Problems Reported----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:27:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:33:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:33:14 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:33:28 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:33:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 16:33:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:58:06 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:58:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:58:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:58:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:59:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400AWZ
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:59:36 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 19:59:50 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:00:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:00:18 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758   58
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117   58
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 3 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:00:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758  481
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117  481
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 3 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:06:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: clk_1pps_out           207144  167
+                 r470.1
+                u49.Y26
+To:     v                     20753  167 
+unnamed_33_nc7wz17_i15_a1               
+                 r470.2
+                 u19.1
+                 u19.3
+Common Devices:
+                  r470
+Message is:
+Check R470
+------End, 3 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:06:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT7_8    11348
+              c19_rt7_8.1
+              c23_rt7_8.1
+              c38_rt7_8.1
+              c41_rt7_8.1
+              c44_rt7_8.1
+              c47_rt7_8.1
+              c50_rt7_8.1
+              c60_rt7_8.1
+              c61_rt7_8.1
+              c62_rt7_8.1
+Too many to print.
+Common Devices:
+                l3_rt7_8
+Message is:
+Check L3_RT7_8
+------End, 3 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:07:03 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:07:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45
+----------------------------------------
+Shorts Report for "shorts".
+Thu Oct 12 20:07:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22246 Open
+FLTR_P3V3_SFP_TX<15>_S0                 
+                c56_s0.1
+                c96_s0.1
+                l45_s0.1
+               sfp_s0.T16
+To:   PWR_FUSED_SFP<15>_S0    22116
+               c136_s0.1
+               c141_s0.1
+                f15_s0.1
+                l9_s0.2
+                l45_s0.2
+Common Devices:
+                 l45_s0
+Message is:
+Check L45_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11552 Open
+FLTR_P3V3_SFP_TX<19>_S1                 
+               c199_s1.1
+               c207_s1.1
+                l71_s1.1
+               sfp_s1.Y16
+To:   PWR_FUSED_SFP<19>_S1   116158
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l71_s1
+Message is:
+Check L71_S1
+------End, 2 Problems Reported----------
+S/N:FLM27400B45

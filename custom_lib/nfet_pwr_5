@@ -1,0 +1,44 @@
+!!!!    2    0    1 1540519325  V59c8                                         
+! ***************************************************************************
+! Verified:             NO
+!
+! Note:                 Pin 4 = Gate
+!                       Pin 5 = Drain
+!                       Pin 1 = Source
+! ***************************************************************************
+
+test powered analog
+
+ test "FET_ON"
+ test "FET_OFF"
+
+end test
+
+! ***************************************************************************
+
+subtest "FET_OFF"
+ connect s to pins  5
+ connect i to pins  5     ! Drain
+ connect l to pins  1     ! Source
+ connect a to pins  4     ! Gate
+
+ source dcv, am3.0, terminated 50, on
+ auxiliary dcv, am0.0, on
+ detector dcv, expect 3.0
+ wait 10m
+ measure  3.2,  2.0
+end subtest
+
+subtest "FET_ON"
+ connect s to pins  5
+ connect i to pins  5     ! Drain
+ connect l to pins  1     ! Source
+ connect a to pins  4     ! Gate
+
+ source dcv, am3.0, terminated 50, on
+ auxiliary dcv, am3.0, on, ico1
+ detector dcv, expect 0.6
+ wait 10m
+ measure  0.2, -0.2
+end subtest
+

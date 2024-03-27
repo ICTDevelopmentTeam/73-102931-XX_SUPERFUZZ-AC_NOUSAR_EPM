@@ -1,0 +1,9 @@
+!!!!   21    2    1 1489742838   0000                                         
+
+capacitor *, 47u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

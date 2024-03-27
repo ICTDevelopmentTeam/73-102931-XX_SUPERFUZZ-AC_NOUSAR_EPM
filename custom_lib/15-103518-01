@@ -1,0 +1,57 @@
+!!!!    6    0    1 1459912705  V603b                                         
+combinatorial
+
+assign VCC to pins 1,6
+assign GND to pins 2
+
+assign DIR to pins 5
+assign A to pins 3
+assign B to pins 4
+
+power GND,VCC
+inputs DIR
+bidirectional A,B
+
+family LVT
+
+!*****************************************************************************
+vector AtoB_L
+ drive A
+ receive B
+ set DIR to "1"
+ set A to "0"
+ set B to "0"
+end vector
+
+vector AtoB_H
+ drive A
+ receive B
+ set DIR to "1"
+ set A to "1"
+ set B to "1"
+end vector
+
+vector BtoA_L
+ drive B
+ receive A
+ set DIR to "0"
+ set A to "0"
+ set B to "0"
+end vector
+
+vector BtoA_H
+ drive B
+ receive A
+ set DIR to "0"
+ set A to "1"
+ set B to "1"
+end vector
+
+unit "test transceiver"
+  execute AtoB_L
+  execute AtoB_H
+  execute BtoA_L
+  execute BtoA_H
+end unit
+
+

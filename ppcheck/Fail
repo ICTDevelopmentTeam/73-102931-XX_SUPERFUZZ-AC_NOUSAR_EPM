@@ -1,0 +1,2532 @@
+----------------------------------------
+73-102898-01_03
+Thu Mar 02 11:05:47 2023
+----------------------------------------
+c13_91_rtv2 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes FLTR_BV0_AVDDL_RT5_6 P-Pin resistance
+----------------------------------------
+c7_q0 HAS FAILED
+11-2655-02 CAP,CE,0.22uF,6.3V,10%,X5R,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes QSFP_MOD_ABS<1> P-Pin resistance
+----------------------------------------
+c7_q1 HAS FAILED
+11-2655-02 CAP,CE,0.22uF,6.3V,10%,X5R,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes QSFP_MOD_ABS<3> P-Pin resistance
+----------------------------------------
+c7_q2 HAS FAILED
+11-2655-02 CAP,CE,0.22uF,6.3V,10%,X5R,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes QSFP_MOD_ABS<5> P-Pin resistance
+----------------------------------------
+r2_rt5_6 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P2V5RT2 P-Pin resistance
+check nodes CONFIG_IO0_PULLUP_RT5_6 P-Pin resistance
+----------------------------------------
+r9_rt5_6 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes EEPROM_LOAD0_EN_RT5_6 P-Pin resistance
+----------------------------------------
+r9_rt7_8 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes EEPROM_LOAD0_EN_RT7_8 P-Pin resistance
+----------------------------------------
+r9_rt9 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes EEPROM_LOAD_EN_RT9 P-Pin resistance
+----------------------------------------
+r13_rt5_6 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8961
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P2V5RT2 P-Pin resistance
+check nodes CONFIG_IO1_PULLUP_RT5_6 P-Pin resistance
+----------------------------------------
+r14_rt5_6 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes EEPROM_LOAD1_EN_RT5_6 P-Pin resistance
+----------------------------------------
+r14_rt7_8 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes EEPROM_LOAD1_EN_RT7_8 P-Pin resistance
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes CLK156M_RT2_SYNC_E_N P-Pin resistance
+check nodes CLK156M_RT2_SYNC_E_P P-Pin resistance
+----------------------------------------
+r155 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes CLK156M_SYNC_E_N P-Pin resistance
+check nodes CLK156M_SYNC_E_P P-Pin resistance
+----------------------------------------
+r6_q0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes QSFP_SCL<0> P-Pin resistance
+check nodes UNNAMED_4_RES_I228_B_Q0 P-Pin resistance
+----------------------------------------
+r6_q1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes QSFP_SCL<2> P-Pin resistance
+check nodes UNNAMED_4_RES_I228_B_Q1 P-Pin resistance
+----------------------------------------
+r10_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<32> P-Pin resistance
+check nodes UNNAMED_5_RES_I171_B_S1 P-Pin resistance
+----------------------------------------
+r18_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<36> P-Pin resistance
+check nodes UNNAMED_6_RES_I171_B_S1 P-Pin resistance
+----------------------------------------
+r20_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<37> P-Pin resistance
+check nodes UNNAMED_6_RES_I172_A_S1 P-Pin resistance
+----------------------------------------
+r24_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<39> P-Pin resistance
+check nodes UNNAMED_6_RES_I174_A_S1 P-Pin resistance
+----------------------------------------
+r26_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<28> P-Pin resistance
+check nodes UNNAMED_15_RES_I171_B_S1 P-Pin resistance
+----------------------------------------
+r30_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<30> P-Pin resistance
+check nodes UNNAMED_15_RES_I173_B_S1 P-Pin resistance
+----------------------------------------
+r34_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<44> P-Pin resistance
+check nodes UNNAMED_16_RES_I230_B_S1 P-Pin resistance
+----------------------------------------
+r36_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<45> P-Pin resistance
+check nodes UNNAMED_16_RES_I232_A_S1 P-Pin resistance
+----------------------------------------
+r50_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<40> P-Pin resistance
+check nodes UNNAMED_17_RES_I378_B_S1 P-Pin resistance
+----------------------------------------
+r54_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<42> P-Pin resistance
+check nodes UNNAMED_17_RES_I314_B_S1 P-Pin resistance
+----------------------------------------
+r56_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes I2C_SCL_SFP<43> P-Pin resistance
+check nodes UNNAMED_17_RES_I311_A_S1 P-Pin resistance
+----------------------------------------
+r4_q0 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q0 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I217_D_Q0 P-Pin resistance
+----------------------------------------
+r4_q1 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q1 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I217_D_Q1 P-Pin resistance
+----------------------------------------
+r4_q2 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q2 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I217_D_Q2 P-Pin resistance
+----------------------------------------
+r5_q0 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q0 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I218_D_Q0 P-Pin resistance
+----------------------------------------
+r5_q1 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q1 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I218_D_Q1 P-Pin resistance
+----------------------------------------
+r5_q2 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q2 P-Pin resistance
+check nodes UNNAMED_4_NMOSFET_I218_D_Q2 P-Pin resistance
+----------------------------------------
+r26 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes DPLL_SYNCE_GPIO5 P-Pin resistance
+----------------------------------------
+r27 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes DPLL_SYNCE_GPIO6 P-Pin resistance
+----------------------------------------
+r28 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3_3VA P-Pin resistance
+check nodes MC_FREQ_SEL<1> P-Pin resistance
+----------------------------------------
+r44 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes MC_FREQ_SEL<1> P-Pin resistance
+----------------------------------------
+r464 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3_3VA P-Pin resistance
+check nodes DPLL_SYNCE_ADDR_SEL0 P-Pin resistance
+----------------------------------------
+r465 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3_3VA P-Pin resistance
+check nodes DPLL_SYNCE_ADDR_SEL1 P-Pin resistance
+----------------------------------------
+r1099 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3_3VA P-Pin resistance
+check nodes DPLL_SYNCE_GPIO0 P-Pin resistance
+----------------------------------------
+r1256 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes DPLL_SYNCE_GPIO8 P-Pin resistance
+----------------------------------------
+r243 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P2V5RT1 P-Pin resistance
+check nodes RT5_ADDR<1> P-Pin resistance
+----------------------------------------
+r254 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P2V5RT1 P-Pin resistance
+check nodes RT6_ADDR<1> P-Pin resistance
+----------------------------------------
+r344 HAS FAILED
+12-5420-01 RES,TKF,4.7 k ohm,0.063W,1%,S
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RTM_BUF_CLK_SEL P-Pin resistance
+----------------------------------------
+r19 HAS FAILED
+12-2610-01 RES,TKF,75 ohm,0.063W,1%,SM,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes AC_CLK25M_MI0_SYNC_E_REFCLK_P P-Pin resistance
+----------------------------------------
+r21 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3_3VA P-Pin resistance
+check nodes AC_CLK25M_MI0_SYNC_E_REFCLK_P P-Pin resistance
+----------------------------------------
+r387 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT7_N P-Pin resistance
+----------------------------------------
+r388 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT7_P P-Pin resistance
+----------------------------------------
+r389 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT8_N P-Pin resistance
+----------------------------------------
+r391 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT8_P P-Pin resistance
+----------------------------------------
+r400 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   28.877
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT4_N P-Pin resistance
+----------------------------------------
+r392 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT9_N P-Pin resistance
+----------------------------------------
+r393 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT9_P P-Pin resistance
+----------------------------------------
+r436 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT5_N P-Pin resistance
+----------------------------------------
+r439 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT5_P P-Pin resistance
+----------------------------------------
+r440 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT6_N P-Pin resistance
+----------------------------------------
+r441 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RT6_P P-Pin resistance
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CAP_CLK156M25_RT_BUFIN_UPPER_REFCLK_N P-Pin resistance
+----------------------------------------
+rn1_q0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn1_q0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes QSFP_PORT1_GRN_L_Q0 P-Pin resistance
+check nodes QSFP_LED_GRN_L<0> P-Pin resistance
+----------------------------------------
+rn1_q1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes QSFP_PORT2_YEL_L_Q1 P-Pin resistance
+check nodes QSFP_LED_YEL_L<3> P-Pin resistance
+----------------------------------------
+rn1_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes QSFP_PORT2_YEL_L_Q2 P-Pin resistance
+check nodes QSFP_LED_YEL_L<5> P-Pin resistance
+----------------------------------------
+r345 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M25_RT_BUFIN_UPPER_REFCLK_N P-Pin resistance
+----------------------------------------
+r346 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M25_RT_BUFIN_UPPER_REFCLK_P P-Pin resistance
+----------------------------------------
+r347 HAS FAILED
+12-4974-01 RES,TKF,220 ohm,0.063W,1%,SM,
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes GND P-Pin resistance
+check nodes CLK156M_RTM2_BUF_EN P-Pin resistance
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes UNNAMED_4134_RES_I260_A P-Pin resistance
+check nodes UNNAMED_4134_RES_I260_B P-Pin resistance
+----------------------------------------
+r166 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes UNNAMED_4134_RES_I378_A P-Pin resistance
+check nodes CLK_10M_ZR_OUT P-Pin resistance
+----------------------------------------
+rn2_q0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn2_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q0 P-Pin resistance
+check nodes QSFP_SCL<0> P-Pin resistance
+----------------------------------------
+rn2_q0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn2_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q0 P-Pin resistance
+check nodes QSFP_SDA<0> P-Pin resistance
+----------------------------------------
+rn2_q1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn2_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q1 P-Pin resistance
+check nodes QSFP_SCL<2> P-Pin resistance
+----------------------------------------
+rn2_q1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn2_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q1 P-Pin resistance
+check nodes QSFP_SDA<2> P-Pin resistance
+----------------------------------------
+rn2_q2%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q2 P-Pin resistance
+check nodes QSFP_SCL<4> P-Pin resistance
+----------------------------------------
+rn2_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q2 P-Pin resistance
+check nodes QSFP_SDA<4> P-Pin resistance
+----------------------------------------
+rn2_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn2_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P1_Q2 P-Pin resistance
+check nodes QSFP_INT_L<4> P-Pin resistance
+----------------------------------------
+rn3_q0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn3_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q0 P-Pin resistance
+check nodes QSFP_SCL<1> P-Pin resistance
+----------------------------------------
+rn3_q0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn3_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q0 P-Pin resistance
+check nodes QSFP_SDA<1> P-Pin resistance
+----------------------------------------
+rn3_q0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn3_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes QSFP_MOD_ABS<1> P-Pin resistance
+----------------------------------------
+rn3_q0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8966
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q0 P-Pin resistance
+check nodes QSFP_INT_L<1> P-Pin resistance
+----------------------------------------
+rn3_q1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn3_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q1 P-Pin resistance
+check nodes QSFP_SCL<3> P-Pin resistance
+----------------------------------------
+rn3_q1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn3_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q1 P-Pin resistance
+check nodes QSFP_SDA<3> P-Pin resistance
+----------------------------------------
+rn3_q1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn3_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes QSFP_MOD_ABS<3> P-Pin resistance
+----------------------------------------
+rn3_q1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q1 P-Pin resistance
+check nodes QSFP_INT_L<3> P-Pin resistance
+----------------------------------------
+rn3_q2%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q2 P-Pin resistance
+check nodes QSFP_SCL<5> P-Pin resistance
+----------------------------------------
+rn3_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q2 P-Pin resistance
+check nodes QSFP_SDA<5> P-Pin resistance
+----------------------------------------
+rn3_q2%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes QSFP_MOD_ABS<5> P-Pin resistance
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes PWR_P3V3_QSFP_P2_Q2 P-Pin resistance
+check nodes QSFP_INT_L<5> P-Pin resistance
+----------------------------------------
+rn33_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn33_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<24> P-Pin resistance
+----------------------------------------
+rn34_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn34_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<25> P-Pin resistance
+----------------------------------------
+rn35_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn35_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<26> P-Pin resistance
+----------------------------------------
+rn36_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn36_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8966
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<27> P-Pin resistance
+----------------------------------------
+rn43_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn43_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<28> P-Pin resistance
+----------------------------------------
+rn43_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn43_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<28> P-Pin resistance
+----------------------------------------
+rn44_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<29> P-Pin resistance
+----------------------------------------
+rn44_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<29> P-Pin resistance
+----------------------------------------
+rn44_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<29> P-Pin resistance
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<29> P-Pin resistance
+----------------------------------------
+rn45_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn45_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<30> P-Pin resistance
+----------------------------------------
+rn45_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn45_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<30> P-Pin resistance
+----------------------------------------
+rn46_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn46_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<31> P-Pin resistance
+----------------------------------------
+rn46_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn46_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<31> P-Pin resistance
+----------------------------------------
+rn46_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn46_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<31> P-Pin resistance
+----------------------------------------
+rn46_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn46_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<31> P-Pin resistance
+----------------------------------------
+rn47_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn47_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<28> P-Pin resistance
+----------------------------------------
+rn47_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn47_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<29> P-Pin resistance
+----------------------------------------
+rn47_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn47_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<30> P-Pin resistance
+----------------------------------------
+rn53_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn53_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<32> P-Pin resistance
+----------------------------------------
+rn53_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn53_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<32> P-Pin resistance
+----------------------------------------
+rn53_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn53_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<32> P-Pin resistance
+----------------------------------------
+rn54_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn54_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<33> P-Pin resistance
+----------------------------------------
+rn54_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn54_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<33> P-Pin resistance
+----------------------------------------
+rn54_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn54_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<33> P-Pin resistance
+----------------------------------------
+rn55_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn55_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<34> P-Pin resistance
+----------------------------------------
+rn55_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn55_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<34> P-Pin resistance
+----------------------------------------
+rn55_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn55_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<34> P-Pin resistance
+----------------------------------------
+rn55_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn55_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<34> P-Pin resistance
+----------------------------------------
+rn56_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn56_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<35> P-Pin resistance
+----------------------------------------
+rn56_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn56_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<35> P-Pin resistance
+----------------------------------------
+rn56_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn56_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<35> P-Pin resistance
+----------------------------------------
+rn56_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<35> P-Pin resistance
+----------------------------------------
+rn57_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn57_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<32> P-Pin resistance
+----------------------------------------
+rn57_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn57_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<33> P-Pin resistance
+----------------------------------------
+rn57_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn57_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<34> P-Pin resistance
+----------------------------------------
+rn57_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn57_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<35> P-Pin resistance
+----------------------------------------
+rn63_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn63_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<36> P-Pin resistance
+----------------------------------------
+rn63_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn63_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<36> P-Pin resistance
+----------------------------------------
+rn63_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn63_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<36> P-Pin resistance
+----------------------------------------
+rn63_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn63_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<36> P-Pin resistance
+----------------------------------------
+rn64_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn64_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<37> P-Pin resistance
+----------------------------------------
+rn64_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn64_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<37> P-Pin resistance
+----------------------------------------
+rn64_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn64_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<37> P-Pin resistance
+----------------------------------------
+rn64_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn64_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<37> P-Pin resistance
+----------------------------------------
+rn65_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn65_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<38> P-Pin resistance
+----------------------------------------
+rn65_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn65_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<38> P-Pin resistance
+----------------------------------------
+rn65_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn65_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<38> P-Pin resistance
+----------------------------------------
+rn65_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn65_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<38> P-Pin resistance
+----------------------------------------
+rn66_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn66_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<39> P-Pin resistance
+----------------------------------------
+rn66_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn66_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<39> P-Pin resistance
+----------------------------------------
+rn66_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn66_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<39> P-Pin resistance
+----------------------------------------
+rn66_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn66_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<39> P-Pin resistance
+----------------------------------------
+rn67_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn67_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<36> P-Pin resistance
+----------------------------------------
+rn67_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn67_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<37> P-Pin resistance
+----------------------------------------
+rn67_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn67_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<38> P-Pin resistance
+----------------------------------------
+rn67_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn67_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<39> P-Pin resistance
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<40> P-Pin resistance
+----------------------------------------
+rn69_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<40> P-Pin resistance
+----------------------------------------
+rn69_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<40> P-Pin resistance
+----------------------------------------
+rn69_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<44> P-Pin resistance
+----------------------------------------
+rn79_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn79_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<44> P-Pin resistance
+----------------------------------------
+rn79_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn79_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<40> P-Pin resistance
+----------------------------------------
+rn94_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn94_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<41> P-Pin resistance
+----------------------------------------
+rn94_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn94_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<41> P-Pin resistance
+----------------------------------------
+rn94_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn94_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<41> P-Pin resistance
+----------------------------------------
+rn94_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn94_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<45> P-Pin resistance
+----------------------------------------
+rn96_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn96_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<45> P-Pin resistance
+----------------------------------------
+rn96_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn96_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<45> P-Pin resistance
+----------------------------------------
+rn96_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<41> P-Pin resistance
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<42> P-Pin resistance
+----------------------------------------
+rn97_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8961
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<42> P-Pin resistance
+----------------------------------------
+rn97_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<42> P-Pin resistance
+----------------------------------------
+rn97_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<46> P-Pin resistance
+----------------------------------------
+rn99_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<46> P-Pin resistance
+----------------------------------------
+rn99_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<46> P-Pin resistance
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<42> P-Pin resistance
+----------------------------------------
+rn100_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn100_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<43> P-Pin resistance
+----------------------------------------
+rn100_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn100_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<43> P-Pin resistance
+----------------------------------------
+rn100_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn100_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<47> P-Pin resistance
+----------------------------------------
+rn102_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn102_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_MOD_ABS_FPGA<47> P-Pin resistance
+----------------------------------------
+rn102_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn102_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_RX_LOS_FPGA<47> P-Pin resistance
+----------------------------------------
+rn102_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn102_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SDA_SFP<47> P-Pin resistance
+----------------------------------------
+rn102_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn102_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes I2C_SCL_SFP<43> P-Pin resistance
+----------------------------------------
+rn109_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn109_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<40> P-Pin resistance
+----------------------------------------
+rn109_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn109_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<41> P-Pin resistance
+----------------------------------------
+rn109_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn109_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<42> P-Pin resistance
+----------------------------------------
+rn109_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn109_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<47> P-Pin resistance
+----------------------------------------
+rn111_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn111_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<44> P-Pin resistance
+----------------------------------------
+rn111_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn111_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8964
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<45> P-Pin resistance
+----------------------------------------
+rn111_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn111_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<46> P-Pin resistance
+----------------------------------------
+rn111_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn111_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.8963
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+Status:  8H
+Detector Over Range
+----------------------------------------
+check nodes P3V3_SFP1 P-Pin resistance
+check nodes SFP_TX_FAULT_FPGA<43> P-Pin resistance
+----------------------------------------
+Serial #: FDO12345678
+
+
+
+
+
+
+
+
+
+
+
+
+

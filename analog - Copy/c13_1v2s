@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517024  V33c8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:59 2022
+disconnect all
+connect s to "PMOD_FB_1V2S"
+connect i to "PMOD_COMP_1V2S"
+connect g to "PMOD_COMP_RC_1V2S"
+!B!capacitor 56p, 93.21, 45.00, fr8192, re5, wb, ar100m, comp
+capacitor 56p,50.0,50.00,fr8192,re5,wb,ar100m,comp
+! "c13_1v2s" test.

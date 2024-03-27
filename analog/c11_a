@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863877   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:57:58 2022
+on failure
+   report parallel devices
+   report "r2_a 22.6k"
+end on failure
+disconnect all
+connect s to "P2_5VA"
+connect i to "UNNAMED_2_RES_I472_B_A"
+jumper 4.73k, re4, wb, ar200m, op
+! "c11_a" test.
+off failure

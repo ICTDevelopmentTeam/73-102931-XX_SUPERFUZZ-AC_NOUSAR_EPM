@@ -1,0 +1,88 @@
+----------------------------------------
+73-102898-01_03
+Sat Jan 20 05:58:47 2024
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   172.82u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+r2_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   61.347
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r22_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   906.25k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.8498M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r1422 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   1.5820k
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+rn33_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn33_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   133.02k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn65_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn65_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   36.246M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2715063H

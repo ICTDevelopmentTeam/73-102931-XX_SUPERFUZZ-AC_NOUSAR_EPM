@@ -1,0 +1,2459 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 05:11:25 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_DVDD           215127   27
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   P1V0RT1_DVDD_SENSE      21653   27
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+Common Devices:
+                  r578
+Message is:
+Check R578
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_DVDD           215127   26
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 2 Problems Reported----------
+S/N:FLM28030092
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:13:08 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM2803008V
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 05:25:14 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM2803008S
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:42:43 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20361) p1v0rt1_avdd_pgood
+               r22_rtv1.1
+                 r638.1
+               u1_rtv1.12
+                u49.R11
+                 u50.4
+------End, 1 Problem Reported-----------
+S/N:FLM2803009N
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:42:52 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20361) p1v0rt1_avdd_pgood
+               r22_rtv1.1
+                 r638.1
+               u1_rtv1.12
+                u49.R11
+                 u50.4
+------End, 1 Problem Reported-----------
+S/N:FLM2803009N
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:43:00 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20361) p1v0rt1_avdd_pgood
+               r22_rtv1.1
+                 r638.1
+               u1_rtv1.12
+                u49.R11
+                 u50.4
+------End, 1 Problem Reported-----------
+S/N:FLM2803009N
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 05:45:47 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: srt_tempsense_i2c0_sda 211149 Open
+                 r309.1
+                 u72.13
+To:   mifpga_i2c0_sda        204162
+                 r294.2
+                 r309.2
+                 r628.2
+                 u49.Y9
+Common Devices:
+                  r309
+Message is:
+Check R309
+------End, 1 Problem Reported-----------
+S/N:FLM2803009L
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:46:11 2024
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   31.123
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009L
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:46:20 2024
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   33.045
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009L
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:46:23 2024
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   33.419
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009L
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:46:27 2024
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   34.501
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009L
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:48:17 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   809.78k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:48:31 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   695.71k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:48:35 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   763.27k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:48:38 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   774.60k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:52:09 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   832.89k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:52:23 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   704.40k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:52:27 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   778.42k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:52:30 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   781.77k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:55:28 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   826.25k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:55:42 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   734.14k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:55:46 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   789.66k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 05:55:50 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   799.15k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:58:14 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A5
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:58:22 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A5
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 05:58:30 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A5
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:00:53 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   792.87k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:01:07 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   700.33k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:01:11 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   778.42k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:01:14 2024
+----------------------------------------
+r1_a HAS FAILED
+12-4533-01 RES,TNF,10 k ohm,0.063W,0.1%,
+Measured:   762.08k
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2803009U
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:07:07 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A4
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:07:15 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A4
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:07:23 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A4
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:17:02 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A2
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:17:11 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A2
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:17:19 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300A2
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:21:16 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM28030096
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:21:24 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM28030096
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:21:32 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM28030096
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:31:36 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CJ
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:31:44 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CJ
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:31:53 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CJ
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:33:07 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:33:16 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:33:24 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:35:44 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:35:53 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:36:01 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20943) fpga_cpld1_spi_mosi
+                 u29.71
+                u49.B21
+------End, 1 Problem Reported-----------
+S/N:FLM280300CN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 06:36:59 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(21041) fpga_sfp_tx_disable<6>
+               sfp_s0.G3
+                 u29.82
+------End, 1 Problem Reported-----------
+S/N:FLM2803008W
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:40:12 2024
+----------------------------------------
+rn32_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   3.2676k
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300CF
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:40:21 2024
+----------------------------------------
+rn32_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   202.07
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300CF
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:40:25 2024
+----------------------------------------
+rn32_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   9.0201M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300CF
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 06:40:29 2024
+----------------------------------------
+rn32_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   465.98
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300CF
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 07:26:22 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10849) rt9_m4_0_3_synce_clk
+                 r284.1
+                u49.C22
+------End, 1 Problem Reported-----------
+S/N:FLM2803009W
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 07:26:30 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10849) rt9_m4_0_3_synce_clk
+                 r284.1
+                u49.C22
+------End, 1 Problem Reported-----------
+S/N:FLM2803009W
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 07:26:38 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10849) rt9_m4_0_3_synce_clk
+                 r284.1
+                u49.C22
+------End, 1 Problem Reported-----------
+S/N:FLM2803009W
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:41:40 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: fpga_sfp_tx_disable<3> 211146    4
+               sfp_s0.D3
+                 u29.67
+To:   fpga_sfp_led_yel_l<3>  210116  157
+               rn32_s0.2
+           rn32_s0%pin_2_7.1
+                 u29.60
+      SFP_YEL_R_L<3>_S0       20965    4
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+Common Devices:
+                  u29
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CB
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:41:49 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: fpga_sfp_tx_disable<3> 211146    4
+               sfp_s0.D3
+                 u29.67
+To:   fpga_sfp_led_yel_l<3>  210116  154
+               rn32_s0.2
+           rn32_s0%pin_2_7.1
+                 u29.60
+      SFP_YEL_R_L<3>_S0       20965    4
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+Common Devices:
+                  u29
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CB
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:41:58 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: fpga_sfp_tx_disable<3> 211146    4
+               sfp_s0.D3
+                 u29.67
+To:   fpga_sfp_led_yel_l<3>  210116  154
+               rn32_s0.2
+           rn32_s0%pin_2_7.1
+                 u29.60
+      SFP_YEL_R_L<3>_S0       20965    4
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+Common Devices:
+                  u29
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CB
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:42:06 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: fpga_sfp_tx_disable<3> 211146    4
+               sfp_s0.D3
+                 u29.67
+To:   fpga_sfp_led_yel_l<3>  210116  154
+               rn32_s0.2
+           rn32_s0%pin_2_7.1
+                 u29.60
+      SFP_YEL_R_L<3>_S0       20965    4
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+Common Devices:
+                  u29
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CB
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:43:13 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: fpga_sfp_tx_disable<3> 211146    4
+               sfp_s0.D3
+                 u29.67
+To:   SFP_YEL_R_L<3>_S0       20965    5
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+No common devices.
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CV
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:43:22 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: SFP_YEL_R_L<3>_S0       20965   13
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+To:   SFP_GRN_R_L<3>_S0      207158   14
+                p3_s0.4
+              p3_s0%grn.C
+               rn32_s0.8
+           rn32_s0%pin_1_8.2
+Common Devices:
+                 p3_s0
+                rn32_s0
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CV
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:43:31 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: SFP_YEL_R_L<3>_S0       20965    9
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+To:   SFP_GRN_R_L<3>_S0      207158    9
+                p3_s0.4
+              p3_s0%grn.C
+               rn32_s0.8
+           rn32_s0%pin_1_8.2
+Common Devices:
+                 p3_s0
+                rn32_s0
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CV
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 07:43:40 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: SFP_YEL_R_L<3>_S0       20965    9
+                p3_s0.2
+              p3_s0%yel.C
+               rn32_s0.7
+           rn32_s0%pin_2_7.2
+To:   SFP_GRN_R_L<3>_S0      207158   10
+                p3_s0.4
+              p3_s0%grn.C
+               rn32_s0.8
+           rn32_s0%pin_1_8.2
+Common Devices:
+                 p3_s0
+                rn32_s0
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM280300CV
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 08:01:18 2024
+----------------------------------------
+rn51_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   201.17
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300BN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 08:11:54 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(211115) fpga_sfp_tx_disable<19>
+               sfp_s0.Y3
+                 u30.82
+------End, 1 Problem Reported-----------
+S/N:FLM280300BL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 08:12:03 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(211115) fpga_sfp_tx_disable<19>
+               sfp_s0.Y3
+                 u30.82
+------End, 1 Problem Reported-----------
+S/N:FLM280300BL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 08:12:11 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(211115) fpga_sfp_tx_disable<19>
+               sfp_s0.Y3
+                 u30.82
+------End, 1 Problem Reported-----------
+S/N:FLM280300BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:12:42 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:12:50 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:12:59 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:13:08 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:13:40 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    221116   51
+UNNAMED_4095_RES_I448_A                 
+                r4_sf0.1
+                 r770.1
+To:     v                     22248   51 
+PMOD_VSENP_P3V3_SFP0_ALT                
+                r4_sf0.2
+               u1_sf0.12
+Common Devices:
+                 r4_sf0
+Message is:
+Check R4_SF0
+------End, 1 Problem Reported-----------
+S/N:FLM280300CE
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:18:50 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:18:58 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT2_AVDD           113148   77
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166   77
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 2 Problems Reported----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:19:07 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:19:15 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT2_AVDD           113148   33
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166   33
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 2 Problems Reported----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:22:33 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:22:41 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:22:50 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 16 08:22:58 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From:   v                    215157 Open
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+To:     v                    214167
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+Common Devices:
+                  r746
+                 u1_sf0
+Message is:
+Check R746
+------End, 1 Problem Reported-----------
+S/N:FLM28030091
+----------------------------------------
+TestJet Report for "testjet".
+Tue Jan 16 09:15:07 2024
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 4.7              (BRC 11048)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2803009A
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 09:15:38 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(11048) fpga_sfp_tx_disable<37>
+               sfp_s1.P3
+                u37.138
+----------------------------------------
+Failed Open #2
+(10849) rt9_m4_0_3_synce_clk
+                 r284.1
+                u49.C22
+------End, 2 Problems Reported----------
+S/N:FLM2803009A
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 09:55:10 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM280300BC
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 09:55:14 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM280300BC
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 09:55:18 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM280300BC
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 09:55:22 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM280300BC
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 10:48:21 2024
+----------------------------------------
+r295 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   1.3106M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM28030098
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 10:48:31 2024
+----------------------------------------
+r295 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   1.2077M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM28030098
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 10:48:35 2024
+----------------------------------------
+r295 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   1.1921M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM28030098
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 10:48:39 2024
+----------------------------------------
+r295 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   1.1769M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM28030098
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:25:40 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1056k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:25:49 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1061k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1056k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:25:53 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1069k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1058k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:25:57 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1063k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1056k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 12:28:28 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20710) PLL_OBS_EN_3
+                r19_3.2
+                r22_3.2
+                u1_3.AM5
+------End, 1 Problem Reported-----------
+S/N:FLM280300AE
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 12:28:36 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20710) PLL_OBS_EN_3
+                r19_3.2
+                r22_3.2
+                u1_3.AM5
+------End, 1 Problem Reported-----------
+S/N:FLM280300AE
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 12:28:44 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20710) PLL_OBS_EN_3
+                r19_3.2
+                r22_3.2
+                u1_3.AM5
+------End, 1 Problem Reported-----------
+S/N:FLM280300AE
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:30:04 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1068k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:30:12 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1063k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1071k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:30:16 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1066k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:30:19 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1075k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1071k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:34:55 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1072k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1053k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:35:03 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1058k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1056k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:35:07 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1070k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1054k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:35:11 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1064k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1057k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:39:35 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1066k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1064k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:39:43 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1060k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:39:47 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1063k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:39:51 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1063k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1062k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:44:38 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1060k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1054k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:44:46 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1057k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:44:49 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1060k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1052k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Tue Jan 16 12:44:53 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1063k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1056k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Jan 16 14:17:38 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20809) unnamed_598_lvc244a_i30_a2
+                 r661.2
+                 u48.1
+                 u48.15
+                 u48.17
+                 u48.19
+------End, 1 Problem Reported-----------
+S/N:FLM2803009P
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:40:15 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1036k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1043k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:40:23 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1043k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:40:27 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1043k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1041k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:40:31 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1040k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:47:47 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1044k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1036k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:47:55 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1048k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1042k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:47:59 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1045k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1040k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:48:03 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:52:06 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1040k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1043k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:52:14 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1036k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:52:18 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1037k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1038k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:52:22 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1035k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1042k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:58:06 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1048k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1045k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:58:14 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1053k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1049k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:58:18 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1146k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1152k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 03:58:22 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1041k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1040k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT

@@ -1,0 +1,17 @@
+!!!!    2    0    1 1652162665  V374e                                         
+test powered analog
+
+  test "VOLT_OUT"
+end test
+
+!*****************************************!
+
+subtest "VOLT_OUT"
+  disconnect all
+  connect i to nodes "VDD_P0V875"
+  connect l to ground
+  detector dcv, expect 0.875
+  measure 0.875 * 1.10, 0.875 * 0.90
+end subtest
+
+!*****************************************!

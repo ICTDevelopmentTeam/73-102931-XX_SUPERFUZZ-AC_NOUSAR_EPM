@@ -1,0 +1,13 @@
+!!!!   21    2    1 1552271951   0000                                         
+
+!#  11-0982-02
+!#  11-0982-02 CAP,CE,1nF,50V,X7R,10%,SM,060
+!#  Mon Mar 11 09:45:00 2019
+
+capacitor *, 1n, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

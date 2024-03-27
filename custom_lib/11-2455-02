@@ -1,0 +1,13 @@
+!!!!   21    2    1 1647587943   0000                                         
+
+!#  11-2455-02
+!#  11-2455-02 CAP,CE,0.47uF,25V,10%,X7R,SM,
+!#  Thu Mar 17 16:55:41 2022
+
+capacitor *, 0.47u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,24 @@
+!!!!    2    0    1 1652249180  V31e2                                         
+test powered analog
+
+   test "RF_OUT"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "RF_OUT"
+   disconnect all
+   connect rcva to nodes "CLK25M_OCXO"
+   connect l to ground
+
+   detector frequency, expect 24.576M
+   measure 24.567M * 1.05, 24.567M * 0.95
+end subtest
+
+
+
+!
+!  End test
+!

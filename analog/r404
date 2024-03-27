@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863934   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:55 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "CLK156M_RT5_N"
+jumper 200, re3, wb, ar500m, op
+! "r404" test.

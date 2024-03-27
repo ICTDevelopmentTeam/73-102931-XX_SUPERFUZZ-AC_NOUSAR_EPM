@@ -1,0 +1,23 @@
+!!!!    2    0    1 1651028536  Vd215                                         
+! IPG: rev 09.20pc Wed Apr 27 11:00:46 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+on failure
+   report parallel devices
+   report "c408 2.20n"
+end on failure
+disconnect all
+connect s to "SB_THERM_CA_N"
+connect i to "SB_THERM_AN_P"
+diode "B-E", 980m, 450m, idc10m, co3.0, ar980m,wa20m
+! "q27%q B-E" test.
+! DUT: nominal 700m, plus tol 14.3 %, minus tol 14.3 %
+! DUT: high 800m, low 600m
+! TEST: high limit 809.348m, low limit 605.162m
+! Tolerance Multiplier 1.00
+! Remote Sensing is Allowed
+! Bias Current is 2m
+off failure
+! "q27%q C B" has pins tied together on node "SB_THERM_AN_P".
+! "q27%q E B" has pins tied together on node "SB_THERM_AN_P".
+

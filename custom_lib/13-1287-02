@@ -1,0 +1,9 @@
+!!!!   21    2    1 1343911039   0000                                         
+
+diode *, 800m, 200m
+
+external pins 1
+   device * pins "C"
+
+external pins 2
+   device * pins "A"

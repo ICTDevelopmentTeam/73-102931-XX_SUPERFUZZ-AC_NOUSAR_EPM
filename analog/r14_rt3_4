@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517179  Vf88b                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:37 2022
+disconnect all
+connect s to "GND"
+connect i to "EEPROM_LOAD1_EN_RT3_4"
+!B!resistor 100, 15.00, 10.00, re2, ar100m
+resistor 100, 30, 20, ar50m, re2 !JV
+!resistor 100, 30.00, 20.00, ar100m, re2
+! "r14_rt3_4" test.

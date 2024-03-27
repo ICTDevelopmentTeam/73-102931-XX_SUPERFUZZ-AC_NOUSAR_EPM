@@ -1,0 +1,12 @@
+!!!!   21    2    1 1552285118  V93a9                                         
+
+!* 12-4497-01
+!* 12-4497-01 RES,TKF,4.42 k ohm,0.063W,1%,
+
+resistor *, 4.42k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,20 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sat Dec 23 08:35:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: srt_sfp20_i2c_scl_edge 220142   84
+                 r835.1
+                u49.AE19
+To:   I2C_SCL_SFP<20>         22115   84
+                r34_s0.1
+                 r835.2
+               rn69_s0.4
+           rn69_s0%pin_4_5.1
+Common Devices:
+                  r835
+Message is:
+Check R835
+------End, 1 Problem Reported-----------
+S/N:FLM275100LZ

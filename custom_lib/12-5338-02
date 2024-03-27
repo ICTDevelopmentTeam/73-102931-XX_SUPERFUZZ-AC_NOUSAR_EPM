@@ -1,0 +1,12 @@
+!!!!   21    2    1 1552285118  Vb9bc                                         
+
+!* 12-5338-02
+!* 12-5338-02 RES,TKF,6.81 k ohm,0.0625W,1%
+
+resistor *, 6.81k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

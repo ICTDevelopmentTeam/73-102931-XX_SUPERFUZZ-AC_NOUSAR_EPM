@@ -1,0 +1,46 @@
+!!!!    6    0    1 1652325324  Vabc6                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u7"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign G1B to pins 1
+assign A1  to pins 2
+assign A2  to pins 4
+assign A3  to pins 6
+assign A4  to pins * !8 !TCK
+assign X1  to pins 18
+assign X2  to pins 16
+assign X3  to pins 14
+assign X4  to pins * !12 !TCK
+
+assign G2B to pins 19
+assign B1  to pins * !11  !TCK
+assign B2  to pins * !13  !TCK
+assign B3  to pins * !15  !TCK
+assign B4  to pins * !17  !TCK
+assign Y1  to pins * !9   !TCK
+assign Y2  to pins * !7  !TCK
+assign Y3  to pins * !5   !TCK
+assign Y4  to pins * !3  !TCK
+
+power  VCC,GND
+inputs G1B,G2B
+inputs  A1,A2,A3,A4,B1,B2,B3,B4
+outputs X1,X2,X3,X4,Y1,Y2,Y3,Y4
+
+family LVT
+
+pcf order default SCAN is G1B,A1,A2,A3,A4,X1,X2,X3,X4
+
+unit
+pcf
+  "0 1000 HLLL"
+  "0 0100 LHLL"
+  "1 0010 HHHH"
+end pcf
+end unit
+

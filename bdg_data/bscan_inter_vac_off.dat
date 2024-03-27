@@ -1,0 +1,10 @@
+{@BATCH|Board1|Rev|2500|1||Grading|220513150047|Grader|Cisco-10|testplan_bdg|i3070 09.10p WN(full)
+{@BTEST|Boundary Scan Interconnect Vacuum off|01|220513150047|000001|0|all||n|0|220513150048||1
+{@BS-CON|u29_u1_3_aio|7|00000|00000}
+{@BS-CON|u29_u1_3|7|00000|00000}
+{@D-T|1|21|38|1|u29_u1_3_dis
+}
+}}
+{@BDG_END}
+*** END OF DATA *** 
+

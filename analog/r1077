@@ -1,0 +1,13 @@
+!!!!    2    0    1 1690208509   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:52 2022
+disconnect all
+connect s to "SRT_CLK25M_OCXO"
+connect a to "SRT_CLK25M_OCXO"
+connect i to "CLK25M_OCXO"
+connect b to "CLK25M_OCXO"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+!resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+!resistor 33.2, 40, 20, ar50m, re2 !JV
+!resistor 33.2, 40.0, 20.00, ar200m, re2 !ADV
+resistor 33.2, 40.0, 20.00, ar10m, re2 !ADV
+! "r1077" test.

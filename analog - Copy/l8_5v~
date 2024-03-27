@@ -1,0 +1,8 @@
+!!!!    2    0    1 1675886343   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+disconnect all
+connect i to "UNNAMED_3_CAP_I59_B_5V"
+connect s to "P5V"
+jumper 8, re1, ar50m
+!!!jumper 5.94, re1, ar200m
+! "l8_5v" test.

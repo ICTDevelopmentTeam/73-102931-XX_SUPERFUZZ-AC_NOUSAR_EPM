@@ -1,0 +1,14 @@
+!!!!   21    2    1 1542876010  Vc869                                         
+
+!#  12-4210-01
+!#  12-4210-01 RES,TF,2.2ohm,0.125W,5%,SM,08
+!#  Fri Nov 16 16:41:26 2018
+
+jumper * ,closed
+!resistor *, 2.2, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

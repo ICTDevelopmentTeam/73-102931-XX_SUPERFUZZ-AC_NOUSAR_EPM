@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517108  V8370                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:25 2022
+disconnect all
+connect s to "GND"
+connect i to "P3V3_GPS_EN"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k, 25, 25, ar100m, re4 !JV
+!resistor 10k, 25.00, 20.00, wb, ar100m, re4
+! "r687" test.

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519724  Ve7b2                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:21 2022
+disconnect all
+connect s to "PMOD_COMP_1V2S"
+connect i to "PMOD_COMP_RC_1V2S"
+!B!resistor 5.36k, 6.00, 6.00, re4, wb, ar200m
+resistor 5.36k,25.00,20.00,re4,wb,ar200m
+! "r8_1v2s" test.

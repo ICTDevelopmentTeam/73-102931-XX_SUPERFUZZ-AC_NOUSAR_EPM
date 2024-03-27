@@ -1,0 +1,7 @@
+!!!!    2    0    1 1648521796  V8c4b                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:10 2022
+disconnect all
+connect s to "AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N" ;  a to "AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N"
+connect i to "SRT_CLK103M_DAV_SYNC_E_CORE_REFCLK_N" ;  b to "SRT_CLK103M_DAV_SYNC_E_CORE_REFCLK_N"
+resistor 28.7,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r307" test.

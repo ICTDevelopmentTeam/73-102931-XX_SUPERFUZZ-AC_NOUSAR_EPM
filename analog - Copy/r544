@@ -1,0 +1,8 @@
+!!!!    2    0    1 1675202289   0000                                         
+!* srt_clk125m_mifpga (top) probe removed for frequency test (U44) stable test
+disconnect all
+connect s to "CLK125M_MIFPGA" ;  a to "CLK125M_MIFPGA"
+connect i to "SRT_CLK125M_MIFPGA" ;  b to "SRT_CLK125M_MIFPGA"
+!resistor 33,40.0,20.00,re2,ar200m,sa,sb,ed,en
+resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+! "r544" test.

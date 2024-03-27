@@ -1,0 +1,53 @@
+!!!!    6    0    1 1573459749  V5c34                                         
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VCC to pins 6
+assign GND to pins 4
+
+assign CLKIN to pins 1
+assign EN    to pins 2
+assign Y1    to pins 8
+assign Y0    to pins 3
+assign NC    to pins 5,7
+assign YN    to pins 8,3
+
+power  VCC,GND
+inputs EN,CLKIN
+outputs Y1,Y0,YN
+nondigital NC
+
+family LVT
+
+! ******** I to Z ********
+
+vector CLKIN_OUT_000
+ set CLKIN to "0" !1 or
+ set EN    to "0"
+ set YN    to "00"
+end vector
+
+vector CLKIN_OUT_010
+ set CLKIN to "0"
+ set EN    to "1"
+ set YN    to "00"
+end vector
+
+vector CLKIN_OUT_111
+ set CLKIN to "1"
+ set EN    to "1"
+ set YN    to "11"
+end vector
+
+!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+unit "A to Y"
+ execute CLKIN_OUT_000
+ execute CLKIN_OUT_010
+ execute CLKIN_OUT_111
+end unit
+
+

@@ -1,0 +1,3633 @@
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 04:13:04 2023
+----------------------------------------
+rn32_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   219.16
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27080DCP
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 04:13:17 2023
+----------------------------------------
+rn32_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   199.71
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27080DCP
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 04:13:31 2023
+----------------------------------------
+rn32_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn32_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   206.20
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27080DCP
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:11:23 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r125 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   47.926
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.8532M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:11:50 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -741.47k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:11:59 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -10.217M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   2.9563e+21
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:12:07 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   94.244M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   15.419M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.2355M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:12:15 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.2359M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+Shorts Report for "shorts".
+Wed Mar 01 17:13:49 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 15, Delay 50us     Ohms
+From: srt_jtag_tck_rt3_2v5    20708    3
+                 r674.1
+                 u47.14
+To:   srt_jtag_tck_rt4_2v5    20707    4
+                 r675.1
+                 u47.12
+Common Devices:
+                  u47
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: JTAG_TCK_RT3_2V5       202109   24
+                 r674.2
+              u1_rt3_4.D7
+To:   srt_jtag_tck_rt4_2v5    20707   26
+                 r675.1
+                 u47.12
+      JTAG_TCK_RT4_2V5       202112   47
+                 r675.2
+              u2_rt3_4.D7
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 60, Delay 200ms    Ohms
+From: PWR_FUSED_SFP<0>_S1    115174    1
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+  &   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+  &   PWR_FUSED_SFP<1>_S1    116174
+                c43_s1.1
+                c44_s1.1
+                f1_s1.1
+                l13_s1.2
+                l14_s1.2
+  &   PWR_FUSED_SFP<2>_S1     11673
+                c45_s1.1
+                c46_s1.1
+                f2_s1.1
+                l1_s1.2
+                l15_s1.2
+  &   PWR_FUSED_SFP<3>_S1    116173
+                c47_s1.1
+                c48_s1.1
+                f3_s1.1
+                l2_s1.2
+                l16_s1.2
+  &   PWR_FUSED_SFP<4>_S1     11572
+               c109_s1.1
+               c114_s1.1
+                f4_s1.1
+                l23_s1.2
+                l28_s1.2
+  &   PWR_FUSED_SFP<5>_S1     11776
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+  &   PWR_FUSED_SFP<6>_S1    115172
+               c129_s1.1
+               c134_s1.1
+                f6_s1.1
+                l7_s1.2
+                l43_s1.2
+  &   PWR_FUSED_SFP<7>_S1    117176
+               c139_s1.1
+               c144_s1.1
+                f7_s1.1
+                l18_s1.2
+                l48_s1.2
+  &   PWR_FUSED_SFP<8>_S1     11472
+               c105_s1.1
+               c110_s1.1
+                f8_s1.1
+                l19_s1.2
+                l24_s1.2
+To:   p3_3v                   10756   57
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+      FLTR_P3V3_OSC_212M5     11064   56
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+        v                    107148   56 
+UNNAMED_3_CAP_I59_B_3V3                 
+               c227_3v3.1
+                l9_3v3.1
+               u16_3v3.26
+               u16_3v3.27
+               u16_3v3.28
+               u16_3v3.29
+               u16_3v3.30
+               u16_3v3.31
+        v                    215123   55 
+fltr_p3v3_osc_156m_buf_vcc              
+                 c66.2
+                 c67.2
+                 c68.2
+                 c91.2
+                 l10.1
+                 u5.18
+                 u5.20
+      fltr_p3v3_1pps_mux_out 107155   55
+                 c105.1
+                 c107.1
+                 l15.2
+                 r205.1
+                  u6.6
+      fltr_p3v3_1pps_mux_in  108162   56
+                 c106.1
+                 c108.1
+                 l16.2
+                 r206.1
+                 u14.6
+        v                     11065   55 
+unnamed_4096_cap_i1159_b                
+                 c27.1
+                 c406.1
+                 c407.1
+                 l25.2
+                 u63.8
+        v                     11063   56 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+                 c163.2
+                 c164.2
+                 c166.2
+                 c167.2
+                 l26.1
+                 u13.18
+                 u13.20
+        v                    110165   57 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+        v                    110166   55 
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+      POSC_212M5_ADD         217133   56
+                 r163.2
+                 r593.2
+                 u51.2
+      PMOD_VSENP_3V3         107149   58
+               r842_3v3.2
+               u16_3v3.12
+      UNNAMED_55_CAP_I111_B   10562   57
+                c2724.1
+                  p2.6
+                r1197.2
+      PMOD_PH_3V3            105146   56
+               c189_3v3.2
+               u16_3v3.4
+      P0_9V                   22028   34
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_TX_0P9V_3     21715   53
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   54
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   56
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   57
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   37
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   20
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   21
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   32
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   21
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   23
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   24
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   26
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      avdd_sense_r_rtv1       21965   38
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   28
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      P1V0RT1_AVDD            22165   54
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+      P1V0RT2_AVDD           113148   53
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+      VDD_PH                  10554   54
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+      GND                    215142    2
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    3
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    2
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    2 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    2 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    3 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    3 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    4
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    2
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    2
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    3
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    3
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    3
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    2
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    4
+               c218_5v.2
+                r73_5v.2
+        v                    216138    1 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    3
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    4
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    2
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    1
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    3
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    3
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    3
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    2
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    2
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    2
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    2
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    2
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    3 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    2 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    3 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    4 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    3 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    4 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    3 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    4 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    3
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    4
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    3
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    4
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    4
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   14
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    4
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    3
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    6
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    3
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    5
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    5
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    6
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    3
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    6
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    4
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    5
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                 c41_s1
+                 c42_s1
+                 c5_q0
+                 c5_q1
+                 c5_q2
+                 c6_q0
+                 c6_q1
+                 c6_q2
+                c15_sf1
+                c16_sf1
+Too many to print.
+Total of 177 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27080ALF
+----------------------------------------
+Shorts Report for "shorts".
+Wed Mar 01 17:14:46 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 15, Delay 50us     Ohms
+From: srt_jtag_tck_rt3_2v5    20708    3
+                 r674.1
+                 u47.14
+To:   srt_jtag_tck_rt4_2v5    20707    4
+                 r675.1
+                 u47.12
+Common Devices:
+                  u47
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: JTAG_TCK_RT3_2V5       202109   25
+                 r674.2
+              u1_rt3_4.D7
+To:   srt_jtag_tck_rt4_2v5    20707   25
+                 r675.1
+                 u47.12
+      JTAG_TCK_RT4_2V5       202112   47
+                 r675.2
+              u2_rt3_4.D7
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 60, Delay 200ms    Ohms
+From: PWR_FUSED_SFP<0>_S1    115174    1
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+  &   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+  &   PWR_FUSED_SFP<1>_S1    116174
+                c43_s1.1
+                c44_s1.1
+                f1_s1.1
+                l13_s1.2
+                l14_s1.2
+  &   PWR_FUSED_SFP<2>_S1     11673
+                c45_s1.1
+                c46_s1.1
+                f2_s1.1
+                l1_s1.2
+                l15_s1.2
+  &   PWR_FUSED_SFP<3>_S1    116173
+                c47_s1.1
+                c48_s1.1
+                f3_s1.1
+                l2_s1.2
+                l16_s1.2
+  &   PWR_FUSED_SFP<4>_S1     11572
+               c109_s1.1
+               c114_s1.1
+                f4_s1.1
+                l23_s1.2
+                l28_s1.2
+  &   PWR_FUSED_SFP<5>_S1     11776
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+  &   PWR_FUSED_SFP<6>_S1    115172
+               c129_s1.1
+               c134_s1.1
+                f6_s1.1
+                l7_s1.2
+                l43_s1.2
+  &   PWR_FUSED_SFP<7>_S1    117176
+               c139_s1.1
+               c144_s1.1
+                f7_s1.1
+                l18_s1.2
+                l48_s1.2
+  &   PWR_FUSED_SFP<8>_S1     11472
+               c105_s1.1
+               c110_s1.1
+                f8_s1.1
+                l19_s1.2
+                l24_s1.2
+To:   p3_3v                   10756   56
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+      FLTR_P3V3_OSC_212M5     11064   56
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+        v                    107148   55 
+UNNAMED_3_CAP_I59_B_3V3                 
+               c227_3v3.1
+                l9_3v3.1
+               u16_3v3.26
+               u16_3v3.27
+               u16_3v3.28
+               u16_3v3.29
+               u16_3v3.30
+               u16_3v3.31
+        v                    215123   56 
+fltr_p3v3_osc_156m_buf_vcc              
+                 c66.2
+                 c67.2
+                 c68.2
+                 c91.2
+                 l10.1
+                 u5.18
+                 u5.20
+      fltr_p3v3_1pps_mux_out 107155   54
+                 c105.1
+                 c107.1
+                 l15.2
+                 r205.1
+                  u6.6
+      fltr_p3v3_1pps_mux_in  108162   56
+                 c106.1
+                 c108.1
+                 l16.2
+                 r206.1
+                 u14.6
+        v                     11065   56 
+unnamed_4096_cap_i1159_b                
+                 c27.1
+                 c406.1
+                 c407.1
+                 l25.2
+                 u63.8
+        v                     11063   56 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+                 c163.2
+                 c164.2
+                 c166.2
+                 c167.2
+                 l26.1
+                 u13.18
+                 u13.20
+        v                    110165   56 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+        v                    110166   55 
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+      POSC_212M5_ADD         217133   56
+                 r163.2
+                 r593.2
+                 u51.2
+      PMOD_VSENP_3V3         107149   57
+               r842_3v3.2
+               u16_3v3.12
+      UNNAMED_55_CAP_I111_B   10562   56
+                c2724.1
+                  p2.6
+                r1197.2
+      PMOD_PH_3V3            105146   55
+               c189_3v3.2
+               u16_3v3.4
+      P0_9V                   22028   33
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_TX_0P9V_3     21715   53
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   53
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   56
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   55
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   36
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   20
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   31
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   20
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   21
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   25
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   25
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      avdd_sense_r_rtv1       21965   36
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   29
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      P1V0RT1_AVDD            22165   53
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+      P1V0RT2_AVDD           113148   52
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+      VDD_PH                  10554   56
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+      GND                    215142    3
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    3
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    2
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    4 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    4 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    1 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    2 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    4
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    3
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    3
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    3
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    3
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    2
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    2
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    1 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    4
+               c218_5v.2
+                r73_5v.2
+        v                    216138    3 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    4
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    5
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    3
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    2
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    3
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    3
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    3
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    3
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    2
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    3
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    3
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    2
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    2
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    2 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    2 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    3 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    4 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    2 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    4 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    3 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    3 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    4 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    4
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    4
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    3
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    2
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    3
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   14
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    3
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    3
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    5
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    4
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    6
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    4
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    5
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    4
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    6
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    3
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    4
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                 c41_s1
+                 c42_s1
+                 c5_q0
+                 c5_q1
+                 c5_q2
+                 c6_q0
+                 c6_q1
+                 c6_q2
+                c15_sf1
+                c16_sf1
+Too many to print.
+Total of 177 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27080ALF
+----------------------------------------
+Shorts Report for "shorts".
+Wed Mar 01 17:15:44 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 15, Delay 50us     Ohms
+From: srt_jtag_tck_rt3_2v5    20708    3
+                 r674.1
+                 u47.14
+To:   srt_jtag_tck_rt4_2v5    20707    4
+                 r675.1
+                 u47.12
+Common Devices:
+                  u47
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: JTAG_TCK_RT3_2V5       202109   24
+                 r674.2
+              u1_rt3_4.D7
+To:   srt_jtag_tck_rt4_2v5    20707   26
+                 r675.1
+                 u47.12
+      JTAG_TCK_RT4_2V5       202112   47
+                 r675.2
+              u2_rt3_4.D7
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 60, Delay 200ms    Ohms
+From: PWR_FUSED_SFP<0>_S1    115174    0
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+  &   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+  &   PWR_FUSED_SFP<1>_S1    116174
+                c43_s1.1
+                c44_s1.1
+                f1_s1.1
+                l13_s1.2
+                l14_s1.2
+  &   PWR_FUSED_SFP<2>_S1     11673
+                c45_s1.1
+                c46_s1.1
+                f2_s1.1
+                l1_s1.2
+                l15_s1.2
+  &   PWR_FUSED_SFP<3>_S1    116173
+                c47_s1.1
+                c48_s1.1
+                f3_s1.1
+                l2_s1.2
+                l16_s1.2
+  &   PWR_FUSED_SFP<4>_S1     11572
+               c109_s1.1
+               c114_s1.1
+                f4_s1.1
+                l23_s1.2
+                l28_s1.2
+  &   PWR_FUSED_SFP<5>_S1     11776
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+  &   PWR_FUSED_SFP<6>_S1    115172
+               c129_s1.1
+               c134_s1.1
+                f6_s1.1
+                l7_s1.2
+                l43_s1.2
+  &   PWR_FUSED_SFP<7>_S1    117176
+               c139_s1.1
+               c144_s1.1
+                f7_s1.1
+                l18_s1.2
+                l48_s1.2
+  &   PWR_FUSED_SFP<8>_S1     11472
+               c105_s1.1
+               c110_s1.1
+                f8_s1.1
+                l19_s1.2
+                l24_s1.2
+To:   p3_3v                   10756   56
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+      FLTR_P3V3_OSC_212M5     11064   54
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+        v                    107148   55 
+UNNAMED_3_CAP_I59_B_3V3                 
+               c227_3v3.1
+                l9_3v3.1
+               u16_3v3.26
+               u16_3v3.27
+               u16_3v3.28
+               u16_3v3.29
+               u16_3v3.30
+               u16_3v3.31
+        v                    215123   55 
+fltr_p3v3_osc_156m_buf_vcc              
+                 c66.2
+                 c67.2
+                 c68.2
+                 c91.2
+                 l10.1
+                 u5.18
+                 u5.20
+      fltr_p3v3_1pps_mux_out 107155   55
+                 c105.1
+                 c107.1
+                 l15.2
+                 r205.1
+                  u6.6
+      fltr_p3v3_1pps_mux_in  108162   57
+                 c106.1
+                 c108.1
+                 l16.2
+                 r206.1
+                 u14.6
+        v                     11065   55 
+unnamed_4096_cap_i1159_b                
+                 c27.1
+                 c406.1
+                 c407.1
+                 l25.2
+                 u63.8
+        v                     11063   56 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+                 c163.2
+                 c164.2
+                 c166.2
+                 c167.2
+                 l26.1
+                 u13.18
+                 u13.20
+        v                    110165   56 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+        v                    110166   56 
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+      POSC_212M5_ADD         217133   56
+                 r163.2
+                 r593.2
+                 u51.2
+      PMOD_VSENP_3V3         107149   57
+               r842_3v3.2
+               u16_3v3.12
+      UNNAMED_55_CAP_I111_B   10562   56
+                c2724.1
+                  p2.6
+                r1197.2
+      PMOD_PH_3V3            105146   55
+               c189_3v3.2
+               u16_3v3.4
+      P0_9V                   22028   32
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_TX_0P9V_3     21715   50
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   53
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   57
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   54
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   37
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   21
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   30
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   20
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   23
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   25
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   26
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      avdd_sense_r_rtv1       21965   36
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   28
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      P1V0RT1_AVDD            22165   54
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+      P1V0RT2_AVDD           113148   52
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+      VDD_PH                  10554   56
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+      GND                    215142    2
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    2
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    3
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    4 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    2 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    2 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    4
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    2
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    3
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    2
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    4
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    3
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    4
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    5
+               c218_5v.2
+                r73_5v.2
+        v                    216138    2 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    2
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    3
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    2
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    2
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    2
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    2
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    3
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    3
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    2
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    2
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    3
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    2
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    3 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    2 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    2 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    4 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    3 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    4 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    2 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    3 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    5 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    3
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    4
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    3
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    3
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    4
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   14
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    4
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    4
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    6
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    3
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    6
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    4
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    6
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    3
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    6
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    4
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    5
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                 c41_s1
+                 c42_s1
+                 c5_q0
+                 c5_q1
+                 c5_q2
+                 c6_q0
+                 c6_q1
+                 c6_q2
+                c15_sf1
+                c16_sf1
+Too many to print.
+Total of 177 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27080ALF
+----------------------------------------
+Shorts Report for "shorts".
+Wed Mar 01 17:16:42 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 15, Delay 50us     Ohms
+From: srt_jtag_tck_rt3_2v5    20708    3
+                 r674.1
+                 u47.14
+To:   srt_jtag_tck_rt4_2v5    20707    4
+                 r675.1
+                 u47.12
+Common Devices:
+                  u47
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: JTAG_TCK_RT3_2V5       202109   25
+                 r674.2
+              u1_rt3_4.D7
+To:   srt_jtag_tck_rt4_2v5    20707   25
+                 r675.1
+                 u47.12
+      JTAG_TCK_RT4_2V5       202112   47
+                 r675.2
+              u2_rt3_4.D7
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 60, Delay 200ms    Ohms
+From: PWR_FUSED_SFP<0>_S1    115174    1
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+  &   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+  &   PWR_FUSED_SFP<1>_S1    116174
+                c43_s1.1
+                c44_s1.1
+                f1_s1.1
+                l13_s1.2
+                l14_s1.2
+  &   PWR_FUSED_SFP<2>_S1     11673
+                c45_s1.1
+                c46_s1.1
+                f2_s1.1
+                l1_s1.2
+                l15_s1.2
+  &   PWR_FUSED_SFP<3>_S1    116173
+                c47_s1.1
+                c48_s1.1
+                f3_s1.1
+                l2_s1.2
+                l16_s1.2
+  &   PWR_FUSED_SFP<4>_S1     11572
+               c109_s1.1
+               c114_s1.1
+                f4_s1.1
+                l23_s1.2
+                l28_s1.2
+  &   PWR_FUSED_SFP<5>_S1     11776
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+  &   PWR_FUSED_SFP<6>_S1    115172
+               c129_s1.1
+               c134_s1.1
+                f6_s1.1
+                l7_s1.2
+                l43_s1.2
+  &   PWR_FUSED_SFP<7>_S1    117176
+               c139_s1.1
+               c144_s1.1
+                f7_s1.1
+                l18_s1.2
+                l48_s1.2
+  &   PWR_FUSED_SFP<8>_S1     11472
+               c105_s1.1
+               c110_s1.1
+                f8_s1.1
+                l19_s1.2
+                l24_s1.2
+To:   p3_3v                   10756   55
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+      FLTR_P3V3_OSC_212M5     11064   56
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+        v                    107148   54 
+UNNAMED_3_CAP_I59_B_3V3                 
+               c227_3v3.1
+                l9_3v3.1
+               u16_3v3.26
+               u16_3v3.27
+               u16_3v3.28
+               u16_3v3.29
+               u16_3v3.30
+               u16_3v3.31
+        v                    215123   56 
+fltr_p3v3_osc_156m_buf_vcc              
+                 c66.2
+                 c67.2
+                 c68.2
+                 c91.2
+                 l10.1
+                 u5.18
+                 u5.20
+      fltr_p3v3_1pps_mux_out 107155   55
+                 c105.1
+                 c107.1
+                 l15.2
+                 r205.1
+                  u6.6
+      fltr_p3v3_1pps_mux_in  108162   55
+                 c106.1
+                 c108.1
+                 l16.2
+                 r206.1
+                 u14.6
+        v                     11065   55 
+unnamed_4096_cap_i1159_b                
+                 c27.1
+                 c406.1
+                 c407.1
+                 l25.2
+                 u63.8
+        v                     11063   56 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+                 c163.2
+                 c164.2
+                 c166.2
+                 c167.2
+                 l26.1
+                 u13.18
+                 u13.20
+        v                    110165   56 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+        v                    110166   55 
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+      POSC_212M5_ADD         217133   56
+                 r163.2
+                 r593.2
+                 u51.2
+      PMOD_VSENP_3V3         107149   57
+               r842_3v3.2
+               u16_3v3.12
+      UNNAMED_55_CAP_I111_B   10562   55
+                c2724.1
+                  p2.6
+                r1197.2
+      PMOD_PH_3V3            105146   57
+               c189_3v3.2
+               u16_3v3.4
+      P0_9V                   22028   33
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_TX_0P9V_3     21715   52
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   54
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   53
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   55
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   37
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   20
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   31
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   20
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   21
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   24
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   26
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      avdd_sense_r_rtv1       21965   35
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   28
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      P1V0RT1_AVDD            22165   52
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+      P1V0RT2_AVDD           113148   51
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+      VDD_PH                  10554   55
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+      GND                    215142    1
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    3
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    3
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    2 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    2 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    5
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    3
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    3
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    2
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    4
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    3
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    3
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    5
+               c218_5v.2
+                r73_5v.2
+        v                    216138    2 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    3
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    4
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    2
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    2
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    2
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    2
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    3
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    3
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    1
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    2
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    3
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    3
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    2 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    2 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    3 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    4 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    2 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    4 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    2 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    3 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    5 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    2
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    4
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    3
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    3
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    4
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   14
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    3
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    3
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    6
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    4
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    6
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    5
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    6
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    4
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    6
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    3
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    6
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                 c41_s1
+                 c42_s1
+                 c5_q0
+                 c5_q1
+                 c5_q2
+                 c6_q0
+                 c6_q1
+                 c6_q2
+                c15_sf1
+                c16_sf1
+Too many to print.
+Total of 177 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27080ALF
+----------------------------------------
+Shorts Report for "shorts".
+Wed Mar 01 17:17:40 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 15, Delay 50us     Ohms
+From: srt_jtag_tck_rt3_2v5    20708    3
+                 r674.1
+                 u47.14
+To:   srt_jtag_tck_rt4_2v5    20707    4
+                 r675.1
+                 u47.12
+Common Devices:
+                  u47
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: JTAG_TCK_RT3_2V5       202109   25
+                 r674.2
+              u1_rt3_4.D7
+To:   srt_jtag_tck_rt4_2v5    20707   26
+                 r675.1
+                 u47.12
+      JTAG_TCK_RT4_2V5       202112   47
+                 r675.2
+              u2_rt3_4.D7
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 60, Delay 200ms    Ohms
+From: PWR_FUSED_SFP<0>_S1    115174    1
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+  &   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+  &   PWR_FUSED_SFP<1>_S1    116174
+                c43_s1.1
+                c44_s1.1
+                f1_s1.1
+                l13_s1.2
+                l14_s1.2
+  &   PWR_FUSED_SFP<2>_S1     11673
+                c45_s1.1
+                c46_s1.1
+                f2_s1.1
+                l1_s1.2
+                l15_s1.2
+  &   PWR_FUSED_SFP<3>_S1    116173
+                c47_s1.1
+                c48_s1.1
+                f3_s1.1
+                l2_s1.2
+                l16_s1.2
+  &   PWR_FUSED_SFP<4>_S1     11572
+               c109_s1.1
+               c114_s1.1
+                f4_s1.1
+                l23_s1.2
+                l28_s1.2
+  &   PWR_FUSED_SFP<5>_S1     11776
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+  &   PWR_FUSED_SFP<6>_S1    115172
+               c129_s1.1
+               c134_s1.1
+                f6_s1.1
+                l7_s1.2
+                l43_s1.2
+  &   PWR_FUSED_SFP<7>_S1    117176
+               c139_s1.1
+               c144_s1.1
+                f7_s1.1
+                l18_s1.2
+                l48_s1.2
+  &   PWR_FUSED_SFP<8>_S1     11472
+               c105_s1.1
+               c110_s1.1
+                f8_s1.1
+                l19_s1.2
+                l24_s1.2
+To:   p3_3v                   10756   57
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+      FLTR_P3V3_OSC_212M5     11064   54
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+        v                    107148   56 
+UNNAMED_3_CAP_I59_B_3V3                 
+               c227_3v3.1
+                l9_3v3.1
+               u16_3v3.26
+               u16_3v3.27
+               u16_3v3.28
+               u16_3v3.29
+               u16_3v3.30
+               u16_3v3.31
+        v                    215123   55 
+fltr_p3v3_osc_156m_buf_vcc              
+                 c66.2
+                 c67.2
+                 c68.2
+                 c91.2
+                 l10.1
+                 u5.18
+                 u5.20
+      fltr_p3v3_1pps_mux_out 107155   55
+                 c105.1
+                 c107.1
+                 l15.2
+                 r205.1
+                  u6.6
+      fltr_p3v3_1pps_mux_in  108162   56
+                 c106.1
+                 c108.1
+                 l16.2
+                 r206.1
+                 u14.6
+        v                     11065   57 
+unnamed_4096_cap_i1159_b                
+                 c27.1
+                 c406.1
+                 c407.1
+                 l25.2
+                 u63.8
+        v                     11063   55 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+                 c163.2
+                 c164.2
+                 c166.2
+                 c167.2
+                 l26.1
+                 u13.18
+                 u13.20
+        v                    110165   56 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+        v                    110166   56 
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+      POSC_212M5_ADD         217133   55
+                 r163.2
+                 r593.2
+                 u51.2
+      PMOD_VSENP_3V3         107149   57
+               r842_3v3.2
+               u16_3v3.12
+      UNNAMED_55_CAP_I111_B   10562   56
+                c2724.1
+                  p2.6
+                r1197.2
+      PMOD_PH_3V3            105146   57
+               c189_3v3.2
+               u16_3v3.4
+      P0_9V                   22028   33
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_TX_0P9V_3     21715   52
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   52
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   57
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   54
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   37
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   20
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   30
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   20
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   23
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   25
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   26
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      avdd_sense_r_rtv1       21965   37
+               c02_rtv1.2
+               p1_rtv1.8
+               r01_rtv1.2
+               u1_rtv1.30
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   28
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      P1V0RT1_AVDD            22165   52
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+      P1V0RT2_AVDD           113148   51
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+      VDD_PH                  10554   53
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+      GND                    215142    2
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    3
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    3
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    2 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    2 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    5
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    3
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    3
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    2
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    3
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    3
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    4
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    5
+               c218_5v.2
+                r73_5v.2
+        v                    216138    2 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    4
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    3
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    3
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    2
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    3
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    2
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    3
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    2
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    2
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    2
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    2
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    2
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    2 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    2 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    3 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    4 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    2 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    3 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    3 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    3 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    4 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    2
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    4
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    3
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    3
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    5
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   14
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    3
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    3
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    6
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    3
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    6
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    4
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    6
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    4
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    6
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    3
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    6
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                 c41_s1
+                 c42_s1
+                 c5_q0
+                 c5_q1
+                 c5_q2
+                 c6_q0
+                 c6_q1
+                 c6_q2
+                c15_sf1
+                c16_sf1
+Too many to print.
+Total of 177 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27080ALF
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:20:39 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -6.5738M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -6.5738M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -10.217M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.8531M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:20:57 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -22.919M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -10.217M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -6.5738M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -926.44k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 17:21:05 2023
+----------------------------------------
+rn58_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -6.5738M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn58_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn58_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -10.217M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -10.217M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.8537M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27090063
+----------------------------------------
+TestJet Report for "testjet".
+Wed Mar 01 18:40:30 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 107  Node fpga_sfp_led_yel_l<43>
+  Measured 56.8             (BRC 108117)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM270903TF
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 18:44:09 2023
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM270903TG
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 18:44:17 2023
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM270903TG
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 18:44:25 2023
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM270903TG
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 18:44:33 2023
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM270903TG
+----------------------------------------
+73-102898-01_03
+Wed Mar 01 18:44:40 2023
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM270903TG

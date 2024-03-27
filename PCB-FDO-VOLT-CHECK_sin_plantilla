@@ -1,0 +1,6344 @@
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.116
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3_3V
+Measured:   609.76m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5002
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.3006
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P5V
+Measured:   189.23m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: ANT_5V
+Measured:   182.20m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_GPS
+Measured:   8.2275m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1167
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   8.6982m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8310
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDD_P0V875
+Measured:   7.7127m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3069
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   4.3200m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   4.1472m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   13.112m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3116
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT1
+Measured:   8.8035m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT2
+Measured:   10.000m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2310
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   4.1883m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   2.0087m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P0_9V
+Measured:   4.8293m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+    Setting Up Power Supplies
+Waiting 40 secs....
+    P3V3_STBY:  3.301536 V .03579975 A
+    P12V:  12.04577 V 3.96815553 A
+------------------------------------------------------------------------------
+KEYSIGHT ICT ANALOG COMPILER                Thu Nov 17 11:33:00 2022      
+
+C:/Users/CALIBR~1/AppData/Local/Temp/KxCjNKqDTG/pwr_check
+------------------------------------------------------------------------------
+
+1 1: test powered analog
+2 2: 
+3 3:    test  "P12V"                           !! PASS
+4 4:    test  "P3V3_STBY"                      !! PASS     
+5 5:    test  "P5V"               !U15_5V      !! PASS
+6 6:    test  "ANT_5V"            !u1_6
+7 7:    test  "P3_3V"             !U16_3V3      !! PASS
+8 8:    test  "P3_3VA"            !u3_a
+9 9:    test  "P3V3_GPS"          !u1_6
+10 10:    test  "P2_5VA"            !u1_a         !! PASS
+11 11:    test  "P1_1VA"            !u1_a
+12 12:    test  "P2V5RT1"           !u114
+13 13:    test  "P2V5RT2"           !u11
+14 14:    test  "P3V3_SFP0"         !u1_sf0
+15 15:    test  "P3V3_SFP1"         !u1_sf1
+16 16:    test  "P1V0RT1_AVDD"      !u1_91_rtv1
+17 17:    test  "P1V0RT1_DVDD"      !u1_98_rtv1
+18 18:    test  "P1V0RT2_AVDD"      !u1_91_rtv2
+19 19:    test  "P1V0RT2_DVDD"      !u1_98_rtv2
+20 20:    test  "P1V8"              !u3
+21 21:    test  "PWR_1V8_ADOMAIN"   !u87
+22 22:    test  "P0_9V"             !u1_98_5
+23 23:    test  "VDD_P0V875"        !u1_91_5,u1_92_5,u1_93_5,u1_94_5,u1_95_5,u1_96_5
+24 24:    ! 0.943 V
+25 25:    test  "VDDHA_1P2V_MAIN"   !u1_1v2s
+26 26: 
+27 27: end test
+28 28: 
+29 29: !!*****************
+30 30: 
+31 31: subtest "P2V5RT1"
+32 32: 
+33 33:  clear connect i to nodes "P2V5RT1"
+There are no subtest connections to "clear." (WARNING ATL115)
+34 34:  connect l to ground
+35 35: 
+36 36:  detector dcv, expect 2.5
+37 37:  measure 2.5*1.08,2.5*0.92
+38 38: end subtest
+39 39: 
+40 40: subtest "P2V5RT2"
+41 41: 
+42 42:  clear connect i to nodes "P2V5RT2"
+There are no subtest connections to "clear." (WARNING ATL115)
+43 43:  connect l to ground
+44 44: 
+45 45:  detector dcv, expect 2.5
+46 46:  measure 2.5*1.08,2.5*0.92
+47 47: end subtest
+48 48: 
+49 49: subtest "P2_5VA"
+50 50: 
+51 51:  clear connect i to nodes "P2_5VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+52 52:  connect l to ground
+53 53: 
+54 54:  detector dcv, expect 2.5
+55 55:  measure 2.5*1.08,2.5*0.92
+56 56: end subtest
+57 57: 
+58 58: subtest "P3V3_STBY"
+59 59: 
+60 60:  clear connect i to nodes "P3V3_STBY"
+There are no subtest connections to "clear." (WARNING ATL115)
+61 61:  connect l to ground
+62 62: 
+63 63:  detector dcv, expect 3.3
+64 64:  measure 3.3*1.08,3.3*0.92
+65 65: end subtest
+66 66: 
+67 67: subtest "P3_3V"
+68 68: 
+69 69:  clear connect i to nodes "P3_3V"
+There are no subtest connections to "clear." (WARNING ATL115)
+70 70:  connect l to ground
+71 71: 
+72 72:  detector dcv, expect 3.3
+73 73:  measure 3.3*1.08,3.3*0.92
+74 74: end subtest
+75 75: 
+76 76: subtest "P3V3_GPS"
+77 77: 
+78 78:  clear connect i to nodes "P3V3_GPS"
+There are no subtest connections to "clear." (WARNING ATL115)
+79 79:  connect l to ground
+80 80: 
+81 81:  detector dcv, expect 3.3
+82 82:  measure 3.3*1.08,3.3*0.92
+83 83: end subtest
+84 84: 
+85 85: subtest "P3_3VA"
+86 86: 
+87 87:  clear connect i to nodes "P3_3VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+88 88:  connect l to ground
+89 89: 
+90 90:  detector dcv, expect 3.3
+91 91:  measure 3.3*1.08,3.3*0.92
+92 92: end subtest
+93 93: 
+94 94: subtest "P1_1VA"
+95 95: 
+96 96:  clear connect i to nodes "P1_1VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+97 97:  connect l to ground
+98 98: 
+99 99:  detector dcv, expect 1.1
+100 100:  measure 1.1*1.10,1.1*0.90
+101 101: end subtest
+102 102: 
+103 103: subtest "P1V8"
+104 104: 
+105 105:  clear connect i to nodes "FPGA_SNDN_HW_I2C_SDA"  !"P1V8"
+There are no subtest connections to "clear." (WARNING ATL115)
+106 106:  connect l to ground
+107 107: 
+108 108:  detector dcv, expect 1.1
+109 109:  measure 1.8*1.08,1.8*0.92
+110 110: end subtest
+111 111: 
+112 112: subtest "PWR_1V8_ADOMAIN"
+113 113: 
+114 114:  clear connect i to nodes "PWR_1V8_ADOMAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+115 115:  connect l to ground
+116 116: 
+117 117:  detector dcv, expect 1.8
+118 118:  measure 1.8*1.08,1.8*0.92
+119 119: end subtest
+120 120: 
+121 121: 
+122 122: subtest "VDD_P0V875"
+123 123: 
+124 124:  clear connect i to nodes "VDD_P0V875"
+There are no subtest connections to "clear." (WARNING ATL115)
+125 125:  connect l to ground
+126 126: 
+127 127:  detector dcv, expect 0.875
+128 128:  measure 0.900*1.10,0.900*0.90
+129 129: !measure 0.875*1.04,0.875*0.96
+130 130: end subtest
+131 131: 
+132 132: subtest "VDDHA_1P2V_MAIN"
+133 133: 
+134 134:  clear connect i to nodes "VDDHA_1P2V_MAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+135 135:  connect l to ground
+136 136: 
+137 137:  detector dcv, expect 1.2
+138 138:  measure 1.2*1.10,1.2*0.90
+139 139: end subtest
+140 140: 
+141 141: subtest "VIN_MON_P_PM"
+142 142: 
+143 143:  clear connect i to nodes "VIN_MON_P_PM"
+There are no subtest connections to "clear." (WARNING ATL115)
+144 144:  connect l to ground
+145 145: 
+146 146:  detector dcv, expect 1.55
+147 147:  measure 1.55*1.08,1.55*0.92
+148 148: end subtest
+149 149: 
+150 150: subtest "P0_9V"
+151 151: 
+152 152:  clear connect i to nodes "P0_9V"
+There are no subtest connections to "clear." (WARNING ATL115)
+153 153:  connect l to ground
+154 154: 
+155 155:  detector dcv, expect 0.9
+156 156:  measure 0.9*1.10,0.9*0.90
+157 157: end subtest
+158 158: 
+159 159: subtest "P1V0RT1_DVDD"
+160 160: 
+161 161:  clear connect i to nodes "P1V0RT1_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+162 162:  connect l to ground
+163 163: 
+164 164:  detector dcv, expect 1.0
+165 165:  measure 1.0*1.10,1.0*0.90
+166 166: end subtest
+167 167: 
+168 168: 
+169 169: subtest "P1V0RT1_AVDD"
+170 170: 
+171 171:  clear connect i to nodes "P1V0RT1_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+172 172:  connect l to ground
+173 173: 
+174 174:  detector dcv, expect 1.0
+175 175:  measure 1.0*1.10,1.0*0.90
+176 176: end subtest
+177 177: 
+178 178: subtest "P1V0RT2_DVDD"
+179 179: 
+180 180:  clear connect i to nodes "P1V0RT2_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+181 181:  connect l to ground
+182 182: 
+183 183:  detector dcv, expect 1.0
+184 184:  measure 1.0*1.10,1.0*0.90
+185 185: end subtest
+186 186: 
+187 187: 
+188 188: subtest "P1V0RT2_AVDD"
+189 189: 
+190 190:  clear connect i to nodes "P1V0RT2_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+191 191:  connect l to ground
+192 192: 
+193 193:  detector dcv, expect 1.0
+194 194:  measure 1.0*1.10,1.0*0.90
+195 195: end subtest
+196 196: 
+197 197: subtest "P5V"
+198 198: 
+199 199:  clear connect i to nodes "P5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+200 200:  connect l to ground
+201 201: 
+202 202:  detector dcv, expect 5.0
+203 203:  measure 5.0*1.05,5.0*0.95
+204 204: end subtest
+205 205: 
+206 206: subtest "ANT_5V"
+207 207: 
+208 208:  clear connect i to nodes "ANT_5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+209 209:  connect l to ground
+210 210: 
+211 211:  detector dcv, expect 5.0
+212 212:  measure 5.0*1.05,5.0*0.95
+213 213: end subtest
+214 214: 
+215 215: subtest "P12V"
+216 216: 
+217 217:  clear connect i to nodes "P12V"
+There are no subtest connections to "clear." (WARNING ATL115)
+218 218:  connect l to ground
+219 219: 
+220 220:  detector dcv, expect 12.0
+221 221:  measure 12.0*1.05,12.0*0.95
+222 222: end subtest
+223 223: 
+224 224: subtest "P3V3_SFP1"
+225 225: 
+226 226:  clear connect i to nodes "P3V3_SFP1"
+There are no subtest connections to "clear." (WARNING ATL115)
+227 227:  connect l to ground
+228 228: 
+229 229:  detector dcv, expect 3.3
+230 230:  measure 3.3*1.08,3.3*0.92
+231 231: end subtest
+232 232: 
+233 233: subtest "P3V3_SFP0"
+234 234: 
+235 235:  clear connect i to nodes "P3V3_SFP0"
+There are no subtest connections to "clear." (WARNING ATL115)
+236 236:  connect l to ground
+237 237: 
+238 238:  detector dcv, expect 3.3
+239 239:  measure 3.3*1.08,3.3*0.92
+240 240: end subtest
+241 241: 
+242 242: 
+243 243: 
+
+--------
+WARNINGS
+--------
+
+ATL115   In a subtest, a "clear" statement will only disconnect subtest 
+         level connections and there are no active subtest connections 
+         to disconnect.
+
+-------
+SUMMARY
+-------
+
+243 LINES, 0 ERRORS, 23 WARNINGS, OBJECT PRODUCED
+
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.063
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3V
+Measured:   3.2924
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5180
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2735
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P5V
+Measured:   5.0416
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: ANT_5V
+Measured:   5.1682
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_GPS
+Measured:   3.3445
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1489
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_DVDD
+Measured:   1.0497
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8640
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDD_P0V875
+Measured:   948.79m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.2434
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP0
+Measured:   3.3106
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_AVDD
+Measured:   1.0209
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   466.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3112
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT1
+Measured:   2.5408
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT2
+Measured:   2.5362
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP1
+Measured:   3.3035
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_AVDD
+Measured:   1.0257
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_DVDD
+Measured:   1.0302
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P0_9V
+Measured:   925.74m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.105
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3V
+Measured:   3.3341
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5175
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2738
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P5V
+Measured:   5.0357
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: ANT_5V
+Measured:   5.1595
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_GPS
+Measured:   3.3419
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1490
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_DVDD
+Measured:   1.0503
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8639
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDD_P0V875
+Measured:   948.66m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3345
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT1
+Measured:   2.5406
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT2
+Measured:   2.5361
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP1
+Measured:   3.3037
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_AVDD
+Measured:   1.0252
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_DVDD
+Measured:   1.0301
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P0_9V
+Measured:   925.82m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP0
+Measured:   3.3116
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_AVDD
+Measured:   1.0209
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   588.25m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.2435
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   676.59m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   748.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   799.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   834.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   862.96m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   880.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   893.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   903.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   910.30m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   913.59m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   915.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   919.16m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   919.98m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   922.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   924.56m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.33m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.59m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.81m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.07m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.20m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.90m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.59m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.06m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.47m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.47m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.06m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.24m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.55m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.42m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+------------------------------------------------------------------------------
+KEYSIGHT ICT ANALOG COMPILER                Thu Nov 17 11:33:37 2022      
+
+C:/Users/CALIBR~1/AppData/Local/Temp/KxCjNKqDTG/pwr_check
+------------------------------------------------------------------------------
+
+1 1: test powered analog
+2 2: 
+3 3:    test  "P12V"                           !! PASS
+4 4:    test  "P3V3_STBY"                      !! PASS     
+5 5:    test  "P5V"               !U15_5V      !! PASS
+6 6:    test  "ANT_5V"            !u1_6
+7 7:    test  "P3_3V"             !U16_3V3      !! PASS
+8 8:    test  "P3_3VA"            !u3_a
+9 9:    test  "P3V3_GPS"          !u1_6
+10 10:    test  "P2_5VA"            !u1_a         !! PASS
+11 11:    test  "P1_1VA"            !u1_a
+12 12:    test  "P2V5RT1"           !u114
+13 13:    test  "P2V5RT2"           !u11
+14 14:    test  "P3V3_SFP0"         !u1_sf0
+15 15:    test  "P3V3_SFP1"         !u1_sf1
+16 16:    test  "P1V0RT1_AVDD"      !u1_91_rtv1
+17 17:    test  "P1V0RT1_DVDD"      !u1_98_rtv1
+18 18:    test  "P1V0RT2_AVDD"      !u1_91_rtv2
+19 19:    test  "P1V0RT2_DVDD"      !u1_98_rtv2
+20 20:    test  "P1V8"              !u3
+21 21:    test  "PWR_1V8_ADOMAIN"   !u87
+22 22:    test  "P0_9V"             !u1_98_5
+23 23:    test  "VDD_P0V875"        !u1_91_5,u1_92_5,u1_93_5,u1_94_5,u1_95_5,u1_96_5
+24 24:    ! 0.943 V
+25 25:    test  "VDDHA_1P2V_MAIN"   !u1_1v2s
+26 26: 
+27 27: end test
+28 28: 
+29 29: !!*****************
+30 30: 
+31 31: subtest "P2V5RT1"
+32 32: 
+33 33:  clear connect i to nodes "P2V5RT1"
+There are no subtest connections to "clear." (WARNING ATL115)
+34 34:  connect l to ground
+35 35: 
+36 36:  detector dcv, expect 2.5
+37 37:  measure 2.5*1.08,2.5*0.92
+38 38: end subtest
+39 39: 
+40 40: subtest "P2V5RT2"
+41 41: 
+42 42:  clear connect i to nodes "P2V5RT2"
+There are no subtest connections to "clear." (WARNING ATL115)
+43 43:  connect l to ground
+44 44: 
+45 45:  detector dcv, expect 2.5
+46 46:  measure 2.5*1.08,2.5*0.92
+47 47: end subtest
+48 48: 
+49 49: subtest "P2_5VA"
+50 50: 
+51 51:  clear connect i to nodes "P2_5VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+52 52:  connect l to ground
+53 53: 
+54 54:  detector dcv, expect 2.5
+55 55:  measure 2.5*1.08,2.5*0.92
+56 56: end subtest
+57 57: 
+58 58: subtest "P3V3_STBY"
+59 59: 
+60 60:  clear connect i to nodes "P3V3_STBY"
+There are no subtest connections to "clear." (WARNING ATL115)
+61 61:  connect l to ground
+62 62: 
+63 63:  detector dcv, expect 3.3
+64 64:  measure 3.3*1.08,3.3*0.92
+65 65: end subtest
+66 66: 
+67 67: subtest "P3_3V"
+68 68: 
+69 69:  clear connect i to nodes "P3_3V"
+There are no subtest connections to "clear." (WARNING ATL115)
+70 70:  connect l to ground
+71 71: 
+72 72:  detector dcv, expect 3.3
+73 73:  measure 3.3*1.08,3.3*0.92
+74 74: end subtest
+75 75: 
+76 76: subtest "P3V3_GPS"
+77 77: 
+78 78:  clear connect i to nodes "P3V3_GPS"
+There are no subtest connections to "clear." (WARNING ATL115)
+79 79:  connect l to ground
+80 80: 
+81 81:  detector dcv, expect 3.3
+82 82:  measure 3.3*1.08,3.3*0.92
+83 83: end subtest
+84 84: 
+85 85: subtest "P3_3VA"
+86 86: 
+87 87:  clear connect i to nodes "P3_3VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+88 88:  connect l to ground
+89 89: 
+90 90:  detector dcv, expect 3.3
+91 91:  measure 3.3*1.08,3.3*0.92
+92 92: end subtest
+93 93: 
+94 94: subtest "P1_1VA"
+95 95: 
+96 96:  clear connect i to nodes "P1_1VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+97 97:  connect l to ground
+98 98: 
+99 99:  detector dcv, expect 1.1
+100 100:  measure 1.1*1.10,1.1*0.90
+101 101: end subtest
+102 102: 
+103 103: subtest "P1V8"
+104 104: 
+105 105:  clear connect i to nodes "FPGA_SNDN_HW_I2C_SDA"  !"P1V8"
+There are no subtest connections to "clear." (WARNING ATL115)
+106 106:  connect l to ground
+107 107: 
+108 108:  detector dcv, expect 1.1
+109 109:  measure 1.8*1.08,1.8*0.92
+110 110: end subtest
+111 111: 
+112 112: subtest "PWR_1V8_ADOMAIN"
+113 113: 
+114 114:  clear connect i to nodes "PWR_1V8_ADOMAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+115 115:  connect l to ground
+116 116: 
+117 117:  detector dcv, expect 1.8
+118 118:  measure 1.8*1.08,1.8*0.92
+119 119: end subtest
+120 120: 
+121 121: 
+122 122: subtest "VDD_P0V875"
+123 123: 
+124 124:  clear connect i to nodes "VDD_P0V875"
+There are no subtest connections to "clear." (WARNING ATL115)
+125 125:  connect l to ground
+126 126: 
+127 127:  detector dcv, expect 0.875
+128 128:  measure 0.900*1.10,0.900*0.90
+129 129: !measure 0.875*1.04,0.875*0.96
+130 130: end subtest
+131 131: 
+132 132: subtest "VDDHA_1P2V_MAIN"
+133 133: 
+134 134:  clear connect i to nodes "VDDHA_1P2V_MAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+135 135:  connect l to ground
+136 136: 
+137 137:  detector dcv, expect 1.2
+138 138:  measure 1.2*1.10,1.2*0.90
+139 139: end subtest
+140 140: 
+141 141: subtest "VIN_MON_P_PM"
+142 142: 
+143 143:  clear connect i to nodes "VIN_MON_P_PM"
+There are no subtest connections to "clear." (WARNING ATL115)
+144 144:  connect l to ground
+145 145: 
+146 146:  detector dcv, expect 1.55
+147 147:  measure 1.55*1.08,1.55*0.92
+148 148: end subtest
+149 149: 
+150 150: subtest "P0_9V"
+151 151: 
+152 152:  clear connect i to nodes "P0_9V"
+There are no subtest connections to "clear." (WARNING ATL115)
+153 153:  connect l to ground
+154 154: 
+155 155:  detector dcv, expect 0.9
+156 156:  measure 0.9*1.10,0.9*0.90
+157 157: end subtest
+158 158: 
+159 159: subtest "P1V0RT1_DVDD"
+160 160: 
+161 161:  clear connect i to nodes "P1V0RT1_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+162 162:  connect l to ground
+163 163: 
+164 164:  detector dcv, expect 1.0
+165 165:  measure 1.0*1.10,1.0*0.90
+166 166: end subtest
+167 167: 
+168 168: 
+169 169: subtest "P1V0RT1_AVDD"
+170 170: 
+171 171:  clear connect i to nodes "P1V0RT1_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+172 172:  connect l to ground
+173 173: 
+174 174:  detector dcv, expect 1.0
+175 175:  measure 1.0*1.10,1.0*0.90
+176 176: end subtest
+177 177: 
+178 178: subtest "P1V0RT2_DVDD"
+179 179: 
+180 180:  clear connect i to nodes "P1V0RT2_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+181 181:  connect l to ground
+182 182: 
+183 183:  detector dcv, expect 1.0
+184 184:  measure 1.0*1.10,1.0*0.90
+185 185: end subtest
+186 186: 
+187 187: 
+188 188: subtest "P1V0RT2_AVDD"
+189 189: 
+190 190:  clear connect i to nodes "P1V0RT2_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+191 191:  connect l to ground
+192 192: 
+193 193:  detector dcv, expect 1.0
+194 194:  measure 1.0*1.10,1.0*0.90
+195 195: end subtest
+196 196: 
+197 197: subtest "P5V"
+198 198: 
+199 199:  clear connect i to nodes "P5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+200 200:  connect l to ground
+201 201: 
+202 202:  detector dcv, expect 5.0
+203 203:  measure 5.0*1.05,5.0*0.95
+204 204: end subtest
+205 205: 
+206 206: subtest "ANT_5V"
+207 207: 
+208 208:  clear connect i to nodes "ANT_5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+209 209:  connect l to ground
+210 210: 
+211 211:  detector dcv, expect 5.0
+212 212:  measure 5.0*1.05,5.0*0.95
+213 213: end subtest
+214 214: 
+215 215: subtest "P12V"
+216 216: 
+217 217:  clear connect i to nodes "P12V"
+There are no subtest connections to "clear." (WARNING ATL115)
+218 218:  connect l to ground
+219 219: 
+220 220:  detector dcv, expect 12.0
+221 221:  measure 12.0*1.05,12.0*0.95
+222 222: end subtest
+223 223: 
+224 224: subtest "P3V3_SFP1"
+225 225: 
+226 226:  clear connect i to nodes "P3V3_SFP1"
+There are no subtest connections to "clear." (WARNING ATL115)
+227 227:  connect l to ground
+228 228: 
+229 229:  detector dcv, expect 3.3
+230 230:  measure 3.3*1.08,3.3*0.92
+231 231: end subtest
+232 232: 
+233 233: subtest "P3V3_SFP0"
+234 234: 
+235 235:  clear connect i to nodes "P3V3_SFP0"
+There are no subtest connections to "clear." (WARNING ATL115)
+236 236:  connect l to ground
+237 237: 
+238 238:  detector dcv, expect 3.3
+239 239:  measure 3.3*1.08,3.3*0.92
+240 240: end subtest
+241 241: 
+242 242: 
+243 243: 
+
+--------
+WARNINGS
+--------
+
+ATL115   In a subtest, a "clear" statement will only disconnect subtest 
+         level connections and there are no active subtest connections 
+         to disconnect.
+
+-------
+SUMMARY
+-------
+
+243 LINES, 0 ERRORS, 23 WARNINGS, OBJECT PRODUCED
+
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.103
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3V
+Measured:   3.3346
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5180
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2737
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P5V
+Measured:   5.0395
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: ANT_5V
+Measured:   5.1526
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_GPS
+Measured:   3.3489
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1487
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_DVDD
+Measured:   1.0498
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8640
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDD_P0V875
+Measured:   949.13m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.2437
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3345
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT1
+Measured:   2.5409
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT2
+Measured:   2.5360
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP1
+Measured:   3.3063
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_AVDD
+Measured:   1.0254
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_DVDD
+Measured:   1.0298
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P0_9V
+Measured:   926.08m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP0
+Measured:   3.3132
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_AVDD
+Measured:   1.0211
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   916.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   911.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   915.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   918.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   922.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.86m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.64m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.20m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.73m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.90m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.01m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.24m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.25m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.93m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.78m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.48m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.43m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.56m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.73m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.51m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.04m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.43m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.09m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.96m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.38m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   934.11m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   934.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.03m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.98m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.19m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.12m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.59m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.93m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.06m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.01m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.40m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.07m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.11m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.68m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.50m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.86m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.45m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.73m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.96m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.16m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.86m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.04m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.01m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.68m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.94m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.33m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.73m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.33m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.16m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.01m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.64m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.12m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.03m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.43m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.19m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.04m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.09m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.08m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.05m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.25m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.09m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.43m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.38m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.25m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.85m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.68m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.67m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.95m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.82m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.99m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.56m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.24m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.98m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.29m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   925.51m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.11m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.08m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.08m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.38m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.90m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.48m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   933.07m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.53m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.05m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.29m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.30m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.76m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.09m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.74m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.17m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.96m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.96m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.83m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.78m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.48m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.94m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   924.99m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.46m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.94m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.33m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.93m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.08m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.91m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.33m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.07m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.12m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.82m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.65m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.26m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.91m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.66m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.40m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.40m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.86m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.05m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.61m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.78m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.70m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.06m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.103
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3V
+Measured:   3.3340
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5179
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2733
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P5V
+Measured:   5.0364
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: ANT_5V
+Measured:   5.1355
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_GPS
+Measured:   3.3527
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1492
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_DVDD
+Measured:   1.0502
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8641
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDD_P0V875
+Measured:   949.31m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3345
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT1
+Measured:   2.5410
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT2
+Measured:   2.5363
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP1
+Measured:   3.3018
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_AVDD
+Measured:   1.0255
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_DVDD
+Measured:   1.0304
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P0_9V
+Measured:   926.21m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.2440
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP0
+Measured:   3.3111
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_AVDD
+Measured:   1.0212
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   921.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+    Setting Up Power Supplies
+Waiting 40 secs....
+    P3V3_STBY:  3.301507 V .03582966 A
+    P12V:  12.04495 V 3.92493124 A
+------------------------------------------------------------------------------
+KEYSIGHT ICT ANALOG COMPILER                Thu Nov 17 11:35:56 2022      
+
+C:/Users/CALIBR~1/AppData/Local/Temp/KxCjNKqDTG/pwr_check
+------------------------------------------------------------------------------
+
+1 1: test powered analog
+2 2: 
+3 3:    test  "P12V"                           !! PASS
+4 4:    test  "P3V3_STBY"                      !! PASS     
+5 5:    test  "P5V"               !U15_5V      !! PASS
+6 6:    test  "ANT_5V"            !u1_6
+7 7:    test  "P3_3V"             !U16_3V3      !! PASS
+8 8:    test  "P3_3VA"            !u3_a
+9 9:    test  "P3V3_GPS"          !u1_6
+10 10:    test  "P2_5VA"            !u1_a         !! PASS
+11 11:    test  "P1_1VA"            !u1_a
+12 12:    test  "P2V5RT1"           !u114
+13 13:    test  "P2V5RT2"           !u11
+14 14:    test  "P3V3_SFP0"         !u1_sf0
+15 15:    test  "P3V3_SFP1"         !u1_sf1
+16 16:    test  "P1V0RT1_AVDD"      !u1_91_rtv1
+17 17:    test  "P1V0RT1_DVDD"      !u1_98_rtv1
+18 18:    test  "P1V0RT2_AVDD"      !u1_91_rtv2
+19 19:    test  "P1V0RT2_DVDD"      !u1_98_rtv2
+20 20:    test  "P1V8"              !u3
+21 21:    test  "PWR_1V8_ADOMAIN"   !u87
+22 22:    test  "P0_9V"             !u1_98_5
+23 23:    test  "VDD_P0V875"        !u1_91_5,u1_92_5,u1_93_5,u1_94_5,u1_95_5,u1_96_5
+24 24:    ! 0.943 V
+25 25:    test  "VDDHA_1P2V_MAIN"   !u1_1v2s
+26 26: 
+27 27: end test
+28 28: 
+29 29: !!*****************
+30 30: 
+31 31: subtest "P2V5RT1"
+32 32: 
+33 33:  clear connect i to nodes "P2V5RT1"
+There are no subtest connections to "clear." (WARNING ATL115)
+34 34:  connect l to ground
+35 35: 
+36 36:  detector dcv, expect 2.5
+37 37:  measure 2.5*1.08,2.5*0.92
+38 38: end subtest
+39 39: 
+40 40: subtest "P2V5RT2"
+41 41: 
+42 42:  clear connect i to nodes "P2V5RT2"
+There are no subtest connections to "clear." (WARNING ATL115)
+43 43:  connect l to ground
+44 44: 
+45 45:  detector dcv, expect 2.5
+46 46:  measure 2.5*1.08,2.5*0.92
+47 47: end subtest
+48 48: 
+49 49: subtest "P2_5VA"
+50 50: 
+51 51:  clear connect i to nodes "P2_5VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+52 52:  connect l to ground
+53 53: 
+54 54:  detector dcv, expect 2.5
+55 55:  measure 2.5*1.08,2.5*0.92
+56 56: end subtest
+57 57: 
+58 58: subtest "P3V3_STBY"
+59 59: 
+60 60:  clear connect i to nodes "P3V3_STBY"
+There are no subtest connections to "clear." (WARNING ATL115)
+61 61:  connect l to ground
+62 62: 
+63 63:  detector dcv, expect 3.3
+64 64:  measure 3.3*1.08,3.3*0.92
+65 65: end subtest
+66 66: 
+67 67: subtest "P3_3V"
+68 68: 
+69 69:  clear connect i to nodes "P3_3V"
+There are no subtest connections to "clear." (WARNING ATL115)
+70 70:  connect l to ground
+71 71: 
+72 72:  detector dcv, expect 3.3
+73 73:  measure 3.3*1.08,3.3*0.92
+74 74: end subtest
+75 75: 
+76 76: subtest "P3V3_GPS"
+77 77: 
+78 78:  clear connect i to nodes "P3V3_GPS"
+There are no subtest connections to "clear." (WARNING ATL115)
+79 79:  connect l to ground
+80 80: 
+81 81:  detector dcv, expect 3.3
+82 82:  measure 3.3*1.08,3.3*0.92
+83 83: end subtest
+84 84: 
+85 85: subtest "P3_3VA"
+86 86: 
+87 87:  clear connect i to nodes "P3_3VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+88 88:  connect l to ground
+89 89: 
+90 90:  detector dcv, expect 3.3
+91 91:  measure 3.3*1.08,3.3*0.92
+92 92: end subtest
+93 93: 
+94 94: subtest "P1_1VA"
+95 95: 
+96 96:  clear connect i to nodes "P1_1VA"
+There are no subtest connections to "clear." (WARNING ATL115)
+97 97:  connect l to ground
+98 98: 
+99 99:  detector dcv, expect 1.1
+100 100:  measure 1.1*1.10,1.1*0.90
+101 101: end subtest
+102 102: 
+103 103: subtest "P1V8"
+104 104: 
+105 105:  clear connect i to nodes "FPGA_SNDN_HW_I2C_SDA"  !"P1V8"
+There are no subtest connections to "clear." (WARNING ATL115)
+106 106:  connect l to ground
+107 107: 
+108 108:  detector dcv, expect 1.1
+109 109:  measure 1.8*1.08,1.8*0.92
+110 110: end subtest
+111 111: 
+112 112: subtest "PWR_1V8_ADOMAIN"
+113 113: 
+114 114:  clear connect i to nodes "PWR_1V8_ADOMAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+115 115:  connect l to ground
+116 116: 
+117 117:  detector dcv, expect 1.8
+118 118:  measure 1.8*1.08,1.8*0.92
+119 119: end subtest
+120 120: 
+121 121: 
+122 122: subtest "VDD_P0V875"
+123 123: 
+124 124:  clear connect i to nodes "VDD_P0V875"
+There are no subtest connections to "clear." (WARNING ATL115)
+125 125:  connect l to ground
+126 126: 
+127 127:  detector dcv, expect 0.875
+128 128:  measure 0.900*1.10,0.900*0.90
+129 129: !measure 0.875*1.04,0.875*0.96
+130 130: end subtest
+131 131: 
+132 132: subtest "VDDHA_1P2V_MAIN"
+133 133: 
+134 134:  clear connect i to nodes "VDDHA_1P2V_MAIN"
+There are no subtest connections to "clear." (WARNING ATL115)
+135 135:  connect l to ground
+136 136: 
+137 137:  detector dcv, expect 1.2
+138 138:  measure 1.2*1.10,1.2*0.90
+139 139: end subtest
+140 140: 
+141 141: subtest "VIN_MON_P_PM"
+142 142: 
+143 143:  clear connect i to nodes "VIN_MON_P_PM"
+There are no subtest connections to "clear." (WARNING ATL115)
+144 144:  connect l to ground
+145 145: 
+146 146:  detector dcv, expect 1.55
+147 147:  measure 1.55*1.08,1.55*0.92
+148 148: end subtest
+149 149: 
+150 150: subtest "P0_9V"
+151 151: 
+152 152:  clear connect i to nodes "P0_9V"
+There are no subtest connections to "clear." (WARNING ATL115)
+153 153:  connect l to ground
+154 154: 
+155 155:  detector dcv, expect 0.9
+156 156:  measure 0.9*1.10,0.9*0.90
+157 157: end subtest
+158 158: 
+159 159: subtest "P1V0RT1_DVDD"
+160 160: 
+161 161:  clear connect i to nodes "P1V0RT1_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+162 162:  connect l to ground
+163 163: 
+164 164:  detector dcv, expect 1.0
+165 165:  measure 1.0*1.10,1.0*0.90
+166 166: end subtest
+167 167: 
+168 168: 
+169 169: subtest "P1V0RT1_AVDD"
+170 170: 
+171 171:  clear connect i to nodes "P1V0RT1_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+172 172:  connect l to ground
+173 173: 
+174 174:  detector dcv, expect 1.0
+175 175:  measure 1.0*1.10,1.0*0.90
+176 176: end subtest
+177 177: 
+178 178: subtest "P1V0RT2_DVDD"
+179 179: 
+180 180:  clear connect i to nodes "P1V0RT2_DVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+181 181:  connect l to ground
+182 182: 
+183 183:  detector dcv, expect 1.0
+184 184:  measure 1.0*1.10,1.0*0.90
+185 185: end subtest
+186 186: 
+187 187: 
+188 188: subtest "P1V0RT2_AVDD"
+189 189: 
+190 190:  clear connect i to nodes "P1V0RT2_AVDD"
+There are no subtest connections to "clear." (WARNING ATL115)
+191 191:  connect l to ground
+192 192: 
+193 193:  detector dcv, expect 1.0
+194 194:  measure 1.0*1.10,1.0*0.90
+195 195: end subtest
+196 196: 
+197 197: subtest "P5V"
+198 198: 
+199 199:  clear connect i to nodes "P5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+200 200:  connect l to ground
+201 201: 
+202 202:  detector dcv, expect 5.0
+203 203:  measure 5.0*1.05,5.0*0.95
+204 204: end subtest
+205 205: 
+206 206: subtest "ANT_5V"
+207 207: 
+208 208:  clear connect i to nodes "ANT_5V"
+There are no subtest connections to "clear." (WARNING ATL115)
+209 209:  connect l to ground
+210 210: 
+211 211:  detector dcv, expect 5.0
+212 212:  measure 5.0*1.05,5.0*0.95
+213 213: end subtest
+214 214: 
+215 215: subtest "P12V"
+216 216: 
+217 217:  clear connect i to nodes "P12V"
+There are no subtest connections to "clear." (WARNING ATL115)
+218 218:  connect l to ground
+219 219: 
+220 220:  detector dcv, expect 12.0
+221 221:  measure 12.0*1.05,12.0*0.95
+222 222: end subtest
+223 223: 
+224 224: subtest "P3V3_SFP1"
+225 225: 
+226 226:  clear connect i to nodes "P3V3_SFP1"
+There are no subtest connections to "clear." (WARNING ATL115)
+227 227:  connect l to ground
+228 228: 
+229 229:  detector dcv, expect 3.3
+230 230:  measure 3.3*1.08,3.3*0.92
+231 231: end subtest
+232 232: 
+233 233: subtest "P3V3_SFP0"
+234 234: 
+235 235:  clear connect i to nodes "P3V3_SFP0"
+There are no subtest connections to "clear." (WARNING ATL115)
+236 236:  connect l to ground
+237 237: 
+238 238:  detector dcv, expect 3.3
+239 239:  measure 3.3*1.08,3.3*0.92
+240 240: end subtest
+241 241: 
+242 242: 
+243 243: 
+
+--------
+WARNINGS
+--------
+
+ATL115   In a subtest, a "clear" statement will only disconnect subtest 
+         level connections and there are no active subtest connections 
+         to disconnect.
+
+-------
+SUMMARY
+-------
+
+243 LINES, 0 ERRORS, 23 WARNINGS, OBJECT PRODUCED
+
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.103
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3V
+Measured:   3.3331
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5179
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2733
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P5V
+Measured:   5.0380
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: ANT_5V
+Measured:   5.1662
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_GPS
+Measured:   3.3453
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1499
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_DVDD
+Measured:   1.0509
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8650
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDD_P0V875
+Measured:   950.20m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.2441
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3341
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT1
+Measured:   2.5409
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2V5RT2
+Measured:   2.5360
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP1
+Measured:   3.3023
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_AVDD
+Measured:   1.0259
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT2_DVDD
+Measured:   1.0304
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P0_9V
+Measured:   925.99m
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_SFP0
+Measured:   3.3135
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1V0RT1_AVDD
+Measured:   1.0212
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   876.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   881.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   895.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   903.95m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   912.68m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   916.91m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   920.11m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   921.06m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   922.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   923.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.94m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.95m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   932.81m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.20m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.36m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.13m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.69m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.73m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.52m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.60m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.86m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.82m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.38m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.89m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.22m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.95m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.02m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.82m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.79m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.35m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.45m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.05m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.80m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.92m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.25m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.71m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.85m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.40m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.31m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.87m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.75m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.00m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.15m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.19m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.10m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.88m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.57m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.23m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.44m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.55m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.58m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.49m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.37m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.38m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.63m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.50m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   926.12m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   927.28m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.97m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.84m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.83m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.05m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.14m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.62m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.32m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.41m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.54m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   928.19m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   929.27m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.18m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.34m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.95m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   930.39m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.21m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   931.90m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+

@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675179499   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:54 2022
+disconnect all
+connect s to "0V_3" ;  a to "0V_3"
+connect i to "CLK_OBS0_P_3" ;  b to "CLK_OBS0_P_3"
+!B!resistor 49.9, 20.02, 10.00, re2, ar200m ,sa,sb,ed,en
+!resistor 49.9,30.0,20.00,re2,ar200m,sa,sb,ed,en
+resistor 49.9,30.0,20.00,re2,ar200m   !ADV
+! "r4_3" test.

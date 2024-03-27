@@ -1,0 +1,22 @@
+!!!!    2    0    1 1426362675  Vf12b                                         
+test analog
+  test "GP_ON"
+  test "GP_OFF"
+end test
+
+subtest "GP_ON"
+   gpconnect 21848 to 21849 
+   wait100m
+   connect i to "FLT_P3V3_OSC114M_XO"
+   connect s to "GND"
+   jumper 15,re1,ar100m,ed
+end subtest
+
+subtest "GP_OFF"
+   gpdisconnect 21848 from 21849  
+   wait100m
+   connect i to "FLT_P3V3_OSC114M_XO"
+   connect s to "GND"
+   jumper 15k,re2,ar100m,op
+end subtest
+

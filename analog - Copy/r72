@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517126  Vbbf7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:31 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_54_RES_I37_B"
+!B!resistor 100k, 15.00, 15.00, re5, wb, ar100m
+resistor 100k,25.00,25.00,re5,wb,ar100m
+! "r72" test.

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863980   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:41 2022
+disconnect all
+connect i to "UNNAMED_4095_RES_I469_A"
+connect s to "P3V3_SFP1"
+jumper 5.94, re1, ar200m
+! "r766" test.

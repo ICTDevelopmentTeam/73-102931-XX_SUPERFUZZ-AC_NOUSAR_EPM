@@ -1,0 +1,13 @@
+!!!!    2    0    1 1675191916   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:53 2022
+disconnect all
+connect s to "GND"
+connect i to "CLK_OBS_EN_3"
+connect g to "P3_3V"
+connect g to "P1V8"
+!connect g to "PLL_OBS_EN_3"
+!connect g to "P0_9V"
+!resistor 4.7k,20.00,20.00,re4,ar200m,ed,wb,wa10m
+resistor 4.7k,20.00,20.00,re4,ar50m,ed,wb  !ADV
+
+! "r53_3" test.

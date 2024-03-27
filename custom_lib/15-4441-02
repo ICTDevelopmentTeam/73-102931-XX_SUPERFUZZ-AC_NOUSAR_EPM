@@ -1,0 +1,35 @@
+!!!!    2    0    1 1240923209  V078f                                         
+! MAX811
+! This test checks for voltage at Input and Output
+
+test powered analog
+ power pins 4
+   test "output"
+   test "input"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "input"
+   connect i to pins  3                 ! Output
+   connect l to pins  1                 ! Ground
+
+   detector dcv, expect    5.0
+   measure   5.25,     4.25
+end subtest
+
+
+subtest  "output"
+   connect i to pins  2                 ! Output
+   connect l to pins  1                 ! Ground
+
+   detector dcv, expect    5.0
+   measure   5.25,     4.25
+end subtest
+
+
+!
+!  End test
+!

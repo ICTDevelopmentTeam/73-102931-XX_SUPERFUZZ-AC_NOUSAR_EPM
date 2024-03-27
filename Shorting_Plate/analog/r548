@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes MIFPGA_SDI P-Pin resistance"
+report "check nodes SRT_MIFPGA_ASDO P-Pin resistance"
+end on failure
+disconnect all
+connect s to "MIFPGA_SDI"
+connect i to "SRT_MIFPGA_ASDO"
+resistor 10,20,100, re1, ar100m,ed
+off failure

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519721  V6200                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:19 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_4133_LED_I136_K"
+!B!resistor 866, 10.00, 10.00, re3, ar100m
+resistor 866,25.00,20.00,re3,ar100m
+! "r8" test.

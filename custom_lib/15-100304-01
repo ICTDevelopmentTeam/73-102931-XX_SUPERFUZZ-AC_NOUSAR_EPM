@@ -1,0 +1,42 @@
+!!!!    2    0    1 1552302145  V5eb3                                         
+
+
+test powered analog
+  power     pins  6,11,2,10
+  nonanalog pins  4,5,7,8,3
+
+  test "VIN1"
+  test "VEN"
+  test "VOUT1"
+end test
+
+! ***************************************************************************
+
+subtest "VIN1"
+ clear connect i to pins 1
+ connect l to pins 6
+
+ detector dcv, expect 3.3
+ measure 3.3 * 1.05, 3.3 * 0.95
+end subtest
+
+
+subtest "VEN"
+ clear connect i to pins 5
+ connect l to pins 6
+
+ detector dcv, expect 3.3
+ measure 3.3 * 1.05, 3.3 * 0.95
+end subtest
+
+
+subtest "VOUT1"
+ clear connect i to pins 9
+ connect l to pins 6
+
+ detector dcv, expect 1.8
+ measure 1.8 * 1.05, 1.8 * 0.95
+end subtest
+
+
+

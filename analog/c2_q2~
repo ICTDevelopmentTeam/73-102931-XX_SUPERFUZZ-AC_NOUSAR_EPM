@@ -1,0 +1,19 @@
+!!!!    2    0    1 1648516753  V0386                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:16 2022
+on failure
+report parallel devices
+report "c15_q2 22.0u"
+report "c17_q2 22.0u"
+report "c19_q2 22.0u"
+report "c4_q2 100n"
+report "c16_q2 100n"
+report "c18_q2 100n"
+report "c20_q2 100n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "PWR_P3V3_QSFP_P2_Q2"; b to "PWR_P3V3_QSFP_P2_Q2"
+!B!capacitor 88.4u, 15.00, 15.06, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+! "c2_q2" test.
+off failure

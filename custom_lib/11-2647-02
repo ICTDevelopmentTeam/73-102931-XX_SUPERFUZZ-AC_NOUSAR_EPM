@@ -1,0 +1,13 @@
+!!!!   21    2    1 1565252535   0000                                         
+
+!#  11-2647-02
+!#  11-2647-02 CAP,CE,22uF,6.3V,X5R,10%,SM,1
+!#  Thu Aug  8 13:35:15 2019
+
+capacitor *, 22u, 10,10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

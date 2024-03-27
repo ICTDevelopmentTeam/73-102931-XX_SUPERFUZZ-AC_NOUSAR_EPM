@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026673  V8c0f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:36 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "P2_5VA"                                                                                                                                           
+connect i to "UNNAMED_2_RES_I472_B_A"                                                                                                                           
+connect g to "GND"                                                                                                                                              
+!B!resistor 22.6k, 10.00, 10.00, re5, wb, ar500m, wa53.5u                                                                                                       
+resistor 22.6k,25.00,25.00,re5,wb,ar500m                                                                                                                        
+! "r2_a" test.                                                                                                                                                  

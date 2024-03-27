@@ -1,0 +1,16 @@
+!!!!   21    2    1 1552361648  V1057                                         
+
+diode "cr1",950m, 400m, nr
+diode "cr2",950m, 400m, nr
+
+
+external pins 1
+   device "cr2" pins "C"
+
+external pins 2
+   device "cr1" pins "C"
+
+external pins 3
+   device "cr1" pins "A"
+   device "cr2" pins "A"
+

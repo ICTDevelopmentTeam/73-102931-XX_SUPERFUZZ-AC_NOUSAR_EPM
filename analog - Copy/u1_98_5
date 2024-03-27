@@ -1,0 +1,17 @@
+!!!!    2    0    1 1652162878  Vd380                                         
+test powered analog
+
+   test "VOLT_OUT"
+end test
+
+!*****************************************!
+
+subtest "VOLT_OUT"
+  disconnect all
+  connect i to nodes "P0_9V"
+  connect l to ground
+  detector dcv, expect 0.9
+  measure 0.90 * 1.10, 0.90 * 0.90
+end subtest
+
+!*****************************************!

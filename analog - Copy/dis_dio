@@ -1,0 +1,10 @@
+!!!!    2    0    1 1640595780   0000                                         
+! IPG: rev 08.40p  Wed Nov 13 12:39:55 2019
+disconnect all
+connect i to nodes "IO_MI2_STROBE_BMC"             !I0C to Select
+connect s to nodes "MIFPGA_POR_L"
+!diode "u12%5_1", 2.55, 1.75,idc20m,co3.4,ar1.25
+diode "u12%5_1", 2.55, 1.75,idc1m,co3.4,ar2.6    !suit for 2 materials for u12 discharge
+! "u12%p5_1" test.
+
+

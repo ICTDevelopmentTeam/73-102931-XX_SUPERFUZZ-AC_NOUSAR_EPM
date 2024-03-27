@@ -1,0 +1,51 @@
+!!!!    6    0    1 1652248345  Vdc5c                                         
+sequential
+
+vector cycle  10u
+receive delay  8u
+
+default device "u1_q0"
+set terminators to on
+assign  GND to pins *
+assign  VCC to pins *, *, *, *
+
+assign  EN1 to pins 4
+assign  EN2 to pins 5
+assign OUT1 to  pins *
+assign OUT2 to  pins *
+assign  EP  to pins *
+assign  ILIM to pins *
+assign  FAULT to pins *, *
+
+family LVT
+
+power GND,  VCC
+
+inputs  EN1, EN2
+nondigital EP, ILIM, FAULT
+
+!*****************************************************************************
+vector Output_Enable
+  set EN1      to "0"
+  set EN2      to "0"
+end vector
+
+vector Output_Disable
+  set EN1      to "1"
+  set EN2      to "1"
+end vector
+
+!*****************************************************************************
+
+unit "Operation"
+  execute Output_Enable
+  execute Output_Enable
+  continue analog
+  execute Output_Disable
+  execute Output_Disable
+  continue analog
+end unit
+
+!
+!    End of Test
+!

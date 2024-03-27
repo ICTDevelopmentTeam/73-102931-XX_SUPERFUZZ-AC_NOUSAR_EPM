@@ -1,0 +1,80 @@
+
+<Test name = "u36">
+<FileList>
+<File name = "u36">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/digital/u36</FilePath>
+<LastModified>Fri Nov 18, 2022  12:45 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u36">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

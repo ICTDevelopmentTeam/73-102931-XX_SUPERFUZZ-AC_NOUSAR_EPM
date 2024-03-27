@@ -1,0 +1,17 @@
+!!!!    2    0    1 1647863915   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:36 2022
+on failure
+   report parallel devices
+   report "r87_rtv1"
+   report "r87_rtv2"
+   report "r18 4.70k"
+   report "r629 4.70k"
+   report "r747 4.70k"
+   report "r1139 4.70k"
+end on failure
+disconnect all
+connect i to "PMBUS_ALERT_L"
+connect s to "P3_3VA"
+jumper 852, re3, wb, ar100m, op
+! "r87_5" test.
+off failure

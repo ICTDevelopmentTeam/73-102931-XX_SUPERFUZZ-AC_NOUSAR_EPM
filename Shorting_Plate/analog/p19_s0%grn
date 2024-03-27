@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes SFP_GRN_R_L<19>_S0 P-Pin resistance"
+report "check nodes P3_3VA P-Pin resistance"
+end on failure
+disconnect all
+connect s to "SFP_GRN_R_L<19>_S0"
+connect i to "P3_3VA"
+resistor 10,20,100, re1, ar100m,ed
+off failure

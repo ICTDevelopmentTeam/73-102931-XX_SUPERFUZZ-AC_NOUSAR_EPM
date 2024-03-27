@@ -1,0 +1,9 @@
+!!!!   21    2    1 1552306561  V5720                                         
+
+resistor *, 2.94k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

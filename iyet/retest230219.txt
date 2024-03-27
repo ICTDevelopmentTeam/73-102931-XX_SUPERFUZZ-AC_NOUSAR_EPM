@@ -1,0 +1,290 @@
+----------------------------------------
+73-102898-01_03
+Sun Feb 19 23:54:20 2023
+----------------------------------------
+rn41_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn41_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -2.6582M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p4_s1%grn HAS FAILED
+
+REPLACE DEVICE: p4_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270709K5
+----------------------------------------
+73-102898-01_03
+Sun Feb 19 23:54:31 2023
+----------------------------------------
+rn41_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn41_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -1.6960M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p4_s1%grn HAS FAILED
+
+REPLACE DEVICE: p4_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270709K5
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 19 23:57:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    217167 Open
+UNNAMED_3_RES_I175_A_S0                 
+                r3_s0.1
+               sfp_s0.B4
+To:   i2c_sda_sfp<1>          21741
+                r3_s0.2
+               rn34_s0.3
+           rn34_s0%pin_3_6.1
+                u49.W18
+Common Devices:
+                 r3_s0
+Message is:
+Check R3_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                    114141 Open
+UNNAMED_4_RES_I226_A_Q1                 
+              qsfp_q1.B12
+                r9_q1.1
+To:   qsfp_sda<3>             11441
+                r9_q1.2
+                rn3_q1.2
+            rn3_q1%pin_2_7.1
+                u49.E15
+Common Devices:
+                 r9_q1
+Message is:
+Check R9_Q1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: sndn_p0v9_en           214124 Open
+                r26_5.1
+                 r759.2
+                u49.B14
+To:   imon_tp_5              223125
+                r26_5.2
+                u1_5.20
+Common Devices:
+                 r26_5
+Message is:
+Check R26_5
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<28>        117174 Open
+                r26_s1.1
+                 r843.1
+               rn43_s1.4
+           rn43_s1%pin_4_5.1
+To:   srt_sfp28_i2c_scl_edge 104178
+                 r843.2
+                u49.AE13
+Common Devices:
+                  r843
+Message is:
+Check R843
+------End, 4 Problems Reported----------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 19 23:57:36 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u24
+  Pin 3  Node unnamed_69_at90so72_i676_a2
+  Measured 0.3              (BRC 20948)
+15-14497-02 IC-MP,MCU,8/16BIT,QFN20,2.7V
+----------------------------------------
+Open #1  Device u38
+  Pin 68  Node fpga_cpld4_data
+  Measured 1.8              (BRC 10938)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u49
+  Pin V24  Node rt6_m4_4_7_synce_clk
+  Measured 0.0              (BRC 11368)
+Open #2  Device u49
+  Pin F7  Node fpga_cpld4_data
+  Measured 1.7              (BRC 10938)
+16-101568-01 IC-FPGA,5CGXFC5C7-8.0,FBGA,
+----------------------------------------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 19 23:57:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u38
+  Pin 68  Node fpga_cpld4_data
+  Measured 1.3              (BRC 10938)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u49
+  Pin V24  Node rt6_m4_4_7_synce_clk
+  Measured 0.5              (BRC 11368)
+Open #2  Device u49
+  Pin F7  Node fpga_cpld4_data
+  Measured 0.1              (BRC 10938)
+16-101568-01 IC-FPGA,5CGXFC5C7-8.0,FBGA,
+----------------------------------------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 19 23:57:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u24
+  Pin 3  Node unnamed_69_at90so72_i676_a2
+  Measured 0.6              (BRC 20948)
+15-14497-02 IC-MP,MCU,8/16BIT,QFN20,2.7V
+----------------------------------------
+Open #1  Device u38
+  Pin 19  Node fpga_sfp_led_grn_l<30>
+  Measured 1.6              (BRC 10517)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u49
+  Pin V24  Node rt6_m4_4_7_synce_clk
+  Measured 0.2              (BRC 11368)
+16-101568-01 IC-FPGA,5CGXFC5C7-8.0,FBGA,
+----------------------------------------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 19 23:58:05 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u38
+  Pin 68  Node fpga_cpld4_data
+  Measured 1.1              (BRC 10938)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u49
+  Pin V24  Node rt6_m4_4_7_synce_clk
+  Measured 1.3              (BRC 11368)
+Open #2  Device u49
+  Pin F7  Node fpga_cpld4_data
+  Measured 5.3              (BRC 10938)
+16-101568-01 IC-FPGA,5CGXFC5C7-8.0,FBGA,
+----------------------------------------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 19 23:58:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u49
+  Pin V24  Node rt6_m4_4_7_synce_clk
+  Measured 1.4              (BRC 11368)
+16-101568-01 IC-FPGA,5CGXFC5C7-8.0,FBGA,
+----------------------------------------
+S/N:FLM270709KY
+----------------------------------------
+TestJet Report for "testjet".
+Mon Feb 20 00:05:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u38
+  Pin 75  Node qsfp_int_l<3>
+  Measured 1.4              (BRC 115142)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM270709KA
+----------------------------------------
+73-102898-01_03
+Mon Feb 20 00:14:53 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   67.293u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM270709KA
+----------------------------------------
+73-102898-01_03
+Mon Feb 20 00:15:13 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   139.62u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM270709KA

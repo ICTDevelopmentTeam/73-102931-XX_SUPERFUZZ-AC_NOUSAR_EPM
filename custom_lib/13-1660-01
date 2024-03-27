@@ -1,0 +1,14 @@
+!!!!   21    2    1 1395933914   0000                                         
+
+!13-1660-01
+!DIO,TVS,15V,100uA,DO-214AB,5.
+!Wed Mar 26 23:31:33 2014
+!genlib by Watcharasak T.
+
+diode *, 600m, 400m
+
+external pins 1
+   device * pins "C"
+
+external pins 2
+   device * pins "A"

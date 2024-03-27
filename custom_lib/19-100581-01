@@ -1,0 +1,31 @@
+!!!!    2    0    1 1573455759  V3af8                                         
+
+!  19-100581-01
+!  19-100581-01 OSC,OCXO,LVCMOS,24.576MHz,4
+
+test powered analog
+   power pins 3,7
+   nonanalog pins 1,2,5,6
+
+   test "RF_OUT"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "RF_OUT"
+!  connect s to pins 3
+   connect rcva to pins 4
+   connect l to pins 7
+
+!  source dcv, am3.3, ico1, on
+   detector frequency, expect 24.576M
+   measure 24.567M * 1.05, 24.567M * 0.95
+end subtest
+
+
+
+!
+!  End test
+!

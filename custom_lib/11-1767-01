@@ -1,0 +1,13 @@
+!!!!   21    2    1 1552271481   0000                                         
+
+!#  11-1767-01
+!#  11-1767-01 CAP,CE,220pF,50V,5%,SM,0402in
+!#  Mon Mar 11 09:45:01 2019
+
+capacitor *, 220p, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

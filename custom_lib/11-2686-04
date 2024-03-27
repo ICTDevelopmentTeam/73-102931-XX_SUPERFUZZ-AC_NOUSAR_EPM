@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573441429  V2027                                         
+
+!#  11-2686-04
+!#  11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+!#  Fri Mar 17 17:18:46 2017
+
+capacitor *, 22u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

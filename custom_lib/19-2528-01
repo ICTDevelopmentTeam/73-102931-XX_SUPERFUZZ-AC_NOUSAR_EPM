@@ -1,0 +1,19 @@
+!!!!    2    0    1 1628733364  V1301                                         
+
+
+test powered analog
+   nonanalog pins 1,2,3,4
+
+   test "fout3"
+
+end test
+
+subtest "fout3"
+ connect rcva to pins 3
+ detector frequency, expect 7.81M
+ measure 7.81M * 1.05, 7.81M * 0.95           !Divided by 16
+end subtest
+
+!
+! End test
+!

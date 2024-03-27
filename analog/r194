@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520331  V0fb4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:34 2022
+disconnect all
+connect s to "GND"
+connect i to "CAP_CLK212M_BUF_MM_TOP_REFCLK_P"
+!B!resistor 150, 13.33, 10.00, re3, ar1.00
+resistor 150,30.0,20.00,re3,ar100m
+! "r194" test.

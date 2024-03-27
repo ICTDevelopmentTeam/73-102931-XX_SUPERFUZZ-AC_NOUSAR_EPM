@@ -1,0 +1,257 @@
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:03:52 2022
+----------------------------------------
+c3060 HAS FAILED
+11-3113-01 CAP,CE,0.1uF,16.0 V,10%,X7R,S
+Measured:   0.041131u
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:17:55 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   319.76
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:18:00 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   1.1946k
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:18:04 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   302.54
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:18:07 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   398.99
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+Shorts Report for "shorts".
+Mon Jun 20 14:24:07 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   55
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT3_4   214111   55
+              c76_rt3_4.1
+              c78_rt3_4.1
+              c80_rt3_4.1
+              c86_rt3_4.1
+              c88_rt3_4.1
+              c92_rt3_4.1
+              c94_rt3_4.1
+              c96_rt3_4.1
+              c98_rt3_4.1
+              c100_rt3_4.1
+Too many to print.
+Common Devices:
+                l7_rt3_4
+Message is:
+Check L7_RT3_4
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26100JUY\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Mon Jun 20 14:24:22 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   25
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT3_4   214111   25
+              c76_rt3_4.1
+              c78_rt3_4.1
+              c80_rt3_4.1
+              c86_rt3_4.1
+              c88_rt3_4.1
+              c92_rt3_4.1
+              c94_rt3_4.1
+              c96_rt3_4.1
+              c98_rt3_4.1
+              c100_rt3_4.1
+Too many to print.
+Common Devices:
+                l7_rt3_4
+Message is:
+Check L7_RT3_4
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26100JUY\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Mon Jun 20 14:24:31 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   26
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT3_4   214111   26
+              c76_rt3_4.1
+              c78_rt3_4.1
+              c80_rt3_4.1
+              c86_rt3_4.1
+              c88_rt3_4.1
+              c92_rt3_4.1
+              c94_rt3_4.1
+              c96_rt3_4.1
+              c98_rt3_4.1
+              c100_rt3_4.1
+Too many to print.
+Common Devices:
+                l7_rt3_4
+Message is:
+Check L7_RT3_4
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26100JUY\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Mon Jun 20 14:24:40 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   60
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT3_4   214111   60
+              c76_rt3_4.1
+              c78_rt3_4.1
+              c80_rt3_4.1
+              c86_rt3_4.1
+              c88_rt3_4.1
+              c92_rt3_4.1
+              c94_rt3_4.1
+              c96_rt3_4.1
+              c98_rt3_4.1
+              c100_rt3_4.1
+Too many to print.
+Common Devices:
+                l7_rt3_4
+Message is:
+Check L7_RT3_4
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26100JUY\\\\\\\\\
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:25:46 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   376.99
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY
+----------------------------------------
+73-102898-01_03
+Mon Jun 20 14:58:42 2022
+----------------------------------------
+r704 HAS FAILED
+12-2781-02 RES,TKF,220 ohm,0.063W,5%,SM,
+Measured:   352.47
+Nominal:    220.00
+High Limit: 286.00
+Low Limit:  176.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JUY

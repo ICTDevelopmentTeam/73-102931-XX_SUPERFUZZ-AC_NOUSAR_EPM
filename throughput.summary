@@ -1,0 +1,61 @@
+                              QuickReport Summary
+                /F=/01_Programs/INSBU/73-102931-XX_SUPERFUZZ-AC
+                                73-102898-01_03
+                          Mon Feb 13, 2023 02:13:14 PM
+
+
+FILES QUERIED
+                 Testplan                         [x]
+                 Board Config                     [x]
+                 Test Time Improvement            [x]
+                 Source Files
+                         Analog                   [x]
+                         Digital                  [x]
+                         Mixed                    [x]
+                         Functional               [ ]
+
+
+POSSIBLE IMPROVEMENTS
+
+        TESTPLAN
+                 Fixture Vacuum                   [x]
+                 sps Statements                   [x]
+                 Object Checking                  [x]
+                 Interrupted Test Flow            [x]
+                 gpconnect/disconnect             [x]
+                 Data Logging                     [ ]
+                 Waits                            [x]
+
+        BOARD CONFIG
+                 Control XT                       [ ]
+                 Control XTP                      [x]
+                 ASRU C Revision                  [ ]
+                 ASRU N Revision                  [x]
+                 Double Density                   [ ]
+                 Unmuxed Double Density           [ ]
+                 Utility                          [ ]
+
+        TESTJET/VTEP
+                 Test Time Improvement            [ ]
+
+        ANALOG
+                 Test Options                     [x]
+                 Delays                           [x]
+
+        DIGITAL
+                 Faster Flash Ram                 [ ]
+
+        MIXED
+
+                 Unnecessary Exits                [ ]
+                 Continue Statements              [x]
+
+        FUNCTIONAL
+
+                 Test Options                     [ ]
+                 Expect                           [ ]
+
+See the DETAILS section for more information.
+
+Use Test Coverage and Board Grader to ensure test quality once
+modifications are applied.

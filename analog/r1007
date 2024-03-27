@@ -1,0 +1,14 @@
+!!!!    2    0    1 1651026864  Va006                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:39 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c10_5 10.0n"                                                                                                                                            
+report "c137 10.0n"                                                                                                                                             
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "SNDN_0P9_VDD_PMB_ADDR"                                                                                                                            
+!B!resistor 3.48k, 10.00, 10.00, re4, wb, ar200m, wa1.43u                                                                                                       
+resistor 3.48k,25.0,20.0,re4,wb,ar200m                                                                                                                          
+! "r1007" test.                                                                                                                                                 
+off failure                                                                                                                                                     

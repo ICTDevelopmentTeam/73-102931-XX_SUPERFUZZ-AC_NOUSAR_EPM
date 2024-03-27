@@ -1,0 +1,989 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 17:47:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    116172   26
+UNNAMED_4095_RES_I469_A                 
+                r4_sf1.1
+                 r766.1
+To:     v                    119170   26 
+PMOD_VSENP_P3V3_SFP1_ALT                
+                r4_sf1.2
+               u1_sf1.12
+Common Devices:
+                 r4_sf1
+Message is:
+Check R4_SF1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148   28
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT7_8   113153   28
+               c8_rt7_8.1
+              c13_rt7_8.1
+              c15_rt7_8.1
+              c16_rt7_8.1
+              c21_rt7_8.1
+              c22_rt7_8.1
+              c24_rt7_8.1
+              c25_rt7_8.1
+              c27_rt7_8.1
+              c28_rt7_8.1
+Too many to print.
+Common Devices:
+                l5_rt7_8
+Message is:
+Check L5_RT7_8
+------End, 2 Problems Reported----------
+S/N:FLM270401QB
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 17:48:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    116172 Open
+UNNAMED_4095_RES_I469_A                 
+                r4_sf1.1
+                 r766.1
+To:     v                    119170
+PMOD_VSENP_P3V3_SFP1_ALT                
+                r4_sf1.2
+               u1_sf1.12
+Common Devices:
+                 r4_sf1
+Message is:
+Check R4_SF1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT1_2   221165
+              c19_rt1_2.1
+              c23_rt1_2.1
+              c38_rt1_2.1
+              c41_rt1_2.1
+              c44_rt1_2.1
+              c47_rt1_2.1
+              c50_rt1_2.1
+              c60_rt1_2.1
+              c61_rt1_2.1
+              c62_rt1_2.1
+Too many to print.
+Common Devices:
+                l3_rt1_2
+Message is:
+Check L3_RT1_2
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: SNDN_VDD_SENSE_P       220127   42
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+To:   dvdd_sense_r_5         222122   42
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+Common Devices:
+                  p1_5
+                 r03_5
+Message is:
+Check R03_5
+------End, 3 Problems Reported----------
+S/N:FLM270401QB
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:00:09 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:00:16 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:00:24 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:00:32 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:00:39 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:01:34 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:01:41 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:01:48 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:01:55 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:02:03 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:03:43 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -23.468k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:03:50 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:03:57 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:04:04 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:04:13 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:06:07 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:06:14 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -31.288k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:06:20 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -93.819k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:06:27 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+73-102898-01_03
+Tue Feb 07 18:06:34 2023
+----------------------------------------
+p4%presence HAS FAILED
+Measured:   -46.927k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for P4 presence.
+----------------------------------------
+S/N:FLM270201JC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 18:09:38 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: qsfp_sda<2>             11542   35
+                r7_q1.1
+                rn2_q1.2
+            rn2_q1%pin_2_7.1
+                u49.H12
+To:     v                     11443   35 
+UNNAMED_4_RES_I229_B_Q1                 
+              qsfp_q1.A12
+                r7_q1.2
+Common Devices:
+                 r7_q1
+Message is:
+Check R7_Q1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<10>         21417   33
+                r13_s0.1
+               rn55_s0.3
+           rn55_s0%pin_3_6.1
+                u49.AD23
+To:     v                    222157   33 
+UNNAMED_5_RES_I175_B_S0                 
+                r13_s0.2
+               sfp_s0.L4
+Common Devices:
+                 r13_s0
+Message is:
+Check R13_S0
+------End, 2 Problems Reported----------
+S/N:FLM270203BC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 18:09:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<22>         22126   33
+                r38_s0.1
+                 r837.1
+               rn97_s0.4
+           rn97_s0%pin_4_5.1
+To:   srt_sfp22_i2c_scl_edge 220134   33
+                 r837.2
+                u49.AD17
+Common Devices:
+                  r837
+Message is:
+Check R837
+------End, 1 Problem Reported-----------
+S/N:FLM270203BC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 18:29:44 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<0>         217141   27
+                r1_s0.1
+               rn33_s0.3
+           rn33_s0%pin_3_6.1
+                u49.V19
+To:     v                     21967   27 
+UNNAMED_3_RES_I174_B_S0                 
+                r1_s0.2
+               sfp_s0.A4
+Common Devices:
+                 r1_s0
+Message is:
+Check R1_S0
+------End, 1 Problem Reported-----------
+S/N:FLM270203BH
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:14:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:14:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:15:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:15:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:15:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:19:24 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:19:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:19:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:19:58 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:20:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:21:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:21:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:21:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:21:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:22:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DVDD           215127 Open
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+To:   VDD_PH_98               22070
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+Common Devices:
+               u1_98_rtv1
+Message is:
+Check ExpectShort
+------End, 1 Problem Reported-----------
+S/N:FLM270400BL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:24:22 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcca_fpll 205147 1591
+                 c443.2
+                 c444.2
+                 c445.2
+                 c446.2
+                 l37.1
+                u49.G21
+                 u49.J6
+                 u49.W7
+                u49.Y21
+To:   P2_5VA                  20853 1591
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l37
+                  u49
+Message is:
+Check L37
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<44>        116155 Open
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     10957   27
+JTAG_TDO_RT6_TDI_RT7_2V5                
+                 r110.2
+                 r122.2
+                 r288.1
+              u2_rt5_6.B8
+To:   JTAG_TDO_RT7_RT8_2V5RT  10962   27
+                 r123.1
+                 r288.2
+              u1_rt7_8.B9
+Common Devices:
+                  r288
+Message is:
+Check R288
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     20207 Open
+pwr_sndn_core_ovr_cur_l                 
+                r86_5.1
+                 r459.1
+                u1_5.14
+To:     v                    202104
+pwr_sndn_core_ovr_pwr_l                 
+                r79_5.1
+                 r459.2
+                u1_5.15
+Common Devices:
+                  r459
+                  u1_5
+Message is:
+Check R459
+------End, 4 Problems Reported----------
+S/N:FLM270401Q8
+----------------------------------------
+Shorts Report for "shorts".
+Tue Feb 07 20:24:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcca_fpll 205147 Open
+                 c443.2
+                 c444.2
+                 c445.2
+                 c446.2
+                 l37.1
+                u49.G21
+                 u49.J6
+                 u49.W7
+                u49.Y21
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l37
+                  u49
+Message is:
+Check L37
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<44>        116155   54
+                r33_s1.1
+               rn79_s1.3
+           rn79_s1%pin_3_6.1
+                u49.E13
+To:     v                    113151   54 
+UNNAMED_16_RES_I231_B_S1                
+                r33_s1.2
+               sfp_s1.AA4
+Common Devices:
+                 r33_s1
+Message is:
+Check R33_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     20207 Open
+pwr_sndn_core_ovr_cur_l                 
+                r86_5.1
+                 r459.1
+                u1_5.14
+To:     v                    202104
+pwr_sndn_core_ovr_pwr_l                 
+                r79_5.1
+                 r459.2
+                u1_5.15
+Common Devices:
+                  r459
+                  u1_5
+Message is:
+Check R459
+------End, 3 Problems Reported----------
+S/N:FLM270401Q8

@@ -1,0 +1,14 @@
+!!!!    2    0    1 1651026052  V3ea9                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:42 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r10_pm 20.0k"                                                                                                                                           
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "SRT_VIN_MON_N_PM"                                                                                                                                 
+connect g to "P3_3VA"; l to "P3_3VA"                                                                                                                            
+!B!capacitor 100n, 15.00, 15.00, fr1024, re3, wb, ar100m, sa, sl, en, nocomp                                                                                    
+capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,sa,sl,en,nocomp                                                                                                  
+! "c21_pm" is a limited test.                                                                                                                                   
+off failure                                                                                                                                                     

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026200  Vcbb7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:46 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "CAP_CLK212M_BUF_MM_SIDE_REFCLK_P"                                                                                                                 
+connect i to "CLK212M_BUF_FC_SIDE_REFCLK_P"                                                                                                                     
+!B!capacitor 100n, 20.00, 20.00, fr1024, re3, wb, ar100m, nocomp                                                                                                
+capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,nocomp                                                                                                           
+! "c179" test.                                                                                                                                                  

@@ -1,0 +1,542 @@
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 11:43:55 2024
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -51.221M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056D
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 11:47:49 2024
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   3.2885M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2742056D
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:50:42 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -46.747k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:50:52 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   93.448k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:50:57 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -93.443k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:51:03 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   46.729k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:53:05 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -93.478k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:53:15 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   1.0000e+100
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:53:20 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -46.726k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:53:25 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -31.148k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:54:22 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -23.367k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:54:31 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -93.448k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:54:37 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -31.148k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY
+----------------------------------------
+73-102898-01_03
+Fri Jan 19 16:54:42 2024
+----------------------------------------
+r1324 HAS FAILED
+12-3576-02 RES,TKF,120 ohm,0.063W,1%,SM,
+Measured:   -46.719k
+Nominal:    125.00
+High Limit: 162.50
+Low Limit:  100.00
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr10%red HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM28010CGY

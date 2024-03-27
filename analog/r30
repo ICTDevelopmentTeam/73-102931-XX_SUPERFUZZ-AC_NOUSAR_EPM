@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519053  Vd30e                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:12 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "DPLL_SCL_SYNCE_SPI_CLK"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r30" test.

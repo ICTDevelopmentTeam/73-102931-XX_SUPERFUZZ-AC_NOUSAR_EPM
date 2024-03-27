@@ -1,0 +1,13 @@
+!!!!    2    0    1 1651028572  V2aa4                                         
+!* q23%q c b has pins tied together,test b-e diode only
+on failure
+   report parallel devices
+   report "c1815 2.20n"
+end on failure
+disconnect all
+connect s to "RV_THERM_SEN1_N"
+connect i to "RV_THERM_SEN1_P"
+diode "B-E", 980m, 450m, idc10m, co3.0, ar980m,wa20m
+off failure
+! "q23%q C B" has pins tied together on node "RV_THERM_SEN1_P".
+! "q23%q E B" has pins tied together on node "RV_THERM_SEN1_P".

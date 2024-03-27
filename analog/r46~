@@ -1,0 +1,9 @@
+!!!!    2    0    1 1677081182   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:49 2022
+disconnect all
+connect s to "UNNAMED_4134_RES_I261_A" ;  a to "UNNAMED_4134_RES_I261_A"
+connect i to "CLK_ZL_1PPS_OUT" ;  b to "CLK_ZL_1PPS_OUT"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+!resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+resistor 22,40.0,20.00,re1,ar50m,en, ed, sa  !ADV
+! "r46" is a limited test.

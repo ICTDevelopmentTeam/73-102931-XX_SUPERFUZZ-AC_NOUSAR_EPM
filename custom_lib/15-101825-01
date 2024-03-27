@@ -1,0 +1,20 @@
+!!!!    2    0    1 1573454547  V54b0                                         
+test powered analog
+power pins 14,13,11,7,17
+nonanalog pins 2,12,3,1,10,4,5,6,8,9,16
+
+ test "VOUT"
+
+end test
+
+subtest "VOUT"
+     connect i to pins 15
+     connect l to pins 7
+
+   detector dcv, expect 1.8
+   measure 1.8 * 1.05, 1.8 * 0.95
+end subtest
+
+
+
+

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517074  V86a9                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:18 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "P1V0RT1_DVDD_PGOOD"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k,25.00,20.00,re4,wb,ar100m
+! "r23_rtv1" test.

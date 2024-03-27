@@ -1,0 +1,8 @@
+!!!!    2    0    1 1675888944   0000                                         
+!* presence covered by cluster in pwr_check
+! "l1_91_rtv2" is not accessible at node "VDD_SW".
+disconnect all
+connect s to  "P1V0RT2_AVDD"
+connect i to "VDD_PH"
+jumper 15,re1,ar100m, wa5m
+

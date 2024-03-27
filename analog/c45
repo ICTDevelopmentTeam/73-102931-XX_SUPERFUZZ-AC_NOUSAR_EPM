@@ -1,0 +1,13 @@
+!!!!    2    0    1 1647863879   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:00 2022
+on failure
+   report parallel devices
+   report "c46"
+   report "c47"
+end on failure
+disconnect all
+connect s to "FLTR_P3V3_OSC_156M_RT"
+connect i to "GND"
+jumper 3.33k, re4, wb, ar200m, op
+! "c45" test.
+off failure

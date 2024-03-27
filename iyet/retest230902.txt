@@ -1,0 +1,3740 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:27:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:27:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:28:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:29:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:34:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:34:37 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:37:40 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:37:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:38:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:41:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+TestJet Report for "testjet".
+Sat Sep 02 14:42:22 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device j7
+  Pin 3  Node gps_los_l
+  Measured 0.1              (BRC 21061)
+Open #2  Device j7
+  Pin 1  Node gnss_reset_l
+  Measured -0.2             (BRC 208161)
+Open #3  Device j7
+  Pin 7  Node gnss_txd_a
+  Measured -0.0             (BRC 21161)
+Open #4  Device j7
+  Pin 9  Node gnss_rxd_a
+  Measured -0.4             (BRC 209161)
+Open #5  Device j7
+  Pin 18  Node tod_relay_ctl0
+  Measured -0.2             (BRC 20861)
+Open #6  Device j7
+  Pin 20  Node tod_relay_ctl1
+  Measured -0.5             (BRC 20961)
+Open #7  Device j7
+  Pin 24  Node clk_1_pps_utc_in
+  Measured 1.0              (BRC 10758)
+Open #8  Device j7
+  Pin 28  Node clk_con_fpga_10m_utc_in
+  Measured -0.4             (BRC 208147)
+Open #9  Device j7
+  Pin 23  Node clk_gnss_fpga_1_utc_con
+  Measured 0.6              (BRC 21047)
+Open #10  Device j7
+  Pin 19  Node clk_gnss_fpga_10m_utc_con
+  Measured -0.1             (BRC 210146)
+Open #11  Device j7
+  Pin 36  Node clk_1_pps_out
+  Measured 0.3              (BRC 210147)
+Open #12  Device j7
+  Pin 15  Node gnss_rxd_b
+  Measured 0.3              (BRC 211161)
+Open #13  Device j7
+  Pin 13  Node gnss_txd_b
+  Measured -0.6             (BRC 210161)
+29-100622-01 CON,BTB,BERGSTAK,R,ST,SMT-N
+----------------------------------------
+Open #1  Device u1_5
+  Pin 5  Node pwm4_5
+  Measured 0.8              (BRC 10452)
+Open #2  Device u1_5
+  Pin 21  Node dvdd_sense_r_5
+  Measured 0.9              (BRC 222122)
+Open #3  Device u1_5
+  Pin 12  Node vdd_0p875v_pg
+  Measured 0.4              (BRC 203142)
+Open #4  Device u1_5
+  Pin 23  Node isen1_5
+  Measured 0.2              (BRC 22023)
+Open #5  Device u1_5
+  Pin 25  Node isen3_5
+  Measured 0.6              (BRC 22024)
+Open #6  Device u1_5
+  Pin 24  Node isen2_5
+  Measured 0.2              (BRC 220123)
+Open #7  Device u1_5
+  Pin 28  Node isen6_5
+  Measured -0.2             (BRC 220125)
+Open #8  Device u1_5
+  Pin 27  Node isen5_5
+  Measured -0.1             (BRC 22025)
+Open #9  Device u1_5
+  Pin 13  Node sndn_core_en
+  Measured -0.2             (BRC 107153)
+Open #10  Device u1_5
+  Pin 16  Node vdda_0p9v_pg
+  Measured 0.3              (BRC 203118)
+Open #11  Device u1_5
+  Pin 34  Node sndn_0p9_vdd_pmb_addr
+  Measured -0.1             (BRC 10855)
+Open #12  Device u1_5
+  Pin 37  Node unnamed_7_cap_i279_b_5
+  Measured 0.2              (BRC 215103)
+Open #13  Device u1_5
+  Pin 36  Node tsen1_r_5
+  Measured 0.1              (BRC 215104)
+Open #14  Device u1_5
+  Pin 4  Node pwm5_5
+  Measured -0.5             (BRC 104153)
+Open #15  Device u1_5
+  Pin 3  Node pwm6_5
+  Measured -0.2             (BRC 10454)
+Open #16  Device u1_5
+  Pin 35  Node tsen2_r_5
+  Measured 0.1              (BRC 215105)
+Open #17  Device u1_5
+  Pin 8  Node pwm1_5
+  Measured 0.1              (BRC 10451)
+Open #18  Device u1_5
+  Pin 6  Node pwm3_5
+  Measured 0.6              (BRC 104152)
+Open #19  Device u1_5
+  Pin 7  Node pwm2_5
+  Measured 0.6              (BRC 104154)
+Open #20  Device u1_5
+  Pin 38  Node unnamed_7_cap_i276_b_5
+  Measured 0.1              (BRC 215101)
+Open #21  Device u1_5
+  Pin 32  Node isen8_5
+  Measured -0.4             (BRC 22026)
+Open #22  Device u1_5
+  Pin 33  Node gp2_5
+  Measured 0.3              (BRC 21924)
+Open #23  Device u1_5
+  Pin 11  Node pmbus_alert_l
+  Measured 0.6              (BRC 107162)
+Open #24  Device u1_5
+  Pin 1  Node pwm8_5
+  Measured 0.4              (BRC 10453)
+Open #25  Device u1_5
+  Pin 20  Node imon_tp_5
+  Measured 1.0              (BRC 223125)
+Open #26  Device u1_5
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.6              (BRC 21162)
+Open #27  Device u1_5
+  Pin 14  Node pwr_sndn_core_ovr_cur_l
+  Pin 15  Node pwr_sndn_core_ovr_cur_l
+  Measured 0.1              (BRC 20207)
+Open #28  Device u1_5
+  Pin 10  Node srt_p0v9_sndn_scl
+  Measured 0.0              (BRC 10751)
+Open #29  Device u1_5
+  Pin 26  Node isen4_5
+  Measured -0.1             (BRC 220124)
+17-15181-02 IC,LINEAR,PWR SEQ, PWR_CONTR
+----------------------------------------
+Open #1  Device u1_91_5
+  Pin 38  Node isen1_5
+  Measured 0.3              (BRC 22023)
+Open #2  Device u1_91_5
+  Pin 36  Node tsen_r_2
+  Measured -0.2             (BRC 22049)
+Open #3  Device u1_91_5
+  Pin 37  Node unnamed_2_res_i61_b_2
+  Measured 0.1              (BRC 21634)
+Open #4  Device u1_91_5
+  Pin 34  Node pwm1_5
+  Measured -0.1             (BRC 10451)
+Open #5  Device u1_91_5
+  Pin 33  Node vdd_boot_2
+  Measured 0.5              (BRC 203152)
+Open #6  Device u1_91_5
+  Pin 35  Node unnamed_2_res_i151_a_2
+  Measured 0.1              (BRC 220150)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_92_5
+  Pin 37  Node unnamed_2_res_i61_b_92
+  Measured 0.0              (BRC 21635)
+Open #2  Device u1_92_5
+  Pin 38  Node isen2_5
+  Measured 0.1              (BRC 220123)
+Open #3  Device u1_92_5
+  Pin 36  Node tsen_r_92
+  Measured 0.0              (BRC 220149)
+Open #4  Device u1_92_5
+  Pin 34  Node pwm2_5
+  Measured -0.3             (BRC 104154)
+Open #5  Device u1_92_5
+  Pin 33  Node vdd_boot_92
+  Measured -0.4             (BRC 203153)
+Open #6  Device u1_92_5
+  Pin 35  Node unnamed_2_res_i151_a_92
+  Measured 0.9              (BRC 22051)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_93_5
+  Pin 38  Node isen3_5
+  Measured 0.6              (BRC 22024)
+Open #2  Device u1_93_5
+  Pin 36  Node tsen_r_93
+  Measured -0.1             (BRC 22050)
+Open #3  Device u1_93_5
+  Pin 37  Node unnamed_2_res_i61_b_93
+  Measured 0.4              (BRC 216135)
+Open #4  Device u1_93_5
+  Pin 34  Node pwm3_5
+  Measured 0.2              (BRC 104152)
+Open #5  Device u1_93_5
+  Pin 33  Node vdd_boot_93
+  Measured -0.2             (BRC 20354)
+Open #6  Device u1_93_5
+  Pin 35  Node unnamed_2_res_i151_a_93
+  Measured -0.1             (BRC 220151)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_94_5
+  Pin 36  Node tsen_r_94
+  Measured 0.0              (BRC 22216)
+Open #2  Device u1_94_5
+  Pin 37  Node unnamed_2_res_i61_b_94
+  Measured -0.2             (BRC 21927)
+Open #3  Device u1_94_5
+  Pin 34  Node pwm4_5
+  Measured 0.2              (BRC 10452)
+Open #4  Device u1_94_5
+  Pin 38  Node isen4_5
+  Measured -0.4             (BRC 220124)
+Open #5  Device u1_94_5
+  Pin 33  Node vdd_boot_94
+  Measured 0.1              (BRC 10552)
+Open #6  Device u1_94_5
+  Pin 35  Node unnamed_2_res_i151_a_94
+  Measured 0.1              (BRC 22243)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_95_5
+  Pin 38  Node isen5_5
+  Measured 0.0              (BRC 22025)
+Open #2  Device u1_95_5
+  Pin 37  Node unnamed_2_res_i61_b_95
+  Measured 0.0              (BRC 219127)
+Open #3  Device u1_95_5
+  Pin 36  Node tsen_r_95
+  Measured -0.2             (BRC 222116)
+Open #4  Device u1_95_5
+  Pin 34  Node pwm5_5
+  Measured 0.2              (BRC 104153)
+Open #5  Device u1_95_5
+  Pin 33  Node vdd_boot_95
+  Measured -0.3             (BRC 105151)
+Open #6  Device u1_95_5
+  Pin 35  Node unnamed_2_res_i151_a_95
+  Measured -0.2             (BRC 222143)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_96_5
+  Pin 38  Node isen6_5
+  Measured -0.7             (BRC 220125)
+Open #2  Device u1_96_5
+  Pin 37  Node unnamed_2_res_i61_b_96
+  Measured 0.5              (BRC 21928)
+Open #3  Device u1_96_5
+  Pin 36  Node tsen_r_96
+  Measured -0.5             (BRC 222117)
+Open #4  Device u1_96_5
+  Pin 34  Node pwm6_5
+  Measured 0.1              (BRC 10454)
+Open #5  Device u1_96_5
+  Pin 33  Node vdd_boot_96
+  Measured -0.4             (BRC 105148)
+Open #6  Device u1_96_5
+  Pin 35  Node unnamed_2_res_i151_a_96
+  Measured 0.2              (BRC 22145)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_rtv1
+  Pin 12  Node p1v0rt1_avdd_pgood
+  Measured -0.2             (BRC 20361)
+Open #2  Device u1_rtv1
+  Pin 13  Node p1v0rt_avdd_en
+  Measured -0.0             (BRC 205162)
+Open #3  Device u1_rtv1
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.3              (BRC 21162)
+Open #4  Device u1_rtv1
+  Pin 23  Node isen1_rtv1
+  Measured 0.7              (BRC 217148)
+Open #5  Device u1_rtv1
+  Pin 8  Node pwm1_rtv1
+  Measured 0.1              (BRC 205164)
+Open #6  Device u1_rtv1
+  Pin 16  Node p1v0rt1_dvdd_pgood
+  Measured -0.8             (BRC 204161)
+Open #7  Device u1_rtv1
+  Pin 34  Node unnamed_53_acadiampps11lv_i28_pmbaddr
+  Measured 0.2              (BRC 215129)
+Open #8  Device u1_rtv1
+  Pin 37  Node unnamed_7_cap_i279_b_rtv1
+  Measured -0.4             (BRC 215132)
+Open #9  Device u1_rtv1
+  Pin 36  Node tsen1_r_rtv1
+  Measured 0.5              (BRC 21530)
+Open #10  Device u1_rtv1
+  Pin 35  Node tsen2_r_rtv1
+  Measured 0.1              (BRC 21529)
+Open #11  Device u1_rtv1
+  Pin 32  Node isen8_rtv1
+  Measured -0.3             (BRC 21749)
+Open #12  Device u1_rtv1
+  Pin 10  Node srt_rt1_pmbus2_scl_r
+  Measured 0.3              (BRC 211129)
+Open #13  Device u1_rtv1
+  Pin 11  Node pmbus_alert_l
+  Measured 0.2              (BRC 107162)
+Open #14  Device u1_rtv1
+  Pin 38  Node unnamed_7_cap_i276_b_rtv1
+  Measured 0.3              (BRC 21532)
+Open #15  Device u1_rtv1
+  Pin 33  Node gp2_rtv1
+  Measured 0.5              (BRC 216133)
+Open #16  Device u1_rtv1
+  Pin 20  Node imon_tp_rtv1
+  Measured -0.3             (BRC 20563)
+Open #17  Device u1_rtv1
+  Pin 1  Node pwm8_rtv1
+  Measured 0.4              (BRC 214171)
+Open #18  Device u1_rtv1
+  Pin 14  Node pwr_p1v0rt1_ovr_cur_l
+  Pin 15  Node pwr_p1v0rt1_ovr_cur_l
+  Measured 0.1              (BRC 205158)
+17-15781-01 IC,LINEAR,PWR SEQ,PWR_CONTRO
+----------------------------------------
+Open #1  Device u1_rtv2
+  Pin 12  Node p1v0rt2_avdd_pgood
+  Measured 0.2              (BRC 202126)
+Open #2  Device u1_rtv2
+  Pin 8  Node pwm1_rtv2
+  Measured 0.3              (BRC 104155)
+Open #3  Device u1_rtv2
+  Pin 13  Node p1v0rt_avdd_en
+  Measured -0.0             (BRC 205162)
+Open #4  Device u1_rtv2
+  Pin 16  Node p1v0rt2_dvdd_pgood
+  Measured 0.0              (BRC 20461)
+Open #5  Device u1_rtv2
+  Pin 11  Node pmbus_alert_l
+  Measured 0.5              (BRC 107162)
+Open #6  Device u1_rtv2
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.4              (BRC 21162)
+Open #7  Device u1_rtv2
+  Pin 37  Node unnamed_7_cap_i279_b_rtv2
+  Measured 0.2              (BRC 21504)
+Open #8  Device u1_rtv2
+  Pin 23  Node isen1_rtv2
+  Measured 0.2              (BRC 220126)
+Open #9  Device u1_rtv2
+  Pin 38  Node unnamed_7_cap_i276_b_rtv2
+  Measured 0.1              (BRC 21503)
+Open #10  Device u1_rtv2
+  Pin 1  Node pwm8_rtv2
+  Measured -0.1             (BRC 105147)
+Open #11  Device u1_rtv2
+  Pin 35  Node tsen2_r_rtv2
+  Measured 0.3              (BRC 21506)
+Open #12  Device u1_rtv2
+  Pin 36  Node tsen1_r_rtv2
+  Measured 0.3              (BRC 21505)
+Open #13  Device u1_rtv2
+  Pin 34  Node unnamed_53_acadiampps11lv_i47_pmbaddr
+  Measured 0.4              (BRC 215107)
+Open #14  Device u1_rtv2
+  Pin 33  Node gp2_rtv2
+  Measured 0.6              (BRC 219124)
+Open #15  Device u1_rtv2
+  Pin 20  Node imon_tp_rtv2
+  Measured -0.0             (BRC 20330)
+Open #16  Device u1_rtv2
+  Pin 10  Node srt_rt2_pmbus2_scl_r
+  Measured 0.7              (BRC 10852)
+Open #17  Device u1_rtv2
+  Pin 32  Node isen8_rtv2
+  Measured 0.0              (BRC 22027)
+Open #18  Device u1_rtv2
+  Pin 14  Node pwr_p1v0rt2_ovr_cur_l
+  Pin 15  Node pwr_p1v0rt2_ovr_cur_l
+  Measured 0.0              (BRC 203127)
+17-15781-01 IC,LINEAR,PWR SEQ,PWR_CONTRO
+----------------------------------------
+Open #1  Device u3_a
+  Pin 3  Node p1v1_pgood_a
+  Measured 0.3              (BRC 215149)
+Open #2  Device u3_a
+  Pin 21  Node unnamed_2_res_i635_b_a
+  Measured -0.0             (BRC 202105)
+Open #3  Device u3_a
+  Pin 2  Node pwr_adomain_pgood
+  Measured 0.0              (BRC 20443)
+Open #4  Device u3_a
+  Pin 1  Node unnamed_4141_res_i66_a
+  Measured 0.3              (BRC 21732)
+Open #5  Device u3_a
+  Pin 27  Node pmbus_adomain_sda
+  Measured -0.7             (BRC 202103)
+Open #6  Device u3_a
+  Pin 25  Node unnamed_2_res_i637_b_a
+  Measured 0.4              (BRC 22005)
+Open #7  Device u3_a
+  Pin 26  Node pmbus_adomain_alert_l
+  Measured 0.3              (BRC 20204)
+Open #8  Device u3_a
+  Pin 23  Node unnamed_2_res_i573_a_a
+  Measured -0.1             (BRC 21912)
+Open #9  Device u3_a
+  Pin 28  Node unnamed_2_res_i626_b_a
+  Measured 0.1              (BRC 20206)
+Open #10  Device u3_a
+  Pin 4  Node unnamed_2_res_i542_a_a
+  Measured 0.4              (BRC 202106)
+15-105048-01 IC-LIN,VREG,SW,BUCK,QFN,28 
+----------------------------------------
+Open #1  Device u5
+  Pin 1  Node srt_clk156m25_rt_bufin_lower_refclk_p
+  Measured 0.2              (BRC 204105)
+Open #2  Device u5
+  Pin 3  Node srt_clk156m25_rt_bufin_upper_refclk_p
+  Measured 0.3              (BRC 20403)
+Open #3  Device u5
+  Pin 4  Node srt_clk156m25_rt_bufin_upper_refclk_n
+  Measured -0.1             (BRC 20404)
+Open #4  Device u5
+  Pin 2  Node srt_clk156m25_rt_bufin_lower_refclk_n
+  Measured -0.3             (BRC 10578)
+Open #5  Device u5
+  Pin 14  Node clk156m_osc_n
+  Measured -0.0             (BRC 209112)
+Open #6  Device u5
+  Pin 13  Node clk156m_osc_p
+  Measured 0.2              (BRC 20912)
+Open #7  Device u5
+  Pin 12  Node clk156m_buf_clk_sel
+  Measured -0.3             (BRC 202142)
+Open #8  Device u5
+  Pin 5  Node srt_clk156m25_buf_mm_top_refclk_p
+  Measured -0.3             (BRC 10577)
+Open #9  Device u5
+  Pin 6  Node srt_clk156m25_buf_mm_top_refclk_n
+  Measured -0.4             (BRC 204106)
+Open #10  Device u5
+  Pin 10  Node srt_clk156m25_buf_mm_bot_refclk_n
+  Measured 0.2              (BRC 205109)
+Open #11  Device u5
+  Pin 7  Node srt_clk156m25_buf_mm_side_refclk_p
+  Measured 0.2              (BRC 20507)
+Open #12  Device u5
+  Pin 9  Node srt_clk156m25_buf_mm_bot_refclk_p
+  Measured 0.3              (BRC 205108)
+Open #13  Device u5
+  Pin 8  Node srt_clk156m25_buf_mm_side_refclk_n
+  Measured 0.5              (BRC 20508)
+Open #14  Device u5
+  Pin 19  Node clk156m_buf_en
+  Measured 0.2              (BRC 104175)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+Open #1  Device u6
+  Pin 3  Node clk_zl_mifpga_1pps
+  Measured 0.5              (BRC 207117)
+Open #2  Device u6
+  Pin 8  Node clk_1_pps_mux_out
+  Measured 0.1              (BRC 107158)
+Open #3  Device u6
+  Pin 2  Node unnamed_4142_cdclvc11xx_i180_en1g
+  Measured -0.3             (BRC 105157)
+Open #4  Device u6
+  Pin 1  Node srt_clk_zl_1pps_out
+  Measured 0.4              (BRC 10557)
+15-102821-01 IC-TIMING,BUFFER,NON ZERO D
+----------------------------------------
+Open #1  Device u7
+  Pin 16  Node jtag_tms_3v3
+  Measured -0.3             (BRC 10930)
+Open #2  Device u7
+  Pin 5  Node srt_jtag_tck_cpld3_3v3
+  Measured 0.3              (BRC 10571)
+Open #3  Device u7
+  Pin 7  Node srt_jtag_tck_cpld4_3v3
+  Measured 0.2              (BRC 105172)
+Open #4  Device u7
+  Pin 14  Node _d_u7_14
+  Measured 0.0              (BRC 10772)
+Open #5  Device u7
+  Pin 4  Node jtag_tms_hdr_3v3
+  Measured -0.1             (BRC 107171)
+Open #6  Device u7
+  Pin 9  Node srt_jtag_tck_cpld1_3v3
+  Measured -0.7             (BRC 10977)
+Open #7  Device u7
+  Pin 12  Node srt_jtag_tck_dav_3v3
+  Measured 0.2              (BRC 10572)
+Open #8  Device u7
+  Pin 3  Node srt_jtag_tck_cpld2_3v3
+  Measured -0.1             (BRC 105169)
+Open #9  Device u7
+  Pin 18  Node jtag_trst_l_3v3
+  Measured -0.0             (BRC 107174)
+Open #10  Device u7
+  Pin 2  Node jtag_trst_l_hdr_3v3
+  Measured 0.5              (BRC 10771)
+Open #11  Device u7
+  Pin 1  Node unnamed_55_lvc244a_i59_oe
+  Pin 6  Node unnamed_55_lvc244a_i59_oe
+  Pin 19  Node unnamed_55_lvc244a_i59_oe
+  Measured -0.1             (BRC 10869)
+Open #12  Device u7
+  Pin 8  Node jtag_tck_hdr_3v3
+  Pin 11  Node jtag_tck_hdr_3v3
+  Pin 13  Node jtag_tck_hdr_3v3
+  Pin 15  Node jtag_tck_hdr_3v3
+  Pin 17  Node jtag_tck_hdr_3v3
+  Measured -0.6             (BRC 10770)
+15-2811-02 IC-LOGIC-BUFFER,TSSOP20,5V,-4
+----------------------------------------
+Open #1  Device u13_pm
+  Pin 4  Node mifpga_pmbus_sda
+  Measured 0.4              (BRC 21162)
+Open #2  Device u13_pm
+  Pin 8  Node vbus_pm
+  Measured -0.4             (BRC 22224)
+Open #3  Device u13_pm
+  Pin 9  Node srt_vin_mon_n_pm
+  Measured -0.1             (BRC 10867)
+Open #4  Device u13_pm
+  Pin 10  Node srt_vin_mon_p_pm
+  Measured 0.4              (BRC 108168)
+Open #5  Device u13_pm
+  Pin 1  Node mon_addr_a1_pm
+  Measured 0.2              (BRC 108163)
+Open #6  Device u13_pm
+  Pin 2  Node mon_addr_a0_pm
+  Measured -0.0             (BRC 10767)
+Open #7  Device u13_pm
+  Pin 5  Node srt_p1v2_tilt_scl
+  Measured -0.7             (BRC 10866)
+Open #8  Device u13_pm
+  Pin 3  Node fpga_moni_int
+  Measured 0.1              (BRC 20325)
+15-106515-01 IC-LIN,Precision Digital Po
+----------------------------------------
+Open #1  Device u14
+  Pin 2  Node unnamed_4142_cdclvc11xx_i144_en1g
+  Measured -0.0             (BRC 10762)
+Open #2  Device u14
+  Pin 1  Node srt_clk_1_pps_utc_in
+  Measured 0.0              (BRC 10761)
+Open #3  Device u14
+  Pin 3  Node clk_1_pps_utc_mifpga_in
+  Measured -0.4             (BRC 107161)
+15-102821-01 IC-TIMING,BUFFER,NON ZERO D
+----------------------------------------
+Open #1  Device u17
+  Pin 7  Node srt_clk156m25_rt3_refclk_p
+  Measured -0.0             (BRC 219103)
+Open #2  Device u17
+  Pin 17  Node clk156m_rt1_sync_e_n
+  Measured 0.4              (BRC 21405)
+Open #3  Device u17
+  Pin 14  Node clk156m25_rt_bufin_lower_refclk_n
+  Measured 0.4              (BRC 214108)
+Open #4  Device u17
+  Pin 16  Node clk156m_rt1_sync_e_p
+  Measured 0.2              (BRC 214101)
+Open #5  Device u17
+  Pin 13  Node clk156m25_rt_bufin_lower_refclk_p
+  Measured 0.5              (BRC 21408)
+Open #6  Device u17
+  Pin 8  Node srt_clk156m25_rt3_refclk_n
+  Measured -0.5             (BRC 219104)
+Open #7  Device u17
+  Pin 19  Node clk156m_rtm1_buf_en
+  Measured 0.1              (BRC 21501)
+Open #8  Device u17
+  Pin 3  Node srt_clk156m25_rt1_refclk_p
+  Measured 0.6              (BRC 21702)
+Open #9  Device u17
+  Pin 4  Node srt_clk156m25_rt1_refclk_n
+  Measured 0.6              (BRC 217104)
+Open #10  Device u17
+  Pin 9  Node srt_clk156m25_rt4_refclk_p
+  Measured -0.3             (BRC 21901)
+Open #11  Device u17
+  Pin 1  Node srt_clk156m25_rt0_refclk_p
+  Measured 0.0              (BRC 22001)
+Open #12  Device u17
+  Pin 2  Node srt_clk156m25_rt0_refclk_n
+  Measured 0.1              (BRC 220101)
+Open #13  Device u17
+  Pin 10  Node srt_clk156m25_rt4_refclk_n
+  Measured -0.2             (BRC 21902)
+Open #14  Device u17
+  Pin 6  Node srt_clk156m25_rt2_refclk_n
+  Measured 0.2              (BRC 217101)
+Open #15  Device u17
+  Pin 5  Node srt_clk156m25_rt2_refclk_p
+  Measured 0.2              (BRC 21701)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+Open #1  Device u20
+  Pin 3  Node tod_rs422_txd_en
+  Measured 1.4              (BRC 20541)
+Open #2  Device u20
+  Pin 4  Node tod_rs422_rxd_en_l
+  Measured 0.4              (BRC 20542)
+Open #3  Device u20
+  Pin 9  Node clk_tod_fl1_n
+  Measured 0.2              (BRC 20732)
+Open #4  Device u20
+  Pin 8  Node clk_tod_fl1_p
+  Measured -0.0             (BRC 20842)
+Open #5  Device u20
+  Pin 2  Node tod_rs422_mb_rxd_r
+  Measured 0.4              (BRC 207149)
+Open #6  Device u20
+  Pin 5  Node tod_rs422_txd
+  Measured -0.1             (BRC 205141)
+15-107246-01 IC-LIN,INTFC DRVR,DFN,10 P,
+----------------------------------------
+Open #1  Device u21
+  Pin 4  Node 1pps_rs422_rxd_en_l
+  Measured -0.5             (BRC 207161)
+Open #2  Device u21
+  Pin 8  Node clk_1pps_fl1_p
+  Measured 1.1              (BRC 20843)
+Open #3  Device u21
+  Pin 9  Node clk_1pps_fl1_n
+  Measured 0.4              (BRC 208143)
+Open #4  Device u21
+  Pin 2  Node clk_1pps_rs422_rxd_r
+  Measured 0.0              (BRC 20743)
+Open #5  Device u21
+  Pin 5  Node clk_1_pps_y2_di
+  Measured -0.3             (BRC 20744)
+Open #6  Device u21
+  Pin 3  Node 1pps_rs422_txd_en
+  Measured 1.0              (BRC 20761)
+15-107246-01 IC-LIN,INTFC DRVR,DFN,10 P,
+----------------------------------------
+Open #1  Device u24
+  Pin 4  Node mifpga_act2_reset_l
+  Measured 0.0              (BRC 20362)
+Open #2  Device u24
+  Pin 3  Node unnamed_69_at90so72_i676_a2
+  Measured 0.4              (BRC 20948)
+Open #3  Device u24
+  Pin 13  Node srt_act2_i2c0_sda
+  Measured -0.4             (BRC 208148)
+Open #4  Device u24
+  Pin 12  Node srt_act2_i2c0_scl
+  Measured -0.4             (BRC 207150)
+Open #5  Device u24
+  Pin 14  Node unnamed_69_at90so72_i676_a1
+  Measured 0.4              (BRC 209148)
+Open #6  Device u24
+  Pin 2  Node unnamed_69_at90so72_i676_a0
+  Measured -0.0             (BRC 20953)
+15-14497-02 IC-MP,MCU,8/16BIT,QFN20,2.7V
+----------------------------------------
+Open #1  Device u25
+  Pin 16  Node jtag_sndn_trst_l
+  Measured 0.1              (BRC 110173)
+Open #2  Device u25
+  Pin 6  Node jtag_tck_sndn_muxed_3v3
+  Measured -0.2             (BRC 109171)
+Open #3  Device u25
+  Pin 14  Node srt_jtag_sndn_tck
+  Measured 0.6              (BRC 10976)
+Open #4  Device u25
+  Pin 4  Node jtag_trst_l_sndn_muxed_3v3
+  Measured 0.2              (BRC 105166)
+Open #5  Device u25
+  Pin 8  Node jtag_tdi_sndn_muxed_3v3
+  Measured -0.2             (BRC 10965)
+Open #6  Device u25
+  Pin 12  Node jtag_sndn_tdi
+  Measured 0.1              (BRC 209105)
+Open #7  Device u25
+  Pin 18  Node jtag_sndn_tms
+  Measured -0.1             (BRC 107164)
+Open #8  Device u25
+  Pin 2  Node jtag_tms_sndn_muxed_3v3
+  Measured -0.1             (BRC 10966)
+Open #9  Device u25
+  Pin 1  Node unnamed_55_lvc244a_i84_a0
+  Pin 11  Node unnamed_55_lvc244a_i84_a0
+  Pin 13  Node unnamed_55_lvc244a_i84_a0
+  Pin 15  Node unnamed_55_lvc244a_i84_a0
+  Pin 17  Node unnamed_55_lvc244a_i84_a0
+  Pin 19  Node unnamed_55_lvc244a_i84_a0
+  Measured 0.4              (BRC 107166)
+15-2811-02 IC-LOGIC-BUFFER,TSSOP20,5V,-4
+----------------------------------------
+Open #1  Device u26
+  Pin 4  Node fpga_sfp_tx_rate_sel<4>
+  Measured 1.0              (BRC 214143)
+Open #2  Device u26
+  Pin 6  Node fpga_sfp_tx_rate_sel<6>
+  Measured 0.8              (BRC 21441)
+Open #3  Device u26
+  Pin 2  Node fpga_sfp_tx_rate_sel<2>
+  Measured 0.5              (BRC 214144)
+Open #4  Device u26
+  Pin 12  Node txrate_sfp_shift_store
+  Measured 0.5              (BRC 20834)
+Open #5  Device u26
+  Pin 5  Node fpga_sfp_tx_rate_sel<5>
+  Measured 0.2              (BRC 214137)
+Open #6  Device u26
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured 0.2              (BRC 205161)
+Open #7  Device u26
+  Pin 3  Node fpga_sfp_tx_rate_sel<3>
+  Measured -0.2             (BRC 21433)
+Open #8  Device u26
+  Pin 1  Node fpga_sfp_tx_rate_sel<1>
+  Measured 0.0              (BRC 21446)
+Open #9  Device u26
+  Pin 14  Node txrate_sfp_shift_data
+  Measured 0.7              (BRC 211138)
+Open #10  Device u26
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured -0.1             (BRC 211162)
+Open #11  Device u26
+  Pin 7  Node fpga_sfp_tx_rate_sel<7>
+  Measured 0.4              (BRC 214138)
+Open #12  Device u26
+  Pin 15  Node fpga_sfp_tx_rate_sel<0>
+  Measured 0.4              (BRC 215138)
+Open #13  Device u26
+  Pin 11  Node txrate_sfp_shift_u26_clk_buf
+  Measured 0.3              (BRC 11073)
+Open #14  Device u26
+  Pin 9  Node txrate_shift_reg_data_1
+  Measured -0.3             (BRC 21438)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u27
+  Pin 12  Node txrate_sfp_shift_store
+  Measured 1.3              (BRC 20834)
+Open #2  Device u27
+  Pin 4  Node fpga_sfp_tx_rate_sel<12>
+  Measured -0.0             (BRC 214146)
+Open #3  Device u27
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured 0.1              (BRC 211162)
+Open #4  Device u27
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured 0.1              (BRC 205161)
+Open #5  Device u27
+  Pin 14  Node txrate_shift_reg_data_1
+  Measured 0.7              (BRC 21438)
+Open #6  Device u27
+  Pin 6  Node fpga_sfp_tx_rate_sel<14>
+  Measured -0.4             (BRC 21443)
+Open #7  Device u27
+  Pin 2  Node fpga_sfp_tx_rate_sel<10>
+  Measured 0.5              (BRC 215136)
+Open #8  Device u27
+  Pin 9  Node txrate_shift_reg_data_2
+  Measured 0.3              (BRC 210138)
+Open #9  Device u27
+  Pin 1  Node fpga_sfp_tx_rate_sel<9>
+  Measured 0.1              (BRC 214136)
+Open #10  Device u27
+  Pin 15  Node fpga_sfp_tx_rate_sel<8>
+  Measured 0.2              (BRC 21437)
+Open #11  Device u27
+  Pin 11  Node txrate_sfp_shift_u27_clk_buf
+  Measured 0.0              (BRC 110174)
+Open #12  Device u27
+  Pin 3  Node fpga_sfp_tx_rate_sel<11>
+  Measured 0.4              (BRC 21536)
+Open #13  Device u27
+  Pin 5  Node fpga_sfp_tx_rate_sel<13>
+  Measured 0.5              (BRC 214145)
+Open #14  Device u27
+  Pin 7  Node fpga_sfp_tx_rate_sel<15>
+  Measured 0.6              (BRC 214135)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u28
+  Pin 16  Node clk212m_osc_p
+  Measured -0.4             (BRC 20812)
+Open #2  Device u28
+  Pin 17  Node clk212m_osc_n
+  Measured 0.4              (BRC 208112)
+Open #3  Device u28
+  Pin 14  Node clk212m_sync_e_n
+  Measured 0.4              (BRC 208111)
+Open #4  Device u28
+  Pin 13  Node clk212m_sync_e_p
+  Measured -0.6             (BRC 20811)
+Open #5  Device u28
+  Pin 12  Node clk212m_buf_clk_sel
+  Measured 0.6              (BRC 20242)
+Open #6  Device u28
+  Pin 5  Node srt_clk212m_buf_fc_top_refclk_p
+  Measured 0.2              (BRC 20501)
+Open #7  Device u28
+  Pin 6  Node srt_clk212m_buf_fc_top_refclk_n
+  Measured 1.0              (BRC 20502)
+Open #8  Device u28
+  Pin 9  Node srt_clk212m_buf_fc_bot_refclk_p
+  Measured 0.6              (BRC 20401)
+Open #9  Device u28
+  Pin 10  Node srt_clk212m_buf_fc_bot_refclk_n
+  Measured -0.3             (BRC 204101)
+Open #10  Device u28
+  Pin 8  Node srt_clk212m_buf_fc_side_refclk_n
+  Measured 0.1              (BRC 205104)
+Open #11  Device u28
+  Pin 7  Node srt_clk212m_buf_fc_side_refclk_p
+  Measured -0.4             (BRC 205103)
+Open #12  Device u28
+  Pin 19  Node clk212m_buf_en
+  Measured 0.0              (BRC 203101)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+Open #1  Device u29
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 0.6              (BRC 10732)
+Open #2  Device u29
+  Pin 54  Node sfp_tx_fault_fpga<4>
+  Measured 0.6              (BRC 21541)
+Open #3  Device u29
+  Pin 50  Node sfp_mod_abs_fpga<4>
+  Measured -0.3             (BRC 214133)
+Open #4  Device u29
+  Pin 55  Node fpga_cpld1_clk
+  Measured 0.6              (BRC 20937)
+Open #5  Device u29
+  Pin 21  Node sfp_tx_fault_fpga<11>
+  Measured -0.8             (BRC 21718)
+Open #6  Device u29
+  Pin 95  Node sfp_mod_abs_fpga<8>
+  Measured -0.2             (BRC 217128)
+Open #7  Device u29
+  Pin 57  Node sfp_mod_abs_fpga<3>
+  Measured 0.4              (BRC 215137)
+Open #8  Device u29
+  Pin 92  Node sfp_rx_los_fpga<7>
+  Measured 0.4              (BRC 216131)
+Open #9  Device u29
+  Pin 52  Node fpga_sfp_led_grn_l<3>
+  Measured 0.6              (BRC 21013)
+Open #10  Device u29
+  Pin 61  Node cpld1_fpga_data
+  Measured 0.1              (BRC 21134)
+Open #11  Device u29
+  Pin 84  Node sfp_tx_fault_fpga<7>
+  Measured 0.6              (BRC 21432)
+Open #12  Device u29
+  Pin 20  Node fpga_sfp_led_grn_l<10>
+  Measured -0.0             (BRC 20535)
+Open #13  Device u29
+  Pin 23  Node fpga_sfp_tx_disable<10>
+  Measured 1.1              (BRC 21032)
+Open #14  Device u29
+  Pin 131  Node jtag_tck_cpld1_3v3
+  Measured 0.7              (BRC 104172)
+Open #15  Device u29
+  Pin 97  Node sfp_tx_fault_fpga<8>
+  Measured 1.0              (BRC 216118)
+Open #16  Device u29
+  Pin 94  Node sfp_mod_abs_fpga<7>
+  Measured -0.7             (BRC 21731)
+Open #17  Device u29
+  Pin 81  Node sfp_mod_abs_fpga<6>
+  Measured 0.3              (BRC 215141)
+Open #18  Device u29
+  Pin 121  Node sfp_tx_fault_fpga<1>
+  Measured -0.9             (BRC 209145)
+Open #19  Device u29
+  Pin 91  Node fpga_sfp_led_yel_l<7>
+  Measured -0.5             (BRC 21163)
+Open #20  Device u29
+  Pin 96  Node fpga_sfp_tx_disable<8>
+  Measured 0.4              (BRC 211134)
+Open #21  Device u29
+  Pin 82  Node fpga_sfp_tx_disable<6>
+  Measured -0.0             (BRC 21041)
+Open #22  Device u29
+  Pin 22  Node fpga_sfp_tx_disable<11>
+  Measured 1.2              (BRC 209138)
+Open #23  Device u29
+  Pin 65  Node sfp_tx_fault_fpga<3>
+  Measured 0.3              (BRC 20863)
+Open #24  Device u29
+  Pin 67  Node fpga_sfp_tx_disable<3>
+  Measured -0.1             (BRC 211146)
+Open #25  Device u29
+  Pin 85  Node fpga_sfp_led_grn_l<6>
+  Measured 0.2              (BRC 20964)
+Open #26  Device u29
+  Pin 45  Node cpld1_fpga_spi_miso
+  Measured 0.6              (BRC 209142)
+Open #27  Device u29
+  Pin 127  Node sfp_mod_abs_fpga<1>
+  Measured 0.3              (BRC 20862)
+Open #28  Device u29
+  Pin 122  Node fpga_sfp_led_grn_l<0>
+  Measured 0.2              (BRC 210165)
+Open #29  Device u29
+  Pin 69  Node cpld1_strobe
+  Measured -1.2             (BRC 21113)
+Open #30  Device u29
+  Pin 68  Node fpga_cpld1_data
+  Measured -0.3             (BRC 207145)
+Open #31  Device u29
+  Pin 76  Node sfp_rx_los_fpga<5>
+  Measured -0.1             (BRC 21050)
+Open #32  Device u29
+  Pin 10  Node sfp_mod_abs_fpga<12>
+  Measured -0.0             (BRC 21618)
+Open #33  Device u29
+  Pin 117  Node sfp_mod_abs_fpga<0>
+  Measured -0.4             (BRC 208162)
+Open #34  Device u29
+  Pin 24  Node sfp_mod_abs_fpga<10>
+  Measured 1.0              (BRC 21524)
+Open #35  Device u29
+  Pin 136  Node jtag_tdi_hdr_cpld1_3v3
+  Measured 0.3              (BRC 108171)
+Open #36  Device u29
+  Pin 28  Node sfp_tx_fault_fpga<10>
+  Measured -0.1             (BRC 217118)
+Open #37  Device u29
+  Pin 9  Node fpga_sfp_tx_disable<12>
+  Measured 1.3              (BRC 21131)
+Open #38  Device u29
+  Pin 48  Node sfp_rx_los_fpga<4>
+  Measured 0.1              (BRC 20845)
+Open #39  Device u29
+  Pin 19  Node fpga_sfp_led_yel_l<10>
+  Measured -0.1             (BRC 20544)
+Open #40  Device u29
+  Pin 132  Node fpga_sfp_led_grn_l<1>
+  Measured -0.3             (BRC 20764)
+Open #41  Device u29
+  Pin 70  Node fpga_cpld1_spi_cs_l
+  Measured 0.2              (BRC 208144)
+Open #42  Device u29
+  Pin 133  Node fpga_sfp_led_yel_l<1>
+  Measured -0.1             (BRC 21064)
+Open #43  Device u29
+  Pin 11  Node sfp_mod_abs_fpga<11>
+  Measured 0.2              (BRC 217125)
+Open #44  Device u29
+  Pin 13  Node sfp_rx_los_fpga<11>
+  Measured -0.1             (BRC 216124)
+Open #45  Device u29
+  Pin 60  Node fpga_sfp_led_yel_l<3>
+  Measured 0.2              (BRC 210116)
+Open #46  Device u29
+  Pin 59  Node sfp_rx_los_fpga<3>
+  Measured 0.0              (BRC 20946)
+Open #47  Device u29
+  Pin 77  Node sfp_rx_los_fpga<6>
+  Measured 0.6              (BRC 21632)
+Open #48  Device u29
+  Pin 26  Node sfp_rx_los_fpga<10>
+  Measured 0.9              (BRC 21724)
+Open #49  Device u29
+  Pin 128  Node fpga_sfp_tx_disable<1>
+  Measured -0.0             (BRC 210145)
+Open #50  Device u29
+  Pin 105  Node sfp_tx_fault_fpga<9>
+  Measured -0.9             (BRC 215128)
+Open #51  Device u29
+  Pin 99  Node sfp_rx_los_fpga<8>
+  Measured -0.4             (BRC 21150)
+Open #52  Device u29
+  Pin 130  Node jtag_tms_3v3
+  Measured 1.0              (BRC 10930)
+Open #53  Device u29
+  Pin 120  Node cpld1_jtagen
+  Measured -0.1             (BRC 209163)
+Open #54  Device u29
+  Pin 6  Node sfp_tx_fault_fpga<12>
+  Measured 0.4              (BRC 21617)
+Open #55  Device u29
+  Pin 137  Node jtag_tdo_cpld1_tdi_cpld2_3v3
+  Measured 0.4              (BRC 21066)
+Open #56  Device u29
+  Pin 112  Node sfp_tx_fault_fpga<0>
+  Measured 0.9              (BRC 208163)
+Open #57  Device u29
+  Pin 139  Node sfp_tx_fault_fpga<2>
+  Measured 0.1              (BRC 21642)
+Open #58  Device u29
+  Pin 71  Node fpga_cpld1_spi_mosi
+  Measured -0.8             (BRC 20943)
+Open #59  Device u29
+  Pin 74  Node fpga_sfp_led_grn_l<5>
+  Measured 0.4              (BRC 208114)
+Open #60  Device u29
+  Pin 5  Node fpga_sfp_led_grn_l<11>
+  Measured 0.5              (BRC 205146)
+Open #61  Device u29
+  Pin 39  Node fpga_sfp_tx_disable<5>
+  Measured 0.2              (BRC 210134)
+Open #62  Device u29
+  Pin 114  Node sfp_rx_los_fpga<0>
+  Measured 0.0              (BRC 209162)
+Open #63  Device u29
+  Pin 113  Node fpga_sfp_led_yel_l<0>
+  Measured 0.6              (BRC 21063)
+Open #64  Device u29
+  Pin 111  Node fpga_sfp_tx_disable<0>
+  Measured -0.3             (BRC 211145)
+Open #65  Device u29
+  Pin 27  Node fpga_sfp_led_grn_l<9>
+  Measured -0.2             (BRC 205138)
+Open #66  Device u29
+  Pin 43  Node fpga_sfp_led_grn_l<4>
+  Measured 0.4              (BRC 207116)
+Open #67  Device u29
+  Pin 14  Node fpga_sfp_led_yel_l<11>
+  Measured -0.1             (BRC 20543)
+Open #68  Device u29
+  Pin 98  Node fpga_sfp_led_grn_l<7>
+  Measured 0.5              (BRC 211163)
+Open #69  Device u29
+  Pin 125  Node sfp_rx_los_fpga<1>
+  Measured 0.0              (BRC 20846)
+Open #70  Device u29
+  Pin 44  Node fpga_cpld1_spi_sck
+  Measured 0.3              (BRC 21435)
+Open #71  Device u29
+  Pin 106  Node fpga_sfp_led_grn_l<8>
+  Measured 0.5              (BRC 210164)
+Open #72  Device u29
+  Pin 42  Node fpga_sfp_led_yel_l<4>
+  Measured 0.4              (BRC 21016)
+Open #73  Device u29
+  Pin 107  Node fpga_sfp_led_yel_l<8>
+  Measured -0.9             (BRC 20763)
+Open #74  Device u29
+  Pin 34  Node sfp_rx_los_fpga<9>
+  Measured 0.8              (BRC 21627)
+Open #75  Device u29
+  Pin 40  Node sfp_mod_abs_fpga<5>
+  Measured 0.4              (BRC 21533)
+Open #76  Device u29
+  Pin 3  Node fpga_sfp_led_yel_l<12>
+  Measured 0.0              (BRC 20716)
+Open #77  Device u29
+  Pin 140  Node fpga_sfp_led_yel_l<2>
+  Measured -0.2             (BRC 20916)
+Open #78  Device u29
+  Pin 83  Node fpga_sfp_tx_disable<7>
+  Measured 0.2              (BRC 210137)
+Open #79  Device u29
+  Pin 62  Node fpga_sfp_led_grn_l<2>
+  Measured 0.5              (BRC 210113)
+Open #80  Device u29
+  Pin 35  Node fpga_sfp_led_yel_l<9>
+  Measured -0.6             (BRC 20538)
+Open #81  Device u29
+  Pin 104  Node fpga_sfp_tx_disable<9>
+  Measured 0.1              (BRC 211135)
+Open #82  Device u29
+  Pin 138  Node fpga_sfp_tx_disable<2>
+  Measured 0.6              (BRC 210142)
+Open #83  Device u29
+  Pin 4  Node fpga_sfp_led_grn_l<12>
+  Measured -0.4             (BRC 205145)
+Open #84  Device u29
+  Pin 73  Node sfp_tx_fault_fpga<6>
+  Measured 0.2              (BRC 21641)
+Open #85  Device u29
+  Pin 110  Node unnamed_4124_lcmxo2640u_i290_pt17cinitm
+  Measured 0.5              (BRC 21147)
+Open #86  Device u29
+  Pin 141  Node sfp_rx_los_fpga<2>
+  Measured -0.3             (BRC 208145)
+Open #87  Device u29
+  Pin 86  Node fpga_sfp_led_yel_l<6>
+  Measured 0.7              (BRC 207163)
+Open #88  Device u29
+  Pin 2  Node sfp_rx_los_fpga<12>
+  Measured 0.4              (BRC 20746)
+Open #89  Device u29
+  Pin 75  Node fpga_sfp_led_yel_l<5>
+  Measured -0.4             (BRC 211114)
+Open #90  Device u29
+  Pin 143  Node sfp_mod_abs_fpga<2>
+  Measured 0.5              (BRC 20747)
+Open #91  Device u29
+  Pin 32  Node sfp_mod_abs_fpga<9>
+  Measured 0.4              (BRC 207146)
+Open #92  Device u29
+  Pin 38  Node sfp_tx_fault_fpga<5>
+  Measured -0.1             (BRC 21114)
+Open #93  Device u29
+  Pin 49  Node fpga_sfp_tx_disable<4>
+  Measured 0.3              (BRC 21037)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u30
+  Pin 20  Node fpga_sfp_led_grn_l<23>
+  Measured 0.3              (BRC 205144)
+Open #2  Device u30
+  Pin 56  Node fpga_cpld_rst_l
+  Measured -0.1             (BRC 10732)
+Open #3  Device u30
+  Pin 21  Node sfp_tx_fault_fpga<24>
+  Measured -0.7             (BRC 21907)
+Open #4  Device u30
+  Pin 22  Node fpga_sfp_tx_disable<24>
+  Measured -0.2             (BRC 211116)
+Open #5  Device u30
+  Pin 52  Node fpga_sfp_led_grn_l<16>
+  Measured -0.5             (BRC 21065)
+Open #6  Device u30
+  Pin 55  Node fpga_cpld2_clk
+  Measured 0.1              (BRC 209132)
+Open #7  Device u30
+  Pin 122  Node fpga_sfp_led_grn_l<13>
+  Measured 1.0              (BRC 209113)
+Open #8  Device u30
+  Pin 54  Node sfp_tx_fault_fpga<17>
+  Measured 0.0              (BRC 215122)
+Open #9  Device u30
+  Pin 50  Node sfp_mod_abs_fpga<17>
+  Measured -0.7             (BRC 21921)
+Open #10  Device u30
+  Pin 19  Node fpga_sfp_led_yel_l<23>
+  Measured 0.6              (BRC 207148)
+Open #11  Device u30
+  Pin 95  Node sfp_mod_abs_fpga<21>
+  Measured -0.1             (BRC 214107)
+Open #12  Device u30
+  Pin 23  Node fpga_sfp_tx_disable<23>
+  Measured 1.2              (BRC 21116)
+Open #13  Device u30
+  Pin 92  Node sfp_rx_los_fpga<20>
+  Measured 0.4              (BRC 21705)
+Open #14  Device u30
+  Pin 49  Node fpga_sfp_tx_disable<17>
+  Measured 0.6              (BRC 21122)
+Open #15  Device u30
+  Pin 121  Node sfp_tx_fault_fpga<14>
+  Measured -0.5             (BRC 21621)
+Open #16  Device u30
+  Pin 131  Node jtag_tck_cpld2_3v3
+  Measured 1.2              (BRC 104174)
+Open #17  Device u30
+  Pin 91  Node fpga_sfp_led_yel_l<20>
+  Measured -0.4             (BRC 210149)
+Open #18  Device u30
+  Pin 60  Node fpga_sfp_led_yel_l<16>
+  Measured -0.2             (BRC 207147)
+Open #19  Device u30
+  Pin 96  Node fpga_sfp_tx_disable<21>
+  Measured -0.2             (BRC 21148)
+Open #20  Device u30
+  Pin 132  Node fpga_sfp_led_grn_l<14>
+  Measured -1.2             (BRC 207114)
+Open #21  Device u30
+  Pin 127  Node sfp_mod_abs_fpga<14>
+  Measured 0.5              (BRC 217122)
+Open #22  Device u30
+  Pin 133  Node fpga_sfp_led_yel_l<14>
+  Measured 0.4              (BRC 21014)
+Open #23  Device u30
+  Pin 94  Node sfp_mod_abs_fpga<20>
+  Measured 0.3              (BRC 21410)
+Open #24  Device u30
+  Pin 84  Node sfp_tx_fault_fpga<20>
+  Measured 1.4              (BRC 219107)
+Open #25  Device u30
+  Pin 97  Node sfp_tx_fault_fpga<21>
+  Measured -0.7             (BRC 214121)
+Open #26  Device u30
+  Pin 59  Node sfp_rx_los_fpga<16>
+  Measured 0.0              (BRC 215113)
+Open #27  Device u30
+  Pin 24  Node sfp_mod_abs_fpga<23>
+  Measured -0.6             (BRC 215102)
+Open #28  Device u30
+  Pin 61  Node cpld2_fpga_data
+  Measured -0.0             (BRC 211137)
+Open #29  Device u30
+  Pin 98  Node fpga_sfp_led_grn_l<20>
+  Measured 0.1              (BRC 21015)
+Open #30  Device u30
+  Pin 10  Node sfp_mod_abs_fpga<25>
+  Measured 1.0              (BRC 21502)
+Open #31  Device u30
+  Pin 27  Node fpga_sfp_led_grn_l<22>
+  Measured -0.6             (BRC 205143)
+Open #32  Device u30
+  Pin 82  Node fpga_sfp_tx_disable<19>
+  Measured -0.0             (BRC 211115)
+Open #33  Device u30
+  Pin 85  Node fpga_sfp_led_grn_l<19>
+  Measured 1.0              (BRC 21165)
+Open #34  Device u30
+  Pin 57  Node sfp_mod_abs_fpga<16>
+  Measured -0.4             (BRC 21721)
+Open #35  Device u30
+  Pin 45  Node cpld2_fpga_spi_miso
+  Measured 0.6              (BRC 20844)
+Open #36  Device u30
+  Pin 28  Node sfp_tx_fault_fpga<23>
+  Measured -0.1             (BRC 215121)
+Open #37  Device u30
+  Pin 44  Node fpga_cpld2_spi_sck
+  Measured 0.1              (BRC 21444)
+Open #38  Device u30
+  Pin 81  Node sfp_mod_abs_fpga<19>
+  Measured 0.9              (BRC 219110)
+Open #39  Device u30
+  Pin 9  Node fpga_sfp_tx_disable<25>
+  Measured -0.1             (BRC 21038)
+Open #40  Device u30
+  Pin 117  Node sfp_mod_abs_fpga<13>
+  Measured 0.4              (BRC 21521)
+Open #41  Device u30
+  Pin 26  Node sfp_rx_los_fpga<23>
+  Measured 1.2              (BRC 216102)
+Open #42  Device u30
+  Pin 136  Node jtag_tdo_cpld1_tdi_cpld2_3v3
+  Measured -2.1             (BRC 21066)
+Open #43  Device u30
+  Pin 83  Node fpga_sfp_tx_disable<20>
+  Measured 0.7              (BRC 21051)
+Open #44  Device u30
+  Pin 43  Node fpga_sfp_led_grn_l<17>
+  Measured 0.8              (BRC 210163)
+Open #45  Device u30
+  Pin 13  Node sfp_rx_los_fpga<24>
+  Measured 0.5              (BRC 21602)
+Open #46  Device u30
+  Pin 120  Node cpld2_jtagen
+  Measured -0.7             (BRC 20963)
+Open #47  Device u30
+  Pin 65  Node sfp_tx_fault_fpga<16>
+  Measured 0.7              (BRC 21422)
+Open #48  Device u30
+  Pin 11  Node sfp_mod_abs_fpga<24>
+  Measured -0.1             (BRC 208146)
+Open #49  Device u30
+  Pin 6  Node sfp_tx_fault_fpga<25>
+  Measured 0.3              (BRC 21411)
+Open #50  Device u30
+  Pin 138  Node fpga_sfp_tx_disable<15>
+  Measured 0.1              (BRC 210131)
+Open #51  Device u30
+  Pin 128  Node fpga_sfp_tx_disable<14>
+  Measured 0.2              (BRC 211130)
+Open #52  Device u30
+  Pin 76  Node sfp_rx_los_fpga<18>
+  Measured 0.4              (BRC 217110)
+Open #53  Device u30
+  Pin 137  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured -0.6             (BRC 207165)
+Open #54  Device u30
+  Pin 69  Node cpld2_strobe
+  Measured 1.4              (BRC 211165)
+Open #55  Device u30
+  Pin 99  Node sfp_rx_los_fpga<21>
+  Measured -0.1             (BRC 21704)
+Open #56  Device u30
+  Pin 67  Node fpga_sfp_tx_disable<16>
+  Measured -0.6             (BRC 21048)
+Open #57  Device u30
+  Pin 113  Node fpga_sfp_led_yel_l<13>
+  Measured -0.0             (BRC 209116)
+Open #58  Device u30
+  Pin 5  Node fpga_sfp_led_grn_l<24>
+  Measured -0.8             (BRC 205137)
+Open #59  Device u30
+  Pin 48  Node sfp_rx_los_fpga<17>
+  Measured 0.4              (BRC 21513)
+Open #60  Device u30
+  Pin 130  Node jtag_tms_3v3
+  Measured 1.0              (BRC 10930)
+Open #61  Device u30
+  Pin 4  Node fpga_sfp_led_grn_l<25>
+  Measured -0.3             (BRC 20537)
+Open #62  Device u30
+  Pin 139  Node sfp_tx_fault_fpga<15>
+  Measured -0.2             (BRC 21726)
+Open #63  Device u30
+  Pin 68  Node fpga_cpld2_data
+  Measured 0.7              (BRC 211142)
+Open #64  Device u30
+  Pin 75  Node fpga_sfp_led_yel_l<18>
+  Measured 1.1              (BRC 211164)
+Open #65  Device u30
+  Pin 112  Node sfp_tx_fault_fpga<13>
+  Measured 0.0              (BRC 214122)
+Open #66  Device u30
+  Pin 114  Node sfp_rx_los_fpga<13>
+  Measured 0.4              (BRC 21622)
+Open #67  Device u30
+  Pin 42  Node fpga_sfp_led_yel_l<17>
+  Measured 0.6              (BRC 208149)
+Open #68  Device u30
+  Pin 14  Node fpga_sfp_led_yel_l<24>
+  Measured -0.3             (BRC 20847)
+Open #69  Device u30
+  Pin 105  Node sfp_tx_fault_fpga<22>
+  Measured 0.3              (BRC 21421)
+Open #70  Device u30
+  Pin 140  Node fpga_sfp_led_yel_l<15>
+  Measured -0.8             (BRC 20749)
+Open #71  Device u30
+  Pin 77  Node sfp_rx_los_fpga<19>
+  Measured -0.2             (BRC 217109)
+Open #72  Device u30
+  Pin 111  Node fpga_sfp_tx_disable<13>
+  Measured 0.4              (BRC 21135)
+Open #73  Device u30
+  Pin 106  Node fpga_sfp_led_grn_l<21>
+  Measured 0.7              (BRC 210114)
+Open #74  Device u30
+  Pin 70  Node fpga_cpld2_spi_cs_l
+  Measured 0.4              (BRC 211143)
+Open #75  Device u30
+  Pin 38  Node sfp_tx_fault_fpga<18>
+  Measured 0.1              (BRC 21522)
+Open #76  Device u30
+  Pin 3  Node fpga_sfp_led_yel_l<25>
+  Measured 0.6              (BRC 209146)
+Open #77  Device u30
+  Pin 86  Node fpga_sfp_led_yel_l<19>
+  Measured -0.5             (BRC 21164)
+Open #78  Device u30
+  Pin 39  Node fpga_sfp_tx_disable<18>
+  Measured -0.7             (BRC 20951)
+Open #79  Device u30
+  Pin 74  Node fpga_sfp_led_grn_l<18>
+  Measured 0.7              (BRC 207164)
+Open #80  Device u30
+  Pin 35  Node fpga_sfp_led_yel_l<22>
+  Measured -0.8             (BRC 210148)
+Open #81  Device u30
+  Pin 71  Node fpga_cpld2_spi_mosi
+  Measured 0.7              (BRC 21145)
+Open #82  Device u30
+  Pin 62  Node fpga_sfp_led_grn_l<15>
+  Measured -0.0             (BRC 20714)
+Open #83  Device u30
+  Pin 125  Node sfp_rx_los_fpga<14>
+  Measured 0.1              (BRC 216122)
+Open #84  Device u30
+  Pin 107  Node fpga_sfp_led_yel_l<21>
+  Measured -0.6             (BRC 20750)
+Open #85  Device u30
+  Pin 34  Node sfp_rx_los_fpga<22>
+  Measured 0.4              (BRC 21603)
+Open #86  Device u30
+  Pin 141  Node sfp_rx_los_fpga<15>
+  Measured -0.3             (BRC 216121)
+Open #87  Device u30
+  Pin 40  Node sfp_mod_abs_fpga<18>
+  Measured 0.1              (BRC 214110)
+Open #88  Device u30
+  Pin 143  Node sfp_mod_abs_fpga<15>
+  Measured -0.1             (BRC 217121)
+Open #89  Device u30
+  Pin 2  Node sfp_rx_los_fpga<25>
+  Measured -0.7             (BRC 216101)
+Open #90  Device u30
+  Pin 104  Node fpga_sfp_tx_disable<22>
+  Measured 0.5              (BRC 21115)
+Open #91  Device u30
+  Pin 110  Node unnamed_4125_lcmxo2640u_i148_pt17cinitm
+  Measured 0.9              (BRC 20952)
+Open #92  Device u30
+  Pin 32  Node sfp_mod_abs_fpga<22>
+  Measured 1.6              (BRC 209147)
+Open #93  Device u30
+  Pin 73  Node sfp_tx_fault_fpga<19>
+  Measured 0.7              (BRC 21908)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u31
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured -0.1             (BRC 211162)
+Open #2  Device u31
+  Pin 3  Node fpga_sfp_tx_rate_sel<19>
+  Measured 0.3              (BRC 209109)
+Open #3  Device u31
+  Pin 4  Node fpga_sfp_tx_rate_sel<20>
+  Measured 0.1              (BRC 20909)
+Open #4  Device u31
+  Pin 14  Node txrate_shift_reg_data_2
+  Measured -0.1             (BRC 210138)
+Open #5  Device u31
+  Pin 12  Node txrate_sfp_shift_store
+  Measured -0.3             (BRC 20834)
+Open #6  Device u31
+  Pin 7  Node fpga_sfp_tx_rate_sel<23>
+  Measured 0.2              (BRC 210109)
+Open #7  Device u31
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured -0.4             (BRC 205161)
+Open #8  Device u31
+  Pin 6  Node fpga_sfp_tx_rate_sel<22>
+  Measured -0.3             (BRC 21109)
+Open #9  Device u31
+  Pin 15  Node fpga_sfp_tx_rate_sel<16>
+  Measured 0.2              (BRC 21052)
+Open #10  Device u31
+  Pin 2  Node fpga_sfp_tx_rate_sel<18>
+  Measured -0.8             (BRC 208151)
+Open #11  Device u31
+  Pin 1  Node fpga_sfp_tx_rate_sel<17>
+  Measured -0.3             (BRC 207151)
+Open #12  Device u31
+  Pin 9  Node txrate_sfp_shift_data_3
+  Measured 0.5              (BRC 21132)
+Open #13  Device u31
+  Pin 5  Node fpga_sfp_tx_rate_sel<21>
+  Measured -0.7             (BRC 211109)
+Open #14  Device u31
+  Pin 11  Node txrate_sfp_shift_u31_clk_buf
+  Measured 0.4              (BRC 11074)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u32
+  Pin 4  Node fpga_sfp_tx_rate_sel<28>
+  Measured 0.2              (BRC 210110)
+Open #2  Device u32
+  Pin 6  Node fpga_sfp_tx_rate_sel<30>
+  Measured 0.1              (BRC 20711)
+Open #3  Device u32
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured 0.7              (BRC 211162)
+Open #4  Device u32
+  Pin 2  Node fpga_sfp_tx_rate_sel<26>
+  Measured 0.0              (BRC 211110)
+Open #5  Device u32
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured 0.2              (BRC 205161)
+Open #6  Device u32
+  Pin 14  Node txrate_sfp_shift_data_3
+  Measured 0.4              (BRC 21132)
+Open #7  Device u32
+  Pin 1  Node fpga_sfp_tx_rate_sel<25>
+  Measured 0.2              (BRC 209110)
+Open #8  Device u32
+  Pin 5  Node fpga_sfp_tx_rate_sel<29>
+  Measured 0.1              (BRC 207111)
+Open #9  Device u32
+  Pin 12  Node txrate_sfp_shift_store
+  Measured -0.1             (BRC 20834)
+Open #10  Device u32
+  Pin 9  Node txrate_shift_reg_data_4
+  Measured 0.1              (BRC 110146)
+Open #11  Device u32
+  Pin 7  Node fpga_sfp_tx_rate_sel<31>
+  Measured 0.3              (BRC 211111)
+Open #12  Device u32
+  Pin 3  Node fpga_sfp_tx_rate_sel<27>
+  Measured 1.1              (BRC 21110)
+Open #13  Device u32
+  Pin 15  Node fpga_sfp_tx_rate_sel<24>
+  Measured 0.6              (BRC 21009)
+Open #14  Device u32
+  Pin 11  Node txrate_sfp_shift_u32_clk_buf
+  Measured -0.1             (BRC 110175)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u33
+  Pin 11  Node unnamed_31_cap_i42_a
+  Measured 0.3              (BRC 21615)
+not-in-bom
+----------------------------------------
+Open #1  Device u35
+  Pin 5  Node fpga_sfp_tx_rate_sel<37>
+  Measured -0.1             (BRC 109135)
+Open #2  Device u35
+  Pin 3  Node fpga_sfp_tx_rate_sel<35>
+  Measured -0.1             (BRC 109134)
+Open #3  Device u35
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured 0.6              (BRC 211162)
+Open #4  Device u35
+  Pin 12  Node txrate_sfp_shift_store
+  Measured 0.4              (BRC 20834)
+Open #5  Device u35
+  Pin 14  Node txrate_shift_reg_data_4
+  Measured 0.9              (BRC 110146)
+Open #6  Device u35
+  Pin 11  Node txrate_sfp_shift_u35_clk_buf
+  Measured 0.4              (BRC 110151)
+Open #7  Device u35
+  Pin 4  Node fpga_sfp_tx_rate_sel<36>
+  Measured 0.1              (BRC 109150)
+Open #8  Device u35
+  Pin 2  Node fpga_sfp_tx_rate_sel<34>
+  Measured -0.4             (BRC 10951)
+Open #9  Device u35
+  Pin 7  Node fpga_sfp_tx_rate_sel<39>
+  Measured 0.5              (BRC 10935)
+Open #10  Device u35
+  Pin 15  Node fpga_sfp_tx_rate_sel<32>
+  Measured 0.3              (BRC 109151)
+Open #11  Device u35
+  Pin 6  Node fpga_sfp_tx_rate_sel<38>
+  Measured 0.5              (BRC 10950)
+Open #12  Device u35
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured 0.0              (BRC 205161)
+Open #13  Device u35
+  Pin 1  Node fpga_sfp_tx_rate_sel<33>
+  Measured 0.3              (BRC 11033)
+Open #14  Device u35
+  Pin 9  Node txrate_shift_reg_data_5
+  Measured 0.3              (BRC 11026)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u36
+  Pin 12  Node txrate_sfp_shift_store
+  Measured 0.4              (BRC 20834)
+Open #2  Device u36
+  Pin 13  Node txrate_sfp_shift_oe_l
+  Measured 0.2              (BRC 211162)
+Open #3  Device u36
+  Pin 11  Node txrate_sfp_shift_u36_clk_buf
+  Measured -0.3             (BRC 110149)
+Open #4  Device u36
+  Pin 4  Node fpga_sfp_tx_rate_sel<44>
+  Measured -0.2             (BRC 109148)
+Open #5  Device u36
+  Pin 6  Node fpga_sfp_tx_rate_sel<46>
+  Measured -0.1             (BRC 10948)
+Open #6  Device u36
+  Pin 5  Node fpga_sfp_tx_rate_sel<45>
+  Measured -0.1             (BRC 109137)
+Open #7  Device u36
+  Pin 10  Node txrate_sfp_shift_rst_l
+  Measured 0.4              (BRC 205161)
+Open #8  Device u36
+  Pin 3  Node fpga_sfp_tx_rate_sel<43>
+  Measured 1.2              (BRC 10949)
+Open #9  Device u36
+  Pin 15  Node fpga_sfp_tx_rate_sel<40>
+  Measured 0.2              (BRC 110134)
+Open #10  Device u36
+  Pin 7  Node fpga_sfp_tx_rate_sel<47>
+  Measured 0.4              (BRC 10937)
+Open #11  Device u36
+  Pin 2  Node fpga_sfp_tx_rate_sel<42>
+  Measured 0.0              (BRC 109149)
+Open #12  Device u36
+  Pin 1  Node fpga_sfp_tx_rate_sel<41>
+  Measured 0.7              (BRC 10936)
+Open #13  Device u36
+  Pin 14  Node txrate_shift_reg_data_5
+  Measured 0.0              (BRC 11026)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 0.6              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured -0.5             (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 0.0              (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured -0.2             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 0.5              (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured -0.8             (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 0.0              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 0.3              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured -0.2             (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 0.7              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 0.2              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 0.4              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 0.1              (BRC 205124)
+Open #14  Device u37
+  Pin 60  Node fpga_sfp_led_yel_l<38>
+  Measured 0.5              (BRC 10944)
+Open #15  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 0.6              (BRC 10746)
+Open #16  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured -0.1             (BRC 207165)
+Open #17  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured -1.3             (BRC 108137)
+Open #18  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 0.7              (BRC 105141)
+Open #19  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 0.8              (BRC 11018)
+Open #20  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 0.3              (BRC 11048)
+Open #21  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 0.6              (BRC 11029)
+Open #22  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 0.5              (BRC 108116)
+Open #23  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 0.1              (BRC 210117)
+Open #24  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 0.3              (BRC 10930)
+Open #25  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured -0.2             (BRC 21017)
+Open #26  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 0.4              (BRC 10844)
+Open #27  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 0.5              (BRC 105135)
+Open #28  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 1.1              (BRC 10536)
+Open #29  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured -0.1             (BRC 10543)
+Open #30  Device u37
+  Pin 111  Node fpga_sfp_tx_disable<35>
+  Measured -0.1             (BRC 10941)
+Open #31  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 0.3              (BRC 209117)
+Open #32  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 0.4              (BRC 11061)
+Open #33  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 0.2              (BRC 107143)
+Open #34  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured -0.8             (BRC 110116)
+Open #35  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 0.2              (BRC 10831)
+Open #36  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 0.4              (BRC 11036)
+Open #37  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured -0.4             (BRC 10717)
+Open #38  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 0.7              (BRC 107133)
+Open #39  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured -0.1             (BRC 108143)
+Open #40  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured -0.2             (BRC 107136)
+Open #41  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured -0.6             (BRC 109116)
+Open #42  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured -0.1             (BRC 109144)
+Open #43  Device u37
+  Pin 61  Node cpld3_fpga_data
+  Measured 1.0              (BRC 109133)
+Open #44  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured -0.3             (BRC 107142)
+Open #45  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 0.0              (BRC 109143)
+Open #46  Device u37
+  Pin 98  Node fpga_sfp_led_grn_l<42>
+  Measured 1.4              (BRC 11051)
+Open #47  Device u37
+  Pin 85  Node fpga_sfp_led_grn_l<41>
+  Measured 0.4              (BRC 10916)
+Open #48  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 0.1              (BRC 105136)
+Open #49  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured -0.3             (BRC 108144)
+Open #50  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured -0.2             (BRC 10843)
+Open #51  Device u37
+  Pin 99  Node sfp_rx_los_fpga<43>
+  Measured -0.2             (BRC 110135)
+Open #52  Device u37
+  Pin 107  Node fpga_sfp_led_yel_l<43>
+  Measured -0.4             (BRC 108117)
+Open #53  Device u37
+  Pin 137  Node jtag_tdo_cpld3_tdi_cpld4_3v3
+  Measured 0.7              (BRC 20326)
+Open #54  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured -0.5             (BRC 110136)
+Open #55  Device u37
+  Pin 26  Node sfp_rx_los_fpga<45>
+  Measured 0.7              (BRC 10735)
+Open #56  Device u37
+  Pin 23  Node fpga_sfp_tx_disable<45>
+  Measured 0.9              (BRC 108136)
+Open #57  Device u37
+  Pin 45  Node cpld3_fpga_spi_miso
+  Measured 0.8              (BRC 10933)
+Open #58  Device u37
+  Pin 49  Node fpga_sfp_tx_disable<39>
+  Measured 0.3              (BRC 10934)
+Open #59  Device u37
+  Pin 128  Node fpga_sfp_tx_disable<36>
+  Measured -1.0             (BRC 109138)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u38
+  Pin 92  Node qsfp_rst_l<5>
+  Measured -0.6             (BRC 11032)
+Open #2  Device u38
+  Pin 20  Node fpga_sfp_led_yel_l<30>
+  Measured 0.4              (BRC 10437)
+Open #3  Device u38
+  Pin 54  Node sfp_rx_los_fpga<27>
+  Measured -0.4             (BRC 10542)
+Open #4  Device u38
+  Pin 52  Node sfp_mod_abs_fpga<27>
+  Measured 0.2              (BRC 216103)
+Open #5  Device u38
+  Pin 55  Node fpga_cpld_rst_l
+  Measured 0.2              (BRC 10732)
+Open #6  Device u38
+  Pin 91  Node qsfp_lpmode<5>
+  Measured 1.0              (BRC 110130)
+Open #7  Device u38
+  Pin 125  Node qsfp_led_yel_l<1>
+  Measured 0.4              (BRC 10718)
+Open #8  Device u38
+  Pin 126  Node qsfp_led_grn_l<1>
+  Measured -0.3             (BRC 109117)
+Open #9  Device u38
+  Pin 59  Node fpga_sfp_led_grn_l<26>
+  Measured -0.0             (BRC 10541)
+Open #10  Device u38
+  Pin 56  Node fpga_sfp_led_yel_l<26>
+  Measured -0.3             (BRC 110150)
+Open #11  Device u38
+  Pin 60  Node fpga_cpld4_clk
+  Measured 0.8              (BRC 207122)
+Open #12  Device u38
+  Pin 127  Node qsfp_lpmode<1>
+  Measured -0.7             (BRC 108141)
+Open #13  Device u38
+  Pin 131  Node jtag_tck_cpld4_3v3
+  Measured -0.2             (BRC 10473)
+Open #14  Device u38
+  Pin 132  Node qsfp_int_l<2>
+  Measured 0.2              (BRC 10817)
+Open #15  Device u38
+  Pin 85  Node qsfp_lpmode<4>
+  Measured 0.8              (BRC 108131)
+Open #16  Device u38
+  Pin 19  Node fpga_sfp_led_grn_l<30>
+  Measured 0.0              (BRC 10517)
+Open #17  Device u38
+  Pin 61  Node cpld4_fpga_data
+  Measured 0.5              (BRC 21042)
+Open #18  Device u38
+  Pin 23  Node sfp_rx_los_fpga<30>
+  Measured -0.0             (BRC 10945)
+Open #19  Device u38
+  Pin 48  Node fpga_sfp_led_grn_l<27>
+  Measured 0.3              (BRC 105137)
+Open #20  Device u38
+  Pin 82  Node qsfp_led_grn_l<3>
+  Measured -0.2             (BRC 10917)
+Open #21  Device u38
+  Pin 84  Node qsfp_led_grn_l<4>
+  Measured 0.8              (BRC 110117)
+Open #22  Device u38
+  Pin 47  Node fpga_sfp_tx_disable<27>
+  Measured 0.3              (BRC 108142)
+Open #23  Device u38
+  Pin 117  Node qsfp_rst_l<0>
+  Measured 0.1              (BRC 109131)
+Open #24  Device u38
+  Pin 83  Node qsfp_led_yel_l<4>
+  Measured -0.0             (BRC 11017)
+Open #25  Device u38
+  Pin 136  Node jtag_tdo_cpld3_tdi_cpld4_3v3
+  Measured 0.3              (BRC 20326)
+Open #26  Device u38
+  Pin 45  Node cpld4_fpga_spi_miso
+  Measured -0.2             (BRC 210141)
+Open #27  Device u38
+  Pin 115  Node qsfp_lpmode<0>
+  Measured -0.3             (BRC 10842)
+Open #28  Device u38
+  Pin 58  Node fpga_sfp_tx_disable<26>
+  Measured -0.1             (BRC 109142)
+Open #29  Device u38
+  Pin 27  Node fpga_sfp_led_yel_l<29>
+  Measured -0.0             (BRC 11049)
+Open #30  Device u38
+  Pin 137  Node jtag_tdo_cpld4_tdi_rt1_3v3
+  Measured -0.4             (BRC 108132)
+Open #31  Device u38
+  Pin 65  Node sfp_rx_los_fpga<26>
+  Measured 0.5              (BRC 21606)
+Open #32  Device u38
+  Pin 120  Node cpld4_jtagen
+  Measured 1.0              (BRC 110118)
+Open #33  Device u38
+  Pin 44  Node fpga_cpld4_spi_sck
+  Measured 0.5              (BRC 205125)
+Open #34  Device u38
+  Pin 43  Node sfp_mod_abs_fpga<28>
+  Measured -0.4             (BRC 10441)
+Open #35  Device u38
+  Pin 67  Node sfp_tx_fault_fpga<26>
+  Measured 0.7              (BRC 21601)
+Open #36  Device u38
+  Pin 28  Node sfp_mod_abs_fpga<30>
+  Measured 1.2              (BRC 105143)
+Open #37  Device u38
+  Pin 6  Node sfp_mod_abs_fpga<32>
+  Measured 0.3              (BRC 105142)
+Open #38  Device u38
+  Pin 128  Node qsfp_rst_l<1>
+  Measured 0.3              (BRC 109130)
+Open #39  Device u38
+  Pin 11  Node sfp_tx_fault_fpga<31>
+  Measured -0.1             (BRC 10741)
+Open #40  Device u38
+  Pin 49  Node sfp_tx_fault_fpga<27>
+  Measured -0.5             (BRC 107141)
+Open #41  Device u38
+  Pin 138  Node qsfp_lpmode<2>
+  Measured 0.7              (BRC 10832)
+Open #42  Device u38
+  Pin 5  Node fpga_sfp_led_yel_l<31>
+  Measured 0.2              (BRC 105118)
+Open #43  Device u38
+  Pin 106  Node fpga_sfp_led_yel_l<28>
+  Measured 0.1              (BRC 107117)
+Open #44  Device u38
+  Pin 98  Node qsfp_led_grn_l<5>
+  Measured 0.7              (BRC 109118)
+Open #45  Device u38
+  Pin 113  Node qsfp_led_yel_l<0>
+  Measured -0.5             (BRC 107118)
+Open #46  Device u38
+  Pin 13  Node fpga_sfp_tx_disable<31>
+  Measured 0.3              (BRC 109141)
+Open #47  Device u38
+  Pin 26  Node fpga_sfp_tx_disable<30>
+  Measured -0.6             (BRC 10942)
+Open #48  Device u38
+  Pin 130  Node jtag_tms_3v3
+  Measured 1.1              (BRC 10930)
+Open #49  Device u38
+  Pin 42  Node fpga_sfp_led_yel_l<27>
+  Measured 0.4              (BRC 11050)
+Open #50  Device u38
+  Pin 111  Node qsfp_int_l<0>
+  Measured 0.1              (BRC 108118)
+Open #51  Device u38
+  Pin 4  Node fpga_sfp_led_yel_l<32>
+  Measured -0.4             (BRC 10518)
+Open #52  Device u38
+  Pin 3  Node fpga_sfp_led_grn_l<32>
+  Measured 0.8              (BRC 10534)
+Open #53  Device u38
+  Pin 86  Node qsfp_rst_l<4>
+  Measured 1.0              (BRC 11031)
+Open #54  Device u38
+  Pin 74  Node qsfp_rst_l<3>
+  Measured 0.3              (BRC 110137)
+Open #55  Device u38
+  Pin 107  Node fpga_sfp_led_grn_l<28>
+  Measured 0.5              (BRC 11016)
+Open #56  Device u38
+  Pin 14  Node fpga_sfp_led_grn_l<31>
+  Measured 0.4              (BRC 10537)
+Open #57  Device u38
+  Pin 71  Node fpga_cpld4_spi_mosi
+  Measured -1.3             (BRC 21018)
+Open #58  Device u38
+  Pin 62  Node sfp_mod_abs_fpga<26>
+  Measured -0.0             (BRC 216106)
+Open #59  Device u38
+  Pin 38  Node sfp_rx_los_fpga<28>
+  Measured -0.6             (BRC 10742)
+Open #60  Device u38
+  Pin 70  Node fpga_cpld4_spi_cs_l
+  Measured -0.4             (BRC 210118)
+Open #61  Device u38
+  Pin 139  Node qsfp_rst_l<2>
+  Measured 0.6              (BRC 10931)
+Open #62  Device u38
+  Pin 68  Node fpga_cpld4_data
+  Measured 0.0              (BRC 10938)
+Open #63  Device u38
+  Pin 35  Node fpga_sfp_led_grn_l<29>
+  Measured 1.5              (BRC 105138)
+Open #64  Device u38
+  Pin 143  Node qsfp_led_grn_l<2>
+  Measured 0.0              (BRC 10818)
+Open #65  Device u38
+  Pin 34  Node fpga_sfp_tx_disable<29>
+  Measured 0.2              (BRC 108138)
+Open #66  Device u38
+  Pin 41  Node fpga_sfp_tx_disable<28>
+  Measured 1.0              (BRC 10841)
+Open #67  Device u38
+  Pin 142  Node qsfp_led_yel_l<2>
+  Measured -0.3             (BRC 107144)
+Open #68  Device u38
+  Pin 2  Node fpga_sfp_tx_disable<32>
+  Measured -0.0             (BRC 10833)
+Open #69  Device u38
+  Pin 110  Node unnamed_4127_lcmxo2640u_i273_pt17cinitm
+  Measured -0.2             (BRC 10918)
+Open #70  Device u38
+  Pin 73  Node qsfp_lpmode<3>
+  Measured -0.2             (BRC 110143)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u40
+  Pin 10  Node bmc_led_env_grn_l
+  Measured 0.2              (BRC 210124)
+Open #2  Device u40
+  Pin 5  Node bmc_led_bmc_red_l
+  Measured -0.3             (BRC 209122)
+Open #3  Device u40
+  Pin 12  Node bmc_led_stat_grn_l
+  Measured 0.7              (BRC 20922)
+Open #4  Device u40
+  Pin 9  Node u40_mr_bmc
+  Measured -0.3             (BRC 21112)
+Open #5  Device u40
+  Pin 4  Node bmc_led_bmc_grn_l
+  Measured -0.3             (BRC 21025)
+Open #6  Device u40
+  Pin 13  Node bmc_led_stat_red_l
+  Measured 0.8              (BRC 209123)
+Open #7  Device u40
+  Pin 8  Node srt_io_mi2_strobe_bmc
+  Measured -0.2             (BRC 21124)
+Open #8  Device u40
+  Pin 6  Node bmc_led_bcn_blue_l
+  Measured 0.9              (BRC 20527)
+Open #9  Device u40
+  Pin 2  Node io_mi2_data_bmc
+  Measured -0.1             (BRC 20526)
+Open #10  Device u40
+  Pin 11  Node bmc_led_env_red_l
+  Measured 0.2              (BRC 20524)
+Open #11  Device u40
+  Pin 1  Node u40_dsa_bmc
+  Measured -0.2             (BRC 205121)
+15-104898-01 IC-LOGIC,REGISTER,TSSOP,14 
+----------------------------------------
+Open #1  Device u45
+  Pin 4  Node mifpga_iofpga_crcerr
+  Measured -0.1             (BRC 20734)
+Open #2  Device u45
+  Pin 2  Node mifpga_init_done
+  Measured 0.1              (BRC 20462)
+Open #3  Device u45
+  Pin 1  Node mifpga_crcerr
+  Measured -0.0             (BRC 207135)
+15-6728-02 IC-LOGIC-AND,SOT353,3.6V,-40 
+----------------------------------------
+Open #1  Device u47
+  Pin 9  Node srt_jtag_tck_rt5_2v5
+  Measured 0.8              (BRC 208105)
+Open #2  Device u47
+  Pin 14  Node srt_jtag_tck_rt3_2v5
+  Measured 0.3              (BRC 20708)
+Open #3  Device u47
+  Pin 7  Node srt_jtag_tck_rt6_2v5
+  Measured 0.6              (BRC 20805)
+Open #4  Device u47
+  Pin 12  Node srt_jtag_tck_rt4_2v5
+  Measured 0.0              (BRC 20707)
+Open #5  Device u47
+  Pin 3  Node srt_jtag_tck_rt8_2v5
+  Measured 0.6              (BRC 207104)
+Open #6  Device u47
+  Pin 5  Node srt_jtag_tck_rt7_2v5
+  Measured 0.4              (BRC 207105)
+Open #7  Device u47
+  Pin 1  Node unnamed_598_lvc244a_i86_oe
+  Pin 19  Node unnamed_598_lvc244a_i86_oe
+  Measured 0.3              (BRC 207109)
+Open #8  Device u47
+  Pin 2  Node jtag_tck_hdr_3v3
+  Pin 4  Node jtag_tck_hdr_3v3
+  Pin 6  Node jtag_tck_hdr_3v3
+  Pin 8  Node jtag_tck_hdr_3v3
+  Pin 11  Node jtag_tck_hdr_3v3
+  Pin 13  Node jtag_tck_hdr_3v3
+  Pin 15  Node jtag_tck_hdr_3v3
+  Pin 17  Node jtag_tck_hdr_3v3
+  Measured -0.4             (BRC 10770)
+Open #9  Device u47
+  Pin 18  Node srt_jtag_tck_rt1_2v5
+  Measured 0.2              (BRC 208110)
+Open #10  Device u47
+  Pin 16  Node srt_jtag_tck_rt2_2v5
+  Measured 1.3              (BRC 20810)
+15-2811-02 IC-LOGIC-BUFFER,TSSOP20,5V,-4
+----------------------------------------
+Open #1  Device u48
+  Pin 8  Node jtag_tdo_cpld4_tdi_rt1_3v3
+  Measured 0.3              (BRC 108132)
+Open #2  Device u48
+  Pin 2  Node jtag_tck_hdr_3v3
+  Measured -0.1             (BRC 10770)
+Open #3  Device u48
+  Pin 9  Node jtag_tms_rt1_rt2_rt3_rt4_2v5
+  Measured -1.2             (BRC 20717)
+Open #4  Device u48
+  Pin 4  Node jtag_trst_l_3v3
+  Pin 6  Node jtag_trst_l_3v3
+  Measured 0.2              (BRC 107174)
+Open #5  Device u48
+  Pin 16  Node jtag_trst_l_rt1_rt2_rt3_rt4_2v5
+  Measured 0.3              (BRC 207102)
+Open #6  Device u48
+  Pin 7  Node jtag_tms_rt5_rt6_rt7_rt8_rt9_2v5
+  Measured 0.7              (BRC 207103)
+Open #7  Device u48
+  Pin 11  Node jtag_tms_3v3
+  Pin 13  Node jtag_tms_3v3
+  Measured 0.7              (BRC 10930)
+Open #8  Device u48
+  Pin 12  Node srt_jtag_tdo_zl_tdi_rt1_2v5
+  Measured -0.1             (BRC 209104)
+Open #9  Device u48
+  Pin 18  Node srt_jtag_tck_rt9_2v5
+  Measured 0.1              (BRC 208104)
+Open #10  Device u48
+  Pin 14  Node jtag_trst_l_rt5_rt6_rt7_rt8_rt9_2v5
+  Measured 0.2              (BRC 20702)
+Open #11  Device u48
+  Pin 1  Node unnamed_598_lvc244a_i30_a2
+  Pin 15  Node unnamed_598_lvc244a_i30_a2
+  Pin 17  Node unnamed_598_lvc244a_i30_a2
+  Pin 19  Node unnamed_598_lvc244a_i30_a2
+  Measured 0.4              (BRC 20809)
+15-2811-02 IC-LOGIC-BUFFER,TSSOP20,5V,-4
+----------------------------------------
+Open #1  Device u50
+  Pin 15  Node p2v5rt1_pgood
+  Measured 0.4              (BRC 20562)
+Open #2  Device u50
+  Pin 16  Node unnamed_4133_led_i179_k
+  Measured -0.0             (BRC 21049)
+Open #3  Device u50
+  Pin 14  Node unnamed_4133_led_i178_k
+  Measured 0.0              (BRC 20950)
+Open #4  Device u50
+  Pin 4  Node p1v0rt1_avdd_pgood
+  Measured 0.3              (BRC 20361)
+Open #5  Device u50
+  Pin 6  Node p1v0rt2_dvdd_pgood
+  Measured 0.6              (BRC 20461)
+Open #6  Device u50
+  Pin 5  Node unnamed_4133_led_i170_k
+  Measured 0.4              (BRC 210150)
+Open #7  Device u50
+  Pin 17  Node p2v5rt2_pgood
+  Measured -0.1             (BRC 207162)
+Open #8  Device u50
+  Pin 3  Node unnamed_4133_led_i169_k
+  Measured -0.5             (BRC 211150)
+Open #9  Device u50
+  Pin 18  Node unnamed_4133_led_i180_k
+  Measured 0.1              (BRC 209149)
+Open #10  Device u50
+  Pin 12  Node unnamed_4133_led_i177_k
+  Measured 0.2              (BRC 209150)
+Open #11  Device u50
+  Pin 8  Node p1v0rt2_avdd_pgood
+  Measured 0.6              (BRC 202126)
+Open #12  Device u50
+  Pin 2  Node p1v0rt1_dvdd_pgood
+  Measured -0.7             (BRC 204161)
+Open #13  Device u50
+  Pin 1  Node unnamed_4133_lvc2244_i184_a0
+  Pin 11  Node unnamed_4133_lvc2244_i184_a0
+  Pin 13  Node unnamed_4133_lvc2244_i184_a0
+  Pin 19  Node unnamed_4133_lvc2244_i184_a0
+  Measured -0.3             (BRC 20949)
+15-3958-02 IC-LOGIC-BUFFER,TSSOP20,VNOM 
+----------------------------------------
+Open #1  Device u54
+  Pin 7  Node mifpga_spi_cs_l
+  Measured 0.8              (BRC 205132)
+Open #2  Device u54
+  Pin 15  Node mifpga_sdi
+  Measured 0.1              (BRC 211128)
+Open #3  Device u54
+  Pin 1  Node unnamed_4136_mt25q16p_i449_dq3rstholdm
+  Measured -0.0             (BRC 21123)
+Open #4  Device u54
+  Pin 8  Node srt_mifpga_sdo
+  Measured 0.4              (BRC 211126)
+Open #5  Device u54
+  Pin 9  Node unnamed_4136_mt25q16p_i449_wmdq2
+  Measured -0.4             (BRC 211125)
+Open #6  Device u54
+  Pin 16  Node mifpga_dclk
+  Measured 0.2              (BRC 20931)
+17-15887-02 FLASH,PROG,TOR,ELYSIAN,MIROM
+----------------------------------------
+Open #1  Device u56
+  Pin 25  Node slb_103_a1
+  Measured -0.3             (BRC 10864)
+Open #2  Device u56
+  Pin 26  Node slb_103_a2
+  Measured -0.0             (BRC 10865)
+Open #3  Device u56
+  Pin 24  Node slb_103_a0
+  Measured 0.3              (BRC 108164)
+Open #4  Device u56
+  Pin 22  Node dpll_scl_synce_spi_clk
+  Measured -0.1             (BRC 207121)
+Open #5  Device u56
+  Pin 21  Node slb_103_cs_ca
+  Measured 0.5              (BRC 11067)
+Open #6  Device u56
+  Pin 20  Node slb_103_inc
+  Measured -0.0             (BRC 109166)
+Open #7  Device u56
+  Pin 23  Node dpll_sda_synce_spi_mosi
+  Measured -0.4             (BRC 10971)
+Open #8  Device u56
+  Pin 29  Node srt_clk103m_dav_sync_e_core_refclk_n
+  Measured -0.5             (BRC 108172)
+Open #9  Device u56
+  Pin 19  Node slb_103_dec
+  Measured 0.4              (BRC 109165)
+Open #10  Device u56
+  Pin 17  Node unnamed_4144_cap_i71_b
+  Measured 0.1              (BRC 10968)
+Open #11  Device u56
+  Pin 28  Node srt_clk103m_dav_sync_e_core_refclk_p
+  Measured 0.2              (BRC 10872)
+Open #12  Device u56
+  Pin 16  Node ac_clk_10m_zl_si5326_out
+  Measured 0.1              (BRC 10570)
+Open #13  Device u56
+  Pin 3  Node silab_tw_103_int_l
+  Measured -0.0             (BRC 105171)
+Open #14  Device u56
+  Pin 36  Node slb_103_cmode
+  Measured 0.8              (BRC 10475)
+Open #15  Device u56
+  Pin 35  Node clk_silab_ics853014_103m_p
+  Measured -0.2             (BRC 10568)
+Open #16  Device u56
+  Pin 34  Node clk_silab_ics853014_103m_n
+  Measured 0.6              (BRC 10567)
+Open #17  Device u56
+  Pin 1  Node TW_SILAB_103_RESET_L
+  Measured -0.1             (BRC 10563)
+Open #18  Device u56
+  Pin 13  Node unnamed_4144_cap_i66_b
+  Measured -0.4             (BRC 104177)
+Open #19  Device u56
+  Pin 12  Node unnamed_4144_cap_i65_b
+  Measured -0.0             (BRC 104176)
+Open #20  Device u56
+  Pin 4  Node silab_tw_103_los2
+  Measured 0.4              (BRC 10472)
+Open #21  Device u56
+  Pin 7  Node unnamed_4144_si5326_i62_xb
+  Measured 0.1              (BRC 10575)
+Open #22  Device u56
+  Pin 6  Node unnamed_4144_si5326_i62_xa
+  Measured -0.4             (BRC 105175)
+15-11039-02 IC-TIMING,JITTER ATTEN,QFN36
+----------------------------------------
+Open #1  Device u59
+  Pin 5  Node rt_uplink_m4_4_7_synce_clk
+  Measured 0.0              (BRC 207124)
+Open #2  Device u59
+  Pin 6  Node rt_uplink_m4_0_3_synce_clk
+  Measured 0.1              (BRC 21101)
+Open #3  Device u59
+  Pin 4  Node rt_downlink_m4_0_3_synce_clk
+  Measured -0.2             (BRC 20724)
+Open #4  Device u59
+  Pin 3  Node rt_downlink_m4_4_7_synce_clk
+  Measured 0.3              (BRC 211101)
+Open #5  Device u59
+  Pin 2  Node clk_mifpga_zl_1pps
+  Measured -0.2             (BRC 21104)
+Open #6  Device u59
+  Pin 9  Node clk25m_ocxo
+  Measured -0.0             (BRC 11078)
+Open #7  Device u59
+  Pin 15  Node unnamed_4134_res_i286_b
+  Measured 0.2              (BRC 217130)
+Open #8  Device u59
+  Pin 1  Node clk_10m_utc_zr_in
+  Measured 0.4              (BRC 211104)
+Open #9  Device u59
+  Pin 78  Node unnamed_4134_res_i261_a
+  Measured -0.5             (BRC 11076)
+Open #10  Device u59
+  Pin 26  Node unnamed_4134_res_i294_b
+  Measured 0.4              (BRC 217129)
+Open #11  Device u59
+  Pin 76  Node unnamed_4134_res_i290_a
+  Measured -0.1             (BRC 219131)
+Open #12  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 0.4              (BRC 214101)
+Open #13  Device u59
+  Pin 56  Node clk156m_rt1_sync_e_n
+  Measured 0.2              (BRC 21405)
+Open #14  Device u59
+  Pin 16  Node dpll_scl_synce_spi_clk
+  Measured 0.5              (BRC 207121)
+Open #15  Device u59
+  Pin 18  Node dpll_sda_synce_spi_mosi
+  Measured -0.1             (BRC 10971)
+Open #16  Device u59
+  Pin 34  Node unnamed_4134_res_i288_b
+  Measured 0.3              (BRC 20324)
+Open #17  Device u59
+  Pin 35  Node unnamed_4134_res_i287_b
+  Measured -0.3             (BRC 203124)
+Open #18  Device u59
+  Pin 42  Node unnamed_4134_res_i379_a
+  Measured 0.3              (BRC 110177)
+Open #19  Device u59
+  Pin 37  Node dpll_synce_reset_l
+  Pin 75  Node dpll_synce_reset_l
+  Measured 0.1              (BRC 20318)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Open #1  Device u61
+  Pin 15  Node sfp0_p3v3_pg
+  Measured 0.0              (BRC 20762)
+Open #2  Device u61
+  Pin 17  Node sfp1_p3v3_pg
+  Measured 0.6              (BRC 11034)
+Open #3  Device u61
+  Pin 16  Node unnamed_4133_led_i85_k
+  Measured 0.3              (BRC 211113)
+Open #4  Device u61
+  Pin 5  Node unnamed_4133_led_i95_k
+  Measured 0.2              (BRC 21121)
+Open #5  Device u61
+  Pin 14  Node unnamed_4133_led_i87_k
+  Measured -0.0             (BRC 208113)
+Open #6  Device u61
+  Pin 18  Node unnamed_4133_led_i82_k
+  Measured 0.2              (BRC 207113)
+Open #7  Device u61
+  Pin 2  Node p3v3_pg
+  Measured 0.6              (BRC 20218)
+Open #8  Device u61
+  Pin 3  Node unnamed_4133_led_i97_k
+  Measured -0.3             (BRC 211122)
+Open #9  Device u61
+  Pin 9  Node unnamed_4133_led_i91_k
+  Measured 0.6              (BRC 211121)
+Open #10  Device u61
+  Pin 12  Node unnamed_4133_led_i89_k
+  Measured 0.2              (BRC 20913)
+Open #11  Device u61
+  Pin 8  Node vdd_0p875v_pg
+  Measured 0.9              (BRC 203142)
+Open #12  Device u61
+  Pin 11  Node p1v8_pg
+  Measured 0.2              (BRC 202110)
+Open #13  Device u61
+  Pin 6  Node vdda_0p9v_pg
+  Measured -0.1             (BRC 203118)
+Open #14  Device u61
+  Pin 4  Node vddha_p1v2_pg
+  Measured -0.3             (BRC 203161)
+Open #15  Device u61
+  Pin 1  Node unnamed_4133_lvc2244_i64_oe
+  Pin 13  Node unnamed_4133_lvc2244_i64_oe
+  Pin 19  Node unnamed_4133_lvc2244_i64_oe
+  Measured -0.2             (BRC 211123)
+15-3958-02 IC-LOGIC-BUFFER,TSSOP20,VNOM 
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 0.6              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 0.8              (BRC 20816)
+Open #3  Device u63
+  Pin 1  Node unnamed_4096_ics853s011bi_i1155_q0_1
+  Measured 0.5              (BRC 20512)
+Open #4  Device u63
+  Pin 2  Node unnamed_4096_ics853s011bi_i1155_q0
+  Measured 0.1              (BRC 20513)
+Open #5  Device u63
+  Pin 7  Node srt_cpu_pcie_clkout0_p
+  Measured 0.6              (BRC 20518)
+Open #6  Device u63
+  Pin 6  Node srt_cpu_pcie_clkout0_n
+  Measured 0.9              (BRC 20517)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+Open #1  Device u72
+  Pin 12  Node tempsense_alert_l
+  Measured -0.5             (BRC 20227)
+Open #2  Device u72
+  Pin 13  Node srt_tempsense_i2c0_sda
+  Measured 0.3              (BRC 211149)
+Open #3  Device u72
+  Pin 11  Node therm_sens_add0
+  Measured -0.0             (BRC 21149)
+Open #4  Device u72
+  Pin 14  Node srt_tempsense_i2c0_scl
+  Measured -0.7             (BRC 210151)
+Open #5  Device u72
+  Pin 2  Node rv_therm_sen1_n
+  Measured 0.9              (BRC 20866)
+Open #6  Device u72
+  Pin 4  Node rv_therm_sen2_n
+  Measured -0.4             (BRC 208166)
+Open #7  Device u72
+  Pin 10  Node therm_sens_add1
+  Measured -0.4             (BRC 211148)
+Open #8  Device u72
+  Pin 3  Node rv_therm_sen2_p
+  Measured 0.2              (BRC 20766)
+Open #9  Device u72
+  Pin 6  Node sb_therm_ca_n
+  Measured -0.1             (BRC 105154)
+Open #10  Device u72
+  Pin 1  Node rv_therm_sen1_p
+  Measured 0.7              (BRC 202111)
+Open #11  Device u72
+  Pin 5  Node sb_therm_an_p
+  Measured 0.1              (BRC 105155)
+Open #12  Device u72
+  Pin 7  Node unnamed_4105_max1668_i156_dxn
+  Pin 8  Node unnamed_4105_max1668_i156_dxn
+  Measured 0.0              (BRC 207166)
+15-7481-02 IC-LIN,TEMP MON,QSOP-16,MAX16
+----------------------------------------
+Open #1  Device u96
+  Pin 13  Node jtag_tdo_rt9_3v3
+  Measured -0.1             (BRC 10769)
+Open #2  Device u96
+  Pin 11  Node jtag_tck_dav_hdr_3v3
+  Measured -0.1             (BRC 105164)
+Open #3  Device u96
+  Pin 5  Node jtag_trst_l_dav_hdr_3v3
+  Measured 0.3              (BRC 107163)
+Open #4  Device u96
+  Pin 12  Node unnamed_55_pi3b3257pg_i126_yd
+  Measured 0.6              (BRC 107167)
+Open #5  Device u96
+  Pin 14  Node jtag_tdi_dav_hdr_3v3
+  Measured 0.2              (BRC 10564)
+Open #6  Device u96
+  Pin 6  Node jtag_trst_l_3v3
+  Measured 0.6              (BRC 107174)
+Open #7  Device u96
+  Pin 4  Node unnamed_55_pi3b3257pg_i126_ya
+  Measured 0.1              (BRC 10566)
+Open #8  Device u96
+  Pin 3  Node jtag_tms_3v3
+  Measured 0.3              (BRC 10930)
+Open #9  Device u96
+  Pin 15  Node unnamed_55_pi3b3257pg_i126_e
+  Measured -0.0             (BRC 10768)
+Open #10  Device u96
+  Pin 10  Node jtag_tck_dav_3v3
+  Measured -0.3             (BRC 10969)
+Open #11  Device u96
+  Pin 7  Node unnamed_55_pi3b3257pg_i126_yb
+  Measured -0.2             (BRC 10766)
+Open #12  Device u96
+  Pin 2  Node jtag_tms_dav_hdr_3v3
+  Measured 0.2              (BRC 10565)
+Open #13  Device u96
+  Pin 9  Node unnamed_55_pi3b3257pg_i126_yc
+  Measured 0.1              (BRC 107172)
+Open #14  Device u96
+  Pin 1  Node JTAG_CABLE_PRSNT_L_DAV_HDR
+  Measured -0.4             (BRC 10870)
+15-3699-03 IC-LOGIC-DEMUX,QSOP16,PI3B325
+----------------------------------------
+Open #1  Device u103
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured 0.2              (BRC 208134)
+Open #2  Device u103
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured 0.2              (BRC 210162)
+Open #3  Device u103
+  Pin 14  Node rxrate_sfp_shift_data
+  Measured 0.1              (BRC 21146)
+Open #4  Device u103
+  Pin 4  Node fpga_sfp_rx_rate_sel<4>
+  Measured 0.4              (BRC 214148)
+Open #5  Device u103
+  Pin 5  Node fpga_sfp_rx_rate_sel<5>
+  Measured 0.1              (BRC 21448)
+Open #6  Device u103
+  Pin 3  Node fpga_sfp_rx_rate_sel<3>
+  Measured 0.1              (BRC 21535)
+Open #7  Device u103
+  Pin 11  Node rxrate_sfp_shift_u103_clk_buf
+  Measured 0.5              (BRC 211152)
+Open #8  Device u103
+  Pin 6  Node fpga_sfp_rx_rate_sel<6>
+  Measured 0.1              (BRC 214147)
+Open #9  Device u103
+  Pin 15  Node fpga_sfp_rx_rate_sel<0>
+  Measured 0.4              (BRC 21542)
+Open #10  Device u103
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured -0.9             (BRC 21062)
+Open #11  Device u103
+  Pin 7  Node fpga_sfp_rx_rate_sel<7>
+  Measured 0.0              (BRC 214128)
+Open #12  Device u103
+  Pin 2  Node fpga_sfp_rx_rate_sel<2>
+  Measured 0.1              (BRC 215135)
+Open #13  Device u103
+  Pin 9  Node rxrate_shift_reg_data_1
+  Measured 0.3              (BRC 211132)
+Open #14  Device u103
+  Pin 1  Node fpga_sfp_rx_rate_sel<1>
+  Measured 0.4              (BRC 21449)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u106
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured -0.6             (BRC 208134)
+Open #2  Device u106
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured 0.2              (BRC 210162)
+Open #3  Device u106
+  Pin 11  Node rxrate_sfp_shift_u106_clk_buf
+  Measured 0.7              (BRC 209151)
+Open #4  Device u106
+  Pin 14  Node rxrate_shift_reg_data_1
+  Measured -0.1             (BRC 211132)
+Open #5  Device u106
+  Pin 5  Node fpga_sfp_rx_rate_sel<13>
+  Measured -0.1             (BRC 21534)
+Open #6  Device u106
+  Pin 4  Node fpga_sfp_rx_rate_sel<12>
+  Measured -0.4             (BRC 215134)
+Open #7  Device u106
+  Pin 3  Node fpga_sfp_rx_rate_sel<11>
+  Measured 0.1              (BRC 21531)
+Open #8  Device u106
+  Pin 15  Node fpga_sfp_rx_rate_sel<8>
+  Measured -0.2             (BRC 21447)
+Open #9  Device u106
+  Pin 6  Node fpga_sfp_rx_rate_sel<14>
+  Measured 0.8              (BRC 214127)
+Open #10  Device u106
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured 0.2              (BRC 21062)
+Open #11  Device u106
+  Pin 7  Node fpga_sfp_rx_rate_sel<15>
+  Measured 0.0              (BRC 21427)
+Open #12  Device u106
+  Pin 9  Node rxrate_shift_reg_data_2
+  Measured -0.0             (BRC 211133)
+Open #13  Device u106
+  Pin 2  Node fpga_sfp_rx_rate_sel<10>
+  Measured 0.1              (BRC 215131)
+Open #14  Device u106
+  Pin 1  Node fpga_sfp_rx_rate_sel<9>
+  Measured 0.4              (BRC 214132)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u107
+  Pin 5  Node fpga_sfp_rx_rate_sel<21>
+  Measured -0.5             (BRC 20906)
+Open #2  Device u107
+  Pin 4  Node fpga_sfp_rx_rate_sel<20>
+  Measured 0.4              (BRC 210153)
+Open #3  Device u107
+  Pin 6  Node fpga_sfp_rx_rate_sel<22>
+  Measured -0.1             (BRC 21053)
+Open #4  Device u107
+  Pin 3  Node fpga_sfp_rx_rate_sel<19>
+  Measured -0.3             (BRC 209106)
+Open #5  Device u107
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured 0.8              (BRC 208134)
+Open #6  Device u107
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured 0.4              (BRC 210162)
+Open #7  Device u107
+  Pin 11  Node rxrate_sfp_shift_u107_clk_buf
+  Measured 0.3              (BRC 211151)
+Open #8  Device u107
+  Pin 7  Node fpga_sfp_rx_rate_sel<23>
+  Measured 0.3              (BRC 207152)
+Open #9  Device u107
+  Pin 2  Node fpga_sfp_rx_rate_sel<18>
+  Measured 0.3              (BRC 21153)
+Open #10  Device u107
+  Pin 14  Node rxrate_shift_reg_data_2
+  Measured 0.1              (BRC 211133)
+Open #11  Device u107
+  Pin 15  Node fpga_sfp_rx_rate_sel<16>
+  Measured -0.6             (BRC 209153)
+Open #12  Device u107
+  Pin 1  Node fpga_sfp_rx_rate_sel<17>
+  Measured 0.4              (BRC 211153)
+Open #13  Device u107
+  Pin 9  Node rxrate_sfp_shift_data_3
+  Measured 0.2              (BRC 211131)
+Open #14  Device u107
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured 0.6              (BRC 21062)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u108
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured -0.3             (BRC 210162)
+Open #2  Device u108
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured 0.2              (BRC 208134)
+Open #3  Device u108
+  Pin 5  Node fpga_sfp_rx_rate_sel<29>
+  Measured 0.6              (BRC 210108)
+Open #4  Device u108
+  Pin 11  Node rxrate_sfp_shift_u108_clk_buf
+  Measured 0.3              (BRC 21151)
+Open #5  Device u108
+  Pin 6  Node fpga_sfp_rx_rate_sel<30>
+  Measured 0.5              (BRC 210152)
+Open #6  Device u108
+  Pin 14  Node rxrate_sfp_shift_data_3
+  Measured -0.2             (BRC 211131)
+Open #7  Device u108
+  Pin 4  Node fpga_sfp_rx_rate_sel<28>
+  Measured -0.4             (BRC 209152)
+Open #8  Device u108
+  Pin 3  Node fpga_sfp_rx_rate_sel<27>
+  Measured 0.2              (BRC 210107)
+Open #9  Device u108
+  Pin 7  Node fpga_sfp_rx_rate_sel<31>
+  Measured 0.2              (BRC 21008)
+Open #10  Device u108
+  Pin 15  Node fpga_sfp_rx_rate_sel<24>
+  Measured 0.4              (BRC 20752)
+Open #11  Device u108
+  Pin 9  Node rxrate_shift_reg_data_4
+  Measured 0.0              (BRC 20923)
+Open #12  Device u108
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured 0.2              (BRC 21062)
+Open #13  Device u108
+  Pin 2  Node fpga_sfp_rx_rate_sel<26>
+  Measured -0.1             (BRC 20852)
+Open #14  Device u108
+  Pin 1  Node fpga_sfp_rx_rate_sel<25>
+  Measured 0.8              (BRC 208152)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u115
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured 0.3              (BRC 208134)
+Open #2  Device u115
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured -0.1             (BRC 210162)
+Open #3  Device u115
+  Pin 4  Node fpga_sfp_rx_rate_sel<36>
+  Measured 0.5              (BRC 10848)
+Open #4  Device u115
+  Pin 14  Node rxrate_shift_reg_data_4
+  Measured 0.3              (BRC 20923)
+Open #5  Device u115
+  Pin 6  Node fpga_sfp_rx_rate_sel<38>
+  Measured 0.8              (BRC 10847)
+Open #6  Device u115
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured -0.0             (BRC 21062)
+Open #7  Device u115
+  Pin 2  Node fpga_sfp_rx_rate_sel<34>
+  Measured -0.1             (BRC 11054)
+Open #8  Device u115
+  Pin 9  Node rxrate_shift_reg_data_5
+  Measured 0.3              (BRC 110147)
+Open #9  Device u115
+  Pin 1  Node fpga_sfp_rx_rate_sel<33>
+  Measured -0.4             (BRC 110154)
+Open #10  Device u115
+  Pin 5  Node fpga_sfp_rx_rate_sel<37>
+  Measured 0.5              (BRC 108147)
+Open #11  Device u115
+  Pin 3  Node fpga_sfp_rx_rate_sel<35>
+  Measured 0.5              (BRC 108133)
+Open #12  Device u115
+  Pin 11  Node rxrate_sfp_shift_u115_clk_buf
+  Measured -0.0             (BRC 21005)
+Open #13  Device u115
+  Pin 15  Node fpga_sfp_rx_rate_sel<32>
+  Measured 0.1              (BRC 10954)
+Open #14  Device u115
+  Pin 7  Node fpga_sfp_rx_rate_sel<39>
+  Measured 0.1              (BRC 108146)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+Open #1  Device u116
+  Pin 12  Node rxrate_sfp_shift_store
+  Measured 0.3              (BRC 208134)
+Open #2  Device u116
+  Pin 13  Node rxrate_sfp_shift_oe_l
+  Measured -0.2             (BRC 210162)
+Open #3  Device u116
+  Pin 6  Node fpga_sfp_rx_rate_sel<46>
+  Measured -0.3             (BRC 10952)
+Open #4  Device u116
+  Pin 4  Node fpga_sfp_rx_rate_sel<44>
+  Measured 0.0              (BRC 110153)
+Open #5  Device u116
+  Pin 10  Node rxrate_sfp_shift_rst_l
+  Measured 0.4              (BRC 21062)
+Open #6  Device u116
+  Pin 7  Node fpga_sfp_rx_rate_sel<47>
+  Measured -0.0             (BRC 110152)
+Open #7  Device u116
+  Pin 5  Node fpga_sfp_rx_rate_sel<45>
+  Measured 0.1              (BRC 109152)
+Open #8  Device u116
+  Pin 2  Node fpga_sfp_rx_rate_sel<42>
+  Measured 0.4              (BRC 109153)
+Open #9  Device u116
+  Pin 3  Node fpga_sfp_rx_rate_sel<43>
+  Measured -0.3             (BRC 10953)
+Open #10  Device u116
+  Pin 1  Node fpga_sfp_rx_rate_sel<41>
+  Measured 0.7              (BRC 10845)
+Open #11  Device u116
+  Pin 15  Node fpga_sfp_rx_rate_sel<40>
+  Measured 0.1              (BRC 10846)
+Open #12  Device u116
+  Pin 14  Node rxrate_shift_reg_data_5
+  Measured 0.6              (BRC 110147)
+Open #13  Device u116
+  Pin 11  Node rxrate_sfp_shift_u116_clk_buf
+  Measured -0.3             (BRC 210103)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 14:45:48 2023
+----------------------------------------
+j1%presence HAS FAILED
+Measured:   23.212k
+Threshold: 9.0000
+Jumper Resistance in OHMS
+----------------------------------------
+Check for J1 presence.
+----------------------------------------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:49:18 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<9>_S1     11672 1545
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+To:   p3v3_sfp1               11338 1545
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f9_s1
+Message is:
+Check F9_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<9>_S1 119171 1512
+                c11_s1.1
+                c75_s1.1
+                l29_s1.1
+               sfp_s1.K16
+To:   PWR_FUSED_SFP<9>_S1     11672 1512
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l29_s1
+Message is:
+Check L29_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<9>_S1  11970 1524
+                c16_s1.1
+                c80_s1.1
+                l34_s1.1
+               sfp_s1.K15
+To:   PWR_FUSED_SFP<9>_S1     11672 1524
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l34_s1
+Message is:
+Check L34_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q0     11647  620
+                c2_q0.1
+                c4_q0.1
+                cr2_q0.2
+              cr2_q0%cr.C
+                l4_q0.1
+                l5_q0.1
+                l6_q0.1
+                r5_q0.1
+                rn3_q0.5
+                rn3_q0.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q0 115146  620
+                c17_q0.2
+                c18_q0.2
+                l5_q0.2
+              qsfp_q0.B10
+Common Devices:
+                 l5_q0
+Message is:
+Check L5_Q0
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<0>         216163 Open
+                r2_s0.1
+                 r818.1
+               rn33_s0.4
+           rn33_s0%pin_4_5.1
+To:   srt_sfp0_i2c_scl_edge   22137
+                 r818.2
+                u49.AB22
+Common Devices:
+                  r818
+Message is:
+Check R818
+------End, 6 Problems Reported----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:49:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<9>_S1     11672 Open
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+To:   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f9_s1
+Message is:
+Check F9_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<9>_S1 119171 Open
+                c11_s1.1
+                c75_s1.1
+                l29_s1.1
+               sfp_s1.K16
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l29_s1
+Message is:
+Check L29_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<9>_S1  11970 Open
+                c16_s1.1
+                c80_s1.1
+                l34_s1.1
+               sfp_s1.K15
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l34_s1
+Message is:
+Check L34_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<0>         216163 Open
+                r2_s0.1
+                 r818.1
+               rn33_s0.4
+           rn33_s0%pin_4_5.1
+To:   srt_sfp0_i2c_scl_edge   22137
+                 r818.2
+                u49.AB22
+Common Devices:
+                  r818
+Message is:
+Check R818
+------End, 5 Problems Reported----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:49:50 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<9>_S1     11672 Open
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+To:   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f9_s1
+Message is:
+Check F9_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<9>_S1 119171 Open
+                c11_s1.1
+                c75_s1.1
+                l29_s1.1
+               sfp_s1.K16
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l29_s1
+Message is:
+Check L29_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<9>_S1  11970 Open
+                c16_s1.1
+                c80_s1.1
+                l34_s1.1
+               sfp_s1.K15
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l34_s1
+Message is:
+Check L34_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 4 Problems Reported----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:50:07 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<9>_S1     11672 Open
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+To:   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f9_s1
+Message is:
+Check F9_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<9>_S1 119171 Open
+                c11_s1.1
+                c75_s1.1
+                l29_s1.1
+               sfp_s1.K16
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l29_s1
+Message is:
+Check L29_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     11564   59
+FLTR_P3V3_SFP_TX<13>_S1                 
+                c12_s1.1
+                c76_s1.1
+                l30_s1.1
+               sfp_s1.P16
+To:   PWR_FUSED_SFP<13>_S1    11670   59
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l30_s1
+Message is:
+Check L30_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<9>_S1  11970 Open
+                c16_s1.1
+                c80_s1.1
+                l34_s1.1
+               sfp_s1.K15
+To:   PWR_FUSED_SFP<9>_S1     11672
+               c115_s1.1
+               c120_s1.1
+                f9_s1.1
+                l29_s1.2
+                l34_s1.2
+Common Devices:
+                 l34_s1
+Message is:
+Check L34_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 5 Problems Reported----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:50:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     11564 3051
+FLTR_P3V3_SFP_TX<13>_S1                 
+                c12_s1.1
+                c76_s1.1
+                l30_s1.1
+               sfp_s1.P16
+To:   PWR_FUSED_SFP<13>_S1    11670 3051
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l30_s1
+Message is:
+Check L30_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 2 Problems Reported----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:52:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:52:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM271503QT
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:53:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q2  11535
+                c15_q2.2
+                c16_q2.2
+                l4_q2.2
+              qsfp_q2.B29
+Common Devices:
+                 l4_q2
+Message is:
+Check L4_Q2
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q2  11534
+                c17_q2.2
+                c18_q2.2
+                l5_q2.2
+              qsfp_q2.B10
+Common Devices:
+                 l5_q2
+Message is:
+Check L5_Q2
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC1_Q2   115135
+                c19_q2.2
+                c20_q2.2
+                l6_q2.2
+              qsfp_q2.B30
+Common Devices:
+                 l6_q2
+Message is:
+Check L6_Q2
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 4 Problems Reported----------
+S/N:FLM27150FA2
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:53:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_98               22070   34
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+To:   VDD_BOOT_R_98           21571   34
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+Common Devices:
+               r4_98_rtv1
+Message is:
+Check R4_98_RTV1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 2 Problems Reported----------
+S/N:FLM27150FA2
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:54:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: VDD_PH_98               22070 Open
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+To:   VDD_BOOT_R_98           21571
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+Common Devices:
+               r4_98_rtv1
+Message is:
+Check R4_98_RTV1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 2 Problems Reported----------
+S/N:FLM27150FA2
+----------------------------------------
+Shorts Report for "shorts".
+Sat Sep 02 14:54:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10773 Open
+ac_clk103m_dav_sync_e_core_refclk_p     
+                 r143.1
+                 r296.2
+                 r512.1
+                 u33.16
+To:     v                     10975
+ac_clk103m_dav_sndn1_core_refclk_p      
+                 c359.2
+                 r139.1
+                 r507.2
+                 r512.2
+                 r516.1
+                 u33.6
+Common Devices:
+                  r512
+                  u33
+Message is:
+Check R512
+------End, 1 Problem Reported-----------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 14:55:38 2023
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   31.434
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 15:01:21 2023
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -1.4150M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271503QT
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 15:01:37 2023
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -3.6693M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271503QT
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 15:01:48 2023
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -2.6241M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271503QT
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 15:01:59 2023
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -3.6693M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271503QT
+----------------------------------------
+73-102898-01_03
+Sat Sep 02 15:02:09 2023
+----------------------------------------
+r52 HAS FAILED
+12-3673-02 RES,TKF,487 ohm,0.100W,1%,SM,
+Measured:   -2.6241M
+Nominal:    487.00
+High Limit: 608.75
+Low Limit:  389.60
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271503QT

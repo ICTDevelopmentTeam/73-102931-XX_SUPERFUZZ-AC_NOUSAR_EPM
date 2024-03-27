@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes FLT_P3V3_OSC114M_XO P-Pin resistance"
+report "check nodes UNNAMED_4134_OSC_I308_OE P-Pin resistance"
+end on failure
+disconnect all
+connect s to "FLT_P3V3_OSC114M_XO"
+connect i to "UNNAMED_4134_OSC_I308_OE"
+resistor 12,20,100, re1, ar100m,ed
+off failure

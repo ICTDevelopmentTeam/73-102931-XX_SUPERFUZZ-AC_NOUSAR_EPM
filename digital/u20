@@ -1,0 +1,39 @@
+!!!!    6    0    1 1652335870  V3dad                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u20"
+set terminators to on
+assign VCC to pins *,*
+assign GND to pins *,*
+
+assign DI    to pins 5
+assign DE    to pins 3
+assign RO    to pins 2
+assign A_Y   to pins 8
+assign B_Z   to pins 9
+assign RE    to pins 4
+assign NC    to pins *
+
+power  VCC,GND
+inputs RE,DE,DI
+outputs RO
+nondigital NC
+bidirectional A_Y,B_Z
+family LVT
+
+pcf order default SCAN is RE, RO
+pcf order default SCAN is DE, DI
+pcf order default SCAN is A_Y, B_Z
+
+unit
+pcf
+  "1 H 1 0 LH"
+  "1 H 1 1 HL"
+  "1 H 0 0 HH"
+  "1 H 0 1 01"
+  "0 H 0 0 10"
+  "0 L 0 1 01"
+end pcf
+end unit
+

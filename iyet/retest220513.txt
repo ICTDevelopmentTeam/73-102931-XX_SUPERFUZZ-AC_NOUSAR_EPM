@@ -1,0 +1,862 @@
+----------------------------------------
+73-102898-01_03
+Fri May 13 16:47:35 2022
+----------------------------------------
+c147 HAS FAILED
+11-100359-01 CAP,CE,100.0nF,25.0 V,10%,X
+Measured:   36.341p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+c359 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   31.081p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+c360 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   31.081p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1023 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   26.423p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1024 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   51.404p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1015 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -304.39k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r1016 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -310.77k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r150 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r151 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.35k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r181 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.92k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r182 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   225.67k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r184 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   902.70k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r186 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.35k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r356 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   455.16k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r357 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   455.21k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r359 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   1.0000e+100
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r361 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   455.21k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r362 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.44k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r363 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   910.38k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r364 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.44k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r373 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.29k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r374 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.29k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r375 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   226.17k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r376 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.73k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r187 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r188 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.32k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r212 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r368 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r369 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.93k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r502 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.35k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r503 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.87k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r504 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r379 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.68k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r380 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.68k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r381 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.73k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r382 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.58k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r383 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.29k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r384 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.31k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r245 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   1.8802M
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r1077 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   905.70k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r183 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.87k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r505 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.95k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r370 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   227.61k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r371 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   227.61k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r372 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   910.33k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r89 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   451.35k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r610 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   300.90k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r611 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   451.40k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r162 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   910.48k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r247 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -122.80M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r250 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -122.80M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r1017 HAS FAILED
+12-2601-02 RES,TKF,200 ohm,0.063W,1%,SM,
+Measured:   -36.506k
+Nominal:    200.00
+High Limit: 260.00
+Low Limit:  160.00
+Resistance in OHMS
+----------------------------------------
+r1018 HAS FAILED
+12-2601-02 RES,TKF,200 ohm,0.063W,1%,SM,
+Measured:   -36.506k
+Nominal:    200.00
+High Limit: 260.00
+Low Limit:  160.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Fri May 13 16:47:40 2022
+----------------------------------------
+c147 HAS FAILED
+11-100359-01 CAP,CE,100.0nF,25.0 V,10%,X
+Measured:   37.297p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+c359 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   30.603p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+c360 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   30.125p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1023 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   18.256p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1024 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   40.355p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r1015 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -366.10k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r1016 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -468.90k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r150 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.90k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r151 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   225.67k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r181 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.88k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r182 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r184 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   225.67k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r186 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   225.67k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r356 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.43k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r357 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   455.19k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r359 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   182.07k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r361 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   910.28k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r362 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   227.62k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r363 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.41k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r364 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.46k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r373 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   301.58k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r374 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.68k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r375 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   1.0000e+100
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r376 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.34k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r187 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   902.70k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r188 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.88k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r212 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   180.52k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r368 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.37k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r369 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.90k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r502 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   451.32k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r503 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   300.90k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r504 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   225.66k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r379 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.63k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r380 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.63k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r381 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   904.73k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r382 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   1.0000e+100
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r383 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   301.53k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r384 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.29k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r245 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -1.8243M
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r1077 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   452.87k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r183 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   905.75k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r505 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   452.90k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r370 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   1.0000e+100
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r371 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.46k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r372 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   303.46k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r89 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   300.88k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r610 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   902.75k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r611 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   451.35k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r162 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   227.58k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r247 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -16.068M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r250 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -122.80M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r1017 HAS FAILED
+12-2601-02 RES,TKF,200 ohm,0.063W,1%,SM,
+Measured:   -36.506k
+Nominal:    200.00
+High Limit: 260.00
+Low Limit:  160.00
+Resistance in OHMS
+----------------------------------------
+r1018 HAS FAILED
+12-2601-02 RES,TKF,200 ohm,0.063W,1%,SM,
+Measured:   -45.649k
+Nominal:    200.00
+High Limit: 260.00
+Low Limit:  160.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0

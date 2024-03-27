@@ -1,0 +1,57 @@
+!!!!    6    0    1 1375236555  Vf71e                                         
+!
+! 19-2220-01
+! 19-2220-01 OSC,HCMOS,125.0000M,50PM,3.3V
+! Digital portion of mixed test for HP 3070
+!
+
+sequential
+
+vector cycle   10.0u
+receive delay   9.9u
+
+assign VCC    to pins 4
+assign GND    to pins 2
+
+assign OE     to pins 1
+assign OUT    to pins 3
+
+family TTL
+
+power VCC, GND
+
+inputs  OE
+nondigital OUT
+
+disable OUT with OE  to "0"
+
+vector Enable_true
+  set  OE     to "1"
+end vector
+
+vector Enable_false
+  set  OE     to "0"
+end vector
+
+vector Enable_z
+  set  OE     to "z"
+end vector
+
+unit "Enable True"
+
+  execute  Enable_true
+  continue analog
+
+end unit
+
+unit "Enable False"
+
+  execute  Enable_false
+  continue analog
+
+end unit
+
+!
+! End test
+!
+

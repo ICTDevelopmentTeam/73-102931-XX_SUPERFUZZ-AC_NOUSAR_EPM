@@ -1,0 +1,1502 @@
+----------------------------------------
+TestJet Report for "testjet".
+Mon Feb 19 08:35:07 2024
+73-102898-01_03
+----------------------------------------
+Open #1  Device u28
+  Pin 19  Node clk212m_buf_en
+  Measured 0.5              (BRC 203101)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+S/N:FLM28070207
+----------------------------------------
+TestJet Report for "testjet".
+Mon Feb 19 08:35:14 2024
+73-102898-01_03
+----------------------------------------
+Open #1  Device u28
+  Pin 19  Node clk212m_buf_en
+  Measured 0.9              (BRC 203101)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+S/N:FLM28070207
+----------------------------------------
+TestJet Report for "testjet".
+Mon Feb 19 08:35:21 2024
+73-102898-01_03
+----------------------------------------
+Open #1  Device u28
+  Pin 19  Node clk212m_buf_en
+  Measured -0.3             (BRC 203101)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+S/N:FLM28070207
+----------------------------------------
+TestJet Report for "testjet".
+Mon Feb 19 08:35:28 2024
+73-102898-01_03
+----------------------------------------
+Open #1  Device u28
+  Pin 19  Node clk212m_buf_en
+  Measured 0.5              (BRC 203101)
+15-9846-02 IC-TIMING,BUFFER,3.3V,TSSOP20
+----------------------------------------
+S/N:FLM28070207
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 08:38:16 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(203101) clk212m_buf_en
+                 r158.2
+                 u28.19
+------End, 1 Problem Reported-----------
+S/N:FLM28070207
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 08:38:26 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+----------------------------------------
+Failed Open #2
+(203101) clk212m_buf_en
+                 r158.2
+                 u28.19
+------End, 2 Problems Reported----------
+S/N:FLM28070207
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 08:38:36 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+----------------------------------------
+Failed Open #2
+(203101) clk212m_buf_en
+                 r158.2
+                 u28.19
+------End, 2 Problems Reported----------
+S/N:FLM28070207
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 11:04:51 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM28070207
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 11:31:38 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 11:31:49 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 11:31:59 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:41:36 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 2924
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 2924
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:41:46 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3065
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3065
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:41:56 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3130
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3130
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:42:06 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 2886
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 2886
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:47:35 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3003
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3003
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 11:47:45 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 2858
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 2858
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:14:19 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:14:29 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:14:40 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703U9
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 12:17:10 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3018
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3018
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 12:17:20 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3504
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3504
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 12:17:31 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 3054
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 3054
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 1 Problem Reported-----------
+S/N:FLM27100189
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 12:17:41 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: pwr_1v8_adomain         21613   46
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22130   46 
+vflt_p1v8_vddl_zl30772_a                
+                 c41.1
+                 c51.1
+                 c54.1
+                 c57.1
+                 c59.1
+                 c63.1
+                 l68.2
+                 u59.41
+                 u59.47
+                 u59.53
+Too many to print.
+Common Devices:
+                  l68
+                  u59
+Message is:
+Check L68
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<29>         21757 2924
+                r28_s1.2
+                 r844.1
+               rn44_s1.4
+           rn44_s1%pin_4_5.1
+To:   srt_sfp29_i2c_scl_edge 219161 2924
+                 r844.2
+                u49.AF13
+Common Devices:
+                  r844
+Message is:
+Check R844
+------End, 2 Problems Reported----------
+S/N:FLM27100189
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:29:55 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:30:05 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:30:15 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:33:07 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:33:18 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:33:28 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 12:40:46 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(202110) p1v8_pg
+                 r81.1
+                  u3.3
+                u49.A18
+                 u61.11
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 13:29:53 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<24>        221101 Open
+                r2_s1.1
+                 r839.1
+               rn33_s1.4
+           rn33_s1%pin_4_5.1
+To:   srt_sfp24_i2c_scl_edge  22044
+                 r839.2
+                u49.AE18
+Common Devices:
+                  r839
+Message is:
+Check R839
+------End, 1 Problem Reported-----------
+S/N:FLM280703WL
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 13:37:32 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<24>        221101 Open
+                r2_s1.1
+                 r839.1
+               rn33_s1.4
+           rn33_s1%pin_4_5.1
+To:   srt_sfp24_i2c_scl_edge  22044
+                 r839.2
+                u49.AE18
+Common Devices:
+                  r839
+Message is:
+Check R839
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 13:37:43 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<24>        221101   88
+                r2_s1.1
+                 r839.1
+               rn33_s1.4
+           rn33_s1%pin_4_5.1
+To:   srt_sfp24_i2c_scl_edge  22044   88
+                 r839.2
+                u49.AE18
+Common Devices:
+                  r839
+Message is:
+Check R839
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:38:32 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:38:42 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:38:52 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:54:42 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:54:52 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Feb 19 13:55:03 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(109138) fpga_sfp_tx_disable<36>
+               sfp_s1.N3
+                u37.128
+------End, 1 Problem Reported-----------
+S/N:FLM280703W1
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 21:01:19 2024
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   303.96u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+c173 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   3720.8p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+rn92_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn92_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -16.507M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271208HP
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 21:02:03 2024
+----------------------------------------
+c173 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   3808.1p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+rn92_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn92_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   711.71k
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271208HP
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 21:02:08 2024
+----------------------------------------
+c173 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   4748.7p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271208HP
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 21:02:14 2024
+----------------------------------------
+c173 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   4778.4p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271208HP
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 22:04:57 2024
+----------------------------------------
+r755 HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Measured:   1.0037k
+Nominal:    500.00
+High Limit: 625.00
+Low Limit:  400.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+r758 1.00k
+----------------------------------------
+rn36_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn36_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   614.28k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271604SR
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 22:05:14 2024
+----------------------------------------
+r755 HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Measured:   1.0039k
+Nominal:    500.00
+High Limit: 625.00
+Low Limit:  400.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+r758 1.00k
+----------------------------------------
+rn36_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn36_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   630.96k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271604SR
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 22:05:19 2024
+----------------------------------------
+r755 HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Measured:   1.0040k
+Nominal:    500.00
+High Limit: 625.00
+Low Limit:  400.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+r758 1.00k
+----------------------------------------
+rn36_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn36_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   622.51k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271604SR
+----------------------------------------
+73-102898-01_03
+Mon Feb 19 22:05:23 2024
+----------------------------------------
+r755 HAS FAILED
+12-4471-02 RES,TNF,1 k ohm,0.063W,.1%,SM
+Measured:   1.0038k
+Nominal:    500.00
+High Limit: 625.00
+Low Limit:  400.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+r758 1.00k
+----------------------------------------
+rn36_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn36_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   614.28k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271604SR
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:26:54 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   36
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   36 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    3
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    5
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   10
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:27:05 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   36
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   36 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    4
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    5
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   11
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:27:15 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   37
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   37 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    4
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    3
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    4
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   10
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:27:26 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   35
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   35 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    1
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    4
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    4
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    5
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   11
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:34:19 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   36
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   36 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    1
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    4
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   10
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:34:30 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   36
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   36 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    3
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    4
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152    8
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:34:40 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   36
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   36 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    4
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    5
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   10
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    6
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ
+----------------------------------------
+Shorts Report for "shorts".
+Mon Feb 19 23:34:51 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<22>        217103   35
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   35 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Short #1, Thresh 21, Delay 200us    Ohms
+From:   v                    221157    2
+UNNAMED_5_RES_I172_A_S0                 
+                r12_s0.1
+               sfp_s0.K5
+To:   I2C_SCL_SFP<9>          22046    3
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+      srt_sfp9_i2c_scl_edge   21461    5
+                 r870.2
+                u49.AF23
+Common Devices:
+                 r12_s0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 24, Delay 200us    Ohms
+From:   v                    114148    2
+UNNAMED_4_RES_I228_B_Q0                 
+              qsfp_q0.A11
+                r6_q0.2
+To:   QSFP_SCL<0>             11547    4
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+      srt_qsfp_scl<0>        221152   10
+                 r878.2
+                u49.A12
+Common Devices:
+                 r6_q0
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 23, Delay 200us    Ohms
+From:   v                     22254    5
+UNNAMED_6_RES_I173_B_S0                 
+                r22_s0.2
+               sfp_s0.R5
+To:   I2C_SCL_SFP<14>         21951    6
+                r22_s0.1
+                 r828.1
+               rn65_s0.4
+           rn65_s0%pin_4_5.1
+      srt_sfp14_i2c_scl_edge  22061    7
+                 r828.2
+                u49.AE16
+Common Devices:
+                 r22_s0
+Total of 3 nodes, Message is:  None.
+------End, 4 Problems Reported----------
+S/N:FLM280701VJ

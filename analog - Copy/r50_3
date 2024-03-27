@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863910   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:31 2022
+disconnect all
+connect s to "P1V8"
+connect i to "SNDN_JTAG2CPU_EN"
+jumper 10.0k, re4, wb, ar100m, op
+! "r50_3" test.

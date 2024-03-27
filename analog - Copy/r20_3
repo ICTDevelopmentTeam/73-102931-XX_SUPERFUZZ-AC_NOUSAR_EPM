@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863906   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:27 2022
+disconnect all
+connect i to "TEST_ENABLE_3"
+connect s to "P1V8"
+jumper 10.0k, re4, wb, ar100m, op
+! "r20_3" test.

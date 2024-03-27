@@ -1,0 +1,12 @@
+!!!!   21    2    1 1486968398   0000                                         
+
+transistor "q", 200,  50, n, nr
+
+external pins 1
+   device "q" pins "B"
+
+external pins 2
+   device "q" pins "E"
+
+external pins 3
+   device "q" pins "C"

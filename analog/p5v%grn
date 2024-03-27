@@ -1,0 +1,7 @@
+!!!!    2    0    1 1627786224   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:09:36 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "UNNAMED_4133_LED_I136_K"                                                                                                                          
+connect i to "P5V"                                                                                                                                              
+diode 2.6,1.8,idc20m,co4.6,ar2.6,wa20m                                                                                                                       
+! "p5v%grn" test.                                                                                                                                               

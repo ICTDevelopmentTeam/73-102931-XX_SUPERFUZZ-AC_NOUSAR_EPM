@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863964   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:25 2022
+disconnect all
+connect i to "UNNAMED_3_CAP_I59_B_P3V3_SFP1_ALT"
+connect s to "P3V3_SFP1"
+jumper 5.94, re1, ar200m
+! "l1_sf1" test.

@@ -1,0 +1,918 @@
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 02:56:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_3_CAP_I59_B_5V  22031 Open
+               c218_5v.1
+                l8_5v.1
+               u15_5v.26
+               u15_5v.27
+               u15_5v.28
+               u15_5v.29
+               u15_5v.30
+               u15_5v.31
+To:   PMOD_PH_5V             105149
+                c58_5v.2
+                u15_5v.4
+Common Devices:
+                 u15_5v
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_DGND_SENSE      21649 Open
+               r02_rtv1.1
+                 r579.2
+To:   agnd_sense_r_rtv1       21963
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+Common Devices:
+                r02_rtv1
+Message is:
+Check R02_RTV1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                    110148 Open
+TXRATE_SFP_SHIFT_CLK_BUF                
+                 r119.1
+                 r668.1
+                 r669.1
+                 r671.1
+                 r672.1
+                 r673.1
+                 u138.3
+To:     v                    110151
+txrate_sfp_shift_u35_clk_buf            
+                 r671.2
+                 u35.11
+Common Devices:
+                  r671
+Message is:
+Check R671
+------End, 5 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 02:57:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125  361
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135  361
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+------End, 3 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 02:57:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: unnamed_2_cap_i541_a_a 204113   33
+                c21_a.2
+                c22_a.2
+                 l4_a.1
+                 u3_a.5
+                 u3_a.6
+                 u3_a.7
+                 u3_a.8
+                 u3_a.9
+To:   P3_3VA                 208153   33
+                c2_pm.1
+                  c3.1
+                  c6.1
+                 c12.1
+                c13_a.1
+                 c18.1
+                c20_pm.1
+                 c23.1
+                c23_a.1
+                 c24.1
+Too many to print.
+Common Devices:
+                  l4_a
+                  u3_a
+Message is:
+Check L4_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+------End, 3 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 02:57:37 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 02:57:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:00:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166 Open
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:00:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125   57
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135   57
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166 Open
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+------End, 3 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:00:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166 Open
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:00:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166 Open
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:00:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166 Open
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+------End, 2 Problems Reported----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:05:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 1 Problem Reported-----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:05:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 1 Problem Reported-----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:06:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 1 Problem Reported-----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:06:27 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 1 Problem Reported-----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 03:06:41 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I486_B_A  21652 Open
+                 c5_a.1
+                 l2_a.1
+                 u1_a.3
+To:   p1_1va                 214152
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+Common Devices:
+                  l2_a
+Message is:
+Check L2_A
+------End, 1 Problem Reported-----------
+S/N:FLM27190BB3
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 07:38:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    222147 Open
+FLTR_P3V3_SFP_RX<16>_S0                 
+               c194_s0.1
+               c202_s0.1
+                l66_s0.1
+               sfp_s0.U15
+To:   PWR_FUSED_SFP<16>_S0    22113
+               c209_s0.1
+               c210_s0.1
+                f32_s0.1
+                l51_s0.2
+                l66_s0.2
+Common Devices:
+                 l66_s0
+Message is:
+Check L66_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154   38
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10863   38 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMBU
+                 r821.2
+               u1_1v2s.20
+Common Devices:
+                  r821
+Message is:
+Check R821
+------End, 2 Problems Reported----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 07:50:01 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: fpga_led_stat_red_l    204142  169
+                  u8.3
+                u49.AE8
+To:   MUX_LED_STAT_RED_L      20921  186
+                  u8.4
+                 u55.13
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: fpga_led_stat_grn_l     20331  169
+                  u8.6
+                u49.V10
+To:   MUX_LED_STAT_GRN_L     210125  188
+                  u8.7
+                 u55.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_RED_L      205122  171
+                  u8.9
+                 u55.9
+To:   fpga_led_env_red_l      20328  175
+                 u8.10
+                u49.AD8
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_GRN_L       21023  171
+                 u8.12
+                 u55.5
+To:   fpga_led_env_grn_l     203129  174
+                 u8.13
+                u49.P10
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #5, Thresh 800, Delay 50us    Ohms
+From: fpga_led_bcn_blue_l    203132  392
+                 u10.3
+                u49.AF9
+To:   LED_BCN_BLUE_L          20545  255
+                 q15.2
+                 r256.2
+                 r657.2
+      MUX_LED_BCN_BLUE_L     207112  188
+                 r256.1
+                 u10.4
+Common Devices:
+                  u10
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #6, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_BMC_GRN_L      209121  406
+                 u10.9
+                 u55.3
+To:   FPGA_LED_BMC_GRN_L     210123  416
+                 u10.10
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+------End, 6 Problems Reported----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 07:50:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PMOD_BOOTR_3V3          10546   26
+               c189_3v3.1
+               r961_3v3.1
+To:   PMOD_BOOT_3V3          105145   26
+               r961_3v3.2
+               u16_3v3.6
+Common Devices:
+                r961_3v3
+Message is:
+Check R961_3V3
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 07:50:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PMOD_BOOTR_3V3          10546   27
+               c189_3v3.1
+               r961_3v3.1
+To:   PMOD_BOOT_3V3          105145   27
+               r961_3v3.2
+               u16_3v3.6
+Common Devices:
+                r961_3v3
+Message is:
+Check R961_3V3
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 16:06:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: SW2_6                   21555 Open
+                 c2_6.1
+                 l1_6.1
+                u1_6.14
+To:   p3v3_gps               214154
+                 c3_6.1
+                 c9_6.1
+                  j7.2
+                  j7.4
+                  j7.6
+                  j7.8
+                 l1_6.2
+                 r689.2
+Common Devices:
+                  l1_6
+Message is:
+Check L1_6
+------End, 1 Problem Reported-----------
+S/N:FLM271808KT
+----------------------------------------
+Shorts Report for "shorts".
+Mon Aug 07 16:07:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: SW2_6                   21555 Open
+                 c2_6.1
+                 l1_6.1
+                u1_6.14
+To:   p3v3_gps               214154
+                 c3_6.1
+                 c9_6.1
+                  j7.2
+                  j7.4
+                  j7.6
+                  j7.8
+                 l1_6.2
+                 r689.2
+Common Devices:
+                  l1_6
+Message is:
+Check L1_6
+------End, 1 Problem Reported-----------
+S/N:FLM271808KT
+----------------------------------------
+73-102898-01_03
+Mon Aug 07 16:07:28 2023
+----------------------------------------
+c9_6 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   0.20833u
+Nominal:    122.00u
+High Limit: 168.68u
+Low Limit:  75.323u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c3_6 22.0u
+----------------------------------------
+r689 HAS FAILED
+12-2559-01 RES,TKF,33.2 k ohm,0.063W,1%,
+Measured:   83.650k
+Nominal:    33.200k
+High Limit: 41.500k
+Low Limit:  24.900k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271808KT

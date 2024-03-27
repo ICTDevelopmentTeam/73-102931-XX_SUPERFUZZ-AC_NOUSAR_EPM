@@ -1,0 +1,23 @@
+prerun
+dim InvOn$[28]
+dim InvOff$[11]
+dim O$[128]
+dim Retry_Pintest$[168]
+dim Cycle_Vacuum$[128]
+dim Recycle_Vacuum$[128]
+call Initialize_Board_Constants
+call Initialize_Constants|call Set_Custom_Options
+report level is report
+report is "debug/report"
+buffered reporting on
+log level is failures
+call Counter | faon
+wait3
+auxconnect 5
+faof
+unpowered
+test "short_stroke"
+log out "debug/log"
+log clear
+report out
+report is *

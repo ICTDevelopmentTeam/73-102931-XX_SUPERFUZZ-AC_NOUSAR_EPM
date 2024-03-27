@@ -1,0 +1,9 @@
+!!!!    2    0    1 1652947187  V0851                                         
+!* Top probe [SRT_CLK114M_XO] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:04:04 2022
+disconnect all
+connect s to "CLK114M_XO"; a to "CLK114M_XO"
+connect i to "SRT_CLK114M_XO"; b to "SRT_CLK114M_XO"
+!B!resistor 33, 25.15, 10.00, re2, ar200m ,sa,sb,ed,en
+resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r162" test.

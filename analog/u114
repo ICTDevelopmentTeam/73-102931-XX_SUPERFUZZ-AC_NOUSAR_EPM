@@ -1,0 +1,17 @@
+!!!!    2    0    1 1652163222  Vd071                                         
+test powered analog
+
+  test "VOUT"
+end test
+
+! **********************************************************
+
+subtest "VOUT"
+ disconnect all
+ connect i to nodes "P2V5RT1"
+ connect l to ground
+
+ detector dcv, expect 2.5
+ measure 2.5 * 1.08, 2.5 * 0.92
+end subtest
+

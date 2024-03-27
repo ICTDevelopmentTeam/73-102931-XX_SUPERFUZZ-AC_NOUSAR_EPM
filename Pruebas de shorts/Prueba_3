@@ -1,0 +1,630 @@
+----------------------------------------
+Shorts Report for "shorts".
+Fri Mar 22 17:20:44 2024
+73-102898-01_03
+
+
+!!!Seguir con el debug (Agrupar)
+
+----------------------------------------
+Open #1 Thresh 16, Delay 50us       Ohms
+From:   v                    217113   18
+PMOD_PVCC_P3V3_SFP1_ALT                 
+To:   PMOD_VCC_P3V3_SFP1_ALT  22134   18
+Message is:  None.
+----------------------------------------
+Open #2 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   17
+To:   vdd_vcin_93             22035   17
+Message is:  None.
+----------------------------------------
+Open #3 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   19
+To:   vdd_vcin_92            220133   19
+Message is:  None.
+----------------------------------------
+Open #4 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   25
+To:   VDD_VCIN                22033   25
+Message is:  None.
+----------------------------------------
+Open #5 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   27
+To:   VDD_VCIN_91            215163   27
+Message is:  None.
+----------------------------------------
+Open #6 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   30
+To:   vdd_vcin_2             220132   30
+Message is:  None.
+----------------------------------------
+Open #7 Thresh 16, Delay 50us       Ohms
+From: GND                    215142   31
+To:   p5v                     21610   31
+Message is:  None.
+----------------------------------------
+Open #8 Thresh 25, Delay 50us       Ohms
+From: GND                    215142   35
+To:   vdd_vcin_94             22036   35
+Message is:  None.
+----------------------------------------
+Short #0, Thresh 53, Delay 50us     Ohms
+From:   v                     11478   52
+ac_clk25m_mi0_sync_e_refclk_p              Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at   53
+      *Phantom search terminated at   53
+      *Phantom search terminated at   54
+      *Phantom search terminated at   53
+Total of 1 nodes, Message is:  None.
+----------------------------------------
+Short #0, Thresh 8, Delay 50us      Ohms
+From: PMOD_PH_P3V3_SFP1_ALT  109122    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at  291
+To:   PWR_FUSED_SFP<8>_S1     11472    3  
+      FLTR_P3V3_SFP_RX<8>_S1  11971    4
+      p3v3_sfp1               11338    4
+        v                    116172    3 
+UNNAMED_4095_RES_I469_A                 
+        v                    119170    3 
+PMOD_VSENP_P3V3_SFP1_ALT                
+        v                    113126    4 
+UNNAMED_3_CAP_I59_B_P3V3_SFP1_ALT       
+      PWR_FUSED_SFP<19>_S1   116158    4
+        v                    115152    3 
+FLTR_P3V3_SFP_RX<19>_S1                 
+        v                     11552    4 
+FLTR_P3V3_SFP_TX<19>_S1                 
+      PWR_FUSED_SFP<18>_S1    11561    3
+        v                    114156    3 
+FLTR_P3V3_SFP_RX<18>_S1                 
+        v                     11456    4 
+FLTR_P3V3_SFP_TX<18>_S1                 
+      PWR_FUSED_SFP<17>_S1    11663    3
+        v                    115153    4 
+FLTR_P3V3_SFP_RX<17>_S1                 
+        v                     11553    3 
+FLTR_P3V3_SFP_TX<17>_S1                 
+      PWR_FUSED_SFP<16>_S1    11562    4
+        v                    115156    3 
+FLTR_P3V3_SFP_RX<16>_S1                 
+        v                    114162    5 
+FLTR_P3V3_SFP_TX<16>_S1                 
+      PWR_FUSED_SFP<23>_S1    11652    3
+        v                    115150    4 
+FLTR_P3V3_SFP_RX<23>_S1                 
+        v                    116145    3 
+FLTR_P3V3_SFP_TX<23>_S1                 
+      PWR_FUSED_SFP<22>_S1    11551    4
+        v                     11550    3 
+FLTR_P3V3_SFP_RX<22>_S1                 
+        v                    115151    3 
+FLTR_P3V3_SFP_TX<22>_S1                 
+      PWR_FUSED_SFP<21>_S1    11655    4
+        v                     11556    4 
+FLTR_P3V3_SFP_RX<21>_S1                 
+        v                    116156    4 
+FLTR_P3V3_SFP_TX<21>_S1                 
+      PWR_FUSED_SFP<20>_S1    11555    4
+        v                    115154    4 
+FLTR_P3V3_SFP_RX<20>_S1                 
+        v                    115155    4 
+FLTR_P3V3_SFP_TX<20>_S1                 
+      PWR_FUSED_SFP<15>_S1    11666    4
+        v                    115163    4 
+FLTR_P3V3_SFP_TX<15>_S1                 
+        v                    115161    4 
+FLTR_P3V3_SFP_RX<15>_S1                 
+      PWR_FUSED_SFP<14>_S1   115165    3
+        v                     11563    4 
+FLTR_P3V3_SFP_TX<14>_S1                 
+        v                    115162    4 
+FLTR_P3V3_SFP_RX<14>_S1                 
+      PWR_FUSED_SFP<13>_S1    11670    4
+        v                     11767    3 
+FLTR_P3V3_SFP_RX<13>_S1                 
+        v                     11564    4 
+FLTR_P3V3_SFP_TX<13>_S1                 
+      PWR_FUSED_SFP<12>_S1    11570    4
+        v                    115164    4 
+FLTR_P3V3_SFP_RX<12>_S1                 
+        v                    114165    4 
+FLTR_P3V3_SFP_TX<12>_S1                 
+      PWR_FUSED_SFP<11>_S1    11674    3
+        v                     11768    4 
+FLTR_P3V3_SFP_TX<11>_S1                 
+        v                    117168    4 
+FLTR_P3V3_SFP_RX<11>_S1                 
+      PWR_FUSED_SFP<10>_S1    11573    4
+        v                     11667    3 
+FLTR_P3V3_SFP_TX<10>_S1                 
+        v                    116167    5 
+FLTR_P3V3_SFP_RX<10>_S1                 
+      PWR_FUSED_SFP<9>_S1     11672    3
+      FLTR_P3V3_SFP_RX<9>_S1  11970    3
+      FLTR_P3V3_SFP_TX<9>_S1 119171    4
+      PWR_FUSED_SFP<7>_S1    117176    4
+      FLTR_P3V3_SFP_TX<7>_S1  11972    4
+      FLTR_P3V3_SFP_RX<7>_S1 119173    4
+      PWR_FUSED_SFP<6>_S1    115172    4
+      FLTR_P3V3_SFP_TX<6>_S1 119174    4
+      FLTR_P3V3_SFP_RX<6>_S1  11973    4
+      PWR_FUSED_SFP<5>_S1     11776    4
+      FLTR_P3V3_SFP_RX<5>_S1  11974    3
+      FLTR_P3V3_SFP_TX<5>_S1 119175    4
+      PWR_FUSED_SFP<4>_S1     11572    3
+      FLTR_P3V3_SFP_RX<4>_S1  11975    4
+      FLTR_P3V3_SFP_TX<4>_S1 119176    4
+      PWR_FUSED_SFP<3>_S1    116173    3
+      FLTR_P3V3_SFP_TX<3>_S1 114164    3
+      FLTR_P3V3_SFP_RX<3>_S1  11976    4
+      PWR_FUSED_SFP<2>_S1     11673    3
+      FLTR_P3V3_SFP_TX<2>_S1 117165    4
+      FLTR_P3V3_SFP_RX<2>_S1  11464    4
+      PWR_FUSED_SFP<1>_S1    116174    4
+      FLTR_P3V3_SFP_RX<1>_S1 117166    4
+      FLTR_P3V3_SFP_TX<1>_S1 117167    3
+      PWR_FUSED_SFP<0>_S1    115174    3
+      FLTR_P3V3_SFP_RX<0>_S1 117169    4
+      FLTR_P3V3_SFP_TX<0>_S1 117171    4
+      FLTR_P3V3_SFP_TX<8>_S1 119172    3
+      *Phantom search terminated at   10
+Total of 77 nodes, Message is:  None.
+----------------------------------------
+Short #0, Thresh 8, Delay 50us      Ohms
+From: PMOD_PH_P3V3_SFP0_ALT   21471    1  Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at  276
+      *Phantom search terminated at    9
+To:   PWR_FUSED_SFP<8>_S0     21950    2
+      FLTR_P3V3_SFP_RX<8>_S0 221151    2
+      p3v3_sfp0              214150    2
+        v                    221116    2 
+UNNAMED_4095_RES_I448_A                 
+        v                     22248    2 
+PMOD_VSENP_P3V3_SFP0_ALT                
+        v                     21464    2 
+UNNAMED_3_CAP_I59_B_P3V3_SFP0_ALT       
+      PWR_FUSED_SFP<19>_S0   221111    2
+        v                     22310    3 
+FLTR_P3V3_SFP_RX<19>_S0                 
+        v                    223108    2 
+FLTR_P3V3_SFP_TX<19>_S0                 
+      PWR_FUSED_SFP<18>_S0    22111    2
+        v                     22308    2 
+FLTR_P3V3_SFP_RX<18>_S0                 
+        v                     22309    2 
+FLTR_P3V3_SFP_TX<18>_S0                 
+      PWR_FUSED_SFP<17>_S0   221113    2
+        v                     22313    3 
+FLTR_P3V3_SFP_RX<17>_S0                 
+        v                     22312    3 
+FLTR_P3V3_SFP_TX<17>_S0                 
+      PWR_FUSED_SFP<16>_S0    22113    2
+        v                    222147    2 
+FLTR_P3V3_SFP_RX<16>_S0                 
+        v                     22247    2 
+FLTR_P3V3_SFP_TX<16>_S0                 
+      PWR_FUSED_SFP<23>_S0   221110    3
+        v                     22303    2 
+FLTR_P3V3_SFP_RX<23>_S0                 
+        v                    223102    3 
+FLTR_P3V3_SFP_TX<23>_S0                 
+      PWR_FUSED_SFP<22>_S0    22110    2
+        v                    223101    3 
+FLTR_P3V3_SFP_RX<22>_S0                 
+        v                     22302    3 
+FLTR_P3V3_SFP_TX<22>_S0                 
+      PWR_FUSED_SFP<21>_S0   221109    2
+        v                    223106    2 
+FLTR_P3V3_SFP_RX<21>_S0                 
+        v                    223105    2 
+FLTR_P3V3_SFP_TX<21>_S0                 
+      PWR_FUSED_SFP<20>_S0    22109    2
+        v                     22305    2 
+FLTR_P3V3_SFP_RX<20>_S0                 
+        v                     22306    3 
+FLTR_P3V3_SFP_TX<20>_S0                 
+      PWR_FUSED_SFP<15>_S0    22116    2
+        v                     22246    2 
+FLTR_P3V3_SFP_TX<15>_S0                 
+        v                    222146    3 
+FLTR_P3V3_SFP_RX<15>_S0                 
+      PWR_FUSED_SFP<14>_S0   220144    2
+        v                     22149    2 
+FLTR_P3V3_SFP_TX<14>_S0                 
+        v                    221149    2 
+FLTR_P3V3_SFP_RX<14>_S0                 
+      PWR_FUSED_SFP<13>_S0   220143    2
+        v                    221148    2 
+FLTR_P3V3_SFP_RX<13>_S0                 
+        v                     22148    2 
+FLTR_P3V3_SFP_TX<13>_S0                 
+      PWR_FUSED_SFP<12>_S0    22042    2
+        v                    221147    2 
+FLTR_P3V3_SFP_RX<12>_S0                 
+        v                     22147    2 
+FLTR_P3V3_SFP_TX<12>_S0                 
+      PWR_FUSED_SFP<11>_S0    22041    2
+        v                     22146    2 
+FLTR_P3V3_SFP_TX<11>_S0                 
+        v                    221146    2 
+FLTR_P3V3_SFP_RX<11>_S0                 
+      PWR_FUSED_SFP<10>_S0    21946    2
+        v                     22052    2 
+FLTR_P3V3_SFP_TX<10>_S0                 
+        v                    220152    2 
+FLTR_P3V3_SFP_RX<10>_S0                 
+      PWR_FUSED_SFP<9>_S0     22045    2
+      FLTR_P3V3_SFP_RX<9>_S0  22153    2
+      FLTR_P3V3_SFP_TX<9>_S0  22152    2
+      PWR_FUSED_SFP<7>_S0    219149    2
+      FLTR_P3V3_SFP_TX<7>_S0 221150    2
+      FLTR_P3V3_SFP_RX<7>_S0  22150    2
+      PWR_FUSED_SFP<6>_S0     21949    2
+      FLTR_P3V3_SFP_TX<6>_S0  22058    2
+      FLTR_P3V3_SFP_RX<6>_S0 220158    2
+      PWR_FUSED_SFP<5>_S0    219148    2
+      FLTR_P3V3_SFP_RX<5>_S0 220157    2
+      FLTR_P3V3_SFP_TX<5>_S0  22057    2
+      PWR_FUSED_SFP<4>_S0     21948    2
+      FLTR_P3V3_SFP_RX<4>_S0 220156    2
+      FLTR_P3V3_SFP_TX<4>_S0  22056    2
+      PWR_FUSED_SFP<3>_S0    219147    2
+      FLTR_P3V3_SFP_TX<3>_S0  22055    3
+      FLTR_P3V3_SFP_RX<3>_S0 220155    2
+      PWR_FUSED_SFP<2>_S0     21947    2
+      FLTR_P3V3_SFP_TX<2>_S0  22054    2
+      FLTR_P3V3_SFP_RX<2>_S0 220154    2
+      PWR_FUSED_SFP<1>_S0    219146    2
+      FLTR_P3V3_SFP_RX<1>_S0 220153    2
+      FLTR_P3V3_SFP_TX<1>_S0  22053    2
+      PWR_FUSED_SFP<0>_S0    217154    2
+      FLTR_P3V3_SFP_RX<0>_S0 219165    2
+      FLTR_P3V3_SFP_TX<0>_S0 215143    2
+      FLTR_P3V3_SFP_TX<8>_S0  22151    2
+      *Phantom search terminated at    9
+Total of 77 nodes, Message is:  None.
+----------------------------------------
+Short #0, Thresh 8, Delay 50us      Ohms
+From: PMOD_PH_5V             105149    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at   12
+      *Phantom search terminated at   13
+      *Phantom search terminated at   12
+      *Phantom search terminated at   11
+      *Phantom search terminated at   14
+      *Phantom search terminated at   11
+To:   VDD_VCIN_1             220138    4
+      VDD_VCIN_98             21663    4
+      VDD_VCIN_3              22038    4
+      vdd_vcin_96            220137    4
+      vdd_vcin_95            220136    4
+      vdd_vcin_94             22036    4
+      vdd_vcin_93             22035    4
+      vdd_vcin_92            220133    5
+      VDD_VCIN                22033    4
+      VDD_VCIN_91            215163    4
+      vdd_vcin_2             220132    4
+      p5v                     21610    3
+      PMOD_VSENP_5V          221107    4
+      UNNAMED_3_CAP_I59_B_5V  22031    3
+Total of 15 nodes, Message is:  None.
+----------------------------------------
+Short #0, Thresh 8, Delay 50us      Ohms
+From: PMOD_PH_3V3            105146    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at    9
+To:   p3_3v                   10756    3
+      UNNAMED_55_CAP_I111_B   10562    4
+      PMOD_VSENP_3V3         107149    4
+      POSC_212M5_ADD         217133    3
+        v                    110166    3 
+fltr_p3v3_osc_212m_buf_vcc              
+        v                    110165    3 
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+        v                     11063    4 
+fltr_p3v3_osc_rtm2_156m_buf_vcc         
+      fltr_p3v3_1pps_mux_in  108162    3
+      fltr_p3v3_1pps_mux_out 107155    4
+        v                    215123    3 
+fltr_p3v3_osc_156m_buf_vcc              
+        v                    107148    3 
+UNNAMED_3_CAP_I59_B_3V3                 
+      FLTR_P3V3_OSC_212M5     11064    3
+        v                     11065    4 
+unnamed_4096_cap_i1159_b                
+      *Phantom search terminated at    9
+Total of 14 nodes, Message is:  None.
+----------------------------------------
+Short #0, Thresh 8, Delay 50us      Ohms
+From: PMOD_PH_1V2S           105158    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+      *Phantom search terminated at    8
+      *Phantom search terminated at    9
+      *Phantom search terminated at    9
+To:   FLTR_BV1_AVDDL_RT1_2    21416    7
+      FLTR_BV0_AVDDL_RT1_2    21423    6
+      vbus_pm                 22224    4
+        v                    223123    3 
+UNNAMED_3_CAP_I59_B_1V2S                
+      PMOD_VSENP_1V2S         22325    3
+        v                    223124    4 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_2
+      VDDHA_1P2V_MAIN         22323    3
+      ISENSE_P_PM             22324    3
+      ISENSE_RES_P_PM        223121    3
+      ISENSE_N_PM             22322    3
+      UNNAMED_1_RES_I9_A_PM  221134    3
+      VDDHA_1P2V             217115    3
+      FLTR_VDDHA_1P2V         21607    3
+      VDDHA_FLTR_SENSE        22029    3
+Total of 15 nodes, Message is:  None.
+----------------------------------------
+Short #1, Thresh 8, Delay 50us      Ohms
+From: VDD_BOOT_R              10538    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+  &   VDD_PH                  10554
+To:   VDD_PH_1                10550    7
+      *Phantom search terminated at    8
+      *Phantom search terminated at    8
+      *Phantom search terminated at    9
+      *Phantom search terminated at   10
+      *Phantom search terminated at    8
+      FLTR_PLLGNDCORE_3       21926    7
+      FLTR_BV1_AVDDL_RT7_8    11349    4
+      FLTR_BV1_AVDDL_RT5_6   113166    4
+      FLTR_BV1_AVDDH_RT7_8    11345    4
+      FLTR_BV1_AVDDH_RT5_6   113147    4
+      FLTR_BV_AVDDL_RT9       11344    3
+      FLTR_BV0_AVDDL_RT7_8   113153    4
+      FLTR_BV_AVDDH_RT9       11343    4
+      FLTR_BV0_AVDDH_RT7_8    11348    4
+      FLTR_BV0_AVDDH_RT5_6   113149    3
+      P1V0RT2_AVDD           113148    3
+      P1V0RT2_AVDD_SENSE     113145    4
+      FLTR_BV0_AVDDL_RT5_6    11370    4
+      *Phantom search terminated at    8
+Total of 16 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 8, Delay 50us      Ohms
+From: VDD_BOOT_R_1           105134    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+  &   VDD_PH_1                10550
+To:   vdd_ph_2                20352    7
+      *Phantom search terminated at   10
+      *Phantom search terminated at    8
+      *Phantom search terminated at   10
+      *Phantom search terminated at    9
+      P1V0RT2_DVDD_SENSE     220128    4
+      P1V0RT2_DVDD            21512    3
+      P1V0RT1_DVDD_SENSE      21653    7
+      P1V0RT1_DVDD           215127    7
+      *Phantom search terminated at   14
+      *Phantom search terminated at    9
+Total of 7 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 8, Delay 50us      Ohms
+From: VDD_BOOT_R_2            20213    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+  &   vdd_ph_2                20352
+To:   VDD_BOOT_R_3            10533    7
+      VDD_PH_3                10556    4
+      VDD_BOOT_R_91          209166    7
+      VDD_PH_91              205163    5
+      VDD_BOOT_R_92          202113    5
+      vdd_ph_92               20353    3
+      VDD_BOOT_R_93          202114    5
+      vdd_ph_93               20222    3
+      VDD_BOOT_R_94          105153    6
+      vdd_ph_94               10553    4
+      VDD_BOOT_R_95           10458    6
+      vdd_ph_95              105152    4
+      VDD_BOOT_R_96           10455    6
+      vdd_ph_96              105150    4
+      VDD_BOOT_R_98           21571    6
+      VDD_PH_98               22070    5
+      *Phantom search terminated at   13
+      *Phantom search terminated at   10
+      AVDD_SENSE_N            22223    6
+      FLTR_VDDA_CLK_0P9V_3   215110    5
+      FLTR_VDDA_TX_0P9V_3     21715    5
+      P0_9V                   22028    6
+      P1V0RT2_DVDD_SENSE     220128    5
+      P1V0RT2_DVDD            21512    6
+      P1V0RT1_DVDD_SENSE      21653    5
+      P1V0RT1_DVDD           215127    6
+        v                    204114    7 
+UNNAMED_4141_RES_I146_A                 
+      P1V0RT1_AVDD            22165    5
+      P1V0RT1_AVDD_SENSE     219167    7
+      FLTR_BV1_AVDDL_RT3_4   214111    7
+      *Phantom search terminated at    8
+      *Phantom search terminated at    9
+      *Phantom search terminated at    8
+      *Phantom search terminated at    9
+      SNDN_VSS_SENSE_N        22009    4
+      dgnd_sense_r_5         222114    4
+      SNDN_VDD_SENSE_P       220127    3
+      unnamed_2_cap_i622_b_a  22128    6
+      p12v                   215151    5
+      *Phantom search terminated at    8
+      *Phantom search terminated at    8
+      *Phantom search terminated at    8
+      GND                    215142    4
+      PMOD_VSENN_3V3         220108    5
+      PMOD_VSENN_5V           22008    4
+        v                     20941    4 
+unnamed_69_at90so72_i676_clk            
+        v                     21935    3 
+UNNAMED_4095_RES_I454_A                 
+        v                     21766    4 
+PMOD_VSENN_P3V3_SFP0_ALT                
+        v                     22004    3 
+UNNAMED_4095_RES_I468_A                 
+        v                    222107    5 
+PMOD_VSENN_P3V3_SFP1_ALT                
+      mi1_pd_vrefb8an0       217134    3
+      mi1_pd_vrefb7an0        21651    3
+      mi1_pd_vrefb5an0       216150    3
+      mi1_pd_vrefb4an0        21650    3
+      mi1_pd_vref6an0        214158    3
+      mi1_pd_vref5bn0         21458    3
+      mi1_pd_vrefb3bn0        21733    3
+      mi1_pd_vrefb3an0       216143    3
+        v                    217131    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+      PMOD_VSENN_1V2S        222104    4
+        v                    216138    3 
+unnamed_69_at90so72_i676_mode           
+        v                     22007    3 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+        v                    222113    4 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+        v                    219134    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+        v                    222106    3 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+        v                    220107    5 
+UNNAMED_3_CAP_I59_A_3V3                 
+      P1V0RT2_DGND_SENSE     219132    4
+      agnd_sense_r_rtv2       22205    4
+      P1V0RT1_DGND_SENSE      21649    3
+      agnd_sense_r_rtv1       21963    4
+      AVDD_SENSE_P            21925    5
+      agnd_sense_r_5         222103    5
+      FLTR_PLLGND_FC_3       219121    4
+      FLTR_PLLGNDTEST_3      219116    4
+      FLTR_PLLGNDCORE_3       21926    4
+      FLTR_PLLGND1P8V_3       21922    4
+      P1V0RT2_AGND_SENSE      21933    4
+      FLTR_BV1_AVDDL_RT7_8    11349    5
+      FLTR_BV1_AVDDL_RT5_6   113166    5
+      FLTR_BV1_AVDDH_RT7_8    11345    5
+      FLTR_BV1_AVDDH_RT5_6   113147    7
+      FLTR_BV_AVDDL_RT9       11344    7
+      FLTR_BV0_AVDDL_RT7_8   113153    7
+      *Phantom search terminated at    9
+      *Phantom search terminated at   19
+      dgnd_sense_r_rtv2      222105    4
+      P1V0RT1_AGND_SENSE     216149    4
+      dgnd_sense_r_rtv1      219163    4
+        v                    220105    3 
+UNNAMED_4095_RES_I478_A                 
+        v                    222110    4 
+UNNAMED_4095_RES_I482_B                 
+        v                    215157    3 
+UNNAMED_4095_RES_I464_A                 
+        v                    214167    3 
+UNNAMED_4095_RES_I465_B                 
+        v                    220104    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+        v                     22209    3 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+        v                    220109    5 
+UNNAMED_3_CAP_I59_A_1V2S                
+      vdd_p0v875             215108    2
+      VDD_VCIN_1             220138    7
+      *Phantom search terminated at   13
+      UNNAMED_2_CAP_I541_B_A 219112    5
+        v                    219129    5 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+        v                     21556    4 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+      0V_3                    20412    4
+Total of 92 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 1000, Delay 92ms   Ohms
+From: FLTR_FC_MM_BOT_3       203103  247  Medir este nodo a VCC y GND (Del integrado que va conectado)
+  &   FLTR_PLL_TEST_SIDE_3    20303
+  &   FLTR_PLLCORE_TOP_3     203102
+  &   FLTR_PLL_PCIE_TOP_3     20302
+  &   p1v8                   205114
+      *Phantom search terminated at 1002
+Total of 5 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 8, Delay 50us      Ohms
+From: dvdd_sense_r_5         222122    2  Medir este nodo a VCC y GND (Del integrado que va conectado)
+  &   SNDN_VDD_SENSE_P       220127
+To:   unnamed_2_cap_i622_b_a  22128    6
+      p12v                   215151    6
+      *Phantom search terminated at  132
+      *Phantom search terminated at    8
+      *Phantom search terminated at    8
+      *Phantom search terminated at   10
+      GND                    215142    4
+      PMOD_VSENN_3V3         220108    5
+      PMOD_VSENN_5V           22008    4
+        v                     20941    4 
+unnamed_69_at90so72_i676_clk            
+        v                     21935    4 
+UNNAMED_4095_RES_I454_A                 
+        v                     21766    5 
+PMOD_VSENN_P3V3_SFP0_ALT                
+        v                     22004    4 
+UNNAMED_4095_RES_I468_A                 
+        v                    222107    5 
+PMOD_VSENN_P3V3_SFP1_ALT                
+      mi1_pd_vrefb8an0       217134    4
+      mi1_pd_vrefb7an0        21651    3
+      mi1_pd_vrefb5an0       216150    3
+      mi1_pd_vrefb4an0        21650    4
+      mi1_pd_vref6an0        214158    4
+      mi1_pd_vref5bn0         21458    3
+      mi1_pd_vrefb3bn0        21733    4
+      mi1_pd_vrefb3an0       216143    4
+        v                    217131    4 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+      PMOD_VSENN_1V2S        222104    4
+        v                    216138    4 
+unnamed_69_at90so72_i676_mode           
+        v                     22007    4 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+        v                    222113    4 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+        v                    219134    4 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+        v                    222106    4 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+        v                    220107    6 
+UNNAMED_3_CAP_I59_A_3V3                 
+      P1V0RT2_DGND_SENSE     219132    5
+      agnd_sense_r_rtv2       22205    5
+      P1V0RT1_DGND_SENSE      21649    4
+      agnd_sense_r_rtv1       21963    4
+      AVDD_SENSE_P            21925    5
+      agnd_sense_r_5         222103    5
+      FLTR_PLLGND_FC_3       219121    4
+      FLTR_PLLGNDTEST_3      219116    4
+      FLTR_PLLGNDCORE_3       21926    4
+      FLTR_PLLGND1P8V_3       21922    5
+      P1V0RT2_AGND_SENSE      21933    4
+      FLTR_BV1_AVDDL_RT7_8    11349    5
+      FLTR_BV1_AVDDL_RT5_6   113166    6
+      FLTR_BV1_AVDDH_RT7_8    11345    6
+      FLTR_BV1_AVDDH_RT5_6   113147    7
+      FLTR_BV_AVDDL_RT9       11344    6
+      *Phantom search terminated at    8
+      *Phantom search terminated at    8
+      P1V0RT2_AVDD           113148    7
+      dgnd_sense_r_rtv2      222105    4
+      P1V0RT1_AGND_SENSE     216149    4
+      dgnd_sense_r_rtv1      219163    4
+        v                    220105    4 
+UNNAMED_4095_RES_I478_A                 
+        v                    222110    4 
+UNNAMED_4095_RES_I482_B                 
+        v                    215157    4 
+UNNAMED_4095_RES_I464_A                 
+        v                    214167    3 
+UNNAMED_4095_RES_I465_B                 
+        v                    220104    4 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+        v                     22209    4 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+        v                    220109    5 
+UNNAMED_3_CAP_I59_A_1V2S                
+      vdd_p0v875             215108    3
+      *Phantom search terminated at   12
+      *Phantom search terminated at   11
+      UNNAMED_3_CAP_I59_A_5V 220103    6
+      UNNAMED_2_CAP_I541_B_A 219112    6
+        v                    219129    5 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+        v                     21556    4 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+      0V_3                    20412    4
+Total of 61 nodes, Message is:  None.
+------End, 19 Problems Reported---------

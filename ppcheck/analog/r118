@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes SRT_MI_IO_DATA P-Pin resistance"
+report "check nodes MI_IO_DATA P-Pin resistance"
+end on failure
+disconnect all
+connect s to "SRT_MI_IO_DATA"
+connect i to "MI_IO_DATA"
+resistor 12,20,100, re1, ar100m,ed
+off failure

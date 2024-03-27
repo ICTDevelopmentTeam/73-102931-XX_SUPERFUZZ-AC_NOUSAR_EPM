@@ -1,0 +1,231 @@
+----------------------------------------
+73-102898-01_03
+Tue Nov 28 16:26:32 2023
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   142.19p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+r3_3 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   75.031
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274305LU
+----------------------------------------
+73-102898-01_03
+Tue Nov 28 16:27:04 2023
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   142.45p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM274305LU
+----------------------------------------
+73-102898-01_03
+Tue Nov 28 16:27:07 2023
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   142.55p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM274305LU
+----------------------------------------
+73-102898-01_03
+Tue Nov 28 16:27:11 2023
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   142.61p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM274305LU
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 28 18:17:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: i2c_sda_sfp<0>         217141 Open
+                r1_s0.1
+               rn33_s0.3
+           rn33_s0%pin_3_6.1
+                u49.V19
+To:     v                     21967
+UNNAMED_3_RES_I174_B_S0                 
+                r1_s0.2
+               sfp_s0.A4
+Common Devices:
+                 r1_s0
+Message is:
+Check R1_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<0>         216163 Open
+                r2_s0.1
+                 r818.1
+               rn33_s0.4
+           rn33_s0%pin_4_5.1
+To:   srt_sfp0_i2c_scl_edge   22137
+                 r818.2
+                u49.AB22
+Common Devices:
+                  r818
+Message is:
+Check R818
+----------------------------------------
+Open #3 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<23>         22112  836
+                r40_s0.2
+                 r838.1
+               rn100_s0.4
+           rn100_s0%pin_4_5.1
+To:   srt_sfp23_i2c_scl_edge  22034  836
+                 r838.2
+                u49.AD16
+Common Devices:
+                  r838
+Message is:
+Check R838
+------End, 3 Problems Reported----------
+S/N:FLM274305N4
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 28 18:17:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165   71
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258   71
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<0>         216163   36
+                r2_s0.1
+                 r818.1
+               rn33_s0.4
+           rn33_s0%pin_4_5.1
+To:   srt_sfp0_i2c_scl_edge   22137   36
+                 r818.2
+                u49.AB22
+Common Devices:
+                  r818
+Message is:
+Check R818
+------End, 2 Problems Reported----------
+S/N:FLM274305N4
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 28 18:18:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165  584
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258  584
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM274305N4
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 28 18:18:12 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165 1190
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258 1190
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM274305N4

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863975   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:36 2022
+disconnect all
+connect s to "TSEN1_RTV2"
+connect i to "TSEN_R"
+jumper 5.94, re1, ar200m
+! "r5_91_rtv2" test.

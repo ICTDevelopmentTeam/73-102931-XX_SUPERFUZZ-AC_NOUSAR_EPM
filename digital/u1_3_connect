@@ -1,0 +1,445 @@
+!!!!   24    0    1 1652259267  V8772                                         
+connect "u1_3"
+
+test inputs only
+ground bounce suppression   on
+family "LVT_1V8"
+
+chain "u29_u1_3"
+  tdi "JTAG_TDI_HDR_CPLD1_3V3"  family "LVT"
+  tdo "JTAG_TDO_HDR_3V3"  family "LVT"
+  tms "JTAG_TMS_HDR_3V3"  family "LVT"
+  tck "SRT_JTAG_TCK_HDR_3V3" family "LVT"
+  trst "JTAG_TRST_L_HDR_3V3" family "LVT"
+  devices
+    "u29", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u30", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u37", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u38", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u1_rt1_2", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt1_2", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt3_4", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt3_4", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt5_6", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt5_6", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt7_8", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt7_8", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt9", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_3", "custom_lib/b081199_ec6955100c.bsm", "BGA", no
+  end devices
+end chain
+
+disables "disable vector"
+  node "FPGA_SNDN_1P8_MS<0>" family "LVT_1V8" hybrid default "0"   !pull up
+  node "FPGA_SNDN_1P8_MS<1>" family "LVT_1V8" hybrid default "0"   !pull down
+  node "SNDN_CPU2JTAG_EN" family "LVT_1V8" hybrid default "0"      !pull down
+  node "SNDN_EXTLOOP_EN" family "LVT_1V8" hybrid default "0"       !pull down
+  node "SNDN_JTAG2CPU_EN" family "LVT_1V8" hybrid default "0"      !floating
+  node "TEST_ENABLE_3" family "LVT_1V8" hybrid default "0"         !pull down
+  node "JTAG_CABLE_PRSNT_L" family "LVT" hybrid default "0"
+! node "UNNAMED_4103_AVC8T245_I56_OE" family "LVT_2V5" hybrid default "1"!pull down
+! node "UNNAMED_4103_AVC8T245_I60_OE" family "LVT_2V5" hybrid default "1" !pull down
+! node "UNNAMED_4103_PCA9617_I144_EN" family "LVT_2V5" hybrid default "0" !pull up
+
+  pcf order is nodes "FPGA_SNDN_1P8_MS<0>","FPGA_SNDN_1P8_MS<1>"
+  pcf order is nodes "SNDN_CPU2JTAG_EN","SNDN_EXTLOOP_EN"
+  pcf order is nodes "SNDN_JTAG2CPU_EN","TEST_ENABLE_3"
+  pcf order is nodes "JTAG_CABLE_PRSNT_L"
+! pcf order is nodes "UNNAMED_4103_AVC8T245_I56_OE"
+! pcf order is nodes "UNNAMED_4103_AVC8T245_I60_OE"
+! pcf order is nodes "UNNAMED_4103_PCA9617_I144_EN"
+  unit "disable_1"
+  pcf
+  "0000000"
+  end pcf
+  end unit
+end disables
+
+vector cycle 10u
+receive delay 8u
+
+set slew rate on nodes "JTAG_TDI_HDR_CPLD1_3V3" to 250
+set slew rate on nodes "JTAG_TMS_HDR_3V3" to 250
+set slew rate on nodes "SRT_JTAG_TCK_HDR_3V3" to 250
+
+nodes
+!#node "CLK_OBS0_N_3" hybrid test "u1_3.AM2" ! Stuck at "0"
+!#node "CLK_OBS0_P_3" hybrid test "u1_3.AM1" ! Stuck at "0"
+  node "CLK_OBS_EN_3" hybrid test "u1_3.AM4"
+  node "FPGA_SNDN_GPIO5" hybrid test "u1_3.L5"
+  node "FPGA_SNDN_GPIO6" hybrid test "u1_3.K12"
+  node "FPGA_SNDN_GPIO7" hybrid test "u1_3.K11"
+  node "FPGA_SNDN_GPIO8" hybrid test "u1_3.L8"
+  node "FPGA_SNDN_GPIO9" hybrid test "u1_3.L7"
+  node "FPGA_SNDN_GPIO10" hybrid test "u1_3.L10"
+  node "FPGA_SNDN_GPIO11" hybrid test "u1_3.AK2"
+  node "FPGA_SNDN_GPIO12" hybrid test "u1_3.AK4"
+  node "FPGA_SNDN_GPIO13" hybrid test "u1_3.AK8"
+  node "FPGA_SNDN_GPIO14" hybrid test "u1_3.AK7"
+  node "FPGA_SNDN_GPIO15" hybrid test "u1_3.AK5"
+  node "FPGA_SNDN_GPIO16" hybrid test "u1_3.AL1"
+  node "FPGA_SNDN_GPIO17" hybrid test "u1_3.AL2"
+  node "FPGA_SNDN_GPIO18" hybrid test "u1_3.AL3"
+  node "FPGA_SNDN_GPIO19" hybrid test "u1_3.AL9"
+  node "FPGA_SNDN_GPIO20" hybrid test "u1_3.AL10"
+  node "FPGA_SNDN_GPIO21" hybrid test "u1_3.AL11"
+  node "FPGA_SNDN_HW_I2C_SCL" hybrid test "u1_3.AM10"
+  node "FPGA_SNDN_HW_I2C_SDA" hybrid test "u1_3.AM6"
+!#node "PCS_OMA_N_3" hybrid test "u1_3.P4" ! Stuck at "1"
+!#node "PCS_OMA_P_3" hybrid test "u1_3.P5" ! Stuck at "1"
+!#node "PCS_OMB_N_3" hybrid test "u1_3.P6" ! Stuck at "1"
+!#node "PCS_OMB_P_3" hybrid test "u1_3.P7" ! Stuck at "1"
+  node "PLL_OBS_EN_3" hybrid test "u1_3.AM5"
+  node "SNDN_CORE_FREQ_SEL_0" hybrid test "u1_3.AL4"
+  node "SNDN_CORE_FREQ_SEL_1" hybrid test "u1_3.AM8"
+  node "SNDN_CORE_PLL_BYP" hybrid test "u1_3.N8"
+  node "SNDN_CORE_PLL_RST_L" hybrid test "u1_3.N3"
+  node "SNDN_CORE_RESET_L" hybrid test "u1_3.N4"
+  node "SNDN_PCIE_CORE_RST_L" hybrid test "u1_3.M11"
+  node "SNDN_PCIE_PE_RST_L" hybrid test "u1_3.N6"
+  node "SNDN_PCIE_PLL_BYP" hybrid test "u1_3.N7"
+  node "SNDN_PCIE_PLL_RST_L" hybrid test "u1_3.M7"
+  node "SNDN_PTP_SYNC_MASTER" hybrid test "u1_3.AL8"
+  node "SNDN_PTP_SYNC_SLAVE" hybrid test "u1_3.AL6"
+  node "SNDN_USR_DRV_EN" hybrid test "u1_3.M8"
+end nodes
+
+!IPG: Inaccessible nodes
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_N<2>"
+!IPG: node "AC_SDC0_AC_RX_N_3"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS9_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS9_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS10_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS10_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS11_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS11_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS17_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS16_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS15_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS14_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS13_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS12_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS0_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS3_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS2_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS5_RX_S0_P<2>"
+!IPG: node "AC_SDC0_AC_RX_P_3"
+!IPG: node "HSD_RT_HOST_HS17_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS16_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS15_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS14_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS13_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS12_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_N<1>"
+!IPG: node "LAN1_PORT0_CPU_RX_P"
+!IPG: node "HSD_PE_DAV_CPU_N"
+!IPG: node "HSD_PE_DAV_CPU_P"
+!IPG: node "AC_PCIE_RX_P_3"
+!IPG: node "AC_PCIE_RX_N_3"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS2_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS5_TX_S0_P<1>"
+!IPG: node "LAN1_PORT0_CPU_RX_N"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS0_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS3_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS1_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS1_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS4_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS4_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS6_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS6_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS7_TX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_P<0>"
+!IPG: node "HSD_RT_HOST_HS7_RX_S0_N<0>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_P<2>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_P<3>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_N<3>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_N<1>"
+!IPG: node "HSD_RT_HOST_HS8_TX_S0_P<1>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_N<2>"
+!IPG: node "HSD_RT_HOST_HS8_RX_S0_P<2>"
+
+!IPG: Family information could not be found for node CLK_OBS0_N_3
+!IPG: Family information could not be found for node CLK_OBS0_P_3
+!IPG: Family information could not be found for node CLK_OBS_EN_3
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO5
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO6
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO7
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO8
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO9
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO10
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO11
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO12
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO13
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO14
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO15
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO16
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO17
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO18
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO19
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO20
+!IPG: Family information could not be found for node FPGA_SNDN_GPIO21
+!IPG: Family information could not be found for node FPGA_SNDN_HW_I2C_SCL
+!IPG: Family information could not be found for node FPGA_SNDN_HW_I2C_SDA
+!IPG: Family information could not be found for node PCS_OMA_N_3
+!IPG: Family information could not be found for node PCS_OMA_P_3
+!IPG: Family information could not be found for node PCS_OMB_N_3
+!IPG: Family information could not be found for node PCS_OMB_P_3
+!IPG: Family information could not be found for node PLL_OBS_EN_3
+!IPG: Family information could not be found for node SNDN_CORE_FREQ_SEL_0
+!IPG: Family information could not be found for node SNDN_CORE_FREQ_SEL_1
+!IPG: Family information could not be found for node SNDN_CORE_PLL_BYP
+!IPG: Family information could not be found for node SNDN_CORE_PLL_RST_L
+!IPG: Family information could not be found for node SNDN_CORE_RESET_L
+!IPG: Family information could not be found for node SNDN_PCIE_CORE_RST_L
+!IPG: Family information could not be found for node SNDN_PCIE_PE_RST_L
+!IPG: Family information could not be found for node SNDN_PCIE_PLL_BYP
+!IPG: Family information could not be found for node SNDN_PCIE_PLL_RST_L
+!IPG: Family information could not be found for node SNDN_PTP_SYNC_MASTER
+!IPG: Family information could not be found for node SNDN_PTP_SYNC_SLAVE
+!IPG: Family information could not be found for node SNDN_USR_DRV_EN
+end connect
+

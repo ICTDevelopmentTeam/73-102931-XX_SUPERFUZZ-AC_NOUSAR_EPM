@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+AGILENT 3070 BOARD TEST GRADER               Tue May 17 14:38:04 2022  page 1  
+
+BScan   Interconnect   Quality REPORT
+-------------------------------------------------------------------------------
+
+Board Path:              ./
+Board Serial #:          Board1
+Date of Data generation: Fri May 13 15:00:48 2022
+
+Number of test runs (in config.bdg): 10
+Number of tests: 3
+
+Designator                                                        Num  Num Com
+                                                                 Pass Fail Ref
+
+u29_u1_3_dis                                                       10    0 ...
+
+Designator                                                        Num  Num Com
+                                                                 Pass Fail Ref
+
+u29_u1_3_aio                                                       10    0 ...
+u29_u1_3                                                           10    0 ...
+
+The columns have the following meaning:
+Designator: This is the main device designator.  If a device test has several
+            test statements (e.g. diode tests on the emitter-base and
+            base-collector junctions of a transistor) a sub-designator is added
+Thr:        The threshold for determining an open or closed result.
+O/C:        Open or closed, depending on the test.
+Nom:        The nominal value in the test statement.
+Low:        The lower limit in the test statement.
+High:       The upper limit in the test statement.
+Mean:       The mean of the values obtained by repeating the test.
+StdDev:     The standard deviation of the obtained by repeating the test.
+Margin:     The difference between the threshold and the closed measurements.
+CPK:        The coefficient of producibility. CPK greater than 10 provides
+            confidence in the producibility and stability of the test.
+CP:         The minimum value where the CPK is determined by the limit 
+	    closest to the mean.  CP is equal to CPK where the mean 
+            is centered.  
+# Bad:      The number of times the test failed. 
+Flg:        These columns will have a warning flag character in the
+            corresponding column (e.g. M if the mean is not centered in the
+            limits band).
+Com Ref:    This will allow the user to enter the comment number specified in
+            the comment files.
+
+
+For more Information, please examine: bscan_inter_qua.dat

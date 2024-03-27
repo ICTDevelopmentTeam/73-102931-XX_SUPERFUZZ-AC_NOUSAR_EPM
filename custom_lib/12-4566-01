@@ -1,0 +1,14 @@
+!!!!   21    2    1 1552283881  V54db                                         
+
+!#  12-4566-01
+!#  12-4566-01 RES,TKF,1.91 k ohm,0.063W,1%,
+!#  2016
+
+resistor *, 1.91k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

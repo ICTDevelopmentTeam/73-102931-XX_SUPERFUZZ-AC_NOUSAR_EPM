@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517087  V1df9                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:22 2022
+disconnect all
+connect s to "GND"
+connect i to "IO_MI2_DATA_BMC"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k,25.00,20.00,re4,wb,ar100m
+! "r535" test.

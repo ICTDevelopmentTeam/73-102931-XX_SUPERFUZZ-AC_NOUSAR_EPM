@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675203206   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:11 2022
+disconnect all
+connect i to "AC_CLK25M_MI0_SYNC_E_REFCLK_P" ;  b to "AC_CLK25M_MI0_SYNC_E_REFCLK_P"
+connect s to "GND" ;  a to "GND"
+connect g to "P3_3VA"!#; l to "P3_3VA"
+!resistor 75,30.0,20.00,re2,ar100m,ed,wa10m,sa,sb
+resistor 75,30.0,20.00,re2,ar50m,ed        !ADV
+! "r19" test.

@@ -1,0 +1,1235 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:36:07 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 3603
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 3603
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 2530
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 2530
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 2587
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 2587
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022 1362
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121 1362
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<35>        219137 Open
+                r16_s1.2
+                 r850.1
+               rn56_s1.4
+           rn56_s1%pin_4_5.1
+To:   srt_sfp35_i2c_scl_edge  21917
+                 r850.2
+                u49.Y13
+Common Devices:
+                  r850
+Message is:
+Check R850
+------End, 5 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:36:27 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2282
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2282
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1449
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1449
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1530
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1530
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022 1346
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121 1346
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<35>        219137 Open
+                r16_s1.2
+                 r850.1
+               rn56_s1.4
+           rn56_s1%pin_4_5.1
+To:   srt_sfp35_i2c_scl_edge  21917
+                 r850.2
+                u49.Y13
+Common Devices:
+                  r850
+Message is:
+Check R850
+------End, 5 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:36:46 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2263
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2263
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1482
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1482
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1512
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1512
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  940
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  940
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<35>        219137 Open
+                r16_s1.2
+                 r850.1
+               rn56_s1.4
+           rn56_s1%pin_4_5.1
+To:   srt_sfp35_i2c_scl_edge  21917
+                 r850.2
+                u49.Y13
+Common Devices:
+                  r850
+Message is:
+Check R850
+------End, 5 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:37:04 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2219
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2219
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1415
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1415
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1447
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1447
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  761
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  761
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<35>        219137 Open
+                r16_s1.2
+                 r850.1
+               rn56_s1.4
+           rn56_s1%pin_4_5.1
+To:   srt_sfp35_i2c_scl_edge  21917
+                 r850.2
+                u49.Y13
+Common Devices:
+                  r850
+Message is:
+Check R850
+------End, 5 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:37:23 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2356
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2356
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1726
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1726
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1585
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1585
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  606
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  606
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<35>        219137   68
+                r16_s1.2
+                 r850.1
+               rn56_s1.4
+           rn56_s1%pin_4_5.1
+To:   srt_sfp35_i2c_scl_edge  21917   68
+                 r850.2
+                u49.Y13
+Common Devices:
+                  r850
+Message is:
+Check R850
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: srt_sfp37_i2c_scl_edge  21918   27
+                 r852.1
+                u49.AD12
+To:   I2C_SCL_SFP<37>         11668   27
+                r20_s1.2
+                 r852.2
+               rn64_s1.4
+           rn64_s1%pin_4_5.1
+Common Devices:
+                  r852
+Message is:
+Check R852
+------End, 6 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:53:59 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 Open
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 3031
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 3031
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 2902
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 2902
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  975
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  975
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+------End, 4 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:54:11 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2465
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2465
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1806
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1806
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1808
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1808
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<13>_S1    11670   42
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+To:   p3v3_sfp1               11338   42
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f13_s1
+Message is:
+Check F13_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                     11564   42
+FLTR_P3V3_SFP_TX<13>_S1                 
+                c12_s1.1
+                c76_s1.1
+                l30_s1.1
+               sfp_s1.P16
+To:   PWR_FUSED_SFP<13>_S1    11670   42
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l30_s1
+Message is:
+Check L30_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                     11767   43
+FLTR_P3V3_SFP_RX<13>_S1                 
+                c17_s1.1
+                c81_s1.1
+                l35_s1.1
+               sfp_s1.P15
+To:   PWR_FUSED_SFP<13>_S1    11670   43
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l35_s1
+Message is:
+Check L35_S1
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  515
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  515
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+------End, 7 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:54:24 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2821
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2821
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1928
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1928
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 2122
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 2122
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<13>_S1    11670 Open
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+To:   p3v3_sfp1               11338
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f13_s1
+Message is:
+Check F13_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                     11564 Open
+FLTR_P3V3_SFP_TX<13>_S1                 
+                c12_s1.1
+                c76_s1.1
+                l30_s1.1
+               sfp_s1.P16
+To:   PWR_FUSED_SFP<13>_S1    11670
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l30_s1
+Message is:
+Check L30_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                     11767 Open
+FLTR_P3V3_SFP_RX<13>_S1                 
+                c17_s1.1
+                c81_s1.1
+                l35_s1.1
+               sfp_s1.P15
+To:   PWR_FUSED_SFP<13>_S1    11670
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l35_s1
+Message is:
+Check L35_S1
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  494
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  494
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+------End, 7 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:54:36 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 3254
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 3254
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 2453
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 2453
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 2435
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 2435
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<13>_S1    11670   55
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+To:   p3v3_sfp1               11338   55
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f13_s1
+Message is:
+Check F13_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                     11564   56
+FLTR_P3V3_SFP_TX<13>_S1                 
+                c12_s1.1
+                c76_s1.1
+                l30_s1.1
+               sfp_s1.P16
+To:   PWR_FUSED_SFP<13>_S1    11670   56
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l30_s1
+Message is:
+Check L30_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                     11767   57
+FLTR_P3V3_SFP_RX<13>_S1                 
+                c17_s1.1
+                c81_s1.1
+                l35_s1.1
+               sfp_s1.P15
+To:   PWR_FUSED_SFP<13>_S1    11670   57
+               c116_s1.1
+               c121_s1.1
+                f13_s1.1
+                l30_s1.2
+                l35_s1.2
+Common Devices:
+                 l35_s1
+Message is:
+Check L35_S1
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  491
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  491
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+------End, 7 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 29 21:54:48 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<18>_S0    22111 2050
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+To:   p3v3_sfp0              214150 2050
+               c15_sf0.1
+               c16_sf0.1
+               c17_sf0.1
+               c18_sf0.1
+               c19_sf0.1
+               c20_sf0.1
+               c21_sf0.1
+               c22_sf0.1
+               c25_sf0.1
+               c26_sf0.1
+Too many to print.
+Common Devices:
+                 f34_s0
+Message is:
+Check F34_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                     22309 1771
+FLTR_P3V3_SFP_TX<18>_S0                 
+               c197_s0.1
+               c205_s0.1
+                l69_s0.1
+               sfp_s0.W16
+To:   PWR_FUSED_SFP<18>_S0    22111 1771
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l69_s0
+Message is:
+Check L69_S0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                     22308 1789
+FLTR_P3V3_SFP_RX<18>_S0                 
+               c198_s0.1
+               c206_s0.1
+                l70_s0.1
+               sfp_s0.W15
+To:   PWR_FUSED_SFP<18>_S0    22111 1789
+               c213_s0.1
+               c214_s0.1
+                f34_s0.1
+                l69_s0.2
+                l70_s0.2
+Common Devices:
+                 l70_s0
+Message is:
+Check L70_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: TSEN2_5                 22022  504
+               r5_98_5.1
+                r06_5.1
+To:   TSEN_R_3               222121  504
+               r5_98_5.2
+               u1_98_5.36
+Common Devices:
+                r5_98_5
+Message is:
+Check R5_98_5
+------End, 4 Problems Reported----------
+S/N:FLM264509WA
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:05:31 2022
+----------------------------------------
+r1_1v2s HAS FAILED
+not-in-bom
+Measured:   -34.915M
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+c3057 HAS FAILED
+11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+Measured:   55.112p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:06:36 2022
+----------------------------------------
+c3057 HAS FAILED
+11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+Measured:   54.587p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:06:43 2022
+----------------------------------------
+c3057 HAS FAILED
+11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+Measured:   55.303p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:06:50 2022
+----------------------------------------
+c3057 HAS FAILED
+11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+Measured:   55.399p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:06:57 2022
+----------------------------------------
+c3057 HAS FAILED
+11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+Measured:   54.635p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM264700K4
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:22:11 2022
+----------------------------------------
+r1_1v2s HAS FAILED
+not-in-bom
+Measured:   -29.374M
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509WA
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:25:20 2022
+----------------------------------------
+r582 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   32.711M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r587 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   226.83k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:25:32 2022
+----------------------------------------
+r582 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   15.852M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r587 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   -907.23k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:25:39 2022
+----------------------------------------
+r582 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   13.528M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r587 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   302.44k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:25:46 2022
+----------------------------------------
+r582 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   13.528M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r587 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   302.41k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+73-102898-01_03
+Tue Nov 29 22:25:53 2022
+----------------------------------------
+r582 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   19.140M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r587 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   302.41k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9

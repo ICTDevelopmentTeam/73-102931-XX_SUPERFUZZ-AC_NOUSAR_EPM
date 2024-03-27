@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517164  V3d15                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:37 2022
+disconnect all
+connect s to "GND"
+connect i to "EEPROM_LOAD_EN_RT9"
+!B!resistor 100, 15.00, 10.00, re2, ar100m
+resistor 100,30.00,20.00,re2,ar100m
+! "r9_rt9" test.

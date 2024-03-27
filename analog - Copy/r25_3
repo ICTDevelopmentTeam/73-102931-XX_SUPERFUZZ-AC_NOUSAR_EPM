@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520705  Vf448                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:11 2022
+disconnect all
+connect s to "GND"
+connect i to "REFRES_BOT_3"
+!B!resistor 3k, 10.00, 10.00, re4, wb, ar500m
+resistor 3k,25.00,20.00,re4,wb,ar500m
+! "r25_3" test.

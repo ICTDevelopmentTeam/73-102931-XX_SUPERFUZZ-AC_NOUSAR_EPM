@@ -1,0 +1,102 @@
+!!!!    6    0    1 1625549287  V2f71                                         
+! Part Name:            ZL30772
+! Alias:
+! Part Type:            VLSI
+! Description:          SONET/SDH Network Interface DPLL Clock Driver
+! Manufacturer:         Zarlink Semiconductor
+! Package Style:        79 pin QFP
+! Created:              Jul 02, 2021
+! Programmer:           FangJI
+! Tester:               HP3070
+! Processor:            VPU
+! Vector Format:        VCL
+! Testjet Testable:     yes
+! JTAG Device:          no
+! Fault coverage:       Setup Library
+! Constraints:
+! Cisco Part#:          15-105653-01
+
+sequential
+
+vector cycle 200n
+receive delay 160n
+
+
+assign RSTB    to pins 75
+assign SRST    to pins 37
+
+assign REF0    to pins 1,2
+assign REF1    to pins 3,4
+assign REF2    to pins 5,6
+assign REF3    to pins 7,8
+assign REF4    to pins 9,10
+
+assign OUT0    to pins 66,67
+assign OUT1    to pins 64,63
+assign OUT2    to pins 59,60
+assign OUT3    to pins 57,56
+assign OUT4    to pins 51,52
+assign OUT5    to pins 49,48
+assign OUT6    to pins 45,46
+assign OUT7    to pins 43,42
+
+assign GPOUT0  to pins 78
+assign GPOUT1  to pins 79
+
+assign SCL     to pins 16
+assign SDA     to pins 18
+assign SO      to pins 17
+assign CS      to pins 19
+
+assign GPIO0   to pins 20
+assign GPIO1   to pins 25
+assign GPIO2   to pins 27
+assign GPIO3   to pins 29
+assign GPIO4   to pins 28
+assign GPIO5   to pins 31
+assign GPIO6   to pins 30
+assign GPIO7   to pins 36
+assign GPIO8   to pins 74
+
+assign OSCI    to pins 70
+assign OSCO    to pins 71
+
+assign MCLKIN  to pins 77,76
+
+assign IC      to pins 11,15,35,34,32,33,23,26,24
+
+assign VDD_DRI to pins 12
+assign VDDC    to pins 22
+assign VDD     to pins 14,21,80,61
+assign VDDH    to pins 38,40,69,73
+assign VDDL    to pins 39,41,47,53,54,55,62,68,72
+assign VDDO    to pins 65,58,50,44
+assign GND     to pins 81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96
+assign VREG_O  to pins 13
+
+power   VDD_DRI, VDDC,VDD,VDDH,VDDL,VDDO,VREG_O
+power   GND
+
+inputs  RSTB,SRST,REF0,REF1,REF2,REF3,REF4
+inputs  SCL,CS
+outputs OUT0,OUT1,OUT2,OUT3,OUT4,OUT5,OUT6,OUT7,GPOUT0,GPOUT1
+outputs SO
+bidirectional SDA,GPIO0,GPIO1,GPIO2,GPIO3,GPIO4,GPIO5,GPIO6,GPIO7,GPIO8
+nondigital IC,MCLKIN,OSCI,OSCO
+
+disable  OUT0 with RSTB to "0"
+disable  OUT1 with RSTB to "0"
+disable  OUT2 with RSTB to "0"
+disable  OUT3 with RSTB to "0"
+disable  OUT4 with RSTB to "0"
+disable  OUT5 with RSTB to "0"
+disable  OUT6 with RSTB to "0"
+disable  OUT7 with RSTB to "0"
+disable  GPOUT0 with RSTB to "0"
+disable  GPOUT1 with RSTB to "0"
+
+disable  GPIO0,GPIO1,GPIO2,GPIO3,GPIO4,GPIO5,GPIO6,GPIO7,GPIO8 with RSTB to "0"
+
+family LVT
+
+!***************************Setup Library Only *****************************

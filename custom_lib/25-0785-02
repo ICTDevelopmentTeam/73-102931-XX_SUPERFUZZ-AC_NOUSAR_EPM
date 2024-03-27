@@ -1,0 +1,14 @@
+!!!!   21    2    1 1432887934   0000                                         
+
+!25-0785-02
+!LED,0603,SM,SING,NRES,G,
+!Sat Oct  5 21:10:25 2013
+!genlib by Watcharasak T.
+
+diode *, 2.2, 1.8
+
+external pins 1
+   device * pins "A"
+
+external pins 2
+   device * pins "C"

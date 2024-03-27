@@ -1,0 +1,19 @@
+!!!!    2    0    1 1472266470  V5101                                         
+test powered analog
+
+  test "XTAL1"
+  test "XTAL2"
+end test
+
+subtest "XTAL1"
+  clear connect rcva to pins 1
+  detector frequency, expect  32.768k
+  measure   32.768k * 1.05,  32.768k * .95
+end subtest
+
+subtest "XTAL2"
+  clear connect rcva to pins 2
+  detector frequency, expect  32.768k
+  measure   32.768k * 1.05,  32.768k * .95
+end subtest
+

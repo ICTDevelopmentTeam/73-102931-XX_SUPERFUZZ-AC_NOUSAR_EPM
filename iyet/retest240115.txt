@@ -1,0 +1,418 @@
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 08:44:12 2024
+----------------------------------------
+c06_91_rtv2 HAS FAILED
+11-2845-01 CAP,CE,0.47uF,16V,10%,X7R,SM,
+Measured:   849.75p
+Nominal:    0.47000u
+High Limit: 0.63450u
+Low Limit:  0.28200u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM28030013
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 08:44:41 2024
+----------------------------------------
+c06_91_rtv2 HAS FAILED
+11-2845-01 CAP,CE,0.47uF,16V,10%,X7R,SM,
+Measured:   851.54p
+Nominal:    0.47000u
+High Limit: 0.63450u
+Low Limit:  0.28200u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM28030013
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 08:44:45 2024
+----------------------------------------
+c06_91_rtv2 HAS FAILED
+11-2845-01 CAP,CE,0.47uF,16V,10%,X7R,SM,
+Measured:   887.40p
+Nominal:    0.47000u
+High Limit: 0.63450u
+Low Limit:  0.28200u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM28030013
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 08:44:49 2024
+----------------------------------------
+c06_91_rtv2 HAS FAILED
+11-2845-01 CAP,CE,0.47uF,16V,10%,X7R,SM,
+Measured:   885.41p
+Nominal:    0.47000u
+High Limit: 0.63450u
+Low Limit:  0.28200u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM28030013
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:34:28 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:34:32 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:34:36 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:34:39 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:49:18 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:49:22 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:49:26 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:49:30 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:50:25 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:50:30 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:50:34 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 11:50:38 2024
+----------------------------------------
+cr101%blu HAS FAILED
+
+REPLACE DEVICE: cr101
+25-1188-01 LED,SING,RA,SM,B,SBRI,2.1X.6m
+High Limit: 3.8000
+Low Limit:  2.8000
+Forward VOLTAGE drop
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+S/N:FLM28010CHD
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:44:16 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(215107) unnamed_53_acadiampps11lv_i47_p
+               c10_rtv2.1
+                 r76.2
+               u1_rtv2.34
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:44:25 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(215107) unnamed_53_acadiampps11lv_i47_p
+               c10_rtv2.1
+                 r76.2
+               u1_rtv2.34
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:44:33 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(215107) unnamed_53_acadiampps11lv_i47_p
+               c10_rtv2.1
+                 r76.2
+               u1_rtv2.34
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+73-102898-01_03
+Mon Jan 15 13:50:57 2024
+----------------------------------------
+r22_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   51.535
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:51:22 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(110142) rt8_mdio_sda
+              u2_rt7_8.C10
+                u49.M26
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:51:30 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(110142) rt8_mdio_sda
+              u2_rt7_8.C10
+                u49.M26
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 13:51:38 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(110142) rt8_mdio_sda
+              u2_rt7_8.C10
+                u49.M26
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 16:15:43 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 16:15:51 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Mon Jan 15 16:15:59 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(205141) tod_rs422_txd
+                 u20.5
+                u49.V25
+------End, 2 Problems Reported----------
+S/N:FLM27420590

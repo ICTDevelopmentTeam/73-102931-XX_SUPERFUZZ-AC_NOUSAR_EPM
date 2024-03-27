@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520934  Ve7d1                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "SRT_JTAG_TCK_RT1_2V5" ;  a to "SRT_JTAG_TCK_RT1_2V5"
+connect i to "JTAG_TCK_RT1_2V5" ;  b to "JTAG_TCK_RT1_2V5"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r667" is a limited test.

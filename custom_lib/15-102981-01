@@ -1,0 +1,162 @@
+!!!!    6    0    1 1296183641  Vb03c                                         
+!--------------------------------------------
+!      /\
+!     /  \/\
+!  /\/    \ \
+! /__\_____\_\__ APG Test Consultants, Inc.
+!--------------------------------------------
+! 741 South Bowen Street, Longmont, CO 80501
+! Phone: (303) 702-0007  Fax: (303) 702-0004
+!--------------------------------------------
+! Device           : sn74avc4t245rgyr
+! Manufacturer     :
+! Description      : QUAD-BIT VOLTAGE TRANSLATOR DIR & OE
+! Package          : 16-pin
+! Developed by     : BLL
+! Revision         : 02-13-08
+! Status           :  Verified
+!
+!Comments          : Wide-range power supply;
+!                  : adjust FAMILY or set ref to your topology
+!----------------------------------------------
+
+combinatorial
+
+assign   VCCA      to pins   1  !  1
+assign   VCCB      to pins  16  ! 16
+assign   GND       to pins  8, 9  ! 8, 9
+
+assign   A11   to pins   4 !  4
+assign   B11   to pins  13 ! 13
+assign   A12   to pins   5 !  5
+assign   B12   to pins  12 ! 12
+
+assign   Dir1  to pins   2 !  2
+assign   OE1   to pins  15 ! 15
+
+assign   A21   to pins   6 !  6
+assign   B21   to pins  11 ! 11
+assign   A22   to pins   7 !  7
+assign   B22   to pins  10 ! 10
+
+assign   Dir2  to pins   3 !  3
+assign   OE2   to pins  14 ! 14
+
+
+family   FLASH_1V8 !! LVT
+
+power   VCCA      !  1
+power   VCCB      ! 16
+power   GND       ! 8, 9
+
+bidirectional   A11   !  4
+bidirectional   B11   ! 13
+bidirectional   A12   !  5
+bidirectional   B12   ! 12
+
+inputs   Dir1  !  2
+inputs   OE1   ! 15
+
+bidirectional   A21   !  6
+bidirectional   B21   ! 11
+bidirectional   A22   !  7
+bidirectional   B22   ! 10
+
+inputs   Dir2  !  3
+inputs   OE2   ! 14
+
+
+
+disable A11 with OE1 to "1"
+disable A12 with OE1 to "1"
+disable A21 with OE2 to "1"
+disable A22 with OE2 to "1"
+disable B11 with OE1 to "1"
+disable B12 with OE1 to "1"
+disable B21 with OE2 to "1"
+disable B22 with OE2 to "1"
+
+
+set ref on groups Dir1 to dh 1.2, dl 0.0
+set ref on groups Dir2 to dh 1.2, dl 0.0
+
+set ref on groups OE1 to dh 1.2, dl 0.0
+set ref on groups OE2 to dh 1.2, dl 0.0
+
+set ref on groups A11 to dh 3.0, dl 0.0, rh 2.0, rl 0.8
+set ref on groups A12 to dh 3.0, dl 0.0, rh 2.0, rl 0.8
+set ref on groups A21 to dh 3.0, dl 0.0, rh 2.0, rl 0.8
+set ref on groups A22 to dh 3.0, dl 0.0, rh 2.0, rl 0.8
+
+set ref on groups B11 to dh 1.7, dl 0.0, rh 1.2, rl 0.8
+set ref on groups B12 to dh 1.7, dl 0.0, rh 1.2, rl 0.8
+set ref on groups B21 to dh 1.7, dl 0.0, rh 1.2, rl 0.8
+set ref on groups B22 to dh 1.7, dl 0.0, rh 1.2, rl 0.8
+
+set load on groups A11 to pull up
+set load on groups A12 to pull up
+set load on groups A21 to pull up
+set load on groups A22 to pull up
+
+set load on groups B11 to pull up
+set load on groups B12 to pull up
+set load on groups B21 to pull up
+set load on groups B22 to pull up
+
+
+
+pcf order Group1 is  OE1, Dir1, A11, A12, B11, B12
+
+pcf order Group2 is  OE2, Dir2, A21, A22, B21, B22
+
+
+unit "Test group 1"
+   pcf
+   use pcf order Group1
+!!drive A, rcv B
+      "0 1 00 LL"
+      "0 1 01 LH"
+      "0 1 11 HH"
+      "0 1 10 HL"
+      "0 1 00 LL"
+!!test OE
+      "1 1 00 XX"
+      "1 1 00 HH"
+!!drive B, rcv A
+      "0 0 LL 00"
+      "0 0 LH 01"
+      "0 0 HH 11"
+      "0 0 HL 10"
+      "0 0 LL 00"
+!!test OE
+      "1 0 XX 00"
+      "1 0 HH 00"
+    end pcf
+end unit
+
+unit "Test group 2"
+   pcf
+   use pcf order Group2
+!!drive A, rcv B
+      "0 1 00 LL"
+      "0 1 01 LH"
+      "0 1 11 HH"
+      "0 1 10 HL"
+      "0 1 00 LL"
+!!test OE
+      "1 1 00 XX"
+      "1 1 00 HH"
+!!drive B, rcv A
+      "0 0 LL 00"
+      "0 0 LH 01"
+      "0 0 HH 11"
+      "0 0 HL 10"
+      "0 0 LL 00"
+!!test OE
+      "1 0 XX 00"
+      "1 0 HH 00"
+    end pcf
+end unit
+
+
+!    End of Test

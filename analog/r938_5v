@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648519739  V50aa                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:29 2022
+disconnect all
+connect s to "PMOD_FB_5V"
+connect i to "PMOD_VDIF_5V"
+connect g to "PMOD_DIF_RC_5V"
+!B!resistor 4.99k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.99k,25.00,20.00,re4,wb,ar200m
+! "r938_5v" test.

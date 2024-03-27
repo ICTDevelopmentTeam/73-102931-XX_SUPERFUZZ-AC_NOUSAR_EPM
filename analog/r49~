@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520905  V9490                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:49 2022
+disconnect all
+connect s to "UNNAMED_4134_RES_I260_A" ;  a to "UNNAMED_4134_RES_I260_A"
+connect i to "UNNAMED_4134_RES_I260_B" ;  b to "UNNAMED_4134_RES_I260_B"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r49" is a limited test.

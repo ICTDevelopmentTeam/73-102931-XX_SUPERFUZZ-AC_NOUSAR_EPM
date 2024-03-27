@@ -1,0 +1,13 @@
+!!!!    2    0    1 1651025212   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:37 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r590 845"                                                                                                                                               
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"
+connect i to "UNNAMED_53_ACADIAMPPS11LV_I28_PMBADDR"
+!B!capacitor 10n - 2.276n, 20.00, 20.00, fr1024, re2, ar20.0m, nocomp                                                                                           
+capacitor 10n, 25.00, 50.0, fr1024, re5, ar100m, nocomp, ed, en
+! "c10_rtv1" test.                                                                                                                                              
+off failure                                                                                                                                                     

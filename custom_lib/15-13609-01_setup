@@ -1,0 +1,20 @@
+!!!!    6    0    1 1573520688  V4c4e                                         
+!Setup Library for 17-11868-03
+warning "Setup Library Only"
+
+sequential
+
+assign PWR to pins 12,8,5
+assign GND to pins 9,17
+
+assign IN  to pins 16,13,4,1,10,15,3
+assign OUT to pins 6,7
+assign NON to pins 14,2,11
+
+family LVT
+
+power PWR, GND
+inputs IN
+outputs OUT
+nondigital NON
+

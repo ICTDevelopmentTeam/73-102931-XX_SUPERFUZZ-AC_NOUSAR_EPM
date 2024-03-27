@@ -1,0 +1,13 @@
+!!!!   21    2    1 1550066408  Va7d5                                         
+
+!#  12-2215-02
+!#  12-2215-02 RES,TKF,15 ohm,0.063W,1%,SM
+!#  Wed Mar 18 10:50:10 2009
+
+resistor *, 15, 30, 30, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

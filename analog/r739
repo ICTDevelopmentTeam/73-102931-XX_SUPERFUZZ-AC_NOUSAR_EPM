@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863979   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:40 2022
+disconnect all
+connect s to "CLK100M_PE_CPU_MIFPGA_N"
+connect i to "CLK100M_PE_CPU_MIFPGA_AC_N"
+jumper 5.94, re1, ar200m
+! "r739" test.

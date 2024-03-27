@@ -1,0 +1,16 @@
+!!!!   21    2    1 1478922671   0000                                         
+
+diode "led1", 2.6, 1.8, nr
+diode "led2", 2.6, 1.8, nr
+
+external pins 1
+   device "led1" pins "C"
+
+external pins 2
+   device "led1" pins "A"
+
+external pins 3
+   device "led2" pins "C"
+
+external pins 4
+   device "led2" pins "A"

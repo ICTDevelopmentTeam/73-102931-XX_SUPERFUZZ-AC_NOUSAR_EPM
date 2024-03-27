@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863934   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:55 2022
+on failure
+   report parallel devices
+   report "c11 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "P1V8_TRIM"
+jumper 10.0k, re4, wb, ar100m, op
+! "r397" test.
+off failure

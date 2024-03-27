@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519719  V0098                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:18 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_2_RES_I637_B_A"
+!B!resistor 57.6k, 10.00, 10.00, re5, wb, ar200m
+resistor 57.6k,25.00,25.00,re5,wb,ar200m
+! "r7_a" test.

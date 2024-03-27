@@ -1,0 +1,9 @@
+!!!!    2    0    1 1650874272   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:43 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "VIN_MON_N_PM"
+connect g to "GND"
+!B!resistor 20k, 10.00, 10.00, re5, wb, ar500m, wa331u
+resistor 20k,25.00,25.00,re5,wb,ar500m,wa5m
+! "r174_pm" test.

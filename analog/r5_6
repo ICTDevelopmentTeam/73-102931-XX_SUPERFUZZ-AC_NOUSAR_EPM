@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519415  Ve1f3                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:45 2022
+disconnect all
+connect s to "VFB1_6"
+connect i to "UNNAMED_2_CAP_I517_A_6"
+!B!resistor 13.7k, 10.00, 10.00, re5, wb, ar1.00
+resistor 13.7k,25.00,20.00,re5,wb,ar100m
+! "r5_6" test.

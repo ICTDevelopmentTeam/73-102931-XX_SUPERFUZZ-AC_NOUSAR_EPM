@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517032  V96b8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:02 2022
+disconnect all
+connect s to "PMOD_COMP_RC_3V3"
+connect i to "PMOD_FB_3V3"
+connect g to "PMOD_COMP_3V3"
+!B!capacitor 15n, 20.00, 20.00, fr1024, re3, wb, ar20.0m, nocomp
+capacitor 15n,35.00,40.00,fr1024,re3,wb,ar100m,nocomp
+! "c70_3v3" test.

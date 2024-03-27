@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863973   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:34 2022
+disconnect all
+connect i to "P2V5RT1_DIDT"
+connect s to "P2V5RT1"
+jumper 5.94, re1, ar200m
+! "l439" test.

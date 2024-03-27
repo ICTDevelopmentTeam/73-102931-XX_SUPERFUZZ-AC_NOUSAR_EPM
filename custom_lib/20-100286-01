@@ -1,0 +1,20 @@
+!!!!   21    1    1 1552355648  Vbb78                                         
+
+diode "cr", 800m, 400m, nr
+
+pin library "pwr", nr, pn"nfet_pwr_5", "FET ON OFF Tests Failed."
+
+external pins 1
+   device "cr" pins "A"
+   device "pwr" pins 1
+
+external pins 2; noconnect
+
+external pins 3; noconnect
+
+external pins 4
+   device "pwr" pins 4
+
+external pins 5
+   device "cr" pins "C"
+   device "pwr" pins 5

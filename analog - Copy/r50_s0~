@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517325  Vf701                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:52 2022
+disconnect all
+connect s to "I2C_SCL_SFP<16>" ;  a to "I2C_SCL_SFP<16>"
+connect i to "UNNAMED_17_RES_I378_B_S0" ;  b to "UNNAMED_17_RES_I378_B_S0"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r50_s0" test.

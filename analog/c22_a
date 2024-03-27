@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026098  Va8c5                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:45 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "UNNAMED_2_CAP_I541_A_A"                                                                                                                           
+connect i to "UNNAMED_2_CAP_I543_B_A"                                                                                                                           
+!B!capacitor 100n, 20.00, 20.00, fr1024, re3, wb, ar100m, nocomp                                                                                                
+capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,nocomp                                                                                                           
+! "c22_a" test.                                                                                                                                                 

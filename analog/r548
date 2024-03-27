@@ -1,0 +1,9 @@
+!!!!    2    0    1 1704926561   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:08 2022
+disconnect all
+connect s to "MIFPGA_SDI" ;  a to "MIFPGA_SDI"
+connect i to "SRT_MIFPGA_ASDO" ;  b to "SRT_MIFPGA_ASDO"
+resistor 33, 35.15, 35.00, re2, ar200m ,en,sb,sa
+!resistor 33,35.0,35.00,re2,ar200m,sa,sb,ed,en,am10m
+!resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+! "r548" test.

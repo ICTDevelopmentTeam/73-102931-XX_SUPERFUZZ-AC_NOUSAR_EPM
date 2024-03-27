@@ -1,0 +1,153 @@
+----------------------------------------
+TestJet Report for "testjet".
+Tue Nov 15 00:34:14 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u1_94_5
+  Pin 35  Node unnamed_2_res_i151_a_94
+  Measured 150.5            (BRC 22243)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_96_5
+  Pin 35  Node unnamed_2_res_i151_a_96
+  Measured 183.0            (BRC 22145)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u33
+  Pin 2  Node sndn_core_clk_vref0
+  Measured 0.2              (BRC 10875)
+Open #2  Device u33
+  Pin 3  Node sndn_core_clk_vt0
+  Measured 0.3              (BRC 108174)
+Open #3  Device u33
+  Pin 1  Node clk103m_dav_core_refclk_n
+  Measured 0.3              (BRC 10876)
+Open #4  Device u33
+  Pin 10  Node clk100m_sndn1_buf_clk_sel
+  Measured 0.7              (BRC 10974)
+Open #5  Device u33
+  Pin 4  Node clk103m_dav_core_refclk_p
+  Measured 0.0              (BRC 108175)
+Open #6  Device u33
+  Pin 14  Node sndn_core_clk_vref1
+  Measured 0.1              (BRC 108173)
+Open #7  Device u33
+  Pin 15  Node sndn_core_clk_vt1
+  Measured -0.3             (BRC 10873)
+Open #8  Device u33
+  Pin 6  Node ac_clk103m_dav_sndn1_core_refclk_p
+  Pin 16  Node ac_clk103m_dav_sndn1_core_refclk_p
+  Measured 0.9              (BRC 10975)
+Open #9  Device u33
+  Pin 7  Node ac_clk103m_dav_sndn1_core_refclk_n
+  Pin 13  Node ac_clk103m_dav_sndn1_core_refclk_n
+  Measured 0.9              (BRC 109175)
+Open #10  Device u33
+  Pin 11  Node unnamed_31_cap_i42_a
+  Measured 6.8              (BRC 21615)
+not-in-bom
+----------------------------------------
+Open #1  Device u59
+  Pin 56  Node clk156m_rt1_sync_e_n
+  Measured 18.2             (BRC 21405)
+Open #2  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 17.7             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FLM12365847
+----------------------------------------
+TestJet Report for "testjet".
+Tue Nov 15 00:34:20 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u1_94_5
+  Pin 35  Node unnamed_2_res_i151_a_94
+  Measured 150.3            (BRC 22243)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u1_96_5
+  Pin 35  Node unnamed_2_res_i151_a_96
+  Measured 183.0            (BRC 22145)
+15-104128-01 IC-LIN,VREG,SW,BUCK,PQFN,40
+----------------------------------------
+Open #1  Device u33
+  Pin 2  Node sndn_core_clk_vref0
+  Measured 0.1              (BRC 10875)
+Open #2  Device u33
+  Pin 3  Node sndn_core_clk_vt0
+  Measured 0.1              (BRC 108174)
+Open #3  Device u33
+  Pin 10  Node clk100m_sndn1_buf_clk_sel
+  Measured 0.2              (BRC 10974)
+Open #4  Device u33
+  Pin 4  Node clk103m_dav_core_refclk_p
+  Measured 0.4              (BRC 108175)
+Open #5  Device u33
+  Pin 14  Node sndn_core_clk_vref1
+  Measured 0.6              (BRC 108173)
+Open #6  Device u33
+  Pin 15  Node sndn_core_clk_vt1
+  Measured 0.3              (BRC 10873)
+Open #7  Device u33
+  Pin 6  Node ac_clk103m_dav_sndn1_core_refclk_p
+  Pin 16  Node ac_clk103m_dav_sndn1_core_refclk_p
+  Measured 0.9              (BRC 10975)
+Open #8  Device u33
+  Pin 7  Node ac_clk103m_dav_sndn1_core_refclk_n
+  Pin 13  Node ac_clk103m_dav_sndn1_core_refclk_n
+  Measured 1.2              (BRC 109175)
+Open #9  Device u33
+  Pin 11  Node unnamed_31_cap_i42_a
+  Measured 6.3              (BRC 21615)
+not-in-bom
+----------------------------------------
+Open #1  Device u59
+  Pin 56  Node clk156m_rt1_sync_e_n
+  Measured 17.8             (BRC 21405)
+Open #2  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 17.5             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FLM12365847
+----------------------------------------
+73-102898-01_03
+Tue Nov 15 01:19:38 2022
+----------------------------------------
+r10_pm HAS FAILED
+12-2563-02 RES,TKF,20 k ohm,0.063W,1%,SM
+Nominal:    20.000k
+High Limit: 25.000k
+Low Limit:  15.000k
+Resistance in OHMS
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+DEVICES IN PARALLEL
+c21_pm 100n
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+73-102898-01_03
+Tue Nov 15 01:19:49 2022
+----------------------------------------
+r10_pm HAS FAILED
+12-2563-02 RES,TKF,20 k ohm,0.063W,1%,SM
+Nominal:    20.000k
+High Limit: 25.000k
+Low Limit:  15.000k
+Resistance in OHMS
+Status:  cH
+Moa Voltage/Current Compliance
+Detector Over Range
+----------------------------------------
+DEVICES IN PARALLEL
+c21_pm 100n
+----------------------------------------
+S/N:FLM264509W9

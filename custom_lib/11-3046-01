@@ -1,0 +1,13 @@
+!!!!   21    2    1 1647587943   0000                                         
+
+!#  11-3046-01
+!#  11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+!#  Thu Mar 17 16:55:44 2022
+
+capacitor *, 220u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

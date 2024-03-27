@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V99eb                                         
+
+!  12-5369-01
+!  12-5369-01 RES,TNF,11.5 k ohm,0.063W,0.1
+
+resistor *, 11.5k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

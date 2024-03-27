@@ -1,0 +1,15 @@
+!!!!    2    0    1 1652864672  V5f20                                         
+!* according to TG spec, not test ICT
+! IPG: rev 09.20p  Mon Mar 21 20:01:06 2022
+on failure
+   report parallel devices
+   report "r496 82.5"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "CLK212M_OSC_P"
+connect g to "P3_3V"; l to "P3_3V"
+capacitor 6.8p, 20.00, 20.00, fr8192, re1, ar100m, sa, sl, en, comp
+warning "device under test appears open or excessive noise is present."
+! "c88" is a commented test.
+off failure

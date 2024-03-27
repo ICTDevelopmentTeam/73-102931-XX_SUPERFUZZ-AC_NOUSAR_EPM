@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863924   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:45 2022
+disconnect all
+connect i to "RT2_ADDR<3>"
+connect s to "P2V5RT1"
+jumper 10.0k, re4, wb, ar100m, op
+! "r199" test.

@@ -1,0 +1,22 @@
+!!!!    2    0    1 1652249735  Vd6d6                                         
+test powered analog
+
+   test "OUT"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "OUT"
+   connect rcva to nodes "CLK25M_MIFPGA"
+
+   detector frequency, expect 25.000M
+   measure 25.000M * 1.05, 25.000M * 0.95
+end subtest
+
+
+
+!
+!  End test
+!

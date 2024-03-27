@@ -1,0 +1,5 @@
+!!!!    2    0    1 1647864247   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:08 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "r275" is not accessible at node "SRT_RT6_M4_4_7_SYNCE_CLK".

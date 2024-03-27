@@ -1,0 +1,10 @@
+!!!!    2    0    1 1652864702  V1639                                         
+!* the capacitor not able to test due to shorted out by ASIC(u1_3) internal
+! IPG: rev 09.20p  Mon Mar 21 20:00:44 2022
+disconnect all
+connect s to "DGND_SENSE_R_5"
+connect i to "DVDD_SENSE_R_5"
+connect g to "GND"; l to "GND"
+!B!capacitor 3.3n, 20.00, 20.00, fr1024, re3, wb, ar20.0m, sl, nocomp
+capacitor 3.3n,35.00,40.0,fr1024,re3,wb,ar100m,sl,nocomp
+! "c01_5" is a commented test.

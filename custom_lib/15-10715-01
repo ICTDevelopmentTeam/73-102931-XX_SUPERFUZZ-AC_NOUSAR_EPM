@@ -1,0 +1,636 @@
+!!!!    6    0    1 1488112125  V216f                                         
+! IPG: rev 07.20p  Tue May 13 16:39:33 2014
+! IPG: rev 05.21pb Fri Nov 04 12:24:34 2005
+!-------------------------------------------------------
+!    Part Number : PCA9538PW
+!    Function    : 16-bit I2C and SMBus, low power I/O Port
+!    Manufacturer: PHILIPS Semiconductors
+!    Revision    : 0.9 (not verified)
+!    Author      : Zhao Y.SH.
+!    Company     : iNETest Resources Co. Ltd
+!    Date        : Oct 18th, 2005
+!-------------------------------------------------------
+
+sequential
+
+vector cycle 10u
+receive delay 9u
+
+assign  GND to pins 8
+assign  VDD to pins 16
+
+assign  A0 to pins 1
+assign  A1 to pins 2
+assign  RST_BAR to pins 3
+assign  SCL to pins 14
+assign  SDA to pins 15
+assign  INT_BAR to pins 13
+assign  IO_0 to pins 12, 11,10, 9, 7, 6, 5, 4
+
+family LVT
+
+power GND, VDD
+inputs A0, A1, RST_BAR, SCL
+outputs INT_BAR
+bidirectional SDA, IO_0
+
+
+disable IO_0, SDA with RST_BAR to "0"
+
+
+set load on groups  SDA     to pull up
+set load on groups  INT_BAR  to pull up
+set load on groups  IO_0    to pull up
+
+
+
+!*****************************************************************************
+
+vector  Init
+   drive SDA
+   drive IO_0
+   set   SCL                  to "1"
+   set   SDA                  to "1"
+   set   RST_BAR              to "1"
+   set   A1                   to "1"     !~ may change address of the part
+   set   A0                   to "0"     !~ may change address of the part
+   set   IO_0               to "zzzzzzzz"
+end vector
+
+vector  Keep
+   drive SDA
+   drive IO_0
+   set   SCL                  to "k"
+   set   SDA                  to "k"
+   set   RST_BAR              to "k"
+   set   A1                   to "k"
+   set   A0                   to "k"
+   set   IO_0               to "kkkkkkkk"
+end vector
+
+vector  Keep_read
+   receive SDA
+   drive IO_0
+   set   SCL                  to "k"
+   set   SDA                  to "x"
+   set   RST_BAR              to "k"
+   set   A1                   to "k"
+   set   A0                   to "k"
+   set   IO_0               to "kkkkkkkk"
+end vector
+
+vector  Address_00
+   initialize                 to Keep
+   set   A1                   to "0"
+   set   A0                   to "0"
+end vector
+
+vector  Address_01
+   initialize                 to Keep
+   set   A1                   to "0"
+   set   A0                   to "1"
+end vector
+
+vector  Address_10
+   initialize                 to Keep
+   set   A1                   to "1"
+   set   A0                   to "0"
+end vector
+
+vector  Address_11
+   initialize                 to Keep
+   set   A1                   to "1"
+   set   A0                   to "1"
+end vector
+
+
+vector  Begin
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "1"
+end vector
+
+vector  Start
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "0"
+end vector
+
+vector  Stop
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "1"
+end vector
+
+vector  SCL_1_SDA_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "0"
+end vector
+
+vector  SCL_1_SDA_1
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "1"
+end vector
+
+vector  SCL_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "0"
+   set   SDA                  to "k"
+end vector
+
+vector  SCL_1
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "k"
+end vector
+
+vector  Dd_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "k"
+   set   SDA                  to "0"
+end vector
+
+vector  Dd_1
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "k"
+   set   SDA                  to "1"
+end vector
+
+vector  SCL_0_D_X
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "0"
+   set   SDA                  to "x"
+end vector
+
+vector  SCL_1_D_X
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "1"
+   set   SDA                  to "x"
+end vector
+
+vector  ACK_S0
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "1"
+   set   SDA                  to "0"
+end vector
+
+vector  SCL_R_0
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "0"
+   set   SDA                  to "x"
+end vector
+
+vector  SCL_R_1
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "1"
+   set   SDA                  to "x"
+end vector
+
+vector  Dr_x
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "k"
+   set   SDA                  to "x"
+end vector
+
+
+vector  Dr_0
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "k"
+   set   SDA                  to "0"
+end vector
+
+vector  Dr_1
+   initialize                 to Keep_read
+   receive  SDA
+   set   SCL                  to "k"
+   set   SDA                  to "1"
+end vector
+
+vector  ACK_M0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "k"
+   set   SDA                  to "0"
+end vector
+
+vector  ACK_M1
+   initialize                 to Keep
+   drive  SDA
+   set   SCL                  to "k"
+   set   SDA                  to "1"
+end vector
+
+vector  RW_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "k"
+   set   SDA                  to "0"
+end vector
+
+vector  RW_1
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "k"
+   set   SDA                  to "1"
+end vector
+
+vector  SCL_1_D_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "1"
+   set   SDA                  to "0"
+end vector
+
+vector  SCL_0_D_0
+   initialize                 to Keep
+   drive SDA
+   set   SCL                  to "0"
+   set   SDA                  to "0"
+end vector
+
+vector  Read_Port_0_55
+   initialize                 to Keep
+   receive IO_0
+   set   IO_0               to "01010101"
+end vector
+
+vector  Read_Port_0_AA
+   initialize                 to Keep
+   receive IO_0
+   set   IO_0               to "10101010"
+end vector
+
+
+vector  Write_Ports_55
+   initialize                 to Keep
+   drive IO_0
+   set   IO_0               to "01010101"
+end vector
+
+vector  Write_Ports_AA
+   initialize                 to Keep
+   drive IO_0
+   set   IO_0               to "10101010"
+
+end vector
+
+vector  Interrupt_False
+   initialize                 to Keep
+   set   INT_BAR              to "1"
+end vector
+
+vector  Interrupt_True
+   initialize                 to Keep
+   set   INT_BAR              to "0"
+end vector
+
+vector  RESET_bar_True
+   initialize                 to Keep
+   set   RST_BAR               to "1"
+end vector
+
+vector  RESET_bar_False
+   initialize                 to Keep
+   set   RST_BAR               to "0"
+end vector
+
+
+
+!*****************************************************************************
+
+sub  IC_Address (A1,A0,RW)
+   execute  SCL_0
+   execute  Dd_1      !!     1
+   execute  SCL_1
+   execute  SCL_0
+   execute  Dd_1      !!     1
+   execute  SCL_1
+   execute  SCL_0
+   execute  Dd_1      !!     1
+   execute  SCL_1
+   execute  SCL_0
+   execute  Dd_0      !!     0
+   execute  SCL_1
+   execute  SCL_0
+   execute  Dd_0      !!     0
+   execute  SCL_1
+   execute  SCL_0
+   execute  A1         !A1
+   execute  SCL_1
+   execute  SCL_0
+   execute  A0         !A0
+   execute  SCL_1
+   execute  SCL_0
+   execute  RW         !R/W
+   execute  SCL_1
+   execute  SCL_0_D_X
+   execute  SCL_1_D_X
+   execute  Ack_S0         !ACK from Slave
+   execute  SCL_0_D_X
+end sub
+
+sub  Word_Address (D7,D6,D5,D4,D3,D2,D1,D0)
+   execute  D7
+   execute  SCL_1
+   execute  SCL_0
+   execute  D6
+   execute  SCL_1
+   execute  SCL_0
+   execute  D5
+   execute  SCL_1
+   execute  SCL_0
+   execute  D4
+   execute  SCL_1
+   execute  SCL_0
+   execute  D3
+   execute  SCL_1
+   execute  SCL_0
+   execute  D2
+   execute  SCL_1
+   execute  SCL_0
+   execute  D1
+   execute  SCL_1
+   execute  SCL_0
+   execute  D0
+   execute  SCL_1
+   execute  SCL_0_D_X
+   execute  SCL_1_D_X
+   execute  ACK_S0            !Ack from slave
+   execute  SCL_0_D_X
+end sub
+
+sub  Read (D7,D6,D5,D4,D3,D2,D1,D0)
+   execute  D7
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D6
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D5
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D4
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D3
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D2
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D1
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D0
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  Dd_0              !Ack from Master
+   execute  SCL_1
+   execute  SCL_0
+end sub
+
+sub  Read_No_Ack (D7,D6,D5,D4,D3,D2,D1,D0)
+   execute  D7
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D6
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D5
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D4
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D3
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D2
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D1
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  D0
+   execute  SCL_R_1
+   execute  SCL_R_0
+   execute  Dd_1              !No Ack from Master
+   execute  SCL_1
+   execute  SCL_0
+end sub
+
+!*****************************************************************************
+
+
+unit  "Test Device Address 01"
+  execute  Init
+  execute  Address_01     !~ may change address of the part
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0
+  execute  Stop    ! c=1 d=1
+
+! Configure Ports 0 to outputs
+  execute  Start
+                  !A1   A0
+  call IC_Address (Dd_0,Dd_1,RW_0) !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1,Dd_1)  !! Config_0
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! Data_0
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Write 55 to Ports 0
+  execute  Start
+                   !A1  A0
+  call IC_Address (Dd_0,Dd_1,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1)  !! Out_Port_0
+  call Word_Address (Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1)  !! Data_0
+  execute Read_Port_0_55
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Write AA to Ports 0
+  execute  Start
+                  !A1  A0
+  call IC_Address (Dd_0,Dd_1,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1)  !! Out_Port_0
+  call Word_Address (Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0)  !! Data_0
+  execute Read_Port_0_AA
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Configure Ports 0 to inputs
+  execute  Start
+                  !A1   A0
+  call IC_Address (Dd_0,Dd_1,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1,Dd_1)  !! Config_0
+  call Word_Address (Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1)  !! Data_0
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Read 55 from Ports 0
+  execute Write_Ports_55                     !Place 55 on ports
+  execute  Start
+                  !A1   !A0
+  call IC_Address (Dd_0,Dd_1,RW_0)  !Dummy Write to set address
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! In_Port_0
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0                 !Repeated Start
+
+                  !A1   !A0
+  call IC_Address (Dd_0,Dd_1,RW_1)  !Read Command
+  call Read_No_Ack (Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1)  !! Data_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Read AA from Ports 0
+  execute  Write_Ports_AA                    !Place AA on ports
+  execute  Start
+
+                  !A1  A0
+  call IC_Address (Dd_0,Dd_1,RW_0)  !Dummy Write to set address
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! In_Port_0
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0                 !Repeated Start
+
+                  !A1  A0
+  call IC_Address (Dd_0,Dd_1,RW_1)  !Read Command
+  call Read_No_Ack (Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0)  !! Data_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Test INTbar pin
+! execute  Interrupt_False
+! execute  Write_Ports_55                    !Place 55 on ports
+! execute  Interrupt_True
+! execute  Write_Ports_AA                    !Place AA Back on ports
+! execute  Interrupt_False
+
+end unit
+
+unit  "Test Device Address 10"
+  execute  Init
+  execute  Address_10     !~ may change address of the part
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0
+  execute  Stop    ! c=1 d=1
+
+! Configure Ports 0 to outputs
+  execute  Start
+                  !A1   A0
+  call IC_Address (Dd_1,Dd_0,RW_0) !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1,Dd_1)  !! Config_0
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! Data_0
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Write 55 to Ports 0
+  execute  Start
+                   !A1  A0
+  call IC_Address (Dd_1,Dd_0,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1)  !! Out_Port_0
+  call Word_Address (Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1)  !! Data_0
+  execute Read_Port_0_55
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Write AA to Ports 0
+  execute  Start
+                  !A1  A0
+  call IC_Address (Dd_1,Dd_0,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1)  !! Out_Port_0
+  call Word_Address (Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0,Dd_1,Dd_0)  !! Data_0
+  execute Read_Port_0_AA
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Configure Ports 0 to inputs
+  execute  Start
+                  !A1   A0
+  call IC_Address (Dd_1,Dd_0,RW_0)  !~ may change address of the part
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_1,Dd_1)  !! Config_0
+  call Word_Address (Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1,Dd_1)  !! Data_0
+  execute  Dd_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Read 55 from Ports 0
+  execute Write_Ports_55                     !Place 55 on ports
+  execute  Start
+                  !A1   !A0
+  call IC_Address (Dd_1,Dd_0,RW_0)  !Dummy Write to set address
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! In_Port_0
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0                 !Repeated Start
+
+                  !A1   !A0
+  call IC_Address (Dd_1,Dd_0,RW_1)  !Read Command
+  call Read_No_Ack (Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1)  !! Data_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Read AA from Ports 0
+  execute  Write_Ports_AA                    !Place AA on ports
+  execute  Start
+
+                  !A1  A0
+  call IC_Address (Dd_1,Dd_0,RW_0)  !Dummy Write to set address
+  call Word_Address (Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0,Dd_0)  !! In_Port_0
+  execute  Begin   ! c=1 d=1
+  execute  Start   ! c=1 d=0                 !Repeated Start
+
+                  !A1  A0
+  call IC_Address (Dd_1,Dd_0,RW_1)  !Read Command
+  call Read_No_Ack (Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0,Dr_1,Dr_0)  !! Data_0
+  execute  SCL_1
+  execute  SCL_1_SDA_0
+  execute  SCL_1_SDA_1
+
+! Test INTbar pin
+! execute  Interrupt_False
+! execute  Write_Ports_55                    !Place 55 on ports
+! execute  Interrupt_True
+! execute  Write_Ports_AA                    !Place AA Back on ports
+! execute  Interrupt_False
+
+end unit
+
+!
+! End of Test
+!
+

@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517037  Vadbc                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:03 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_54_CAP_I55_A"
+connect g to "UNNAMED_54_CAP_I57_A"; l to "UNNAMED_54_CAP_I57_A"
+!B!capacitor 82p, 52.93, 20.00, fr8192, re4, wb, ar20.0m, sl, comp
+capacitor 82p,50.0,50.00,fr8192,re4,wb,ar100m,sl,comp
+! "c76" test.

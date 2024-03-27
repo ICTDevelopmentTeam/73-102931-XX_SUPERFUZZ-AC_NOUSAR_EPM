@@ -1,0 +1,55 @@
+!!!!    2    0    1 1647864653  Vd0ea                                         
+! IPG: rev 09.20p  Mon Mar 21 20:10:54 2022
+!IPG : Node NC_3064 is not accessible.
+!IPG : Node NC_3065 is not accessible.
+test powered analog
+   power pins 1,2,3,11
+   nonanalog pins 4,5,6,7,10
+
+   test "VIN"
+   test "VOUT1"
+   test "VOUT2"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest "VIN"
+
+   connect i to pins  2
+   connect l to pins  1
+
+   detector dcv, expect  3.3
+
+   measure  3.3 * 1.05, 3.3 * 0.95         !change to fit reading value
+
+end subtest
+
+subtest "VOUT1"
+
+   connect i to pins  9
+   connect l to pins  1
+
+   detector dcv, expect  3.3
+
+   measure  3.3 * 1.05, 3.3 * 0.95         !change to fit reading value
+
+end subtest
+
+subtest "VOUT2"
+
+   connect i to pins  8
+   connect l to pins  1
+
+   detector dcv, expect  3.3
+
+   measure  3.3 * 1.05, 3.3 * 0.95         !change to fit reading value
+
+end subtest
+!
+!  End test
+!
+
+
+

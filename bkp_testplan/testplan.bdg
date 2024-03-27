@@ -1,0 +1,3522 @@
+!!!!    4    0    1 1652428622   0000                                         
+!*! AGILENT ICT BOARD GRADING TESTMAIN     Revision: "Agilent i3070 09.10p WN"
+!*! STANDARD VERSION
+!*! Testmain.bdg
+!*! This Testmain is used for Board Grading
+!*! **************************************************************************
+!*! **************************************************************************
+!*! ANY CHANGES TO THIS TEST MAIN COULD PREVENT BDG FROM RUNNING PROPERLY
+!*! **************************************************************************
+!*! **************************************************************************
+
+Rev$ = "i3070 09.10p WN(full)"
+
+dim InvOn$[5], InvOff$[4]
+dim Testmain_Revision$[70]
+dim Batch$[12], Oper$[25], Testplan$[14], Testrev$[4]
+dim Board$[14], Board_Rev$[14], Known_Good$[1]
+dim Proc_Step$[5], Log_Path$[80]
+dim Psgroup(1:16)
+dim Dual_Well_Enable(1:4)
+dim Dir$[500]
+
+option bit 32
+on break recover Break_Trap
+on error recover Error_Trap
+Dir$ = msi$
+
+!*! Obtain constants used in this testplan
+call Initialize
+
+!*! Obtain the BDG test parameters
+call Get_BDG_specifications
+
+buffered reporting off
+
+!*! Turn off Worst Probe Report
+probe report off
+
+!*! First Run Initialization
+if nrun = 1 then
+   load board
+   testhead is 1
+end if
+
+!*! Begin Loop !*!
+for I = 1 to 4
+  if Dual_Well_Enable(I) = True then
+     Well = I
+     call Vacuum_well        !*! Set the vacuum wells
+     call Vacuum(False,True) !*! turn off vacuum, force flags to correct state
+     unpowered
+     log level is none
+     call Characterize
+     log clear
+     call Tests              !*! Run the BDG tests
+  end if
+next I
+!*! End   Loop !*!
+
+call Prt("BDG ran sucessfully")
+report is *
+printer is *
+unlink Bdg_Dir$ & "/data" , Err
+if Err <> 0 and Err <> 100009 then   ! File not found
+   call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+end if
+stop
+
+Break_Trap:
+   call Sys_Err("Break pressed")
+Error_Trap:
+  call Sys_Err("Error found")
+end
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Stop the program and clean up
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Fatal(Msg$)
+   call The_End(0,Msg$)
+subend
+
+sub Sys_Err(Msg$)
+   call The_End(1,Msg$)
+subend
+
+sub The_End(ErrFlag,Msg$)
+global Dir$ , Bdg_Dir$
+global Error_testplan_bdg     !Add
+Error_testplan_bdg = 1        !Add
+off error
+off break
+msi Dir$
+printer is *
+print Msg$
+if ErrFlag then print errmlong$
+unpowered, Err
+if Err then print errmlong$
+faoff, Err
+if Err then print errmlong$
+report is *
+log is *
+unlink Bdg_Dir$ & "/data" , Err
+if Err <> 0 and Err <> 100009 then   ! File not found
+   call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+end if
+stop
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Shut down due to a power supply failure
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub  Power_Supply_failure
+call Fatal("Power Supplies failed")
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Initialize constants used in this testplan
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Initialize
+global True, False, Run, Power_Supply, Speed, Verify_Faults
+global Log_without_pins_nhls, Log_without_pins, Log_board
+global Dig_Inc_Mode, Dig_Fun_Mode, Ana_Fun_Mode
+global Digital_Test_Type, Analog_Test_Type, Mixed_Test_Type
+global Driver_only, Receiver_only, Bidir
+global Bscan_Powered_Shorts_Mode, Bscan_Interconnect_Mode
+global Bscan_Incircuit_Mode, Bscan_Silicon_Nails_Mode, Cover_Extend_Mode
+
+True = 1
+False = 0
+
+Run = 1
+Power_supply = 2
+Speed = 3
+Verify_Faults = 4
+
+Digital_Test_Type = 1
+Analog_Test_Type = 2
+Mixed_Test_Type = 3
+
+Log_without_pins_nhls = 1
+Log_without_pins = 2
+Log_board = 3
+
+Dig_Inc_Mode = 1
+Dig_Fun_Mode = 2
+Ana_Fun_Mode = 3
+
+Bscan_Powered_Shorts_Mode = 4
+Bscan_Interconnect_Mode = 5
+Bscan_Incircuit_Mode = 6
+Bscan_Silicon_Nails_Mode = 7
+
+Cover_Extend_Mode = 8
+
+Bidir = 0
+Driver_only = 1
+Receiver_only = 2
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Call the individual test subroutines
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Tests
+global Dig_Inc_Mode, Dig_Fun_Mode, Ana_Fun_Mode
+global Bscan_Powered_Shorts_Mode, Bscan_Interconnect_Mode
+global Bscan_Incircuit_Mode, Bscan_Silicon_Nails_Mode, Cover_Extend_Mode
+!call Pins_bdg
+!call Pre_shorts_bdg
+!call Shorts_bdg
+!call Analog_Incircuit_bdg
+!call Pre_Powered_bdg
+!call Testjet_bdg
+call Test_bdg(Dig_Inc_Mode)
+!call Test_bdg(Dig_Fun_Mode)
+!call Test_bdg(Ana_Fun_Mode)
+!call Test_Bscan_bdg(Bscan_Powered_Shorts_Mode)
+!call Test_Bscan_bdg(Bscan_Interconnect_Mode)
+!call Test_Bscan_bdg(Bscan_Incircuit_Mode)
+!call Test_Bscan_bdg(Bscan_Silicon_Nails_Mode)
+!call Test_Bscan_bdg(Cover_Extend_Mode)
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the pins test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Pins_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+global Pins_Test, Pins_Runs
+if Pins_Test then
+   call Start_report
+   unpowered
+   call Start_log("pins.dat", Log_without_pins_nhls)
+   for N = 1 to Pins_Runs
+      call Vacuum_Cycle
+      call Progress("Pins",N,Pins_Runs)
+      log board start "Pins", val$(N)
+      Dummy = fnPinsfailed
+      log board end
+   next N
+   call End_log
+   call End_report("pins.dat")
+end if
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the pre-shorts test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Pre_shorts_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+global Pre_Shorts_Test, Pre_shorts_Runs
+if Pre_Shorts_Test then
+   call Start_report
+   unpowered
+   call Start_log("pre_sho.dat", Log_without_pins)
+   for N = 1 to Pre_shorts_Runs
+      call Progress("Pre_shorts",N,Pre_shorts_Runs)
+      if N = 2 then
+         log level is all without pins, nhls
+      end if
+      log board start "Pre_Shorts", val$(N)
+      call Vacuum_cycle
+      call Pre_shorts
+      log board end
+   next N
+   call End_log
+   call End_report("pre_sho.dat")
+end if
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the shorts test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Shorts_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+global Shorts_Test, Shorts_Runs
+global Bdg_Shorts$
+dim Dirs$(5)[80], Labels$(5)[30]
+Dirs$(1) = "."                              | Labels$(1) = "NORMAL"
+Dirs$(2) = Bdg_Shorts$ & "/bdg_shorts_ht"   | Labels$(2) = "HIGH_THRESHOLD"
+Dirs$(3) = Bdg_Shorts$ & "/bdg_shorts_lt"   | Labels$(3) = "LOW_THRESHOLD"
+Dirs$(4) = Bdg_Shorts$ & "/bdg_shorts_hsd"  | Labels$(4) = "HIGH_SETTLING_DELAY"
+Dirs$(5) = Bdg_Shorts$ & "/bdg_shorts_lsd"  | Labels$(5) = "LOW_SETTLING_DELAY"
+
+if Shorts_Test then
+   call Start_report
+   call Start_log("sho.dat", Log_without_pins_nhls)
+
+   for Pass = 1 to 5
+      msi Dirs$(Pass)
+      if Pass <> 1 then load board
+      unpowered
+      for N = 1 to Shorts_Runs
+         call Vacuum_cycle
+         call Progress(Labels$(Pass) & " Shorts",N,Shorts_Runs)
+         log board start Labels$(Pass) & " Shorts", val$(N)
+         log "{@BDG_SHORTS|" & Labels$(Pass) & "}"
+         call Shorts
+         log board end
+      next N
+      if Pass <> 1 then msi "../.."
+   next Pass
+
+   load board
+
+   call End_log
+   call End_report("sho.dat")
+end if
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the analog incircuit test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Analog_Incircuit_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+global Ana_Inc_Vacuum_Off_Test, Ana_Inc_Quality_Test, Ana_Inc_Quality_Runs
+if Ana_inc_Vacuum_Off_Test then
+   call Start_report
+   report level is none
+   call Prt("Testing Analog Incircuit Vacuum off")
+   call Vacuum(False,False)
+   wait 4   !delay for fixture vacuum release
+   unpowered
+   call Start_log("ana_inc_vac_off.dat", Log_without_pins_nhls)
+   log board start "Analog Incircuit Vacuum off", val$(1)
+   call Analog_Tests
+   log board end
+   call End_log
+   call End_report ("ana_inc_vac_off.dat")
+end if
+
+if Ana_Inc_Quality_Test then
+   call Start_report
+   unpowered
+   call Start_log("ana_inc_qua.dat", Log_without_pins)
+   for N = 1 to Ana_Inc_Quality_Runs
+      call Progress("Analog Incircuit Quality" , N , Ana_Inc_Quality_Runs)
+      log board start "Analog Incircuit Quality", val$(N)
+      if N = 2 then
+         log level is all without pins, nhls
+      end if
+
+      call Vacuum_cycle
+      call Analog_Tests
+      log board end
+   next N
+   call End_log
+   call End_report("ana_inc_qua.dat")
+end if
+subend
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the pre-powered test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Pre_Powered_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+global Pre_Powered_Vacuum_Off_Test, Pre_Powered_Quality_Test
+global Pre_Powered_Quality_Runs
+if Pre_Powered_Vacuum_Off_Test then
+   call Start_report
+   report level is none
+   call Prt("Testing Pre-Powered Vacuum off")
+   call Vacuum(False,False)
+   wait 4   !delay for fixture vacuum release
+   prepowered !HVZ
+   call Start_log("pre_pwr_vac_off.dat", Log_without_pins_nhls)
+   log board start "Pre-Powered Vacuum off", val$(1)
+   call Analog_Prepowered_Tests !HVZ
+   log board end
+   call End_log
+   call End_report ("pre_pwr_vac_off.dat")
+end if
+
+if Pre_Powered_Quality_Test then
+   call Start_report
+   prepowered !HVZ
+   call Start_log("pre_pwr_qua.dat", Log_without_pins)
+   for N = 1 to Pre_Powered_Quality_Runs
+      call Progress("Pre-Powered Quality", N, Pre_Powered_Quality_Runs)
+      log board start "Pre-Powered Quality", val$(N)
+      if N = 2 then
+         log level is all without pins, nhls
+      end if
+
+      call Vacuum_cycle
+      prepowered !HVZ
+      call Analog_Prepowered_Tests !HVZ
+      log board end
+   next N
+   call End_log
+   call End_report("pre_pwr_qua.dat")
+end if
+subend
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the digital incircuit test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Test_bdg(Mode)
+global True, False, Bdg_Dir$, Run, Power_Supply, Speed, Verify_Faults
+global Power_Supply_Level$
+global Log_without_pins_nhls, Log_without_pins, Log_board
+global Dig_Inc_Mode, Dig_Fun_Mode, Ana_Fun_Mode, Ver_Fau_Mode
+
+global Dig_Inc_Vacuum_Off_Test, Dig_Inc_Quality_Test, Dig_Inc_Quality_Runs
+global Dig_Inc_Power_Supply_Test, Dig_Inc_Power_Supply_Runs
+global Dig_Inc_Power_Supply_Pos_Var , Dig_Inc_Power_supply_Neg_Var
+global Dig_Inc_Speed_Test, Dig_Inc_Speed_Runs
+global Dig_Inc_Logic_Level_Test, Dig_Inc_Logic_Level_Runs
+global Dig_Inc_Fault_Coverage_Test, Dig_Inc_Fault_Coverage_Runs
+
+global Dig_Fun_Vacuum_Off_Test, Dig_Fun_Quality_Test, Dig_Fun_Quality_Runs
+global Dig_Fun_Power_Supply_Test, Dig_Fun_Power_Supply_Runs
+global Dig_Fun_Power_Supply_Pos_Var , Dig_Fun_Power_supply_Neg_Var
+global Dig_Fun_Speed_Test, Dig_Fun_Speed_Runs
+global Dig_Fun_Logic_Level_Test, Dig_Fun_Logic_Level_Runs
+global Dig_Fun_Fault_Coverage_Test, Dig_Fun_Fault_Coverage_Runs
+
+global Ana_Fun_Vacuum_Off_Test, Ana_Fun_Quality_Test, Ana_Fun_Quality_Runs
+global Ana_Fun_Power_Supply_Test, Ana_Fun_Power_Supply_Runs
+global Ana_Fun_Power_Supply_Pos_Var , Ana_Fun_Power_supply_Neg_Var
+global Ana_Fun_Speed_Test, Ana_Fun_Speed_Runs
+global Ana_Fun_Logic_Level_Test, Ana_Fun_Logic_Level_Runs
+global Ana_Fun_Fault_Coverage_Test, Ana_Fun_Fault_Coverage_Runs
+
+
+if Mode = Dig_Inc_mode then
+   Vacuum_Off_Test = Dig_Inc_Vacuum_Off_Test
+   Quality_Test = Dig_Inc_Quality_Test
+   Quality_Runs = Dig_Inc_Quality_Runs
+   Power_Supply_Test = Dig_Inc_Power_Supply_Test
+   Power_Supply_Runs = Dig_Inc_Power_Supply_Runs
+   Power_Supply_Pos_Var = Dig_Inc_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Dig_Inc_Power_Supply_Neg_Var
+   Speed_Test = Dig_Inc_Speed_Test
+   Speed_Runs = Dig_Inc_Speed_Runs
+   Logic_Level_Test = Dig_Inc_Logic_Level_Test
+   Logic_level_Runs = Dig_Inc_Logic_Level_Runs
+   Fault_Coverage_Test = Dig_Inc_Fault_Coverage_Test
+   Fault_Coverage_Runs = Dig_Inc_Fault_Coverage_Runs
+   Label$ = "Digital Incircuit"
+   File$ = "dig_inc_"
+else
+if Mode = Dig_Fun_mode then
+   Vacuum_Off_Test = Dig_Fun_Vacuum_Off_Test
+   Quality_Test = Dig_Fun_Quality_Test
+   Quality_Runs = Dig_Fun_Quality_Runs
+   Power_Supply_Test = Dig_Fun_Power_Supply_Test
+   Power_Supply_Runs = Dig_Fun_Power_Supply_Runs
+   Power_Supply_Pos_Var = Dig_Fun_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Dig_Fun_Power_Supply_Neg_Var
+   Speed_Test = Dig_Fun_Speed_Test
+   Speed_Runs = Dig_Fun_Speed_Runs
+   Logic_Level_Test = Dig_Fun_Logic_Level_Test
+   Logic_level_Runs = Dig_Fun_Logic_Level_Runs
+   Fault_Coverage_Test = Dig_Fun_Fault_Coverage_Test
+   Fault_Coverage_Runs = Dig_Fun_Fault_Coverage_Runs
+   Label$ = "Digital Functional"
+   File$ = "dig_fun_"
+else
+if Mode = Ana_Fun_mode then
+   Vacuum_Off_Test = Ana_Fun_Vacuum_Off_Test
+   Quality_Test = Ana_Fun_Quality_Test
+   Quality_Runs = Ana_Fun_Quality_Runs
+   Power_Supply_Test = Ana_Fun_Power_Supply_Test
+   Power_Supply_Runs = Ana_Fun_Power_Supply_Runs
+   Power_Supply_Pos_Var = Ana_Fun_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Ana_Fun_Power_Supply_Neg_Var
+   Speed_Test = Ana_Fun_Speed_Test
+   Speed_Runs = Ana_Fun_Speed_Runs
+   Logic_Level_Test = Ana_Fun_Logic_Level_Test
+   Logic_level_Runs = Ana_Fun_Logic_Level_Runs
+   Fault_Coverage_Test = Ana_Fun_Fault_Coverage_Test
+   Fault_Coverage_Runs = Ana_Fun_Fault_Coverage_Runs
+   Label$ = "Analog Functional"
+   File$ = "ana_fun_"
+else
+   call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 1")
+end if
+end if
+end if
+
+if Vacuum_Off_Test then
+   call Start_report
+   report level is none
+   call Prt("Testing " & Label$ & " Vacuum off")
+   call Vacuum(False,False)
+   powered
+   call Start_log(File$ & "vac_off.dat", Log_without_pins_nhls)
+   log board start Label$ & " Vacuum off", val$(N)
+   if Mode = Dig_Inc_Mode then
+      call Digital_Tests(Run)
+   else
+   if Mode = Dig_Fun_Mode then
+      call Functional_Tests(Run)
+   else
+   if Mode = Ana_Fun_Mode then
+      call Analog_Functional_Tests(Run)
+   else
+      call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 2")
+   end if
+   end if
+   end if
+   log board end
+   call End_log
+   call End_report (File$ & "vac_off.dat")
+end if
+
+if Quality_Test then
+   call Start_report
+   powered
+   call Start_log(File$ & "qua.dat", Log_without_pins)
+
+   for N = 1 to Quality_Runs
+      call Progress(Label$ & " Quality" , N , Quality_Runs)
+      log board start Label$ & " Quality", val$(N)
+      if N = 2 then
+         log level is all without pins, nhls
+      end if
+      call Vacuum_Cycle
+      clear failures
+      call Enter_Second_Stage
+      powered
+      call Setup_Power_Supplies(0)
+      if boardfailed then call Power_Supply_failure
+      if Mode = Dig_Inc_Mode then
+         call Digital_Tests(Run)
+      else
+      if Mode = Dig_Fun_Mode then
+         call Functional_Tests(Run)
+      else
+      if Mode = Ana_Fun_Mode then
+         call Analog_Functional_Tests(Run)
+      else
+         call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 3")
+      end if
+      end if
+      end if
+      call Disconnect_Power_On_Board
+      call Out_Second_Stage
+      log board end
+   next N
+   call End_log
+   call End_report(File$ & "qua.dat")
+end if
+
+if Power_Supply_Test then
+   call Start_report
+   powered
+   call Start_log(File$ & "pow_sup.dat", Log_board)
+   Power_Supply_Level$ = "HIGH"
+   for N = 1 to Power_Supply_Runs
+      call Progress(Label$ & " High Power Supplies",N,Power_Supply_Runs)
+      log board start Label$ & " Power Supply", val$(N)
+      call Vacuum_cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(Power_Supply_Pos_Var)
+      if boardfailed then call Power_Supply_failure
+      if Mode = Dig_Inc_Mode then
+         call Digital_Tests(Power_Supply)
+      else
+      if Mode = Dig_Fun_Mode then
+         call Functional_Tests(Power_Supply)
+      else
+      if Mode = Ana_Fun_Mode then
+         call Analog_Functional_Tests(Power_Supply)
+      else
+         call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 4")
+      end if
+      end if
+      end if
+      log board end
+   next N
+
+   Power_Supply_Level$ = "LOW"
+   for N = 1 to Power_Supply_Runs
+      call Progress(Label$ & " Low Power Supplies",N,Power_Supply_Runs)
+      log board start Label$ & " Power Supply", val$(N)
+      call Vacuum_Cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(-Power_Supply_Neg_Var)
+      if boardfailed then call Power_Supply_failure
+      if Mode = Dig_Inc_Mode then
+         call Digital_Tests(Power_Supply)
+      else
+      if Mode = Dig_Fun_Mode then
+         call Functional_Tests(Power_Supply)
+      else
+      if Mode = Ana_Fun_Mode then
+         call Analog_Functional_Tests(Power_Supply)
+      else
+         call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 5")
+      end if
+      end if
+      end if
+      log board end
+   next N
+   call End_log
+   call End_report(File$ & "pow_sup.dat")
+end if
+
+if Speed_Test then
+   call Start_print
+   powered
+   call Start_log(File$ & "spe.dat", Log_board)
+   log board "A","B","C","D","E","F","G"
+   for N = 1 to Speed_Runs
+      call Progress(Label$ & " Speed",N,Speed_Runs)
+      log board start Label$ & " Speed", val$(N)
+      call Vacuum_Cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(0)
+      if boardfailed then call Power_Supply_failure
+      if Mode = Dig_Inc_Mode then
+         call Digital_Tests(Speed)
+      else
+      if Mode = Dig_Fun_Mode then
+         call Functional_Tests(Speed)
+      else
+      if Mode = Ana_Fun_Mode then
+         call Analog_Functional_Tests(Speed)
+      else
+         call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 6")
+      end if
+      end if
+      end if
+      log board end
+   next N
+   call End_log
+   call End_print(File$ & "spe.dat")
+end if
+
+if Logic_Level_Test or Fault_Coverage_Test then
+   unlink Bdg_Dir$ & "/" & File$ & "ver_fau.dat" , Err
+   if Err <> 0 and Err <> 100009 then   ! File not found
+      call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+   end if
+   powered
+   log level is none
+   printer is Bdg_Dir$ & "/" & File$ & "ver_fau.dat"
+   print "{@BDG_VERIFY_FAULTS|" ; datetime$ ; "}"
+   Runs = Logic_Level_Runs
+   if Runs < Fault_Coverage_Runs then
+       Runs = Fault_Coverage_Runs
+   end if
+   for N = 1 to Runs
+      call Progress(Label$ & " Verify Faults",N,Runs)
+      print "{@BDG_VERIFY_FAULTS_LOOP|" & Label$ & " Incircuit Verify Faults|";val$(N);"}"
+      call Vacuum_Cycle
+      clear failures
+      call Enter_Second_Stage
+      powered
+      call Setup_Power_Supplies(0)
+      if boardfailed then call Power_Supply_failure
+      if Mode = Dig_Inc_Mode then
+         call Digital_Tests(Verify_Faults)
+      else
+      if Mode = Dig_Fun_Mode then
+         call Functional_Tests(Verify_Faults)
+      else
+      if Mode = Ana_Fun_Mode then
+         call Analog_Functional_Tests(Verify_Faults)
+      else
+         call Fatal("Testmain Error - sub Test_bdg - unknown Mode - Check 7")
+      end if
+      end if
+      end if
+      call Disconnect_Power_On_Board
+      call Out_Second_Stage
+   next N
+   print "{@BDG_END}"
+   printer is *
+end if
+subend
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control the Boundary Scan Digital test flow
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Test_Bscan_bdg(Mode)
+global True, False, Bdg_Dir$, Run, Power_Supply, Speed, Verify_Faults
+global Power_Supply_Level$
+global Log_without_pins_nhls, Log_without_pins, Log_board
+global Bscan_Powered_Shorts_Mode, Bscan_Interconnect_Mode
+global Bscan_Incircuit_Mode, Bscan_Silicon_Nails_Mode, Cover_Extend_Mode
+global Ver_Fau_Mode
+
+global Bscan_Inc_Vacuum_Off_Test, Bscan_Inc_Quality_Test
+global Bscan_Inc_Quality_Runs, Bscan_Inc_Power_Supply_Test
+global Bscan_Inc_Power_Supply_Runs, Bscan_Inc_Power_Supply_Pos_Var
+global Bscan_Inc_Power_Supply_Neg_Var, Bscan_Inc_Speed_Test
+global Bscan_Inc_Speed_Runs, Bscan_Inc_Logic_Level_Test
+global Bscan_Inc_Logic_Level_Runs, Bscan_Inc_Fault_Coverage_Test
+global Bscan_Inc_Fault_Coverage_Runs
+
+global Bscan_Inter_Vacuum_Off_Test, Bscan_Inter_Quality_Test
+global Bscan_Inter_Quality_Runs, Bscan_Inter_Power_Supply_Test
+global Bscan_Inter_Power_Supply_Runs, Bscan_Inter_Power_Supply_Pos_Var
+global Bscan_Inter_Power_Supply_Neg_Var, Bscan_Inter_Speed_Test
+global Bscan_Inter_Speed_Runs, Bscan_Inter_Logic_Level_Test
+global Bscan_Inter_Logic_Level_Runs, Bscan_Inter_Fault_Coverage_Test
+global Bscan_Inter_Fault_Coverage_Runs
+
+global Bscan_PS_Vacuum_Off_Test, Bscan_PS_Quality_Test
+global Bscan_PS_Quality_Runs, Bscan_PS_Power_Supply_Test
+global Bscan_PS_Power_Supply_Runs, Bscan_PS_Power_Supply_Pos_Var
+global Bscan_PS_Power_Supply_Neg_Var, Bscan_PS_Speed_Test
+global Bscan_PS_Speed_Runs, Bscan_PS_Logic_Level_Test
+global Bscan_PS_Logic_Level_Runs, Bscan_PS_Fault_Coverage_Test
+global Bscan_PS_Fault_Coverage_Runs
+
+global Bscan_SN_Vacuum_Off_Test, Bscan_SN_Quality_Test
+global Bscan_SN_Quality_Runs, Bscan_SN_Power_Supply_Test
+global Bscan_SN_Power_Supply_Runs, Bscan_SN_Power_Supply_Pos_Var
+global Bscan_SN_Power_Supply_Neg_Var, Bscan_SN_Speed_Test
+global Bscan_SN_Speed_Runs, Bscan_SN_Logic_Level_Test
+global Bscan_SN_Logic_Level_Runs, Bscan_SN_Fault_Coverage_Test
+global Bscan_SN_Fault_Coverage_Runs
+
+global Cover_Extend_Vacuum_Off_Test, Cover_Extend_Quality_Test
+global Cover_Extend_Quality_Runs, Cover_Extend_Power_Supply_Test
+global Cover_Extend_Power_Supply_Runs, Cover_Extend_PS_Pos_Var
+global Cover_Extend_PS_Neg_Var, Cover_Extend_Speed_Test
+global Cover_Extend_Speed_Runs, Cover_Extend_Logic_Level_Test
+global Cover_Extend_Logic_Level_Runs, Cover_Extend_Fault_Coverage_Test
+global Cover_Extend_Fault_Coverage_Runs
+
+if Mode = Bscan_Interconnect_Mode then
+   Vacuum_Off_Test = Bscan_Inter_Vacuum_Off_Test
+   Quality_Test = Bscan_Inter_Quality_Test
+   Quality_Runs = Bscan_Inter_Quality_Runs
+   Power_Supply_Test = Bscan_Inter_Power_Supply_Test
+   Power_Supply_Runs = Bscan_Inter_Power_Supply_Runs
+   Power_Supply_Pos_Var = Bscan_Inter_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Bscan_Inter_Power_Supply_Neg_Var
+   Speed_Test = Bscan_Inter_Speed_Test
+   Speed_Runs = Bscan_Inter_Speed_Runs
+   Logic_Level_Test = Bscan_Inter_Logic_Level_Test
+   Logic_level_Runs = Bscan_Inter_Logic_Level_Runs
+   Fault_Coverage_Test = Bscan_Inter_Fault_Coverage_Test
+   Fault_Coverage_Runs = Bscan_Inter_Fault_Coverage_Runs
+   Label$ = "Boundary Scan Interconnect"
+   File$ = "bscan_inter_"
+else
+if Mode = Bscan_Incircuit_Mode then
+   Vacuum_Off_Test = Bscan_Inc_Vacuum_Off_Test
+   Quality_Test = Bscan_Inc_Quality_Test
+   Quality_Runs = Bscan_Inc_Quality_Runs
+   Power_Supply_Test = Bscan_Inc_Power_Supply_Test
+   Power_Supply_Runs = Bscan_Inc_Power_Supply_Runs
+   Power_Supply_Pos_Var = Bscan_Inc_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Bscan_Inc_Power_Supply_Neg_Var
+   Speed_Test = Bscan_Inc_Speed_Test
+   Speed_Runs = Bscan_Inc_Speed_Runs
+   Logic_Level_Test = Bscan_Inc_Logic_Level_Test
+   Logic_level_Runs = Bscan_Inc_Logic_Level_Runs
+   Fault_Coverage_Test = Bscan_Inc_Fault_Coverage_Test
+   Fault_Coverage_Runs = Bscan_Inc_Fault_Coverage_Runs
+   Label$ = "Boundary Scan Incircuit"
+   File$ = "bscan_inc_"
+else
+if Mode = Bscan_Powered_Shorts_Mode then
+   Vacuum_Off_Test = Bscan_PS_Vacuum_Off_Test
+   Quality_Test = Bscan_PS_Quality_Test
+   Quality_Runs = Bscan_PS_Quality_Runs
+   Power_Supply_Test = Bscan_PS_Power_Supply_Test
+   Power_Supply_Runs = Bscan_PS_Power_Supply_Runs
+   Power_Supply_Pos_Var = Bscan_PS_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Bscan_PS_Power_Supply_Neg_Var
+   Speed_Test = Bscan_PS_Speed_Test
+   Speed_Runs = Bscan_PS_Speed_Runs
+   Logic_Level_Test = Bscan_PS_Logic_Level_Test
+   Logic_level_Runs = Bscan_PS_Logic_Level_Runs
+   Fault_Coverage_Test = Bscan_PS_Fault_Coverage_Test
+   Fault_Coverage_Runs = Bscan_PS_Fault_Coverage_Runs
+   Label$ = "Boundary Scan Powered Shorts"
+   File$ = "bscan_ps_"
+else
+if Mode = Bscan_Silicon_Nails_Mode then
+   Vacuum_Off_Test = Bscan_SN_Vacuum_Off_Test
+   Quality_Test = Bscan_SN_Quality_Test
+   Quality_Runs = Bscan_SN_Quality_Runs
+   Power_Supply_Test = Bscan_SN_Power_Supply_Test
+   Power_Supply_Runs = Bscan_SN_Power_Supply_Runs
+   Power_Supply_Pos_Var = Bscan_SN_Power_Supply_Pos_Var
+   Power_Supply_Neg_Var = Bscan_SN_Power_Supply_Neg_Var
+   Speed_Test = Bscan_SN_Speed_Test
+   Speed_Runs = Bscan_SN_Speed_Runs
+   Logic_Level_Test = Bscan_SN_Logic_Level_Test
+   Logic_level_Runs = Bscan_SN_Logic_Level_Runs
+   Fault_Coverage_Test = Bscan_SN_Fault_Coverage_Test
+   Fault_Coverage_Runs = Bscan_SN_Fault_Coverage_Runs
+   Label$ = "Boundary Scan Silicon Nails"
+   File$ = "bscan_sn_"
+else
+if Mode = Cover_Extend_Mode then
+   Vacuum_Off_Test = Cover_Extend_Vacuum_Off_Test
+   Quality_Test = Cover_Extend_Quality_Test
+   Quality_Runs = Cover_Extend_Quality_Runs
+   Power_Supply_Test = Cover_Extend_Power_Supply_Test
+   Power_Supply_Runs = Cover_Extend_Power_Supply_Runs
+   Power_Supply_Pos_Var = Cover_Extend_PS_Pos_Var
+   Power_Supply_Neg_Var = Cover_Extend_PS_Neg_Var
+   Speed_Test = Cover_Extend_Speed_Test
+   Speed_Runs = Cover_Extend_Speed_Runs
+   Logic_Level_Test = Cover_Extend_Logic_Level_Test
+   Logic_level_Runs = Cover_Extend_Logic_Level_Runs
+   Fault_Coverage_Test = Cover_Extend_Fault_Coverage_Test
+   Fault_Coverage_Runs = Cover_Extend_Fault_Coverage_Runs
+   Label$ = "Cover-Extend"
+   File$ = "cet_"
+else
+   call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 1")
+end if
+end if
+end if
+end if
+end if
+
+if Vacuum_Off_Test then
+   call Start_report
+   report level is none
+   call Prt("Testing " & Label$ & " Vacuum off")
+   call Vacuum(False,False)
+   powered
+   call Start_log(File$ & "vac_off.dat", Log_without_pins_nhls)
+   log board start Label$ & " Vacuum off", val$(N)
+   if Mode = Bscan_Interconnect_Mode then
+      call BScan_Interconnect_Tests(Run)
+   else
+   if Mode = Bscan_Incircuit_Mode then
+      call BScan_Incircuit_Tests(Run)
+   else
+   if Mode = Bscan_Powered_Shorts_Mode then
+      call BScan_Powered_Shorts_Tests(Run)
+   else
+   if Mode = Bscan_Silicon_Nails_Mode then
+      call BScan_Silicon_Nails_Tests(Run)
+   else
+   if Mode = Cover_Extend_Mode then
+      call Cover_Extend_Tests(Run)
+   else
+      call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 2")
+   end if
+   end if
+   end if
+   end if
+   end if
+   log board end
+   call End_log
+   call End_report (File$ & "vac_off.dat")
+end if
+
+if Quality_Test then
+   call Start_report
+   powered
+   call Start_log(File$ & "qua.dat", Log_without_pins)
+
+   for N = 1 to Quality_Runs
+      call Progress(Label$ & " Quality" , N , Quality_Runs)
+      log board start Label$ & " Quality", val$(N)
+      if N = 2 then
+         log level is all without pins, nhls
+      end if
+      call Vacuum_Cycle
+      clear failures
+      call Enter_Second_Stage
+      powered
+      call Setup_Power_Supplies(0)
+      call Setup_FXT_Power_Supplies
+      call Setup_CET_FXT_Power_Supplies
+      if boardfailed then call Power_Supply_failure
+      if Mode = Bscan_Interconnect_Mode then
+        call BScan_Interconnect_Tests(Run)
+      else
+      if Mode = Bscan_Incircuit_Mode then
+         call BScan_Incircuit_Tests(Run)
+      else
+      if Mode = Bscan_Powered_Shorts_Mode then
+         call BScan_Powered_Shorts_Tests(Run)
+      else
+      if Mode = Bscan_Silicon_Nails_Mode then
+         call BScan_Silicon_Nails_Tests(Run)
+      else
+      if Mode = Cover_Extend_Mode then
+         call Cover_Extend_Tests(Run)
+      else
+         call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 3")
+      end if
+      end if
+      end if
+      end if
+      end if
+      call Disconnect_Power_On_Board
+      call Out_Second_Stage
+      log board end
+   next N
+   call End_log
+   call End_report(File$ & "qua.dat")
+end if
+
+if Power_Supply_Test then
+   call Start_report
+   powered
+   call Start_log(File$ & "pow_sup.dat", Log_board)
+   Power_Supply_Level$ = "HIGH"
+   for N = 1 to Power_Supply_Runs
+      call Progress(Label$ & " High Power Supplies",N,Power_Supply_Runs)
+      log board start Label$ & " Power Supply", val$(N)
+      call Vacuum_cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(Power_Supply_Pos_Var)
+      call Setup_FXT_Power_Supplies
+      call Setup_CET_FXT_Power_Supplies
+      if boardfailed then call Power_Supply_failure
+      if Mode = Bscan_Interconnect_Mode then
+        call BScan_Interconnect_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Incircuit_Mode then
+         call BScan_Incircuit_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Powered_Shorts_Mode then
+         call BScan_Powered_Shorts_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Silicon_Nails_Mode then
+         call BScan_Silicon_Nails_Tests(Power_Supply)
+      else
+      if Mode = Cover_Extend_Mode then
+         call Cover_Extend_Tests(Power_Supply)
+      else
+         call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 4")
+      end if
+      end if
+      end if
+      end if
+      end if
+      log board end
+   next N
+
+   Power_Supply_Level$ = "LOW"
+   for N = 1 to Power_Supply_Runs
+      call Progress(Label$ & " Low Power Supplies",N,Power_Supply_Runs)
+      log board start Label$ & " Power Supply", val$(N)
+      call Vacuum_Cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(-Power_Supply_Neg_Var)
+      call Setup_FXT_Power_Supplies
+      call Setup_CET_FXT_Power_Supplies
+      if boardfailed then call Power_Supply_failure
+      if Mode = Bscan_Interconnect_Mode then
+        call BScan_Interconnect_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Incircuit_Mode then
+         call BScan_Incircuit_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Powered_Shorts_Mode then
+         call BScan_Powered_Shorts_Tests(Power_Supply)
+      else
+      if Mode = Bscan_Silicon_Nails_Mode then
+         call BScan_Silicon_Nails_Tests(Power_Supply)
+      else
+      if Mode = Cover_Extend_Mode then
+         call Cover_Extend_Tests(Power_Supply)
+      else
+         call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 5")
+      end if
+      end if
+      end if
+      end if
+      end if
+      log board end
+   next N
+   call End_log
+   call End_report(File$ & "pow_sup.dat")
+end if
+
+if Speed_Test then
+   call Start_print
+   powered
+   call Start_log(File$ & "spe.dat", Log_board)
+   log board "A","B","C","D","E","F","G"
+   for N = 1 to Speed_Runs
+      call Progress(Label$ & " Speed",N,Speed_Runs)
+      log board start Label$ & " Speed", val$(N)
+      call Vacuum_Cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(0)
+      call Setup_FXT_Power_Supplies
+      call Setup_CET_FXT_Power_Supplies
+      if boardfailed then call Power_Supply_failure
+      if Mode = Bscan_Interconnect_Mode then
+        call BScan_Interconnect_Tests(Speed)
+      else
+      if Mode = Bscan_Incircuit_Mode then
+         call BScan_Incircuit_Tests(Speed)
+      else
+      if Mode = Bscan_Powered_Shorts_Mode then
+         call BScan_Powered_Shorts_Tests(Speed)
+      else
+      if Mode = Bscan_Silicon_Nails_Mode then
+         call BScan_Silicon_Nails_Tests(Speed)
+      else
+      if Mode = Cover_Extend_Mode then
+         call Cover_Extend_Tests(Speed)
+      else
+         call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 6")
+      end if
+      end if
+      end if
+      end if
+      end if
+      log board end
+   next N
+   call End_log
+   call End_print(File$ & "spe.dat")
+end if
+
+if Logic_Level_Test or Fault_Coverage_Test then
+   unlink Bdg_Dir$ & "/" & File$ & "ver_fau.dat" , Err
+   if Err <> 0 and Err <> 100009 then   ! File not found
+      call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+   end if
+   powered
+   log level is none
+   printer is Bdg_Dir$ & "/" & File$ & "ver_fau.dat"
+   print "{@BDG_VERIFY_FAULTS|" ; datetime$ ; "}"
+   Runs = Logic_Level_Runs
+   if Runs < Fault_Coverage_Runs then
+       Runs = Fault_Coverage_Runs
+   end if
+   for N = 1 to Runs
+      call Progress(Label$ & " Verify Faults",N,Runs)
+      print "{@BDG_VERIFY_FAULTS_LOOP|" & Label$ & " Incircuit Verify Faults|";val$(N);"}"
+      call Vacuum_Cycle
+      clear failures
+      powered
+      call Setup_Power_Supplies(0)
+      call Setup_FXT_Power_Supplies
+      call Setup_CET_FXT_Power_Supplies
+      if boardfailed then call Power_Supply_failure
+      if Mode = Bscan_Interconnect_Mode then
+        call BScan_Interconnect_Tests(Verify_Faults)
+      else
+      if Mode = Bscan_Incircuit_Mode then
+         call BScan_Incircuit_Tests(Verify_Faults)
+      else
+      if Mode = Bscan_Powered_Shorts_Mode then
+         call BScan_Powered_Shorts_Tests(Verify_Faults)
+      else
+      if Mode = Bscan_Silicon_Nails_Mode then
+         call BScan_Silicon_Nails_Tests(Verify_Faults)
+      else
+      if Mode = Cover_Extend_Mode then
+         call Cover_Extend_Tests(Verify_Faults)
+      else
+         call Fatal("Testmain Error - sub Test_Bscan_bdg - unknown Mode - Check 7")
+      end if
+      end if
+      end if
+      end if
+      end if
+   next N
+   print "{@BDG_END}"
+   printer is *
+end if
+subend
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Run a test
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Test(Ic$,Ic1$,Mode,Test_Type,VC1, VC2, RD1, RD2, EV1, EV2)
+global False, True
+global Run, Power_Supply, Speed, Verify_Faults
+global Power_Supply_Level$
+global Digital_Test_Type, Analog_Test_Type, Mixed_Test_Type
+global Ver_Fau_Mode, Bidir, Driver_only, Receiver_only
+
+output "/dev/tty" ; "Testing " ; Ic$
+
+if Mode = Run then
+   test Ic$
+else
+if Mode = Power_Supply then
+   test Ic$
+   log "{@BDG_POWER_SUPPLY|" & Power_Supply_Level$& "|" & Ic1$ & "|" & val$(dutfailed)&"}"
+else
+if Test_type <> Analog_Test_Type then
+   if Mode = Speed then
+      debug Ic$
+      if VC1 <> 0 then
+         safeguard none
+         receive delay RD1
+         vector cycle VC1
+         execute to fail
+         log "{@BDG_SPEED|SLOW|" & Ic1$ & "|" & val$(dutfailed) & "}"
+         vector cycle VC2
+         receive delay RD2
+         execute to fail
+         log "{@BDG_SPEED|FAST|" & Ic1$ & "|" & val$(dutfailed) & "}"
+      else
+      if EV1 <> 0 then
+         safeguard none
+         events every EV1 internal
+         execute to fail
+         log "{@BDG_SPEED|SLOW|" & Ic1$ & "|" & val$(dutfailed) & "}"
+         events every EV2 internal
+         execute to fail
+         log "{@BDG_SPEED|FAST|" & Ic1$ & "|" & val$(dutfailed) & "}"
+      end if
+      end if
+      debug end
+   else
+   if Mode = Verify_Faults then
+      debug Ic$
+      if Ver_Fau_Mode = Driver_only then
+         verify faults on device Ic1$;driveronly  ! inputs only
+      end if
+      if Ver_Fau_Mode = Receiver_only then
+         verify faults on device Ic1$;receiveronly ! outputs only
+      end if
+      if Ver_Fau_Mode = Bidir then
+         verify faults on device Ic1$
+      end if
+      debug end
+   else
+      call Fatal("Testmain Error - sub Test - unknown Mode")
+   end if
+   end if
+end if
+end if
+end if
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Print a line to the CRT
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Prt(Msg$)
+output "/dev/tty" ; Msg$
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Print a progress message to the CRT
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Progress(Msg$,N,Total)
+output "/dev/tty";"Testing " & Msg$ & " - Pass: " & val$(N) & " of "&val$(Total)
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Control vacuum
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Vacuum(On,Force)
+global Vacuum_on , True , False, Well
+if On = True and (Vacuum_on = False or Force = True) then
+   Vacuum_on = True
+   if Well = 1 then
+     faon
+   else
+   if Well = 2 then
+     fbon
+   else
+   if Well = 3 then
+     fcon
+   else
+   if Well = 4 then
+     fdon
+   end if
+   end if
+   end if
+   end if
+end if
+
+if On = False and (Vacuum_on = True or Force = True) then
+   Vacuum_on = False
+   if Well = 1 then
+     faoff
+     wait 2
+   else
+   if Well = 2 then
+     fboff
+     wait 2
+   else
+   if Well = 3 then
+     fcoff
+     wait 2
+   else
+   if Well = 4 then
+     fdoff
+     wait 2
+   end if
+   end if
+   end if
+   end if
+end if
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Cycle vacuum if required
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Vacuum_cycle
+global Vacuum_on , True , False , CycleVacuum, Well
+if CycleVacuum = True and Vacuum_on = True then
+  if Well = 1 then
+    faoff
+    wait 2
+    Vacuum_on = False
+  else
+  if Well = 2 then
+    fboff
+    wait 2
+    Vacuum_on = False
+  else
+  if Well = 3 then
+    fcoff
+    wait 2
+    Vacuum_on = False
+  else
+  if Well = 4 then
+    fdoff
+    wait 2
+    Vacuum_on = False
+  end if
+  end if
+  end if
+  end if
+end if
+call Vacuum(True,False)
+subend
+
+!sub Vacuum_cycle
+!global Vacuum_on , True , False , CycleVacuum
+!if CycleVacuum = True and Vacuum_on = True then
+!   faoff
+!   wait 2
+!   Vacuum_on = False
+!end if
+!call Vacuum(True,False)
+!subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Prepare the log file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Start_log(File$,LogLevel)
+global Rev$
+global Bdg_Dir$
+global Log_without_pins_nhls, Log_without_pins, Log_board
+unlink Bdg_Dir$ & "/" & File$ , Err
+if Err <> 0 and Err <> 100009 then   ! File not found
+   call Sys_Err("Unlinking the " & Bdg_Dir$ & "/" & File$ & "file")
+end if
+log is Bdg_dir$ & "/" & File$
+if LogLevel = Log_without_pins_nhls then
+   log level is all without nhls, pins
+else
+if LogLevel = Log_without_pins then
+   log level is all without pins
+else
+if LogLevel = Log_board then
+   log level is board
+else
+   print "Illegal Log Level"
+   call Fatal("Testmain Error - sub Start_log - unknown LogLevel")
+end if
+end if
+end if
+
+log board "Board1","Grading",datetime$,"Grader","Rev","testplan_bdg",Rev$
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Complete the log file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub End_log
+log out
+log clear
+log is *
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Prepare the report file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Start_report
+global Bdg_Dir$
+unlink Bdg_Dir$ & "/data" , Err
+if Err <> 0 and Err <> 100009 then   ! File not found
+   call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+end if
+report level is report
+report is Bdg_Dir$ & "/data"
+report
+report "{@BDG_END}"
+report "*** END OF DATA *** "
+report
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Complete the report file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub End_report(Name$)
+global Bdg_Dir$
+report is *
+append Bdg_Dir$ & "/data" to Bdg_Dir$ & "/" & Name$
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Start the print file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Start_print
+global Bdg_Dir$
+unlink Bdg_Dir$ & "/data" , Err
+if Err <> 0 and Err <> 100009 then   ! File not found
+   call Sys_Err("Unlinking the " & Bdg_Dir$ & "/data file")
+end if
+printer is Bdg_Dir$ & "/data"
+print
+print "{@BDG_END}"
+print "*** END OF DATA *** "
+print
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Complete the print file
+!*! Caution: Do not make any changes to this subroutine
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub End_print(Name$)
+global Bdg_Dir$
+printer is *
+append Bdg_Dir$ & "/data" to Bdg_Dir$ & "/" & Name$
+subend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! END of BDG testmain
+!*! Caution: Do not make any changes before this marker
+!*!****************************************************************************
+!*!****************************************************************************
+
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Setup the vacuum well
+!*! Caution: Changes might be required for this testhead
+!*!          Any changes will not affect BDG reports
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Vacuum_well
+   vacuum well a is 0,1,2,3
+subend
+
+
+
+!*! sub Setup_FXT_Power_Supplies (Status_Code, Message$)
+sub Setup_FXT_Power_Supplies
+subend
+
+!*! sub Setup_CET_FXT_Power_Supplies (Status_Code, Message$)
+sub Setup_CET_FXT_Power_Supplies
+subend
+
+!*! sub Characterize
+sub Characterize
+
+   Status = Failed_In_Learn
+   learn capacitance on
+   test "analog/c05_5"
+   test "analog/c05_rtv1"
+   test "analog/c05_rtv2"
+   test "analog/c06_5"
+   test "analog/c06_rtv1"
+   test "analog/c06_rtv2"
+   test "analog/c110"
+   test "analog/c408"
+   test "analog/c1815"
+   test "analog/c1816"
+!# test "analog/c13_1v2s"   ! No-Stuff
+!# test "analog/c69_3v3"    ! No-Stuff
+!@ test "analog/c13_sf0"    !22p
+!@ test "analog/c13_sf1"    !22p
+!@ test "analog/c219_5v"    !22p
+   test "analog/c23_pm"                         ! Parallel
+   test "analog/c76"
+   test "analog/c3061"
+!@ test "analog/c87"  !6.8p
+!@ test "analog/c88"  !6.8p
+   test "analog/c389"
+   test "analog/c401"
+   learn capacitance off
+subend
+
+
+
+!*! sub Pre_Shorts (Status_Code, Message$)
+sub Pre_Shorts
+
+   test "analog/j1%presence"
+   test "analog/j19%presence"
+   test "analog/p3%presence"
+   test "analog/p4%presence"
+   test "analog/p5%presence"
+   test "analog/qsfp_q0%presence"
+   test "analog/qsfp_q1%presence"
+   test "analog/qsfp_q2%presence"
+   test "analog/sfp_s0%presence"
+   test "analog/sfp_s1%presence"
+subend
+
+
+
+!*! sub Shorts (Status_Code, Message$)
+sub Shorts
+
+   test "shorts"
+subend
+
+
+
+!*! sub Analog_Tests (Status_Code, Message$)
+sub Analog_Tests
+
+
+    test "analog/r1_1v2s"    !102898 nostuff ,102931 stuff
+    test "analog/r1_sf0"     !102898 nostuff ,102931 stuff
+    test "analog/r1_sf1"     !102898 nostuff ,102931 stuff
+    test "analog/r875_5v"    !102898 nostuff ,102931 stuff
+    test "analog/r877_3v3"   !102898 nostuff ,102931 stuff
+
+   test "analog/c2868"                          ! Parallel w/ > 5 devices
+   test "analog/c9_6"                           ! Parallel
+   test "analog/c8_6"                           ! Parallel
+   test "analog/c13_91_rtv1"                    ! Parallel w/ > 5 devices
+   test "analog/c13_91_rtv2"                    ! Parallel w/ > 5 devices
+   test "analog/c228_3v3"                       ! Parallel w/ > 5 devices
+   test "analog/c13_98_rtv1"                    ! Parallel w/ > 5 devices
+   test "analog/c13_98_rtv2"                    ! Parallel w/ > 5 devices
+   test "analog/c13_98_5"                       ! Parallel w/ > 5 devices
+   test "analog/c419_3"                         ! Parallel w/ > 5 devices
+   test "analog/c19_1v2s"                       ! Parallel w/ > 5 devices
+   test "analog/c23_a"                          ! Parallel w/ > 5 devices
+   test "analog/c7_q0"  ! test commented in testorder
+   test "analog/c7_q1"  ! test commented in testorder
+   test "analog/c7_q2"  ! test commented in testorder
+   test "analog/c8_q0"  ! test commented in testorder
+   test "analog/c8_q1"  ! test commented in testorder
+   test "analog/c8_q2"  ! test commented in testorder
+   test "analog/c221_5v"                        ! Parallel w/ > 5 devices
+   test "analog/c3_a"                           ! Parallel w/ > 5 devices
+   test "analog/c186"
+   test "analog/c30"                            ! Parallel w/ > 5 devices
+   test "analog/c1_q0"                          ! Parallel w/ > 5 devices
+   test "analog/c1_q1"                          ! Parallel w/ > 5 devices
+   test "analog/c1_q2"                          ! Parallel w/ > 5 devices
+   test "analog/c2_q0"                          ! Parallel w/ > 5 devices
+   test "analog/c2_q1"                          ! Parallel w/ > 5 devices
+   test "analog/c2_q2"                          ! Parallel w/ > 5 devices
+   test "analog/c19_sf1"                        ! Parallel w/ > 5 devices
+   test "analog/c529"                           ! Parallel w/ > 5 devices
+   test "analog/c19_sf0"                        ! Parallel w/ > 5 devices
+   test "analog/c78"                            ! Parallel w/ > 5 devices
+   test "analog/c90_rt1_2"                      ! Parallel w/ > 5 devices
+   test "analog/c13_91_5"                       ! Parallel w/ > 5 devices
+!# test "analog/c703_3" ! Parallel with capacitors in P1V8 and GND
+!# test "analog/c705_3" ! Parallel with capacitors in P1V8 and GND
+!# test "analog/c707_3" ! Parallel with capacitors in P1V8 and GND
+!# test "analog/c709_3" ! Parallel with capacitors in P1V8 and GND
+   test "analog/c03_5"                          ! Parallel
+   test "analog/c03_rtv1"                       ! Parallel
+   test "analog/c03_rtv2"                       ! Parallel
+   test "analog/c04_5"  ! test commented in testorder   ! Parallel
+   test "analog/c04_rtv1"  ! test commented in testorder ! Parallel
+   test "analog/c04_rtv2"  ! test commented in testorder ! Parallel
+   test "analog/c10_5"                          ! Parallel
+   test "analog/c10_rtv1"                       ! Parallel
+   test "analog/c10_rtv2"                       ! Parallel
+   test "analog/c72"
+   test "analog/c3057"
+   test "analog/c2_6"
+   test "analog/c2_a"
+   test "analog/c5_6"
+   test "analog/c5_a"
+   test "analog/c09_5"                          ! Parallel
+   test "analog/c09_rtv1"                       ! Parallel
+   test "analog/c09_rtv2"                       ! Parallel
+   test "analog/c11"
+   test "analog/c21_pm"                         ! Parallel
+   test "analog/c24_pm"                         ! Parallel
+   test "analog/c75"
+   test "analog/c165"                           ! Parallel
+   test "analog/c3060"
+!# test "analog/c01_5" !* Capacitor can't be tested that parallel with low impedance.
+   test "analog/c33"
+   test "analog/c22_a"
+   test "analog/c146"
+!# test "analog/c147" ! Probe removed
+   test "analog/c171"
+   test "analog/c172"
+   test "analog/c173"
+   test "analog/c174"
+   test "analog/c175"
+   test "analog/c176"
+   test "analog/c177"
+   test "analog/c178"
+   test "analog/c179"
+   test "analog/c180"
+   test "analog/c181"
+   test "analog/c182"
+!# test "analog/c359" ! Probe removed
+!# test "analog/c360" ! Probe removed
+   test "analog/c578"                           ! Parallel
+   test "analog/c727"
+   test "analog/c728"
+   test "analog/c1242"
+   test "analog/c1243"
+!# test "analog/r1023" ! Probe removed
+!# test "analog/r1024" ! Probe removed
+   test "analog/c6_1v2s"                        ! Parallel
+   test "analog/c6_sf0"                         ! Parallel
+   test "analog/c6_sf1"                         ! Parallel
+   test "analog/c214_5v"                        ! Parallel
+   test "analog/c224_3v3"                       ! Parallel
+   test "analog/c05_5"
+   test "analog/c05_rtv1"
+   test "analog/c05_rtv2"
+   test "analog/c06_5"
+   test "analog/c06_rtv1"
+   test "analog/c06_rtv2"
+   test "analog/c110"
+   test "analog/c06_91_5"
+   test "analog/c06_91_rtv1"
+   test "analog/c06_91_rtv2"
+   test "analog/c06_92_5"
+   test "analog/c06_93_5"
+   test "analog/c06_94_5"
+   test "analog/c06_95_5"
+   test "analog/c06_96_5"
+   test "analog/c06_98_5"
+   test "analog/c06_98_rtv1"
+   test "analog/c06_98_rtv2"
+   test "analog/c7_6"
+   test "analog/c7_a"
+   test "analog/c18_a"
+   test "analog/c10_1v2s"
+   test "analog/c10_sf0"
+   test "analog/c10_sf1"
+   test "analog/c24_a"                          ! Parallel
+   test "analog/c58_5v"
+   test "analog/c189_3v3"
+!# test "analog/c11_1v2s" ! No-Stuff
+!# test "analog/c64_3v3"  ! No-Stuff
+!# test "analog/c11_sf0"  ! No-Stuff
+!# test "analog/c11_sf1"  ! No-Stuff
+!# test "analog/c14_sf0"  ! No-Stuff
+!# test "analog/c14_sf1"  ! No-Stuff
+!# test "analog/c217_5v"  ! No-Stuff
+!# test "analog/c220_5v"  ! No-Stuff
+   test "analog/c408"
+   test "analog/c1815"
+   test "analog/c1816"
+!# test "analog/c13_1v2s" ! No-Stuff
+!# test "analog/c69_3v3"  ! No-Stuff
+!@ test "analog/c13_sf0"    !22p
+!@ test "analog/c13_sf1"    !22p
+!@ test "analog/c219_5v"    !22p
+!# test "analog/c14_1v2s"   ! No-Stuff
+!# test "analog/c70_3v3"    ! No-Stuff
+   test "analog/c23_pm"                         ! Parallel
+   test "analog/c76"
+   test "analog/c3061"
+   test "analog/c77"
+   test "analog/c3062"
+!@ test "analog/c87"  !6.8p
+!@ test "analog/c88"  !6.8p
+   test "analog/c389"
+   test "analog/c401"
+   test "analog/r1_6"
+   test "analog/r1_a"
+   test "analog/r3_a"
+   test "analog/r16_a"
+   test "analog/r22_5"
+   test "analog/r22_rtv1"
+   test "analog/r22_rtv2"
+   test "analog/r23_5"
+   test "analog/r23_rtv1"
+   test "analog/r23_rtv2"
+   test "analog/r38"
+   test "analog/r100"
+   test "analog/r102"
+   test "analog/r535"
+   test "analog/r536"
+   test "analog/r545"
+   test "analog/r549"
+   test "analog/r551"
+   test "analog/r553"
+   test "analog/r600"
+   test "analog/r601"
+   test "analog/r687"
+   test "analog/r688"
+   test "analog/r738"
+   test "analog/r1844"
+   test "analog/r1845"
+   test "analog/r1_pm"
+   test "analog/r2_pm"
+   test "analog/r72"
+   test "analog/r201_pm"
+   test "analog/r432"
+   test "analog/r577"
+   test "analog/r2_a"
+   test "analog/r2_rt1_2"
+   test "analog/r2_rt3_4"
+   test "analog/r2_rt5_6"
+   test "analog/r2_rt7_8"
+   test "analog/r2_rt9"
+   test "analog/r9_rt1_2"
+   test "analog/r9_rt3_4"
+   test "analog/r9_rt5_6"
+   test "analog/r9_rt7_8"
+   test "analog/r9_rt9"
+   test "analog/r13_rt1_2"
+   test "analog/r13_rt3_4"
+   test "analog/r13_rt5_6"
+   test "analog/r13_rt7_8"
+   test "analog/r14_rt1_2"
+   test "analog/r14_rt3_4"
+   test "analog/r14_rt5_6"
+   test "analog/r14_rt7_8"
+   test "analog/r15_pm"
+   test "analog/r144"
+   test "analog/r145"
+   test "analog/r155"
+!# test "analog/r245" ! Probe removed
+!# test "analog/r984" ! Shorted on sample board
+!# test "analog/r985" ! Shorted on sample board
+!# test "analog/r1015" ! Probe removed
+!# test "analog/r1016" ! Probe removed
+   test "analog/r2_s0"
+   test "analog/r2_s1"
+   test "analog/r4_s0"
+   test "analog/r4_s1"
+   test "analog/r6_q0"
+   test "analog/r6_q1"
+   test "analog/r6_q2"
+   test "analog/r6_s0"
+   test "analog/r6_s1"
+   test "analog/r8_q0"
+   test "analog/r8_q1"
+   test "analog/r8_q2"
+   test "analog/r8_s0"
+   test "analog/r8_s1"
+   test "analog/r10_s0"
+   test "analog/r10_s1"
+   test "analog/r12_s0"
+   test "analog/r12_s1"
+   test "analog/r14_s0"
+   test "analog/r14_s1"
+   test "analog/r16_s0"
+   test "analog/r16_s1"
+   test "analog/r18_s0"
+   test "analog/r18_s1"
+   test "analog/r20_s0"
+   test "analog/r20_s1"
+   test "analog/r22_s0"
+   test "analog/r22_s1"
+   test "analog/r24_s0"
+   test "analog/r24_s1"
+   test "analog/r26_s0"
+   test "analog/r26_s1"
+   test "analog/r28_s0"
+   test "analog/r28_s1"
+   test "analog/r30_s0"
+   test "analog/r30_s1"
+   test "analog/r32_s0"
+   test "analog/r32_s1"
+   test "analog/r34_s0"
+   test "analog/r34_s1"
+   test "analog/r36_s0"
+   test "analog/r36_s1"
+   test "analog/r38_s0"
+   test "analog/r38_s1"
+   test "analog/r40_s0"
+   test "analog/r40_s1"
+   test "analog/r50_s0"
+   test "analog/r50_s1"
+   test "analog/r52_s0"
+   test "analog/r52_s1"
+   test "analog/r54_s0"
+   test "analog/r54_s1"
+   test "analog/r56_s0"
+   test "analog/r56_s1"
+   test "analog/r479"
+   test "analog/r480"
+   test "analog/r1077"
+   test "analog/r3_3"
+   test "analog/r4_3"
+!# test "analog/r150" ! Probe removed
+!# test "analog/r151" ! Probe removed
+!# test "analog/r181" ! Probe removed
+!# test "analog/r182" ! Probe removed
+!# test "analog/r183" ! Probe removed
+!# test "analog/r184" ! Probe removed
+!# test "analog/r186" ! Probe removed
+!# test "analog/r187" ! Probe removed
+!# test "analog/r188" ! Probe removed
+!# test "analog/r212" ! Probe removed
+!# test "analog/r356" ! Probe removed
+!# test "analog/r357" ! Probe removed
+!# test "analog/r359" ! Probe removed
+!# test "analog/r361" ! Probe removed
+!# test "analog/r362" ! Probe removed
+!# test "analog/r363" ! Probe removed
+!# test "analog/r364" ! Probe removed
+!# test "analog/r368" ! Probe removed
+!# test "analog/r369" ! Probe removed
+!# test "analog/r370" ! Probe removed
+!# test "analog/r371" ! Probe removed
+!# test "analog/r372" ! Probe removed
+!# test "analog/r373" ! Probe removed
+!# test "analog/r374" ! Probe removed
+!# test "analog/r375" ! Probe removed
+!# test "analog/r376" ! Probe removed
+!# test "analog/r379" ! Probe removed
+!# test "analog/r380" ! Probe removed
+!# test "analog/r381" ! Probe removed
+!# test "analog/r382" ! Probe removed
+!# test "analog/r383" ! Probe removed
+!# test "analog/r384" ! Probe removed
+!# test "analog/r502" ! Probe removed
+!# test "analog/r503" ! Probe removed
+!# test "analog/r504" ! Probe removed
+!# test "analog/r505" ! Probe removed
+   test "analog/r3_6"
+   test "analog/r3_q0"
+   test "analog/r3_q1"
+   test "analog/r3_q2"
+   test "analog/r3_rt1_2"
+   test "analog/r3_rt3_4"
+   test "analog/r3_rt5_6"
+   test "analog/r3_rt7_8"
+   test "analog/r3_rt9"
+   test "analog/r4_q0"
+   test "analog/r4_q1"
+   test "analog/r4_q2"
+   test "analog/r5_q0"
+   test "analog/r5_q1"
+   test "analog/r5_q2"
+   test "analog/r09_5"
+   test "analog/r09_rtv1"
+   test "analog/r09_rtv2"
+   test "analog/r12_a"
+   test "analog/r16_rt1_2"
+   test "analog/r16_rt3_4"
+   test "analog/r16_rt5_6"
+   test "analog/r16_rt7_8"
+   test "analog/r26"
+   test "analog/r27"
+   test "analog/r28"
+   test "analog/r29_3"
+   test "analog/r30"
+   test "analog/r30_3"
+   test "analog/r31"
+   test "analog/r33"
+   test "analog/r34"
+   test "analog/r44"
+   test "analog/r51"
+   test "analog/r58_3"
+   test "analog/r59_3"
+   test "analog/r62_3"
+   test "analog/r74"
+   test "analog/r75"
+   test "analog/r88"
+   test "analog/r96"
+   test "analog/r105"
+   test "analog/r107"
+   test "analog/r112"
+   test "analog/r115"
+   test "analog/r300"
+   test "analog/r321"
+   test "analog/r371_3"
+   test "analog/r373_3"
+   test "analog/r384_3"
+   test "analog/r385_3"
+   test "analog/r403"
+   test "analog/r412"
+   test "analog/r414"
+   test "analog/r464"
+   test "analog/r465"
+   test "analog/r564"
+   test "analog/r589"
+   test "analog/r595"
+   test "analog/r685"
+   test "analog/r731"
+   test "analog/r742"
+   test "analog/r755"
+   test "analog/r1099"
+   test "analog/r1156"
+   test "analog/r1256"
+   test "analog/r2427"
+   test "analog/r2428"
+   test "analog/r2429"
+   test "analog/rn38_s0%pin_1_8"
+   test "analog/rn38_s0%pin_2_7"
+   test "analog/rn38_s0%pin_3_6"
+   test "analog/rn38_s0%pin_4_5"
+   test "analog/rn38_s1%pin_1_8"
+   test "analog/rn38_s1%pin_2_7"
+   test "analog/rn38_s1%pin_3_6"
+   test "analog/rn38_s1%pin_4_5"
+   test "analog/rn48_s0%pin_1_8"
+   test "analog/rn48_s0%pin_2_7"
+   test "analog/rn48_s0%pin_3_6"
+   test "analog/rn48_s0%pin_4_5"
+   test "analog/rn48_s1%pin_1_8"
+   test "analog/rn48_s1%pin_2_7"
+   test "analog/rn48_s1%pin_3_6"
+   test "analog/rn48_s1%pin_4_5"
+   test "analog/rn49_s0%pin_1_8"
+   test "analog/rn49_s0%pin_2_7"
+   test "analog/rn49_s0%pin_3_6"
+   test "analog/rn49_s0%pin_4_5"
+   test "analog/rn49_s1%pin_1_8"
+   test "analog/rn49_s1%pin_2_7"
+   test "analog/rn49_s1%pin_3_6"
+   test "analog/rn49_s1%pin_4_5"
+   test "analog/rn50_s0%pin_1_8"
+   test "analog/rn50_s0%pin_2_7"
+   test "analog/rn50_s0%pin_3_6"
+   test "analog/rn50_s0%pin_4_5"
+   test "analog/rn50_s1%pin_1_8"
+   test "analog/rn50_s1%pin_2_7"
+   test "analog/rn50_s1%pin_3_6"
+   test "analog/rn50_s1%pin_4_5"
+   test "analog/rn58_s0%pin_1_8"
+   test "analog/rn58_s0%pin_2_7"
+   test "analog/rn58_s0%pin_3_6"
+   test "analog/rn58_s0%pin_4_5"
+   test "analog/rn58_s1%pin_1_8"
+   test "analog/rn58_s1%pin_2_7"
+   test "analog/rn58_s1%pin_3_6"
+   test "analog/rn58_s1%pin_4_5"
+   test "analog/rn59_s0%pin_1_8"
+   test "analog/rn59_s0%pin_2_7"
+   test "analog/rn59_s0%pin_3_6"
+   test "analog/rn59_s0%pin_4_5"
+   test "analog/rn59_s1%pin_1_8"
+   test "analog/rn59_s1%pin_2_7"
+   test "analog/rn59_s1%pin_3_6"
+   test "analog/rn59_s1%pin_4_5"
+   test "analog/rn60_s0%pin_1_8"
+   test "analog/rn60_s0%pin_2_7"
+   test "analog/rn60_s0%pin_3_6"
+   test "analog/rn60_s0%pin_4_5"
+   test "analog/rn60_s1%pin_1_8"
+   test "analog/rn60_s1%pin_2_7"
+   test "analog/rn60_s1%pin_3_6"
+   test "analog/rn60_s1%pin_4_5"
+   test "analog/rn68_s0%pin_1_8"
+   test "analog/rn68_s0%pin_2_7"
+   test "analog/rn68_s0%pin_3_6"
+   test "analog/rn68_s0%pin_4_5"
+   test "analog/rn68_s1%pin_1_8"
+   test "analog/rn68_s1%pin_2_7"
+   test "analog/rn68_s1%pin_3_6"
+   test "analog/rn68_s1%pin_4_5"
+   test "analog/rn103_s0%pin_1_8"
+   test "analog/rn103_s0%pin_2_7"
+   test "analog/rn103_s0%pin_3_6"
+   test "analog/rn103_s0%pin_4_5"
+   test "analog/rn103_s1%pin_1_8"
+   test "analog/rn103_s1%pin_2_7"
+   test "analog/rn103_s1%pin_3_6"
+   test "analog/rn103_s1%pin_4_5"
+   test "analog/rn104_s0%pin_1_8"
+   test "analog/rn104_s0%pin_2_7"
+   test "analog/rn104_s0%pin_3_6"
+   test "analog/rn104_s0%pin_4_5"
+   test "analog/rn104_s1%pin_1_8"
+   test "analog/rn104_s1%pin_2_7"
+   test "analog/rn104_s1%pin_3_6"
+   test "analog/rn104_s1%pin_4_5"
+   test "analog/rn107_s0%pin_1_8"
+   test "analog/rn107_s0%pin_2_7"
+   test "analog/rn107_s0%pin_3_6"
+   test "analog/rn107_s0%pin_4_5"
+   test "analog/rn107_s1%pin_1_8"
+   test "analog/rn107_s1%pin_2_7"
+   test "analog/rn107_s1%pin_3_6"
+   test "analog/rn107_s1%pin_4_5"
+   test "analog/rn108_s0%pin_1_8"
+   test "analog/rn108_s0%pin_2_7"
+   test "analog/rn108_s0%pin_3_6"
+   test "analog/rn108_s0%pin_4_5"
+   test "analog/rn108_s1%pin_1_8"
+   test "analog/rn108_s1%pin_2_7"
+   test "analog/rn108_s1%pin_3_6"
+   test "analog/rn108_s1%pin_4_5"
+   test "analog/r4_6"
+   test "analog/r4_a"
+   test "analog/r5_6"
+   test "analog/r6"
+   test "analog/r7_3"
+   test "analog/r8_3"
+   test "analog/r9_3"
+   test "analog/r10_3"
+   test "analog/r11_3"
+   test "analog/r12"
+   test "analog/r13_3"
+   test "analog/r14_3"
+   test "analog/r18"
+   test "analog/r21_3"
+   test "analog/r22_3"
+   test "analog/r32"
+   test "analog/r53_3"
+   test "analog/r56_3"
+   test "analog/r57_3"
+   test "analog/r60_3"
+   test "analog/r77"
+   test "analog/r81"
+   test "analog/r93"
+   test "analog/r129"
+   test "analog/r132"
+   test "analog/r134"
+   test "analog/r156"
+   test "analog/r157"
+   test "analog/r164"
+   test "analog/r165"
+   test "analog/r202_pm"
+   test "analog/r203"
+   test "analog/r205"
+   test "analog/r206"
+   test "analog/r207"
+   test "analog/r219"
+   test "analog/r223"
+   test "analog/r232"
+   test "analog/r234"
+   test "analog/r243"
+   test "analog/r249"
+   test "analog/r254"
+   test "analog/r262"
+   test "analog/r266"
+   test "analog/r274"
+   test "analog/r283"
+!# test "analog/r293" ! Resistor parallel between P3_3VA and GND, can't cover it.
+   test "analog/r294"
+   test "analog/r295"
+   test "analog/r297"
+   test "analog/r327"
+   test "analog/r344"
+   test "analog/r402"
+   test "analog/r450"
+   test "analog/r539"
+   test "analog/r541"
+   test "analog/r542"
+   test "analog/r543"
+   test "analog/r563"
+   test "analog/r582"
+   test "analog/r583"
+   test "analog/r584"
+   test "analog/r585"
+   test "analog/r613"
+   test "analog/r657"
+   test "analog/r658"
+   test "analog/r659"
+   test "analog/r660"
+   test "analog/r664"
+   test "analog/r686"
+   test "analog/r690"
+   test "analog/r759"
+   test "analog/r760"
+   test "analog/r775"
+   test "analog/r778"
+   test "analog/r779"
+   test "analog/r793"
+   test "analog/r794"
+   test "analog/r929"
+   test "analog/r1027"
+   test "analog/r1028"
+   test "analog/r1029"
+   test "analog/r1101"
+   test "analog/r1154"
+   test "analog/r1198"
+   test "analog/r1199"
+   test "analog/r1200"
+   test "analog/r1201"
+   test "analog/r1202"
+   test "analog/r1582"
+   test "analog/r1583"
+   test "analog/r1767"
+   test "analog/r1768"
+   test "analog/r1855_3"
+   test "analog/r1856_3"
+   test "analog/r1951"
+   test "analog/r1952"
+   test "analog/r3780"
+   test "analog/rn1%pin_2_7"
+   test "analog/rn1%pin_3_6"
+   test "analog/rn1%pin_4_5"
+   test "analog/r7_a"
+   test "analog/r8"
+!# test "analog/r8_1v2s" ! No-Stuff
+!# test "analog/r952_3v3" ! No-Stuff
+   test "analog/r8_a"
+!# test "analog/r10_1v2s" ! No-Stuff
+!# test "analog/r10_sf0" ! No-Stuff
+!# test "analog/r10_sf1" ! No-Stuff
+!# test "analog/r938_5v" ! No-Stuff
+!# test "analog/r970_3v3" ! No-Stuff
+   test "analog/r10_5"
+   test "analog/r10_rtv1"
+   test "analog/r10_rtv2"
+   test "analog/r25_5"
+   test "analog/r25_rtv1"
+   test "analog/r25_rtv2"
+   test "analog/r10_pm"
+   test "analog/r174_pm"
+   test "analog/r390"
+   test "analog/r11_a"
+!# test "analog/r12_1v2s" ! No-Stuff
+!# test "analog/r971_3v3" ! No-Stuff
+   test "analog/r12_3"
+!# test "analog/r12_sf0"  ! No-Stuff
+!# test "analog/r12_sf1"  ! No-Stuff
+!# test "analog/r948_5v"  ! No-Stuff
+   test "analog/r14_a"
+   test "analog/r15_3"
+   test "analog/r606"
+   test "analog/r607"
+   test "analog/r608"
+   test "analog/r609"
+   test "analog/r612"
+   test "analog/r615"
+   test "analog/r616"
+   test "analog/r617"
+   test "analog/r618"
+   test "analog/r619"
+   test "analog/r620"
+   test "analog/r624"
+   test "analog/r626"
+   test "analog/r15_a"
+   test "analog/r306"
+   test "analog/r16"
+   test "analog/r40"
+   test "analog/r41"
+   test "analog/r45"
+!# test "analog/r89" ! Probe removed
+   test "analog/r103"
+   test "analog/r118"
+   test "analog/r125"
+   test "analog/r135"
+   test "analog/r136"
+   test "analog/r137"
+   test "analog/r140"
+!# test "analog/r162" ! Probe removed
+   test "analog/r200"
+   test "analog/r202"
+   test "analog/r322"
+   test "analog/r324"
+   test "analog/r325"
+   test "analog/r326"
+   test "analog/r544"
+   test "analog/r546"
+   test "analog/r547"
+   test "analog/r548"
+   test "analog/r554"
+   test "analog/r587"
+!# test "analog/r610" ! Probe removed
+!# test "analog/r611" ! Probe removed
+   test "analog/r649"
+   test "analog/r2439"
+   test "analog/r19"
+   test "analog/r20_5"
+   test "analog/r21_5"
+   test "analog/r21_rtv1"
+   test "analog/r21_rtv2"
+   test "analog/r29_5"
+   test "analog/r29_rtv1"
+   test "analog/r29_rtv2"
+   test "analog/r126"
+   test "analog/r21"
+   test "analog/r67"
+   test "analog/r159"
+   test "analog/r160"
+   test "analog/r189"
+   test "analog/r190"
+   test "analog/r191"
+   test "analog/r192"
+   test "analog/r193"
+   test "analog/r194"
+   test "analog/r195"
+   test "analog/r196"
+!# test "analog/r247" ! Probe removed
+!# test "analog/r250" ! Probe removed
+   test "analog/r377"
+   test "analog/r378"
+   test "analog/r387"
+   test "analog/r388"
+   test "analog/r389"
+   test "analog/r391"
+   test "analog/r392"
+   test "analog/r393"
+   test "analog/r394"
+   test "analog/r395"
+   test "analog/r396"
+   test "analog/r398"
+   test "analog/r400"
+   test "analog/r401"
+   test "analog/r436"
+   test "analog/r439"
+   test "analog/r440"
+   test "analog/r441"
+   test "analog/r442"
+   test "analog/r443"
+   test "analog/r444"
+   test "analog/r445"
+   test "analog/r523"
+   test "analog/r524"
+   test "analog/r525"
+   test "analog/r526"
+   test "analog/r1019"
+   test "analog/r1020"
+   test "analog/r1021"
+   test "analog/r1022"
+   test "analog/rn1_q0%pin_1_8"
+   test "analog/rn1_q0%pin_2_7"
+   test "analog/rn1_q0%pin_3_6"
+   test "analog/rn1_q0%pin_4_5"
+   test "analog/rn1_q1%pin_1_8"
+   test "analog/rn1_q1%pin_2_7"
+   test "analog/rn1_q1%pin_3_6"
+   test "analog/rn1_q1%pin_4_5"
+   test "analog/rn1_q2%pin_1_8"
+   test "analog/rn1_q2%pin_2_7"
+   test "analog/rn1_q2%pin_3_6"
+   test "analog/rn1_q2%pin_4_5"
+   test "analog/rn31_s0%pin_1_8"
+   test "analog/rn31_s0%pin_2_7"
+   test "analog/rn31_s0%pin_3_6"
+   test "analog/rn31_s0%pin_4_5"
+   test "analog/rn31_s1%pin_1_8"
+   test "analog/rn31_s1%pin_2_7"
+   test "analog/rn31_s1%pin_3_6"
+   test "analog/rn31_s1%pin_4_5"
+   test "analog/rn32_s0%pin_1_8"
+   test "analog/rn32_s0%pin_2_7"
+   test "analog/rn32_s0%pin_3_6"
+   test "analog/rn32_s0%pin_4_5"
+   test "analog/rn32_s1%pin_1_8"
+   test "analog/rn32_s1%pin_2_7"
+   test "analog/rn32_s1%pin_3_6"
+   test "analog/rn32_s1%pin_4_5"
+   test "analog/rn41_s0%pin_1_8"
+   test "analog/rn41_s0%pin_2_7"
+   test "analog/rn41_s0%pin_3_6"
+   test "analog/rn41_s0%pin_4_5"
+   test "analog/rn41_s1%pin_1_8"
+   test "analog/rn41_s1%pin_2_7"
+   test "analog/rn41_s1%pin_3_6"
+   test "analog/rn41_s1%pin_4_5"
+   test "analog/rn42_s0%pin_1_8"
+   test "analog/rn42_s0%pin_2_7"
+   test "analog/rn42_s0%pin_3_6"
+   test "analog/rn42_s0%pin_4_5"
+   test "analog/rn42_s1%pin_1_8"
+   test "analog/rn42_s1%pin_2_7"
+   test "analog/rn42_s1%pin_3_6"
+   test "analog/rn42_s1%pin_4_5"
+   test "analog/rn51_s0%pin_1_8"
+   test "analog/rn51_s0%pin_2_7"
+   test "analog/rn51_s0%pin_3_6"
+   test "analog/rn51_s0%pin_4_5"
+   test "analog/rn51_s1%pin_1_8"
+   test "analog/rn51_s1%pin_2_7"
+   test "analog/rn51_s1%pin_3_6"
+   test "analog/rn51_s1%pin_4_5"
+   test "analog/rn52_s0%pin_1_8"
+   test "analog/rn52_s0%pin_2_7"
+   test "analog/rn52_s0%pin_3_6"
+   test "analog/rn52_s0%pin_4_5"
+   test "analog/rn52_s1%pin_1_8"
+   test "analog/rn52_s1%pin_2_7"
+   test "analog/rn52_s1%pin_3_6"
+   test "analog/rn52_s1%pin_4_5"
+   test "analog/rn61_s0%pin_1_8"
+   test "analog/rn61_s0%pin_2_7"
+   test "analog/rn61_s0%pin_3_6"
+   test "analog/rn61_s0%pin_4_5"
+   test "analog/rn61_s1%pin_1_8"
+   test "analog/rn61_s1%pin_2_7"
+   test "analog/rn61_s1%pin_3_6"
+   test "analog/rn61_s1%pin_4_5"
+   test "analog/rn62_s0%pin_1_8"
+   test "analog/rn62_s0%pin_2_7"
+   test "analog/rn62_s0%pin_3_6"
+   test "analog/rn62_s0%pin_4_5"
+   test "analog/rn62_s1%pin_1_8"
+   test "analog/rn62_s1%pin_2_7"
+   test "analog/rn62_s1%pin_3_6"
+   test "analog/rn62_s1%pin_4_5"
+   test "analog/rn80_s0%pin_1_8"
+   test "analog/rn80_s0%pin_2_7"
+   test "analog/rn80_s0%pin_3_6"
+   test "analog/rn80_s0%pin_4_5"
+   test "analog/rn80_s1%pin_1_8"
+   test "analog/rn80_s1%pin_2_7"
+   test "analog/rn80_s1%pin_3_6"
+   test "analog/rn80_s1%pin_4_5"
+   test "analog/rn89_s0%pin_1_8"
+   test "analog/rn89_s0%pin_2_7"
+   test "analog/rn89_s0%pin_3_6"
+   test "analog/rn89_s0%pin_4_5"
+   test "analog/rn89_s1%pin_1_8"
+   test "analog/rn89_s1%pin_2_7"
+   test "analog/rn89_s1%pin_3_6"
+   test "analog/rn89_s1%pin_4_5"
+   test "analog/rn92_s0%pin_1_8"
+   test "analog/rn92_s0%pin_2_7"
+   test "analog/rn92_s0%pin_3_6"
+   test "analog/rn92_s0%pin_4_5"
+   test "analog/rn92_s1%pin_1_8"
+   test "analog/rn92_s1%pin_2_7"
+   test "analog/rn92_s1%pin_3_6"
+   test "analog/rn92_s1%pin_4_5"
+   test "analog/rn93_s0%pin_1_8"
+   test "analog/rn93_s0%pin_2_7"
+   test "analog/rn93_s0%pin_3_6"
+   test "analog/rn93_s0%pin_4_5"
+   test "analog/rn93_s1%pin_1_8"
+   test "analog/rn93_s1%pin_2_7"
+   test "analog/rn93_s1%pin_3_6"
+   test "analog/rn93_s1%pin_4_5"
+   test "analog/r23_3"
+   test "analog/r25_3"
+   test "analog/r1665"
+   test "analog/r24_5"
+   test "analog/r24_rtv1"
+   test "analog/r24_rtv2"
+   test "analog/r32_3"
+   test "analog/r33_3"
+   test "analog/r34_3"
+   test "analog/r35_3"
+   test "analog/r36_3"
+   test "analog/r37_3"
+   test "analog/r38_3"
+   test "analog/r39_3"
+   test "analog/r40_3"
+   test "analog/r41_3"
+   test "analog/r42_3"
+   test "analog/r43_3"
+   test "analog/r44_3"
+   test "analog/r45_3"
+   test "analog/r46_3"
+   test "analog/r47_3"
+   test "analog/r48_3"
+   test "analog/r61"
+   test "analog/r62"
+   test "analog/r113"
+   test "analog/r154"
+   test "analog/r158"
+   test "analog/r211"
+   test "analog/r345"
+   test "analog/r346"
+   test "analog/r347"
+   test "analog/r353"
+   test "analog/r354"
+   test "analog/r355"
+   test "analog/r452"
+   test "analog/r454"
+   test "analog/r463"
+   test "analog/r468"
+   test "analog/r469"
+   test "analog/r556"
+   test "analog/r558"
+   test "analog/r559"
+   test "analog/r602"
+   test "analog/r614"
+   test "analog/r661"
+   test "analog/r665"
+   test "analog/r704"
+   test "analog/r705"
+   test "analog/r706"
+   test "analog/r709"
+   test "analog/r710"
+   test "analog/r711"
+   test "analog/r712"
+   test "analog/r754"
+   test "analog/r940"
+   test "analog/r941"
+   test "analog/r944"
+   test "analog/r945"
+   test "analog/r1053"
+   test "analog/r1203"
+   test "analog/r1204"
+   test "analog/r1223"
+   test "analog/r1706"
+   test "analog/r37"
+   test "analog/r47"
+   test "analog/r48"
+   test "analog/r206_pm"
+   test "analog/r290"
+   test "analog/r550"
+   test "analog/r1129"
+   test "analog/r1132"
+   test "analog/r1133"
+   test "analog/r1148"
+   test "analog/r1151"
+   test "analog/r1152"
+   test "analog/r1153"
+   test "analog/r46"
+   test "analog/r49"
+   test "analog/r60"
+   test "analog/r114"
+   test "analog/r116"
+   test "analog/r166"
+   test "analog/r177"
+   test "analog/r216"
+   test "analog/r428"
+   test "analog/r494"
+   test "analog/r596"
+   test "analog/r662"
+   test "analog/r667"
+   test "analog/r670"
+   test "analog/r674"
+   test "analog/r675"
+   test "analog/r676"
+   test "analog/r677"
+   test "analog/r678"
+   test "analog/r679"
+   test "analog/r717"
+   test "analog/r748"
+   test "analog/r867"
+   test "analog/r868"
+   test "analog/r920"
+   test "analog/r921"
+   test "analog/r922"
+   test "analog/r1194"
+   test "analog/r52"
+   test "analog/r1422"
+   test "analog/r53"
+   test "analog/r63"
+   test "analog/r64"
+   test "analog/r256"
+   test "analog/r492"
+   test "analog/r493"
+   test "analog/r540"
+   test "analog/r55_3"
+   test "analog/r73"
+   test "analog/r433"
+   test "analog/r76"
+   test "analog/r97"
+   test "analog/r101"
+   test "analog/r164_pm"
+   test "analog/r296"
+   test "analog/r307"
+   test "analog/r399"
+   test "analog/r475"
+   test "analog/r477"
+   test "analog/r495"
+   test "analog/r496"
+   test "analog/r557"
+   test "analog/r562"
+   test "analog/r566"
+   test "analog/r653"
+   test "analog/r654"
+   test "analog/r590"
+   test "analog/r643"
+   test "analog/r691"
+   test "analog/r692"
+   test "analog/r693"
+   test "analog/r694"
+   test "analog/r695"
+   test "analog/r698"
+   test "analog/r699"
+   test "analog/r700"
+   test "analog/r701"
+   test "analog/r689"
+   test "analog/r736"
+   test "analog/r853"
+   test "analog/r745"
+   test "analog/r768"
+   test "analog/r825"
+   test "analog/r1007"
+!# test "analog/r931_5v" ! No-Stuff
+!# test "analog/r1017" ! Probe removed
+!# test "analog/r1018" ! Probe removed
+   test "analog/r1136"
+   test "analog/r1142"
+   test "analog/r1317"
+   test "analog/r1318"
+   test "analog/r1324"
+   test "analog/rn2_q0%pin_1_8"
+   test "analog/rn2_q0%pin_2_7"
+   test "analog/rn2_q0%pin_3_6"
+   test "analog/rn2_q0%pin_4_5"
+   test "analog/rn2_q1%pin_1_8"
+   test "analog/rn2_q1%pin_2_7"
+   test "analog/rn2_q1%pin_3_6"
+   test "analog/rn2_q1%pin_4_5"
+   test "analog/rn2_q2%pin_1_8"
+   test "analog/rn2_q2%pin_2_7"
+   test "analog/rn2_q2%pin_3_6"
+   test "analog/rn2_q2%pin_4_5"
+   test "analog/rn3_q0%pin_1_8"
+   test "analog/rn3_q0%pin_2_7"
+   test "analog/rn3_q0%pin_3_6"
+   test "analog/rn3_q0%pin_4_5"
+   test "analog/rn3_q1%pin_1_8"
+   test "analog/rn3_q1%pin_2_7"
+   test "analog/rn3_q1%pin_3_6"
+   test "analog/rn3_q1%pin_4_5"
+   test "analog/rn3_q2%pin_1_8"
+   test "analog/rn3_q2%pin_2_7"
+   test "analog/rn3_q2%pin_3_6"
+   test "analog/rn3_q2%pin_4_5"
+   test "analog/rn33_s0%pin_1_8"
+   test "analog/rn33_s0%pin_2_7"
+   test "analog/rn33_s0%pin_3_6"
+   test "analog/rn33_s0%pin_4_5"
+   test "analog/rn33_s1%pin_1_8"
+   test "analog/rn33_s1%pin_2_7"
+   test "analog/rn33_s1%pin_3_6"
+   test "analog/rn33_s1%pin_4_5"
+   test "analog/rn34_s0%pin_1_8"
+   test "analog/rn34_s0%pin_2_7"
+   test "analog/rn34_s0%pin_3_6"
+   test "analog/rn34_s0%pin_4_5"
+   test "analog/rn34_s1%pin_1_8"
+   test "analog/rn34_s1%pin_2_7"
+   test "analog/rn34_s1%pin_3_6"
+   test "analog/rn34_s1%pin_4_5"
+   test "analog/rn35_s0%pin_1_8"
+   test "analog/rn35_s0%pin_2_7"
+   test "analog/rn35_s0%pin_3_6"
+   test "analog/rn35_s0%pin_4_5"
+   test "analog/rn35_s1%pin_1_8"
+   test "analog/rn35_s1%pin_2_7"
+   test "analog/rn35_s1%pin_3_6"
+   test "analog/rn35_s1%pin_4_5"
+   test "analog/rn36_s0%pin_1_8"
+   test "analog/rn36_s0%pin_2_7"
+   test "analog/rn36_s0%pin_3_6"
+   test "analog/rn36_s0%pin_4_5"
+   test "analog/rn36_s1%pin_1_8"
+   test "analog/rn36_s1%pin_2_7"
+   test "analog/rn36_s1%pin_3_6"
+   test "analog/rn36_s1%pin_4_5"
+   test "analog/rn37_s0%pin_1_8"
+   test "analog/rn37_s0%pin_2_7"
+   test "analog/rn37_s0%pin_3_6"
+   test "analog/rn37_s0%pin_4_5"
+   test "analog/rn37_s1%pin_1_8"
+   test "analog/rn37_s1%pin_2_7"
+   test "analog/rn37_s1%pin_3_6"
+   test "analog/rn37_s1%pin_4_5"
+   test "analog/rn43_s0%pin_1_8"
+   test "analog/rn43_s0%pin_2_7"
+   test "analog/rn43_s0%pin_3_6"
+   test "analog/rn43_s0%pin_4_5"
+   test "analog/rn43_s1%pin_1_8"
+   test "analog/rn43_s1%pin_2_7"
+   test "analog/rn43_s1%pin_3_6"
+   test "analog/rn43_s1%pin_4_5"
+   test "analog/rn44_s0%pin_1_8"
+   test "analog/rn44_s0%pin_2_7"
+   test "analog/rn44_s0%pin_3_6"
+   test "analog/rn44_s0%pin_4_5"
+   test "analog/rn44_s1%pin_1_8"
+   test "analog/rn44_s1%pin_2_7"
+   test "analog/rn44_s1%pin_3_6"
+   test "analog/rn44_s1%pin_4_5"
+   test "analog/rn45_s0%pin_1_8"
+   test "analog/rn45_s0%pin_2_7"
+   test "analog/rn45_s0%pin_3_6"
+   test "analog/rn45_s0%pin_4_5"
+   test "analog/rn45_s1%pin_1_8"
+   test "analog/rn45_s1%pin_2_7"
+   test "analog/rn45_s1%pin_3_6"
+   test "analog/rn45_s1%pin_4_5"
+   test "analog/rn46_s0%pin_1_8"
+   test "analog/rn46_s0%pin_2_7"
+   test "analog/rn46_s0%pin_3_6"
+   test "analog/rn46_s0%pin_4_5"
+   test "analog/rn46_s1%pin_1_8"
+   test "analog/rn46_s1%pin_2_7"
+   test "analog/rn46_s1%pin_3_6"
+   test "analog/rn46_s1%pin_4_5"
+   test "analog/rn47_s0%pin_1_8"
+   test "analog/rn47_s0%pin_2_7"
+   test "analog/rn47_s0%pin_3_6"
+   test "analog/rn47_s0%pin_4_5"
+   test "analog/rn47_s1%pin_1_8"
+   test "analog/rn47_s1%pin_2_7"
+   test "analog/rn47_s1%pin_3_6"
+   test "analog/rn47_s1%pin_4_5"
+   test "analog/rn53_s0%pin_1_8"
+   test "analog/rn53_s0%pin_2_7"
+   test "analog/rn53_s0%pin_3_6"
+   test "analog/rn53_s0%pin_4_5"
+   test "analog/rn53_s1%pin_1_8"
+   test "analog/rn53_s1%pin_2_7"
+   test "analog/rn53_s1%pin_3_6"
+   test "analog/rn53_s1%pin_4_5"
+   test "analog/rn54_s0%pin_1_8"
+   test "analog/rn54_s0%pin_2_7"
+   test "analog/rn54_s0%pin_3_6"
+   test "analog/rn54_s0%pin_4_5"
+   test "analog/rn54_s1%pin_1_8"
+   test "analog/rn54_s1%pin_2_7"
+   test "analog/rn54_s1%pin_3_6"
+   test "analog/rn54_s1%pin_4_5"
+   test "analog/rn55_s0%pin_1_8"
+   test "analog/rn55_s0%pin_2_7"
+   test "analog/rn55_s0%pin_3_6"
+   test "analog/rn55_s0%pin_4_5"
+   test "analog/rn55_s1%pin_1_8"
+   test "analog/rn55_s1%pin_2_7"
+   test "analog/rn55_s1%pin_3_6"
+   test "analog/rn55_s1%pin_4_5"
+   test "analog/rn56_s0%pin_1_8"
+   test "analog/rn56_s0%pin_2_7"
+   test "analog/rn56_s0%pin_3_6"
+   test "analog/rn56_s0%pin_4_5"
+   test "analog/rn56_s1%pin_1_8"
+   test "analog/rn56_s1%pin_2_7"
+   test "analog/rn56_s1%pin_3_6"
+   test "analog/rn56_s1%pin_4_5"
+   test "analog/rn57_s0%pin_1_8"
+   test "analog/rn57_s0%pin_2_7"
+   test "analog/rn57_s0%pin_3_6"
+   test "analog/rn57_s0%pin_4_5"
+   test "analog/rn57_s1%pin_1_8"
+   test "analog/rn57_s1%pin_2_7"
+   test "analog/rn57_s1%pin_3_6"
+   test "analog/rn57_s1%pin_4_5"
+   test "analog/rn63_s0%pin_1_8"
+   test "analog/rn63_s0%pin_2_7"
+   test "analog/rn63_s0%pin_3_6"
+   test "analog/rn63_s0%pin_4_5"
+   test "analog/rn63_s1%pin_1_8"
+   test "analog/rn63_s1%pin_2_7"
+   test "analog/rn63_s1%pin_3_6"
+   test "analog/rn63_s1%pin_4_5"
+   test "analog/rn64_s0%pin_1_8"
+   test "analog/rn64_s0%pin_2_7"
+   test "analog/rn64_s0%pin_3_6"
+   test "analog/rn64_s0%pin_4_5"
+   test "analog/rn64_s1%pin_1_8"
+   test "analog/rn64_s1%pin_2_7"
+   test "analog/rn64_s1%pin_3_6"
+   test "analog/rn64_s1%pin_4_5"
+   test "analog/rn65_s0%pin_1_8"
+   test "analog/rn65_s0%pin_2_7"
+   test "analog/rn65_s0%pin_3_6"
+   test "analog/rn65_s0%pin_4_5"
+   test "analog/rn65_s1%pin_1_8"
+   test "analog/rn65_s1%pin_2_7"
+   test "analog/rn65_s1%pin_3_6"
+   test "analog/rn65_s1%pin_4_5"
+   test "analog/rn66_s0%pin_1_8"
+   test "analog/rn66_s0%pin_2_7"
+   test "analog/rn66_s0%pin_3_6"
+   test "analog/rn66_s0%pin_4_5"
+   test "analog/rn66_s1%pin_1_8"
+   test "analog/rn66_s1%pin_2_7"
+   test "analog/rn66_s1%pin_3_6"
+   test "analog/rn66_s1%pin_4_5"
+   test "analog/rn67_s0%pin_1_8"
+   test "analog/rn67_s0%pin_2_7"
+   test "analog/rn67_s0%pin_3_6"
+   test "analog/rn67_s0%pin_4_5"
+   test "analog/rn67_s1%pin_1_8"
+   test "analog/rn67_s1%pin_2_7"
+   test "analog/rn67_s1%pin_3_6"
+   test "analog/rn67_s1%pin_4_5"
+   test "analog/rn69_s0%pin_1_8"
+   test "analog/rn69_s0%pin_2_7"
+   test "analog/rn69_s0%pin_3_6"
+   test "analog/rn69_s0%pin_4_5"
+   test "analog/rn69_s1%pin_1_8"
+   test "analog/rn69_s1%pin_2_7"
+   test "analog/rn69_s1%pin_3_6"
+   test "analog/rn69_s1%pin_4_5"
+   test "analog/rn79_s0%pin_1_8"
+   test "analog/rn79_s0%pin_2_7"
+   test "analog/rn79_s0%pin_3_6"
+   test "analog/rn79_s0%pin_4_5"
+   test "analog/rn79_s1%pin_1_8"
+   test "analog/rn79_s1%pin_2_7"
+   test "analog/rn79_s1%pin_3_6"
+   test "analog/rn79_s1%pin_4_5"
+   test "analog/rn94_s0%pin_1_8"
+   test "analog/rn94_s0%pin_2_7"
+   test "analog/rn94_s0%pin_3_6"
+   test "analog/rn94_s0%pin_4_5"
+   test "analog/rn94_s1%pin_1_8"
+   test "analog/rn94_s1%pin_2_7"
+   test "analog/rn94_s1%pin_3_6"
+   test "analog/rn94_s1%pin_4_5"
+   test "analog/rn96_s0%pin_1_8"
+   test "analog/rn96_s0%pin_2_7"
+   test "analog/rn96_s0%pin_3_6"
+   test "analog/rn96_s0%pin_4_5"
+   test "analog/rn96_s1%pin_1_8"
+   test "analog/rn96_s1%pin_2_7"
+   test "analog/rn96_s1%pin_3_6"
+   test "analog/rn96_s1%pin_4_5"
+   test "analog/rn97_s0%pin_1_8"
+   test "analog/rn97_s0%pin_2_7"
+   test "analog/rn97_s0%pin_3_6"
+   test "analog/rn97_s0%pin_4_5"
+   test "analog/rn97_s1%pin_1_8"
+   test "analog/rn97_s1%pin_2_7"
+   test "analog/rn97_s1%pin_3_6"
+   test "analog/rn97_s1%pin_4_5"
+   test "analog/rn99_s0%pin_1_8"
+   test "analog/rn99_s0%pin_2_7"
+   test "analog/rn99_s0%pin_3_6"
+   test "analog/rn99_s0%pin_4_5"
+   test "analog/rn99_s1%pin_1_8"
+   test "analog/rn99_s1%pin_2_7"
+   test "analog/rn99_s1%pin_3_6"
+   test "analog/rn99_s1%pin_4_5"
+   test "analog/rn100_s0%pin_1_8"
+   test "analog/rn100_s0%pin_2_7"
+   test "analog/rn100_s0%pin_3_6"
+   test "analog/rn100_s0%pin_4_5"
+   test "analog/rn100_s1%pin_1_8"
+   test "analog/rn100_s1%pin_2_7"
+   test "analog/rn100_s1%pin_3_6"
+   test "analog/rn100_s1%pin_4_5"
+   test "analog/rn102_s0%pin_1_8"
+   test "analog/rn102_s0%pin_2_7"
+   test "analog/rn102_s0%pin_3_6"
+   test "analog/rn102_s0%pin_4_5"
+   test "analog/rn102_s1%pin_1_8"
+   test "analog/rn102_s1%pin_2_7"
+   test "analog/rn102_s1%pin_3_6"
+   test "analog/rn102_s1%pin_4_5"
+   test "analog/rn109_s0%pin_1_8"
+   test "analog/rn109_s0%pin_2_7"
+   test "analog/rn109_s0%pin_3_6"
+   test "analog/rn109_s0%pin_4_5"
+   test "analog/rn109_s1%pin_1_8"
+   test "analog/rn109_s1%pin_2_7"
+   test "analog/rn109_s1%pin_3_6"
+   test "analog/rn109_s1%pin_4_5"
+   test "analog/rn111_s0%pin_1_8"
+   test "analog/rn111_s0%pin_2_7"
+   test "analog/rn111_s0%pin_3_6"
+   test "analog/rn111_s0%pin_4_5"
+   test "analog/rn111_s1%pin_1_8"
+   test "analog/rn111_s1%pin_2_7"
+   test "analog/rn111_s1%pin_3_6"
+   test "analog/rn111_s1%pin_4_5"
+   test "analog/cr1%cr"
+   test "analog/cr1_q0%cr"
+   test "analog/cr1_q1%cr"
+   test "analog/cr1_q2%cr"
+   test "analog/cr2_q0%cr"
+   test "analog/cr2_q1%cr"
+   test "analog/cr2_q2%cr"
+   test "analog/cr3%cr"
+   test "analog/cr8%cr"
+   test "analog/cr9%cr"
+   test "analog/cr2%grn"
+   test "analog/cr4%red"
+   test "analog/cr5%grn"
+   test "analog/cr5%red"
+   test "analog/cr6%grn"
+   test "analog/cr6%red"
+   test "analog/cr7%grn"
+   test "analog/cr7%red"
+   test "analog/cr10%grn"
+   test "analog/cr10%red"
+   test "analog/cr11%grn"
+   test "analog/cr11%red"
+   test "analog/cr13%red"
+   test "analog/cr14%red"
+   test "analog/cr16%red"
+   test "analog/cr17%red"
+   test "analog/cr18%red"
+   test "analog/cr19%red"
+   test "analog/cr22%red"
+   test "analog/cr25%red"
+   test "analog/cr28%red"
+   test "analog/cr29%red"
+   test "analog/cr30%red"
+   test "analog/cr31%red"
+   test "analog/cr32%red"
+   test "analog/cr33%red"
+   test "analog/cr108%grn"
+   test "analog/p0_s0%grn"
+   test "analog/p0_s0%yel"
+   test "analog/p0_s1%grn"
+   test "analog/p0_s1%yel"
+   test "analog/p1_q0%grn"
+   test "analog/p1_q0%yel"
+   test "analog/p1_q1%grn"
+   test "analog/p1_q1%yel"
+   test "analog/p1_q2%grn"
+   test "analog/p1_q2%yel"
+   test "analog/p1_s0%grn"
+   test "analog/p1_s0%yel"
+   test "analog/p1_s1%grn"
+   test "analog/p1_s1%yel"
+   test "analog/p2_q0%grn"
+   test "analog/p2_q0%yel"
+   test "analog/p2_q1%grn"
+   test "analog/p2_q1%yel"
+   test "analog/p2_q2%grn"
+   test "analog/p2_q2%yel"
+   test "analog/p2_s0%grn"
+   test "analog/p2_s0%yel"
+   test "analog/p2_s1%grn"
+   test "analog/p2_s1%yel"
+   test "analog/p3_s0%grn"
+   test "analog/p3_s0%yel"
+   test "analog/p3_s1%grn"
+   test "analog/p3_s1%yel"
+   test "analog/p4_s0%grn"
+   test "analog/p4_s0%yel"
+   test "analog/p4_s1%grn"
+   test "analog/p4_s1%yel"
+   test "analog/p5_s0%grn"
+   test "analog/p5_s0%yel"
+   test "analog/p5_s1%grn"
+   test "analog/p5_s1%yel"
+   test "analog/p6_s0%grn"
+   test "analog/p6_s0%yel"
+   test "analog/p6_s1%grn"
+   test "analog/p6_s1%yel"
+   test "analog/p7_s0%grn"
+   test "analog/p7_s0%yel"
+   test "analog/p7_s1%grn"
+   test "analog/p7_s1%yel"
+   test "analog/p8_s0%grn"
+   test "analog/p8_s0%yel"
+   test "analog/p8_s1%grn"
+   test "analog/p8_s1%yel"
+   test "analog/p9_s0%grn"
+   test "analog/p9_s0%yel"
+   test "analog/p9_s1%grn"
+   test "analog/p9_s1%yel"
+   test "analog/p10_s0%grn"
+   test "analog/p10_s0%yel"
+   test "analog/p10_s1%grn"
+   test "analog/p10_s1%yel"
+   test "analog/p11_s0%grn"
+   test "analog/p11_s0%yel"
+   test "analog/p11_s1%grn"
+   test "analog/p11_s1%yel"
+   test "analog/p12_s0%grn"
+   test "analog/p12_s0%yel"
+   test "analog/p12_s1%grn"
+   test "analog/p12_s1%yel"
+   test "analog/p13_s0%grn"
+   test "analog/p13_s0%yel"
+   test "analog/p13_s1%grn"
+   test "analog/p13_s1%yel"
+   test "analog/p14_s0%grn"
+   test "analog/p14_s0%yel"
+   test "analog/p14_s1%grn"
+   test "analog/p14_s1%yel"
+   test "analog/p15_s0%grn"
+   test "analog/p15_s0%yel"
+   test "analog/p15_s1%grn"
+   test "analog/p15_s1%yel"
+   test "analog/p16_s0%grn"
+   test "analog/p16_s0%yel"
+   test "analog/p16_s1%grn"
+   test "analog/p16_s1%yel"
+   test "analog/p17_s0%grn"
+   test "analog/p17_s0%yel"
+   test "analog/p17_s1%grn"
+   test "analog/p17_s1%yel"
+   test "analog/p18_s0%grn"
+   test "analog/p18_s0%yel"
+   test "analog/p18_s1%grn"
+   test "analog/p18_s1%yel"
+   test "analog/p19_s0%grn"
+   test "analog/p19_s0%yel"
+   test "analog/p19_s1%grn"
+   test "analog/p19_s1%yel"
+   test "analog/p20_s0%grn"
+   test "analog/p20_s0%yel"
+   test "analog/p20_s1%grn"
+   test "analog/p20_s1%yel"
+   test "analog/p21_s0%grn"
+   test "analog/p21_s0%yel"
+   test "analog/p21_s1%grn"
+   test "analog/p21_s1%yel"
+   test "analog/p22_s0%grn"
+   test "analog/p22_s0%yel"
+   test "analog/p22_s1%grn"
+   test "analog/p22_s1%yel"
+   test "analog/p23_s0%grn"
+   test "analog/p23_s0%yel"
+   test "analog/p23_s1%grn"
+   test "analog/p23_s1%yel"
+   test "analog/cr101%blu"
+   test "analog/p5v%grn"
+   test "analog/p12v%grn"
+   test "analog/q27%q"
+   test "analog/q23%q"
+!@ test "analog/q47%q"    !nostuff
+
+powered
+   test "analog/q1"            ! NCH
+   test "analog/q1_q0"         ! NCH
+   test "analog/q1_q1"         ! NCH
+   test "analog/q1_q2"         ! NCH
+   test "analog/q2_q0"         ! NCH
+   test "analog/q2_q1"         ! NCH
+   test "analog/q2_q2"         ! NCH
+   test "analog/q3"            ! NCH
+   test "analog/q15"           ! NCH
+   test "analog/q24"           ! NCH
+unpowered
+subend
+
+
+
+!*! sub Analog_Prepowered_Tests (Status_Code, Message$)
+sub Analog_Prepowered_Tests
+
+!   if Message$ <> "" then  print tab(5);Message$
+!   Status = Status_Code
+subend
+
+sub Enter_Second_Stage
+   wait 1
+   auxconnect 5
+   wait 1
+   faoff 2
+   print tab(5);"Long Travel Probe Mode"
+   wait 5
+subend
+
+sub Out_Second_Stage
+   faon 2
+   auxdisconnect 5
+   print tab(5);"Short Travel Probe Mode"
+   unpowered
+subend
+
+!*! sub Setup_Power_Supplies (Status_Code, Message$)
+sub Setup_Power_Supplies(Power_Supply_Var)
+global Status
+global Pslimit, Psgroup(*), True, False
+global PMC_On
+
+
+!# gpconnect "MIFPGA_POR_L" to "P3_3VA"
+   gpconnect "DB_PWR_EN" to "P3_3VA"
+   cps
+! ------ CLOCK DIVIDER ------
+sps 1 , 3.30 * (1 + Power_Supply_Var / 100) ,1.00
+! ------ COOLING GUN ------
+sps 6 , 20.0 * (1 + Power_Supply_Var / 100) ,1.00
+sps 5 , 3.30 * (1 + Power_Supply_Var / 100) ,2.00
+sps 3 , 12.00 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 4 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 7 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 8 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 11 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 12 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 15 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+sps 16 , 12.10 * (1 + Power_Supply_Var / 100) ,2.00;optimize
+
+   Pslimit = pslimit
+   pass device
+   Psgroup(1) = 52428     ! CCCC (hex)
+   Psgroup(2) = 16     ! 10 (hex)
+   Disabled = False
+   for I = 1 to 2
+      A = binand (Pslimit,Psgroup(I))
+      if not bineor (A,Psgroup(I)) then
+         if not Disabled then
+            dps
+            fail device
+            Disabled = True
+         end if
+      else
+         Pslimit = binand (Pslimit,bincmp(Psgroup(I)))
+      end if
+   next I
+   if dutfailed then
+      I = 1
+      for Pscount = 1 to 16
+         if binand (Pslimit,I) then
+            report "Power Supply Number "
+            report Pscount
+            report "In Current Limit"
+         end if
+         I = 2*I
+      next Pscount
+      report "Power Supplies may be in parallel."
+      report "________________________________________"
+      report "Check for backwards"
+      report "IC's or Capacitors."
+      report "________________________________________"
+   end if
+   wait 5
+subend
+
+sub Disconnect_Power_On_Board
+global PMC_On
+
+   print tab(5); "Disconnecting Power Supplies"
+   sps 3,0.01,2.00;optimize  ! P12V
+   sps 4,0.01,2.00;optimize  ! P12V
+   sps 7,0.01,2.00;optimize  ! P12V
+   sps 8,0.01,2.00;optimize  ! P12V
+   sps 11,0.01,2.00;optimize ! P12V
+   sps 12,0.01,2.00;optimize ! P12V
+   sps 15,0.01,2.00;optimize ! P12V
+   sps 16,0.01,2.00;optimize ! P12V
+   sps 5,0.01,2.00;optimize  ! P3V3_STBY
+   wait 2
+   dps
+   wait 3
+subend
+
+
+!*! sub BScan_Powered_Shorts_Tests (Status_Code, Message$)
+sub BScan_Powered_Shorts_Tests(Mode)
+
+!@ test "digital/u29_u1_3_ps_aio"
+!@ test "digital/u29_u1_3_dis"
+!@ test "digital/u29_u1_3_ps"
+!@ test "digital/u29_u1_3_dis"
+subend
+
+
+
+!*! sub BScan_Interconnect_Tests (Status_Code, Message$)
+sub BScan_Interconnect_Tests(Mode)
+
+   safeguard cool
+call Test ("digital/u29_u1_3_aio","u29_u1_3_aio",Mode,1,4.5e-07,5.5e-07,3.6e-07,4.4e-07,0,0)
+call Test ("digital/u29_u1_3","u29_u1_3",Mode,1,4.5e-07,5.5e-07,3.6e-07,4.4e-07,0,0)
+call Test ("digital/u29_u1_3_dis","u29_u1_3_dis",Mode,1,4.5e-07,5.5e-07,3.6e-07,4.4e-07,0,0)
+   safeguard all
+subend
+
+
+
+!*! sub BScan_Incircuit_Tests (Status_Code, Message$)
+sub BScan_Incircuit_Tests(Mode)
+
+   safeguard cool
+call Test ("digital/u29_connect","u29_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u30_connect","u30_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u37_connect","u37_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u38_connect","u38_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rt1_2_connect","u1_rt1_2_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u2_rt1_2_connect","u2_rt1_2_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rt3_4_connect","u1_rt3_4_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u2_rt3_4_connect","u2_rt3_4_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rt5_6_connect","u1_rt5_6_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u2_rt5_6_connect","u2_rt5_6_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rt7_8_connect","u1_rt7_8_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u2_rt7_8_connect","u2_rt7_8_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rt9_connect","u1_rt9_connect",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_3_connect_a","u1_3_connect_a",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_3_connect_b","u1_3_connect_b",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u29_u1_3_dis","u29_u1_3_dis",Mode,1,4.5e-07,5.5e-07,3.6e-07,4.4e-07,0,0)
+!@ test "digital/u49_connect"       !kill power
+call Test ("digital/u49_u49_dis","u49_u49_dis",Mode,1,4.5e-07,5.5e-07,3.6e-07,4.4e-07,0,0)
+   safeguard all
+subend
+
+
+
+!*! sub BScan_Silicon_Nails_Tests (Status_Code, Message$)
+sub BScan_Silicon_Nails_Tests(Mode)
+
+!   if Message$ <> "" then  print tab(5);Message$
+!   Status = Status_Code
+!   call BScan_Disable_All_Chains
+!   if boardfailed then
+!      print "BScan disable failure; Silicon Nails tests skipped"
+!      subexit
+!   end if
+subend
+
+
+
+!*! sub Digital_Tests (Status_Code, Message$)
+sub Digital_Tests(Mode)
+
+
+   safeguard cool
+call Test ("digital/u24","u24",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_1v2s","u1_1v2s",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_5","u1_5",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rtv1","u1_rtv1",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_rtv2","u1_rtv2",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_sf0","u1_sf0",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u1_sf1","u1_sf1",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u15_5v","u15_5v",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u16_3v3","u16_3v3",Mode,1,9e-06,1.1e-05,8.1e-06,9.9e-06,0,0)
+call Test ("digital/u13_pm","u13_pm",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u56","u56",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u72","u72",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u59","u59",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u3_a%digital","u3_a",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u4","u4",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u7","u7",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u25","u25",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u46","u46",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u48","u48",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u96","u96",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u57","u57",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u19","u19",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u20","u20",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u21","u21",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u23","u23",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u26","u26",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u27","u27",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u31","u31",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u32","u32",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u35","u35",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u36","u36",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u40","u40",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u41","u41",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u42","u42",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u43","u43",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u55","u55",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u103","u103",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u106","u106",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u107","u107",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u108","u108",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u115","u115",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u116","u116",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u138","u138",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u8","u8",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u10","u10",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u12","u12",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+!# test "digital/u5"       !ICS853014 ! Short travel probes for clock buffer
+call Test ("digital/u6","u6",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+!# test "digital/u13"      !ICS853014 ! Short travel probes for clock buffer
+call Test ("digital/u14","u14",Mode,1,1.8e-05,2.2e-05,1.62e-05,1.98e-05,0,0)
+!# test "digital/u17"      !ICS853014 ! Short travel probes for clock buffer
+!# test "digital/u28"      !ICS853014 ! Short travel probes for clock buffer
+!# test "digital/u63"      !ICS853S011! Short travel probes for clock buffer
+
+call Test ("digital/u50","u50",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u61","u61",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("digital/u45","u45",Mode,1,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+
+!@ test "digital/u52"      !nostuff
+!@ test "digital/u33"      !SY89840U !nostuff
+!@ test "digital/u47"      !LVC244A !JTAG buffer ,all TCK buffer
+!@ test "digital/u54"      !MIROM FLASH
+
+subend
+
+
+
+!*! sub Functional_Tests (Status_Code, Message$)
+sub Functional_Tests(Mode)
+
+!   if Message$ <> "" then  print tab(5);Message$
+!   Status = Status_Code
+subend
+
+
+
+!*! sub Analog_Functional_Tests (Status_Code, Message$)
+sub Analog_Functional_Tests(Mode)
+
+
+call Test ("analog/u1_6","u1_6",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_91_5","u1_91_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_91_rtv1","u1_91_rtv1",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_91_rtv2","u1_91_rtv2",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_92_5","u1_92_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_93_5","u1_93_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_94_5","u1_94_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_95_5","u1_95_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_96_5","u1_96_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_98_5","u1_98_5",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_98_rtv1","u1_98_rtv1",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_98_rtv2","u1_98_rtv2",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_a","u1_a",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_pm","u1_pm",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u3_a","u3_a",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u11","u11",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u114","u114",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u87","u87",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u3","u3",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_1v2s%analog","u1_1v2s%analog",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_sf0%analog","u1_sf0%analog",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u1_sf1%analog","u1_sf1%analog",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u15_5v%analog","u15_5v%analog",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u16_3v3%analog","u16_3v3%analog",Mode,2,0,0,0,0,0,0)
+   safeguard cool
+call Test ("mixed/u1_q0","u1_q0",Mode,3,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("mixed/u1_q1","u1_q1",Mode,3,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+call Test ("mixed/u1_q2","u1_q2",Mode,3,9e-06,1.1e-05,7.2e-06,8.8e-06,0,0)
+   safeguard all
+! ------ CLOCK DIVIDER ------
+call Test ("analog/u51","u51",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u2","u2",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u44","u44",Mode,2,0,0,0,0,0,0)
+call Test ("analog/u56%freq","u56%freq",Mode,2,0,0,0,0,0,0)
+!# test "analog/y3"          !114.285MHz  !use u56 output   ! Top probes
+!# test "analog/u1"          !24.576M   ! Short travel probes for power stable
+!# test "analog/u9"          !25.00M    ! Short travel probes for power stable
+!@ test "analog/u44_opt"                                ! Nostuff
+!@ test "analog/u53"                                    ! Nostuff
+
+subend
+
+
+
+!*! def fnPinsfailed (Message$)
+def fnPinsfailed
+
+   Pins_failed_flag = 0
+   test "pins"
+   if dutfailed then Pins_failed_flag = 1
+   return Pins_failed_flag
+fnend
+
+
+
+!*!****************************************************************************
+!*!****************************************************************************
+!*! Set the test options
+!*! Caution: Use caution when making changes
+!*!          The Report generator will NOT be aware of any changes made here
+!*!****************************************************************************
+!*!****************************************************************************
+
+sub Get_BDG_specifications
+global Ver_Fau_Mode, Bidir, Driver_only, Receiver_only
+global True, False, Bdg_Dir$, Bdg_Shorts$
+global CycleVacuum
+global Pins_Test, Pins_Runs, Pre_Shorts_Test, Pre_Shorts_Runs
+global Shorts_Test, Shorts_Runs
+global Ana_Inc_Vacuum_Off_Test, Ana_Inc_Quality_Test, Ana_Inc_Quality_Runs
+global Dig_Inc_Vacuum_Off_Test, Dig_Inc_Quality_Test, Dig_Inc_Quality_Runs
+global Dig_Inc_Power_Supply_Test, Dig_Inc_Power_Supply_Runs
+global Dig_Inc_Power_Supply_Pos_Var , Dig_Inc_Power_Supply_Neg_Var
+global Dig_Inc_Speed_Test, Dig_Inc_Speed_Runs, Dig_Inc_Logic_Level_Test
+global Dig_Inc_Logic_Level_Runs, Dig_Inc_Fault_Coverage_Test
+global Dig_Inc_Fault_Coverage_Runs
+global Dig_Fun_Vacuum_Off_Test, Dig_Fun_Quality_Test, Dig_Fun_Quality_Runs
+global Dig_Fun_Power_Supply_Test, Dig_Fun_Power_Supply_Runs
+global Dig_Fun_Power_Supply_Pos_Var , Dig_Fun_Power_Supply_Neg_Var
+global Dig_Fun_Speed_Test, Dig_Fun_Speed_Runs, Dig_Fun_Logic_Level_Test
+global Dig_Fun_Logic_Level_Runs, Dig_Fun_Fault_Coverage_Test
+global Dig_Fun_Fault_Coverage_Runs
+global Ana_Fun_Vacuum_Off_Test, Ana_Fun_Quality_Test, Ana_Fun_Quality_Runs
+global Ana_Fun_Power_Supply_Test, Ana_Fun_Power_Supply_Runs
+global Ana_Fun_Power_Supply_Pos_Var , Ana_Fun_Power_Supply_Neg_Var
+global Ana_Fun_Speed_Test, Ana_Fun_Speed_Runs, Ana_Fun_Logic_Level_Test
+global Ana_Fun_Logic_Level_Runs, Ana_Fun_Fault_Coverage_Test
+global Ana_Fun_Fault_Coverage_Runs
+global Bscan_Inter_Vacuum_Off_Test, Bscan_Inter_Quality_Test
+global Bscan_Inter_Quality_Runs, Bscan_Inter_Power_Supply_Test
+global Bscan_Inter_Power_Supply_Runs, Bscan_Inter_Power_Supply_Pos_Var
+global Bscan_Inter_Power_Supply_Neg_Var, Bscan_Inter_Speed_Test
+global Bscan_Inter_Speed_Runs, Bscan_Inter_Logic_Level_Test
+global Bscan_Inter_Logic_Level_Runs, Bscan_Inter_Fault_Coverage_Test
+global Bscan_Inter_Fault_Coverage_Runs
+global Bscan_Inc_Vacuum_Off_Test, Bscan_Inc_Quality_Test
+global Bscan_Inc_Quality_Runs, Bscan_Inc_Power_Supply_Test
+global Bscan_Inc_Power_Supply_Runs, Bscan_Inc_Power_Supply_Pos_Var
+global Bscan_Inc_Power_Supply_Neg_Var, Bscan_Inc_Speed_Test
+global Bscan_Inc_Speed_Runs, Bscan_Inc_Logic_Level_Test
+global Bscan_Inc_Logic_Level_Runs, Bscan_Inc_Fault_Coverage_Test
+global Bscan_Inc_Fault_Coverage_Runs
+global Bscan_PS_Vacuum_Off_Test, Bscan_PS_Quality_Test
+global Bscan_PS_Quality_Runs, Bscan_PS_Power_Supply_Test
+global Bscan_PS_Power_Supply_Runs, Bscan_PS_Power_Supply_Pos_Var
+global Bscan_PS_Power_Supply_Neg_Var, Bscan_PS_Speed_Test
+global Bscan_PS_Speed_Runs, Bscan_PS_Logic_Level_Test
+global Bscan_PS_Logic_Level_Runs, Bscan_PS_Fault_Coverage_Test
+global Bscan_PS_Fault_Coverage_Runs
+global Bscan_SN_Vacuum_Off_Test, Bscan_SN_Quality_Test
+global Bscan_SN_Quality_Runs, Bscan_SN_Power_Supply_Test
+global Bscan_SN_Power_Supply_Runs, Bscan_SN_Power_Supply_Pos_Var
+global Bscan_SN_Power_Supply_Neg_Var, Bscan_SN_Speed_Test
+global Bscan_SN_Speed_Runs, Bscan_SN_Logic_Level_Test
+global Bscan_SN_Logic_Level_Runs, Bscan_SN_Fault_Coverage_Test
+global Bscan_SN_Fault_Coverage_Runs
+global Cover_Extend_Vacuum_Off_Test, Cover_Extend_Quality_Test
+global Cover_Extend_Quality_Runs, Cover_Extend_Power_Supply_Test
+global Cover_Extend_Power_Supply_Runs, Cover_Extend_PS_Pos_Var
+global Cover_Extend_PS_Neg_Var, Cover_Extend_Speed_Test
+global Cover_Extend_Speed_Runs, Cover_Extend_Logic_Level_Test
+global Cover_Extend_Logic_Level_Runs, Cover_Extend_Fault_Coverage_Test
+global Cover_Extend_Fault_Coverage_Runs
+global Pre_Powered_Vacuum_Off_Test, Pre_Powered_Quality_Test
+global Pre_Powered_Quality_Runs
+global Well
+global Dual_Well_Enable(*)
+
+Bdg_Dir$ = "bdg_data"
+Bdg_Shorts$ = "bdg_shorts"
+CycleVacuum = False
+Board_Serial_Number$ = "Board1"
+Board_Path$ = "./"
+Testplan$ = "testplan"
+Testhead$ = "th1"
+
+Dual_Well_Enable(1) = True
+Dual_Well_Enable(2) = False
+Dual_Well_Enable(3) = False
+Dual_Well_Enable(4) = False
+Pins_Test = True
+Pins_Runs = 10
+
+Pre_Shorts_Test = True
+Pre_Shorts_Runs = 10
+
+Shorts_Test = True
+Shorts_Runs = 10
+
+Ana_Inc_Vacuum_Off_Test = True
+Ana_Inc_Quality_Test = True
+Ana_Inc_Quality_Runs = 10
+
+Pre_Powered_Vacuum_Off_Test = True
+Pre_Powered_Quality_Test = True
+Pre_Powered_Quality_Runs = 10
+
+Dig_Inc_Vacuum_Off_Test = False
+Dig_Inc_Quality_Test = False
+Dig_Inc_Quality_Runs = 10
+Dig_Inc_Power_Supply_Test = False
+Dig_Inc_Power_Supply_Runs = 1
+Dig_Inc_Power_Supply_Pos_Var = 5.00
+Dig_Inc_Power_Supply_Neg_Var = 5.00
+Dig_Inc_Speed_Test = False
+Dig_Inc_Speed_Runs = 1
+Dig_Inc_Logic_Level_Test = False
+Dig_Inc_Logic_Level_Runs = 1
+Dig_Inc_Fault_Coverage_Test = True
+Dig_Inc_Fault_Coverage_Runs = 1
+Ver_Fau_Mode = Bidir
+
+Dig_Fun_Vacuum_Off_Test = True
+Dig_Fun_Quality_Test = True
+Dig_Fun_Quality_Runs = 10
+Dig_Fun_Power_Supply_Test = False
+Dig_Fun_Power_Supply_Runs = 1
+Dig_Fun_Power_Supply_Pos_Var = 5.00
+Dig_Fun_Power_Supply_Neg_Var = 5.00
+Dig_Fun_Speed_Test = False
+Dig_Fun_Speed_Runs = 1
+Dig_Fun_Logic_Level_Test = False
+Dig_Fun_Logic_Level_Runs = 1
+Dig_Fun_Fault_Coverage_Test = False
+Dig_Fun_Fault_Coverage_Runs = 1
+
+Ana_Fun_Vacuum_Off_Test = True
+Ana_Fun_Quality_Test = True
+Ana_Fun_Quality_Runs = 10
+Ana_Fun_Power_Supply_Test = False
+Ana_Fun_Power_Supply_Runs = 1
+Ana_Fun_Power_Supply_Pos_Var = 5.00
+Ana_Fun_Power_Supply_Neg_Var = 5.00
+Ana_Fun_Speed_Test = False
+Ana_Fun_Speed_Runs = 1
+Ana_Fun_Logic_Level_Test = False
+Ana_Fun_Logic_Level_Runs = 1
+Ana_Fun_Fault_Coverage_Test = False
+Ana_Fun_Fault_Coverage_Runs = 1
+
+Bscan_Inter_Vacuum_Off_Test = True
+Bscan_Inter_Quality_Test = True
+Bscan_Inter_Quality_Runs = 10
+Bscan_Inter_Power_Supply_Test = False
+Bscan_Inter_Power_Supply_Runs = 1
+Bscan_Inter_Power_Supply_Pos_Var = 5.00
+Bscan_Inter_Power_Supply_Neg_Var = 5.00
+Bscan_Inter_Speed_Test = False
+Bscan_Inter_Speed_Runs = 1
+Bscan_Inter_Logic_Level_Test = False
+Bscan_Inter_Logic_Level_Runs = 1
+Bscan_Inter_Fault_Coverage_Test = False
+Bscan_Inter_Fault_Coverage_Runs = 1
+
+Bscan_Inc_Vacuum_Off_Test = True
+Bscan_Inc_Quality_Test = True
+Bscan_Inc_Quality_Runs = 10
+Bscan_Inc_Power_Supply_Test = False
+Bscan_Inc_Power_Supply_Runs = 1
+Bscan_Inc_Power_Supply_Pos_Var = 5.00
+Bscan_Inc_Power_Supply_Neg_Var = 5.00
+Bscan_Inc_Speed_Test = False
+Bscan_Inc_Speed_Runs = 1
+Bscan_Inc_Logic_Level_Test = False
+Bscan_Inc_Logic_Level_Runs = 1
+Bscan_Inc_Fault_Coverage_Test = False
+Bscan_Inc_Fault_Coverage_Runs = 1
+
+Bscan_PS_Vacuum_Off_Test = True
+Bscan_PS_Quality_Test = True
+Bscan_PS_Quality_Runs = 10
+Bscan_PS_Power_Supply_Test = False
+Bscan_PS_Power_Supply_Runs = 1
+Bscan_PS_Power_Supply_Pos_Var = 5.00
+Bscan_PS_Power_Supply_Neg_Var = 5.00
+Bscan_PS_Speed_Test = False
+Bscan_PS_Speed_Runs = 1
+!*!******************************************************************
+!*! The "verify faults" command cannot be run on Boundary Scan
+!*! Powered Shorts tests. The entries below for Logic Level and
+!*! Fault Coverage tests should not be modified or the tests
+!*! will halt the testplan if they are executed.
+!*!******************************************************************
+Bscan_PS_Logic_Level_Test = False
+Bscan_PS_Logic_Level_Runs = 0
+Bscan_PS_Fault_Coverage_Test = False
+Bscan_PS_Fault_Coverage_Runs = 0
+
+Bscan_SN_Vacuum_Off_Test = True
+Bscan_SN_Quality_Test = True
+Bscan_SN_Quality_Runs = 10
+Bscan_SN_Power_Supply_Test = False
+Bscan_SN_Power_Supply_Runs = 1
+Bscan_SN_Power_Supply_Pos_Var = 5.00
+Bscan_SN_Power_Supply_Neg_Var = 5.00
+Bscan_SN_Speed_Test = False
+Bscan_SN_Speed_Runs = 1
+Bscan_SN_Logic_Level_Test = False
+Bscan_SN_Logic_Level_Runs = 1
+Bscan_SN_Fault_Coverage_Test = False
+Bscan_SN_Fault_Coverage_Runs = 1
+
+!*!******************************************************************
+!*! The "vacuum off" tests cannot be run on Cover-Extend tests.
+!*! The entry below for Cover_Extend_Vacuum_Off tests should not
+!*! modified or the tests may halt the testplan if they are executed.
+!*!******************************************************************
+Cover_Extend_Vacuum_Off_Test = False
+Cover_Extend_Quality_Test = False
+Cover_Extend_Quality_Runs = 10
+Cover_Extend_Power_Supply_Test = False
+Cover_Extend_Power_Supply_Runs = 1
+Cover_Extend_PS_Pos_Var = 5.00
+Cover_Extend_PS_Neg_Var = 5.00
+Cover_Extend_Speed_Test = False
+Cover_Extend_Speed_Runs = 1
+Cover_Extend_Logic_Level_Test = False
+Cover_Extend_Logic_Level_Runs = 1
+Cover_Extend_Fault_Coverage_Test = False
+Cover_Extend_Fault_Coverage_Runs = 1
+
+Ver_Fau_Mode = Bidir
+
+subend
+
+
+!TESTJET_TEST
+sub TestJet
+
+   test "testjet"
+subend
+
+sub Testjet_bdg
+global True, False, Log_without_pins_nhls, Log_without_pins, Log_board
+
+Testjet_Vacuum_off_test = True
+Testjet_Quality_test = False
+Testjet_Quality_Runs = 10
+
+enter "uname -n |";System$
+
+log clear !111804
+if Testjet_Quality_Test then
+   Dat_File$ = "bdg_data/testjet_qua.dat"
+
+   unlink Dat_File$, Err
+
+   assign @DAT to Dat_File$; write
+   output @DAT; "{@TESTJET_QUALITY|"; datetime$; "|"; System$; "|"; val$(Testjet_Quality_Runs); "}"
+   assign @DAT to *
+
+   unpowered
+   printer is Dat_File$; append
+   for N = 1 to Testjet_Quality_Runs
+      print "{@RUN "; val$(N); "|"; datetime$; "}"
+      call Progress("Testjet Quality" , N , Testjet_Quality_Runs)
+      call Vacuum_cycle
+      testjet print level is all
+      call TestJet
+      testjet print level is none
+      print "{@RUN_END|"; datetime$; "}"
+   next N
+   printer is *
+
+   assign @DAT to Dat_File$; write, append
+   output @DAT; "{@BDG_END|"; datetime$; "}"
+   assign @DAT to *
+end if
+
+wait 1
+log clear !111804
+
+if Testjet_Vacuum_off_test then
+   Dat_File$ = "bdg_data/testjet_vac_off.dat"
+
+   unlink Dat_File$, Err
+
+   assign @DAT to Dat_File$; write
+   output @DAT; "{@TESTJET_VAC_OFF|"; datetime$; "|"; System$; "}"
+   assign @DAT to *
+
+   call Prt("Testing Testjet Vacuum off")
+   call Vacuum(False,False)
+   wait 4   !delay for fixture vacuum release
+   unpowered
+   printer is Dat_File$; append
+   testjet print level is all
+   call TestJet
+   testjet print level is none
+   printer is *
+
+   assign @DAT to Dat_File$; write, append
+   output @DAT; "{@END|"; datetime$; "}"
+   assign @DAT to *
+end if
+
+subend
+
+
+

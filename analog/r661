@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520820  V4a67                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:30 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_598_LVC244A_I30_A2"
+!B!resistor 220, 12.27, 10.00, re3, ar500m
+resistor 220,30.0,20.00,re3,ar500m
+! "r661" test.

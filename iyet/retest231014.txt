@@ -1,0 +1,387 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:09:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    211106
+UNNAMED_4095_RES_I471_B                 
+                 r757.2
+               u1_sf1.19
+Common Devices:
+                  r757
+Message is:
+Check R757
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:09:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    211106
+UNNAMED_4095_RES_I471_B                 
+                 r757.2
+               u1_sf1.19
+Common Devices:
+                  r757
+Message is:
+Check R757
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:10:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    211106
+UNNAMED_4095_RES_I471_B                 
+                 r757.2
+               u1_sf1.19
+Common Devices:
+                  r757
+Message is:
+Check R757
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:16:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q0     11647 Open
+                c2_q0.1
+                c4_q0.1
+                cr2_q0.2
+              cr2_q0%cr.C
+                l4_q0.1
+                l5_q0.1
+                l6_q0.1
+                r5_q0.1
+                rn3_q0.5
+                rn3_q0.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q0  11546
+                c15_q0.2
+                c16_q0.2
+                l4_q0.2
+              qsfp_q0.B29
+Common Devices:
+                 l4_q0
+Message is:
+Check L4_Q0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q0     11647 Open
+                c2_q0.1
+                c4_q0.1
+                cr2_q0.2
+              cr2_q0%cr.C
+                l4_q0.1
+                l5_q0.1
+                l6_q0.1
+                r5_q0.1
+                rn3_q0.5
+                rn3_q0.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q0 115146
+                c17_q0.2
+                c18_q0.2
+                l5_q0.2
+              qsfp_q0.B10
+Common Devices:
+                 l5_q0
+Message is:
+Check L5_Q0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q0     11647 Open
+                c2_q0.1
+                c4_q0.1
+                cr2_q0.2
+              cr2_q0%cr.C
+                l4_q0.1
+                l5_q0.1
+                l6_q0.1
+                r5_q0.1
+                rn3_q0.5
+                rn3_q0.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC1_Q0   115145
+                c19_q0.2
+                c20_q0.2
+                l6_q0.2
+              qsfp_q0.B30
+Common Devices:
+                 l6_q0
+Message is:
+Check L6_Q0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q1    116141   60
+                c2_q1.1
+                c4_q1.1
+                cr2_q1.2
+              cr2_q1%cr.C
+                l4_q1.1
+                l5_q1.1
+                l6_q1.1
+                r5_q1.1
+                rn3_q1.5
+                rn3_q1.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q1  11543   60
+                c15_q1.2
+                c16_q1.2
+                l4_q1.2
+              qsfp_q1.B29
+Common Devices:
+                 l4_q1
+Message is:
+Check L4_Q1
+------End, 4 Problems Reported----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:16:27 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10957  405
+JTAG_TDO_RT6_TDI_RT7_2V5                
+                 r110.2
+                 r122.2
+                 r288.1
+              u2_rt5_6.B8
+To:   JTAG_TDO_RT7_RT8_2V5RT  10962  405
+                 r123.1
+                 r288.2
+              u1_rt7_8.B9
+Common Devices:
+                  r288
+Message is:
+Check R288
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:17:03 2023
+----------------------------------------
+r9_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   132.86
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:17:34 2023
+----------------------------------------
+r9_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   134.09
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:17:43 2023
+----------------------------------------
+r9_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   132.77
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:17:52 2023
+----------------------------------------
+r9_rt1_2 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   135.46
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:20:06 2023
+----------------------------------------
+rn96_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.2396k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:20:19 2023
+----------------------------------------
+rn96_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.2633k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+73-102898-01_03
+Sat Oct 14 09:20:29 2023
+----------------------------------------
+rn96_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.2585k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:30:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<22>        217103  129
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329  129 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:30:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q1    116141  145
+                c2_q1.1
+                c4_q1.1
+                cr2_q1.2
+              cr2_q1%cr.C
+                l4_q1.1
+                l5_q1.1
+                l6_q1.1
+                r5_q1.1
+                rn3_q1.5
+                rn3_q1.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q1  11543  145
+                c15_q1.2
+                c16_q1.2
+                l4_q1.2
+              qsfp_q1.B29
+Common Devices:
+                 l4_q1
+Message is:
+Check L4_Q1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<22>        217103 Open
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+------End, 2 Problems Reported----------
+S/N:FLM27400B15
+----------------------------------------
+Shorts Report for "shorts".
+Sat Oct 14 09:31:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<22>        217103   28
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   28 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+------End, 1 Problem Reported-----------
+S/N:FLM27400B15

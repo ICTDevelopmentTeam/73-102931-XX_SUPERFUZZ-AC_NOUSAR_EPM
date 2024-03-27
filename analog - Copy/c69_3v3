@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517027  V5682                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:00 2022
+disconnect all
+connect s to "PMOD_FB_3V3"
+connect i to "PMOD_COMP_3V3"
+connect g to "PMOD_COMP_RC_3V3"
+!B!capacitor 56p, 93.21, 45.00, fr8192, re5, wb, ar100m, comp
+capacitor 56p,50.0,50.00,fr8192,re5,wb,ar100m,comp
+! "c69_3v3" test.

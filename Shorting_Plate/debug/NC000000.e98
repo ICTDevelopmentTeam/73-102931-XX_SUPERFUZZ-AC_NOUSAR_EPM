@@ -1,0 +1,1762 @@
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:48:28 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM271208G9
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:48:35 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM271208G9
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:48:42 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM271208G9
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:48:49 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM271208G9
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:48:56 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM271208G9
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:49:03 2023
+----------------------------------------
+p23_s1%yel HAS FAILED
+
+REPLACE DEVICE: p23_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+Serial #: FLM271208G9
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+Shorts Report for "shorts".
+Fri Apr 14 17:50:38 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_CLK          207142    9
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021   10
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_DATA         205136    9
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526   10
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_red_l     209123   10
+                  u8.2
+                 u40.13
+To:   MUX_LED_STAT_RED_L      20921   10
+                  u8.4
+                 u55.13
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_grn_l      20922   10
+                  u8.5
+                 u40.12
+To:   MUX_LED_STAT_GRN_L     210125   10
+                  u8.7
+                 u55.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #5, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_RED_L      205122    9
+                  u8.9
+                 u55.9
+To:   bmc_led_env_red_l       20524   10
+                 u8.11
+                 u40.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #6, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_GRN_L       21023    9
+                 u8.12
+                 u55.5
+To:   bmc_led_env_grn_l      210124   10
+                 u8.14
+                 u40.10
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #7, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bcn_blue_l      20527    8
+                 u10.2
+                 u40.6
+To:   LED_BCN_BLUE_L          20545  136
+                 q15.2
+                 r256.2
+                 r657.2
+      MUX_LED_BCN_BLUE_L     207112    9
+                 r256.1
+                 u10.4
+Common Devices:
+                  u10
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #8, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bmc_red_l      209122    8
+                 u10.5
+                 u40.5
+To:   MUX_LED_BMC_RED_L      210122    9
+                 u10.7
+                 u55.1
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #9, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_BMC_GRN_L      209121    8
+                 u10.9
+                 u55.3
+To:   bmc_led_bmc_grn_l       21025    9
+                 u10.11
+                 u40.4
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+------End, 9 Problems Reported----------
+S/N:FLM27150K9K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Apr 14 17:50:51 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_CLK          207142   10
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021   10
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_DATA         205136    9
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526   10
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_red_l     209123   10
+                  u8.2
+                 u40.13
+To:   MUX_LED_STAT_RED_L      20921   11
+                  u8.4
+                 u55.13
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_grn_l      20922   10
+                  u8.5
+                 u40.12
+To:   MUX_LED_STAT_GRN_L     210125   11
+                  u8.7
+                 u55.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #5, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_RED_L      205122   10
+                  u8.9
+                 u55.9
+To:   bmc_led_env_red_l       20524   11
+                 u8.11
+                 u40.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #6, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_GRN_L       21023   10
+                 u8.12
+                 u55.5
+To:   bmc_led_env_grn_l      210124   11
+                 u8.14
+                 u40.10
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #7, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bcn_blue_l      20527    8
+                 u10.2
+                 u40.6
+To:   LED_BCN_BLUE_L          20545  137
+                 q15.2
+                 r256.2
+                 r657.2
+      MUX_LED_BCN_BLUE_L     207112    9
+                 r256.1
+                 u10.4
+Common Devices:
+                  u10
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #8, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bmc_red_l      209122    8
+                 u10.5
+                 u40.5
+To:   MUX_LED_BMC_RED_L      210122    9
+                 u10.7
+                 u55.1
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #9, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_BMC_GRN_L      209121    8
+                 u10.9
+                 u55.3
+To:   bmc_led_bmc_grn_l       21025    9
+                 u10.11
+                 u40.4
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+------End, 9 Problems Reported----------
+S/N:FLM27150K9K
+----------------------------------------
+Shorts Report for "shorts".
+Fri Apr 14 17:51:03 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_CLK          207142    9
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021   10
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_DATA         205136    9
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526   10
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_red_l     209123   10
+                  u8.2
+                 u40.13
+To:   MUX_LED_STAT_RED_L      20921   11
+                  u8.4
+                 u55.13
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 800, Delay 50us    Ohms
+From: bmc_led_stat_grn_l      20922   11
+                  u8.5
+                 u40.12
+To:   MUX_LED_STAT_GRN_L     210125   11
+                  u8.7
+                 u55.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #5, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_RED_L      205122   10
+                  u8.9
+                 u55.9
+To:   bmc_led_env_red_l       20524   11
+                 u8.11
+                 u40.11
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #6, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_ENV_GRN_L       21023   10
+                 u8.12
+                 u55.5
+To:   bmc_led_env_grn_l      210124   11
+                 u8.14
+                 u40.10
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #7, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bcn_blue_l      20527    8
+                 u10.2
+                 u40.6
+To:   LED_BCN_BLUE_L          20545  138
+                 q15.2
+                 r256.2
+                 r657.2
+      MUX_LED_BCN_BLUE_L     207112    9
+                 r256.1
+                 u10.4
+Common Devices:
+                  u10
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #8, Thresh 800, Delay 50us    Ohms
+From: bmc_led_bmc_red_l      209122    9
+                 u10.5
+                 u40.5
+To:   MUX_LED_BMC_RED_L      210122    9
+                 u10.7
+                 u55.1
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #9, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_BMC_GRN_L      209121    9
+                 u10.9
+                 u55.3
+To:   bmc_led_bmc_grn_l       21025    9
+                 u10.11
+                 u40.4
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+------End, 9 Problems Reported----------
+S/N:FLM27150K9K
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:51:31 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3062
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   8.4503m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   1.8201m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   53.045m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   234.11m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: ANT_5V
+Measured:   13.132m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_GPS
+Measured:   11.381m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   12.955m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2282
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   611.86m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   46.035m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   52.700m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   6.3569m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   2.7181m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   5.4362m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:52:15 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5032
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:53:04 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5029
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:53:43 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5031
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------------------
+73-102898-01_03
+Fri Apr 14 17:53:02 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.4980
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:53:46 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.4980
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:54:35 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.4978
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:55:09 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.4980
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+Serial #: FLM27150KWM
+
+
+
+
+
+
+
+
+
+
+
+
+
+ay 50us       Ohms
+From:   v                     21468 Open
+UNNAMED_2_RES_I151_A_98                 
+             r79_98_rtv1.1
+             u1_98_rtv1.35
+To:   PS_EN_RTV1              21563
+               r29_rtv1.2
+             r79_91_rtv1.2
+             r79_98_rtv1.2
+Common Devices:
+              r79_98_rtv1
+Message is:
+Check R79_98_RTV1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<12>         22121 Open
+                r18_s0.1
+                 r826.1
+               rn63_s0.4
+           rn63_s0%pin_4_5.1
+To:   srt_sfp12_i2c_scl_edge 220161
+                 r826.2
+                u49.AD22
+Common Devices:
+                  r826
+Message is:
+Check R826
+------End, 4 Problems Reported----------
+S/N:FLM27150K8L
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:55:43 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2454
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   618.34m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   53.401m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   64.099m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   9.5134m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   3.5072m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   4.4279m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   32.431m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   231.65m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: ANT_5V
+Measured:   13.132m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_GPS
+Measured:   11.381m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   13.743m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3253
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   11.484m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.2101m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:56:27 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   627.99m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   1.2598
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   1.0725
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   424.99m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   407.19m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   364.58m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   396.43m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   486.09m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   2.9534
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   359.63m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:57:16 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5065
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:57:55 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5061
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:58:29 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5066
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+Serial #: FLM27150K95
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 203129  297
+                 u8.13
+                u49.P10
+Common Devices:
+                   u8
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #7, Thresh 800, Delay 50us    Ohms
+From: fpga_led_bcn_blue_l    203132  708
+                 u10.3
+                u49.AF9
+To:   LED_BCN_BLUE_L          20545  372
+                 q15.2
+                 r256.2
+                 r657.2
+      MUX_LED_BCN_BLUE_L     207112  325
+                 r256.1
+                 u10.4
+Common Devices:
+                  u10
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #8, Thresh 800, Delay 50us    Ohms
+From: MUX_LED_BMC_GRN_L      209121  724
+                 u10.9
+                 u55.3
+To:   FPGA_LED_BMC_GRN_L     210123  757
+                 u10.10
+Common Devices:
+                  u10
+Total of 2 nodes, Message is:  None.
+------End, 8 Problems Reported----------
+S/N:FLM27150K9G
+----------------------------------------
+Shorts Report for "shorts".
+Fri Apr 14 17:57:12 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_CLK          207142   15
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021   17
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: IO_MI_SER_DATA         205136   15
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526   16
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM27150K9G
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 17:58:53 2023
+----------------------------------------
+u24%capture_id HAS FAILED
+vector      = 8287
+Status:  15H
+Pass/Fail error on following pins:
+BRRCC  NODE            PIN
+208148 T_ACT2_I2C0_SDA U24.13
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD40
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD41
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD42
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD47
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD48
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD49
+Too many attempts to discharge device
+----------------------------------------
+Board not tested.
+Serial #: FLM271506AT\\\\\\\\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:01:26 2023
+----------------------------------------
+u24%capture_id HAS FAILED
+vector      = 8287
+Status:  15H
+Pass/Fail error on following pins:
+BRRCC  NODE            PIN
+208148 T_ACT2_I2C0_SDA U24.13
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD40
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD41
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD42
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD47
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD48
+Too many attempts to discharge device
+----------------------------------------
+.discharge HAS FAILED
+Subtest: CD49
+Too many attempts to discharge device
+----------------------------------------
+Board not tested.
+Serial #: FLM271506AT\\\\\\\\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:04:19 2023
+----------------------------------------
+u24 HAS FAILED
+15-14497-02 IC-MP,MCU,8/16BIT,QFN20,2.7V
+vector      = 127
+Status:  15H
+Pass/Fail error on following pins:
+BRRCC  NODE            PIN
+208148 T_ACT2_I2C0_SDA U24.13
+----------------------------------------
+Serial #: FLM271506AT
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:05:32 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2274
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   591.74m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   54.027m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   46.623m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   4.7151m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   2.2033m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   7.7557m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3069
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   4.6201m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   1.3512m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   166.36m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   229.98m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: ANT_5V
+Measured:   3.3053m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_GPS
+Measured:   869.82u
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   1.8702m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:06:27 2023
+----------------------------------------
+u38_connect HAS FAILED
+CONNECT FAILURE DETECTED FOR DEVICE
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+Opens on Input or Bidir Pins
+u38.110  
+----------------------------------------
+Serial #: FLM2715069Q
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:08:00 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3201
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   7.5404m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   1.2204m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2365
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   616.95m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:08:56 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5037
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:09:40 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5036
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:10:29 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5033
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:11:08 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5034
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:11:42 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.5035
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+Serial #: FLM27150K9G
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   2.4791m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:08:56 2023
+----------------------------------------
+u38_connect HAS FAILED
+CONNECT FAILURE DETECTED FOR DEVICE
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+Opens on Input or Bidir Pins
+u38.110  
+----------------------------------------
+Serial #: FLM27150KVX
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:10:14 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3172
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   7.7147m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   1.3948m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2399
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   594.38m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   79.674m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   60.901m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   6.6540m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   2.7321m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   5.6845m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   73.415m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   228.59m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: ANT_5V
+Measured:   3.1313m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_GPS
+Measured:   869.82u
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   2.4791m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:11:09 2023
+----------------------------------------
+u38_connect HAS FAILED
+CONNECT FAILURE DETECTED FOR DEVICE
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+Opens on Input or Bidir Pins
+u38.110  
+----------------------------------------
+Serial #: FLM2715069X
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:13:01 2023
+----------------------------------------
+c76 HAS FAILED
+11-206778-01 CAP,CE,82 pF,50V,C0G,5%,SMT
+Measured:   20.185p
+Nominal:    82.000p
+High Limit: 123.00p
+Low Limit:  41.000p
+Capacitance in FARADS
+----------------------------------------
+r73 HAS FAILED
+12-2584-02 RES,TKF,2.21 k ohm,0.063W,1%,
+Measured:   3.2061M
+Nominal:    2.2100k
+High Limit: 2.7625k
+Low Limit:  1.7680k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2715068M
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:13:26 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3242
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   6.1969m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V8
+Measured:   2.3834m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2479
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   532.59m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT1
+Measured:   43.580m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P2V5RT2
+Measured:   48.491m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   4.8225m
+High Limit: 1.1000
+Low Limit:  860.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   2.4112m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P0_9V
+Measured:   4.6909m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   26.610m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P5V
+Measured:   251.97m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: ANT_5V
+Measured:   11.556m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3V3_GPS
+Measured:   10.681m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   11.817m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:14:10 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   834.05m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:14:59 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   840.36m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:15:39 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   823.52m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 19:16:13 2023
+----------------------------------------
+pwr_prog_main HAS FAILED
+Subtest: P3_3V
+Measured:   813.18m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+Serial #: FLM2715068M
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+Shorts Report for "shorts".
+Fri Apr 14 19:17:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM2715068N
+----------------------------------------
+73-102898-01_03
+Fri Apr 14 18:19:21 2023
+----------------------------------------
+u38_connect HAS FAILED
+CONNECT FAILURE DETECTED FOR DEVICE
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+Opens on Input or Bidir Pins
+u38.110  
+----------------------------------------
+Serial #: FLM2715069X
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,241 @@
+!!!!    6    0    1 1652336964  Va550                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u55"
+set terminators to on
+assign VCC       to pins *
+assign GND       to pins  *
+
+assign E1_Input  to pins  1
+assign E2_Input  to pins  3
+assign E3_Input  to pins  5
+assign E4_Input  to pins  9
+assign E5_Input  to pins  11
+assign E6_Input  to pins  13
+
+assign E1_Output to pins  2
+assign E2_Output to pins  4
+assign E3_Output to pins  6
+assign E4_Output to pins  8
+assign E5_Output to pins  10
+assign E6_Output to pins  12
+
+power   VCC, GND
+
+family  LVT
+
+inputs   E1_Input,E2_Input,E3_Input,E4_Input,E5_Input,E6_Input
+outputs  E1_Output,E2_Output,E3_Output,E4_Output,E5_Output,E6_Output
+
+!***************************************************************************
+!***************************************************************************
+
+vector   E1_Input_0
+     set  E1_Input to "0"
+     set  E1_Output to "0"
+end vector
+
+vector   E1_Input_1
+     set  E1_Input to "1"
+     set  E1_Output to "1"
+end vector
+
+vector   E2_Input_0
+     set  E2_Input to "0"
+     set  E2_Output to "0"
+end vector
+
+vector   E2_Input_1
+     set  E2_Input to "1"
+     set  E2_Output to "1"
+end vector
+
+vector   E3_Input_0
+     set  E3_Input to "0"
+     set  E3_Output to "0"
+end vector
+
+vector   E3_Input_1
+     set  E3_Input to "1"
+     set  E3_Output to "1"
+end vector
+
+vector   E4_Input_0
+     set  E4_Input to "0"
+     set  E4_Output to "0"
+end vector
+
+vector   E4_Input_1
+     set  E4_Input to "1"
+     set  E4_Output to "1"
+end vector
+
+vector   E5_Input_0
+     set  E5_Input to "0"
+     set  E5_Output to "0"
+end vector
+
+vector   E5_Input_1
+     set  E5_Input to "1"
+     set  E5_Output to "1"
+end vector
+
+vector   E6_Input_0
+     set  E6_Input to "0"
+     set  E6_Output to "0"
+end vector
+
+vector   E6_Input_1
+     set  E6_Input to "1"
+     set  E6_Output to "1"
+end vector
+
+vector  Disable_All_Elements
+   set E1_Input   to "1"
+   set E2_Input   to "1"
+   set E3_Input   to "1"
+   set E4_Input   to "1"
+   set E5_Input   to "1"
+   set E6_Input   to "1"
+end vector
+
+vector E1_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E1_Input   to "1"
+   set E1_Output  to "1"
+end vector
+
+vector E1_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E1_Input   to "0"
+   set E1_Output  to "0"
+end vector
+
+vector E2_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E2_Input   to "1"
+   set E2_Output  to "1"
+end vector
+
+vector E2_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E2_Input   to "0"
+   set E2_Output  to "0"
+end vector
+
+vector E3_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E3_Input   to "1"
+   set E3_Output  to "1"
+end vector
+
+vector E3_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E3_Input   to "0"
+   set E3_Output  to "0"
+end vector
+
+vector E4_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E4_Input   to "1"
+   set E4_Output  to "1"
+end vector
+
+vector E4_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E4_Input   to "0"
+   set E4_Output  to "0"
+end vector
+
+vector E5_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E5_Input   to "1"
+   set E5_Output  to "1"
+end vector
+
+vector E5_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E5_Input   to "0"
+   set E5_Output  to "0"
+end vector
+
+vector E6_Input_1__Disable_Others
+   initialize to Disable_All_Elements
+   set E6_Input   to "1"
+   set E6_Output  to "1"
+end vector
+
+vector E6_Input_0__Disable_Others
+   initialize to Disable_All_Elements
+   set E6_Input   to "0"
+   set E6_Output  to "0"
+end vector
+
+!*****************************************************************************
+!*****************************************************************************
+
+unit    "Element number 1"
+     execute   E1_Input_0
+     execute   E1_Input_1
+end unit
+
+unit    "Element number 2"
+     execute   E2_Input_0
+     execute   E2_Input_1
+end unit
+
+unit    "Element number 3"
+     execute   E3_Input_0
+     execute   E3_Input_1
+end unit
+
+unit    "Element number 4"
+     execute   E4_Input_0
+     execute   E4_Input_1
+end unit
+
+unit    "Element number 5"
+     execute   E5_Input_0
+     execute   E5_Input_1
+end unit
+
+unit    "Element number 6"
+     execute   E6_Input_0
+     execute   E6_Input_1
+end unit
+
+!  Test with other elements disabled
+
+unit    "Element number 1__Disable_Others"
+     execute   E1_Input_0__Disable_Others
+     execute   E1_Input_1__Disable_Others
+end unit
+
+unit    "Element number 2__Disable_Others"
+     execute   E2_Input_0__Disable_Others
+     execute   E2_Input_1__Disable_Others
+end unit
+
+unit    "Element number 3__Disable_Others"
+     execute   E3_Input_0__Disable_Others
+     execute   E3_Input_1__Disable_Others
+end unit
+
+unit    "Element number 4__Disable_Others"
+     execute   E4_Input_0__Disable_Others
+     execute   E4_Input_1__Disable_Others
+end unit
+
+unit    "Element number 5__Disable_Others"
+     execute   E5_Input_0__Disable_Others
+     execute   E5_Input_1__Disable_Others
+end unit
+
+unit    "Element number 6__Disable_Others"
+     execute   E6_Input_0__Disable_Others
+     execute   E6_Input_1__Disable_Others
+end unit
+
+!    End of Test
+

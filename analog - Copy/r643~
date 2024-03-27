@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521822  V6d54                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:26 2022
+disconnect all
+connect s to "UNNAMED_4080_LEDBICO3P_I231_K2"
+connect i to "LED_STAT_RED_L"
+!B!resistor 162, 9.09, 6.00, re3, ar500m
+resistor 162,30.0,20.0,re3,ar500m
+! "r643" test.

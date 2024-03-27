@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863978   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:39 2022
+disconnect all
+connect s to "GND"
+connect i to "P1V0RT2_AGND_SENSE"
+jumper 5.94, re1, ar200m
+! "r71" test.

@@ -1,0 +1,12 @@
+!!!!   21    2    1 1647590627  V4f3a                                         
+
+!  12-4252-01 RES,TKF,5.49 k ohm,0.063W,1%
+
+resistor *, 5.49k, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

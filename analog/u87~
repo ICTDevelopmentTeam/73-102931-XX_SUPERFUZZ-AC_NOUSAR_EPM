@@ -1,0 +1,19 @@
+!!!!    2    0    1 1652163286  V2dee                                         
+
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+   disconnect all
+   connect i to pins 15
+   connect l to pins 7
+
+   detector dcv, expect 1.8
+   measure 1.8 * 1.08, 1.8 * 0.92
+end subtest
+
+
+
+

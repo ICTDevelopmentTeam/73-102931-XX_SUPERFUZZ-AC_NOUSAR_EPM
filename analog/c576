@@ -1,0 +1,6 @@
+!!!!    2    0    1 1647863895   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:16 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "c576" is not accessible at node "LAN1_PORT0_CPU_RX_AC_P".
+! "c576" is not accessible at node "LAN1_PORT0_CPU_RX_P".

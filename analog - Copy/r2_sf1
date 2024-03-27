@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863974   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:35 2022
+on failure
+   report parallel devices
+   report "r9_sf1"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT"
+jumper 5.44, re1, ar200m
+! "r2_sf1" test.
+off failure

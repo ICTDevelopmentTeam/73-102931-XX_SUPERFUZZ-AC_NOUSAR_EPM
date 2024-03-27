@@ -1,0 +1,31 @@
+!!!!    2    0    1 1565252607  V3c14                                         
+test powered analog
+
+ test "SW_ON"
+ test "SW_OFF"
+
+end test
+
+subtest "SW_ON"
+  connect s to pins 2 !nodes "FP_PWR_SW_CP"
+  connect i to pins 2 !nodes "FP_PWR_SW_CP"
+  connect l to pins 1
+
+  source dcv, am3.3, terminated 50, on, ico1
+  detector dcv, expect 0.6
+  measure  0.6,  -0.2
+end subtest
+
+subtest "SW_OFF"
+  connect s to pins 2 !nodes "FP_PWR_SW_CP"
+  connect i to pins 2 !nodes "FP_PWR_SW_CP"
+  connect l to pins 1
+
+  source dcv, am3.3, terminated 50, on, ico1
+  detector dcv, expect 3.3
+  measure  3.4,  1.8
+end subtest
+
+
+
+

@@ -1,0 +1,13 @@
+!!!!    2    0    1 1651026669  Vb139                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:33 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c23_pm 1.20n"                                                                                                                                           
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "VIN_RES_MON_P_PM"                                                                                                                                 
+connect i to "VFB_PM"                                                                                                                                           
+!B!resistor 100k, 15.00, 15.00, re5, wb, ar100m, wa1.93u                                                                                                        
+resistor 100k,25.00,25.00,re5,wb,ar100m                                                                                                                         
+! "r201_pm" test.                                                                                                                                               
+off failure                                                                                                                                                     

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863978   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:39 2022
+disconnect all
+connect s to "RXRATE_SFP_SHIFT_CLK_BUF"
+connect i to "RXRATE_SFP_SHIFT_U115_CLK_BUF"
+jumper 5.94, re1, ar200m
+! "r217" test.

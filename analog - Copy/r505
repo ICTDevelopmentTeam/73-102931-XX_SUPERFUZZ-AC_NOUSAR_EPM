@@ -1,0 +1,8 @@
+!!!!    2    0    1 1653009880  Vc32c                                         
+!* Top probe [SRT_CLK156M25_RT_BUFIN_LOWER_REFCLK_N] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:55 2022
+disconnect all
+connect s to "CAP_CLK156M25_RT_BUFIN_LOWER_REFCLK_N"; a to "CAP_CLK156M25_RT_BUFIN_LOWER_REFCLK_N"
+connect i to "SRT_CLK156M25_RT_BUFIN_LOWER_REFCLK_N"; b to "SRT_CLK156M25_RT_BUFIN_LOWER_REFCLK_N"
+resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r505" test.

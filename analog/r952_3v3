@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519727  Va4b6                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:23 2022
+disconnect all
+connect s to "PMOD_COMP_3V3"
+connect i to "PMOD_COMP_RC_3V3"
+!B!resistor 5.36k, 6.00, 6.00, re4, wb, ar200m
+resistor 5.36k,25.00,20.00,re4,wb,ar200m
+! "r952_3v3" test.

@@ -1,0 +1,13 @@
+!!!!   21    2    1 1381315053   0000                                         
+
+!#  12-2609-01
+!#  12-2609-01 RES,TF,82.5ohm,0.063W,1%,SM,0
+!#  Thu Oct  3 14:37:30 2013
+
+resistor *, 82.5, 1, 1, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

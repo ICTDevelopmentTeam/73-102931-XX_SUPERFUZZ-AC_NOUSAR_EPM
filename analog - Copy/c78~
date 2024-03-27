@@ -1,0 +1,29 @@
+!!!!    2    0    1 1648516763  V81e6                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:24 2022
+on failure
+report parallel devices
+report "c79 22.0u"
+report "c90_rt5_6 22.0u"
+report "c90_rt7_8 22.0u"
+report "c90_rt9 22.0u"
+report "c130_rt5_6 22.0u"
+report "c130_rt7_8 22.0u"
+report "c29_rt5_6 100n"
+report "c29_rt7_8 100n"
+report "c29_rt9 100n"
+report "c35_rt5_6 100n"
+report "c35_rt7_8 100n"
+report "c35_rt9 100n"
+report "c128_rt5_6 100n"
+report "c128_rt7_8 100n"
+report "c129_rt5_6 100n"
+report "c129_rt7_8 100n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P2V5RT2"; b to "P2V5RT2"
+connect g to "P2V5RT2_SNS"
+!B!capacitor 155u, 15.00, 15.10, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+capacitor 155u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+! "c78" test.
+off failure

@@ -1,0 +1,51 @@
+----------------------------------------
+TestJet Report for "testjet".
+Wed Aug 09 06:14:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u1_5
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.9              (BRC 21162)
+17-15181-02 IC,LINEAR,PWR SEQ, PWR_CONTR
+----------------------------------------
+Open #1  Device u1_rtv1
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.0              (BRC 21162)
+17-15781-01 IC,LINEAR,PWR SEQ,PWR_CONTRO
+----------------------------------------
+Open #1  Device u1_rtv2
+  Pin 9  Node mifpga_pmbus_sda
+  Measured 0.0              (BRC 21162)
+17-15781-01 IC,LINEAR,PWR SEQ,PWR_CONTRO
+----------------------------------------
+Open #1  Device u13_pm
+  Pin 4  Node mifpga_pmbus_sda
+  Measured 0.2              (BRC 21162)
+15-106515-01 IC-LIN,Precision Digital Po
+----------------------------------------
+Open #1  Device u24
+  Pin 12  Node srt_act2_i2c0_scl
+  Measured 0.3              (BRC 207150)
+15-14497-02 IC-MP,MCU,8/16BIT,QFN20,2.7V
+----------------------------------------
+Open #1  Device u29
+  Pin 6  Node sfp_tx_fault_fpga<12>
+  Measured 20.9             (BRC 21617)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u50
+  Pin 15  Node p2v5rt1_pgood
+  Measured 2.3              (BRC 20562)
+15-3958-02 IC-LOGIC-BUFFER,TSSOP20,VNOM 
+----------------------------------------
+Open #1  Device u96
+  Pin 14  Node jtag_tdi_dav_hdr_3v3
+  Measured -0.0             (BRC 10564)
+15-3699-03 IC-LOGIC-DEMUX,QSOP16,PI3B325
+----------------------------------------
+Open #1  Device u107
+  Pin 11  Node rxrate_sfp_shift_u107_clk_buf
+  Measured 0.8              (BRC 211151)
+15-13379-0 IC-LOGIC,REGISTER,TSSOP16,74
+----------------------------------------
+S/N:FLM27130FCM

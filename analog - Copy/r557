@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026856  V621f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:17 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect i to "UNNAMED_4141_RES_I66_A"                                                                                                                           
+connect s to "GND"                                                                                                                                              
+connect g to "UNNAMED_4141_FPGA3RAIL15A3A3A_I145_PMBAD"                                                                                                         
+!B!resistor 105k, 15.00, 15.00, re5, wb, ar100m, wa23.6u                                                                                                        
+resistor 105k,30.00,30.00,re5,wb,ar100m                                                                                                                         
+! "r557" test.                                                                                                                                                  

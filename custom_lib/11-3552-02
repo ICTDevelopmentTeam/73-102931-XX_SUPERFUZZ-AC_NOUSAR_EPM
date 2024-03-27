@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  V90fc                                         
+
+!#  11-3552-02
+!#  11-3552-02 CAP,CE,47uF,10V,X5R,20%,SM,12
+!#  Wed Apr 17 16:02:54 2019
+
+capacitor *, 47u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

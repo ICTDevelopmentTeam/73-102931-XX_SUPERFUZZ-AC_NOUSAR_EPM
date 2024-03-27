@@ -1,0 +1,13 @@
+!!!!   21    2    1 1542636874   0000                                         
+
+!#  11-3617-01
+!#  11-3617-01 CAP,CE,0.22UF,16V,10%,X5R,SM,
+!#  Fri Nov 16 16:41:26 2018
+
+capacitor *, 0.22u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes VIN_RES_MON_P_PM P-Pin resistance"
+report "check nodes VFB_PM P-Pin resistance"
+end on failure
+disconnect all
+connect s to "VIN_RES_MON_P_PM"
+connect i to "VFB_PM"
+resistor 10,20,100, re1, ar100m,ed
+off failure

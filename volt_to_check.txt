@@ -1,0 +1,72 @@
+wr_check HAS FAILED
+Subtest: P5V
+Measured:   5.2678
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: ANT_5V
+Measured:   5.3808
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_GPS
+Measured:   3.5709
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1_1VA
+Measured:   1.3772
+High Limit: 1.2100
+Low Limit:  990.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   1.2821
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   2.1006
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDD_P0V875
+Measured:   1.2163
+High Limit: 990.00m
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   1.4750
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+PS  1:  3.30 V  +.260 A 
+PS  2:   .02 V -0.000 A 
+PS  3: 11.77 V +2.001 A 
+PS  4: 11.76 V +2.002 A 
+PS  5:  3.30 V  +.033 A 
+PS  6: 20.00 V  +.111 A 
+PS  7: 11.91 V +2.000 A 
+PS  8: 11.88 V +2.001 A 
+PS  9:   .02 V -0.000 A 
+PS 10:   .02 V -0.000 A 
+PS 11: 12.10 V +1.562 A 
+PS 12: 11.84 V +2.002 A 
+PS 13:   .02 V -0.000 A 
+PS 14:   .02 V +0.000 A 
+PS 15: 12.00 V +2.003 A 
+PS 16: 11.93 V +2.002 A 

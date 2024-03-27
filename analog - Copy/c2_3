@@ -1,0 +1,6 @@
+!!!!    2    0    1 1647864005   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:06 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "c2_3" is not accessible at node "AC_PCIE_RX_P_3".
+! "c2_3" is not accessible at node "HSD_PE_CPU_DAV_P".

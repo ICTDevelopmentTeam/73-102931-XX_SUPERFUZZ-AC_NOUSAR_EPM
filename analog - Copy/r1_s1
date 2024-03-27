@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863973   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:34 2022
+disconnect all
+connect s to "I2C_SDA_SFP<24>"
+connect i to "UNNAMED_3_RES_I174_B_S1"
+jumper 5.94, re1, ar200m
+! "r1_s1" test.

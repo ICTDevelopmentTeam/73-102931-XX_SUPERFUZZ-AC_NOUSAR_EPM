@@ -1,0 +1,14 @@
+!!!!    2    0    1 1651024940   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:34 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r09_rtv1 1.00k"                                                                                                                                         
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "UNNAMED_7_CAP_I276_B_RTV1"                                                                                                                        
+!#connect g to "P12V"                                                                                                                                             
+!B!capacitor 10n, 20.00, 20.00, fr1024, re2, ar20.0m, sa, en, nocomp                                                                                            
+capacitor 10n,35.00,40.0,fr1024,re5,ar100m,sa,ed,en,nocomp                                                                                                      
+! "c03_rtv1" is a limited test.                                                                                                                                 
+off failure                                                                                                                                                     

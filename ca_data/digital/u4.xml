@@ -1,0 +1,25 @@
+
+<Test name = "u4">
+<FileList>
+<File name = "u4">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u4</FilePath>
+<LastModified>Thu May 12, 2022  11:10 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u4">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

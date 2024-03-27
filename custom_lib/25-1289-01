@@ -1,0 +1,19 @@
+!!!!   21    2    1 1647590724  V60be                                         
+!Dual LED
+
+diode "yel", 2.6, 1.2, nr, pn"25-1289-01"
+diode "grn", 2.6, 1.2, nr, pn"25-1289-01"
+
+external pins 1
+   device "yel" pins "A"
+
+external pins 2
+   device "yel" pins "C"
+
+external pins 3
+   device "grn" pins "A"
+
+external pins 4
+   device "grn" pins "C"
+
+

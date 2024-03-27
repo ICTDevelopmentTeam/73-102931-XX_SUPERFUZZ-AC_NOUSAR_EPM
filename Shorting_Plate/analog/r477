@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes CLK_1_PPS_Y1 P-Pin resistance"
+report "check nodes CLK_1_PPS_DIG_OUT P-Pin resistance"
+end on failure
+disconnect all
+connect s to "CLK_1_PPS_Y1"
+connect i to "CLK_1_PPS_DIG_OUT"
+resistor 10,20,100, re1, ar100m,ed
+off failure

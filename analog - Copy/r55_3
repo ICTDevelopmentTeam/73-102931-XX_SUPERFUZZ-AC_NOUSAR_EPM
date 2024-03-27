@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521694  Vb1a2                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:58 2022
+disconnect all
+connect s to "GND"
+connect i to "SNDN_PCIE_RREF"
+!B!resistor 4.22k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.22k,25.00,20.00,re4,wb,ar200m
+! "r55_3" test.

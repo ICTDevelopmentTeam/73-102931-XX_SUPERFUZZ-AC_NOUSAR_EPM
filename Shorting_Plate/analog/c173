@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes CAP_CLK156M25_BUF_MM_SIDE_REFCLK_P P-Pin resistance"
+report "check nodes CLK156M25_BUF_MM_SIDE_REFCLK_P P-Pin resistance"
+end on failure
+disconnect all
+connect s to "CAP_CLK156M25_BUF_MM_SIDE_REFCLK_P"
+connect i to "CLK156M25_BUF_MM_SIDE_REFCLK_P"
+resistor 10,20,100, re1, ar100m,ed
+off failure

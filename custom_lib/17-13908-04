@@ -1,0 +1,386 @@
+!!!!    6    0    1 1472260398  V632c                                         
+
+sequential
+
+vector cycle  1u
+receive delay 0.9u
+
+assign   VCC         to pins  8
+assign   GND         to pins  4
+
+assign   CS_I        to pins  1
+assign   WP_I        to pins  3
+assign   SDATA_I     to pins  5
+assign   SCK_I       to pins  6
+assign   HOLD_I      to pins  7
+assign   SDATA_O     to pins  2
+
+
+family   LVT
+
+power    VCC, GND
+
+inputs   CS_I, WP_I, SDATA_I
+inputs   SCK_I, HOLD_I
+
+outputs    SDATA_O
+set     load on groups  SDATA_O            to pull up
+
+disable SDATA_O with CS_I to "1"
+
+!!***********************************************************************
+!!********************* VECTORS *****************************************
+!!***********************************************************************
+
+vector Init
+  set CS_I         to "1"
+  set SDATA_I      to "1"
+  set SCK_I        to "0"
+  set WP_I         to "1"
+  set HOLD_I       to "1"
+end vector
+
+vector Keep
+  set CS_I         to "k"
+  set SDATA_I      to "k"
+  set SCK_I        to "k"
+  set WP_I         to "k"
+  set HOLD_I       to "k"
+end vector
+
+vector Start_cycle
+  initialize to Keep
+  set CS_I         to "0"
+end vector
+
+vector End_cyc
+  initialize to Keep
+  set CS_I         to "1"
+end vector
+
+vector SCK_high
+  initialize to Keep
+  set SCK_I        to "1"
+end vector
+
+vector SCK_low
+  initialize to Keep
+  set SCK_I        to "0"
+end vector
+
+vector D0
+  initialize to Keep
+  set SCK_I        to "0"
+  set SDATA_I      to "0"
+end vector
+
+vector D1
+  initialize to Keep
+  set SCK_I        to "0"
+  set SDATA_I      to "1"
+end vector
+
+vector Rx
+  initialize to Keep
+  set SCK_I        to "0"
+  set SDATA_O      to "x"
+end vector
+
+vector R0
+  initialize to Keep
+  set SCK_I        to "0"
+  set SDATA_O      to "0"
+end vector
+
+vector R1
+  initialize to Keep
+  set SCK_I        to "0"
+  set SDATA_O      to "1"
+end vector
+
+!vector Rx_P
+!  initialize to Keep
+!  set SCK_I        to "0"
+!  set PDATA_O      to "xxxxxxxx"
+!end vector
+
+sub End_cycle
+
+  execute SCK_low
+  execute End_cyc
+
+  repeat 3 times
+    execute SCK_high
+    execute SCK_low
+  end repeat
+
+end sub
+
+sub Check_status                     !!See if part is ready for commands.
+
+   homingloop 2000 times
+
+     execute Start_cycle
+
+     execute D0                      !!Bit 7
+     execute SCK_high                !!Rising clock edge for data in
+
+     execute D0                      !!Bit 6
+     execute SCK_high
+
+     execute D0                      !!Bit 5
+     execute SCK_high
+
+     execute D0                      !!Bit 4
+     execute SCK_high
+
+     execute D0                      !!Bit 3
+     execute SCK_high
+
+     execute D1                      !!Bit 2
+     execute SCK_high
+
+     execute D0                      !!Bit 1
+     execute SCK_high
+
+     execute D1                      !!Bit 0
+     execute SCK_high
+
+     !! Data to read from status register
+     execute Rx                      !!Bit 7,Falling clock for data out
+     execute SCK_high                !!Rising clock edge for data in
+
+     execute Rx                      !!Bit 6
+     execute SCK_high
+
+     execute Rx                      !!Bit 5
+     execute SCK_high
+
+     execute Rx                      !!Bit 4
+     execute SCK_high
+
+     execute Rx                      !!Bit 3
+     execute SCK_high
+
+     execute Rx                      !!Bit 2
+     execute SCK_high
+
+     execute Rx                      !!Bit 1
+     execute SCK_high
+
+     execute R0 exit if pass         !!Bit 0
+
+     execute End_cyc piped
+   end homingloop
+
+end sub
+
+sub Enter_Parallel_Mode
+
+   !!instructon 0101 0101
+   execute D0                      !!Bit 7
+   execute SCK_high                !!Rising clock edge for data in
+
+   execute D1                      !!Bit 6
+   execute SCK_high
+
+   execute D0                      !!Bit 5
+   execute SCK_high
+
+   execute D1                      !!Bit 4
+   execute SCK_high
+
+   execute D0                      !!Bit 3
+   execute SCK_high
+
+   execute D1                      !!Bit 2
+   execute SCK_high
+
+   execute D0                      !!Bit 1
+   execute SCK_high
+
+   execute D1                      !!Bit 0
+   execute SCK_high
+
+end sub
+
+sub Exit_Parallel_Mode
+
+   !!instructon 0100 0101
+   execute D0                      !!Bit 7
+   execute SCK_high                !!Rising clock edge for data in
+
+   execute D1                      !!Bit 6
+   execute SCK_high
+
+   execute D0                      !!Bit 5
+   execute SCK_high
+
+   execute D0                      !!Bit 4
+   execute SCK_high
+
+   execute D0                      !!Bit 3
+   execute SCK_high
+
+   execute D1                      !!Bit 2
+   execute SCK_high
+
+   execute D0                      !!Bit 1
+   execute SCK_high
+
+   execute D1                      !!Bit 0
+   execute SCK_high
+
+end sub
+
+sub Read(B7, B6, B5, B4, B3, B2, B1, B0)
+
+
+   execute B7                      !!Bit 7
+   execute SCK_high                !!Rising clock edge for data in
+
+   execute B6                      !!Bit 6
+   execute SCK_high
+
+   execute B5                      !!Bit 5
+   execute SCK_high
+
+   execute B4                      !!Bit 4
+   execute SCK_high
+
+   execute B3                      !!Bit 3
+   execute SCK_high
+
+   execute B2                      !!Bit 2
+   execute SCK_high
+
+   execute B1                      !!Bit 1
+   execute SCK_high
+
+   execute B0                      !!Bit 0
+   execute SCK_high
+
+end sub
+
+sub RDID_command
+
+   execute Start_cycle
+
+   !!instruction 1001 1111
+   execute D1                      !!Bit 7
+   execute SCK_high                !!Rising clock edge for data in
+
+   execute D0                      !!Bit 6
+   execute SCK_high
+
+   execute D0                      !!Bit 5
+   execute SCK_high
+
+   execute D1                      !!Bit 4
+   execute SCK_high
+
+   execute D1                      !!Bit 3
+   execute SCK_high
+
+   execute D1                      !!Bit 2
+   execute SCK_high
+
+   execute D1                      !!Bit 1
+   execute SCK_high
+
+   execute D1                      !!Bit 0
+   execute SCK_high
+
+end sub
+
+sub Read_command
+
+   execute Start_cycle
+
+   !!instruction 0000 0011
+   execute D0                      !!Bit 7
+   execute SCK_high                !!Rising clock edge for data in
+
+   execute D0                      !!Bit 6
+   execute SCK_high
+
+   execute D0                      !!Bit 5
+   execute SCK_high
+
+   execute D0                      !!Bit 4
+   execute SCK_high
+
+   execute D0                      !!Bit 3
+   execute SCK_high
+
+   execute D0                      !!Bit 2
+   execute SCK_high
+
+   execute D1                      !!Bit 1
+   execute SCK_high
+
+   execute D1                      !!Bit 0
+   execute SCK_high
+
+end sub
+
+!!***********************************************************************
+!!********************* UNITS *******************************************
+!!***********************************************************************
+
+unit "Read ID Serial Mode"
+
+    execute Init
+    repeat 5 times
+      execute SCK_high
+      execute SCK_low
+    end repeat
+
+  !! See if part is ready for commands
+    call Check_status
+    call End_cycle
+
+
+    call RDID_command
+    call Read(R0,R0,R0,R0,R0,R0,R0,R1) !manu ID 01h
+    call Read(R0,R0,R1,R0,R0,R0,R0,R0) !devi ID byte1 20h
+    call Read(R0,R0,R0,R1,R1,R0,R0,R0) !devi ID byte2 18h
+    call Read(R0,R0,R0,R0,R0,R0,R1,R1) !ext devi ID byte1 03h
+    call Read(R0,R0,R0,R0,R0,R0,R0,R1) !ext devi ID byte1 01h or 00h
+
+    call End_cycle
+    call Check_status
+
+end unit
+
+!unit "CRC Check Paralle Mode"
+
+!    execute Init
+!    repeat 5 times
+!      execute SCK_high
+!      execute SCK_low
+!    end repeat
+
+  !! See if part is ready for commands
+!    call Check_status
+!    call End_cycle
+!    call Enter_Parallel_Mode
+!    call End_cycle
+
+!    call Read_command
+!    repeat 24 times
+!      execute D0                      !!24 bits address
+!      execute SCK_high
+!    end repeat
+
+!    compress
+!     repeat 1024 times               !check 1024 bytes
+!       execute Rx_P
+!       execute SCK_high
+!     end repeat
+!    end compress
+
+!    call End_cycle
+!    call Exit_Parallel_Mode
+!    call End_cycle
+!end unit

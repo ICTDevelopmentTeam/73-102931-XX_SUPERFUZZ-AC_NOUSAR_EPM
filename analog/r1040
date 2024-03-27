@@ -1,0 +1,8 @@
+!!!!    2    0    1 1647863956   0000                                         
+!* Top probe [SRT_CPU_PCIE_CLKOUT0_N] removed for power rails stable.
+! IPG: rev 09.20p  Mon Mar 21 19:59:17 2022
+disconnect all
+connect s to "SRT_CPU_PCIE_CLKOUT0_N"
+connect i to "SNDN_PCIE_100MHZ_REFCLK_N"
+jumper 236, re3, wb, ar500m, op
+! "r1040" test.

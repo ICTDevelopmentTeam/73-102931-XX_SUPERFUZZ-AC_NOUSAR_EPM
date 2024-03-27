@@ -1,0 +1,14 @@
+!!!!    2    0    1 1674586718   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:45 2022
+on failure
+report parallel devices
+report "c3_6 22.0u"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P3V3_GPS"; b to "P3V3_GPS"
+connect g to "UNNAMED_4143_5V2XV_I46_VFB2"
+!B!capacitor 122u, 30.00, 30.08, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+capacitor 122u, 38.26, 38.26, fr128, re1, ar100m,sa, sb,ed ! ADV
+! "c9_6" test.
+off failure

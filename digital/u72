@@ -1,0 +1,227 @@
+!!!!    6    0    1 1652324485  Vdfed                                         
+sequential
+
+vector cycle 10u
+receive delay 8u
+
+default device "u72"
+set terminators to on
+assign VCC  to pins *,*
+assign GND  to pins *
+
+assign  SCL to pins 14
+assign  SDA to pins 13
+assign  A1  to pins 10
+assign  A0  to pins 11
+
+family LVT
+power  VCC,GND
+
+inputs SCL,A1,A0
+bidirectional SDA
+
+!----------------------------------------------------------------------------
+
+vector INIT1
+ drive SDA
+ set SDA  to "1"
+ set SCL  to "1"
+ set A1   to "1"
+ set A0   to "1"
+end vector
+
+vector KEEP1
+ receive SDA
+ set SDA  to "x"
+ set SCL  to "k"
+ set A1   to "k"
+ set A0   to "k"
+end vector
+
+vector KEEP2
+ drive SDA
+ set SDA  to "k"
+ set SCL  to "k"
+ set A1   to "k"
+ set A0   to "k"
+end vector
+
+vector SK_10
+ initialize to KEEP1
+ set SCL    to "0"
+end vector
+
+vector SK_11
+ initialize to KEEP1
+ set SCL    to "1"
+end vector
+
+vector SK_20
+ initialize to KEEP2
+ set SCL    to "0"
+end vector
+
+vector SK_21
+ initialize to KEEP2
+ set SCL    to "1"
+end vector
+
+vector R_0
+ initialize to KEEP1
+ set SDA    to "0"
+end vector
+
+vector R_1
+ initialize to KEEP1
+ set SDA    to "1"
+end vector
+
+vector D_0
+ initialize to KEEP2
+ set SDA    to "0"
+end vector
+
+vector D_1
+ initialize to KEEP2
+ set SDA    to "1"
+end vector
+
+vector ADDR_01
+ initialize to KEEP2
+ set A1   to "0"
+ set A0   to "1"
+end vector
+
+vector ADDR_10
+ initialize to KEEP2
+ set A1   to "1"
+ set A0   to "0"
+end vector
+! *************************************************************************
+
+sub IDLE1
+ repeat 40 times
+  execute KEEP2
+ end repeat
+ execute R_1
+ execute R_1
+end sub
+
+sub STRT
+ execute SK_21
+ execute D_1
+ execute SK_21
+ execute D_0
+end sub
+
+sub STOP
+ execute SK_21
+ execute D_0
+ execute SK_21
+ execute D_1
+end sub
+
+sub WR(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute SK_20
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_10
+ execute SK_11
+ execute R_0    ! Acknowledge bit
+end sub
+
+sub WR_NOACK(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_20
+ execute SK_10
+ execute SK_11
+ execute R_1    ! Acknowledge bit
+ execute SK_10
+end sub
+
+sub RD(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SK_11
+ execute SK_10
+ execute D6
+ execute SK_11
+ execute SK_10
+ execute D5
+ execute SK_11
+ execute SK_10
+ execute D4
+ execute SK_11
+ execute SK_10
+ execute D3
+ execute SK_11
+ execute SK_10
+ execute D2
+ execute SK_11
+ execute SK_10
+ execute D1
+ execute SK_11
+ execute SK_10
+ execute D0
+ execute SK_11
+ execute SK_10
+ execute D_0
+ execute SK_21
+ execute SK_20
+end sub
+
+! ******************************************************************************
+!  UNITS
+! ******************************************************************************
+
+unit "ACK Test"
+  execute INIT1
+  execute R_1
+  call STRT
+  call WR(D_1,D_0,D_0,D_1, D_1,D_1,D_0,D_0)    !Slave Address = 0x80
+  call STOP
+end unit
+
+

@@ -1,0 +1,16 @@
+!!!!    2    0    1 1676475520   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:12 2022                                                                                                                     
+on failure
+   report parallel devices
+   report "c24_a 100n"
+end on failure
+disconnect all                                                                                                                                                  
+connect s to "GND"
+connect i to "P1V1_PGOOD_A"
+connect g to "P12V"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa2.20m                                                                                                         
+resistor 13k, 35, 30, ar100m, re4 !JJSR
+!!resistor 10k, 25.00, 20.00, ed, wb, wa20m, ar100m, re4
+off failure
+!resistor 10k, 25.00, 20.00, ed, wb, wa20m, ar100m, re4
+! "r16_a" test.                                                                                                                                                 

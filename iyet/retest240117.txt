@@ -1,0 +1,100 @@
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 13:06:49 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1058k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1054k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 13:06:59 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1069k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1050k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 13:07:04 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1053k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT
+----------------------------------------
+73-102898-01_03
+Wed Jan 17 13:07:09 2024
+----------------------------------------
+rn44_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn44_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1061k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn56_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn56_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.1050k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM280300AT

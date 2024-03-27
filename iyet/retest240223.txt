@@ -1,0 +1,225 @@
+----------------------------------------
+Shorts Report for "shorts".
+Fri Feb 23 16:57:07 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT2_AVDD           113148  199
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV_AVDDH_RT9       11343  199
+               c19_rt9.1
+               c23_rt9.1
+               c38_rt9.1
+               c41_rt9.1
+               c44_rt9.1
+               c47_rt9.1
+               c50_rt9.1
+               c60_rt9.1
+               c61_rt9.1
+               c62_rt9.1
+Too many to print.
+Common Devices:
+                 l3_rt9
+Message is:
+Check L3_RT9
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: P1V0RT2_DVDD_SENSE     220128 Open
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+To:   avdd_sense_r_rtv2      222123
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+Common Devices:
+                p1_rtv2
+                r01_rtv2
+Message is:
+Check R01_RTV2
+----------------------------------------
+Open #3 Thresh 24, Delay 200us      Ohms
+From: P2V5RT1_DIDT           217147 Open
+                c3060.1
+                 l439.1
+                u114.11
+                u114.12
+To:   p2v5rt1                109164
+              c29_rt1_2.1
+              c29_rt3_4.1
+              c35_rt1_2.1
+              c35_rt3_4.1
+              c90_rt1_2.1
+              c90_rt3_4.1
+              c128_rt1_2.1
+              c128_rt3_4.1
+              c129_rt1_2.1
+              c129_rt3_4.1
+Too many to print.
+Common Devices:
+                  l439
+Message is:
+Check L439
+----------------------------------------
+Open #4 Thresh 24, Delay 200us      Ohms
+From:   v                    223126 Open
+UNNAMED_3_RES_I173_A_S1                 
+                r7_s1.1
+               sfp_s1.D4
+To:   i2c_sda_sfp<27>         21418
+                r7_s1.2
+               rn36_s1.3
+           rn36_s1%pin_3_6.1
+                u49.AF14
+Common Devices:
+                 r7_s1
+Message is:
+Check R7_S1
+----------------------------------------
+Open #5 Thresh 24, Delay 200us      Ohms
+From:   v                    117151 Open
+UNNAMED_6_RES_I176_A_S1                 
+                r23_s1.1
+               sfp_s1.T4
+To:   i2c_sda_sfp<39>         11565
+                r23_s1.2
+               rn66_s1.3
+           rn66_s1%pin_3_6.1
+                u49.AE11
+Common Devices:
+                 r23_s1
+Message is:
+Check R23_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 200us      Ohms
+From:   v                    223130 Open
+UNNAMED_17_RES_I312_A_S0                
+                r55_s0.1
+               sfp_s0.Y4
+To:   i2c_sda_sfp<19>         21709
+                r55_s0.2
+               rn100_s0.3
+           rn100_s0%pin_3_6.1
+                u49.AF22
+Common Devices:
+                 r55_s0
+Message is:
+Check R55_S0
+----------------------------------------
+Open #7 Thresh 24, Delay 200us      Ohms
+From: pwr_p1v0rt1_ovr_cur_l  205158   88
+               r86_rtv1.1
+                 r702.1
+               u1_rtv1.14
+To:   pwr_p1v0rt1_ovr_pwr_l   20558   88
+               r79_rtv1.1
+                 r702.2
+               u1_rtv1.15
+Common Devices:
+                  r702
+                u1_rtv1
+Message is:
+Check R702
+----------------------------------------
+Open #8 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_3V3           21611 Open
+               c202_3v3.1
+               c224_3v3.1
+               r951_3v3.1
+               u16_3v3.24
+To:   PMOD_VCC_3V3            22108
+               c225_3v3.1
+               r951_3v3.2
+               u16_3v3.22
+Common Devices:
+                r951_3v3
+                u16_3v3
+Message is:
+Check R951_3V3
+----------------------------------------
+Open #9 Thresh 24, Delay 200us      Ohms
+From:   v                     10766  547
+unnamed_55_pi3b3257pg_i126_yb           
+                r1193.1
+                 u96.7
+To:     v                    105166  547 
+jtag_trst_l_sndn_muxed_3v3              
+                r1193.2
+                 u25.4
+Common Devices:
+                 r1193
+Message is:
+Check R1193
+------End, 9 Problems Reported----------
+S/N:FLM280701WJ
+----------------------------------------
+Shorts Report for "shorts".
+Fri Feb 23 16:57:16 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P2V5RT1_DIDT           217147 Open
+                c3060.1
+                 l439.1
+                u114.11
+                u114.12
+To:   p2v5rt1                109164
+              c29_rt1_2.1
+              c29_rt3_4.1
+              c35_rt1_2.1
+              c35_rt3_4.1
+              c90_rt1_2.1
+              c90_rt3_4.1
+              c128_rt1_2.1
+              c128_rt3_4.1
+              c129_rt1_2.1
+              c129_rt3_4.1
+Too many to print.
+Common Devices:
+                  l439
+Message is:
+Check L439
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: qsfp_sda<4>             11635 Open
+                r7_q2.1
+                rn2_q2.2
+            rn2_q2%pin_2_7.1
+                u49.F16
+To:     v                     11437
+UNNAMED_4_RES_I229_B_Q2                 
+              qsfp_q2.A12
+                r7_q2.2
+Common Devices:
+                 r7_q2
+Message is:
+Check R7_Q2
+----------------------------------------
+Open #3 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_3V3           21611 Open
+               c202_3v3.1
+               c224_3v3.1
+               r951_3v3.1
+               u16_3v3.24
+To:   PMOD_VCC_3V3            22108
+               c225_3v3.1
+               r951_3v3.2
+               u16_3v3.22
+Common Devices:
+                r951_3v3
+                u16_3v3
+Message is:
+Check R951_3V3
+------End, 3 Problems Reported----------
+S/N:FLM280701WJ

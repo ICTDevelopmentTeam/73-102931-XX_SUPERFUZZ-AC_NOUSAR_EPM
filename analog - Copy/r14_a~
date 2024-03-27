@@ -1,0 +1,9 @@
+!!!!    2    0    1 1650961780   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:56 2022
+disconnect all
+connect s to "UNNAMED_2_RES_I471_B_A"
+connect i to "UNNAMED_2_RES_I489_A_A"
+connect g to "GND"
+!B!resistor 4.42k, 10.00, 10.00, re4, wb, ar200m, wa17.7u
+resistor 4.42k,25.00,20.00,re4,wb,ar200m,ed
+! "r14_a" test.

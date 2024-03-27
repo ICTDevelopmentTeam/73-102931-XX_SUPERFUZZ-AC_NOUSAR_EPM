@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863916   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:37 2022
+on failure
+   report parallel devices
+   report "r23_5 10.0k"
+end on failure
+disconnect all
+connect i to "VDDA_0P9V_PG"
+connect s to "P3_3VA"
+jumper 4.91k, re4, wb, ar200m, op
+! "r109" test.
+off failure

@@ -1,0 +1,9 @@
+!!!!   21    2    1 1552306561  V8e0e                                         
+
+resistor *, 12.1k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

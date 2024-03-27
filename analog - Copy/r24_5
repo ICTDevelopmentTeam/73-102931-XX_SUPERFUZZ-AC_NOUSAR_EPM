@@ -1,0 +1,14 @@
+!!!!    2    0    1 1650874542   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:13 2022
+on failure
+report parallel devices
+report "c04_5 10.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_7_CAP_I279_B_5"
+connect g to "P5V"
+!B!resistor 2.4k, 10.00, 10.00, re4, wb, ar500m, wa336u
+resistor 2.4k,25.00,20.00,re4,wb,ar500m,wa5m
+! "r24_5" test.
+off failure

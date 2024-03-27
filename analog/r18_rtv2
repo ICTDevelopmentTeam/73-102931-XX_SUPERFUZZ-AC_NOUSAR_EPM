@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863905   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:26 2022
+disconnect all
+connect s to "ISEN8_RTV2"
+connect i to "ISENRTN_RTV2"
+jumper 10.0k, re4, wb, ar100m, op
+! "r18_rtv2" test.

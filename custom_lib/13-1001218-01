@@ -1,0 +1,11 @@
+!!!!   21    2    1 1647593039  Vdb6e                                         
+
+diode "cr",550m, 200m, nr, pn"13-1001218-01"
+
+external pins 1
+   device "cr" pins "A"
+
+external pins 2
+   device "cr" pins "C"
+
+

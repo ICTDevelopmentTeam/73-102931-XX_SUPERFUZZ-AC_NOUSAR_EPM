@@ -1,0 +1,13 @@
+!!!!    2    0    1 1648521702  V0c33                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:03 2022
+on failure
+report parallel devices
+report "c10_rtv2 10.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_53_ACADIAMPPS11LV_I47_PMBADDR"
+!B!resistor 1.3k, 10.00, 10.00, re4, wb, ar1.00
+resistor 1.3k,25.00,20.00,re4,wb,ar100m
+! "r76" test.
+off failure

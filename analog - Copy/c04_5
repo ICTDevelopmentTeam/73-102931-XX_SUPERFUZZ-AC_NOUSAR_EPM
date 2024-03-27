@@ -1,0 +1,15 @@
+!!!!    2    0    1 1651025052   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:35 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r24_5 2.40k"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "UNNAMED_7_CAP_I279_B_5"                                                                                                                           
+!#connect g to "P5V"; l to "P5V"                                                                                                                                  
+!B!capacitor 10n, 20.00, 20.00, fr1024, re3, wb, ar100m, sa, sl, en, nocomp                                                                                     
+capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,sa,ed,en,nocomp                                                                                                   
+!*warning "device under test appears open or excessive noise is present."                                                                                       
+! "c04_5" is a commented test.                                                                                                                                  
+off failure                                                                                                                                                     

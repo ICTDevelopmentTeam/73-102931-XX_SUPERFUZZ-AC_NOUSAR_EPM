@@ -1,0 +1,21 @@
+!!!!    2    0    1 1651026984  V222c                                         
+! IPG: rev 09.20p  Mon Mar 21 20:08:53 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c2_q0 22.0u"                                                                                                                                            
+report "c4_q0 100n"                                                                                                                                             
+report "c19_q0 22.0u"                                                                                                                                           
+report "c20_q0 100n"                                                                                                                                            
+report "c17_q0 22.0u"                                                                                                                                           
+report "c18_q0 100n"                                                                                                                                            
+report "c15_q0 22.0u"                                                                                                                                           
+report "c16_q0 100n"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "PWR_P3V3_QSFP_P2_Q0"                                                                                                                              
+connect i to "GND"                                                                                                                                              
+!B!diode 597m, 227m, idc10m, co2.8, ar597m                                                                                                                      
+diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+! "cr2_q0%cr" test.                                                                                                                                             
+off failure                                                                                                                                                     

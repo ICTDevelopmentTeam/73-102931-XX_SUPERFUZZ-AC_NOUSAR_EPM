@@ -1,0 +1,12 @@
+!!!!    2    0    1 1675178232   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:52 2022
+disconnect all
+connect s to "I2C_SCL_SFP<23>"
+connect a to "I2C_SCL_SFP<23>"
+connect i to "UNNAMED_16_RES_I297_A_S0"
+connect b to "UNNAMED_16_RES_I297_A_S0"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+!resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+resistor 33.2, 40, 20, ar50m, re2 !JV
+!resistor 33.2, 40.0, 20.00, ar200m, re2 !ADV
+! "r40_s0" test.

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519040  V27a4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:07 2022
+disconnect all
+connect s to "GND"
+connect i to "RT8_RESET_L"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r16_rt7_8" test.

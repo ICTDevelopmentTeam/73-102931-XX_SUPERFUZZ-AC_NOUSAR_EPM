@@ -1,0 +1,32 @@
+!!!!    2    0    1 1375236608  Vf94f                                         
+
+test powered mixed
+
+  power pins 4,2
+
+     test "Pin_3_on"
+     test "Pin_3_off"
+
+end test
+
+subtest "Pin_3_on"
+
+  connect rcvc to pins 3
+  detector frequency, expect 125M, gate 1
+  measure  125M * 1.01, 125M * .99
+  continue digital
+
+end subtest
+
+subtest "Pin_3_off"
+
+  connect rcvc to pins 3
+  detector frequency, expect 3.00M, gate 1
+  measure  1.00M , -99M
+  continue digital
+
+end subtest
+
+!
+! End test
+!

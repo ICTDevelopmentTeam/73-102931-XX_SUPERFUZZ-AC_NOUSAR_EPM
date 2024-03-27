@@ -1,0 +1,25 @@
+{@BATCH|Board1|Rev|2500|1||Grading|220513085542|Grader|Cisco-10|testplan_bdg|i3070 09.10p WN(full)
+{@BTEST|Boundary Scan Incircuit Vacuum off|01|220513085542|000004|0|all||n|0|220513085546||1
+{@BS-CON|u29_connect|7|00000|00000}
+{@BS-CON|u30_connect|7|00000|00000}
+{@BS-CON|u37_connect|7|00000|00000}
+{@BS-CON|u38_connect|7|00000|00000}
+{@BS-CON|u1_rt1_2_connect|7|00000|00000}
+{@BS-CON|u2_rt1_2_connect|7|00000|00000}
+{@BS-CON|u1_rt3_4_connect|7|00000|00000}
+{@BS-CON|u2_rt3_4_connect|7|00000|00000}
+{@BS-CON|u1_rt5_6_connect|7|00000|00000}
+{@BS-CON|u2_rt5_6_connect|7|00000|00000}
+{@BS-CON|u1_rt7_8_connect|7|00000|00000}
+{@BS-CON|u2_rt7_8_connect|7|00000|00000}
+{@BS-CON|u1_rt9_connect|7|00000|00000}
+{@BS-CON|u1_3_connect_a|7|00000|00000}
+{@BS-CON|u1_3_connect_b|7|00000|00000}
+{@D-T|1|21|38|1|u29_u1_3_dis
+}
+{@D-T|1|21|25|1|u49_u49_dis
+}
+}}
+{@BDG_END}
+*** END OF DATA *** 
+

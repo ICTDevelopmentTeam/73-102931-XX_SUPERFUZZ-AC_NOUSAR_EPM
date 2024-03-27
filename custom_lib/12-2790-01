@@ -1,0 +1,9 @@
+!!!!   21    2    1 1552306720  Vef3d                                         
+
+resistor *, 47k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,13 @@
+!!!!   21    2    1 1647587943   0000                                         
+
+!#  11-3911-01
+!#  11-3911-01 CAP,CE,2.2uF,10V,10%,X7R,0603
+!#  Thu Mar 17 16:55:49 2022
+
+capacitor *, 2.2u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

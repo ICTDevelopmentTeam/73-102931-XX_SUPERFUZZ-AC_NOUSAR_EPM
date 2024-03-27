@@ -1,0 +1,15 @@
+!!!!    2    0    1 1648520287  V6038                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:12 2022
+on failure
+report parallel devices
+report "r20_rtv1 4.75k"
+report "r20_rtv2 4.75k"
+report "r131 4.75k"
+end on failure
+disconnect all
+connect s to "P3_3VA"
+connect i to "MIFPGA_PMBUS_SDA"
+!B!resistor 1.188k, 10.00, 10.00, re4, wb, ar1.00
+resistor 1.188k,25.00,20.00,re4,wb,ar100m
+! "r20_5" test.
+off failure

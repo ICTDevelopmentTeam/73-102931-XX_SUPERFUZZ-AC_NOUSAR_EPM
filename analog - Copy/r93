@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519467  V1a60                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:54 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "JTAG_TDO_CPLD1_TDI_CPLD2_3V3"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r93" test.

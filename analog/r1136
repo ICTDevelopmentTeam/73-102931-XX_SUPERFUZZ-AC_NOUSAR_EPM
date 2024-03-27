@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675268220   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:48 2022
+disconnect all
+connect s to "GND"
+connect i to "SLB_103_CMODE"
+!B!resistor 332, 10.00, 10.00, re3, ar500m
+!resistor 332,20.0,20.0,re3,ar500m,ed
+resistor 332,20.0,20.0,re3,ar50m,en    !ADV
+! "r1136" test.

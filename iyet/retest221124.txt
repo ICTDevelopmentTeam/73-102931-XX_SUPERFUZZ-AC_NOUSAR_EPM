@@ -1,0 +1,21 @@
+----------------------------------------
+Shorts Report for "shorts".
+Thu Nov 24 20:54:55 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114141   37
+UNNAMED_4_RES_I226_A_Q1                 
+              qsfp_q1.B12
+                r9_q1.1
+To:   qsfp_sda<3>             11441   37
+                r9_q1.2
+                rn3_q1.2
+            rn3_q1%pin_2_7.1
+                u49.E15
+Common Devices:
+                 r9_q1
+Message is:
+Check R9_Q1
+------End, 1 Problem Reported-----------
+S/N:FLM264509W8

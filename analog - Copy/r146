@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863919   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:40 2022
+on failure
+   report parallel devices
+   report "cr9 cr9%cr"
+end on failure
+disconnect all
+connect s to "MIFPGA_LED_CTRL"
+connect i to "LED_BY_BMC_L"
+jumper 10.0k, re4, wb, ar100m, op
+! "r146" test.
+off failure

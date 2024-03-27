@@ -1,0 +1,37 @@
+
+<Test name = "u13_pm">
+<FileList>
+<File name = "u13_pm">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u13_pm</FilePath>
+<LastModified>Tue May 17, 2022   2:06 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u13_pm">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

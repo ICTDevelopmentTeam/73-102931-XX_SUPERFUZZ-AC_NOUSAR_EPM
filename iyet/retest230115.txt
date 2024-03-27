@@ -1,0 +1,112 @@
+----------------------------------------
+TestJet Report for "testjet".
+Sun Jan 15 23:54:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 3.4              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.0              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Sun Jan 15 23:55:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.5              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.6              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Sun Jan 15 23:55:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 3.4              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.7              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Sun Jan 15 23:55:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.8              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.5              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Sun Jan 15 23:55:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.8              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.0              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Mon Jan 16 00:02:58 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.5              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 2.2              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Mon Jan 16 00:03:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.9              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.2              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73
+----------------------------------------
+TestJet Report for "testjet".
+Mon Jan 16 00:03:19 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u63
+  Pin 3  Node sndn_pcie_100mhz_refclk_p
+  Measured 2.7              (BRC 20815)
+Open #2  Device u63
+  Pin 4  Node sndn_pcie_100mhz_refclk_n
+  Measured 3.0              (BRC 20816)
+15-13454-01 IC-TIMING,BUFFER,TSSOP8,1:2,
+----------------------------------------
+S/N:FLM27010G73

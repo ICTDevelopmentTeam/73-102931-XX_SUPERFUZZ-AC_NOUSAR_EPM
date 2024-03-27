@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517190  Vd1ae                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:39 2022
+disconnect all
+connect s to "CLK156M_RT2_SYNC_E_N"
+connect i to "CLK156M_RT2_SYNC_E_P"
+!B!resistor 100, 15.00, 10.00, re2, ar100m
+resistor 100,30.00,20.00,re2,ar100m
+! "r144" test.

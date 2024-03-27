@@ -1,0 +1,13 @@
+!!!!   21    2    1 1381378682   0000                                         
+
+!#  11-3844-01
+!#  11-3844-01 CAP,CE,10uF,4V,20%,X5R,SM,040
+!#  Thu Oct 10 10:12:00 2013
+
+capacitor *, 10u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

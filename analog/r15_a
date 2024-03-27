@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675194487   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:00 2022
+disconnect all
+connect s to "P12V"
+connect i to "P1V1_PGOOD_A"
+connect g to "GND"
+!B!resistor 30.1k, 10.00, 10.00, re5, wb, ar500m, wa2.20m
+!resistor 30.1k,25.00,25.00,re5,wb,ar500m,wa30m, ed
+resistor 30.1k,25.00,25.00,re5,ar50m, ed    !ADV
+! "r15_a" test.

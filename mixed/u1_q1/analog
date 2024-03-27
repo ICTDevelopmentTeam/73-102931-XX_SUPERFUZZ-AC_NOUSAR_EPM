@@ -1,0 +1,51 @@
+!!!!    2    0    1 1652248489  V002e                                         
+test powered mixed
+  wait 200m
+  test "OUT1_Enable"
+  test "OUT2_Enable"
+  continue digital
+  wait 200m
+  test "OUT1_Disable"
+  test "OUT2_Disable"
+end test
+
+! **********************************************************
+
+subtest "OUT1_Enable"
+
+ clear connect i to pins 9
+ connect l to pins 1
+
+ detector dcv, expect 3.3
+ measure 3.3*1.08 , 3.3*0.92
+end subtest
+
+subtest "OUT2_Enable"
+
+ clear connect i to pins 8
+ connect l to pins 1
+
+ detector dcv, expect 3.3
+ measure 3.3*1.08 , 3.3*0.92
+end subtest
+
+subtest "OUT1_Disable"
+
+ clear connect i to pins 9
+ connect l to pins 1
+
+ detector dcv, expect 0.6
+ measure 0.6 , -0.2
+end subtest
+
+subtest "OUT2_Disable"
+
+ clear connect i to pins 8
+ connect l to pins 1
+
+ detector dcv, expect 0.6
+ measure 0.6 , -0.2
+end subtest
+
+
+

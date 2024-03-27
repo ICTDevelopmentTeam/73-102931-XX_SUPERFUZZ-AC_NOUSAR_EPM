@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648516847  V1781                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:45 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_32_CAP_I125_B"
+!B!capacitor 1u, 15.00, 15.00, fr1024, re2, ar100m, nocomp
+capacitor 1u, 25.00, 50.0, fr1024, re2, ar100m, nocomp
+! "c33" test.

@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648516915  Vc7bf                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:47 2022
+on failure
+report parallel devices
+report "c8_sf0 2.20u"
+report "c7_sf0 47.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "PMOD_PVCC_P3V3_SFP0_ALT"
+!B!capacitor 4.447u, 20.00, 20.00, fr1024, re1, ar50.0m, nocomp
+capacitor 4.447u,35.00,40.0,fr1024,re1,ar100m,nocomp
+! "c6_sf0" test.
+off failure

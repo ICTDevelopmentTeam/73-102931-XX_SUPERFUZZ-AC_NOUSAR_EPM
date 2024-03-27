@@ -1,0 +1,15 @@
+!!!!    2    0    1 1229629266  Vd0bf                                         
+ 
+ test powered analog
+   on failure
+      report "Test u51 at Nodes: CLK212M_OSC_P CLK212M_OSC_N"
+      report "Freq Measuremet = 212.0M"
+      report "Use Clock Divider. 212.0M/80"
+   end on failure
+ 
+     connect rcva to nodes  "OUT_CLK_DIV_1"
+ 
+     detector frequency, gate 1, expect (212.0M * 0.0625), threshold 2.5
+     measure (212.0M * 0.0625) * 1.05, (212.0M * 0.0625) *.95
+ off failure
+ end test

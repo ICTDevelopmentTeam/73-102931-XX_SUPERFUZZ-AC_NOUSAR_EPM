@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651023901   0000                                         
+!* 102898 nostuff ,102931 stuff
+disconnect all
+connect s to "UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD"
+connect i to "PMOD_SYNC_3V3"
+!@jumper 5.94, re1, ar200m
+resistor 3.48k, 20, 20, re4, ar100m
+! "r877_3v3" test.

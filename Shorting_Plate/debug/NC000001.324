@@ -1,0 +1,58 @@
+----------------------------------------
+73-102898-01_03
+Sat Jun 17 21:12:31 2023
+----------------------------------------
+c05_rtv2 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   328.67p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   335.84p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+c06_rtv2 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   318.15p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150L01
+----------------------------------------
+73-102898-01_03
+Sat Jun 17 21:12:53 2023
+----------------------------------------
+c05_rtv2 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   333.07p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   339.75p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+c06_rtv2 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   322.33p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150L01

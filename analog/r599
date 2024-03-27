@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863979   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:40 2022
+disconnect all
+connect i to "MI1_PD_VREFB5AN0"
+connect s to "GND"
+jumper 5.94, re1, ar200m
+! "r599" test.

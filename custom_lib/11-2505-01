@@ -1,0 +1,13 @@
+!!!!   21    2    1 1542636874   0000                                         
+
+!#  11-2505-01
+!#  11-2505-01 CAP,CE,2.2nF,25V,X7R,10%,SM,0
+!#  Fri Nov 16 16:41:26 2018
+
+capacitor *, 2.2n,10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

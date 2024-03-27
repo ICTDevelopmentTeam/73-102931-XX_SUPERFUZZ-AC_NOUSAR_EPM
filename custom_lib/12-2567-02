@@ -1,0 +1,14 @@
+!!!!   21    2    1 1552283881  Vf442                                         
+
+!#  12-2567-02
+!#  12-2567-02 RES,TKF,15 k ohm,0.063W,1%,SM
+!#  2016
+
+resistor *, 15k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

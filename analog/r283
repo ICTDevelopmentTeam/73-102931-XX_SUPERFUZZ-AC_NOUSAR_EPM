@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519527  V644c                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:58 2022
+disconnect all
+connect s to "P2V5RT1"
+connect i to "RT9_ADDR<1>"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r283" test.

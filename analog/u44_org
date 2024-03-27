@@ -1,0 +1,33 @@
+!!!!    2    0    1 1647864683  V4b35                                         
+! IPG: rev 09.20p  Mon Mar 21 20:11:24 2022
+
+!  125  MHz
+!  High Frequency Clock Oscillator  Single-Output, Enable
+
+test powered analog
+   power pins 2, 4
+   nonanalog pins 1
+
+   test "Out_3"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "Out_3"
+!  connect s to pins 1
+   connect rcva to pins 3
+   connect l to pins 2
+
+!  source dcv, am3.3, ico1, on
+   detector frequency, expect 78.1M       !Divided by 16
+   measure 78.1M * 1.05 , 78.1M * 0.95
+end subtest
+
+
+
+
+!
+!  End test
+!

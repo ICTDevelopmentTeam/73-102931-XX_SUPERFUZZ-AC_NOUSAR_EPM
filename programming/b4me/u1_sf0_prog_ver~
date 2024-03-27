@@ -1,0 +1,838 @@
+!!!!    6    0    1 1652776904  Vcdec                                         
+!######################################################
+! Part Name SiC45x
+! Cisco PN: xx-xxxxx-xx
+! Tester: Agilent 3070
+! NOTES: SDA pull-up to 3.3V
+! NOTES: change default device desinator
+! NOTES: UNDER sub WR_COM and sub RD_COM select the correct IC_ADDR
+! NOTES: based on Resistor value of ADDR connected on GND
+! INPUT_FILE: 17-102471-01_P3V3_30A_VishaySIC450_Config_V1.txt
+!######################################################
+
+vector cycle 10u
+receive delay 9u
+
+default device "u1_sf0"
+assign SDA to pins 19
+assign SCL to pins 20
+
+family LVT
+
+inputs SCL
+bidirectional SDA
+
+!######################################################
+
+vector INIT1
+ drive SDA
+ set SCL   to "1"
+ set SDA   to "1"
+end vector
+
+vector KEEP1
+ receive SDA
+ set SCL   to "k"
+ set SDA   to "x"
+end vector
+
+vector KEEP2
+ drive SDA
+ set SCL   to "k"
+ set SDA   to "k"
+end vector
+
+vector SK_10
+ initialize to KEEP1
+ set SCL    to "0"
+end vector
+
+vector SK_11
+ initialize to KEEP1
+ set SCL    to "1"
+end vector
+
+vector SK_20
+ initialize to KEEP2
+ set SCL    to "0"
+end vector
+
+vector SK_21
+ initialize to KEEP2
+ set SCL    to "1"
+end vector
+
+ vector R_X
+ initialize to KEEP1
+ set SDA    to "x"
+end vector
+
+vector R_0
+ initialize to KEEP1
+ set SDA    to "0"
+end vector
+
+vector R_1
+ initialize to KEEP1
+ set SDA    to "1"
+end vector
+
+vector D_0
+ initialize to KEEP2
+ set SDA    to "0"
+end vector
+
+vector D_1
+ initialize to KEEP2
+ set SDA    to "1"
+end vector
+
+!######################################################
+
+sub STRT
+ execute D_1
+ execute D_1
+ execute SK_21
+ execute SK_21
+ execute D_0
+ execute D_0
+ execute SK_20
+ execute SK_20
+end sub
+
+sub STOP
+ execute SK_20
+ execute SK_20
+ execute D_0
+ execute D_0
+ execute SK_21
+ execute SK_21
+ execute D_1
+ execute D_1
+end sub
+
+sub WR(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_10
+ execute R_0    ! Acknowledge bit
+ execute SK_11
+ execute SK_10
+end sub
+
+sub WR_NACKED(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_10
+ execute R_1    ! Nacknowledge bit
+ execute SK_11
+ execute SK_10
+ end sub
+
+sub RD(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute SK_11
+ execute D7
+ execute SK_10
+ execute SK_11
+ execute D6
+ execute SK_10
+ execute SK_11
+ execute D5
+ execute SK_10
+ execute SK_11
+ execute D4
+ execute SK_10
+ execute SK_11
+ execute D3
+ execute SK_10
+ execute SK_11
+ execute D2
+ execute SK_10
+ execute SK_11
+ execute D1
+ execute SK_10
+ execute SK_11
+ execute D0
+ execute SK_10
+ execute D_0    ! Acknowledge bit
+ execute SK_21
+ execute SK_20
+ execute SK_10
+end sub
+
+sub RN(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute SK_11
+ execute D7
+ execute SK_10
+ execute SK_11
+ execute D6
+ execute SK_10
+ execute SK_11
+ execute D5
+ execute SK_10
+ execute SK_11
+ execute D4
+ execute SK_10
+ execute SK_11
+ execute D3
+ execute SK_10
+ execute SK_11
+ execute D2
+ execute SK_10
+ execute SK_11
+ execute D1
+ execute SK_10
+ execute SK_11
+ execute D0
+ execute SK_10
+ execute D_1    ! no Acknowledge bit
+ execute SK_21
+ execute SK_20
+ execute SK_10
+end sub
+
+sub IC_ADDR(ADD7,ADD6,ADD5,ADD4,ADD3,ADD2,ADD1)
+ call STRT
+ execute ADD7
+ execute SK_21
+ execute SK_20
+ execute ADD6
+ execute SK_21
+ execute SK_20
+ execute ADD5
+ execute SK_21
+ execute SK_20
+ execute ADD4
+ execute SK_21
+ execute SK_20
+ execute ADD3
+ execute SK_21
+ execute SK_20
+ execute ADD2
+ execute SK_21
+ execute SK_20
+ execute ADD1
+ execute SK_21
+ execute SK_20
+end sub
+
+sub WR_COM
+ !  Select one of the following address based on Resistor Value from ADDR pin to GND
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_0,D_0) ! Raddr=0.845k; Addr=20h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_0,D_1) ! Raddr=1.3k; Addr=22h
+ call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_1,D_0) ! Raddr=1.78k; Addr=24h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_1,D_1) ! Raddr=2.32k; Addr=26h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_0,D_0) ! Raddr=2.87k; Addr=28h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_0,D_1) ! Raddr=3.48k; Addr=2Ah
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_1,D_0) ! Raddr=4.12k; Addr=2Ch
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_1,D_1) ! Raddr=4.75k; Addr=2Eh
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_0,D_0) ! Raddr=5.49k; Addr=30h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_0,D_1) ! Raddr=6.19k; Addr=32h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_1,D_0) ! Raddr=6.98k; Addr=34h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_1,D_1) ! Raddr=7.87k; Addr=36h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_0,D_0) ! Raddr=8.87k; Addr=38h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_0,D_1) ! Raddr=10k; Addr=3Ah
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_1,D_0) ! Raddr=11k; Addr=3Ch
+ execute D_0    ! Write operation
+ execute SK_21
+ execute SK_10
+ execute R_0    ! Acknowledge bit
+ execute SK_11
+ execute SK_10
+end sub
+
+sub RD_COM
+ !  Select one of the following address based on Resistor Value from ADDR pin to GND
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_0,D_0) ! Raddr=0.845k; Addr=20h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_0,D_1) ! Raddr=1.3k; Addr=22h
+ call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_1,D_0) ! Raddr=1.78k; Addr=24h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_0,D_1,D_1) ! Raddr=2.32k; Addr=26h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_0,D_0) ! Raddr=2.87k; Addr=28h
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_0,D_1) ! Raddr=3.48k; Addr=2Ah
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_1,D_0) ! Raddr=4.12k; Addr=2Ch
+!call IC_ADDR(D_0,D_0,D_1,D_0,D_1,D_1,D_1) ! Raddr=4.75k; Addr=2Eh
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_0,D_0) ! Raddr=5.49k; Addr=30h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_0,D_1) ! Raddr=6.19k; Addr=32h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_1,D_0) ! Raddr=6.98k; Addr=34h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_0,D_1,D_1) ! Raddr=7.87k; Addr=36h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_0,D_0) ! Raddr=8.87k; Addr=38h
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_0,D_1) ! Raddr=10k; Addr=3Ah
+!call IC_ADDR(D_0,D_0,D_1,D_1,D_1,D_1,D_0) ! Raddr=11k; Addr=3Ch
+ execute D_1    ! Read operation
+ execute SK_21
+ execute SK_10
+ execute R_0    ! Acknowledge bit
+ execute SK_11
+ execute SK_10
+end sub
+
+!######################################################
+
+unit "Synchronize I2C Bus"
+ repeat 80 times
+  execute INIT1
+ end repeat
+ execute R_1
+ call STRT
+ call STOP
+ call STRT
+ call STOP
+ call STRT
+ call STOP
+end unit
+
+unit "WRITE"
+! WriteByte 02 13 ! ON_OFF_CONFIGURATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_1,D_1)
+ call STOP
+! WriteByte 01 08 ! OPERATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_1,D_0,D_0,D_0)
+ call STOP
+! WriteWord 21 9A 06 ! VOUT_COMMAND
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_1,D_0,D_0,D_1,D_1,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_1,D_0)
+ call STOP
+! ReadWord 21 9A 06 ! VOUT_COMMAND
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_1,R_0,R_0,R_1,R_1,R_0,R_1,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_1,R_0)
+ call STOP
+! WriteWord 29 02 E8 ! VOUT_SCALE_LOOP
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_1,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_0,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 29 02 E8 ! VOUT_SCALE_LOOP
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_1,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_0,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteByte 47 A1 ! IOUT_OC_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_1,D_1)
+ call WR(D_1,D_0,D_1,D_0,D_0,D_0,D_0,D_1)
+ call STOP
+! ReadByte 47 A1 ! IOUT_OC_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_1,D_1)
+ call RD_COM
+ call RD(R_1,R_0,R_1,R_0,R_0,R_0,R_0,R_1)
+ call STOP
+! WriteByte 10 00 ! WRITE_PROTECT
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadByte 10 00 ! WRITE_PROTECT
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 24 00 1C ! VOUT_MAX
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_1,D_1,D_0,D_0)
+ call STOP
+! ReadWord 24 00 1C ! VOUT_MAX
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_1,R_1,R_1,R_0,R_0)
+ call STOP
+! WriteWord 25 EE 06 ! VOUT_MARGIN_HIGH
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_1,D_1,D_1,D_0,D_1,D_1,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_1,D_0)
+ call STOP
+! ReadWord 25 EE 06 ! VOUT_MARGIN_HIGH
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_1,R_1,R_1,R_0,R_1,R_1,R_1,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_1,R_0)
+ call STOP
+! WriteWord 26 45 06 ! VOUT_MARGIN_LOW
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_1,D_0)
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_1,D_0)
+ call STOP
+! ReadWord 26 45 06 ! VOUT_MARGIN_LOW
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_1,R_0,R_0,R_0,R_1,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_1,R_0)
+ call STOP
+! WriteWord 27 02 E0 ! VOUT_TRANSITION_RATE
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 27 02 E0 ! VOUT_TRANSITION_RATE
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_0,D_0,D_1,D_1,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 33 58 02 ! FREQUENCY_SWITCH
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_0,D_1,D_1)
+ call WR(D_0,D_1,D_0,D_1,D_1,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call STOP
+! ReadWord 33 58 02 ! FREQUENCY_SWITCH
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_0,D_1,D_1)
+ call RD_COM
+ call RD(R_0,R_1,R_0,R_1,R_1,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_1,R_0)
+ call STOP
+! WriteWord 35 14 F8 ! VIN_ON
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_1,D_0,D_1,D_0,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 35 14 F8 ! VIN_ON
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_1,R_0,R_1,R_0,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 36 12 F8 ! VIN_OFF
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 36 12 F8 ! VIN_OFF
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_1,R_0,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 37 00 01 ! INTERLEAVE
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call STOP
+! ReadWord 37 00 01 ! INTERLEAVE
+ call WR_COM
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_1,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_1)
+ call STOP
+! WriteWord 40 97 07 ! VOUT_OV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_1,D_0,D_0,D_1,D_0,D_1,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_1,D_1)
+ call STOP
+! ReadWord 40 97 07 ! VOUT_OV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_0,D_0)
+ call RD_COM
+ call RD(R_1,R_0,R_0,R_1,R_0,R_1,R_1,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_1,R_1)
+ call STOP
+! WriteByte 41 F8 ! VOUT_OV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadByte 41 F8 ! VOUT_OV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 42 43 07 ! VOUT_OV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_1,D_1)
+ call STOP
+! ReadWord 42 43 07 ! VOUT_OV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_1,R_0,R_0,R_0,R_0,R_1,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_1,R_1)
+ call STOP
+! WriteWord 43 F1 05 ! VOUT_UV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_1,D_1)
+ call WR(D_1,D_1,D_1,D_1,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call STOP
+! ReadWord 43 F1 05 ! VOUT_UV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_0,D_1,D_1)
+ call RD_COM
+ call RD(R_1,R_1,R_1,R_1,R_0,R_0,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call STOP
+! WriteWord 44 48 05 ! VOUT_UV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_0,D_0)
+ call WR(D_0,D_1,D_0,D_0,D_1,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call STOP
+! ReadWord 44 48 05 ! VOUT_UV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_1,R_0,R_0,R_1,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call STOP
+! WriteByte 45 B9 ! VOUT_UV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_1,D_0,D_1,D_1,D_1,D_0,D_0,D_1)
+ call STOP
+! ReadByte 45 B9 ! VOUT_UV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_1,R_0,R_1,R_1,R_1,R_0,R_0,R_1)
+ call STOP
+! WriteWord 46 34 F8 ! IOUT_OC_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_1,D_0)
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_0,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 46 34 F8 ! IOUT_OC_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_0,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_1,R_1,R_0,R_1,R_0,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 4A 5A F8 ! IOUT_OC_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_1,D_0,D_1,D_0)
+ call WR(D_0,D_1,D_0,D_1,D_1,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 4A 5A F8 ! IOUT_OC_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_1,D_0,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_1,R_0,R_1,R_1,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 4F 7D 00 ! OT_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_1,D_1,D_1,D_1)
+ call WR(D_0,D_1,D_1,D_1,D_1,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 4F 7D 00 ! OT_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_0,D_1,D_1,D_1,D_1)
+ call RD_COM
+ call RD(R_0,R_1,R_1,R_1,R_1,R_1,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteByte 50 F9 ! OT_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_0,D_0,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_1)
+ call STOP
+! ReadByte 50 F9 ! OT_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_0,D_0,D_0)
+ call RD_COM
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_1)
+ call STOP
+! WriteWord 51 69 00 ! OT_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_1,D_1,D_0,D_1,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 51 69 00 ! OT_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_1,R_1,R_0,R_1,R_0,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 55 1E F8 ! VIN_OV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_1,D_1,D_1,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 55 1E F8 ! VIN_OV_FAULT_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_1,R_1,R_1,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteByte 56 B8 ! VIN_OV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_1,D_1,D_0)
+ call WR(D_1,D_0,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadByte 56 B8 ! VIN_OV_FAULT_RESPONSE
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_0,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_1,R_0,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 58 12 F8 ! VIN_UV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 58 12 F8 ! VIN_UV_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_0,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_1,R_0,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 5D 0A F8 ! IIN_OC_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_1,D_0,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadWord 5D 0A F8 ! IIN_OC_WARN_LIMIT
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_1,R_0,R_1,R_0)
+ call RD(R_1,R_1,R_1,R_1,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteWord 5E F1 05 ! POWER_GOOD_ON
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_1,D_0)
+ call WR(D_1,D_1,D_1,D_1,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call STOP
+! ReadWord 5E F1 05 ! POWER_GOOD_ON
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_1,R_1,R_1,R_1,R_0,R_0,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call STOP
+! WriteWord 5F 9C 05 ! POWER_GOOD_OFF
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_1,D_1)
+ call WR(D_1,D_0,D_0,D_1,D_1,D_1,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call STOP
+! ReadWord 5F 9C 05 ! POWER_GOOD_OFF
+ call WR_COM
+ call WR(D_0,D_1,D_0,D_1,D_1,D_1,D_1,D_1)
+ call RD_COM
+ call RD(R_1,R_0,R_0,R_1,R_1,R_1,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call STOP
+! WriteWord 60 00 00 ! TON_DELAY
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 60 00 00 ! TON_DELAY
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_0,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 61 05 00 ! TON_RISE
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 61 05 00 ! TON_RISE
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 64 00 00 ! TOFF_DELAY
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_1,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 64 00 00 ! TOFF_DELAY
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_1,D_0,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteWord 65 05 00 ! TOFF_FALL
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_1,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadWord 65 05 00 ! TOFF_FALL
+ call WR_COM
+ call WR(D_0,D_1,D_1,D_0,D_0,D_1,D_0,D_1)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_1,R_0,R_1)
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteByte D6 00 ! UNKNOWN
+ call WR_COM
+ call WR(D_1,D_1,D_0,D_1,D_0,D_1,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadByte D6 00 ! UNKNOWN
+ call WR_COM
+ call WR(D_1,D_1,D_0,D_1,D_0,D_1,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_0,R_0,R_0,R_0,R_0)
+ call STOP
+! WriteByte 02 1F ! ON_OFF_CONFIGURATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_1,D_1,D_1,D_1)
+ call STOP
+! ReadByte 02 1F ! ON_OFF_CONFIGURATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call RD_COM
+ call RD(R_0,R_0,R_0,R_1,R_1,R_1,R_1,R_1)
+ call STOP
+! WriteByte 01 88 ! OPERATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_1,D_0,D_0,D_0,D_1,D_0,D_0,D_0)
+ call STOP
+! ReadByte 01 88 ! OPERATION
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call RD_COM
+ call RD(R_1,R_0,R_0,R_0,R_1,R_0,R_0,R_0)
+ call STOP
+! WriteBlock 9E 02 01 00 ! MFR_SERIAL
+ call WR_COM
+ call WR(D_1,D_0,D_0,D_1,D_1,D_1,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! ReadBlock 9E 02 01 00 ! MFR_SERIAL
+ call WR_COM
+ call WR(D_1,D_0,D_0,D_1,D_1,D_1,D_1,D_0)
+ call RD_COM
+ call RD(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call RD(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_1)
+ call RD(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+! WriteBlock DB 02 34 12 ! EEPROM_PASSWORD
+ call WR_COM
+ call WR(D_1,D_1,D_0,D_1,D_1,D_0,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_1,D_1,D_0,D_1,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_1,D_0,D_0,D_1,D_0)
+ call STOP
+! SendByte 03 ! CLEAR_FAULTS
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_1)
+ call STOP
+! Pause 10
+ wait 10m
+! SendByte 15 ! STORE_USER_ALL
+ call WR_COM
+ call WR(D_0,D_0,D_0,D_1,D_0,D_1,D_0,D_1)
+ call STOP
+! Pause 1000
+ wait 1200m
+ call WR_COM ! ReadByte_Mask 78 00 80 ! STATUS_BYTE
+ call WR(D_0,D_1,D_1,D_1,D_1,D_0,D_0,D_0)
+ call RD_COM
+ call RN(R_0,R_X,R_X,R_X,R_X,R_X,R_X,R_X)
+ call STOP
+ call WR_COM ! ReadByte_Mask 80 00 03 ! STATUS_MFR_SPECIFIC
+ call WR(D_1,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call RD_COM
+ call RN(R_X,R_X,R_X,R_X,R_X,R_X,R_0,R_0)
+ call STOP
+! WriteBlock DB 02 00 00 ! EEPROM_PASSWORD
+ call WR_COM
+ call WR(D_1,D_1,D_0,D_1,D_1,D_0,D_1,D_1)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_1,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call WR(D_0,D_0,D_0,D_0,D_0,D_0,D_0,D_0)
+ call STOP
+end unit

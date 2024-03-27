@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648516972  Vb2b3                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:52 2022
+disconnect all
+connect s to "GND"
+connect i to "VREG5_6"
+!B!capacitor 1u, 20.00, 20.00, fr1024, re2, ar100m, nocomp
+capacitor 1u, 25.00, 50.00, fr1024, re2, ar100m, nocomp
+! "c7_6" test.

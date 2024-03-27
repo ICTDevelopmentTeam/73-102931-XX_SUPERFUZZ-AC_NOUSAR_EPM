@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520913  V7266                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:49 2022
+disconnect all
+connect s to "SRT_JTAG_TCK_CPLD2_3V3" ;  a to "SRT_JTAG_TCK_CPLD2_3V3"
+connect i to "JTAG_TCK_CPLD2_3V3" ;  b to "JTAG_TCK_CPLD2_3V3"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r116" is a limited test.

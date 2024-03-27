@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  V7ff1                                         
+
+!#  11-0986-02
+!#  11-0986-02 CAP,CE,4.7nF,50V,X7R,10%,SM,0
+!#  Wed Apr 17 16:02:52 2019
+
+capacitor *, 4.7n, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

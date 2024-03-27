@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519069  V3364                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:18 2022
+disconnect all
+connect s to "GND"
+connect i to "DB_PWR_EN"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r51" test.

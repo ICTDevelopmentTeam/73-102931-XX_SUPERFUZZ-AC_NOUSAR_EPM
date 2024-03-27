@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes PWR_P3V3_QSFP_P1_Q0 P-Pin resistance"
+report "check nodes QSFP_INT_L<0> P-Pin resistance"
+end on failure
+disconnect all
+connect s to "PWR_P3V3_QSFP_P1_Q0"
+connect i to "QSFP_INT_L<0>"
+resistor 12,20,100, re1, ar100m,ed
+off failure

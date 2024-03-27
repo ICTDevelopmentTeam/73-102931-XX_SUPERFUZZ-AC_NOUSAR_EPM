@@ -1,0 +1,15 @@
+!!!!    2    0    1 1675179844   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:02 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c03_5 10.0n"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "UNNAMED_7_CAP_I276_B_5"                                                                                                                           
+connect g to "P12V"                                                                                                                                             
+!B!resistor 1k, 10.00, 10.00, re3, ar100m, wa2.19m                                                                                                              
+!resistor 1k,25.00,20.00,re4,ar100m,wa10m,ed                                                                                                                      
+resistor 1k,25.00,20.00,re4,ar100m,ed    !ADV                                                                                                              
+! "r09_5" test.                                                                                                                                                 
+off failure                                                                                                                                                     

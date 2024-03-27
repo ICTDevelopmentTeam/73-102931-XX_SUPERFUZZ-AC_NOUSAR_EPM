@@ -1,0 +1,9 @@
+!!!!   21    2    1 1647592081  V16a8                                         
+
+diode "cr",550m, 200m, nr, pn"13-0995-02"
+
+external pins 1
+   device "cr" pins "C"
+
+external pins 2
+   device "cr" pins "A"

@@ -1,0 +1,94 @@
+!!!!   21    1    1 1619605258  V999f                                         
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                         !!
+!! This part library is project specific. It describes all the board       !!
+!! dc resistance that can't be places in a part library.                   !!
+!! IE: power rail impedences.                                              !!
+!! internal impdences of an Integrated Circuit                             !!
+!! Current sense nodes                                                     !!
+!! pcb shorts (Antenas)                                                    !!
+!!                                                                         !!
+!!                                                                         !!
+!!                                                                         !!
+!!          Please see below the measurements from the GOLDEN:             !!
+!!                                                                         !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                         !!
+!!                                                             DC          !!
+!!  Power Rail      From                To                  RESISTENCE     !!
+!!                                                                         !!
+!!  dc_respwr1      P5V                 GND                   4            !!
+!!  dc_respwr2      P3_3V               GND                   54           !!
+!!  dc_respwr3      P3_3VA              GND                   97           !!
+!!  dc_respwr4      P1V0RT1_AVDD        GBD                   86           !!
+!!  dc_respwr5      P1V0RT1_DVDD        GND                   27           !!
+!!  dc_respwr6      P1V0RT2_AVDD        GND                   7            !!
+!!  dc_respwr7      P1V0RT2_DVDD        GND                   22           !!
+!!  dc_respwr8      P0_9V               GND                   45           !!
+!!                                                                         !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!                                                                         !!
+!! Script user: Rodolfo UrdiLES                                            !!
+!! This file was generated on: Fri Mar 22 16:00:59 2024                    !!
+!! Script name: XpcbShorts.py, Version: 1.0, last update: Dec. 31, 2021    !!
+!!                                                                         !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+resistor  "dc_respwr1",   4, 20, 20, f, nr, nt, "P5V to GND"
+resistor  "dc_respwr2",   54, 20, 20, f, nr, nt, "P3_3V to GND"
+resistor  "dc_respwr3",   97, 20, 20, f, nr, nt, "P3_3VA to GND"
+resistor  "dc_respwr4",   86, 20, 20, f, nr, nt, "P1V0RT1_AVDD to GBD"
+resistor  "dc_respwr5",   27, 20, 20, f, nr, nt, "P1V0RT1_DVDD to GND"
+resistor  "dc_respwr6",   7, 20, 20, f, nr, nt, "P1V0RT2_AVDD to GND"
+resistor  "dc_respwr7",   22, 20, 20, f, nr, nt, "P1V0RT2_DVDD to GND"
+resistor  "dc_respwr8",   45, 20, 20, f, nr, nt, "P0_9V to GND"
+
+external pins 1
+   device "dc_respwr1"         pins 1
+
+external pins 2
+   device "dc_respwr1"         pins 2
+
+external pins 3
+   device "dc_respwr2"         pins 1
+
+external pins 4
+   device "dc_respwr2"         pins 2
+
+external pins 5
+   device "dc_respwr3"         pins 1
+
+external pins 6
+   device "dc_respwr3"         pins 2
+
+external pins 7
+   device "dc_respwr4"         pins 1
+
+external pins 8
+   device "dc_respwr4"         pins 2
+
+external pins 9
+   device "dc_respwr5"         pins 1
+
+external pins 10
+   device "dc_respwr5"         pins 2
+
+external pins 11
+   device "dc_respwr6"         pins 1
+
+external pins 12
+   device "dc_respwr6"         pins 2
+
+external pins 13
+   device "dc_respwr7"         pins 1
+
+external pins 14
+   device "dc_respwr7"         pins 2
+
+external pins 15
+   device "dc_respwr8"         pins 1
+
+external pins 16
+   device "dc_respwr8"         pins 2
+

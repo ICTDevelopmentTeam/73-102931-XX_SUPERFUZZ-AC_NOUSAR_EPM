@@ -1,0 +1,10 @@
+!!!!    2    0    1 1650961668   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:50 2022
+disconnect all
+connect s to "GND"
+connect i to "CLK_SILAB_ICS853014_103M_P"
+connect g to "CLK_SILAB_ICS853014_103M_N"
+!#connect g to "P3_3VA"
+!B!resistor 150, 9.33, 6.00, re3, ar1.00
+resistor 150,30.0,20.0,re3,ar100m
+! "r1317" test.

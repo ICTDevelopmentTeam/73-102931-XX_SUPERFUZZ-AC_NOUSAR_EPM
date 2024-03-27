@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648516920  Vaa56                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:49 2022
+on failure
+report parallel devices
+report "c215_5v 2.20u"
+report "c57_5v 47.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "PMOD_PVCC_5V"
+!B!capacitor 4.447u, 20.00, 20.00, fr1024, re1, ar50.0m, nocomp
+capacitor 4.447u, 45.00, 30.0, fr1024, re1, ar100m, nocomp
+! "c214_5v" test.
+off failure

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521932  Va23f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:07:04 2022
+disconnect all
+connect s to "PWR_P3V3_QSFP_P2_Q0"
+connect i to "QSFP_SCL<1>"
+!B!resistor 2.2k, 10.00, 10.00, re4, wb, ar500m
+resistor 2.2k,25.00,20.00,re4,wb,ar500m
+! "rn3_q0%pin_1_8" test.

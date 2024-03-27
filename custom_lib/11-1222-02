@@ -1,0 +1,13 @@
+!!!!   21    2    1 1463102254   0000                                         
+
+!#  11-1222-02
+!#  11-1222-02 CAP,CE,10nF,16V,X7R,10%,SM,04
+!#  Fri May 13 08:50:39 2016
+
+capacitor *, 10n, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

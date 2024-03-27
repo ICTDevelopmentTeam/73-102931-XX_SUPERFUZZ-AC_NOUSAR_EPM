@@ -1,0 +1,30 @@
+!!!!    2    0    1 1652162417  V5f99                                         
+test powered analog
+power pins 1,4,8,13,16,17
+nonanalog pins 2,3,5,6,7,9,10,11,12,14,15
+
+ test "VOUT1"
+ test "VOUT2"
+
+end test
+
+subtest "VOUT1"
+   disconnect all
+   connect i to nodes "P3V3_GPS"
+   connect l to ground
+
+   detector dcv, expect 3.3
+   measure 3.3 * 1.08, 3.3 * 0.92
+end subtest
+
+subtest "VOUT2"
+   disconnect all
+   connect i to nodes "ANT_5V"
+   connect l to ground
+
+   detector dcv, expect 5
+   measure 5 * 1.05, 5 * 0.95
+end subtest
+
+
+

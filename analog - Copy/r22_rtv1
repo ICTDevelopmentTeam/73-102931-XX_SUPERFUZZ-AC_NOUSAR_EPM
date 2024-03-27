@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517066  V0ccb                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:15 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "P1V0RT1_AVDD_PGOOD"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+!resistor 10k, 25.00, 20.00, wb, ar100m, re4
+! "r22_rtv1" test.

@@ -1,0 +1,11 @@
+!!!!   21    2    1 1647590627  V70ab                                         
+
+! 12-2188-01 RES,TKF,2 ohm,0.125W,5%,SM,08
+
+jumper *, closed
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

@@ -1,0 +1,27 @@
+!!!!    2    0    1 1652162982  V1e79                                         
+test powered analog
+
+ test "VOUT1"
+ test "VOUT2"
+end test
+
+subtest "VOUT1"
+   disconnect all
+   connect i to nodes "P2_5VA"
+   connect l to ground
+
+   detector dcv, expect 2.5
+   measure 2.5 * 1.08, 2.5 * 0.92
+end subtest
+
+subtest "VOUT2"
+   disconnect all
+   connect i to nodes "P1_1VA"
+   connect l to ground
+
+   detector dcv, expect 1.1
+   measure 1.1 * 1.10, 1.1 * 0.90
+end subtest
+
+
+

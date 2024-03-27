@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648516824  V0ad8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:40 2022
+on failure
+report parallel devices
+report "c07_rtv1 100n"
+report "c08_rtv1 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "ISENRTN_RTV1"
+!B!capacitor 1.2u, 15.00, 15.00, fr1024, re2, ar100m, nocomp
+capacitor 1.2u,35.00,40.0,fr1024,re2,ar100m,nocomp
+! "c09_rtv1" test.
+off failure

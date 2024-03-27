@@ -1,0 +1,12 @@
+!!!!   21    2    1 1565251174  V9158                                         
+!
+
+diode "cr", 900m, 400m
+
+external pins 1
+   device "cr" pins "A"
+
+external pins 3
+   device "cr" pins "C"
+
+external pins 2; noconnect

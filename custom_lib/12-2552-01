@@ -1,0 +1,14 @@
+!!!!   21    2    1 1552283881  Va9ea                                         
+
+!#  12-2552-01
+!#  12-2552-01 RES,TKF,51.1 k ohm,0.063W,1%,
+!#  2016
+
+resistor *, 51.1k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

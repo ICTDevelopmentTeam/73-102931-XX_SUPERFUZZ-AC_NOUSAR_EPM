@@ -1,0 +1,19 @@
+!!!!    2    0    1 1573456213  V6285                                         
+test powered analog
+power pins 2,9,3,8
+nonanalog pins 1,10,6,7,5
+
+
+ test "VOUT"
+
+end test
+
+subtest "VOUT"
+     connect i to pins 4
+     connect l to pins 8
+
+   detector dcv, expect 1.65             !change to fit value
+   measure 1.65 * 1.05, 1.65 * 0.95
+end subtest
+
+

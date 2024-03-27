@@ -1,0 +1,13 @@
+!!!!    2    0    1 1648516779  Vfd67                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:32 2022
+on failure
+report parallel devices
+report "c708_3 470n"
+end on failure
+disconnect all
+connect s to "FLTR_PLLCORE_TOP_3"
+connect i to "FLTR_PLLGNDCORE_3"
+!B!capacitor 22.47u, 15.00, 15.01, fr128, re1, ar20.0m, ed, nocomp
+capacitor 22.47u,35.00,40.0,fr128,re1,ar100m,ed,nocomp
+! "c709_3" test.
+off failure

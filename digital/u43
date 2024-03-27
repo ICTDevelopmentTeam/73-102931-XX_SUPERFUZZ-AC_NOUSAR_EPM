@@ -1,0 +1,650 @@
+!!!!    6    0    1 1652768230  V6b3b                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u43"
+set terminators to on
+assign   VCC       to pins   *,*,*
+assign   GND       to pins   *,*,*
+
+assign   E1_A      to pins   3
+assign   E1_B      to pins   21
+assign   E2_A      to pins   4
+assign   E2_B      to pins   20
+assign   E3_A      to pins   5
+assign   E3_B      to pins   19
+assign   E4_A      to pins   6
+assign   E4_B      to pins   18
+assign   E5_A      to pins   7
+assign   E5_B      to pins   17
+assign   E6_A      to pins   8
+assign   E6_B      to pins   16
+assign   E7_A      to pins   9
+assign   E7_B      to pins   15
+assign   E8_A      to pins   10
+assign   E8_B      to pins   14
+
+assign   All_A     to pins   3,4,5,6,7,8,9,10
+assign   All_B     to pins   21,20,19,18,17,16,15,14
+
+assign   Enable_bar  to pins   22
+assign   Dir         to pins   *
+assign   Disable     to pins   22,*
+
+family LVT_2V5
+family LVT_1V8 on All_B
+
+power    VCC, GND
+
+inputs   Enable_bar, Dir
+
+bidirectional  E1_A, E1_B, E2_A, E2_B, E3_A, E3_B, E4_A, E4_B
+bidirectional  E5_A, E5_B, E6_A, E6_B, E7_A, E7_B, E8_A, E8_B
+bidirectional  All_A, All_B
+
+!*********************************************************************
+!*********************************************************************
+
+vector  E1_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E1_A        to "1"
+   set   E1_B        to "1"
+end vector
+
+vector  E1_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E1_A        to "0"
+   set   E1_B        to "0"
+end vector
+
+vector  E2_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E2_A        to "1"
+   set   E2_B        to "1"
+end vector
+
+vector  E2_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E2_A        to "0"
+   set   E2_B        to "0"
+end vector
+
+vector  E3_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E3_A        to "1"
+   set   E3_B        to "1"
+end vector
+
+vector  E3_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E3_A        to "0"
+   set   E3_B        to "0"
+end vector
+
+vector  E4_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E4_A        to "1"
+   set   E4_B        to "1"
+end vector
+
+vector  E4_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E4_A        to "0"
+   set   E4_B        to "0"
+end vector
+
+vector  E5_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E5_A        to "1"
+   set   E5_B        to "1"
+end vector
+
+vector  E5_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E5_A        to "0"
+   set   E5_B        to "0"
+end vector
+
+vector  E6_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E6_A        to "1"
+   set   E6_B        to "1"
+end vector
+
+vector  E6_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E6_A        to "0"
+   set   E6_B        to "0"
+end vector
+
+vector  E7_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E7_A        to "1"
+   set   E7_B        to "1"
+end vector
+
+vector  E7_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E7_A        to "0"
+   set   E7_B        to "0"
+end vector
+
+vector  E8_A_hi
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E8_A        to "1"
+   set   E8_B        to "1"
+end vector
+
+vector  E8_A_lo
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "0"
+   set   E8_A        to "0"
+   set   E8_B        to "0"
+end vector
+
+vector  E1_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E1_A        to "1"
+   set   E1_B        to "1"
+end vector
+
+vector  E1_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E1_A        to "0"
+   set   E1_B        to "0"
+end vector
+
+vector  E2_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E2_A        to "1"
+   set   E2_B        to "1"
+end vector
+
+vector  E2_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E2_A        to "0"
+   set   E2_B        to "0"
+end vector
+
+vector  E3_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E3_A        to "1"
+   set   E3_B        to "1"
+end vector
+
+vector  E3_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E3_A        to "0"
+   set   E3_B        to "0"
+end vector
+
+vector  E4_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E4_A        to "1"
+   set   E4_B        to "1"
+end vector
+
+vector  E4_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E4_A        to "0"
+   set   E4_B        to "0"
+end vector
+
+vector  E5_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E5_B        to "1"
+   set   E5_A        to "1"
+end vector
+
+vector  E5_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E5_B        to "0"
+   set   E5_A        to "0"
+end vector
+
+vector  E6_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E6_B        to "1"
+   set   E6_A        to "1"
+end vector
+
+vector  E6_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E6_B        to "0"
+   set   E6_A        to "0"
+end vector
+
+vector  E7_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E7_B        to "1"
+   set   E7_A        to "1"
+end vector
+
+vector  E7_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E7_B        to "0"
+   set   E7_A        to "0"
+end vector
+
+vector  E8_B_hi
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E8_B        to "1"
+   set   E8_A        to "1"
+end vector
+
+vector  E8_B_lo
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "0"
+   set   E8_B        to "0"
+   set   E8_A        to "0"
+end vector
+
+!*****VECTORS FOR DISABLE TESTS*****
+
+vector  E1_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E1_A        to "1"
+   set   E1_B        to "1"
+end vector
+
+vector  E1_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E1_A        to "0"
+   set   E1_B        to "0"
+end vector
+
+vector  E2_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E2_A        to "1"
+   set   E2_B        to "1"
+end vector
+
+vector  E2_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E2_A        to "0"
+   set   E2_B        to "0"
+end vector
+
+vector  E3_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E3_A        to "1"
+   set   E3_B        to "1"
+end vector
+
+vector  E3_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E3_A        to "0"
+   set   E3_B        to "0"
+end vector
+
+vector  E4_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E4_A        to "1"
+   set   E4_B        to "1"
+end vector
+
+vector  E4_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E4_A        to "0"
+   set   E4_B        to "0"
+end vector
+
+vector  E5_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E5_A        to "1"
+   set   E5_B        to "1"
+end vector
+
+vector  E5_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E5_A        to "0"
+   set   E5_B        to "0"
+end vector
+
+vector  E6_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E6_A        to "1"
+   set   E6_B        to "1"
+end vector
+
+vector  E6_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E6_A        to "0"
+   set   E6_B        to "0"
+end vector
+
+vector  E7_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E7_A        to "1"
+   set   E7_B        to "1"
+end vector
+
+vector  E7_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E7_A        to "0"
+   set   E7_B        to "0"
+end vector
+
+vector  E8_A_hi_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E8_A        to "0"
+   set   E8_B        to "1"
+end vector
+
+vector  E8_A_lo_Disabled
+   drive All_A
+   receive  All_B
+   set   Dir         to "1"
+   set   Enable_bar  to "1"
+   set   E8_A        to "0"
+   set   E8_B        to "0"
+end vector
+
+vector  E1_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E1_A        to "1"
+   set   E1_B        to "1"
+end vector
+
+vector  E1_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E1_A        to "0"
+   set   E1_B        to "0"
+end vector
+
+vector  E2_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E2_A        to "1"
+   set   E2_B        to "1"
+end vector
+
+vector  E2_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E2_A        to "0"
+   set   E2_B        to "0"
+end vector
+
+vector  E3_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E3_A        to "1"
+   set   E3_B        to "1"
+end vector
+
+vector  E3_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E3_A        to "0"
+   set   E3_B        to "0"
+end vector
+
+vector  E4_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E4_A        to "1"
+   set   E4_B        to "1"
+end vector
+
+vector  E4_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E4_A        to "0"
+   set   E4_B        to "0"
+end vector
+
+vector  E5_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E5_B        to "1"
+   set   E5_A        to "1"
+end vector
+
+vector  E5_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E5_B        to "0"
+   set   E5_A        to "0"
+end vector
+
+vector  E6_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E6_B        to "1"
+   set   E6_A        to "1"
+end vector
+
+vector  E6_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E6_B        to "0"
+   set   E6_A        to "0"
+end vector
+
+vector  E7_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E7_B        to "1"
+   set   E7_A        to "1"
+end vector
+
+vector  E7_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E7_B        to "0"
+   set   E7_A        to "0"
+end vector
+
+vector  E8_B_hi_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E8_B        to "1"
+   set   E8_A        to "1"
+end vector
+
+vector  E8_B_lo_Disabled
+   drive All_B
+   receive  All_A
+   set   Dir         to "0"
+   set   Enable_bar  to "1"
+   set   E8_B        to "0"
+   set   E8_A        to "0"
+end vector
+
+
+!*********************************************************************
+!*********************************************************************
+
+unit  "A input, B output"
+   execute  E1_A_lo
+   execute  E1_A_hi
+   execute  E2_A_lo
+   execute  E2_A_hi
+   execute  E3_A_lo
+   execute  E3_A_hi
+   execute  E4_A_lo
+   execute  E4_A_hi
+   execute  E5_A_lo
+   execute  E5_A_hi
+   execute  E6_A_lo
+   execute  E6_A_hi
+   execute  E7_A_lo
+   execute  E7_A_hi
+   execute  E8_A_lo
+   execute  E8_A_hi
+   execute E8_A_hi_Disabled
+end unit
+
+

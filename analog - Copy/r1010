@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863955   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:16 2022
+disconnect all
+connect i to "AC_PCIE_100MHZ_REFCLK_N_1"
+connect s to "GND"
+jumper 10.0k, re4, wb, ar100m, op
+! "r1010" test.

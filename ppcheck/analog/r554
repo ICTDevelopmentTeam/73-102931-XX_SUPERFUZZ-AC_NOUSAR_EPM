@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes SRT_CLK_MIFPGA_ZL_1PPS P-Pin resistance"
+report "check nodes CLK_MIFPGA_ZL_1PPS P-Pin resistance"
+end on failure
+disconnect all
+connect s to "SRT_CLK_MIFPGA_ZL_1PPS"
+connect i to "CLK_MIFPGA_ZL_1PPS"
+resistor 12,20,100, re1, ar100m,ed
+off failure

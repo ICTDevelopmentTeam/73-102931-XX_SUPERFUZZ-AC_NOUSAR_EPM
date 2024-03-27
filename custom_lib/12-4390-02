@@ -1,0 +1,13 @@
+!!!!   21    2    1 1565251175  V4fa8                                         
+
+!#  12-4390-02
+!#  12-4390-02 RES,TKF,12.7 k ohm,0.063W,1%
+!#  Fri Jul 27 11:15:49 2012
+
+resistor *, 12.7k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

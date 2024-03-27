@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V7e7f                                         
+
+!  12-5423-01
+!  12-5423-01 RES,TKF,3 k ohm,0.063W,1%,SM,
+
+resistor *, 3k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

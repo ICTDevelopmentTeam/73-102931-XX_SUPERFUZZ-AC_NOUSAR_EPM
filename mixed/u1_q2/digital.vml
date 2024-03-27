@@ -1,0 +1,231 @@
+task "u1_q2.setup"
+  setup
+    mixed_init(1572868)
+    hsl_setup
+    drive_tclk_from_dutclk(20000000.0,20000000.0)
+    fclks_per_vector_pair 4
+  end setup
+  channel_section
+    driver_range 0.10  3.00 
+    receiver_range 1.00  1.80
+    slew_rate   250
+    driver d0 brc 10731 kx     fclks 1    3
+    source_all    fclks 1    3
+    source_trigger_all flip_flop
+    source_control_all static1
+    driver d1 brc 11634 kx     fclks 1    3
+    probe_receiver kx     fclks 2    4
+    detector_glitch_all    fclks 2    4
+    detector_trigger_all flip_flop
+  end channel_section
+  vector_section
+    org 0
+    vector v0 2 256 256
+    end vector
+    vector v1 2 0 1
+    end vector
+    vector v2 200 0 160
+      d0 0
+      d1 0
+    end vector
+    vector v3 200 0 160
+      d0 k
+      d1 k
+    end vector
+    vector v4 200 0 160
+      d0 t
+      d1 t
+    end vector
+  end vector_section
+  sequence_section
+    org 0
+    s0 v1
+    s1 v1
+    s2 v1
+    s3 v1
+    s4 v1
+    s5 v1
+    s6 v1
+    s7 v1
+    s8 v1
+    s9 v1
+    s10 v1
+    s11 v1
+    s12 v1
+    s13 v1
+    s14 v1
+    s15 v2
+    s16 v3
+    s17 v4
+  end sequence_section
+  program_section
+    org 0
+    p0 apply s1 with vceoff, nop
+    p1 apply s1 with vceoff, nop
+    p2 apply s1 with vceoff, nop
+    p3 apply s1 with vceoff, nop
+    p4 apply s15 with fe, vceon
+    p5 apply s16 with fe
+    analogCont00000 apply s1 with vceon, nop
+    p7 sls 12 apply s1 with nop
+    p8 apply s1 with nop, pause
+    p9 apply s1 with vceoff, nop
+    p10 apply s1 with vceoff, nop, neg_tsp, neg_halt
+    p11 apply s17 with fe, vceon
+    p12 apply s16 with fe
+    analogCont00001 apply s1 with vceon, nop
+    p14 sls 12 apply s1 with nop
+    p15 apply s1 with nop, pause
+    p16 apply s1 with vceoff, nop
+    p17 apply s1 with vceoff, nop, neg_tsp, neg_halt
+    Halt apply s1 with vceon, nop
+    p19 sls 12 apply s1 with nop
+    p20 apply s1 with nop, halt
+    p21 sls 2 apply s1 with vceoff, nop
+  end program_section
+  setup_sequencer(0)
+taskend
+task "u1_q2.recycle_setup"
+  setup_sequencer(0)
+taskend
+task "u1_q2.sync"
+  hsl_sync
+taskend
+task "u1_q2.start"
+  check_safeguard(0,1,0.000000e+00,0.000000e+00)
+  start_seq
+taskend
+task "u1_q2.wait_for_halt"
+  wait_for_halt(1.000145e+00)
+  mra_in_mod(0)
+taskend
+task "u1_q2.wait_for_halt_on_vector_count"
+  wait_for_halt_on_vector_count(1.000145e+00)
+taskend
+task "u1_q2.wait_for_pause"
+  wait_for_pause(1.000145e+00)
+  mra_in_mod(0)
+taskend
+task "u1_q2.get_test_status"
+  check_for_digital_failure
+taskend
+task "u1_q2.continue"
+  digital_continue
+taskend
+task "u1_q2.continue_with_acv"
+  digital_continue_trigger_acv
+taskend
+basic
+call main
+end
+sub "u1_q2.check_status"
+  global wrong_status
+  sync
+  add_to_tl "u1_q2.get_test_status"
+  vt_send
+  ignore=vt_eof
+  wrong_status=vt_read
+  wrong_status=wrong_status mod 1
+  ignore=vt_eof
+subend
+sub initialize
+  global device$
+  device$="U1_Q2"
+  call analog_initialize
+subend
+sub "u1_q2.results"
+  host_digital_result_analysis("u1_q2")
+subend
+sub main
+  global indebug,section
+  indebug=0
+  section=1
+  setup_safeguard(0,1,0.000000e+00,0.000000e+00)
+  add_to_tl "u1_q2.setup"
+  test_edits
+  add_to_tl "u1_q2.start"
+  add_to_tl "u1_q2.wait_for_pause"
+  mod_digital_result_analysis(0,"u1_q2.results")
+  add_to_tl "u1_q2.sync"
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_pause"
+  mod_digital_result_analysis(0,"u1_q2.results")
+  add_to_tl "u1_q2.sync"
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_halt"
+  mod_digital_result_analysis(0,"u1_q2.results")
+  add_to_tl "u1_q2.sync"
+subend
+sub debug
+  global wrong_status
+  global indebug,section
+  indebug=1
+  section=1
+  setup_safeguard(0,1,0.000000e+00,0.000000e+00)
+  add_to_tl "u1_q2.setup"
+  test_edits
+  add_to_tl "u1_q2.start"
+  add_to_tl "u1_q2.wait_for_pause"
+  call "u1_q2.check_status"
+  if wrong_status then
+    subexit
+  end if
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_pause"
+  call "u1_q2.check_status"
+  if wrong_status then
+    subexit
+  end if
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_halt_on_vector_count"
+subend
+sub display_failures
+  global wrong_status
+  global indebug,section
+  indebug=1
+  section=1
+  setup_safeguard(0,1,0.000000e+00,0.000000e+00)
+  add_to_tl "u1_q2.setup"
+  test_edits
+  add_to_tl "u1_q2.start"
+  add_to_tl "u1_q2.wait_for_pause"
+  mod_digital_result_analysis(0,"u1_q2.results")
+  add_to_tl "u1_q2.sync"
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_pause"
+  mod_digital_result_analysis(0,"u1_q2.results")
+  add_to_tl "u1_q2.sync"
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_halt"
+subend
+sub recycle
+  global wrong_status
+  global indebug,section
+  indebug=1
+  section=1
+  setup_safeguard(0,1,0.000000e+00,0.000000e+00)
+  add_to_tl "u1_q2.recycle_setup"
+  test_edits
+  add_to_tl "u1_q2.start"
+  add_to_tl "u1_q2.wait_for_pause"
+  call "u1_q2.check_status"
+  if wrong_status then
+    subexit
+  end if
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_pause"
+  call "u1_q2.check_status"
+  if wrong_status then
+    subexit
+  end if
+  call analog
+  add_to_tl "u1_q2.continue"
+  add_to_tl "u1_q2.wait_for_halt_on_vector_count"
+subend

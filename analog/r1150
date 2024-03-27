@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863960   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:21 2022
+disconnect all
+connect i to "SLB_103_INC"
+connect s to "P3_3VA"
+jumper 10.0k, re4, wb, ar100m, op
+! "r1150" test.

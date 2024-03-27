@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663164  V2521                                         
+
+!#  11-3611-01
+!#  11-3611-01 CAP,TO,150uF,4V,SM,3528,20% ,
+!#  Wed Apr 17 16:02:54 2019
+
+capacitor *, 150u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

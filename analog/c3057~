@@ -1,0 +1,8 @@
+!!!!    2    0    1 1675873460   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:38 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "UNNAMED_54_CAP_I9_B"                                                                                                                              
+!B!capacitor 10n, 20.00, 20.00, fr1024, re4, wb, ar100m, nocomp                                                                                                 
+capacitor 10n,35.00,40.0,fr1024,re4,ar20m,nocomp    !!!ADV 2                                                                                                         
+! "c3057" test.                                                                                                                                                 

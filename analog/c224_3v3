@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648516923  Va76c                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:49 2022
+on failure
+report parallel devices
+report "c225_3v3 2.20u"
+report "c202_3v3 47.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "PMOD_PVCC_3V3"
+!B!capacitor 4.447u, 20.00, 20.00, fr1024, re1, ar50.0m, nocomp
+capacitor 4.447u,35.00,40.0,fr1024,re1,ar100m,nocomp
+! "c224_3v3" test.
+off failure

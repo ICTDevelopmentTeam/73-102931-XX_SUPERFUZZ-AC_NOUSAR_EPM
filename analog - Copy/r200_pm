@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863925   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:46 2022
+disconnect all
+connect i to "SRT_P1V2_TILT_SCL"
+connect s to "P3_3VA"
+jumper 1.33k, re4, wb, ar1.00, op
+! "r200_pm" test.

@@ -1,0 +1,31 @@
+!!!!    2    0    1 1451110371  V79eb                                         
+test powered analog
+power pins 21, 24, 30, 22, 23, 33
+nonanalog pins 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,26,27,28
+nonanalog pins 29,30,31,32
+
+ test "VIN"
+ test "VOUT"
+
+end test
+
+subtest "VIN"
+     connect i to pins 30
+     connect l to pins 22
+
+   detector dcv, expect 12.0
+   measure 12.0 * 12.05, 12.0 * 0.95
+end subtest
+
+
+subtest "VOUT"
+     connect i to pins 24
+     connect l to pins 22
+
+   detector dcv, expect 12.0           !change to fit value
+   measure 12.0 * 1.05, 12.0 * 0.95
+end subtest
+
+
+
+

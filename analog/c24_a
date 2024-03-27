@@ -1,0 +1,15 @@
+!!!!    2    0    1 1674685331   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:54 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r16_a 10.0k"                                                                                                                                            
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "P1V1_PGOOD_A"                                                                                                                                     
+connect g to "P12V"                                                                                                                                             
+!B!capacitor 100n, 30.00, 30.00, fr1024, re3, wb, ar100m, sa, en, nocomp                                                                                        
+!capacitor 100n,35.00,40.00,fr1024,re4,wb,ar100m,sa,en,nocomp                                                                                                    
+capacitor 100n,35.00,40.00,fr1024,re4,ar100m,en,sa ! ADV                                                                                                 
+! "c24_a" test.                                                                                                                                                 
+off failure                                                                                                                                                     

@@ -1,0 +1,51 @@
+!!!!    6    0    1 1652750699  Vb69e                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u57"
+set terminators to on
+assign   VCC to pins *
+assign   GND to pins *
+
+assign   E1_Data_Inputs to pins 3,2
+assign   E2_Data_Inputs to pins 6,5
+assign   E3_Data_Inputs to pins 10,11
+assign   E4_Data_Inputs to pins 13,14
+
+assign   Device_Enable  to pins 15
+assign   Select_Input   to pins 1
+
+assign   E1_Output to pins 4
+assign   E2_Output to pins *
+assign   E3_Output to pins *
+assign   E4_Output to pins *
+
+power    VCC, GND
+
+family   LVT
+
+inputs   E1_Data_Inputs,E2_Data_Inputs,E3_Data_Inputs,E4_Data_Inputs
+inputs   Device_Enable, Select_Input
+
+outputs  E1_Output,E2_Output,E3_Output,E4_Output
+
+pcf order default SCAN is Device_Enable, Select_Input
+pcf order default SCAN is E1_Data_Inputs, E1_Output
+
+unit
+pcf
+  "0 1 10 X"
+  "0 1 01 X"
+  "0 1 10 X"
+  "0 1 01 X"
+  "0 1 10 X"
+  "0 1 01 X"
+  "0 1 10 H"
+  "0 1 01 L"
+  "0 0 01 H"
+  "0 0 10 L"
+  "1 0 01 L"
+end pcf
+end unit
+
+!    End of Test

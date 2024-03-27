@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517132  V6cd8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:33 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_54_RES_I4_B"
+!B!resistor 100k, 15.00, 15.00, re5, wb, ar100m
+resistor 100k, 25, 25, ar100m, re5 !JV
+!resistor 100k, 25.00, 25.00, wb, ar100m, re5
+! "r432" test.

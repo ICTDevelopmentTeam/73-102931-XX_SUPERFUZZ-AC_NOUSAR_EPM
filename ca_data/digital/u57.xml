@@ -1,0 +1,40 @@
+
+<Test name = "u57">
+<FileList>
+<File name = "u57">
+<FilePath>C:/Agilent_ICT/boards/Superfuzz_AC_73-102931_01_B0/digital/u57</FilePath>
+<LastModified>Tue Sep 13, 2022   7:25 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u57">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

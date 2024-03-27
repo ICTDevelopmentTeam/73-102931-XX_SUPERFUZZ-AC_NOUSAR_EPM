@@ -1,0 +1,8 @@
+!!!!    2    0    1 1675873909   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:37 2022
+disconnect all
+connect s to "P2V5RT1"
+connect i to "CONFIG_IO0_PULLUP_RT1_2"
+resistor 100, 20, 20, re2, ar20m
+!resistor 100,30.00,20.00,re5,ar100m, wb, am.30m 
+! "r2_rt1_2" test.

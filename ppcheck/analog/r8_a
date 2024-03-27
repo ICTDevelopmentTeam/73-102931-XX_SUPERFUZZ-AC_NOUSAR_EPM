@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes PWR_ADOMAIN_PGOOD P-Pin resistance"
+report "check nodes UNNAMED_2_RES_I635_B_A P-Pin resistance"
+end on failure
+disconnect all
+connect s to "PWR_ADOMAIN_PGOOD"
+connect i to "UNNAMED_2_RES_I635_B_A"
+resistor 12,20,100, re1, ar100m,ed
+off failure

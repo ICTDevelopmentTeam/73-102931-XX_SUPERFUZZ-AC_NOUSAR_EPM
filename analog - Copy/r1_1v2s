@@ -1,0 +1,8 @@
+!!!!    2    0    1 1650962009   0000                                         
+!* 102898 nostuff ,102931 stuff
+disconnect all
+connect s to "UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD"
+connect i to "PMOD_SYNC_1V2S"
+!#jumper 100k,re4,ar100m,op, wa10m
+resistor 3.48k, 20, 20, re4, ar100m
+! "r1_1v2s" test.

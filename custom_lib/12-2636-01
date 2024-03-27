@@ -1,0 +1,12 @@
+!!!!   21    2    1 1647590628  V4746                                         
+
+!  12-2636-01 RES,TKF,9.09 k ohm,0.063W,1%
+
+resistor *, 9.09k, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

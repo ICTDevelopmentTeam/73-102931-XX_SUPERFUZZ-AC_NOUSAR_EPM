@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519486  V21a4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:56 2022
+disconnect all
+connect s to "FLT_P3V3_OSC114M_XO"
+connect i to "UNNAMED_4134_OSC_I308_OE"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r165" test.

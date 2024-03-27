@@ -1,0 +1,405 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 22 21:36:41 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22256  251
+UNNAMED_6_RES_I177_A_S0                 
+                r19_s0.1
+               sfp_s0.P4
+To:   i2c_sda_sfp<13>         21722  251
+                r19_s0.2
+               rn64_s0.3
+           rn64_s0%pin_3_6.1
+                u49.W17
+Common Devices:
+                 r19_s0
+Message is:
+Check R19_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<16>        215114 Open
+                r49_s0.1
+               rn69_s0.3
+           rn69_s0%pin_3_6.1
+                u49.T17
+To:     v                     22332
+UNNAMED_17_RES_I377_B_S0                
+                r49_s0.2
+               sfp_s0.U4
+Common Devices:
+                 r49_s0
+Message is:
+Check R49_S0
+------End, 2 Problems Reported----------
+S/N:FLM27030GBM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 22 21:36:52 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22256  288
+UNNAMED_6_RES_I177_A_S0                 
+                r19_s0.1
+               sfp_s0.P4
+To:   i2c_sda_sfp<13>         21722  288
+                r19_s0.2
+               rn64_s0.3
+           rn64_s0%pin_3_6.1
+                u49.W17
+Common Devices:
+                 r19_s0
+Message is:
+Check R19_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<16>        215114 Open
+                r49_s0.1
+               rn69_s0.3
+           rn69_s0%pin_3_6.1
+                u49.T17
+To:     v                     22332
+UNNAMED_17_RES_I377_B_S0                
+                r49_s0.2
+               sfp_s0.U4
+Common Devices:
+                 r49_s0
+Message is:
+Check R49_S0
+------End, 2 Problems Reported----------
+S/N:FLM27030GBM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 22 21:37:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22256  291
+UNNAMED_6_RES_I177_A_S0                 
+                r19_s0.1
+               sfp_s0.P4
+To:   i2c_sda_sfp<13>         21722  291
+                r19_s0.2
+               rn64_s0.3
+           rn64_s0%pin_3_6.1
+                u49.W17
+Common Devices:
+                 r19_s0
+Message is:
+Check R19_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<16>        215114 Open
+                r49_s0.1
+               rn69_s0.3
+           rn69_s0%pin_3_6.1
+                u49.T17
+To:     v                     22332
+UNNAMED_17_RES_I377_B_S0                
+                r49_s0.2
+               sfp_s0.U4
+Common Devices:
+                 r49_s0
+Message is:
+Check R49_S0
+------End, 2 Problems Reported----------
+S/N:FLM27030GBM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 22 21:37:16 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22256  357
+UNNAMED_6_RES_I177_A_S0                 
+                r19_s0.1
+               sfp_s0.P4
+To:   i2c_sda_sfp<13>         21722  357
+                r19_s0.2
+               rn64_s0.3
+           rn64_s0%pin_3_6.1
+                u49.W17
+Common Devices:
+                 r19_s0
+Message is:
+Check R19_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<16>        215114 Open
+                r49_s0.1
+               rn69_s0.3
+           rn69_s0%pin_3_6.1
+                u49.T17
+To:     v                     22332
+UNNAMED_17_RES_I377_B_S0                
+                r49_s0.2
+               sfp_s0.U4
+Common Devices:
+                 r49_s0
+Message is:
+Check R49_S0
+------End, 2 Problems Reported----------
+S/N:FLM27030GBM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 22 21:37:28 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     22256  362
+UNNAMED_6_RES_I177_A_S0                 
+                r19_s0.1
+               sfp_s0.P4
+To:   i2c_sda_sfp<13>         21722  362
+                r19_s0.2
+               rn64_s0.3
+           rn64_s0%pin_3_6.1
+                u49.W17
+Common Devices:
+                 r19_s0
+Message is:
+Check R19_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<16>        215114 Open
+                r49_s0.1
+               rn69_s0.3
+           rn69_s0%pin_3_6.1
+                u49.T17
+To:     v                     22332
+UNNAMED_17_RES_I377_B_S0                
+                r49_s0.2
+               sfp_s0.U4
+Common Devices:
+                 r49_s0
+Message is:
+Check R49_S0
+------End, 2 Problems Reported----------
+S/N:FLM27030GBM
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:41:38 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   4.5585k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:41:55 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   5.0219k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:42:02 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   4.9274k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:42:08 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   4.9447k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:42:15 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   5.1533k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:48:40 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   223.23k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:48:55 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -100.74k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:49:02 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -112.49k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:49:09 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -199.39k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:49:16 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -229.33k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2702038K
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:51:09 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   79.992k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270300FU
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:51:25 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -969.17k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270300FU
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:51:32 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -174.68k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270300FU
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:51:39 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -90.314k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270300FU
+----------------------------------------
+73-102898-01_03
+Mon Jan 23 10:51:45 2023
+----------------------------------------
+rn38_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn38_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   -105.98k
+Nominal:    1.3000k
+High Limit: 1.6770k
+Low Limit:  923.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270300FU

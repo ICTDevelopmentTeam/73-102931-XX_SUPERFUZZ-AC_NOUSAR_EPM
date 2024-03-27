@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521874  Vbfb4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:37 2022
+disconnect all
+connect s to "UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD"
+connect i to "UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3"
+!B!resistor 3.48k, 10.00, 10.00, re4, wb, ar200m
+resistor 3.48k,25.0,20.0,re4,wb,ar200m
+! "r854" test.

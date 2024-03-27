@@ -1,0 +1,29 @@
+!!!!    6    0    1 1489824733  V15ee                                         
+
+sequential
+
+assign VCC to pins 37
+assign GND to pins 39, 44
+
+assign SDA to pins 11
+assign SCL to pins 12
+
+assign RESET_ to pins 16
+
+assign VDIO to pins 14
+assign VCLK to pins 13
+
+assign NC to pins 42,41,18,19,36,38,33,32,31,35,34,24,23
+assign NC to pins 21,20,27,30,10,47,45,46,22,4,3,7,8
+assign NC to pins 15,17,1,9,48,49,2,5,6,25,26,28,29,40,43
+
+power VCC, GND
+inputs SCL, VCLK, RESET_
+bidirectional SDA, VDIO
+nondigital NC
+
+family LVT
+
+disable SDA, VDIO with RESET_ to "0"
+
+

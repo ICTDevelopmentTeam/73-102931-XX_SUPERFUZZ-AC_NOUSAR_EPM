@@ -1,0 +1,398 @@
+----------------------------------------
+TestJet Report for "testjet".
+Tue Dec 12 08:39:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 6  Node sfp_tx_fault_fpga<12>
+  Measured 8.9              (BRC 21617)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:40:05 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -465.53k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:40:13 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -1.8410M
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:40:17 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -927.52k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:40:21 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -927.52k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+Shorts Report for "shorts".
+Tue Dec 12 08:44:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: srt_sfp19_i2c_scl_edge 220135 Open
+                 r834.1
+                u49.AC17
+To:   I2C_SCL_SFP<19>         22114
+                r56_s0.2
+                 r834.2
+               rn102_s0.4
+           rn102_s0%pin_4_5.1
+Common Devices:
+                  r834
+Message is:
+Check R834
+------End, 1 Problem Reported-----------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:44:57 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -927.52k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:45:06 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -1.8410M
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:45:10 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -619.92k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:45:13 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -927.52k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:46:14 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -619.92k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:46:23 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -1.8410M
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:46:27 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -619.92k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 08:46:30 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   -619.92k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 17:57:27 2023
+----------------------------------------
+r9_rt7_8 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   -339.19k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   905.66k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -9.3256M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p1_q2%grn HAS FAILED
+
+REPLACE DEVICE: p1_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 17:57:50 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   456.83k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -9.3256M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p1_q2%grn HAS FAILED
+
+REPLACE DEVICE: p1_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 17:57:54 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   366.11k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -6.1603M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p1_q2%grn HAS FAILED
+
+REPLACE DEVICE: p1_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+73-102898-01_03
+Tue Dec 12 17:57:58 2023
+----------------------------------------
+r620 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   366.11k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+rn1_q2%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn1_q2
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   -9.3256M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+p1_q2%grn HAS FAILED
+
+REPLACE DEVICE: p1_q2
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM274400GL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Dec 12 17:59:24 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(11352) EEPROM_LOAD0_EN_RT7_8
+               r9_rt7_8.2
+              u1_rt7_8.D10
+----------------------------------------
+Failed Open #2
+(21501) clk156m_rtm1_buf_en
+                 r355.2
+                 u17.19
+----------------------------------------
+Failed Open #3
+(109162) JTAG_TDO_RT3_RT4_2V5RT
+                 r121.1
+                 r286.2
+              u1_rt3_4.B9
+------End, 3 Problems Reported----------
+S/N:FLM274400GL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Dec 12 17:59:32 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(11352) EEPROM_LOAD0_EN_RT7_8
+               r9_rt7_8.2
+              u1_rt7_8.D10
+----------------------------------------
+Failed Open #2
+(21501) clk156m_rtm1_buf_en
+                 r355.2
+                 u17.19
+----------------------------------------
+Failed Open #3
+(109162) JTAG_TDO_RT3_RT4_2V5RT
+                 r121.1
+                 r286.2
+              u1_rt3_4.B9
+------End, 3 Problems Reported----------
+S/N:FLM274400GL
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Tue Dec 12 17:59:40 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(11352) EEPROM_LOAD0_EN_RT7_8
+               r9_rt7_8.2
+              u1_rt7_8.D10
+----------------------------------------
+Failed Open #2
+(21501) clk156m_rtm1_buf_en
+                 r355.2
+                 u17.19
+----------------------------------------
+Failed Open #3
+(109162) JTAG_TDO_RT3_RT4_2V5RT
+                 r121.1
+                 r286.2
+              u1_rt3_4.B9
+----------------------------------------
+Failed Open #4
+(11368) rt6_m4_4_7_synce_clk
+                 r275.1
+                u49.V24
+------End, 4 Problems Reported----------
+S/N:FLM274400GL

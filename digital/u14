@@ -1,0 +1,54 @@
+!!!!    6    0    1 1652422796  V89c6                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u14"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign CLKIN to pins 1
+assign EN    to pins 2
+assign NC    to pins *,*
+assign YN    to pins 8,3
+
+power  VCC,GND
+inputs EN,CLKIN
+outputs YN
+nondigital NC
+
+family LVT
+set load on groups YN to no load
+! ******** I to Z ********
+
+vector CLKIN_OUT_000
+ set CLKIN to "0"
+ set EN    to "0"
+ set YN    to "00"
+end vector
+
+vector CLKIN_OUT_010
+ set CLKIN to "0"
+ set EN    to "1"
+ set YN    to "00"
+end vector
+
+vector CLKIN_OUT_111
+ set CLKIN to "1"
+ set EN    to "1"
+ set YN    to "11"
+end vector
+
+!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+unit "A to Y"
+ homingloop 180 times
+ execute CLKIN_OUT_000
+ execute CLKIN_OUT_010
+ execute CLKIN_OUT_111 exit if pass
+ end homingloop
+ execute CLKIN_OUT_010
+ execute CLKIN_OUT_111
+end unit
+
+

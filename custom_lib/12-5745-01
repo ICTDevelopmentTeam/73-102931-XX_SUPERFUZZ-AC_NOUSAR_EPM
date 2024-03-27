@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555998541  V0041                                         
+
+!  12-5745-01
+!  12-5745-01 RES,TKF,10 k ohm,0.063W,5.0%
+
+resistor *, 10.0k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

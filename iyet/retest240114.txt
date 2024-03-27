@@ -1,0 +1,524 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 00:43:42 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    3
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 00:43:50 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    3
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 00:43:59 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 00:44:07 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 00:56:47 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+------End, 1 Problem Reported-----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 00:56:55 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+------End, 1 Problem Reported-----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 00:57:03 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+------End, 1 Problem Reported-----------
+S/N:FLM27420590
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:01:34 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:01:43 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:01:51 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:01:59 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: I2C_SCL_SFP<9>          22046 Open
+                r12_s0.2
+                 r870.1
+               rn54_s0.4
+           rn54_s0%pin_4_5.1
+To:   srt_sfp9_i2c_scl_edge   21461
+                 r870.2
+                u49.AF23
+Common Devices:
+                  r870
+Message is:
+Check R870
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM2801057Y
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 01:18:31 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(204161) p1v0rt1_dvdd_pgood
+               r23_rtv1.1
+                 r630.1
+               u1_rtv1.16
+                u49.AC10
+                 u50.2
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 01:18:39 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+------End, 1 Problem Reported-----------
+S/N:FLM27420590
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Sun Jan 14 01:18:48 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(10852) srt_rt2_pmbus2_scl_r
+               p1_rtv2.5
+               r21_rtv2.2
+                 r67.2
+               u1_rtv2.10
+----------------------------------------
+Failed Open #2
+(204161) p1v0rt1_dvdd_pgood
+               r23_rtv1.1
+                 r630.1
+               u1_rtv1.16
+                u49.AC10
+                 u50.2
+------End, 2 Problems Reported----------
+S/N:FLM27420590
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:19:53 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:20:01 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    3
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:20:10 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:20:18 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:21:02 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    3 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:21:11 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:21:20 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y
+----------------------------------------
+Shorts Report for "shorts".
+Sun Jan 14 01:21:28 2024
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: sfp_mod_abs_fpga<12>    21618    2
+               rn63_s0.1
+           rn63_s0%pin_1_8.1
+               sfp_s0.N6
+                 u29.10
+To:   i2c_sda_sfp<12>        217123    4
+                r17_s0.1
+               rn63_s0.3
+           rn63_s0%pin_3_6.1
+                u49.W16
+        v                    222156    4 
+UNNAMED_6_RES_I178_B_S0                 
+                r17_s0.2
+               sfp_s0.N4
+Common Devices:
+                rn63_s0
+                 sfp_s0
+Total of 3 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM2801057Y

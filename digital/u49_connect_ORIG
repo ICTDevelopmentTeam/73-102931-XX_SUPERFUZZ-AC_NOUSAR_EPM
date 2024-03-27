@@ -1,0 +1,762 @@
+!!!!   24    0    1 1647864713  Vc828                                         
+! Copyright (c) Agilent Technologies, Inc. 1995-1996, 1998-2000, 2002-2003, 2006-2008
+!IPG: rev 09.20p  Mon Mar 21 20:11:54 2022
+
+connect "u49"
+
+!IPG: User may add option statements here if needed.
+
+ground bounce suppression   on
+!IPG  family "???"
+!IPG: Family information could not be found for any node; TTL will be assumed
+
+!IPG: Connect test generated for all pins (no CONNECTMAX)
+
+chain "u49_u49"
+  tdi "JTAG_TDI_MIFPGA_3V3"
+  tdo "JTAG_TDO_MIFPGA_3V3"
+  tms "JTAG_TMS_MIFPGA_3V3"
+  tck "SRT_JTAG_TCK_MIFPGA_3V3"
+  devices
+    "u49", "custom_lib/b161014361_5cgxfc4c.bsm", "FBGA672", no
+  end devices
+end chain
+
+!IPG: Family information could not be found for node JTAG_TDI_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TDO_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TMS_MIFPGA_3V3
+!IPG: Family information could not be found for node SRT_JTAG_TCK_MIFPGA_3V3
+
+disables "disable vector"
+  node "DPLL_SYNCE_RESET_L" family "LVT" hybrid default "0"
+  node "MIFPGA_ACT2_RESET_L" family "LVT" hybrid default "0"
+  node "UNNAMED_4080_QS3VH257_I170_E" family "LVT" hybrid default "1"
+  node "UNNAMED_4103_AVC8T245_I56_OE" family "LVT" hybrid default "1"
+  node "UNNAMED_4103_AVC8T245_I60_OE" family "LVT" hybrid default "1"
+  node "UNNAMED_4103_PCA9617_I144_EN" family "LVT" hybrid default "0"
+
+  pcf order is nodes "DPLL_SYNCE_RESET_L","MIFPGA_ACT2_RESET_L"
+  pcf order is nodes "UNNAMED_4080_QS3VH257_I170_E"
+  pcf order is nodes "UNNAMED_4103_AVC8T245_I56_OE"
+  pcf order is nodes "UNNAMED_4103_AVC8T245_I60_OE"
+  pcf order is nodes "UNNAMED_4103_PCA9617_I144_EN"
+  unit "disable_1"
+  pcf
+  "001110"
+  end pcf
+  end unit
+end disables
+
+!IPG: The disable section above disables or conditions the following pins:
+!IPG:   u10.10  u10.11  u10.12  u10.13  u10.14  u10.2  u10.3  u10.4  u10.5  u10.6  u10.7  u10.9  u24.13  u41.2  u41.3  u41.6  u41.7  u42.10  u42.14  u42.15  u42.16  u42.17  u42.18  u42.19  u42.20  u42.21
+!IPG:   u42.3  u42.4  u42.5  u42.6  u42.7  u42.8  u42.9  u43.10  u43.14  u43.15  u43.16  u43.17  u43.18  u43.19  u43.20  u43.21  u43.3  u43.4  u43.5  u43.6  u43.7  u43.8  u43.9  u59.20  u59.25  u59.27  u59.28
+!IPG:   u59.29  u59.30  u59.31  u59.36  u59.42  u59.43  u59.45  u59.46  u59.48  u59.49  u59.51  u59.52  u59.56  u59.57  u59.59  u59.60  u59.63  u59.64  u59.66  u59.67  u59.74  u59.78  u59.79  u8.10  u8.11
+!IPG:   u8.12  u8.13  u8.14  u8.2  u8.3  u8.4  u8.5  u8.6  u8.7  u8.9
+
+!IPG: Safeguard will ignore disabled outputs
+disabled device "u10" pins 10,11,12,13,14,2,3,4,5,6,7,9
+!IPG: with pin 15 on node "UNNAMED_4080_QS3VH257_I170_E"
+disabled device "u24" pins 13
+!IPG: with pin 4 on node "MIFPGA_ACT2_RESET_L"
+disabled device "u41" pins 2,3,6,7
+!IPG: with pin 5 on node "UNNAMED_4103_PCA9617_I144_EN"
+disabled device "u42" pins 10,14,15,16,17,18,19,20,21,3,4,5,6,7,8,9
+!IPG: with pin 22 on node "UNNAMED_4103_AVC8T245_I60_OE"
+disabled device "u43" pins 10,14,15,16,17,18,19,20,21,3,4,5,6,7,8,9
+!IPG: with pin 22 on node "UNNAMED_4103_AVC8T245_I56_OE"
+disabled device "u59" pins 20,25,27,28,29,30,31,36,42,43,45,46,48,49
+disabled device "u59" pins 51,52,56,57,59,60,63,64,66,67,74,78,79
+!IPG: with pin 75 on node "DPLL_SYNCE_RESET_L"
+disabled device "u8" pins 10,11,12,13,14,2,3,4,5,6,7,9
+!IPG: with pin 15 on node "UNNAMED_4080_QS3VH257_I170_E"
+
+!IPG: User may add VCL pass-through statements here if needed.
+
+nodes
+!  fixed unknown "FPGA_MONI_INT" test "u49.B15"
+  node "1PPS_RS422_RXD_EN_L" hybrid test "u49.AD6"
+  node "1PPS_RS422_TXD_EN" hybrid test "u49.P8"
+  node "AC_CLK25M_MI0_SYNC_E_REFCLK_N" hybrid test "u49.G14"
+  node "AC_CLK25M_MI0_SYNC_E_REFCLK_P" hybrid test "u49.G15"
+  node "ANT_5V_EN" hybrid test "u49.W26"
+  node "ANT_5V_PG" hybrid test "u49.V8"
+  node "CLK25M_MIFPGA" hybrid test "u49.P11"
+  node "CLK100M_SNDN1_BUF_CLK_SEL" hybrid test "u49.K11"
+  node "CLK125M_MIFPGA" hybrid test "u49.T13"
+  node "CLK156M_BUF_CLK_SEL" hybrid test "u49.U10"
+  node "CLK156M_RTM_BUF_CLK_SEL" hybrid test "u49.R9"
+  node "CLK212M_BUF_CLK_SEL" hybrid test "u49.V22"
+  node "CLK_1_PPS_MUX_SEL" hybrid test "u49.U24"
+  node "CLK_1PPS_OUT" hybrid test "u49.Y26"
+  node "CLK_CON_FPGA_10M_UTC_IN" hybrid test "u49.T21"
+  node "CLK_GNSS_FPGA_1_UTC_CON" hybrid test "u49.P20"
+  node "CLK_GNSS_FPGA_10M_UTC_CON" hybrid test "u49.R20"
+  node "CPLD1_FPGA_DATA" hybrid test "u49.H17"
+  node "CPLD1_FPGA_SPI_MISO" hybrid test "u49.B22"
+  node "CPLD2_FPGA_DATA" hybrid test "u49.G17"
+  node "CPLD2_FPGA_SPI_MISO" hybrid test "u49.C20"
+  node "CPLD3_FPGA_DATA" hybrid test "u49.J7"
+  node "CPLD3_FPGA_SPI_MISO" hybrid test "u49.J10"
+  node "CPLD4_FPGA_DATA" hybrid test "u49.K9"
+  node "CPLD4_FPGA_SPI_MISO" hybrid test "u49.G6"
+  node "DB_PGOOD" hybrid test "u49.AA23"
+  node "DB_PWR_EN" hybrid test "u49.AC23"
+  node "DPLL_SYNCE_GPIO0" hybrid test "u49.AE9"
+  node "DPLL_SYNCE_GPIO1" hybrid test "u49.N10"
+  node "DPLL_SYNCE_GPIO2" hybrid test "u49.V9"
+!IPG used for disable:   node "DPLL_SYNCE_RESET_L" hybrid test "u49.D18"
+  node "FPGA_CPLD1_DATA" hybrid test "u49.D20"
+  node "FPGA_CPLD1_SPI_CS_L" hybrid test "u49.A21"
+  node "FPGA_CPLD1_SPI_MOSI" hybrid test "u49.B21"
+  node "FPGA_CPLD2_DATA" hybrid test "u49.E19"
+  node "FPGA_CPLD2_SPI_CS_L" hybrid test "u49.B19"
+  node "FPGA_CPLD2_SPI_MOSI" hybrid test "u49.C19"
+  node "FPGA_CPLD3_DATA" hybrid test "u49.E9"
+  node "FPGA_CPLD3_SPI_CS_L" hybrid test "u49.L7"
+  node "FPGA_CPLD3_SPI_MOSI" hybrid test "u49.K6"
+  node "FPGA_CPLD4_DATA" hybrid test "u49.F7"
+  node "FPGA_CPLD4_SPI_CS_L" hybrid test "u49.K8"
+  node "FPGA_CPLD4_SPI_MOSI" hybrid test "u49.J8"
+  node "FPGA_CPLD_RST_L" hybrid test "u49.D21"
+  node "FPGA_LED_BCN_BLUE_L" hybrid test "u49.AF9"
+  node "FPGA_LED_ENV_GRN_L" hybrid test "u49.P10"
+  node "FPGA_LED_ENV_RED_L" hybrid test "u49.AD8"
+  node "FPGA_LED_STAT_GRN_L" hybrid test "u49.V10"
+  node "FPGA_LED_STAT_RED_L" hybrid test "u49.AE8"
+  node "FPGA_SFP_LED_GRN_L<33>" hybrid test "u49.AC22"
+  node "FPGA_SFP_LED_GRN_L<34>" hybrid test "u49.A9"
+  node "FPGA_SFP_LED_YEL_L<33>" hybrid test "u49.C9"
+  node "FPGA_SFP_LED_YEL_L<34>" hybrid test "u49.D15"
+  node "FPGA_SFP_TX_DISABLE<33>" hybrid test "u49.B9"
+  node "FPGA_SFP_TX_DISABLE<34>" hybrid test "u49.M10"
+  node "FPGA_SNDN_2P5_MS<0>" hybrid test "u49.J23"
+  node "FPGA_SNDN_2P5_MS<1>" hybrid test "u49.H19"
+  node "FPGA_SNDN_CORE_FREQ_SEL_0" hybrid test "u49.J21"
+  node "FPGA_SNDN_CORE_FREQ_SEL_1" hybrid test "u49.E23"
+  node "FPGA_SNDN_CORE_PLL_RST_L" hybrid test "u49.J20"
+  node "FPGA_SNDN_CORE_RESET_L" hybrid test "u49.D22"
+  node "FPGA_SNDN_CPU2JTAG_EN" hybrid test "u49.G22"
+  node "FPGA_SNDN_I2C_DATA" hybrid test "u49.F22"
+  node "FPGA_SNDN_JTAG2CPU_EN" hybrid test "u49.L22"
+  node "FPGA_SNDN_PCIE_CORE_RST_L" hybrid test "u49.C25"
+  node "FPGA_SNDN_PCIE_PE_RST_L" hybrid test "u49.D25"
+  node "FPGA_SNDN_PCIE_PLL_RST_L" hybrid test "u49.H20"
+  node "FPGA_SNDN_PTP_SYNC_MASTER" hybrid test "u49.K21"
+  node "FPGA_SNDN_PTP_SYNC_SLAVE" hybrid test "u49.B26"
+  node "GNSS_RESET_L" hybrid test "u49.P21"
+  node "GNSS_RXD_A" hybrid test "u49.P22"
+  node "GNSS_RXD_B" hybrid test "u49.W25"
+  node "GNSS_TXD_A" hybrid test "u49.U25"
+  node "GNSS_TXD_B" hybrid test "u49.N25"
+  node "GPS_LOS_L" hybrid test "u49.R26"
+  node "I2C_SDA_SFP<0>" hybrid test "u49.V19"
+  node "I2C_SDA_SFP<1>" hybrid test "u49.W18"
+  node "I2C_SDA_SFP<2>" hybrid test "u49.AB19"
+  node "I2C_SDA_SFP<3>" hybrid test "u49.AC19"
+  node "I2C_SDA_SFP<4>" hybrid test "u49.V18"
+  node "I2C_SDA_SFP<5>" hybrid test "u49.V17"
+  node "I2C_SDA_SFP<6>" hybrid test "u49.AE25"
+  node "I2C_SDA_SFP<7>" hybrid test "u49.AF24"
+  node "I2C_SDA_SFP<8>" hybrid test "u49.U15"
+  node "I2C_SDA_SFP<9>" hybrid test "u49.U16"
+  node "I2C_SDA_SFP<10>" hybrid test "u49.AD23"
+  node "I2C_SDA_SFP<11>" hybrid test "u49.AE23"
+  node "I2C_SDA_SFP<12>" hybrid test "u49.W16"
+  node "I2C_SDA_SFP<13>" hybrid test "u49.W17"
+  node "I2C_SDA_SFP<14>" hybrid test "u49.AC20"
+  node "I2C_SDA_SFP<15>" hybrid test "u49.AD20"
+  node "I2C_SDA_SFP<16>" hybrid test "u49.T17"
+  node "I2C_SDA_SFP<17>" hybrid test "u49.U17"
+  node "I2C_SDA_SFP<18>" hybrid test "u49.AF21"
+  node "I2C_SDA_SFP<19>" hybrid test "u49.AF22"
+  node "I2C_SDA_SFP<20>" hybrid test "u49.V15"
+  node "I2C_SDA_SFP<21>" hybrid test "u49.W15"
+  node "I2C_SDA_SFP<22>" hybrid test "u49.AC18"
+  node "I2C_SDA_SFP<23>" hybrid test "u49.AD18"
+  node "I2C_SDA_SFP<24>" hybrid test "u49.Y15"
+  node "I2C_SDA_SFP<25>" hybrid test "u49.Y16"
+  node "I2C_SDA_SFP<26>" hybrid test "u49.AE14"
+  node "I2C_SDA_SFP<27>" hybrid test "u49.AF14"
+  node "I2C_SDA_SFP<28>" hybrid test "u49.U14"
+  node "I2C_SDA_SFP<29>" hybrid test "u49.V14"
+  node "I2C_SDA_SFP<30>" hybrid test "u49.AC14"
+  node "I2C_SDA_SFP<31>" hybrid test "u49.AC13"
+  node "I2C_SDA_SFP<32>" hybrid test "u49.U12"
+  node "I2C_SDA_SFP<33>" hybrid test "u49.V12"
+  node "I2C_SDA_SFP<34>" hybrid test "u49.AD10"
+  node "I2C_SDA_SFP<35>" hybrid test "u49.AE10"
+  node "I2C_SDA_SFP<36>" hybrid test "u49.V13"
+  node "I2C_SDA_SFP<37>" hybrid test "u49.W13"
+  node "I2C_SDA_SFP<38>" hybrid test "u49.AD11"
+  node "I2C_SDA_SFP<39>" hybrid test "u49.AE11"
+  node "I2C_SDA_SFP<40>" hybrid test "u49.Y24"
+  node "I2C_SDA_SFP<41>" hybrid test "u49.Y23"
+  node "I2C_SDA_SFP<42>" hybrid test "u49.W21"
+  node "I2C_SDA_SFP<43>" hybrid test "u49.D13"
+  node "I2C_SDA_SFP<44>" hybrid test "u49.E13"
+  node "I2C_SDA_SFP<45>" hybrid test "u49.L11"
+  node "I2C_SDA_SFP<46>" hybrid test "u49.M11"
+  node "I2C_SDA_SFP<47>" hybrid test "u49.F12"
+  node "IO_MI_DATA" hybrid test "u49.T11"
+  node "IO_MI_STROBE_R" hybrid test "u49.B6"
+  node "JTAG_CABLE_PRSNT_L" hybrid test "u49.C14"
+  node "JTAG_CABLE_PRSNT_L_DAV_HDR" hybrid test "u49.C15"
+  node "LED_GNSS_GRN_L" hybrid test "u49.T23"
+  node "LED_GNSS_RED_L" hybrid test "u49.AA24"
+  node "LED_SYNCE_GRN_L" hybrid test "u49.R23"
+  node "LED_SYNCE_RED_L" hybrid test "u49.AD25"
+  node "LED_TIME_GRN_L" hybrid test "u49.T24"
+  node "LED_TIME_RED_L" hybrid test "u49.AB25"
+!IPG used for disable:   node "MIFPGA_ACT2_RESET_L" hybrid test "u49.W8"
+  node "MIFPGA_BOARD_ID<0>" hybrid test "u49.J25"
+  node "MIFPGA_BOARD_ID<1>" hybrid test "u49.M21"
+  node "MIFPGA_BRD_REV<0>" hybrid test "u49.N24"
+  node "MIFPGA_BRD_REV<1>" hybrid test "u49.J26"
+  node "MIFPGA_CPU_INT_L" hybrid test "u49.AD7"
+  node "MIFPGA_INIT_DONE" hybrid test "u49.U19"
+  node "MIFPGA_LED_CTRL" hybrid test "u49.E20"
+!IPG used for disable:   node "MIFPGA_POR_L" hybrid test "u49.B24"
+  node "P1V8_EN" hybrid test "u49.E18"
+  node "P1V8_PG" hybrid test "u49.A18"
+  node "P2V5RT1_EN" hybrid test "u49.AC24"
+  node "P2V5RT1_PGOOD" hybrid test "u49.F26"
+  node "P2V5RT2_EN" hybrid test "u49.AA22"
+  node "P2V5RT2_PGOOD" hybrid test "u49.N20"
+  node "P3V3_GPS_EN" hybrid test "u49.T26"
+  node "P3V3_GPS_PG" hybrid test "u49.T8"
+  node "PCH_MIFPGA_PERST_L" hybrid test "u49.U22"
+  node "QSFP_SDA<0>" hybrid test "u49.G12"
+  node "QSFP_SDA<1>" hybrid test "u49.G11"
+  node "QSFP_SDA<2>" hybrid test "u49.H12"
+  node "QSFP_SDA<3>" hybrid test "u49.E15"
+  node "QSFP_SDA<4>" hybrid test "u49.F16"
+  node "QSFP_SDA<5>" hybrid test "u49.M12"
+  node "RC_P1V8_CPU_TRIM" hybrid test "u49.U9"
+  node "RT1_M4_0_3_SYNCE_CLK" hybrid test "u49.AA7"
+  node "RT1_M4_4_7_SYNCE_CLK" hybrid test "u49.U7"
+  node "RT1_MDIO_SCL" hybrid test "u49.F23"
+  node "RT1_MDIO_SDA" hybrid test "u49.H22"
+  node "RT1_RESET_L" hybrid test "u49.H25"
+  node "RT2_M4_0_3_SYNCE_CLK" hybrid test "u49.T7"
+  node "RT2_M4_4_7_SYNCE_CLK" hybrid test "u49.U11"
+  node "RT2_MDIO_SCL" hybrid test "u49.H24"
+  node "RT2_MDIO_SDA" hybrid test "u49.L24"
+  node "RT2_RESET_L" hybrid test "u49.M22"
+  node "RT3_M4_0_3_SYNCE_CLK" hybrid test "u49.AF8"
+  node "RT3_M4_4_7_SYNCE_CLK" hybrid test "u49.Y10"
+  node "RT3_MDIO_SCL" hybrid test "u49.H23"
+  node "RT3_MDIO_SDA" hybrid test "u49.L23"
+  node "RT3_RESET_L" hybrid test "u49.G25"
+  node "RT4_M4_0_3_SYNCE_CLK" hybrid test "u49.T12"
+  node "RT4_M4_4_7_SYNCE_CLK" hybrid test "u49.AB12"
+  node "RT4_MDIO_SCL" hybrid test "u49.G24"
+  node "RT4_MDIO_SDA" hybrid test "u49.K23"
+  node "RT4_RESET_L" hybrid test "u49.N23"
+  node "RT5_M4_0_3_SYNCE_CLK" hybrid test "u49.Y11"
+  node "RT5_M4_4_7_SYNCE_CLK" hybrid test "u49.AA26"
+  node "RT5_MDIO_SCL" hybrid test "u49.F24"
+  node "RT5_MDIO_SDA" hybrid test "u49.K24"
+  node "RT5_RESET_L" hybrid test "u49.G26"
+  node "RT6_M4_0_3_SYNCE_CLK" hybrid test "u49.AB26"
+  node "RT6_M4_4_7_SYNCE_CLK" hybrid test "u49.V24"
+  node "RT6_MDIO_SCL" hybrid test "u49.E25"
+  node "RT6_MDIO_SDA" hybrid test "u49.K26"
+  node "RT6_RESET_L" hybrid test "u49.M24"
+  node "RT7_M4_0_3_SYNCE_CLK" hybrid test "u49.V23"
+  node "RT7_M4_4_7_SYNCE_CLK" hybrid test "u49.W20"
+  node "RT7_MDIO_SCL" hybrid test "u49.E24"
+  node "RT7_MDIO_SDA" hybrid test "u49.K25"
+  node "RT7_RESET_L" hybrid test "u49.E21"
+  node "RT8_M4_0_3_SYNCE_CLK" hybrid test "u49.A14"
+  node "RT8_M4_4_7_SYNCE_CLK" hybrid test "u49.H14"
+  node "RT8_MDIO_SCL" hybrid test "u49.E26"
+  node "RT8_MDIO_SDA" hybrid test "u49.M26"
+  node "RT8_RESET_L" hybrid test "u49.G20"
+  node "RT9_M4_0_3_SYNCE_CLK" hybrid test "u49.C22"
+  node "RT9_M4_4_7_SYNCE_CLK" hybrid test "u49.J16"
+  node "RT9_MDIO_SCL" hybrid test "u49.D26"
+  node "RT9_MDIO_SDA" hybrid test "u49.M25"
+  node "RT9_RESET_L" hybrid test "u49.B25"
+  node "RXRATE_SFP_SHIFT_DATA" hybrid test "u49.E6"
+  node "RXRATE_SFP_SHIFT_OE_L" hybrid test "u49.C7"
+  node "RXRATE_SFP_SHIFT_RST_L" hybrid test "u49.D7"
+  node "SFP_MOD_ABS_FPGA<33>" hybrid test "u49.B10"
+  node "SFP_MOD_ABS_FPGA<34>" hybrid test "u49.D16"
+  node "SFP_RX_LOS_FPGA<33>" hybrid test "u49.N12"
+  node "SFP_RX_LOS_FPGA<34>" hybrid test "u49.D10"
+  node "SFP_TX_FAULT_FPGA<33>" hybrid test "u49.C10"
+  node "SFP_TX_FAULT_FPGA<34>" hybrid test "u49.E16"
+  node "SRT_CLK_10M_UTC_ZR_IN" hybrid test "u49.Y25"
+  node "SRT_CLK_MIFPGA_ZL_1PPS" hybrid test "u49.AF7"
+  node "SRT_DPLL_SCL_SYNCE_SPI_CLK" hybrid test "u49.R10"
+  node "SRT_FPGA_CPLD1_CLK" hybrid test "u49.H18"
+  node "SRT_FPGA_CPLD1_SPI_SCK" hybrid test "u49.A22"
+  node "SRT_FPGA_CPLD2_CLK" hybrid test "u49.G16"
+  node "SRT_FPGA_CPLD2_SPI_SCK" hybrid test "u49.B20"
+  node "SRT_FPGA_CPLD3_CLK" hybrid test "u49.K10"
+  node "SRT_FPGA_CPLD3_SPI_SCK" hybrid test "u49.H7"
+  node "SRT_FPGA_CPLD4_CLK" hybrid test "u49.L8"
+  node "SRT_FPGA_CPLD4_SPI_SCK" hybrid test "u49.F6"
+  node "SRT_FPGA_OSC_SCL" hybrid test "u49.H8"
+  node "SRT_FPGA_SNDN_I2C_CLK" hybrid test "u49.F21"
+  node "SRT_IO_MI_SPARE2" hybrid test "u49.AC25"
+  node "SRT_IO_MI_SPARE3" hybrid test "u49.P23"
+  node "SRT_MI_CRCERR" hybrid test "u49.V20"
+  node "SRT_MI_IO_DATA" hybrid test "u49.A5"
+  node "SRT_MIFPGA_I2C0_SCL" hybrid test "u49.AB6"
+  node "SRT_MIFPGA_OK" hybrid test "u49.W10"
+  node "SRT_MIFPGA_PMBUS_SCL" hybrid test "u49.A24"
+  node "SRT_QSFP_SCL<0>" hybrid test "u49.A12"
+  node "SRT_QSFP_SCL<1>" hybrid test "u49.A13"
+  node "SRT_QSFP_SCL<2>" hybrid test "u49.B12"
+  node "SRT_QSFP_SCL<3>" hybrid test "u49.E11"
+  node "SRT_QSFP_SCL<4>" hybrid test "u49.E10"
+  node "SRT_QSFP_SCL<5>" hybrid test "u49.A11"
+  node "SRT_RT_DOWNLINK_M4_0_3_SYNCE_CLK" hybrid test "u49.H15"
+  node "SRT_RT_DOWNLINK_M4_4_7_SYNCE_CLK" hybrid test "u49.C23"
+  node "SRT_RT_UPLINK_M4_0_3_SYNCE_CLK" hybrid test "u49.D8"
+  node "SRT_RT_UPLINK_M4_4_7_SYNCE_CLK" hybrid test "u49.G7"
+  node "SRT_RXRATE_SFP_R_CLK" hybrid test "u49.H10"
+  node "SRT_RXRATE_SFP_SHIFT_STORE" hybrid test "u49.G10"
+  node "SRT_SFP0_I2C_SCL_EDGE" hybrid test "u49.AB22"
+  node "SRT_SFP1_I2C_SCL_EDGE" hybrid test "u49.AA21"
+  node "SRT_SFP2_I2C_SCL_EDGE" hybrid test "u49.Y20"
+  node "SRT_SFP3_I2C_SCL_EDGE" hybrid test "u49.Y19"
+  node "SRT_SFP4_I2C_SCL_EDGE" hybrid test "u49.AD26"
+  node "SRT_SFP5_I2C_SCL_EDGE" hybrid test "u49.AE26"
+  node "SRT_SFP6_I2C_SCL_EDGE" hybrid test "u49.Y18"
+  node "SRT_SFP7_I2C_SCL_EDGE" hybrid test "u49.AA18"
+  node "SRT_SFP8_I2C_SCL_EDGE" hybrid test "u49.AE24"
+  node "SRT_SFP9_I2C_SCL_EDGE" hybrid test "u49.AF23"
+  node "SRT_SFP10_I2C_SCL_EDGE" hybrid test "u49.AF17"
+  node "SRT_SFP11_I2C_SCL_EDGE" hybrid test "u49.AF16"
+  node "SRT_SFP12_I2C_SCL_EDGE" hybrid test "u49.AD22"
+  node "SRT_SFP13_I2C_SCL_EDGE" hybrid test "u49.AD21"
+  node "SRT_SFP14_I2C_SCL_EDGE" hybrid test "u49.AE16"
+  node "SRT_SFP15_I2C_SCL_EDGE" hybrid test "u49.AE15"
+  node "SRT_SFP16_I2C_SCL_EDGE" hybrid test "u49.AE20"
+  node "SRT_SFP17_I2C_SCL_EDGE" hybrid test "u49.AE21"
+  node "SRT_SFP18_I2C_SCL_EDGE" hybrid test "u49.AB17"
+  node "SRT_SFP19_I2C_SCL_EDGE" hybrid test "u49.AC17"
+  node "SRT_SFP20_I2C_SCL_EDGE" hybrid test "u49.AE19"
+  node "SRT_SFP21_I2C_SCL_EDGE" hybrid test "u49.AF19"
+  node "SRT_SFP22_I2C_SCL_EDGE" hybrid test "u49.AD17"
+  node "SRT_SFP23_I2C_SCL_EDGE" hybrid test "u49.AD16"
+  node "SRT_SFP24_I2C_SCL_EDGE" hybrid test "u49.AE18"
+  node "SRT_SFP25_I2C_SCL_EDGE" hybrid test "u49.AF18"
+  node "SRT_SFP26_I2C_SCL_EDGE" hybrid test "u49.AA16"
+  node "SRT_SFP27_I2C_SCL_EDGE" hybrid test "u49.AB16"
+  node "SRT_SFP28_I2C_SCL_EDGE" hybrid test "u49.AE13"
+  node "SRT_SFP29_I2C_SCL_EDGE" hybrid test "u49.AF13"
+  node "SRT_SFP30_I2C_SCL_EDGE" hybrid test "u49.AB15"
+  node "SRT_SFP31_I2C_SCL_EDGE" hybrid test "u49.AC15"
+  node "SRT_SFP32_I2C_SCL_EDGE" hybrid test "u49.AF11"
+  node "SRT_SFP33_I2C_SCL_EDGE" hybrid test "u49.AF12"
+  node "SRT_SFP34_I2C_SCL_EDGE" hybrid test "u49.W12"
+  node "SRT_SFP35_I2C_SCL_EDGE" hybrid test "u49.Y13"
+  node "SRT_SFP36_I2C_SCL_EDGE" hybrid test "u49.AD13"
+  node "SRT_SFP37_I2C_SCL_EDGE" hybrid test "u49.AD12"
+  node "SRT_SFP38_I2C_SCL_EDGE" hybrid test "u49.Y14"
+  node "SRT_SFP39_I2C_SCL_EDGE" hybrid test "u49.AA14"
+  node "SRT_SFP40_I2C_SCL_EDGE" hybrid test "u49.U20"
+  node "SRT_SFP41_I2C_SCL_EDGE" hybrid test "u49.T19"
+  node "SRT_SFP42_I2C_SCL_EDGE" hybrid test "u49.AB24"
+  node "SRT_SFP43_I2C_SCL_EDGE" hybrid test "u49.D12"
+  node "SRT_SFP44_I2C_SCL_EDGE" hybrid test "u49.D11"
+  node "SRT_SFP45_I2C_SCL_EDGE" hybrid test "u49.C12"
+  node "SRT_SFP46_I2C_SCL_EDGE" hybrid test "u49.C13"
+  node "SRT_SFP47_I2C_SCL_EDGE" hybrid test "u49.B11"
+  node "SRT_TXRATE_SFP_R_CLK" hybrid test "u49.B7"
+  node "SRT_TXRATE_SFP_SHIFT_STORE" hybrid test "u49.D6"
+  node "TI_CABLE_PRSNT" hybrid test "u49.A8"
+  node "TOD_RELAY_CTL0" hybrid test "u49.U26"
+  node "TOD_RELAY_CTL1" hybrid test "u49.P26"
+  node "TOD_RS422_RXD_EN_L" hybrid test "u49.AF6"
+  node "TOD_RS422_TXD" hybrid test "u49.V25"
+  node "TOD_RS422_TXD_EN" hybrid test "u49.AE6"
+  node "TW_SILAB_103_RESET_L" hybrid test "u49.R24"
+  node "TXRATE_SFP_SHIFT_DATA" hybrid test "u49.H9"
+  node "TXRATE_SFP_SHIFT_OE_L" hybrid test "u49.L9"
+  node "TXRATE_SFP_SHIFT_RST_L" hybrid test "u49.M9"
+  node "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL0" hybrid test "u49.M7"
+  node "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL1" hybrid test "u49.L6"
+  node "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL2" hybrid test "u49.A2"
+  node "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL3" hybrid test "u49.K5"
+  node "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL4" hybrid test "u49.J5"
+
+!IPG: Disable problems, the following nodes retained for fixture wiring.
+  node "CLK_1_PPS_UTC_MIFPGA_IN" hybrid test "u49.T22" !Not disabled
+  node "CLK_1PPS_RS422_RXD" hybrid test "u49.P12" !Not disabled
+  node "CLK_ZL_MIFPGA_1PPS" hybrid test "u49.N9" !Not disabled
+  node "DPLL_SDA_SYNCE_SPI_MOSI" hybrid test "u49.AA6" !Not disabled
+  node "FPGA_OSC_SDA" hybrid test "u49.A7" !Not disabled
+  node "MIFPGA_I2C0_SDA" hybrid test "u49.Y9" !Not disabled
+  node "MIFPGA_PMBUS_SDA" hybrid test "u49.A23" !Not disabled
+  node "P1V0RT1_AVDD_PGOOD" hybrid test "u49.R11" !Not disabled
+  node "P1V0RT1_DVDD_PGOOD" hybrid test "u49.AC10" !Not disabled
+  node "P1V0RT2_AVDD_PGOOD" hybrid test "u49.W11" !Not disabled
+  node "P1V0RT2_DVDD_PGOOD" hybrid test "u49.T9" !Not disabled
+  node "P1V0RT_AVDD_EN" hybrid test "u49.AB11" !Not disabled
+  node "P1V0RT_DVDD_EN" hybrid test "u49.AC9" !Not disabled
+  node "P3V3_EN" hybrid test "u49.H13" !Not disabled
+  node "P3V3_PG" hybrid test "u49.J12" !Not disabled
+  node "P3V3_SFP_EN" hybrid test "u49.B17" !Not disabled
+  node "P5V_EN" hybrid test "u49.C17" !Not disabled
+  node "P5V_PG" hybrid test "u49.C18" !Not disabled
+  node "PMBUS_ALERT_L" hybrid test "u49.Y8" !Not disabled
+  node "SFP0_P3V3_PG" hybrid test "u49.A19" !Not disabled
+  node "SFP1_P3V3_PG" hybrid test "u49.J11" !Not disabled
+  node "SILAB_TW_103_INT_L" hybrid test "u49.AB10" !Not disabled
+  node "SILAB_TW_103_LOL" hybrid test "u49.AC8" !Not disabled
+  node "SNDN_CORE_EN" hybrid test "u49.F18" !Not disabled
+  node "SNDN_P0V9_EN" hybrid test "u49.B14" !Not disabled
+  node "SNDN_VDDHA_1P2V_EN" hybrid test "u49.L12" !Not disabled
+  node "TEMPSENSE_ALERT_L" hybrid test "u49.R8" !Not disabled
+  node "TOD_RS422_RXD" hybrid test "u49.R25" !Not disabled
+  node "VDD_0P875V_PG" hybrid test "u49.A17" !Not disabled
+  node "VDDA_0P9V_PG" hybrid test "u49.D17" !Not disabled
+  node "VDDHA_P1V2_PG" hybrid test "u49.A16" !Not disabled
+end nodes
+
+!IPG: Family information could not be found for node 1PPS_RS422_RXD_EN_L
+!IPG: Family information could not be found for node 1PPS_RS422_TXD_EN
+!IPG: Family information could not be found for node AC_CLK25M_MI0_SYNC_E_REFCLK_N
+!IPG: Family information could not be found for node AC_CLK25M_MI0_SYNC_E_REFCLK_P
+!IPG: Family information could not be found for node ANT_5V_EN
+!IPG: Family information could not be found for node ANT_5V_PG
+!IPG: Family information could not be found for node CLK25M_MIFPGA
+!IPG: Family information could not be found for node CLK100M_SNDN1_BUF_CLK_SEL
+!IPG: Family information could not be found for node CLK125M_MIFPGA
+!IPG: Family information could not be found for node CLK156M_BUF_CLK_SEL
+!IPG: Family information could not be found for node CLK156M_RTM_BUF_CLK_SEL
+!IPG: Family information could not be found for node CLK212M_BUF_CLK_SEL
+!IPG: Family information could not be found for node CLK_1_PPS_MUX_SEL
+!IPG: Family information could not be found for node CLK_1PPS_OUT
+!IPG: Family information could not be found for node CLK_CON_FPGA_10M_UTC_IN
+!IPG: Family information could not be found for node CLK_GNSS_FPGA_1_UTC_CON
+!IPG: Family information could not be found for node CLK_GNSS_FPGA_10M_UTC_CON
+!IPG: Family information could not be found for node CPLD1_FPGA_DATA
+!IPG: Family information could not be found for node CPLD1_FPGA_SPI_MISO
+!IPG: Family information could not be found for node CPLD2_FPGA_DATA
+!IPG: Family information could not be found for node CPLD2_FPGA_SPI_MISO
+!IPG: Family information could not be found for node CPLD3_FPGA_DATA
+!IPG: Family information could not be found for node CPLD3_FPGA_SPI_MISO
+!IPG: Family information could not be found for node CPLD4_FPGA_DATA
+!IPG: Family information could not be found for node CPLD4_FPGA_SPI_MISO
+!IPG: Family information could not be found for node DB_PGOOD
+!IPG: Family information could not be found for node DB_PWR_EN
+!IPG: Family information could not be found for node DPLL_SYNCE_GPIO0
+!IPG: Family information could not be found for node DPLL_SYNCE_GPIO1
+!IPG: Family information could not be found for node DPLL_SYNCE_GPIO2
+!IPG: Family information could not be found for node DPLL_SYNCE_RESET_L
+!IPG: Family information could not be found for node FPGA_CPLD1_DATA
+!IPG: Family information could not be found for node FPGA_CPLD1_SPI_CS_L
+!IPG: Family information could not be found for node FPGA_CPLD1_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_CPLD2_DATA
+!IPG: Family information could not be found for node FPGA_CPLD2_SPI_CS_L
+!IPG: Family information could not be found for node FPGA_CPLD2_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_CPLD3_DATA
+!IPG: Family information could not be found for node FPGA_CPLD3_SPI_CS_L
+!IPG: Family information could not be found for node FPGA_CPLD3_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_CPLD4_DATA
+!IPG: Family information could not be found for node FPGA_CPLD4_SPI_CS_L
+!IPG: Family information could not be found for node FPGA_CPLD4_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_CPLD_RST_L
+!IPG: Family information could not be found for node FPGA_LED_BCN_BLUE_L
+!IPG: Family information could not be found for node FPGA_LED_ENV_GRN_L
+!IPG: Family information could not be found for node FPGA_LED_ENV_RED_L
+!IPG: Family information could not be found for node FPGA_LED_STAT_GRN_L
+!IPG: Family information could not be found for node FPGA_LED_STAT_RED_L
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<33>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<34>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<33>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<34>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<33>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<34>
+!IPG: Family information could not be found for node FPGA_SNDN_2P5_MS<0>
+!IPG: Family information could not be found for node FPGA_SNDN_2P5_MS<1>
+!IPG: Family information could not be found for node FPGA_SNDN_CORE_FREQ_SEL_0
+!IPG: Family information could not be found for node FPGA_SNDN_CORE_FREQ_SEL_1
+!IPG: Family information could not be found for node FPGA_SNDN_CORE_PLL_RST_L
+!IPG: Family information could not be found for node FPGA_SNDN_CORE_RESET_L
+!IPG: Family information could not be found for node FPGA_SNDN_CPU2JTAG_EN
+!IPG: Family information could not be found for node FPGA_SNDN_I2C_DATA
+!IPG: Family information could not be found for node FPGA_SNDN_JTAG2CPU_EN
+!IPG: Family information could not be found for node FPGA_SNDN_PCIE_CORE_RST_L
+!IPG: Family information could not be found for node FPGA_SNDN_PCIE_PE_RST_L
+!IPG: Family information could not be found for node FPGA_SNDN_PCIE_PLL_RST_L
+!IPG: Family information could not be found for node FPGA_SNDN_PTP_SYNC_MASTER
+!IPG: Family information could not be found for node FPGA_SNDN_PTP_SYNC_SLAVE
+!IPG: Family information could not be found for node GNSS_RESET_L
+!IPG: Family information could not be found for node GNSS_RXD_A
+!IPG: Family information could not be found for node GNSS_RXD_B
+!IPG: Family information could not be found for node GNSS_TXD_A
+!IPG: Family information could not be found for node GNSS_TXD_B
+!IPG: Family information could not be found for node GPS_LOS_L
+!IPG: Family information could not be found for node I2C_SDA_SFP<0>
+!IPG: Family information could not be found for node I2C_SDA_SFP<1>
+!IPG: Family information could not be found for node I2C_SDA_SFP<2>
+!IPG: Family information could not be found for node I2C_SDA_SFP<3>
+!IPG: Family information could not be found for node I2C_SDA_SFP<4>
+!IPG: Family information could not be found for node I2C_SDA_SFP<5>
+!IPG: Family information could not be found for node I2C_SDA_SFP<6>
+!IPG: Family information could not be found for node I2C_SDA_SFP<7>
+!IPG: Family information could not be found for node I2C_SDA_SFP<8>
+!IPG: Family information could not be found for node I2C_SDA_SFP<9>
+!IPG: Family information could not be found for node I2C_SDA_SFP<10>
+!IPG: Family information could not be found for node I2C_SDA_SFP<11>
+!IPG: Family information could not be found for node I2C_SDA_SFP<12>
+!IPG: Family information could not be found for node I2C_SDA_SFP<13>
+!IPG: Family information could not be found for node I2C_SDA_SFP<14>
+!IPG: Family information could not be found for node I2C_SDA_SFP<15>
+!IPG: Family information could not be found for node I2C_SDA_SFP<16>
+!IPG: Family information could not be found for node I2C_SDA_SFP<17>
+!IPG: Family information could not be found for node I2C_SDA_SFP<18>
+!IPG: Family information could not be found for node I2C_SDA_SFP<19>
+!IPG: Family information could not be found for node I2C_SDA_SFP<20>
+!IPG: Family information could not be found for node I2C_SDA_SFP<21>
+!IPG: Family information could not be found for node I2C_SDA_SFP<22>
+!IPG: Family information could not be found for node I2C_SDA_SFP<23>
+!IPG: Family information could not be found for node I2C_SDA_SFP<24>
+!IPG: Family information could not be found for node I2C_SDA_SFP<25>
+!IPG: Family information could not be found for node I2C_SDA_SFP<26>
+!IPG: Family information could not be found for node I2C_SDA_SFP<27>
+!IPG: Family information could not be found for node I2C_SDA_SFP<28>
+!IPG: Family information could not be found for node I2C_SDA_SFP<29>
+!IPG: Family information could not be found for node I2C_SDA_SFP<30>
+!IPG: Family information could not be found for node I2C_SDA_SFP<31>
+!IPG: Family information could not be found for node I2C_SDA_SFP<32>
+!IPG: Family information could not be found for node I2C_SDA_SFP<33>
+!IPG: Family information could not be found for node I2C_SDA_SFP<34>
+!IPG: Family information could not be found for node I2C_SDA_SFP<35>
+!IPG: Family information could not be found for node I2C_SDA_SFP<36>
+!IPG: Family information could not be found for node I2C_SDA_SFP<37>
+!IPG: Family information could not be found for node I2C_SDA_SFP<38>
+!IPG: Family information could not be found for node I2C_SDA_SFP<39>
+!IPG: Family information could not be found for node I2C_SDA_SFP<40>
+!IPG: Family information could not be found for node I2C_SDA_SFP<41>
+!IPG: Family information could not be found for node I2C_SDA_SFP<42>
+!IPG: Family information could not be found for node I2C_SDA_SFP<43>
+!IPG: Family information could not be found for node I2C_SDA_SFP<44>
+!IPG: Family information could not be found for node I2C_SDA_SFP<45>
+!IPG: Family information could not be found for node I2C_SDA_SFP<46>
+!IPG: Family information could not be found for node I2C_SDA_SFP<47>
+!IPG: Family information could not be found for node IO_MI_DATA
+!IPG: Family information could not be found for node IO_MI_STROBE_R
+!IPG: Family information could not be found for node JTAG_CABLE_PRSNT_L
+!IPG: Family information could not be found for node JTAG_CABLE_PRSNT_L_DAV_HDR
+!IPG: Family information could not be found for node LED_GNSS_GRN_L
+!IPG: Family information could not be found for node LED_GNSS_RED_L
+!IPG: Family information could not be found for node LED_SYNCE_GRN_L
+!IPG: Family information could not be found for node LED_SYNCE_RED_L
+!IPG: Family information could not be found for node LED_TIME_GRN_L
+!IPG: Family information could not be found for node LED_TIME_RED_L
+!IPG: Family information could not be found for node MIFPGA_ACT2_RESET_L
+!IPG: Family information could not be found for node MIFPGA_BOARD_ID<0>
+!IPG: Family information could not be found for node MIFPGA_BOARD_ID<1>
+!IPG: Family information could not be found for node MIFPGA_BRD_REV<0>
+!IPG: Family information could not be found for node MIFPGA_BRD_REV<1>
+!IPG: Family information could not be found for node MIFPGA_CPU_INT_L
+!IPG: Family information could not be found for node MIFPGA_INIT_DONE
+!IPG: Family information could not be found for node MIFPGA_LED_CTRL
+!IPG: Family information could not be found for node MIFPGA_POR_L
+!IPG: Family information could not be found for node P1V8_EN
+!IPG: Family information could not be found for node P1V8_PG
+!IPG: Family information could not be found for node P2V5RT1_EN
+!IPG: Family information could not be found for node P2V5RT1_PGOOD
+!IPG: Family information could not be found for node P2V5RT2_EN
+!IPG: Family information could not be found for node P2V5RT2_PGOOD
+!IPG: Family information could not be found for node P3V3_GPS_EN
+!IPG: Family information could not be found for node P3V3_GPS_PG
+!IPG: Family information could not be found for node PCH_MIFPGA_PERST_L
+!IPG: Family information could not be found for node QSFP_SDA<0>
+!IPG: Family information could not be found for node QSFP_SDA<1>
+!IPG: Family information could not be found for node QSFP_SDA<2>
+!IPG: Family information could not be found for node QSFP_SDA<3>
+!IPG: Family information could not be found for node QSFP_SDA<4>
+!IPG: Family information could not be found for node QSFP_SDA<5>
+!IPG: Family information could not be found for node RC_P1V8_CPU_TRIM
+!IPG: Family information could not be found for node RT1_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT1_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT1_MDIO_SCL
+!IPG: Family information could not be found for node RT1_MDIO_SDA
+!IPG: Family information could not be found for node RT1_RESET_L
+!IPG: Family information could not be found for node RT2_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT2_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT2_MDIO_SCL
+!IPG: Family information could not be found for node RT2_MDIO_SDA
+!IPG: Family information could not be found for node RT2_RESET_L
+!IPG: Family information could not be found for node RT3_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT3_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT3_MDIO_SCL
+!IPG: Family information could not be found for node RT3_MDIO_SDA
+!IPG: Family information could not be found for node RT3_RESET_L
+!IPG: Family information could not be found for node RT4_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT4_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT4_MDIO_SCL
+!IPG: Family information could not be found for node RT4_MDIO_SDA
+!IPG: Family information could not be found for node RT4_RESET_L
+!IPG: Family information could not be found for node RT5_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT5_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT5_MDIO_SCL
+!IPG: Family information could not be found for node RT5_MDIO_SDA
+!IPG: Family information could not be found for node RT5_RESET_L
+!IPG: Family information could not be found for node RT6_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT6_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT6_MDIO_SCL
+!IPG: Family information could not be found for node RT6_MDIO_SDA
+!IPG: Family information could not be found for node RT6_RESET_L
+!IPG: Family information could not be found for node RT7_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT7_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT7_MDIO_SCL
+!IPG: Family information could not be found for node RT7_MDIO_SDA
+!IPG: Family information could not be found for node RT7_RESET_L
+!IPG: Family information could not be found for node RT8_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT8_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT8_MDIO_SCL
+!IPG: Family information could not be found for node RT8_MDIO_SDA
+!IPG: Family information could not be found for node RT8_RESET_L
+!IPG: Family information could not be found for node RT9_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node RT9_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node RT9_MDIO_SCL
+!IPG: Family information could not be found for node RT9_MDIO_SDA
+!IPG: Family information could not be found for node RT9_RESET_L
+!IPG: Family information could not be found for node RXRATE_SFP_SHIFT_DATA
+!IPG: Family information could not be found for node RXRATE_SFP_SHIFT_OE_L
+!IPG: Family information could not be found for node RXRATE_SFP_SHIFT_RST_L
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<33>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<34>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<33>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<34>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<33>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<34>
+!IPG: Family information could not be found for node SRT_CLK_10M_UTC_ZR_IN
+!IPG: Family information could not be found for node SRT_CLK_MIFPGA_ZL_1PPS
+!IPG: Family information could not be found for node SRT_DPLL_SCL_SYNCE_SPI_CLK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD1_CLK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD1_SPI_SCK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD2_CLK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD2_SPI_SCK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD3_CLK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD3_SPI_SCK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD4_CLK
+!IPG: Family information could not be found for node SRT_FPGA_CPLD4_SPI_SCK
+!IPG: Family information could not be found for node SRT_FPGA_OSC_SCL
+!IPG: Family information could not be found for node SRT_FPGA_SNDN_I2C_CLK
+!IPG: Family information could not be found for node SRT_IO_MI_SPARE2
+!IPG: Family information could not be found for node SRT_IO_MI_SPARE3
+!IPG: Family information could not be found for node SRT_MI_CRCERR
+!IPG: Family information could not be found for node SRT_MI_IO_DATA
+!IPG: Family information could not be found for node SRT_MIFPGA_I2C0_SCL
+!IPG: Family information could not be found for node SRT_MIFPGA_OK
+!IPG: Family information could not be found for node SRT_MIFPGA_PMBUS_SCL
+!IPG: Family information could not be found for node SRT_QSFP_SCL<0>
+!IPG: Family information could not be found for node SRT_QSFP_SCL<1>
+!IPG: Family information could not be found for node SRT_QSFP_SCL<2>
+!IPG: Family information could not be found for node SRT_QSFP_SCL<3>
+!IPG: Family information could not be found for node SRT_QSFP_SCL<4>
+!IPG: Family information could not be found for node SRT_QSFP_SCL<5>
+!IPG: Family information could not be found for node SRT_RT_DOWNLINK_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node SRT_RT_DOWNLINK_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node SRT_RT_UPLINK_M4_0_3_SYNCE_CLK
+!IPG: Family information could not be found for node SRT_RT_UPLINK_M4_4_7_SYNCE_CLK
+!IPG: Family information could not be found for node SRT_RXRATE_SFP_R_CLK
+!IPG: Family information could not be found for node SRT_RXRATE_SFP_SHIFT_STORE
+!IPG: Family information could not be found for node SRT_SFP0_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP1_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP2_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP3_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP4_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP5_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP6_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP7_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP8_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP9_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP10_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP11_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP12_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP13_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP14_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP15_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP16_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP17_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP18_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP19_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP20_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP21_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP22_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP23_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP24_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP25_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP26_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP27_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP28_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP29_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP30_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP31_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP32_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP33_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP34_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP35_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP36_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP37_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP38_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP39_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP40_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP41_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP42_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP43_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP44_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP45_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP46_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_SFP47_I2C_SCL_EDGE
+!IPG: Family information could not be found for node SRT_TXRATE_SFP_R_CLK
+!IPG: Family information could not be found for node SRT_TXRATE_SFP_SHIFT_STORE
+!IPG: Family information could not be found for node TI_CABLE_PRSNT
+!IPG: Family information could not be found for node TOD_RELAY_CTL0
+!IPG: Family information could not be found for node TOD_RELAY_CTL1
+!IPG: Family information could not be found for node TOD_RS422_RXD_EN_L
+!IPG: Family information could not be found for node TOD_RS422_TXD
+!IPG: Family information could not be found for node TOD_RS422_TXD_EN
+!IPG: Family information could not be found for node TW_SILAB_103_RESET_L
+!IPG: Family information could not be found for node TXRATE_SFP_SHIFT_DATA
+!IPG: Family information could not be found for node TXRATE_SFP_SHIFT_OE_L
+!IPG: Family information could not be found for node TXRATE_SFP_SHIFT_RST_L
+!IPG: Family information could not be found for node UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL0
+!IPG: Family information could not be found for node UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL1
+!IPG: Family information could not be found for node UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL2
+!IPG: Family information could not be found for node UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL3
+!IPG: Family information could not be found for node UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL4
+!IPG: Family information could not be found for node CLK_1_PPS_UTC_MIFPGA_IN
+!IPG: Family information could not be found for node CLK_1PPS_RS422_RXD
+!IPG: Family information could not be found for node CLK_ZL_MIFPGA_1PPS
+!IPG: Family information could not be found for node DPLL_SDA_SYNCE_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_OSC_SDA
+!IPG: Family information could not be found for node MIFPGA_I2C0_SDA
+!IPG: Family information could not be found for node MIFPGA_PMBUS_SDA
+!IPG: Family information could not be found for node P1V0RT1_AVDD_PGOOD
+!IPG: Family information could not be found for node P1V0RT1_DVDD_PGOOD
+!IPG: Family information could not be found for node P1V0RT2_AVDD_PGOOD
+!IPG: Family information could not be found for node P1V0RT2_DVDD_PGOOD
+!IPG: Family information could not be found for node P1V0RT_AVDD_EN
+!IPG: Family information could not be found for node P1V0RT_DVDD_EN
+!IPG: Family information could not be found for node P3V3_EN
+!IPG: Family information could not be found for node P3V3_PG
+!IPG: Family information could not be found for node P3V3_SFP_EN
+!IPG: Family information could not be found for node P5V_EN
+!IPG: Family information could not be found for node P5V_PG
+!IPG: Family information could not be found for node PMBUS_ALERT_L
+!IPG: Family information could not be found for node SFP0_P3V3_PG
+!IPG: Family information could not be found for node SFP1_P3V3_PG
+!IPG: Family information could not be found for node SILAB_TW_103_INT_L
+!IPG: Family information could not be found for node SILAB_TW_103_LOL
+!IPG: Family information could not be found for node SNDN_CORE_EN
+!IPG: Family information could not be found for node SNDN_P0V9_EN
+!IPG: Family information could not be found for node SNDN_VDDHA_1P2V_EN
+!IPG: Family information could not be found for node TEMPSENSE_ALERT_L
+!IPG: Family information could not be found for node TOD_RS422_RXD
+!IPG: Family information could not be found for node VDD_0P875V_PG
+!IPG: Family information could not be found for node VDDA_0P9V_PG
+!IPG: Family information could not be found for node VDDHA_P1V2_PG
+end connect
+

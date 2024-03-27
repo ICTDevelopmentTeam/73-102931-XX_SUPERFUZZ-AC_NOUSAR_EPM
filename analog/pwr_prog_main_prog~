@@ -1,0 +1,39 @@
+!!!!    2    0    1 1680737762  V6df6                                         
+test powered analog; Values
+
+   disconnect all
+!  connect i to nodes "P12V"
+!  connect i to nodes "P3V3_STBY"
+
+   !Partes
+!  connect i to nodes "P2_5VA"            !u1_a
+!  connect i to nodes "P3_3VA"            !u3_a
+!  connect i to nodes "P1_1VA"            !u1_a
+
+   !Partes Programadas
+!  connect i to nodes "VDDHA_1P2V_MAIN"   !u1_1v2s
+!  connect i to nodes "P3V3_SFP0"         !u1_sf0
+!  connect i to nodes "P3V3_SFP1"         !u1_sf1
+!  connect i to nodes "P5V"               !U15_5V
+!  connect i to nodes "P3_3V"             !U16_3V3
+
+!  connect i to nodes "P2V5RT1"
+!  connect i to nodes "P2V5RT2"
+!  connect i to nodes "P1V0RT2_AVDD"
+!  connect i to nodes "P1V0RT2_DVDD"
+!  connect i to nodes "P0_9V"
+!  connect i to nodes "P1V0RT1_AVDD"
+!  connect i to nodes "P1V8"
+!  connect i to nodes "ANT_5V"
+   connect i to nodes "P3V3_GPS"
+!  connect i to nodes "P1V0RT1_DVDD"
+
+   connect l to ground
+   detector dcv, expect  3.3         !Setup Detector
+   !arm detector                     !Turn on Detector
+   !measure 3.5,3.1
+   initiate detector
+   fetch Values                      !Fetch result without logging dat
+
+end test
+! *********************

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519017  V5ee8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:00 2022
+disconnect all
+connect s to "PWR_P3V3_QSFP_P2_Q1"
+connect i to "UNNAMED_4_NMOSFET_I218_D_Q1"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r5_q1" test.

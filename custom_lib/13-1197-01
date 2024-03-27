@@ -1,0 +1,13 @@
+!!!!   21    2    1 1552361905  V286d                                         
+!
+diode "cr", 900m, 400m
+
+external pins 1
+   device  "cr"  pins "A"
+
+external pins 3
+   device  "cr"  pins "C"
+
+external pins 2
+
+

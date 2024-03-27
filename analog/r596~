@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520929  Va558                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "MIFPGA_CRCERR" ;  a to "MIFPGA_CRCERR"
+connect i to "SRT_MI_CRCERR" ;  b to "SRT_MI_CRCERR"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r596" is a limited test.

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521681  V5a60                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:53 2022
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_4080_QS3VH257_I170_I0D"
+!B!resistor 130, 13.85, 10.00, re3, ar1.00
+resistor 130,30.0,20.00,re3,ar100m
+! "r64" test.

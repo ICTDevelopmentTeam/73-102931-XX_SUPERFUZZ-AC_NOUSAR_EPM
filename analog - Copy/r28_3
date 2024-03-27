@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863908   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:29 2022
+disconnect all
+connect s to "P1V8"
+connect i to "FUSE_FSRC_3"
+jumper 10.0k, re4, wb, ar100m, op
+! "r28_3" test.

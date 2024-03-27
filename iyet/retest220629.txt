@@ -1,0 +1,4374 @@
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:42:26 2022
+----------------------------------------
+c13_98_5 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   1856.6u
+Nominal:    5896.0u
+High Limit: 7959.6u
+Low Limit:  3537.6u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_98_5 560u
+c30_5 560u
+c31_5 560u
+c32_5 560u
+c33_5 560u
+c34_5 560u
+c35_5 560u
+c11_98_5 100u
+c12_98_5 100u
+c417_3 22.0u
+c421_3 22.0u
+c425_3 22.0u
+c426_3 22.0u
+c429_3 22.0u
+c430_3 22.0u
+c433_3 22.0u
+c434_3 22.0u
+c437_3 22.0u
+c438_3 22.0u
+c441_3 22.0u
+c442_3 22.0u
+c445_3 22.0u
+c446_3 22.0u
+c449_3 22.0u
+c450_3 22.0u
+c453_3 22.0u
+c454_3 22.0u
+c457_3 22.0u
+c460_3 22.0u
+c640_3 22.0u
+c644_3 22.0u
+c646_3 22.0u
+c650_3 22.0u
+c652_3 22.0u
+c656_3 22.0u
+c658_3 22.0u
+c662_3 22.0u
+c663_3 22.0u
+c666_3 22.0u
+c668_3 22.0u
+c671_3 22.0u
+c673_3 22.0u
+c676_3 22.0u
+c678_3 22.0u
+c681_3 22.0u
+c683_3 22.0u
+c686_3 22.0u
+c687_3 22.0u
+c690_3 22.0u
+c174_3 4.70u
+c175_3 4.70u
+c176_3 4.70u
+c177_3 4.70u
+c178_3 4.70u
+c179_3 4.70u
+c180_3 4.70u
+c181_3 4.70u
+c182_3 4.70u
+c183_3 4.70u
+c184_3 4.70u
+c185_3 4.70u
+c186_3 4.70u
+c187_3 4.70u
+c188_3 4.70u
+c189_3 4.70u
+c190_3 4.70u
+c191_3 4.70u
+c192_3 4.70u
+c193_3 4.70u
+c194_3 4.70u
+c195_3 4.70u
+c196_3 4.70u
+c197_3 4.70u
+c198_3 4.70u
+c199_3 4.70u
+c200_3 4.70u
+c371_3 4.70u
+c375_3 4.70u
+c379_3 4.70u
+c383_3 4.70u
+c387_3 4.70u
+c391_3 4.70u
+c395_3 4.70u
+c399_3 4.70u
+c403_3 4.70u
+c407_3 4.70u
+c411_3 4.70u
+c416_3 4.70u
+c463_3 4.70u
+c465_3 4.70u
+c467_3 4.70u
+c469_3 4.70u
+c471_3 4.70u
+c473_3 4.70u
+c475_3 4.70u
+c613_3 4.70u
+c617_3 4.70u
+c621_3 4.70u
+c624_3 4.70u
+c627_3 4.70u
+c630_3 4.70u
+c633_3 4.70u
+c637_3 4.70u
+c667_3 4.70u
+c672_3 4.70u
+c674_3 4.70u
+c677_3 4.70u
+c682_3 4.70u
+c201_3 1.00u
+c202_3 1.00u
+c203_3 1.00u
+c204_3 1.00u
+c205_3 1.00u
+c206_3 1.00u
+c207_3 1.00u
+c208_3 1.00u
+c209_3 1.00u
+c210_3 1.00u
+c211_3 1.00u
+c212_3 1.00u
+c213_3 1.00u
+c214_3 1.00u
+c215_3 1.00u
+c216_3 1.00u
+c217_3 1.00u
+c218_3 1.00u
+c219_3 1.00u
+c220_3 1.00u
+c221_3 1.00u
+c222_3 1.00u
+c223_3 1.00u
+c224_3 1.00u
+c225_3 1.00u
+c226_3 1.00u
+c227_3 1.00u
+c369_3 1.00u
+c373_3 1.00u
+c377_3 1.00u
+c381_3 1.00u
+c385_3 1.00u
+c389_3 1.00u
+c393_3 1.00u
+c424_3 1.00u
+c428_3 1.00u
+c432_3 1.00u
+c436_3 1.00u
+c440_3 1.00u
+c444_3 1.00u
+c452_3 1.00u
+c456_3 1.00u
+c459_3 1.00u
+c462_3 1.00u
+c588_3 1.00u
+c645_3 1.00u
+c651_3 1.00u
+c657_3 1.00u
+c679_3 1.00u
+c684_3 1.00u
+c688_3 1.00u
+c753_3 470n
+c754_3 470n
+c755_3 470n
+c756_3 470n
+c757_3 470n
+c244_3 100n
+c245_3 100n
+c246_3 100n
+c247_3 100n
+c248_3 100n
+c249_3 100n
+c250_3 100n
+c251_3 100n
+c252_3 100n
+c253_3 100n
+c254_3 100n
+c255_3 100n
+c256_3 100n
+c257_3 100n
+c258_3 100n
+c259_3 100n
+c260_3 100n
+c261_3 100n
+c262_3 100n
+c263_3 100n
+c264_3 100n
+c265_3 100n
+c266_3 100n
+c267_3 100n
+c268_3 100n
+c269_3 100n
+c270_3 100n
+c271_3 100n
+c272_3 100n
+c273_3 100n
+c368_3 100n
+c372_3 100n
+c376_3 100n
+c380_3 100n
+c384_3 100n
+c388_3 100n
+c392_3 100n
+c396_3 100n
+c397_3 100n
+c400_3 100n
+c401_3 100n
+c404_3 100n
+c405_3 100n
+c408_3 100n
+c409_3 100n
+c412_3 100n
+c413_3 100n
+c418_3 100n
+c422_3 100n
+c604_3 100n
+c612_3 100n
+c616_3 100n
+c620_3 100n
+c02_5 3.30n
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   22.345k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:42:41 2022
+----------------------------------------
+c13_98_5 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   3053.2u
+Nominal:    5896.0u
+High Limit: 7959.6u
+Low Limit:  3537.6u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_98_5 560u
+c30_5 560u
+c31_5 560u
+c32_5 560u
+c33_5 560u
+c34_5 560u
+c35_5 560u
+c11_98_5 100u
+c12_98_5 100u
+c417_3 22.0u
+c421_3 22.0u
+c425_3 22.0u
+c426_3 22.0u
+c429_3 22.0u
+c430_3 22.0u
+c433_3 22.0u
+c434_3 22.0u
+c437_3 22.0u
+c438_3 22.0u
+c441_3 22.0u
+c442_3 22.0u
+c445_3 22.0u
+c446_3 22.0u
+c449_3 22.0u
+c450_3 22.0u
+c453_3 22.0u
+c454_3 22.0u
+c457_3 22.0u
+c460_3 22.0u
+c640_3 22.0u
+c644_3 22.0u
+c646_3 22.0u
+c650_3 22.0u
+c652_3 22.0u
+c656_3 22.0u
+c658_3 22.0u
+c662_3 22.0u
+c663_3 22.0u
+c666_3 22.0u
+c668_3 22.0u
+c671_3 22.0u
+c673_3 22.0u
+c676_3 22.0u
+c678_3 22.0u
+c681_3 22.0u
+c683_3 22.0u
+c686_3 22.0u
+c687_3 22.0u
+c690_3 22.0u
+c174_3 4.70u
+c175_3 4.70u
+c176_3 4.70u
+c177_3 4.70u
+c178_3 4.70u
+c179_3 4.70u
+c180_3 4.70u
+c181_3 4.70u
+c182_3 4.70u
+c183_3 4.70u
+c184_3 4.70u
+c185_3 4.70u
+c186_3 4.70u
+c187_3 4.70u
+c188_3 4.70u
+c189_3 4.70u
+c190_3 4.70u
+c191_3 4.70u
+c192_3 4.70u
+c193_3 4.70u
+c194_3 4.70u
+c195_3 4.70u
+c196_3 4.70u
+c197_3 4.70u
+c198_3 4.70u
+c199_3 4.70u
+c200_3 4.70u
+c371_3 4.70u
+c375_3 4.70u
+c379_3 4.70u
+c383_3 4.70u
+c387_3 4.70u
+c391_3 4.70u
+c395_3 4.70u
+c399_3 4.70u
+c403_3 4.70u
+c407_3 4.70u
+c411_3 4.70u
+c416_3 4.70u
+c463_3 4.70u
+c465_3 4.70u
+c467_3 4.70u
+c469_3 4.70u
+c471_3 4.70u
+c473_3 4.70u
+c475_3 4.70u
+c613_3 4.70u
+c617_3 4.70u
+c621_3 4.70u
+c624_3 4.70u
+c627_3 4.70u
+c630_3 4.70u
+c633_3 4.70u
+c637_3 4.70u
+c667_3 4.70u
+c672_3 4.70u
+c674_3 4.70u
+c677_3 4.70u
+c682_3 4.70u
+c201_3 1.00u
+c202_3 1.00u
+c203_3 1.00u
+c204_3 1.00u
+c205_3 1.00u
+c206_3 1.00u
+c207_3 1.00u
+c208_3 1.00u
+c209_3 1.00u
+c210_3 1.00u
+c211_3 1.00u
+c212_3 1.00u
+c213_3 1.00u
+c214_3 1.00u
+c215_3 1.00u
+c216_3 1.00u
+c217_3 1.00u
+c218_3 1.00u
+c219_3 1.00u
+c220_3 1.00u
+c221_3 1.00u
+c222_3 1.00u
+c223_3 1.00u
+c224_3 1.00u
+c225_3 1.00u
+c226_3 1.00u
+c227_3 1.00u
+c369_3 1.00u
+c373_3 1.00u
+c377_3 1.00u
+c381_3 1.00u
+c385_3 1.00u
+c389_3 1.00u
+c393_3 1.00u
+c424_3 1.00u
+c428_3 1.00u
+c432_3 1.00u
+c436_3 1.00u
+c440_3 1.00u
+c444_3 1.00u
+c452_3 1.00u
+c456_3 1.00u
+c459_3 1.00u
+c462_3 1.00u
+c588_3 1.00u
+c645_3 1.00u
+c651_3 1.00u
+c657_3 1.00u
+c679_3 1.00u
+c684_3 1.00u
+c688_3 1.00u
+c753_3 470n
+c754_3 470n
+c755_3 470n
+c756_3 470n
+c757_3 470n
+c244_3 100n
+c245_3 100n
+c246_3 100n
+c247_3 100n
+c248_3 100n
+c249_3 100n
+c250_3 100n
+c251_3 100n
+c252_3 100n
+c253_3 100n
+c254_3 100n
+c255_3 100n
+c256_3 100n
+c257_3 100n
+c258_3 100n
+c259_3 100n
+c260_3 100n
+c261_3 100n
+c262_3 100n
+c263_3 100n
+c264_3 100n
+c265_3 100n
+c266_3 100n
+c267_3 100n
+c268_3 100n
+c269_3 100n
+c270_3 100n
+c271_3 100n
+c272_3 100n
+c273_3 100n
+c368_3 100n
+c372_3 100n
+c376_3 100n
+c380_3 100n
+c384_3 100n
+c388_3 100n
+c392_3 100n
+c396_3 100n
+c397_3 100n
+c400_3 100n
+c401_3 100n
+c404_3 100n
+c405_3 100n
+c408_3 100n
+c409_3 100n
+c412_3 100n
+c413_3 100n
+c418_3 100n
+c422_3 100n
+c604_3 100n
+c612_3 100n
+c616_3 100n
+c620_3 100n
+c02_5 3.30n
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   19.846k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:42:45 2022
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   19.871k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:42:49 2022
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   19.846k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:46:20 2022
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   20.545k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:46:28 2022
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   20.266k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:46:32 2022
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   20.227k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 09:46:36 2022
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   20.262k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FCZ
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 09:54:48 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<24>         21605 Open
+                r1_s1.1
+               rn33_s1.3
+           rn33_s1%pin_3_6.1
+                u49.Y15
+To:     v                     22328
+UNNAMED_3_RES_I174_B_S1                 
+                r1_s1.2
+               sfp_s1.A4
+Common Devices:
+                 r1_s1
+Message is:
+Check R1_S1
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FC1\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 09:57:41 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<24>         21605 Open
+                r1_s1.1
+               rn33_s1.3
+           rn33_s1%pin_3_6.1
+                u49.Y15
+To:     v                     22328
+UNNAMED_3_RES_I174_B_S1                 
+                r1_s1.2
+               sfp_s1.A4
+Common Devices:
+                 r1_s1
+Message is:
+Check R1_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: TSEN2_RTV1              21748   26
+              r5_98_rtv1.1
+               r06_rtv1.1
+To:   TSEN_R_98              219164   26
+              r5_98_rtv1.2
+             u1_98_rtv1.36
+Common Devices:
+               r5_98_rtv1
+Message is:
+Check R5_98_RTV1
+------End, 2 Problems Reported----------
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 09:57:48 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<24>         21605   35
+                r1_s1.1
+               rn33_s1.3
+           rn33_s1%pin_3_6.1
+                u49.Y15
+To:     v                     22328   35 
+UNNAMED_3_RES_I174_B_S1                 
+                r1_s1.2
+               sfp_s1.A4
+Common Devices:
+                 r1_s1
+Message is:
+Check R1_S1
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FAK\\\\\\\\\
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 10:03:22 2022
+----------------------------------------
+c06_91_rtv2 HAS FAILED
+11-2845-01 CAP,CE,0.47uF,16V,10%,X7R,SM,
+Measured:   0.63486u
+Nominal:    0.47000u
+High Limit: 0.63450u
+Low Limit:  0.28200u
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FC2
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 10:30:32 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: qsfp_sda<4>             11635   25
+                r7_q2.1
+                rn2_q2.2
+            rn2_q2%pin_2_7.1
+                u49.F16
+To:     v                     11437   25 
+UNNAMED_4_RES_I229_B_Q2                 
+              qsfp_q2.A12
+                r7_q2.2
+Common Devices:
+                 r7_q2
+Message is:
+Check R7_Q2
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FBK
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 10:30:41 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: qsfp_sda<4>             11635   32
+                r7_q2.1
+                rn2_q2.2
+            rn2_q2%pin_2_7.1
+                u49.F16
+To:     v                     11437   32 
+UNNAMED_4_RES_I229_B_Q2                 
+              qsfp_q2.A12
+                r7_q2.2
+Common Devices:
+                 r7_q2
+Message is:
+Check R7_Q2
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FBK
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 11:15:22 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<5>_S1  11974   25
+                c20_s1.1
+                c84_s1.1
+                l38_s1.1
+               sfp_s1.F15
+To:   PWR_FUSED_SFP<5>_S1     11776   25
+               c119_s1.1
+               c124_s1.1
+                f5_s1.1
+                l33_s1.2
+                l38_s1.2
+Common Devices:
+                 l38_s1
+Message is:
+Check L38_S1
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FBQ\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 12:42:47 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    119165   38
+UNNAMED_5_RES_I177_A_S1                 
+                r11_s1.1
+               sfp_s1.K4
+To:   i2c_sda_sfp<33>        117175   38
+                r11_s1.2
+               rn54_s1.3
+           rn54_s1%pin_3_6.1
+                u49.V12
+Common Devices:
+                 r11_s1
+Message is:
+Check R11_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<36>         11770   48
+                r17_s1.1
+               rn63_s1.3
+           rn63_s1%pin_3_6.1
+                u49.V13
+To:     v                     11967   48 
+UNNAMED_6_RES_I178_B_S1                 
+                r17_s1.2
+               sfp_s1.N4
+Common Devices:
+                 r17_s1
+Message is:
+Check R17_S1
+------End, 2 Problems Reported----------
+Board #: 0 
+Version:
+S/N:FDO26261FB3\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 12:47:59 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610   99
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036   99
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FB1
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 12:48:08 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  361
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036  361
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FB1
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 12:52:39 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   46
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258   46
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FDK\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:07:34 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    110166 Open
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+To:   p3_3v                   10756
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+Common Devices:
+                  l115
+Message is:
+Check L115
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FDG\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:08:30 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<0>             11547   26
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+To:   srt_qsfp_scl<0>        221152   26
+                 r878.2
+                u49.A12
+Common Devices:
+                  r878
+Message is:
+Check R878
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 13:08:58 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   148.25p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 13:09:07 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   148.18p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 13:09:11 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   146.86p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 13:09:15 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   147.20p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:23:48 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<24>         21605 Open
+                r1_s1.1
+               rn33_s1.3
+           rn33_s1%pin_3_6.1
+                u49.Y15
+To:     v                     22328
+UNNAMED_3_RES_I174_B_S1                 
+                r1_s1.2
+               sfp_s1.A4
+Common Devices:
+                 r1_s1
+Message is:
+Check R1_S1
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FAV\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:24:04 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    109157 Open
+JTAG_TDO_RT8_TDI_RT9_2V5                
+                 r111.2
+                 r123.2
+                 r289.1
+              u2_rt7_8.B8
+To:   JTAG_TDO_RT8_RT9_2V5RT  10857
+                 r124.1
+                 r289.2
+               u1_rt9.B9
+Common Devices:
+                  r289
+Message is:
+Check R289
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FAV\\\\\\\\\
+----------------------------------------
+TestJet Report for "testjet".
+Wed Jun 29 13:25:03 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 28.1             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBT
+----------------------------------------
+TestJet Report for "testjet".
+Wed Jun 29 13:25:10 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 27.5             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBT
+----------------------------------------
+TestJet Report for "testjet".
+Wed Jun 29 13:25:16 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 27.5             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBT
+----------------------------------------
+TestJet Report for "testjet".
+Wed Jun 29 13:25:22 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 27.7             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBT
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:31:11 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<0>             11547   28
+                r6_q0.1
+                 r878.1
+                rn2_q0.1
+            rn2_q0%pin_1_8.1
+To:   srt_qsfp_scl<0>        221152   28
+                 r878.2
+                u49.A12
+Common Devices:
+                  r878
+Message is:
+Check R878
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FD2\\\\\\\\\
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 13:33:54 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    110166 Open
+fltr_p3v3_osc_212m_buf_vcc              
+                 c454.2
+                 c455.2
+                 c456.2
+                 c457.2
+                 l115.1
+                 u28.18
+                 u28.20
+To:   p3_3v                   10756
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+Common Devices:
+                  l115
+Message is:
+Check L115
+------End, 1 Problem Reported-----------
+Board #: 0 
+Version:
+S/N:FDO26261FD3\\\\\\\\\
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 14:31:42 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   673.40
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FB0
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 14:31:47 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   683.50
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FB0
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 14:31:51 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   684.52
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FB0
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 14:41:48 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FB0
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:05:42 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FB0
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:09:23 2022
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   74.648k
+Nominal:    100.00k
+High Limit: 125.00k
+Low Limit:  75.000k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FDJ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:09:32 2022
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   73.637k
+Nominal:    100.00k
+High Limit: 125.00k
+Low Limit:  75.000k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FDJ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:09:35 2022
+----------------------------------------
+r577 HAS FAILED
+12-2544-02 RES,TKF,100 k ohm,0.063W,1%,S
+Measured:   73.567k
+Nominal:    100.00k
+High Limit: 125.00k
+Low Limit:  75.000k
+Resistance in OHMS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FDJ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:12:54 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FDJ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 16:16:11 2022
+----------------------------------------
+r29_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Nominal:    1.0000k
+High Limit: 1.1000k
+Low Limit:  700.00
+Resistance in OHMS
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBM
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:00:19 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   146.11p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:00:28 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   146.07p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:00:32 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   145.81p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:00:36 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   145.73p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBW
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:06:19 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   474.68p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FAZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:06:27 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   474.85p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FAZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:06:32 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   474.82p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FAZ
+----------------------------------------
+73-102898-01_03
+Wed Jun 29 17:06:36 2022
+----------------------------------------
+c389 HAS FAILED
+11-1970-02 CAP,CE,270pF,50V,X7R,10%,SM,0
+Measured:   474.89p
+Nominal:    270.00p
+High Limit: 364.50p
+Low Limit:  175.50p
+Capacitance in FARADS
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FAZ
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jun 29 17:12:30 2022
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_CPU_SA_LN1_N    202116    1
+                 p4.A7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_CPU_SA_LN1_P     20216    1
+                 p4.B7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #3, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_CPU_SA_LN3_N     20225    1
+                 p4.B8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #4, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_CPU_SA_LN3_P    202124    1
+                 p4.C8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #5, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_SA_CPU_LN2_P    202122    1
+                 p4.H6
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #6, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_SA_CPU_LN3_N    202121    1
+                 p4.H8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #7, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_SA_CPU_LN2_N    202118    1
+                 p4.J6
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #8, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_SA_CPU_LN3_P     20221    1
+                 p4.J8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #9, Thresh 800, Delay 50us    Ohms
+From: HSD_PE_CPU_SA_LN2_N    202117    1
+                 p4.E8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #10, Thresh 800, Delay 50us   Ohms
+From: HSD_PE_SA_CPU_LN1_P     20223    1
+                 p4.E6
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #11, Thresh 800, Delay 50us   Ohms
+From: HSD_PE_SA_CPU_LN1_N    202123    1
+                 p4.F6
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #12, Thresh 800, Delay 50us   Ohms
+From: HSD_PE_CPU_SA_LN2_P    202125    1
+                 p4.F8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #13, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<38>     11566    1
+               rn65_s1.2
+           rn65_s1%pin_2_7.1
+               sfp_s1.R8
+                 u37.59
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #14, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<14>_S1       107127    1
+               rn50_s1.6
+           rn50_s1%pin_3_6.2
+               sfp_s1.R9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #15, Thresh 800, Delay 50us   Ohms
+From: tod_relay_ctl0          20861    1
+                 j7.18
+                u49.U26
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #16, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<40>   115157    1
+               rn69_s1.1
+           rn69_s1%pin_1_8.1
+               sfp_s1.U6
+                 u37.40
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #17, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<12>_S1       107126    1
+               rn50_s1.8
+           rn50_s1%pin_1_8.2
+               sfp_s1.N9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #18, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<40>     11662    1
+               rn69_s1.2
+           rn69_s1%pin_2_7.1
+               sfp_s1.U8
+                 u37.76
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #19, Thresh 24, Delay 50us    Ohms
+From:   v                    114151    1
+UNNAMED_17_RES_I378_B_S1                
+                r50_s1.2
+               sfp_s1.U5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #20, Thresh 800, Delay 50us   Ohms
+From:   v                     10831    1
+fpga_sfp_tx_disable<40>                 
+               sfp_s1.U3
+                 u37.39
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #21, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<40>  114163    1
+               rn109_s1.1
+           rn109_s1%pin_1_8.1
+               sfp_s1.U2
+                 u37.38
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #22, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<36>    115170    1
+               rn63_s1.2
+           rn63_s1%pin_2_7.1
+               sfp_s1.N8
+                u37.125
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #23, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<12>_S1        10823    1
+               rn68_s1.8
+           rn68_s1%pin_1_8.2
+               sfp_s1.N7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #24, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<16>_S1        11023    1
+               rn104_s1.8
+           rn104_s1%pin_1_8.2
+               sfp_s1.U7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #25, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<14>_S1        10923    1
+               rn68_s1.6
+           rn68_s1%pin_3_6.2
+               sfp_s1.R7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #26, Thresh 17, Delay 50us    Ohms
+From: clk_10m_zr_out         113178    1
+                 j7.32
+                 r166.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #27, Thresh 25, Delay 50us    Ohms
+From:   v                     11455    1
+UNNAMED_6_RES_I171_B_S1                 
+                r18_s1.2
+               sfp_s1.N5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #28, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<16>_S1        10754    1
+               rn103_s1.8
+           rn103_s1%pin_1_8.2
+               sfp_s1.U9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #29, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<9>_S1         10858    1
+               rn59_s1.7
+           rn59_s1%pin_2_7.2
+               sfp_s1.K9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #30, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<33>     22117    1
+               rn54_s1.2
+           rn54_s1%pin_2_7.1
+               sfp_s1.K8
+                u49.N12
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #31, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<38>    11766    1
+               rn65_s1.1
+           rn65_s1%pin_1_8.1
+               sfp_s1.R6
+                 u37.57
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #32, Thresh 24, Delay 50us    Ohms
+From:   v                    222135    1
+UNNAMED_6_RES_I173_B_S1                 
+                r22_s1.2
+               sfp_s1.R5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #33, Thresh 800, Delay 50us   Ohms
+From: tod_relay_ctl1          20961    1
+                 j7.20
+                u49.P26
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #34, Thresh 800, Delay 50us   Ohms
+From: qsfp_mod_abs<0>        107131    1
+                c8_q0.1
+                q1_q0.2
+              qsfp_q0.A27
+                rn2_q0.3
+            rn2_q0%pin_3_6.1
+                u1_q0.4
+                u38.112
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #35, Thresh 800, Delay 50us   Ohms
+From:   v                     11029    1
+fpga_sfp_tx_disable<38>                 
+               sfp_s1.R3
+                 u37.67
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #36, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<9>_S1        107123    1
+               rn58_s1.7
+           rn58_s1%pin_2_7.2
+               sfp_s1.K7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #37, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<41>   11463    1
+               rn109_s1.2
+           rn109_s1%pin_2_7.1
+               sfp_s1.V2
+                 u37.73
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #38, Thresh 800, Delay 50us   Ohms
+From:   v                    110145    1
+fpga_sfp_tx_disable<41>                 
+               sfp_s1.V3
+                 u37.82
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #39, Thresh 24, Delay 50us    Ohms
+From:   v                    222136    1
+UNNAMED_17_RES_I376_A_S1                
+                r52_s1.1
+               sfp_s1.V5
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #40, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<36>   117170    1
+               rn63_s1.1
+           rn63_s1%pin_1_8.1
+               sfp_s1.N6
+                u37.127
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #41, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<35>    115173    1
+               rn56_s1.2
+           rn56_s1%pin_2_7.1
+               sfp_s1.M8
+                u37.114
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #42, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<37>   11457    1
+               rn67_s1.2
+           rn67_s1%pin_2_7.1
+               sfp_s1.P2
+                u37.139
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #43, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<36>   11669    1
+               rn67_s1.1
+           rn67_s1%pin_1_8.1
+               sfp_s1.N2
+                u37.121
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #44, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<39>    11365    1
+               rn66_s1.1
+           rn66_s1%pin_1_8.1
+               sfp_s1.T6
+                 u37.50
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #45, Thresh 800, Delay 50us   Ohms
+From:   v                    210146    1
+clk_gnss_fpga_10m_utc_con               
+                 j7.19
+                u49.R20
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #46, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<11>_S1        10723    1
+               rn58_s1.5
+           rn58_s1%pin_4_5.2
+               sfp_s1.M7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #47, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<35>   117173    1
+               rn56_s1.1
+           rn56_s1%pin_1_8.1
+               sfp_s1.M6
+                u37.117
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #48, Thresh 24, Delay 50us    Ohms
+From:   v                    222134    1
+UNNAMED_5_RES_I174_A_S1                 
+                r16_s1.1
+               sfp_s1.M5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #49, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<15>_S1       110123    1
+               rn68_s1.5
+           rn68_s1%pin_4_5.2
+               sfp_s1.T7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #50, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<39>    116164    1
+               rn66_s1.2
+           rn66_s1%pin_2_7.1
+               sfp_s1.T8
+                 u37.48
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #51, Thresh 800, Delay 50us   Ohms
+From:   v                     10941    1
+fpga_sfp_tx_disable<35>                 
+               sfp_s1.M3
+                u37.111
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #52, Thresh 800, Delay 50us   Ohms
+From:   v                     21047    1
+clk_gnss_fpga_1_utc_con                 
+                 j7.23
+                u49.P20
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #53, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<13>_S1        10726    1
+               rn50_s1.7
+           rn50_s1%pin_2_7.2
+               sfp_s1.P9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #54, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<37>     11569    1
+               rn64_s1.2
+           rn64_s1%pin_2_7.1
+               sfp_s1.P8
+                u37.141
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #55, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<35>  114157    1
+               rn57_s1.4
+           rn57_s1%pin_4_5.1
+               sfp_s1.M2
+                u37.112
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #56, Thresh 800, Delay 50us   Ohms
+From:   v                    208147    1
+clk_con_fpga_10m_utc_in                 
+                 j7.28
+                u49.T21
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #57, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<15>_S1       107154    1
+               rn50_s1.5
+           rn50_s1%pin_4_5.2
+               sfp_s1.T9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #58, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<38>  114158    1
+               rn67_s1.3
+           rn67_s1%pin_3_6.1
+               sfp_s1.R2
+                 u37.65
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #59, Thresh 800, Delay 50us   Ohms
+From:   v                     11048    1
+fpga_sfp_tx_disable<37>                 
+               sfp_s1.P3
+                u37.138
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #60, Thresh 25, Delay 50us    Ohms
+From:   v                     11353    1
+UNNAMED_6_RES_I174_A_S1                 
+                r24_s1.1
+               sfp_s1.T5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #61, Thresh 800, Delay 50us   Ohms
+From:   v                     10934    1
+fpga_sfp_tx_disable<39>                 
+               sfp_s1.T3
+                 u37.49
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #62, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<39>  114168    1
+               rn67_s1.4
+           rn67_s1%pin_4_5.1
+               sfp_s1.T2
+                 u37.54
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #63, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<10>_S1        10725    1
+               rn59_s1.6
+           rn59_s1%pin_3_6.2
+               sfp_s1.L9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #64, Thresh 800, Delay 50us   Ohms
+From: sfp_rx_los_fpga<34>     11958    1
+               rn55_s1.2
+           rn55_s1%pin_2_7.1
+               sfp_s1.L8
+                u49.D10
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #65, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<10>_S1       108123    1
+               rn58_s1.6
+           rn58_s1%pin_3_6.2
+               sfp_s1.L7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #66, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<34>   119158    1
+               rn55_s1.1
+           rn55_s1%pin_1_8.1
+               sfp_s1.L6
+                u49.D16
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #67, Thresh 23, Delay 50us    Ohms
+From:   v                    222133    1
+UNNAMED_5_RES_I173_B_S1                 
+                r14_s1.2
+               sfp_s1.L5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #68, Thresh 800, Delay 50us   Ohms
+From: SFP_RS0_R<13>_S1       109123    1
+               rn68_s1.7
+           rn68_s1%pin_2_7.2
+               sfp_s1.P7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #69, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<37>    11769    1
+               rn64_s1.1
+           rn64_s1%pin_1_8.1
+               sfp_s1.P6
+                u37.143
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #70, Thresh 25, Delay 50us    Ohms
+From:   v                     11453    1
+UNNAMED_6_RES_I172_A_S1                 
+                r20_s1.1
+               sfp_s1.P5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #71, Thresh 800, Delay 50us   Ohms
+From:   v                    109138    1
+fpga_sfp_tx_disable<36>                 
+               sfp_s1.N3
+                u37.128
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #72, Thresh 800, Delay 50us   Ohms
+From: SFP_RS1_R<11>_S1       108157    1
+               rn59_s1.5
+           rn59_s1%pin_4_5.2
+               sfp_s1.M9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #73, Thresh 800, Delay 50us   Ohms
+From: sfp_tx_fault_fpga<34>   11977    1
+               rn57_s1.3
+           rn57_s1%pin_3_6.1
+               sfp_s1.L2
+                u49.E16
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #74, Thresh 800, Delay 50us   Ohms
+From:   v                     20561    1
+fpga_sfp_tx_disable<34>                 
+               sfp_s1.L3
+                u49.M10
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #75, Thresh 800, Delay 50us   Ohms
+From: qsfp_mod_abs<4>         10731    1
+                c8_q2.1
+                q1_q2.2
+              qsfp_q2.A27
+                rn2_q2.3
+            rn2_q2%pin_3_6.1
+                u1_q2.4
+                 u38.78
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #76, Thresh 800, Delay 50us   Ohms
+From: sfp_mod_abs_fpga<41>    11364    1
+               rn94_s1.1
+           rn94_s1%pin_1_8.1
+               sfp_s1.V6
+                 u37.81
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #77, Thresh 32, Delay 50us    Ohms
+From:   v                     20908    1
+CAP_CLK156M25_BUF_MM_SIDE_REFCLK_P      
+                 c173.2
+                 c463.2
+                 r175.2
+                 r181.2
+                 r192.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #78, Thresh 800, Delay 50us   Ohms
+From:   v                     10570    1
+ac_clk_10m_zl_si5326_out                
+                 c147.1
+                 u56.16
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #79, Thresh 45, Delay 50us    Ohms
+From:   v                     10569    1
+SRT_CLK_10M_ZL_SI5326_OUT               
+                 c147.2
+                 r245.2
+                 r247.2
+                 r250.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #80, Thresh 800, Delay 50us   Ohms
+From:   v                    108175    1
+clk103m_dav_core_refclk_p               
+                 c169.1
+                 r567.2
+                 r568.1
+                 u33.4
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #81, Thresh 800, Delay 50us   Ohms
+From: AC_SNDN_CLK103M_P       10574    1
+                 c169.2
+                r1086.2
+                 u52.4
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #82, Thresh 800, Delay 50us   Ohms
+From:   v                     10876    1
+clk103m_dav_core_refclk_n               
+                 c170.1
+                 r565.2
+                 r575.1
+                 u33.1
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #83, Thresh 800, Delay 50us   Ohms
+From: AC_SNDN_CLK103M_N       10573    1
+                 c170.2
+                r1085.2
+                 u52.5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #84, Thresh 800, Delay 50us   Ohms
+From:   v                     20903    1
+CLK156M25_BUF_MM_BOT_REFCLK_P           
+                 c171.1
+               u1_3.AP13
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #85, Thresh 800, Delay 50us   Ohms
+From:   v                    209103    1
+CLK156M25_BUF_MM_BOT_REFCLK_N           
+                 c172.1
+               u1_3.AR13
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #86, Thresh 800, Delay 50us   Ohms
+From:   v                     21001    1
+CLK156M25_BUF_MM_SIDE_REFCLK_P          
+                 c173.1
+               u1_3.AR28
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #87, Thresh 800, Delay 50us   Ohms
+From:   v                    210101    1
+CLK156M25_BUF_MM_SIDE_REFCLK_N          
+                 c174.1
+               u1_3.AP28
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #88, Thresh 800, Delay 50us   Ohms
+From: UNNAMED_54_CAP_I57_A   217116    1
+                 c77.2
+                 r73.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #89, Thresh 33, Delay 50us    Ohms
+From:   v                    210104    1
+CAP_CLK156M25_BUF_MM_SIDE_REFCLK_N      
+                 c174.2
+                 c462.2
+                 r173.2
+                 r182.2
+                 r191.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #90, Thresh 800, Delay 50us   Ohms
+From:   v                     10877    1
+CLK156M25_BUF_MM_TOP_REFCLK_P           
+                 c175.1
+                u1_3.G15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #91, Thresh 33, Delay 50us    Ohms
+From:   v                     10776    1
+CAP_CLK156M25_BUF_MM_TOP_REFCLK_P       
+                 c175.2
+                 c461.2
+                 r172.2
+                 r183.2
+                 r190.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #92, Thresh 800, Delay 50us   Ohms
+From:   v                    108177    1
+CLK156M25_BUF_MM_TOP_REFCLK_N           
+                 c176.1
+                u1_3.H15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #93, Thresh 32, Delay 50us    Ohms
+From:   v                    209107    1
+CAP_CLK156M25_BUF_MM_TOP_REFCLK_N       
+                 c176.2
+                 c460.2
+                 r171.2
+                 r184.2
+                 r189.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #94, Thresh 800, Delay 50us   Ohms
+From:   v                     20902    1
+CLK212M_BUF_FC_BOT_REFCLK_P             
+                 c177.1
+               u1_3.AP15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #95, Thresh 32, Delay 50us    Ohms
+From:   v                     21004    1
+CAP_CLK212M_BUF_MM_BOT_REFCLK_P         
+                 c177.2
+                 c453.2
+                 r149.2
+                 r150.2
+                 r160.1
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #96, Thresh 800, Delay 50us   Ohms
+From:   v                    209102    1
+CLK212M_BUF_FC_BOT_REFCLK_N             
+                 c178.1
+               u1_3.AR15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #97, Thresh 31, Delay 50us    Ohms
+From:   v                    208108    1
+CAP_CLK212M_BUF_MM_BOT_REFCLK_N         
+                 c178.2
+                 c452.2
+                 r148.2
+                 r151.2
+                 r159.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #98, Thresh 800, Delay 50us   Ohms
+From: unnamed_4144_cap_i71_b  10968    1
+                 c146.1
+                 r244.2
+                 u56.17
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #99, Thresh 33, Delay 50us    Ohms
+From: CLK156M_RT8_N          113156    1
+              c140_rt7_8.2
+                 c153.2
+                 r330.2
+                 r361.2
+                 r389.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #100, Thresh 800, Delay 50us  Ohms
+From: gnss_reset_l           208161    1
+                  j7.1
+                u49.P21
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #101, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT6_N          113161    1
+              c140_rt5_6.2
+                 c309.2
+                 r370.2
+                 r406.2
+                 r440.1
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #102, Thresh 21, Delay 50us   Ohms
+From: clk212m_osc_p           20812    1
+                 c88.2
+                 r493.2
+                 r496.1
+                 r610.2
+                 u28.16
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #103, Thresh 800, Delay 50us  Ohms
+From:   v                    221128    1
+UNNAMED_4141_CAP_I132_A                 
+                 c110.2
+                 u87.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #104, Thresh 31, Delay 50us   Ohms
+From: CLK156M_RT1_P          214103    1
+              c131_rt1_2.2
+                 c314.2
+                 r381.2
+                 r413.2
+                 r445.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #105, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT3_P          214102    1
+              c131_rt3_4.2
+                 c160.2
+                 r337.2
+                 r375.2
+                 r398.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #106, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT5_P           11354    1
+              c131_rt5_6.2
+                 c308.2
+                 r371.2
+                 r405.2
+                 r439.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #107, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT7_P           11355    1
+              c131_rt7_8.2
+                 c150.2
+                 r329.2
+                 r362.2
+                 r388.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #108, Thresh 800, Delay 50us  Ohms
+From: gnss_rxd_a             209161    1
+                  j7.9
+                u49.P22
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #109, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT1_N          214105    1
+              c132_rt1_2.2
+                 c313.2
+                 r382.2
+                 r410.2
+                 r444.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #110, Thresh 800, Delay 50us  Ohms
+From: gnss_txd_a              21161    1
+                  j7.7
+                u49.U25
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #111, Thresh 31, Delay 50us   Ohms
+From: CLK156M_RT3_N           21403    1
+              c132_rt3_4.2
+                 c159.2
+                 r336.2
+                 r376.2
+                 r396.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #112, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT5_N          113154    1
+              c132_rt5_6.2
+                 c307.2
+                 r372.2
+                 r404.2
+                 r436.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #113, Thresh 34, Delay 50us   Ohms
+From: CLK156M_RT7_N          113155    1
+              c132_rt7_8.2
+                 c149.2
+                 r328.2
+                 r363.2
+                 r387.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #114, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT2_P           21404    1
+              c139_rt1_2.2
+                 c158.2
+                 r335.2
+                 r379.2
+                 r395.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #115, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT4_P           21402    1
+              c139_rt3_4.2
+                 c162.2
+                 r339.2
+                 r373.2
+                 r401.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #116, Thresh 34, Delay 50us   Ohms
+From: CLK156M_RT6_P           11361    1
+              c139_rt5_6.2
+                 c310.2
+                 r364.2
+                 r407.2
+                 r441.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #117, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT8_P           11356    1
+              c139_rt7_8.2
+                 c154.2
+                 r331.2
+                 r359.2
+                 r391.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #118, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT2_N          214104    1
+              c140_rt1_2.2
+                 c157.2
+                 r334.2
+                 r380.2
+                 r394.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #119, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT4_N           21401    1
+              c140_rt3_4.2
+                 c161.2
+                 r338.2
+                 r374.2
+                 r400.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #120, Thresh 800, Delay 50us  Ohms
+From: gps_los_l               21061    1
+                  j7.3
+                u49.R26
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #121, Thresh 800, Delay 50us  Ohms
+From:   v                     21002    1
+CLK212M_BUF_FC_SIDE_REFCLK_P            
+                 c179.1
+               u1_3.AP31
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #122, Thresh 31, Delay 50us   Ohms
+From:   v                     20808    1
+CAP_CLK212M_BUF_MM_SIDE_REFCLK_P        
+                 c179.2
+                 c467.2
+                 r180.2
+                 r196.1
+                 r212.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #123, Thresh 800, Delay 50us  Ohms
+From:   v                    210102    1
+CLK212M_BUF_FC_SIDE_REFCLK_N            
+                 c180.1
+               u1_3.AP30
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #124, Thresh 130, Delay 50us  Ohms
+From:   v                    214108    1
+clk156m25_rt_bufin_lower_refclk_n       
+                 c334.1
+                 r342.2
+                 r353.1
+                 u17.14
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #125, Thresh 800, Delay 50us  Ohms
+From: unnamed_31_cap_i42_a    21615    1
+                 c344.2
+                 r514.1
+                 u33.11
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #126, Thresh 800, Delay 50us  Ohms
+From: sndn_core_clk_vt0      108174    1
+                 c358.1
+                 r518.2
+                 r519.1
+                 r520.1
+                 u33.3
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #127, Thresh 800, Delay 50us  Ohms
+From:   v                     10576    1
+CLK103M_DAV_SNDN1_CORE_REFCLK_P         
+                 c359.1
+                u1_3.K1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #128, Thresh 800, Delay 50us  Ohms
+From:   v                    105176    1
+CLK103M_DAV_SNDN1_CORE_REFCLK_N         
+                 c360.1
+                u1_3.K2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #129, Thresh 800, Delay 50us  Ohms
+From: sndn_core_clk_vt1       10873    1
+                 c361.1
+                 r517.2
+                 r521.1
+                 r522.1
+                 u33.15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #130, Thresh 800, Delay 50us  Ohms
+From:   v                    216115    1
+UNNAMED_4141_CAP_I112_B                 
+                 c389.1
+                 u3.11
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #131, Thresh 800, Delay 50us  Ohms
+From: P1V8_FB                 20413    1
+                 c401.1
+                 r399.2
+                 r932.2
+                 r933.2
+                  u3.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #132, Thresh 800, Delay 50us  Ohms
+From: sb_therm_an_p          105155    1
+                 c408.1
+                 q27.1
+                 q27.3
+                q27%q.B
+                q27%q.C
+                 u72.5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #133, Thresh 800, Delay 50us  Ohms
+From: sb_therm_ca_n          105154    1
+                 c408.2
+                 q27.2
+                q27%q.E
+                 u72.6
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #134, Thresh 800, Delay 50us  Ohms
+From: UNNAMED_4141_CAP_I91_A 217112    1
+                 c578.2
+                 r306.2
+                r1844.1
+                 u1_a.5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #135, Thresh 22, Delay 50us   Ohms
+From: srt_io_mi2_strobe_bmc   21124    1
+                 c598.1
+                 r140.2
+                 u40.8
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #136, Thresh 800, Delay 50us  Ohms
+From:   v                    211105    1
+AC_PCIE_100MHZ_REFCLK_P_1               
+                 c727.1
+                r1009.1
+                r1012.2
+                u1_3.H31
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #137, Thresh 91, Delay 50us   Ohms
+From:   v                     20815    1
+sndn_pcie_100mhz_refclk_p               
+                 c727.2
+                r1021.2
+                r1039.2
+                 u63.3
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #138, Thresh 800, Delay 50us  Ohms
+From:   v                     21106    1
+AC_PCIE_100MHZ_REFCLK_N_1               
+                 c728.1
+                r1010.1
+                r1011.2
+                u1_3.H30
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #139, Thresh 91, Delay 50us   Ohms
+From:   v                     20816    1
+sndn_pcie_100mhz_refclk_n               
+                 c728.2
+                r1022.2
+                r1040.2
+                 u63.4
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #140, Thresh 800, Delay 50us  Ohms
+From: unnamed_4144_cap_i65_b 104176    1
+                c1242.1
+                 u56.12
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #141, Thresh 32, Delay 50us   Ohms
+From:   v                     21407    1
+CAP_CLK156M25_RT_BUFIN_LOWER_REFCLK_N   
+                 c334.2
+                 c341.2
+                 r505.2
+                 r511.2
+                 r526.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #142, Thresh 31, Delay 50us   Ohms
+From:   v                     21010    1
+CAP_CLK156M25_RT_BUFIN_LOWER_REFCLK_P   
+                 c333.2
+                 c340.2
+                 r504.2
+                 r510.2
+                 r525.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #143, Thresh 32, Delay 50us   Ohms
+From:   v                     21003    1
+CAP_CLK212M_BUF_MM_SIDE_REFCLK_N        
+                 c180.2
+                 c466.2
+                 r179.2
+                 r186.2
+                 r195.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #144, Thresh 132, Delay 50us  Ohms
+From:   v                     21408    1
+clk156m25_rt_bufin_lower_refclk_p       
+                 c333.1
+                 r343.2
+                 r354.1
+                 u17.13
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #145, Thresh 800, Delay 50us  Ohms
+From:   v                     10878    1
+CLK212M_BUF_FC_TOP_REFCLK_P             
+                 c181.1
+                u1_3.H17
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #146, Thresh 33, Delay 50us   Ohms
+From:   v                    108176    1
+CAP_CLK212M_BUF_MM_TOP_REFCLK_P         
+                 c181.2
+                 c465.2
+                 r178.2
+                 r187.2
+                 r194.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #147, Thresh 800, Delay 50us  Ohms
+From:   v                    108178    1
+CLK212M_BUF_FC_TOP_REFCLK_N             
+                 c182.1
+                u1_3.G17
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #148, Thresh 31, Delay 50us   Ohms
+From:   v                     20807    1
+CAP_CLK212M_BUF_MM_TOP_REFCLK_N         
+                 c182.2
+                 c464.2
+                 r176.2
+                 r188.2
+                 r193.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #149, Thresh 800, Delay 50us  Ohms
+From:   v                     21514    1
+UNNAMED_4141_CAP_I133_B                 
+                 c186.1
+                 u87.11
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #150, Thresh 800, Delay 50us  Ohms
+From: PMOD_DIF_RC_5V         221144    1
+               c217_5v.1
+               r948_5v.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #151, Thresh 800, Delay 50us  Ohms
+From: PMOD_VDIF_5V            22144    1
+               c217_5v.2
+               r938_5v.1
+               u15_5v.10
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #152, Thresh 800, Delay 50us  Ohms
+From: PMOD_FB_5V             219114    1
+               c219_5v.1
+               c220_5v.1
+                r15_5v.2
+               r938_5v.2
+               r948_5v.2
+                u15_5v.8
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #153, Thresh 800, Delay 50us  Ohms
+From: PMOD_COMP_5V           221142    1
+               c219_5v.2
+               r931_5v.1
+                u15_5v.9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #154, Thresh 800, Delay 50us  Ohms
+From: PMOD_COMP_RC_5V         22143    1
+               c220_5v.2
+               r931_5v.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #155, Thresh 800, Delay 50us  Ohms
+From:   v                    114178    1
+ac_clk25m_mi0_sync_e_refclk_n           
+                 c230.1
+                 r20.2
+                 r22.1
+                u49.G14
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #156, Thresh 33, Delay 50us   Ohms
+From:   v                     11478    1
+ac_clk25m_mi0_sync_e_refclk_p           
+                 c231.1
+                 r19.2
+                 r21.1
+                u49.G15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #157, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT0_N          214106    1
+                 c311.2
+                 r384.2
+                 r408.2
+                 r442.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #158, Thresh 30, Delay 50us   Ohms
+From: CLK156M_RT0_P           21406    1
+                 c312.2
+                 r383.2
+                 r409.2
+                 r443.1
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #159, Thresh 133, Delay 50us  Ohms
+From:   v                     11362    1
+clk156m25_rt_bufin_upper_refclk_p       
+                 c331.1
+                 r341.2
+                 r346.1
+                 u13.13
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #160, Thresh 31, Delay 50us   Ohms
+From:   v                     20910    1
+CAP_CLK156M25_RT_BUFIN_UPPER_REFCLK_P   
+                 c331.2
+                 c339.2
+                 r502.2
+                 r509.2
+                 r524.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #161, Thresh 133, Delay 50us  Ohms
+From:   v                    113162    1
+clk156m25_rt_bufin_upper_refclk_n       
+                 c332.1
+                 r340.2
+                 r345.1
+                 u13.14
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #162, Thresh 33, Delay 50us   Ohms
+From:   v                    113163    1
+CAP_CLK156M25_RT_BUFIN_UPPER_REFCLK_N   
+                 c332.2
+                 c338.2
+                 r503.2
+                 r508.2
+                 r523.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #163, Thresh 21, Delay 50us   Ohms
+From: clk212m_osc_n          208112    1
+                 c87.2
+                 r492.2
+                 r495.1
+                 r611.2
+                 u28.17
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #164, Thresh 800, Delay 50us  Ohms
+From: UNNAMED_54_CAP_I55_A    21716    1
+                 c76.2
+                 r73.1
+                 u11.8
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #165, Thresh 800, Delay 50us  Ohms
+From: SFP_RS0_R<17>_S1       107124    1
+               rn104_s1.7
+           rn104_s1%pin_2_7.2
+               sfp_s1.V7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #166, Thresh 800, Delay 50us  Ohms
+From: VDD_BOOT_91             20564    1
+             c06_91_rtv1.2
+             u1_91_rtv1.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #167, Thresh 23, Delay 50us   Ohms
+From:   v                    222132    1
+UNNAMED_5_RES_I172_A_S1                 
+                r12_s1.1
+               sfp_s1.K5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #168, Thresh 547, Delay 50us  Ohms
+From:   v                     21532    1
+unnamed_7_cap_i276_b_rtv1               
+               c03_rtv1.1
+               r09_rtv1.2
+               r10_rtv1.2
+               u1_rtv1.38
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #169, Thresh 548, Delay 50us  Ohms
+From:   v                     21503    1
+unnamed_7_cap_i276_b_rtv2               
+               c03_rtv2.1
+               r09_rtv2.2
+               r10_rtv2.2
+               u1_rtv2.38
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #170, Thresh 800, Delay 50us  Ohms
+From: unnamed_7_cap_i279_b_5 215103    1
+                c04_5.1
+                r24_5.2
+                r25_5.2
+                u1_5.37
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #171, Thresh 800, Delay 50us  Ohms
+From:   v                    215132    1
+unnamed_7_cap_i279_b_rtv1               
+               c04_rtv1.1
+               r24_rtv1.2
+               r25_rtv1.2
+               u1_rtv1.37
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #172, Thresh 800, Delay 50us  Ohms
+From:   v                     21504    1
+unnamed_7_cap_i279_b_rtv2               
+               c04_rtv2.1
+               r24_rtv2.2
+               r25_rtv2.2
+               u1_rtv2.37
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #173, Thresh 800, Delay 50us  Ohms
+From: VBST1_6                215167    1
+                 c5_6.2
+                 u1_6.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #174, Thresh 800, Delay 50us  Ohms
+From: UNNAMED_2_CAP_I486_A_A  21667    1
+                 c5_a.2
+                 u1_a.2
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #175, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_2             203152    1
+               c06_91_5.2
+               u1_91_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #176, Thresh 800, Delay 50us  Ohms
+From: VDD_BOOT                10555    1
+             c06_91_rtv2.2
+             u1_91_rtv2.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #177, Thresh 800, Delay 50us  Ohms
+From: UNNAMED_54_CAP_I56_A   109125    1
+                 c75.2
+                 u11.13
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #178, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_92            203153    1
+               c06_92_5.2
+               u1_92_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #179, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_93             20354    1
+               c06_93_5.2
+               u1_93_5.33
+To:   PMOD_BOOTR_1V2S         10558    1
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #180, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_94             10552    1
+               c06_94_5.2
+               u1_94_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #181, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_95            105151    1
+               c06_95_5.2
+               u1_95_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #182, Thresh 800, Delay 50us  Ohms
+From: vdd_boot_96            105148    1
+               c06_96_5.2
+               u1_96_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #183, Thresh 800, Delay 50us  Ohms
+From: VDD_BOOT_3             105156    1
+               c06_98_5.2
+               u1_98_5.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #184, Thresh 800, Delay 50us  Ohms
+From: VDD_BOOT_98            220170    1
+             c06_98_rtv1.2
+             u1_98_rtv1.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #185, Thresh 800, Delay 50us  Ohms
+From: VDD_BOOT_1              10551    1
+             c06_98_rtv2.2
+             u1_98_rtv2.33
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #186, Thresh 800, Delay 50us  Ohms
+From: VREG5_6                215152    1
+                 c7_6.2
+                 u1_6.9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #187, Thresh 552, Delay 50us  Ohms
+From: unnamed_7_cap_i276_b_5 215101    1
+                c03_5.1
+                r09_5.2
+                r10_5.2
+                u1_5.38
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #188, Thresh 33, Delay 50us   Ohms
+From: CLK156M_RT9_N          113157    1
+                c2_rt9.2
+                 c155.2
+                 r332.2
+                 r357.2
+                 r392.1
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #189, Thresh 800, Delay 50us  Ohms
+From: UNNAMED_2_CAP_I487_A_A  20447    1
+                 c2_a.2
+                u1_a.15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #190, Thresh 800, Delay 50us  Ohms
+From: VBST2_6                 21567    1
+                 c2_6.2
+                u1_6.15
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #191, Thresh 800, Delay 50us  Ohms
+From: sfp_rx_los_fpga<41>    116161    1
+               rn94_s1.2
+           rn94_s1%pin_2_7.1
+               sfp_s1.V8
+                 u37.77
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #192, Thresh 800, Delay 50us  Ohms
+From: SFP_RS1_R<17>_S1       107152    1
+               rn103_s1.7
+           rn103_s1%pin_2_7.2
+               sfp_s1.V9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #193, Thresh 800, Delay 50us  Ohms
+From: gnss_rxd_b             211161    1
+                 j7.15
+                u49.W25
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #194, Thresh 800, Delay 50us  Ohms
+From: gnss_txd_b             210161    1
+                 j7.13
+                u49.N25
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #195, Thresh 800, Delay 50us  Ohms
+From: sfp_tx_fault_fpga<42>   11462    1
+               rn109_s1.3
+           rn109_s1%pin_3_6.1
+               sfp_s1.W2
+                 u37.84
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #196, Thresh 800, Delay 50us  Ohms
+From:   v                    110144    1
+fpga_sfp_tx_disable<42>                 
+               sfp_s1.W3
+                 u37.83
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #197, Thresh 24, Delay 50us   Ohms
+From:   v                     11449    1
+UNNAMED_17_RES_I314_B_S1                
+                r54_s1.2
+               sfp_s1.W5
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #198, Thresh 800, Delay 50us  Ohms
+From: sfp_mod_abs_fpga<42>    11557    1
+               rn97_s1.1
+           rn97_s1%pin_1_8.1
+               sfp_s1.W6
+                 u37.94
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #199, Thresh 800, Delay 50us  Ohms
+From: SFP_RS0_R<18>_S1        10724    1
+               rn104_s1.6
+           rn104_s1%pin_3_6.2
+               sfp_s1.W7
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #200, Thresh 800, Delay 50us  Ohms
+From: sfp_rx_los_fpga<42>     11658    1
+               rn97_s1.2
+           rn97_s1%pin_2_7.1
+               sfp_s1.W8
+                 u37.92
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    3
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+----------------------------------------
+Short #201, Thresh 800, Delay 50us  Ohms
+From: SFP_RS1_R<18>_S1        11024    1
+               rn103_s1.6
+           rn103_s1%pin_3_6.2
+               sfp_s1.W9
+To:   PMOD_BOOTR_1V2S         10558    2
+               c10_1v2s.1
+               r11_1v2s.1
+      PMOD_BOOT_1V2S         105161    2
+               r11_1v2s.2
+               u1_1v2s.6
+No common devices.
+Total of 3 nodes, Message is:  None.
+------End, 201 Problems Reported--------
+Board #: 0 
+Version:
+S/N:FDO26261FBT
+----------------------------------------
+TestJet Report for "testjet".
+Wed Jun 29 17:13:04 2022
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 57  Node clk156m_rt1_sync_e_p
+  Measured 29.5             (BRC 214101)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26261FBT

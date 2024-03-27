@@ -1,0 +1,818 @@
+!!!!    6    0    1 1489824933  V1687                                         
+!
+!***  All contents copyright 2007 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:             ADT7462
+! Alias:
+! Part Type:             VLSI
+! Description:           Fan Controller, Temperature and Voltage Monitor
+! Manufacturer:          Analog Devices
+! Package Style:         32 pin QFP
+! Created:               Sep 26, 2007
+! Programmer:            sama
+! Tester:                HP3070
+! Processor:             VPU
+! Vector Format:         VCL
+! Testjet Testable:      yes
+! JTAG Device:           no
+! Fault coverage:        73%
+! Pins Not Fully Tested: 7,13,17,18,19,21,30
+! Constraints:           Select the correct Slave address at 'sub WR_CMD'
+!                        and 'sub RD_CMD'
+!                        During power up -
+!                        Pin ADD = Float - Slave Addr = $B8 and $B9
+!                        Pin ADD = Low   - Slave Addr = $B0 and $B1
+! Cisco Part #:          15-10738-01
+
+sequential
+
+vector cycle 10u
+receive delay 8u
+
+assign VCC   to pins 5
+assign GND   to pins 6,33
+
+assign V1P8  to pins 23
+assign V3P3  to pins 25
+assign VBAT  to pins 26
+assign V2P5  to pins 24
+
+assign RSTB  to pins 14                  ! ** ok
+assign ADD   to pins 11                  ! ** ok
+assign SDA   to pins 10                  ! ** ok
+assign SCL   to pins 9                   ! ** ok
+assign ALRTB to pins 12                  ! ** ok
+assign GPIO1 to pins 1     ! TACH1       ! ** ok
+assign GPIO2 to pins 2     ! TACH2       ! ** ok
+assign GPIO3 to pins 3     ! TACH3       ! ** ok
+assign GPIO4 to pins 4     ! TACH4       ! ** ok
+assign TACH5 to pins 7     ! 12V
+assign TACH6 to pins 8                   ! ** ok
+assign TACH7 to pins 21    ! 5.15V
+assign TACH8 to pins 22                  ! ** ok
+assign PWM4  to pins 13
+assign PWM3  to pins 30
+assign GPIO6 to pins 32    ! PWM2        ! ** ok
+assign GPIO5 to pins 31    ! PWM1        ! ** ok
+assign D3P   to pins 19
+assign D3N   to pins 20    ! SCSI_TERM2  ! ** ok
+assign D2P   to pins 17
+assign D2N   to pins 18
+assign D1P   to pins 15                  ! ** ok
+assign D1N   to pins 16    ! SCSI_TERM1  ! ** ok
+assign GPIO8 to pins 29    ! THM2B       ! ** ok
+assign GPIO7 to pins 28    ! THM1B       ! ** ok
+assign F2MXB to pins 27    ! CI          ! ** ok
+
+power   VCC,GND
+inputs  RSTB,ADD,SCL,GPIO1,GPIO2
+inputs  D3P,D3N,D2P,D2N,D1P
+inputs  D1N,GPIO3,GPIO4,TACH5,TACH6
+inputs  TACH7,TACH8
+inputs  GPIO7,GPIO8,F2MXB,GPIO6,GPIO5
+outputs ALRTB,PWM3
+bidirectional SDA,PWM4
+nondigital V1P8,V3P3,VBAT,V2P5
+
+disable SDA,PWM4 with RSTB to "0"
+
+family LVT
+
+set ref  on pins 15 to dh 2.5, dl 0.0  ! D1P
+set ref  on pins 19 to dh 1.2, dl 0.0  ! D3P
+
+vector INIT1
+ drive SDA
+ set RSTB  to "0"
+ set SDA   to "1"
+ set SCL   to "1"
+ set GPIO1 to "1"
+ set GPIO2 to "1"
+ set GPIO3 to "1"
+ set GPIO4 to "1"
+ set TACH5 to "1"
+ set TACH6 to "1"
+ set TACH7 to "1"
+ set TACH8 to "1"
+ set D3P   to "0"
+ set D3N   to "0"
+ set D2P   to "0"
+ set D2N   to "0"
+ set D1P   to "0"
+ set D1N   to "0"
+ set GPIO8 to "1"
+ set GPIO7 to "1"
+ set F2MXB to "0"
+ set PWM4  to "x"
+ set PWM3  to "x"
+ set GPIO6 to "1"
+ set GPIO5 to "1"
+ set ALRTB to "x"
+end vector
+
+vector KEEP1
+ receive SDA
+ set RSTB  to "k"
+ set SDA   to "x"
+ set SCL   to "k"
+ set GPIO1 to "k"
+ set GPIO2 to "k"
+ set GPIO3 to "k"
+ set GPIO4 to "k"
+ set TACH5 to "k"
+ set TACH6 to "k"
+ set TACH7 to "k"
+ set TACH8 to "k"
+ set D3P   to "k"
+ set D3N   to "k"
+ set D2P   to "k"
+ set D2N   to "k"
+ set D1P   to "k"
+ set D1N   to "k"
+ set GPIO8 to "k"
+ set GPIO7 to "k"
+ set F2MXB to "k"
+ set PWM4  to "x"
+ set PWM3  to "x"
+ set GPIO6 to "k"
+ set GPIO5 to "k"
+ set ALRTB to "x"
+end vector
+
+vector KEEP2
+ drive SDA
+ set RSTB  to "k"
+ set SDA   to "k"
+ set SCL   to "k"
+ set GPIO1 to "k"
+ set GPIO2 to "k"
+ set GPIO3 to "k"
+ set GPIO4 to "k"
+ set TACH5 to "k"
+ set TACH6 to "k"
+ set TACH7 to "k"
+ set TACH8 to "k"
+ set D3P   to "k"
+ set D3N   to "k"
+ set D2P   to "k"
+ set D2N   to "k"
+ set D1P   to "k"
+ set D1N   to "k"
+ set GPIO8 to "k"
+ set GPIO7 to "k"
+ set F2MXB to "k"
+ set PWM4  to "x"
+ set PWM3  to "x"
+ set GPIO6 to "k"
+ set GPIO5 to "k"
+ set ALRTB to "x"
+end vector
+
+vector RSTB_0
+ initialize to KEEP2
+ set RSTB   to "0"
+end vector
+
+vector RSTB_1
+ initialize to KEEP2
+ set RSTB   to "1"
+end vector
+
+vector GPIO_0
+ initialize to KEEP2
+ set GPIO1 to "0"
+ set GPIO2 to "0"
+ set GPIO3 to "0"
+ set GPIO4 to "0"
+ set GPIO5 to "0"
+ set GPIO6 to "0"
+ set GPIO7 to "0"
+ set GPIO8 to "0"
+end vector
+
+vector GPIO_1
+ initialize to KEEP2
+ set GPIO1 to "1"
+ set GPIO2 to "1"
+ set GPIO3 to "1"
+ set GPIO4 to "1"
+ set GPIO5 to "1"
+ set GPIO6 to "1"
+ set GPIO7 to "1"
+ set GPIO8 to "1"
+end vector
+
+vector TACH8_0
+ initialize to KEEP2
+ set TACH8  to "0"
+end vector
+
+vector TACH8_1
+ initialize to KEEP2
+ set TACH8  to "1"
+end vector
+
+vector TACH7_0
+ initialize to KEEP2
+ set TACH7  to "0"
+end vector
+
+vector TACH7_1
+ initialize to KEEP2
+ set TACH7  to "1"
+end vector
+
+vector TACH6_0
+ initialize to KEEP2
+ set TACH6  to "0"
+end vector
+
+vector TACH6_1
+ initialize to KEEP2
+ set TACH6  to "x"
+end vector
+
+vector TACH5_0
+ initialize to KEEP2
+ set TACH5  to "0"
+end vector
+
+vector TACH5_1
+ initialize to KEEP2
+ set TACH5  to "1"
+end vector
+
+vector F2MXB_0
+ initialize to KEEP2
+ set F2MXB  to "0"
+end vector
+
+vector F2MXB_1
+ initialize to KEEP2
+ set F2MXB  to "1"
+end vector
+
+vector D3P_0
+ initialize to KEEP2
+ set D3P    to "0"
+end vector
+
+vector D3P_1
+ initialize to KEEP2
+ set D3P    to "1"
+end vector
+
+vector D3N_0
+ initialize to KEEP2
+ set D3N    to "0"
+end vector
+
+vector D3N_1
+ initialize to KEEP2
+ set D3N    to "1"
+end vector
+
+vector D1P_0
+ initialize to KEEP2
+ set D1P    to "0"
+end vector
+
+vector D1P_1
+ initialize to KEEP2
+ set D1P    to "1"
+end vector
+
+vector D1N_0
+ initialize to KEEP2
+ set D1N    to "0"
+end vector
+
+vector D1N_1
+ initialize to KEEP2
+ set D1N    to "1"
+end vector
+
+vector XOR_OUT_0
+ initialize to KEEP2
+ set PWM4   to "0"
+end vector
+
+vector XOR_OUT_1
+ initialize to KEEP2
+ set PWM4   to "1"
+end vector
+
+vector PWM4_0
+ initialize to KEEP2
+ set PWM4   to "0"
+end vector
+
+vector PWM4_1
+ initialize to KEEP2
+ set PWM4   to "1"
+end vector
+
+vector PWM3_0
+ initialize to KEEP2
+ set PWM3   to "0"
+end vector
+
+vector PWM3_1
+ initialize to KEEP2
+ set PWM3   to "1"
+end vector
+
+vector ALRTB_0
+ initialize to KEEP2
+ set ALRTB  to "0"
+end vector
+
+vector ALRTB_1
+ initialize to KEEP2
+ set ALRTB  to "1"
+end vector
+
+! *************************************************************************
+
+vector R_X
+ initialize to KEEP1
+ set SDA    to "x"
+end vector
+
+vector R_0
+ initialize to KEEP1
+ set SDA    to "0"
+end vector
+
+vector R_1
+ initialize to KEEP1
+ set SDA    to "1"
+end vector
+
+vector D_0
+ initialize to KEEP2
+ set SDA    to "0"
+end vector
+
+vector D_1
+ initialize to KEEP2
+ set SDA    to "1"
+end vector
+
+vector SK_10
+ initialize to KEEP1
+ set SCL    to "0"
+end vector
+
+vector SK_11
+ initialize to KEEP1
+ set SCL    to "1"
+end vector
+
+vector SK_20
+ initialize to KEEP2
+ set SCL    to "0"
+end vector
+
+vector SK_21
+ initialize to KEEP2
+ set SCL    to "1"
+end vector
+
+! *************************************************************************
+
+sub IDLE1
+ repeat 40 times
+  execute KEEP2
+ end repeat
+end sub
+
+sub STRT
+ execute D_1
+ execute D_1
+ execute SK_21
+ execute SK_21
+ execute D_0
+ execute D_0
+ execute SK_20
+ execute SK_20
+end sub
+
+sub STOP
+ execute SK_20
+ execute SK_20
+ execute D_0
+ execute D_0
+ execute SK_21
+ execute SK_21
+ execute D_1
+ execute D_1
+end sub
+
+sub WR(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_10
+ execute R_0    ! Acknowledge bit
+ execute SK_11
+ execute SK_10
+end sub
+
+sub WX(D7,D6,D5,D4,D3,D2,D1,D0)  ! Write cycle with Ack bit ignored
+ execute D7
+ execute SK_21
+ execute SK_20
+ execute D6
+ execute SK_21
+ execute SK_20
+ execute D5
+ execute SK_21
+ execute SK_20
+ execute D4
+ execute SK_21
+ execute SK_20
+ execute D3
+ execute SK_21
+ execute SK_20
+ execute D2
+ execute SK_21
+ execute SK_20
+ execute D1
+ execute SK_21
+ execute SK_20
+ execute D0
+ execute SK_21
+ execute SK_10
+ execute R_X    ! Acknowledge bit, ignored
+ execute SK_11
+ execute SK_10
+end sub
+
+sub RD(D7,D6,D5,D4,D3,D2,D1,D0)
+ execute SK_11
+ execute D7
+ execute SK_10
+ execute SK_11
+ execute D6
+ execute SK_10
+ execute SK_11
+ execute D5
+ execute SK_10
+ execute SK_11
+ execute D4
+ execute SK_10
+ execute SK_11
+ execute D3
+ execute SK_10
+ execute SK_11
+ execute D2
+ execute SK_10
+ execute SK_11
+ execute D1
+ execute SK_10
+ execute SK_11
+ execute D0
+ execute SK_10
+ execute D_0    ! Acknowledge bit
+ execute SK_21
+ execute SK_20
+ execute SK_10
+end sub
+
+sub WR_CMD
+ call STRT                                  ! Select one
+!call WR(D_1,D_0,D_1,D_1, D_1,D_0,D_0,D_0)  ! Pin 11, ADD, float
+ call WR(D_1,D_0,D_1,D_1, D_0,D_0,D_0,D_0)  ! Pin 11, ADD, tied low
+end sub
+
+sub RD_CMD
+ call STRT                                  ! Select one
+!call WR(D_1,D_0,D_1,D_1, D_1,D_0,D_0,D_1)  ! Pin 11, ADD, float
+ call WR(D_1,D_0,D_1,D_1, D_0,D_0,D_0,D_1)  ! Pin 11, ADD, tied low
+end sub
+
+sub HRST_IC
+ repeat 120 times
+  execute RSTB_0
+ end repeat
+ repeat 240 times
+  execute RSTB_1
+ end repeat
+end sub
+
+sub SRST_IC
+ call WR_CMD                                ! Software Reset
+ call WR(D_0,D_1,D_1,D_1, D_1,D_0,D_1,D_1)  ! Write $6D to Reg $7B before
+ call WR(D_0,D_1,D_1,D_0, D_1,D_1,D_0,D_1)  ! setting D7 on Config Reg 0
+ call STOP
+ call WR_CMD                                ! Write Config Reg 0
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_0)  ! Addr = $00
+ call WR(D_1,D_0,D_1,D_0, D_0,D_0,D_0,D_0)  ! D7 = 1, SW Reset
+ call STOP
+end sub
+
+sub MASK_ALL
+ call WR_CMD                                ! THRM Mask 1
+ call WR(D_0,D_0,D_1,D_1, D_0,D_0,D_0,D_0)  ! Addr = $30
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_0)
+ call STOP
+ call WR_CMD                                ! THRM Mask 2
+ call WR(D_0,D_0,D_1,D_1, D_0,D_0,D_0,D_1)  ! Addr = $31
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! VOLT Mask 1
+ call WR(D_0,D_0,D_1,D_1, D_0,D_0,D_1,D_0)  ! Addr = $32
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! VOLT Mask 2
+ call WR(D_0,D_0,D_1,D_1, D_0,D_0,D_1,D_1)  ! Addr = $33
+ call WR(D_1,D_1,D_1,D_1, D_1,D_0,D_0,D_0)
+ call STOP
+ call WR_CMD                                ! FAN Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_0)  ! Addr = $34
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! Digital Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_1)  ! Addr = $35
+ call WR(D_1,D_1,D_1,D_1, D_1,D_0,D_0,D_0)
+ call STOP
+ call WR_CMD                                ! CPIO Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_1,D_0)  ! Addr = $36
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)  ! Mask all GPIO
+ call STOP
+ call WR_CMD                                ! EDO Mask 1
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_1,D_1)  ! Addr = $37
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)  ! Mask all GPIO
+ call STOP
+ call WR_CMD                                ! EDO Mask 2
+ call WR(D_0,D_0,D_1,D_1, D_1,D_0,D_0,D_0)  ! Addr = $38
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)  ! Mask all GPIO
+ call STOP
+end sub
+
+! *************************************************************************
+
+unit "I2C Bus and Reset Input test"
+ execute INIT1
+ call HRST_IC                               ! Hardware Reset
+ call WR_CMD                                ! Read Device ID
+ call WR(D_0,D_0,D_1,D_1, D_1,D_1,D_0,D_1)  ! Addr = $3D
+ call STOP
+ call RD_CMD
+ call RD(R_0,R_1,R_1,R_0, R_0,R_0,R_1,R_0)  ! ID = $62
+ call STOP
+ call WR_CMD                                ! Config Reg 3
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_1,D_1)  ! Addr = $03
+ call WR(D_0,D_1,D_0,D_1, D_1,D_1,D_0,D_0)
+ call STOP
+ call RD_CMD                                ! Read back
+ call RD(R_0,R_1,R_0,R_1, R_1,R_1,R_0,R_0)
+ call STOP
+ call HRST_IC                               ! Hardware Reset
+ call WR_CMD                                ! Read Default Config Reg 3
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_1,D_1)  ! Addr = $03
+ call STOP
+ call RD_CMD
+ call RD(R_0,R_0,R_0,R_0, R_0,R_0,R_0,R_0)  ! Data = $00
+ call STOP
+end unit
+
+unit "GPIO Input test"
+ call SRST_IC                               ! Software Reset
+ call MASK_ALL                              ! Mask all interrupts
+ execute ALRTB_1
+ call WR_CMD                                ! Config 3
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_1,D_1)  ! Addr = $03
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_1)  ! Enable GPIO
+ call STOP
+ call WR_CMD                                ! Pin Config 1
+ call WR(D_0,D_0,D_0,D_1, D_0,D_0,D_0,D_0)  ! Addr = $10
+ call WR(D_0,D_1,D_1,D_0, D_0,D_0,D_0,D_0)  ! Pin 1-4 = GPIO, pin 7 = 12V1
+ call STOP
+ call WR_CMD                                ! Pin Config 4
+ call WR(D_0,D_0,D_0,D_1, D_0,D_0,D_1,D_1)  ! Addr = $13
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_0)  ! Pin 29,28,31,32 are GPIO
+ call STOP
+ call WR_CMD                                ! CPIO Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_1,D_0)  ! Addr = $36
+ call WR(D_1,D_1,D_0,D_0, D_0,D_0,D_0,D_0)  ! Un-Mask GPIO
+ call STOP
+ call WR_CMD                                ! Read GPIO Status
+ call WR(D_1,D_0,D_1,D_1, D_1,D_1,D_1,D_1)  ! Addr = $BF
+ call STOP
+ call RD_CMD
+ call RD(R_0,R_0,R_0,R_0, R_0,R_0,R_0,R_0)
+ call STOP
+ execute GPIO_0                             ! Activate all GPIO
+ wait 20m
+ execute ALRTB_0
+ call WR_CMD                                ! Read GPIO Status
+ call WR(D_1,D_0,D_1,D_1, D_1,D_1,D_1,D_1)  ! Addr = $BF
+ call STOP
+ call RD_CMD
+ call RD(R_1,R_1,R_1,R_1, R_1,R_1,R_1,R_1)
+ call STOP
+end unit
+
+unit "F2MXB Input test"
+ execute F2MXB_1                            ! F2MXB High
+ call SRST_IC                               ! Software Reset
+ call MASK_ALL                              ! Mask all interrupts
+ execute ALRTB_1
+ call WR_CMD                                ! Pin Config 3
+ call WR(D_0,D_0,D_0,D_1, D_0,D_0,D_1,D_0)  ! Addr = $12
+ call WR(D_0,D_1,D_0,D_0, D_0,D_0,D_0,D_0)  ! Pin 27 = F2MXB
+ call STOP
+ call WR_CMD                                ! Digital Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_1)  ! Addr = $35
+ call WR(D_1,D_1,D_1,D_1, D_0,D_0,D_0,D_0)  ! Enable F2MXB interrupt
+ call STOP
+ call WR_CMD                                ! Read Digital Status
+ call WR(D_1,D_0,D_1,D_1, D_1,D_1,D_1,D_0)  ! Addr = $BE
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_X,R_X,R_X, R_0,R_X,R_X,R_X)
+ call STOP
+ execute F2MXB_0                            ! F2MAXB Active
+ wait 20m
+ execute ALRTB_0
+ call WR_CMD                                ! Read Digital Status
+ call WR(D_1,D_0,D_1,D_1, D_1,D_1,D_1,D_0)  ! Addr = $BE
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_X,R_X,R_X, R_1,R_X,R_X,R_X)
+ call STOP
+end unit
+
+unit "Pin D1N and D3N Input test"
+ call SRST_IC                               ! Software Reset
+ call MASK_ALL                              ! Mask all interrupts
+ execute ALRTB_1
+ call WR_CMD                                ! Pin Configuration Reg 1
+ call WR(D_0,D_0,D_0,D_1, D_0,D_0,D_0,D_0)  ! Addr = $10
+ call WR(D_1,D_0,D_0,D_0, D_0,D_0,D_0,D_0)  ! D3N and D1N are SCSI_Term inputs
+ call STOP
+ call WR_CMD                                ! Digital Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_1)  ! Addr = $35
+ call WR(D_1,D_1,D_0,D_0, D_1,D_1,D_1,D_1)  ! Unmask SCSI_Term interrupts
+ call STOP
+ execute D3N_0
+ execute D1N_0
+ wait 20m
+ call WR_CMD                                ! Read Digital Status 1
+ call WR(D_1,D_1,D_0,D_0, D_0,D_1,D_1,D_0)  ! Addr = $C6
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_X,R_0,R_0, R_X,R_X,R_X,R_X)
+ call STOP
+ execute D3N_1
+ execute D1N_1
+ wait 20m
+ call WR_CMD                                ! Read Digital Status 1
+ call WR(D_1,D_1,D_0,D_0, D_0,D_1,D_1,D_0)  ! Addr = $C6
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_X,R_1,R_1, R_X,R_X,R_X,R_X)
+ call STOP
+ execute ALRTB_0
+end unit
+
+unit "TACH8 Input test"
+ call SRST_IC                               ! Software Reset
+ call MASK_ALL                              ! Mask all interrupts
+ execute ALRTB_1
+ call WR_CMD                                ! Read TACH8 Value Low
+ call WR(D_1,D_0,D_1,D_0, D_1,D_0,D_0,D_0)  ! Addr = $A8
+ call STOP
+ call RD_CMD
+ call RD(R_1,R_1,R_1,R_1, R_1,R_1,R_1,R_1)
+ call STOP
+ call WR_CMD                                ! Read TACH8 Value High
+ call WR(D_1,D_0,D_1,D_0, D_1,D_0,D_0,D_1)  ! Addr = $A9
+ call STOP
+ call RD_CMD
+ call RD(R_1,R_1,R_1,R_1, R_1,R_1,R_1,R_1)
+ call STOP
+ call WR_CMD                                ! TACH Enable
+ call WR(D_0,D_0,D_0,D_0, D_0,D_1,D_1,D_1)  ! Addr = $07
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! FAN Freewhell Testing
+ call WR(D_0,D_0,D_0,D_1, D_1,D_1,D_1,D_0)  ! Addr = $1E
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! TACH8 Limit Reg
+ call WR(D_0,D_1,D_1,D_1, D_1,D_1,D_1,D_1)  ! Addr = $7F
+ call WR(D_0,D_0,D_0,D_0, D_0,D_1,D_0,D_0)
+ call STOP
+ call WR_CMD                                ! Digital Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_0)  ! Addr = $34
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_0)  ! Enable TACH interrupt
+ call STOP
+ repeat 40 times                            ! Toggle TACH8
+  execute TACH8_1
+  wait 20m
+  execute TACH8_0
+  wait 20m
+ end repeat
+ call WR_CMD                                ! Read TACH8 Value Low
+ call WR(D_1,D_0,D_1,D_0, D_1,D_0,D_0,D_0)  ! Addr = $A8
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_0,R_0,R_X, R_X,R_X,R_X,R_X)
+ call STOP
+ execute ALRTB_0
+end unit
+
+unit "TACH6 Input test"
+ call SRST_IC                               ! Software Reset
+ call MASK_ALL                              ! Mask all interrupts
+ execute ALRTB_1
+ call WR_CMD                                ! Read TACH6 Value Low
+ call WR(D_1,D_0,D_1,D_0, D_0,D_1,D_0,D_0)  ! Addr = $A4
+ call STOP
+ call RD_CMD
+ call RD(R_1,R_1,R_1,R_1, R_1,R_1,R_1,R_1)
+ call STOP
+ call WR_CMD                                ! Read TACH6 Value High
+ call WR(D_1,D_0,D_1,D_0, D_0,D_1,D_0,D_1)  ! Addr = $A5
+ call STOP
+ call RD_CMD
+ call RD(R_1,R_1,R_1,R_1, R_1,R_1,R_1,R_1)
+ call STOP
+ call WR_CMD                                ! TACH Enable
+ call WR(D_0,D_0,D_0,D_0, D_0,D_1,D_1,D_1)  ! Addr = $07
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! FAN Freewhell Testing
+ call WR(D_0,D_0,D_0,D_1, D_1,D_1,D_1,D_0)  ! Addr = $1E
+ call WR(D_1,D_1,D_1,D_1, D_1,D_1,D_1,D_1)
+ call STOP
+ call WR_CMD                                ! TACH6 Limit Reg
+ call WR(D_0,D_1,D_1,D_1, D_1,D_1,D_0,D_1)  ! Addr = $7D
+ call WR(D_0,D_0,D_0,D_0, D_0,D_1,D_0,D_0)
+ call STOP
+ call WR_CMD                                ! Digital Mask
+ call WR(D_0,D_0,D_1,D_1, D_0,D_1,D_0,D_0)  ! Addr = $34
+ call WR(D_0,D_0,D_0,D_0, D_0,D_0,D_0,D_0)  ! Enable TACH interrupt
+ call STOP
+ repeat 40 times                            ! Toggle TACH6
+  execute TACH6_1
+  wait 20m
+  execute TACH6_0
+  wait 20m
+ end repeat
+ call WR_CMD                                ! Read TACH6 Value Low
+ call WR(D_1,D_0,D_1,D_0, D_0,D_1,D_0,D_0)  ! Addr = $A4
+ call STOP
+ call RD_CMD
+ call RD(R_X,R_0,R_0,R_X, R_X,R_X,R_X,R_X)
+ call STOP
+ execute ALRTB_0
+end unit
+
+! Not debugged yet
+
+! unit "PWM3 and PWM4 Output test"
+!  repeat 40 times
+!   execute INIT1
+!  end repeat
+!  call SRST_IC                               ! Software Reset
+!  execute PWM3_1
+!  execute PWM4_1
+!  call WR_CMD                                ! PWM3 Configuration Reg
+!  call WR(D_0,D_0,D_1,D_0, D_0,D_0,D_1,D_1)  ! Addr = $23
+!  call WR(D_0,D_1,D_0,D_0, D_0,D_0,D_0,D_1)  ! Reverse PWM3 polarity
+!  call STOP
+!  call WR_CMD                                ! PWM3 Configuration Reg
+!  call WR(D_0,D_0,D_1,D_0, D_0,D_1,D_0,D_0)  ! Addr = $24
+!  call WR(D_0,D_1,D_1,D_0, D_0,D_0,D_0,D_1)  ! Reverse PWM4 polarity
+!  call STOP
+!  execute PWM3_0
+!  execute PWM4_0
+! end unit
+

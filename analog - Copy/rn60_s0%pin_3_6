@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519290  Ve2c1                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:39 2022
+disconnect all
+connect s to "FPGA_SFP_TX_RATE_SEL<2>"
+connect i to "SFP_RS1_R<2>_S0"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "rn60_s0%pin_3_6" test.

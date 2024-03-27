@@ -1,0 +1,2709 @@
+			 Supplier 	 BOM 	 Detail 	 Report  
+			 ----------- 	  ----------  	 ---------- 	 ----------  
+Item Number  =  73-102898-01
+Organization  =  GLO(GLOBAL ORGANIZATION)
+Revision  =  -03
+Levels to Explode  =  20
+Implemented Only  =  Yes
+Display Option  =  Current
+Description  =  PCA, N9K, TOR, Superfuzz-AC, Data board
+
+Item Number 	 Item Seq 	 Description 	 Reliability Grade 	 L2 Use Condition 	 Revision 	Qty 	 WIP Supply 	 Safety Critical 	 Network Critical 	Manufacturer 	 Mfr Part No. 	 Qual status 	 Ref Desg.	 EMC CR 	 NEBS CR
+
+08-1199-01	1	ASIC,SUNDOWN1 Rev 3,NEW TIM MATERIAL DA6534,SCREENED WITH NEW FW 1201,14nm,BGA,1621 P,42.5x42.5x4.61mm PKGSIZE,24.699x16.427mm DIESIZE,105.0 C TJMAX,1.0mm PITCH,-5 to 105 C,	A	2	="-"&"A0"	1	Push	N	N	MARVELL SEMICONDUCTOR	EC6955100C-03N	Qualified	U1_3	Y	Y
+										MARVELL SEMICONDUCTOR	EC6955100D-03N	Cancelled	 - 			
+										INPHI CORPORATION	EC6955100C-03N	Obsolete	 - 			
+11-0980-02	2	CAP,CE,470pF,50V,X7R,10%,SM,0603in,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	KEMET	C0603C471K5RAC	Qualified	C12_SF0,C12_SF1	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL10B471KB8NNNC	Deplete Stock	 - 			
+										TDK	C1608X7R1H471K	Deplete Stock	 - 			
+										AVX	06035C471KATA	Obsolete	 - 			
+										MURATA	GRM188R71H471KA01	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	06035C471KATA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10B471KB8NNWC	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT18B471K500C	Qualified	 - 			
+										YAGEO	IC0603K_X7R9BB471	Qualified	 - 			
+11-0984-02	3	CAP,CE,2.2nF,50V,X7R,10%,SM,0603in,Pb-FREE,**No Broker or Disty Buys allowed on Yageo CC0603KX7R9BB222 MPN	A	N/A	="-"&"B0"	6	Push	N	N	MURATA	GRM188R71H222KA01	Obsolete	C12_1V2S,C1815,C1816,	N	N
+										MURATA	GRM188R71H222KA01	Obsolete	C218_5V,C227_3V3,C408			
+										SAMSUNG ELECTRO-MECHANICS	CL10B222KB8NNNC	Deplete Stock	 - 			
+										TDK	C1608X7R1H222K	Deplete Stock	 - 			
+										VISHAY INTERTECHNOLOGY	VJ0603Y222KXA	End of Production	 - 			
+										YAGEO	CI0603KRX7R9BB222	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0603KX7R9BB222	End of Production	 - 			
+										AVX	06035C222KATA	Obsolete	 - 			
+										KEMET	C0603C222K5RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	06035C222KATA	Qualified	 - 			
+										NIC COMPONENTS	NMC0603X7R222K50TRF	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10B222KB8NNWC	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0603Y222KXAA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT18B222K500C	Qualified	 - 			
+										YAGEO	AC0603K_X7R9BB222	Qualified	 - 			
+										YAGEO	IC0603K_X7R9BB222	Qualified	 - 			
+11-100088-01	4	CAP,CE,10nF,25V,X7R,10%,SM,0603	A	N/A	="-"&"A0"	1	Push	N	N	KYOCERA AVX COMPONENTS CORP	06033C103KAT2A	Qualified	C186	N	N
+										AVX	06033C103KAT2A	Obsolete	 - 			
+										AVX	06035C103KAT4A	Obsolete	 - 			
+										MURATA	GRM188R71E103KA01D	Obsolete	 - 			
+										KEMET	C0603C103K3RACTU	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	06035C103KAT4A	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10B103KA8Z4N	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0603X7R103KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG18B103K250C	Qualified	 - 			
+										YAGEO	IC0603K_X7R8BB103	Qualified	 - 			
+11-100206-01	5	CAP,CE,56pF,50V,C0G,5%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	MURATA	GRM1535C1H560JDD5D	Obsolete	C13_1V2S,C69_3V3	N	N
+										TDK	CGA2B2C0G1H560J	End of Production	 - 			
+										JOHANSON DIELECTRICS	500R07N560JV4T	Obsolete	 - 			
+										KEMET	C0402C560J5GACTU	Qualified	 - 			
+										MURATA	GCM1555C1H560JA16	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05C560JB5NNW	Qualified	 - 			
+										TAIYO YUDEN	UMK105CG560JVH	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402NPO560JW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15N560J500C	Qualified	 - 			
+										YAGEO	IC0402J_NPO9BN560	Qualified	 - 			
+11-100359-01	6	CAP,CE,100.0nF,25.0 V,10%,X5R,SM,0402in,-55 to 85 C	A	N/A	="-"&"B1"	2	Push	N	N	TDK	C1005X5R1E104K	Obsolete	C146,C147	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL05A104KA5NNWC	Cancelled	 - 			
+										AVX	04023D104KATA	Obsolete	 - 			
+										MURATA	GRM155R61E104KA87	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04023D104KATA	Qualified	 - 			
+										TAIYO YUDEN	TMK105BJ104KVHF	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0402X5R104KW	Qualified	 - 			
+										YAGEO	IC0402K_X5R8BB104	Qualified	 - 			
+11-101170-01	7	CAP,TP,220.0uF,6.3 V,20%,SM,7343mm,2.0mmH,ESR 18mOhm,2800.0 mA,-55 to 105 C	A	N/A	="-"&"C0"	1	Push	N	N	AVX	TCJY227M0060015E	Cancelled	C8_6	N	N
+										SANYO ELECTRONIC DEVICE	6TPE220MI	Deplete Stock	 - 			
+										AVX	TCJY227M0060018E	Obsolete	 - 			
+										KEMET	T520V227M006ATE018	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	TCJY227M0060018E	Qualified	 - 			
+										PANASONIC	6TPE220MI	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	T55V227M6R3C0018	Qualified	 - 			
+11-101231-01	8	CAP,CE,2.2uF,25.0 V,10%,X7R,SM,0805in,1.52mmH,-55 to 125 C,**No Broker or Disty Buys allowed on Yageo CC0805KKX7R8BB225 MPN	A	N/A	="-"&"B0"	5	Push	N	N	YAGEO	IC0805K_X7R8BB225	Qualified	C201_3V3,C56_5V,C5_1V2S,	N	N
+										TAIYO YUDEN	TMK212B7225KGHT	Qualified	C5_SF0,C5_SF1			
+										TAIYO YUDEN	TMK212B7225MG	Cancelled	 - 			
+										YAGEO	CC0805KKX7R8BB225	End of Production	 - 			
+										YAGEO	CI0805KKX7R8BB225	End of Production	 - 			
+										AVX	08053C225KAT2A	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	08053C225KAT2A	Qualified	 - 			
+										TAIYO YUDEN	TMK212B7225KGHT	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0805X7R225KW	Qualified	 - 			
+11-101311-01	9	CAP,CE,100.0uF,4.0 V,20%,X5R,SM,0805in,1.45mmH,-55 to 85 C	A	N/A	="-"&"A0"	50	Push	N	N	MURATA	GRM21BR60G107ME15	Qualified	C502_3,C503_3,C504_3,	N	N
+										NIC COMPONENTS	NMC0805X5R107M4TRPLPF	Deplete Stock	C505_3,C506_3,C507_3,			
+										MURATA	GRM21BR60G107ME15	Qualified	C508_3,C509_3,C510_3,			
+										 - 	 - 	 - 	C511_3,C512_3,C513_3,			
+										 - 	 - 	 - 	C514_3,C515_3,C516_3,			
+										 - 	 - 	 - 	C517_3,C518_3,C519_3,			
+										 - 	 - 	 - 	C520_3,C522_3,C524_3,			
+										 - 	 - 	 - 	C526_3,C528_3,C530_3,			
+										 - 	 - 	 - 	C532_3,C534_3,C536_3,			
+										 - 	 - 	 - 	C538_3,C540_3,C541_3,			
+										 - 	 - 	 - 	C542_3,C543_3,C544_3,			
+										 - 	 - 	 - 	C545_3,C546_3,C547_3,			
+										 - 	 - 	 - 	C548_3,C549_3,C551_3,			
+										 - 	 - 	 - 	C553_3,C555_3,C557_3,			
+										 - 	 - 	 - 	C559_3,C561_3,C563_3,			
+										 - 	 - 	 - 	C565_3,C567_3,C569_3,			
+										 - 	 - 	 - 	C571_3,C573_3			
+										NIC COMPONENTS	NMC0805X5R107M4TRPLPF	Deplete Stock	 - 			
+										TAIYO YUDEN	AMK212BBJ107MG-T	Qualified	 - 			
+11-101365-01	10	CAP,CE,100uF,6.3V,20%,CER,SM,1206in,1.9mmH,-55 to 105C,Mixed Dielectric X6T & X6S, For IOTBU use only	A	N/A	="-"&"A0"	22	Push	N	N	TAIYO YUDEN	JMK316BBJ107MLH	Disqualified	C11_91_5,C11_91_RTV1,	N	N
+										TAIYO YUDEN	JMK316BBJ107MLH	Disqualified	C11_91_RTV2,C11_92_5,			
+										MURATA	GRM31CD80J107ME39	Qualified	C11_93_5,C11_94_5,			
+										TAIYO YUDEN	JMK316BC6107ML-T	Qualified	C11_95_5,C11_96_5,			
+										 - 	 - 	 - 	C11_98_5,C11_98_RTV1,			
+										 - 	 - 	 - 	C11_98_RTV2,C12_91_5,			
+										 - 	 - 	 - 	C12_91_RTV1,C12_91_RTV2,			
+										 - 	 - 	 - 	C12_92_5,C12_93_5,			
+										 - 	 - 	 - 	C12_94_5,C12_95_5,			
+										 - 	 - 	 - 	C12_96_5,C12_98_5,			
+										 - 	 - 	 - 	C12_98_RTV1,C12_98_RTV2			
+										MURATA	GRM31CD80J107ME39	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31X107MQHNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK316BC6107ML-T	Qualified	 - 			
+11-101440-01	11	CAP,AP,560.0uF,2.0 V,20%,SM,7343mm,2.0mmH,3.0mOhm,Ripple 4 Arms,1000hrs@105C,-40 to 105 C	A	N/A	="-"&"C0"	40	Push	N	N	PANASONIC	EEFGX0D561L	Qualified	C13_91_5,C13_91_RTV1,	N	N
+										NIC COMPONENTS	NSPL561M2D6VAF	Qualified	C13_91_RTV2,C13_92_5,			
+										 - 	 - 	 - 	C13_93_5,C13_94_5,			
+										 - 	 - 	 - 	C13_95_5,C13_96_5,			
+										 - 	 - 	 - 	C13_98_5,C13_98_RTV1,			
+										 - 	 - 	 - 	C13_98_RTV2,C14_91_5,			
+										 - 	 - 	 - 	C14_91_RTV1,C14_91_RTV2,			
+										 - 	 - 	 - 	C14_92_5,C14_93_5,			
+										 - 	 - 	 - 	C14_94_5,C14_95_5,			
+										 - 	 - 	 - 	C14_96_5,C14_98_5,			
+										 - 	 - 	 - 	C14_98_RTV1,C14_98_RTV2,			
+										 - 	 - 	 - 	C30_5,C30_RTV1,C30_RTV2,			
+										 - 	 - 	 - 	C31_5,C31_RTV1,C31_RTV2,			
+										 - 	 - 	 - 	C32_5,C32_RTV1,C32_RTV2,			
+										 - 	 - 	 - 	C33_5,C33_RTV1,C33_RTV2,			
+										 - 	 - 	 - 	C34_5,C34_RTV1,C34_RTV2,			
+										 - 	 - 	 - 	C35_5,C35_RTV1,C35_RTV2			
+										NIC COMPONENTS	NSPL561M2D6VAF	Qualified	 - 			
+11-101441-01	12	CAP,CE,0.1uF,50.0 V,10%,X7R,SM,0402in,0.7mmH,-55 to 125 C	A	N/A	="-"&"B0"	6	Push	N	N	TAIYO YUDEN	UMK105B7104KVH	Qualified	C10_1V2S,C10_SF0,C10_SF1,	N	N
+										UNION TECHNOLOGY CORP.	CG0402X7R104KW	Qualified	C189_3V3,C24_A,C58_5V			
+										AVX	04025C104KATA	Deplete Stock	 - 			
+										YAGEO	IC0402KX7R9BB104	Deplete Stock	 - 			
+										MURATA	GRM155R71H104KE14	Obsolete	 - 			
+										TAIYO YUDEN	UMK105B7104KV-F	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402X7R104KW	Qualified	 - 			
+										YAGEO	IC0402K_X7R9BB104	Qualified	 - 			
+11-101453-01	13	CAP,AP,270.0uF,16.0 V,20%,SM,6.3mmD,10.0mmH,8.0mOhm, Ripple 5800mA,-55 to 105 C,5000hrs@105C	A	N/A	="-"&"A0"	6	Push	N	N	PANASONIC	16SVPG270M	Qualified	C39_5,C39_RTV1,C39_RTV2,	N	N
+										PANASONIC	16SVPG270M	Qualified	C40_5,C42,C49			
+										UNITED CHEMI-CON	APXJ160ARA271MFA0J	Qualified	 - 			
+11-101466-01	14	CAP,AP,220.0uF,4.0 V,20%,SM,7343mm,2.1mmH,12.0mOhm,Ripple 3.3A,-40 to 105 C,2000hrs @ 105C	A	N/A	="-"&"C0"	1	Push	Y	N	PANASONIC	EEFCX0G221XR	Qualified	C23_A	N	N
+										MURATA	ECASD40G227M00900	Cancelled	 - 			
+										NIC COMPONENTS	NSP221M4D6AF	Qualified	 - 			
+11-101691-01	15	CAP,AP,560.0uF,2.0 V,20%,SM,7343,2.0mmH,3.0mOhm,RIPPLE CURRENT 4 Arms,1000hrs@105C,-40 to 105 C	A	N/A	="-"&"A0"	7	Push	N	N	PANASONIC	EEFGX0D561R	Qualified	C744_3,C752_3,C753_3,	N	N
+										PANASONIC	EEFGX0D561R	Qualified	C754_3,C755_3,C756_3,			
+										MURATA	ECASD90D567M4R500	Cancelled	C757_3			
+										MURATA	ECASD90D567M4R500	Cancelled	 - 			
+										NIC COMPONENTS	NSP561M2D6VAF	Qualified	 - 			
+11-1023042-01	16	CAP,CE,22.0uF,6.3 V,20%,X5R,SM,0603,1.0mmH,-55 to 85 C,**No Broker or Disty Buys allowed on Yageo CC0603MRX5R5BB226 MPN	A	N/A	="-"&"B1"	77	Push	Y	N	TAIYO YUDEN	JMK107BBJ226MA-T	Qualified	C124_RT1_2,C124_RT3_4,	N	N
+										UNION TECHNOLOGY CORP.	CA0603X5R226MW	Cancelled	C124_RT5_6,C124_RT7_8,			
+										TAIYO YUDEN	JMK107BBJ226MA-T	Qualified	C125_RT1_2,C125_RT3_4,			
+										SAMSUNG ELECTRO-MECHANICS	CL10A226MQ8NRWC	Qualified	C125_RT5_6,C125_RT7_8,			
+										YAGEO	CI0603MRX5R5BB226	End of Production	C130_RT1_2,C130_RT3_4,			
+										YAGEO	CC0603MRX5R5BB226	End of Production	C130_RT5_6,C130_RT7_8,			
+										 - 	 - 	 - 	C3_A,C423_3,C437_3,			
+										 - 	 - 	 - 	C441_3,C445_3,C446_3,			
+										 - 	 - 	 - 	C449_3,C450_3,C453_3,			
+										 - 	 - 	 - 	C454_3,C457_3,C460_3,			
+										 - 	 - 	 - 	C464_3,C466_3,C468_3,			
+										 - 	 - 	 - 	C470_3,C472_3,C521_3,			
+										 - 	 - 	 - 	C523_3,C525_3,C527_3,			
+										 - 	 - 	 - 	C529_3,C531_3,C533_3,			
+										 - 	 - 	 - 	C535_3,C537_3,C539_3,			
+										 - 	 - 	 - 	C668_3,C671_3,C673_3,			
+										 - 	 - 	 - 	C676_3,C678_3,C681_3,			
+										 - 	 - 	 - 	C683_3,C686_3,C687_3,			
+										 - 	 - 	 - 	C690_3,C695_3,C697_3,			
+										 - 	 - 	 - 	C699_3,C69_RT1_2,			
+										 - 	 - 	 - 	C69_RT3_4,C69_RT5_6,			
+										 - 	 - 	 - 	C69_RT7_8,C69_RT9,C6_A,			
+										 - 	 - 	 - 	C700_3,C701_3,C703_3,			
+										 - 	 - 	 - 	C705_3,C707_3,C709_3,			
+										 - 	 - 	 - 	C70_RT1_2,C70_RT3_4,			
+										 - 	 - 	 - 	C70_RT5_6,C70_RT7_8,			
+										 - 	 - 	 - 	C70_RT9,C724_3,C725_3,			
+										 - 	 - 	 - 	C726_3,C90_RT1_2,			
+										 - 	 - 	 - 	C90_RT3_4,C90_RT5_6,			
+										 - 	 - 	 - 	C90_RT7_8,C90_RT9			
+										UNION TECHNOLOGY CORP.	CA0603X5R226MW	Cancelled	 - 			
+										YAGEO	CC0603MRX5R5BB226	End of Production	 - 			
+										YAGEO	CI0603MRX5R5BB226	End of Production	 - 			
+										MURATA	GRM188R60J226MEA0D	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10A226MQ8NRWC	Qualified	 - 			
+11-1222-02	17	CAP,CE,10nF,16V,X7R,10%,SM,0402in,Pb-FREE,**No Broker or Disty Buys allowed on Yageo CC0402KRX7R7BB103 MPN	A	N/A	="-"&"B0"	28	Push	N	N	WALSIN TECHNOLOGY	MT15B103K160C	Qualified	C131_RT1_2,C131_RT3_4,	N	N
+										TAIYO YUDEN	EMK105B7103KV8F	Qualified	C131_RT5_6,C131_RT7_8,			
+										YAGEO	IC0402K_X7R7BB103	Qualified	C132_RT1_2,C132_RT3_4,			
+										YAGEO	AC0402K_X7R7BB103	Qualified	C132_RT5_6,C132_RT7_8,			
+										MURATA	GRM155R71C103KA01	Obsolete	C137,C139_RT1_2,			
+										KEMET	C0402C103K4RAC	Qualified	C139_RT3_4,C139_RT5_6,			
+										WALSIN TECHNOLOGY	MG15B103K160C	Qualified	C139_RT7_8,C140_RT1_2,			
+										YAGEO/PHYCOMP	CC0402KRX7R7BB103	End of Production	C140_RT3_4,C140_RT5_6,			
+										JOHANSON DIELECTRICS	160R07W103KV4_RC	Obsolete	C140_RT7_8,C1_RT9,C2_RT9,			
+										YAGEO	CI0402KX7R7BB103	End of Production	C3057,C497,C506,C507,			
+										TDK	C1005X7R1C103K	Deplete Stock	C517,C518,C520,C521,C72			
+										WALSIN TECHNOLOGY	0402B103K160C	Cancelled	 - 			
+										AVX	0402YC103KATA	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B103KO5NNNC	Deplete Stock	 - 			
+										TDK	C1005X7R1C103K	Deplete Stock	 - 			
+										TAIYO YUDEN	EMK105BJ103KV	Disqualified	 - 			
+										YAGEO	CI0402KX7R7BB103	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0402KRX7R7BB103	End of Production	 - 			
+										JOHANSON DIELECTRICS	160R07W103KV4_RC	Obsolete	 - 			
+										MURATA	GRM155R71C103KA01	Obsolete	 - 			
+										KEMET	C0402C103K4RAC	Qualified	 - 			
+										NIC COMPONENTS	NMC0402X7R103K16TRF	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B103KO5NNWC	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7103KV8F	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7103KV	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CE0402X7R103KW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402Y103KXJA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15B103K160C	Qualified	 - 			
+										YAGEO	IC0402K_X7R7BB103	Qualified	 - 			
+										YAGEO	AC0402K_X7R7BB103	Qualified	 - 			
+11-1767-01	18	CAP,CE,220.0pF,50.0 V,5.0%,X7R,SM,0402in,0.55mmH,-55 to 125 C	A	N/A	="-"&"B0"	7	Push	N	N	AVX	04025C221JATA	Obsolete	C05_5,C05_RTV1,C05_RTV2,	N	N
+										AVX	04025C221JATA	Obsolete	C06_5,C06_RTV1,C06_RTV2,			
+										JOHANSON DIELECTRICS	500R07W221JV4-RC	Cancelled	C110			
+										JOHANSON DIELECTRICS	500R07W221JV4-RC	Cancelled	 - 			
+										WALSIN TECHNOLOGY	MT15N221J500C	Deplete Stock	 - 			
+										JOHANSON DIELECTRICS	500R07W221JV4	End of Production	 - 			
+										JOHANSON DIELECTRICS	500R07W221JV4_RC	Obsolete	 - 			
+										TDK	C1005X7R1H221J	Obsolete	 - 			
+										KEMET	C0402C221J5RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025C221JATA	Qualified	 - 			
+										MURATA	GCM155R71H221JA37	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402X7R221JW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402Y221JXAAC31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B221J500C	Qualified	 - 			
+										YAGEO	IC0402JX7R9BB221	Qualified	 - 			
+11-1769-01	19	CAP,CE,3.3nF,50V,X7R,10%,SM,0402in,Pb-FREE	A	N/A	="-"&"A0"	6	Push	N	N	JOHANSON DIELECTRICS	500R07W332KV4-RC	Cancelled	C01_5,C01_RTV1,C01_RTV2,	N	N
+										TAIYO YUDEN	UMK105B7332KVHF	Qualified	C02_5,C02_RTV1,C02_RTV2			
+										SAMSUNG ELECTRO-MECHANICS	CL05B332KBN	Cancelled	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B332KB5NNN	Cancelled	 - 			
+										YAGEO	IC0402JRNPO9BN100	Cancelled	 - 			
+										AVX	04025C332KATA	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B332KB5NNNC	Deplete Stock	 - 			
+										TDK	C1005X7R1H332K	Deplete Stock	 - 			
+										JOHANSON DIELECTRICS	500R07W332KV4	End of Production	 - 			
+										JOHANSON DIELECTRICS	500R07W332KV4_RC	Obsolete	 - 			
+										KEMET	C0402C332K5RAC	Qualified	 - 			
+										MURATA	GCM155R71H332KA37	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B332KB5NNWC	Qualified	 - 			
+										TAIYO YUDEN	UMK105B7332KVHF	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402X7R332KW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402Y332KXAAC31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B332K500CT	Qualified	 - 			
+										YAGEO	IC0402KRX7R9BB332	Qualified	 - 			
+11-1968-01	20	CAP,CE,1.2nF,50V,X7R,10%,SM,0402in	A	N/A	="-"&"A0"	1	Push	N	N	NIC COMPONENTS	NMC0402X7R122K50TR	Disqualified	C23_PM	N	N
+										MURATA	GRP155R71H122KA01	Disqualified	 - 			
+										MURATA	GRM36X7R122K050AD	End of Production	 - 			
+										AVX	04025C122KAT2A	Obsolete	 - 			
+										MURATA	GRM155R71H122KA01	Obsolete	 - 			
+										TDK	C1005X7R1H122KT	Obsolete	 - 			
+										KEMET	C0402C122K5RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025C122KAT2A	Qualified	 - 			
+										NIC COMPONENTS	NMC0402X7R122K50TRF	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402Y122KXAA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B122K500C	Qualified	 - 			
+										YAGEO	IC0402K_X7R9BB122	Qualified	 - 			
+11-1970-02	21	CAP,CE,270pF,50V,X7R,10%,SM,0402in,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	UNION TECHNOLOGY CORP.	CG0402X7R271KW	Qualified	C389	N	N
+										AVX	04025C271KAT2A	Obsolete	 - 			
+										MURATA	GRM155R71H271KA01	Obsolete	 - 			
+										TDK	C1005X7R1H271KT	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025C271KAT2A	Qualified	 - 			
+										NIC COMPONENTS	NMC0402X7R271K50TRF	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B271K500C	Qualified	 - 			
+										YAGEO	IC0402KRX7R9BB271	Qualified	 - 			
+11-1971-02	22	CAP,CE,470pF,50V,X7R,10%,SM,0402in,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	TDK	C1005X7R1H471KT	Obsolete	C21_A	N	N
+										AVX	04025C471KAT2A	Obsolete	 - 			
+										MURATA	GRM155R71H471KA01	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025C471KAT2A	Qualified	 - 			
+										NIC COMPONENTS	NMC0402X7R471K50TRF	Qualified	 - 			
+										TAIYO YUDEN	UMK105B7471KVH	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402X7R471KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B471K500C	Qualified	 - 			
+										YAGEO	IC0402K_X7R9BB471	Qualified	 - 			
+11-1974-02	23	CAP,CE,22pF,50V,C0G,5%,SM,0402in,0.55mmH,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	YAGEO	AC0402J_NPO9BN220	Qualified	C13_SF0,C13_SF1,C219_5V	N	N
+										MURATA	GRM1555C1H220JZ01	Deplete Stock	 - 			
+										TDK	C1005C0G1H220J	Deplete Stock	 - 			
+										AVX	04025A220JAT2A	Obsolete	 - 			
+										MURATA	GRM1555C1H220JA01	Obsolete	 - 			
+										KEMET	C0402C220J5GAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025A220JAT2A	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05C220JB5NNW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402A220JXAAC31G	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402A220JXAA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15N220J500C	Qualified	 - 			
+										YAGEO	IC0402JRNPO9BN220	Qualified	 - 			
+11-1979-01	24	CAP,CE,39nF,16V,X7R,10%,SM,0603in	A	N/A	="-"&"A0"	2	Push	N	N	NIC COMPONENTS	NMC0603X7R393K16F	Qualified	C3062,C77	N	N
+										NIC COMPONENTS	NMC0603X7R393K16TR	Disqualified	 - 			
+										MURATA	GRM39X7R393K016AD	End of Production	 - 			
+										ROHM	MCH183C393KK	End of Production	 - 			
+										AVX	0603YC393KAT2A	Obsolete	 - 			
+										MURATA	GRM188R71C393KA01	Obsolete	 - 			
+										KEMET	C0603C393K4RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	0603YC393KAT2A	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0603Y393KXJA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT18B393K160C	Qualified	 - 			
+11-1989-02	25	CAP,CE,6.8pF,50V,C0G,0.50pF,SM,0402in,0.6mmH	A	N/A	="-"&"A0"	2	Push	N	N	MURATA	GRM1555C1H6R8DZ01	Deplete Stock	C87,C88	N	N
+										NIC COMPONENTS	NMC0402NPO6R8D50TRF	End of Production	 - 			
+										AVX	04025A6R8DAT2A	Obsolete	 - 			
+										MURATA	GRM1555C1H6R8DA01	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025A6R8DAT2A	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CG0402NPO6R8DW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15N6R8D500C	Qualified	 - 			
+										YAGEO	IC0402DRNPO9BN6R8	Qualified	 - 			
+11-206778-01	26	CAP,CE,82 pF,50V,C0G,5%,SMT,0402in,-55C TO 125C	A	N/A	="-"&"F0"	2	Push	N	N	TDK	C1005C0G1H820JT	Obsolete	C3061,C76	N	N
+										CAL-CHIP ELECTRONICS	GMC04CG820J50NT	End of Production	 - 			
+										CAL-CHIP ELECTRONICS	GMC04CG820J50NTLF	End of Production	 - 			
+										MURATA	GRM1555C1H820JD01J	End of Production	 - 			
+										AVX	04025A820JAT4A	Obsolete	 - 			
+										MURATA	GRM1555C1H820JA01D	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04025A820JAT4A	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05C820JB5NNW	Qualified	 - 			
+										TAIYO YUDEN	UMK105CG820JVH	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	VJ0402A820JXAT	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15N820J500C	Qualified	 - 			
+										YAGEO	IC0402J_NPO9BN820	Qualified	 - 			
+11-2279-02	27	CAP,CE,220pF,25V,C0G,5%,SM,0402in,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KYOCERA AVX COMPONENTS CORP	04023A221JATA	Qualified	C401	N	N
+										VISHAY INTERTECHNOLOGY	VJ0402A221JFXA	Cancelled	 - 			
+										NIC COMPONENTS	NMC0402NPO221J25TRF	End of Production	 - 			
+										AVX	04023A221JATA	Obsolete	 - 			
+										MURATA	GRM1555C1E221JA01	Obsolete	 - 			
+										TDK	C1005C0G1E221J	Obsolete	 - 			
+										KEMET	C0402C221J3GAC	Qualified	 - 			
+										TAIYO YUDEN	UMK105CG221JVH	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0402NPO221JW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	VJ0402A221JXXA	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15N221J250C	Qualified	 - 			
+										YAGEO	IC0402J_NPO8BN221	Qualified	 - 			
+11-2325-01	28	CAP,CE,0.1uF,10V,20%,X7R,SM,0306,LOW INDUCT	A	N/A	="-"&"A0"	2	Push	Y	N	AVX	0306ZC104MATW	End of Production	C1053,C1539	N	N
+										MURATA	LL0306X7R104K10	End of Production	 - 			
+										AVX	0306ZC104MATA	Obsolete	 - 			
+										TDK	C0816X7R1A104M	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	0306ZC104MATA	Qualified	 - 			
+										MURATA	LLL185R71A104KA01	Qualified	 - 			
+11-2330-02	29	CAP,CE,0.1uF,10.0 V,10%,X5R,SM,0402in,0.56mmH,-55 to 85 C,**No Broker or Disty Buys allowed on Yageo CC0402KRX5R6BB104 MPN	A	N/A	="-"&"B1"	673	Push	N	N	JOHANSON DIELECTRICS	100R07X104KV4	Cancelled	C102,C1050,C1051,C1055,	N	N
+										YAGEO/PHYCOMP	CC0402KRX5R6BB104	End of Production	C1056,C105_S0,C105_S1,			
+										TAIYO YUDEN	LMK105BJ104KVHF	Qualified	C106_S0,C106_S1,C107,			
+										SAMSUNG ELECTRO-MECHANICS	CL05A104KP5NNNC	End of Production	C107_RT1_2,C107_RT3_4,			
+										AVX	0402ZD104KATA	Cancelled	C107_RT5_6,C107_RT7_8,			
+										TAIYO YUDEN	LMK105BJ104KV	Qualified	C108,C108_RT1_2,			
+										UNION TECHNOLOGY CORP.	CC0402X5R104KWT	Deplete Stock	C108_RT3_4,C108_RT5_6,			
+										MURATA	GRM155R61A104KA01	Qualified	C108_RT7_8,C109,C1098,			
+										UNION TECHNOLOGY CORP.	CC0402X5R104KW	Qualified	C109_RT1_2,C109_RT3_4,			
+										KEMET	C0402C104K8PAC	Qualified	C109_RT5_6,C109_RT7_8,			
+										WALSIN TECHNOLOGY	0402X104K100C	Cancelled	C109_S0,C109_S1,C10_Q0,			
+										YAGEO	IC0402K_X5R6BB104	Qualified	C10_Q1,C10_Q2,C10_S0,			
+										YAGEO	CI0402KX5R6BB104	End of Production	C10_S1,C11,C110_RT1_2,			
+										SAMSUNG ELECTRO-MECHANICS	CL05A104KP5NNWC	Qualified	C110_RT3_4,C110_RT5_6,			
+										JOHANSON DIELECTRICS	100R07X104KV4	Cancelled	C110_RT7_8,C110_S0,			
+										TDK	C1005X5R1A104K	Deplete Stock	C110_S1,C111_RT1_2,			
+										 - 	 - 	 - 	C111_RT3_4,C111_RT5_6,			
+										 - 	 - 	 - 	C111_RT7_8,C111_S0,			
+										 - 	 - 	 - 	C111_S1,C112_RT1_2,			
+										 - 	 - 	 - 	C112_RT3_4,C112_RT5_6,			
+										 - 	 - 	 - 	C112_RT7_8,C113_RT1_2,			
+										 - 	 - 	 - 	C113_RT3_4,C113_RT5_6,			
+										 - 	 - 	 - 	C113_RT7_8,C114_3,			
+										 - 	 - 	 - 	C114_RT1_2,C114_RT3_4,			
+										 - 	 - 	 - 	C114_RT5_6,C114_RT7_8,			
+										 - 	 - 	 - 	C114_S0,C114_S1,C115_3,			
+										 - 	 - 	 - 	C115_RT1_2,C115_RT3_4,			
+										 - 	 - 	 - 	C115_RT5_6,C115_RT7_8,			
+										 - 	 - 	 - 	C115_S0,C115_S1,C116_3,			
+										 - 	 - 	 - 	C116_RT1_2,C116_RT3_4,			
+										 - 	 - 	 - 	C116_RT5_6,C116_RT7_8,			
+										 - 	 - 	 - 	C116_S0,C116_S1,C117_3,			
+										 - 	 - 	 - 	C117_RT1_2,C117_RT3_4,			
+										 - 	 - 	 - 	C117_RT5_6,C117_RT7_8,			
+										 - 	 - 	 - 	C1184,C118_3,C118_RT1_2,			
+										 - 	 - 	 - 	C118_RT3_4,C118_RT5_6,			
+										 - 	 - 	 - 	C118_RT7_8,C119_3,			
+										 - 	 - 	 - 	C119_RT1_2,C119_RT3_4,			
+										 - 	 - 	 - 	C119_RT5_6,C119_RT7_8,			
+										 - 	 - 	 - 	C119_S0,C119_S1,C11_S0,			
+										 - 	 - 	 - 	C11_S1,C120_3,C120_RT1_2,			
+										 - 	 - 	 - 	C120_RT3_4,C120_RT5_6,			
+										 - 	 - 	 - 	C120_RT7_8,C120_S0,			
+										 - 	 - 	 - 	C120_S1,C121_3,			
+										 - 	 - 	 - 	C121_RT1_2,C121_RT3_4,			
+										 - 	 - 	 - 	C121_RT5_6,C121_RT7_8,			
+										 - 	 - 	 - 	C121_S0,C121_S1,C122_3,			
+										 - 	 - 	 - 	C122_RT1_2,C122_RT3_4,			
+										 - 	 - 	 - 	C122_RT5_6,C122_RT7_8,			
+										 - 	 - 	 - 	C123_3,C123_RT1_2,			
+										 - 	 - 	 - 	C123_RT3_4,C123_RT5_6,			
+										 - 	 - 	 - 	C123_RT7_8,C124_3,			
+										 - 	 - 	 - 	C124_S0,C124_S1,C125_3,			
+										 - 	 - 	 - 	C125_S0,C125_S1,C126_3,			
+										 - 	 - 	 - 	C126_S0,C126_S1,C127_3,			
+										 - 	 - 	 - 	C128_3,C129_3,C129_S0,			
+										 - 	 - 	 - 	C129_S1,C12_Q0,C12_Q1,			
+										 - 	 - 	 - 	C12_Q2,C12_S0,C12_S1,			
+										 - 	 - 	 - 	C130_3,C130_S0,C130_S1,			
+										 - 	 - 	 - 	C131_3,C131_S0,C131_S1,			
+										 - 	 - 	 - 	C132_3,C133,C133_3,C134,			
+										 - 	 - 	 - 	C134_3,C134_S0,C134_S1,			
+										 - 	 - 	 - 	C135,C135_3,C135_S0,			
+										 - 	 - 	 - 	C135_S1,C136_3,C136_S0,			
+										 - 	 - 	 - 	C136_S1,C137_3,C138_3,			
+										 - 	 - 	 - 	C139,C139_3,C139_S0,			
+										 - 	 - 	 - 	C139_S1,C140,C140_3,			
+										 - 	 - 	 - 	C140_S0,C140_S1,C141,			
+										 - 	 - 	 - 	C141_3,C141_S0,C141_S1,			
+										 - 	 - 	 - 	C142,C142_3,C143_3,			
+										 - 	 - 	 - 	C144_3,C144_S0,C144_S1,			
+										 - 	 - 	 - 	C145_3,C145_S0,C145_S1,			
+										 - 	 - 	 - 	C146_3,C146_S0,C146_S1,			
+										 - 	 - 	 - 	C147_3,C147_S0,C147_S1,			
+										 - 	 - 	 - 	C148_3,C148_S0,C148_S1,			
+										 - 	 - 	 - 	C149_3,C149_S0,C149_S1,			
+										 - 	 - 	 - 	C14_Q0,C14_Q1,C14_Q2,			
+										 - 	 - 	 - 	C150_3,C150_S0,C150_S1,			
+										 - 	 - 	 - 	C151,C151_3,C151_S0,			
+										 - 	 - 	 - 	C151_S1,C152,C152_3,			
+										 - 	 - 	 - 	C152_S0,C152_S1,C153_3,			
+										 - 	 - 	 - 	C154_3,C155_3,C156_3,			
+										 - 	 - 	 - 	C157_3,C158_3,C159_3,			
+										 - 	 - 	 - 	C15_S0,C15_S1,C160_3,			
+										 - 	 - 	 - 	C161_S0,C161_S1,C162_S0,			
+										 - 	 - 	 - 	C162_S1,C163_S0,C163_S1,			
+										 - 	 - 	 - 	C164_S0,C164_S1,C165,			
+										 - 	 - 	 - 	C165_S0,C165_S1,C166,			
+										 - 	 - 	 - 	C166_S0,C166_S1,C167,			
+										 - 	 - 	 - 	C167_S0,C167_S1,C168_S0,			
+										 - 	 - 	 - 	C168_S1,C16_Q0,C16_Q1,			
+										 - 	 - 	 - 	C16_Q2,C16_S0,C16_S1,			
+										 - 	 - 	 - 	C17_S0,C17_S1,C18,C1818,			
+										 - 	 - 	 - 	C184,C185,C18_Q0,C18_Q1,			
+										 - 	 - 	 - 	C18_Q2,C19,C193_S0,			
+										 - 	 - 	 - 	C193_S1,C194_S0,C194_S1,			
+										 - 	 - 	 - 	C195_S0,C195_S1,C196_S0,			
+										 - 	 - 	 - 	C196_S1,C197_S0,C197_S1,			
+										 - 	 - 	 - 	C198_S0,C198_S1,C199_S0,			
+										 - 	 - 	 - 	C199_S1,C1_S0,C1_S1,			
+										 - 	 - 	 - 	C200_S0,C200_S1,C204,			
+										 - 	 - 	 - 	C209_S0,C209_S1,C20_PM,			
+										 - 	 - 	 - 	C20_Q0,C20_Q1,C20_Q2,			
+										 - 	 - 	 - 	C20_S0,C20_S1,C210_S0,			
+										 - 	 - 	 - 	C210_S1,C211_S0,C211_S1,			
+										 - 	 - 	 - 	C212_S0,C212_S1,C213_S0,			
+										 - 	 - 	 - 	C213_S1,C214_S0,C214_S1,			
+										 - 	 - 	 - 	C215_S0,C215_S1,C216_S0,			
+										 - 	 - 	 - 	C216_S1,C21_PM,C21_S0,			
+										 - 	 - 	 - 	C21_S1,C22_PM,C22_S0,			
+										 - 	 - 	 - 	C22_S1,C231,C244_3,			
+										 - 	 - 	 - 	C245_3,			
+										 - 	 - 	 - 	C246_3,C247_3,C248_3,			
+										 - 	 - 	 - 	C249_3,C25,C250_3,C251_3,			
+										 - 	 - 	 - 	C252_3,C253_3,C254_3,			
+										 - 	 - 	 - 	C255_3,C256_3,C257_3,			
+										 - 	 - 	 - 	C258_3,C259_3,C25_S0,			
+										 - 	 - 	 - 	C25_S1,C260_3,C261_3,			
+										 - 	 - 	 - 	C262_3,C263_3,C264_3,			
+										 - 	 - 	 - 	C265_3,C266_3,C267_3,			
+										 - 	 - 	 - 	C268_3,C269_3,C26_S0,			
+										 - 	 - 	 - 	C26_S1,C270_3,C271_3,			
+										 - 	 - 	 - 	C2724,C2725,C272_3,			
+										 - 	 - 	 - 	C273_3,C2761,C27_S0,			
+										 - 	 - 	 - 	C27_S1,C285_3,C286_3,			
+										 - 	 - 	 - 	C28_S0,C28_S1,C29_S0,			
+										 - 	 - 	 - 	C29_S1,C2_PM,C2_S0,C2_S1,			
+										 - 	 - 	 - 	C307_3,C308_3,C309_3,			
+										 - 	 - 	 - 	C30_S0,C30_S1,C310_3,			
+										 - 	 - 	 - 	C311_3,C312_3,C313_3,			
+										 - 	 - 	 - 	C314_3,C315_3,C316_3,			
+										 - 	 - 	 - 	C317,C317_3,C318_3,			
+										 - 	 - 	 - 	C319_3,C31_S0,C31_S1,			
+										 - 	 - 	 - 	C320_3,C321_3,C322_3,			
+										 - 	 - 	 - 	C323_3,C324_3,C325_3,			
+										 - 	 - 	 - 	C326_3,C327_3,C328_3,			
+										 - 	 - 	 - 	C329_3,C32_S0,C32_S1,			
+										 - 	 - 	 - 	C330_3,C331_3,C332_3,			
+										 - 	 - 	 - 	C333_3,C334_3,C335_3,			
+										 - 	 - 	 - 	C336_3,C337_3,C338_3,			
+										 - 	 - 	 - 	C339_3,C340_3,C341_3,			
+										 - 	 - 	 - 	C342_3,C343_3,C344_3,			
+										 - 	 - 	 - 	C345_3,C346,C346_3,			
+										 - 	 - 	 - 	C347_3,C348,C349,			
+										 - 	 - 	 - 	C34_RT1_2,C34_RT3_4,			
+										 - 	 - 	 - 	C34_RT5_6,C34_RT7_8,			
+										 - 	 - 	 - 	C34_RT9,C351,C352,C356,			
+										 - 	 - 	 - 	C363,C364,C365,C366,C368,			
+										 - 	 - 	 - 	C368_3,C36_RT1_2,			
+										 - 	 - 	 - 	C36_RT3_4,C36_RT5_6,			
+										 - 	 - 	 - 	C36_RT7_8,C36_RT9,C371,			
+										 - 	 - 	 - 	C372_3,C374,C376_3,C377,			
+										 - 	 - 	 - 	C378,C379,C37_RT1_2,			
+										 - 	 - 	 - 	C37_RT3_4,C37_RT5_6,			
+										 - 	 - 	 - 	C37_RT7_8,C37_RT9,C380_3,			
+										 - 	 - 	 - 	C381,C382,C383,C384,			
+										 - 	 - 	 - 	C384_3,C385,C388,C388_3,			
+										 - 	 - 	 - 	C391,C392_3,C393,C396_3,			
+										 - 	 - 	 - 	C397,C397_3,C399,			
+										 - 	 - 	 - 	C39_RT1_2,C39_RT3_4,			
+										 - 	 - 	 - 	C39_RT5_6,C39_RT7_8,			
+										 - 	 - 	 - 	C39_RT9,C3_Q0,C3_Q1,			
+										 - 	 - 	 - 	C3_Q2,C400_3,C401_3,C402,			
+										 - 	 - 	 - 	C402_3,C404_3,C405_3,			
+										 - 	 - 	 - 	C406_3,C408_3,C409_3,			
+										 - 	 - 	 - 	C40_RT1_2,C40_RT3_4,			
+										 - 	 - 	 - 	C40_RT5_6,C40_RT7_8,			
+										 - 	 - 	 - 	C40_RT9,C410_3,C412_3,			
+										 - 	 - 	 - 	C413_3,C414_3,C418_3,			
+										 - 	 - 	 - 	C41_S0,C41_S1,C422_3,			
+										 - 	 - 	 - 	C427_3,C428,C42_RT1_2,			
+										 - 	 - 	 - 	C42_RT3_4,C42_RT5_6,			
+										 - 	 - 	 - 	C42_RT7_8,C42_RT9,C42_S0,			
+										 - 	 - 	 - 	C42_S1,C431_3,C432,			
+										 - 	 - 	 - 	C435_3,C436,C438,C439_3,			
+										 - 	 - 	 - 	C43_RT1_2,C43_RT3_4,			
+										 - 	 - 	 - 	C43_RT5_6,C43_RT7_8,			
+										 - 	 - 	 - 	C43_RT9,C43_S0,C43_S1,			
+										 - 	 - 	 - 	C440,C443,C445,C447,C449,			
+										 - 	 - 	 - 	C44_S0,C44_S1,C451,C456,			
+										 - 	 - 	 - 	C457,C45_RT1_2,C45_RT3_4,			
+										 - 	 - 	 - 	C45_RT5_6,C45_RT7_8,			
+										 - 	 - 	 - 	C45_RT9,C45_S0,C45_S1,			
+										 - 	 - 	 - 	C46_RT1_2,C46_RT3_4,			
+										 - 	 - 	 - 	C46_RT5_6,C46_RT7_8,			
+										 - 	 - 	 - 	C46_RT9,C46_S0,C46_S1,			
+										 - 	 - 	 - 	C47_S0,C47_S1,C481,C485,			
+										 - 	 - 	 - 	C486,C487,C488,C489,			
+										 - 	 - 	 - 	C48_RT1_2,C48_RT3_4,			
+										 - 	 - 	 - 	C48_RT5_6,C48_RT7_8,			
+										 - 	 - 	 - 	C48_RT9,C48_S0,C48_S1,			
+										 - 	 - 	 - 	C490,C491,C493,C494,C495,			
+										 - 	 - 	 - 	C499,C49_RT1_2,C49_RT3_4,			
+										 - 	 - 	 - 	C49_RT5_6,C49_RT7_8,			
+										 - 	 - 	 - 	C49_RT9,C49_S0,C49_S1,			
+										 - 	 - 	 - 	C4_Q0,C4_Q1,C4_Q2,C500,			
+										 - 	 - 	 - 	C502,C503,C505,C508,			
+										 - 	 - 	 - 	C50_S0,C50_S1,C510,C511,			
+										 - 	 - 	 - 	C513,C514,C519,C51_RT1_2,			
+										 - 	 - 	 - 	C51_RT3_4,C51_RT5_6,			
+										 - 	 - 	 - 	C51_RT7_8,C51_RT9,C51_S0,			
+										 - 	 - 	 - 	C51_S1,C52,C522,C524,			
+										 - 	 - 	 - 	C525,C527,C52_RT1_2,			
+										 - 	 - 	 - 	C52_RT3_4,C52_RT5_6,			
+										 - 	 - 	 - 	C52_RT7_8,C52_RT9,C530,			
+										 - 	 - 	 - 	C532,C534,C536,C538,C539,			
+										 - 	 - 	 - 	C542,C543,C545,C546,C549,			
+										 - 	 - 	 - 	C54_S0,C54_S1,C555,			
+										 - 	 - 	 - 	C55_S0,C55_S1,C56_S0,			
+										 - 	 - 	 - 	C56_S1,C570,			
+										 - 	 - 	 - 	C571,C572,C573,C574,C579,			
+										 - 	 - 	 - 	C580,C581,C584,C599,			
+										 - 	 - 	 - 	C59_RT1_2,C59_RT3_4,			
+										 - 	 - 	 - 	C59_RT5_6,C59_RT7_8,			
+										 - 	 - 	 - 	C59_RT9,C59_S0,C59_S1,			
+										 - 	 - 	 - 	C5_PM,C5_S0,C5_S1,C600,			
+										 - 	 - 	 - 	C601,C602,C604_3,C60_S0,			
+										 - 	 - 	 - 	C60_S1,C612_3,C616_3,			
+										 - 	 - 	 - 	C61_S0,C61_S1,C620_3,			
+										 - 	 - 	 - 	C64_S0,C64_S1,C665_3,			
+										 - 	 - 	 - 	C66_RT1_2,C66_RT3_4,			
+										 - 	 - 	 - 	C66_RT5_6,C66_RT7_8,			
+										 - 	 - 	 - 	C66_RT9,C670_3,C67_RT1_2,			
+										 - 	 - 	 - 	C67_RT3_4,C67_RT5_6,			
+										 - 	 - 	 - 	C67_RT7_8,C67_RT9,C68,			
+										 - 	 - 	 - 	C680_3,C685_3,C68_RT1_2,			
+										 - 	 - 	 - 	C68_RT3_4,C68_RT5_6,			
+										 - 	 - 	 - 	C68_RT7_8,C68_RT9,C691_3,			
+										 - 	 - 	 - 	C692_3,C693_3,C694_3,			
+										 - 	 - 	 - 	C696_3,C698_3,C6_Q0,			
+										 - 	 - 	 - 	C6_Q1,C6_Q2,C6_S0,C6_S1,			
+										 - 	 - 	 - 	C715_3,C716_3,C717_3,			
+										 - 	 - 	 - 	C718_3,C719_3,C720_3,			
+										 - 	 - 	 - 	C7_S0,C7_S1,C91,C938			
+										AVX	0402ZD104KATA	Cancelled	 - 			
+										WALSIN TECHNOLOGY	0402X104K100C	Cancelled	 - 			
+										TDK	C1005X5R1A104K	Deplete Stock	 - 			
+										UNION TECHNOLOGY CORP.	CC0402X5R104KWT	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A104KP5NNNC	End of Production	 - 			
+										YAGEO	CI0402KX5R6BB104	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0402KRX5R6BB104	End of Production	 - 			
+										KEMET	C0402C104K8PAC	Qualified	 - 			
+										MURATA	GRM155R61A104KA01	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A104KP5NNWC	Qualified	 - 			
+										TAIYO YUDEN	LMK105BJ104KV	Qualified	 - 			
+										TAIYO YUDEN	LMK105BJ104KVHF	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CC0402X5R104KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15X104K100C	Qualified	 - 			
+										YAGEO	IC0402K_X5R6BB104	Qualified	 - 			
+11-2455-02	30	CAP,CE,0.47uF,25V,10%,X7R,SM,0805in,PB-Free	A	N/A	="-"&"B0"	5	Push	N	N	TAIYO YUDEN	TMK212B7474KGHT	Qualified	C216_5V,C226_3V3,C9_1V2S,	N	N
+										YAGEO	IC0805K_X7R8BB474	Qualified	C9_SF0,C9_SF1			
+										MURATA	GRM21BR71E474KC01	Obsolete	 - 			
+										TDK	C2012X7R1E474K	Obsolete	 - 			
+										KEMET	C0805C474K3RAC	Qualified	 - 			
+										MURATA	GCM219R71E474KA55D	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0805X7R474KWT	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT21B474K250CT	Qualified	 - 			
+										YAGEO	IC0805K_X7R8BB474	Qualified	 - 			
+11-2486-02	31	CAP,AL,1mF,25V,20%,SM,4953,12.5mmD,14mmH,LOW Z,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	UNITED CHEMI-CON	EMVY250ARA102MKE0S	Qualified	C2868	N	N
+										NIC COMPONENTS	NACZ102M25V12.5X14F	Deplete Stock	 - 			
+										SUN ELECTRONIC IND	25CE1000AX	Qualified	 - 			
+11-2597-01	32	CAP,CE,15nF,16V,X7R,10%,SM,0402in	A	N/A	="-"&"A0"	2	Push	N	N	TAIYO YUDEN	EMK105B7153KV-F	Qualified	C14_1V2S,C70_3V3	N	N
+										TAIYO YUDEN	EMK105BJ153KV	Cancelled	 - 			
+										VISHAY INTERTECHNOLOGY	GA0402Y153KXJA31G	In Process - Qual	 - 			
+										AVX	0402YC153KATA	Obsolete	 - 			
+										KEMET	C0402C153K4RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	0402YC153KATA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B153KO5NNW	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7153KVHF	Qualified	 - 			
+11-2647-02	33	CAP,CE,22uF,6.3V,X5R,10%,SM,1206in,Pb-FREE,**No Broker or Disty Buys allowed on Yageo CC1206KX5R5BB226 MPN	A	N/A	="-"&"C0"	9	Push	N	N	JOHANSON DIELECTRICS	6R3R18X226KV4E	Qualified	C1185,C132,C163,C168,	N	N
+										JOHANSON DIELECTRICS	6R3R18X226KV4E	Qualified	C3_6,C406,C454,C66,C6_6			
+										TDK	C3216X5R0J226K	Deplete Stock	 - 			
+										UNION TECHNOLOGY CORP.	CA1206X5R226KWT	Deplete Stock	 - 			
+										YAGEO	CI1206KKX5R5BB226	End of Production	 - 			
+										YAGEO	CC1206KX5R5BB226	End of Production	 - 			
+										YAGEO/PHYCOMP	CC1206KX5R5BB226	End of Production	 - 			
+										AVX	12066D226KAT_A	Obsolete	 - 			
+										MURATA	GRM31CR60J226KE19	Obsolete	 - 			
+										KEMET	C1206C226K9PAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	12066D226KAT_A	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KQHNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK316BJ226KL	Qualified	 - 			
+										TAIYO YUDEN	JMK316ABJ226KLHT	Qualified	 - 			
+										YAGEO	IC1206K_X5R5BB226	Qualified	 - 			
+11-2655-02	34	CAP,CE,0.22uF,6.3V,10%,X5R,SM,0402in,Pb-free,**No Broker or Disty Buys allowed on Yageo CC0402KRX5R5BB224 MPN	A	N/A	="-"&"B0"	8	Push	Y	N	MURATA	GRM155R60J224KE01	Obsolete	C1_3,C2_3,C7_Q0,C7_Q1,	N	N
+										WALSIN TECHNOLOGY	MG15X224K6R3C	Qualified	C7_Q2,C8_Q0,C8_Q1,C8_Q2			
+										WALSIN TECHNOLOGY	0402X224K6R3C	Cancelled	 - 			
+										AVX	04026D224KATA	Deplete Stock	 - 			
+										TDK	C1005X5R0J224K	Deplete Stock	 - 			
+										UNION TECHNOLOGY CORP.	CA0402X5R224KWT	Deplete Stock	 - 			
+										YAGEO	CI0402KX5R5BB224	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0402KRX5R5BB224	End of Production	 - 			
+										JOHANSON DIELECTRICS	6R3R07X224KV4	Obsolete	 - 			
+										KEMET	C0402C224K9PAC	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A224KQ5NNWC	Qualified	 - 			
+										TAIYO YUDEN	RM JMK105 BJ224KV	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CA0402X5R224KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15X224K6R3C	Qualified	 - 			
+										YAGEO	IC0402K_X5R5BB224	Qualified	 - 			
+11-2686-02	35	CAP,CE,22.0uF,6.3 V,20%,X5R,SM,0805in,1.45mmH,**No Broker or Disty Buys allowed on Yageo CC0805M_X5R5BB226 MPN	A	N/A	="-"&"B1"	130	Push	N	N	MURATA	GRM21BR60J226ME39	Qualified	C100_S0,C100_S1,C101_S0,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL21A226MQQNNWE	Qualified	C101_S1,C1049,C104_S0,			
+										YAGEO	CI0805MKX5R5BB226	End of Production	C104_S1,C11_Q0,C11_Q1,			
+										MURATA	GRM21BR60J226ME39	Qualified	C11_Q2,C13_Q0,C13_Q1,			
+										YAGEO	CC0805M_X5R5BB226	End of Production	C13_Q2,C153_S0,C153_S1,			
+										AVX	08056D226MATA	Disqualified	C154_S0,C154_S1,C155_S0,			
+										YAGEO/PHYCOMP	CC0805M_X5R5BB226	End of Production	C155_S1,C156_S0,C156_S1,			
+										UNION TECHNOLOGY CORP.	CA0805X5R226MW	Qualified	C157_S0,C157_S1,C158_S0,			
+										KEMET	C0805C226M9PAC	Qualified	C158_S1,C159_S0,C159_S1,			
+										TDK	C2012X5R0J226M	Deplete Stock	C15_Q0,C15_Q1,C15_Q2,			
+										TAIYO YUDEN	JMK212BJ226MG	Qualified	C160_S0,C160_S1,C17_Q0,			
+										YAGEO	IC0805M_X5R5BB226	Qualified	C17_Q1,C17_Q2,C19_Q0,			
+										 - 	 - 	 - 	C19_Q1,C19_Q2,C1_Q0,			
+										 - 	 - 	 - 	C1_Q1,C1_Q2,C201_S0,			
+										 - 	 - 	 - 	C201_S1,C202_S0,C202_S1,			
+										 - 	 - 	 - 	C203_S0,C203_S1,C204_S0,			
+										 - 	 - 	 - 	C204_S1,C205_S0,C205_S1,			
+										 - 	 - 	 - 	C206_S0,C206_S1,C207_S0,			
+										 - 	 - 	 - 	C207_S1,C208_S0,C208_S1,			
+										 - 	 - 	 - 	C2_Q0,C2_Q1,C2_Q2,C3063,			
+										 - 	 - 	 - 	C3064,C33_S0,C33_S1,			
+										 - 	 - 	 - 	C34_S0,C34_S1,C35_S0,			
+										 - 	 - 	 - 	C35_S1,C362,C36_S0,			
+										 - 	 - 	 - 	C36_S1,C37_S0,C37_S1,			
+										 - 	 - 	 - 	C38_S0,C38_S1,C39_S0,			
+										 - 	 - 	 - 	C39_S1,C40_S0,C40_S1,			
+										 - 	 - 	 - 	C5_Q0,C5_Q1,C5_Q2,C65_S0,			
+										 - 	 - 	 - 	C65_S1,C66_S0,C66_S1,			
+										 - 	 - 	 - 	C69_S0,C69_S1,C70_S0,			
+										 - 	 - 	 - 	C70_S1,C71_S0,C71_S1,			
+										 - 	 - 	 - 	C74_S0,C74_S1,C75_S0,			
+										 - 	 - 	 - 	C75_S1,C76_S0,C76_S1,C78,			
+										 - 	 - 	 - 	C79,C79_S0,C79_S1,C80_S0,			
+										 - 	 - 	 - 	C80_S1,C81_S0,C81_S1,			
+										 - 	 - 	 - 	C84_S0,C84_S1,C85_S0,			
+										 - 	 - 	 - 	C85_S1,C86_S0,C86_S1,			
+										 - 	 - 	 - 	C89_S0,C89_S1,C90_S0,			
+										 - 	 - 	 - 	C90_S1,C91_S0,C91_S1,			
+										 - 	 - 	 - 	C941,C94_S0,C94_S1,			
+										 - 	 - 	 - 	C95_S0,C95_S1,C96_S0,			
+										 - 	 - 	 - 	C96_S1,C99_S0,C99_S1,			
+										 - 	 - 	 - 	C9_Q0,C9_Q1,C9_Q2			
+										TDK	C2012X5R0J226M	Deplete Stock	 - 			
+										AVX	08056D226MATA	Disqualified	 - 			
+										YAGEO	CC0805M_X5R5BB226	End of Production	 - 			
+										YAGEO	CI0805MKX5R5BB226	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0805M_X5R5BB226	End of Production	 - 			
+										KEMET	C0805C226M9PAC	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL21A226MQQNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK212BBJ226MGHT	Qualified	 - 			
+										TAIYO YUDEN	JMK212BJ226MG	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CA0805X5R226MW	Qualified	 - 			
+										YAGEO	IC0805M_X5R5BB226	Qualified	 - 			
+11-2686-04	36	CAP,CE,22.0uF,6.3 V,20%,X5R,SM,0805in,1.45mmH,-55 to 85 C,For IOTBU USE ONLY	A	N/A	="-"&"A0"	110	Push	Y	N	MURATA	GRM21BR60J226ME39	Qualified	C126_RT1_2,C126_RT3_4,	N	N
+										TAIYO YUDEN	JMK212BBJ226MGHT	Qualified	C126_RT5_6,C126_RT7_8,			
+										TAIYO YUDEN	JMK212BJ226MG	Qualified	C127_RT1_2,C127_RT3_4,			
+										MURATA	GRM21BR60J226ME39	Qualified	C127_RT5_6,C127_RT7_8,			
+										YAGEO	IC0805M_X5R5BB226	Qualified	C147_RT1_2,C147_RT3_4,			
+										KEMET	C0805C226M9PAC	Qualified	C147_RT5_6,C147_RT7_8,			
+										SAMSUNG ELECTRO-MECHANICS	CL21A226MQQNNWE	Qualified	C148_RT1_2,C148_RT3_4,			
+										 - 	 - 	 - 	C148_RT5_6,C148_RT7_8,			
+										 - 	 - 	 - 	C149_RT1_2,C149_RT3_4,			
+										 - 	 - 	 - 	C149_RT5_6,C149_RT7_8,			
+										 - 	 - 	 - 	C150_RT1_2,C150_RT3_4,			
+										 - 	 - 	 - 	C150_RT5_6,C150_RT7_8,			
+										 - 	 - 	 - 	C151_RT1_2,C151_RT3_4,			
+										 - 	 - 	 - 	C151_RT5_6,C151_RT7_8,			
+										 - 	 - 	 - 	C152_RT1_2,C152_RT3_4,			
+										 - 	 - 	 - 	C152_RT5_6,C152_RT7_8,			
+										 - 	 - 	 - 	C153_RT1_2,C153_RT3_4,			
+										 - 	 - 	 - 	C153_RT5_6,C153_RT7_8,			
+										 - 	 - 	 - 	C154_RT1_2,C154_RT3_4,			
+										 - 	 - 	 - 	C154_RT5_6,C154_RT7_8,			
+										 - 	 - 	 - 	C16_RT1_2,C16_RT3_4,			
+										 - 	 - 	 - 	C16_RT5_6,C16_RT7_8,			
+										 - 	 - 	 - 	C27_RT1_2,C27_RT3_4,			
+										 - 	 - 	 - 	C27_RT5_6,C27_RT7_8,			
+										 - 	 - 	 - 	C27_RT9,C417_3,C419_3,			
+										 - 	 - 	 - 	C421_3,C425_3,C426_3,			
+										 - 	 - 	 - 	C429_3,C430_3,C433_3,			
+										 - 	 - 	 - 	C434_3,C438_3,C442_3,			
+										 - 	 - 	 - 	C443_3,C447_3,C451_3,			
+										 - 	 - 	 - 	C455_3,C458_3,C61_RT1_2,			
+										 - 	 - 	 - 	C61_RT3_4,C61_RT5_6,			
+										 - 	 - 	 - 	C61_RT7_8,C61_RT9,C636_3,			
+										 - 	 - 	 - 	C640_3,C641_3,C644_3,			
+										 - 	 - 	 - 	C646_3,C647_3,C650_3,			
+										 - 	 - 	 - 	C652_3,C653_3,C656_3,			
+										 - 	 - 	 - 	C658_3,C659_3,C662_3,			
+										 - 	 - 	 - 	C663_3,C666_3,C71_RT1_2,			
+										 - 	 - 	 - 	C71_RT3_4,C71_RT5_6,			
+										 - 	 - 	 - 	C71_RT7_8,C71_RT9,C721_3,			
+										 - 	 - 	 - 	C722_3,C723_3,C72_RT1_2,			
+										 - 	 - 	 - 	C72_RT3_4,C72_RT5_6,			
+										 - 	 - 	 - 	C72_RT7_8,C72_RT9,			
+										 - 	 - 	 - 	C77_RT1_2,C77_RT3_4,			
+										 - 	 - 	 - 	C77_RT5_6,C77_RT7_8,			
+										 - 	 - 	 - 	C78_RT1_2,C78_RT3_4,			
+										 - 	 - 	 - 	C78_RT5_6,C78_RT7_8,			
+										 - 	 - 	 - 	C79_RT9,C80_RT9,C85_RT9,			
+										 - 	 - 	 - 	C86_RT9			
+										KEMET	C0805C226M9PAC	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL21A226MQQNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK212BBJ226MGHT	Qualified	 - 			
+										TAIYO YUDEN	JMK212BJ226MG	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CA0805X5R226MW	Qualified	 - 			
+										YAGEO	IC0805M_X5R5BB226	Qualified	 - 			
+11-2720-02	37	CAP,CE,0.1uF,10V,10%,X7R,SM,0402in,Pb-free	A	N/A	="-"&"A0"	266	Push	N	N	TDK	C1005X7R1A104K	Deplete Stock	C100_RT1_2,C100_RT3_4,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL05B104KP5NNWC	Qualified	C100_RT5_6,C100_RT7_8,			
+										YAGEO	IC0402KRX7R6BB104	Qualified	C101_RT1_2,C101_RT3_4,			
+										TAIYO YUDEN	LMK105B7104KVHF	Qualified	C101_RT5_6,C101_RT7_8,			
+										JOHANSON DIELECTRICS	100R07W104KV4	Obsolete	C102_RT1_2,C102_RT3_4,			
+										MURATA	GRM155R71A104KA01	Obsolete	C102_RT5_6,C102_RT7_8,			
+										TDK	C1005X7R1A104K	Deplete Stock	C103_RT1_2,C103_RT3_4,			
+										SAMSUNG ELECTRO-MECHANICS	CL05B104KP5NNNC	Deplete Stock	C103_RT5_6,C103_RT7_8,			
+										TAIYO YUDEN	LMK105B7104KV-F	Qualified	C104_RT1_2,C104_RT3_4,			
+										UNION TECHNOLOGY CORP.	CC0402X7R104KW	Qualified	C104_RT5_6,C104_RT7_8,			
+										WALSIN TECHNOLOGY	MG15B104K100C	Qualified	C105_RT1_2,C105_RT3_4,			
+										YAGEO	AC0402K_X7R6BB104	Qualified	C105_RT5_6,C105_RT7_8,			
+										KEMET	C0402C104K8RAC	Qualified	C106_RT1_2,C106_RT3_4,			
+										 - 	 - 	 - 	C106_RT5_6,C106_RT7_8,			
+										 - 	 - 	 - 	C128_RT1_2,C128_RT3_4,			
+										 - 	 - 	 - 	C128_RT5_6,C128_RT7_8,			
+										 - 	 - 	 - 	C129_RT1_2,C129_RT3_4,			
+										 - 	 - 	 - 	C129_RT5_6,C129_RT7_8,			
+										 - 	 - 	 - 	C133_RT1_2,C133_RT3_4,			
+										 - 	 - 	 - 	C133_RT5_6,C133_RT7_8,			
+										 - 	 - 	 - 	C134_RT1_2,C134_RT3_4,			
+										 - 	 - 	 - 	C134_RT5_6,C134_RT7_8,			
+										 - 	 - 	 - 	C135_RT1_2,C135_RT3_4,			
+										 - 	 - 	 - 	C135_RT5_6,C135_RT7_8,			
+										 - 	 - 	 - 	C136_RT1_2,C136_RT3_4,			
+										 - 	 - 	 - 	C136_RT5_6,C136_RT7_8,			
+										 - 	 - 	 - 	C137_RT1_2,C137_RT3_4,			
+										 - 	 - 	 - 	C137_RT5_6,C137_RT7_8,			
+										 - 	 - 	 - 	C138_RT1_2,C138_RT3_4,			
+										 - 	 - 	 - 	C138_RT5_6,C138_RT7_8,			
+										 - 	 - 	 - 	C13_RT1_2,C13_RT3_4,			
+										 - 	 - 	 - 	C13_RT5_6,C13_RT7_8,			
+										 - 	 - 	 - 	C13_RT9,C141_RT1_2,			
+										 - 	 - 	 - 	C141_RT3_4,C141_RT5_6,			
+										 - 	 - 	 - 	C141_RT7_8,C142_RT1_2,			
+										 - 	 - 	 - 	C142_RT3_4,C142_RT5_6,			
+										 - 	 - 	 - 	C142_RT7_8,C143_RT1_2,			
+										 - 	 - 	 - 	C143_RT3_4,C143_RT5_6,			
+										 - 	 - 	 - 	C143_RT7_8,C144_RT1_2,			
+										 - 	 - 	 - 	C144_RT3_4,C144_RT5_6,			
+										 - 	 - 	 - 	C144_RT7_8,C145_RT1_2,			
+										 - 	 - 	 - 	C145_RT3_4,C145_RT5_6,			
+										 - 	 - 	 - 	C145_RT7_8,C146_RT1_2,			
+										 - 	 - 	 - 	C146_RT3_4,C146_RT5_6,			
+										 - 	 - 	 - 	C146_RT7_8,C15_RT1_2,			
+										 - 	 - 	 - 	C15_RT3_4,C15_RT5_6,			
+										 - 	 - 	 - 	C15_RT7_8,C15_RT9,			
+										 - 	 - 	 - 	C16_RT9,C19_RT1_2,			
+										 - 	 - 	 - 	C19_RT3_4,C19_RT5_6,			
+										 - 	 - 	 - 	C19_RT7_8,C19_RT9,			
+										 - 	 - 	 - 	C21_RT1_2,C21_RT3_4,			
+										 - 	 - 	 - 	C21_RT5_6,C21_RT7_8,			
+										 - 	 - 	 - 	C21_RT9,C22_RT1_2,			
+										 - 	 - 	 - 	C22_RT3_4,C22_RT5_6,			
+										 - 	 - 	 - 	C22_RT7_8,C22_RT9,			
+										 - 	 - 	 - 	C23_RT1_2,C23_RT3_4,			
+										 - 	 - 	 - 	C23_RT5_6,C23_RT7_8,			
+										 - 	 - 	 - 	C23_RT9,C24_RT1_2,			
+										 - 	 - 	 - 	C24_RT3_4,C24_RT5_6,			
+										 - 	 - 	 - 	C24_RT7_8,C24_RT9,			
+										 - 	 - 	 - 	C28_RT1_2,C28_RT3_4,			
+										 - 	 - 	 - 	C28_RT5_6,C28_RT7_8,			
+										 - 	 - 	 - 	C28_RT9,C29_RT1_2,			
+										 - 	 - 	 - 	C29_RT3_4,C29_RT5_6,			
+										 - 	 - 	 - 	C29_RT7_8,C29_RT9,			
+										 - 	 - 	 - 	C30_RT1_2,C30_RT3_4,			
+										 - 	 - 	 - 	C30_RT5_6,C30_RT7_8,			
+										 - 	 - 	 - 	C30_RT9,C31_RT1_2,			
+										 - 	 - 	 - 	C31_RT3_4,C31_RT5_6,			
+										 - 	 - 	 - 	C31_RT7_8,C31_RT9,			
+										 - 	 - 	 - 	C33_RT1_2,C33_RT3_4,			
+										 - 	 - 	 - 	C33_RT5_6,C33_RT7_8,			
+										 - 	 - 	 - 	C33_RT9,C35_RT1_2,			
+										 - 	 - 	 - 	C35_RT3_4,C35_RT5_6,			
+										 - 	 - 	 - 	C35_RT7_8,C35_RT9,			
+										 - 	 - 	 - 	C38_RT1_2,C38_RT3_4,			
+										 - 	 - 	 - 	C38_RT5_6,C38_RT7_8,			
+										 - 	 - 	 - 	C38_RT9,C41_RT1_2,			
+										 - 	 - 	 - 	C41_RT3_4,C41_RT5_6,			
+										 - 	 - 	 - 	C41_RT7_8,C41_RT9,			
+										 - 	 - 	 - 	C44_RT1_2,C44_RT3_4,			
+										 - 	 - 	 - 	C44_RT5_6,C44_RT7_8,			
+										 - 	 - 	 - 	C44_RT9,C47_RT1_2,			
+										 - 	 - 	 - 	C47_RT3_4,C47_RT5_6,			
+										 - 	 - 	 - 	C47_RT7_8,C47_RT9,			
+										 - 	 - 	 - 	C50_RT1_2,C50_RT3_4,			
+										 - 	 - 	 - 	C50_RT5_6,C50_RT7_8,			
+										 - 	 - 	 - 	C50_RT9,C62_RT1_2,			
+										 - 	 - 	 - 	C62_RT3_4,C62_RT5_6,			
+										 - 	 - 	 - 	C62_RT7_8,C62_RT9,			
+										 - 	 - 	 - 	C63_RT1_2,C63_RT3_4,			
+										 - 	 - 	 - 	C63_RT5_6,C63_RT7_8,			
+										 - 	 - 	 - 	C63_RT9,C64_RT1_2,			
+										 - 	 - 	 - 	C64_RT3_4,C64_RT5_6,			
+										 - 	 - 	 - 	C64_RT7_8,C64_RT9,			
+										 - 	 - 	 - 	C65_RT1_2,C65_RT3_4,			
+										 - 	 - 	 - 	C65_RT5_6,C65_RT7_8,			
+										 - 	 - 	 - 	C65_RT9,C73_RT9,C74_RT9,			
+										 - 	 - 	 - 	C75_RT9,C76_RT9,C77_RT9,			
+										 - 	 - 	 - 	C78_RT9,C79_RT1_2,			
+										 - 	 - 	 - 	C79_RT3_4,C79_RT5_6,			
+										 - 	 - 	 - 	C79_RT7_8,C80_RT1_2,			
+										 - 	 - 	 - 	C80_RT3_4,C80_RT5_6,			
+										 - 	 - 	 - 	C80_RT7_8,C85_RT1_2,			
+										 - 	 - 	 - 	C85_RT3_4,C85_RT5_6,			
+										 - 	 - 	 - 	C85_RT7_8,C86_RT1_2,			
+										 - 	 - 	 - 	C86_RT3_4,C86_RT5_6,			
+										 - 	 - 	 - 	C86_RT7_8,C87_RT1_2,			
+										 - 	 - 	 - 	C87_RT3_4,C87_RT5_6,			
+										 - 	 - 	 - 	C87_RT7_8,C88_RT1_2,			
+										 - 	 - 	 - 	C88_RT3_4,C88_RT5_6,			
+										 - 	 - 	 - 	C88_RT7_8,C8_RT1_2,			
+										 - 	 - 	 - 	C8_RT3_4,C8_RT5_6,			
+										 - 	 - 	 - 	C8_RT7_8,C8_RT9,			
+										 - 	 - 	 - 	C91_RT1_2,C91_RT3_4,			
+										 - 	 - 	 - 	C91_RT5_6,C91_RT7_8,			
+										 - 	 - 	 - 	C92_RT1_2,C92_RT3_4,			
+										 - 	 - 	 - 	C92_RT5_6,C92_RT7_8,			
+										 - 	 - 	 - 	C93_RT1_2,C93_RT3_4,			
+										 - 	 - 	 - 	C93_RT5_6,C93_RT7_8,			
+										 - 	 - 	 - 	C94_RT1_2,C94_RT3_4,			
+										 - 	 - 	 - 	C94_RT5_6,C94_RT7_8,			
+										 - 	 - 	 - 	C95_RT1_2,C95_RT3_4,			
+										 - 	 - 	 - 	C95_RT5_6,C95_RT7_8,			
+										 - 	 - 	 - 	C96_RT1_2,C96_RT3_4,			
+										 - 	 - 	 - 	C96_RT5_6,C96_RT7_8,			
+										 - 	 - 	 - 	C97_RT1_2,C97_RT3_4,			
+										 - 	 - 	 - 	C97_RT5_6,C97_RT7_8,			
+										 - 	 - 	 - 	C98_RT1_2,C98_RT3_4,			
+										 - 	 - 	 - 	C98_RT5_6,C98_RT7_8,			
+										 - 	 - 	 - 	C99_RT1_2,C99_RT3_4,			
+										 - 	 - 	 - 	C99_RT5_6,C99_RT7_8			
+										AVX	0402ZC104KATA	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B104KP5NNNC	Deplete Stock	 - 			
+										JOHANSON DIELECTRICS	100R07W104KV4	Obsolete	 - 			
+										MURATA	GRM155R71A104KA01	Obsolete	 - 			
+										KEMET	C0402C104K8RAC	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B104KP5NNWC	Qualified	 - 			
+										TAIYO YUDEN	LMK105B7104KVHF	Qualified	 - 			
+										TAIYO YUDEN	LMK105B7104KV-F	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CC0402X7R104KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG15B104K100C	Qualified	 - 			
+										YAGEO	IC0402KRX7R6BB104	Qualified	 - 			
+										YAGEO	AC0402K_X7R6BB104	Qualified	 - 			
+11-2817-01	38	CAP,CE,6.8nF,25V,X7R,10%,SM,0402in,0.56mmH,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	KYOCERA AVX COMPONENTS CORP	04023C682KATA	Qualified	C11_1V2S,C64_3V3	N	N
+										AVX	04023C682KATA	Obsolete	 - 			
+										KEMET	C0402C682K3RAC	Qualified	 - 			
+										MURATA	GCM155R71E682KA37	Qualified	 - 			
+										TAIYO YUDEN	TMK105B7682KVHF	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B682K250C	Qualified	 - 			
+11-2819-01	39	CAP,CE,10nF,25V,X7R,10%,SM,0402in,0.55mmH,Pb-FREE	A	N/A	="-"&"A0"	10	Push	N	N	KEMET	C0402C103K3RAC	Qualified	C03_5,C03_RTV1,C03_RTV2,	N	N
+										VISHAY INTERTECHNOLOGY	GA0402Y103KXXA31G	Cancelled	C04_5,C04_RTV1,C04_RTV2,			
+										UNION TECHNOLOGY CORP.	CL0402X7R103KW	Qualified	C10_5,C10_RTV1,C10_RTV2,			
+										MURATA	GRM155R71E103KA01	Obsolete	C940			
+										VISHAY INTERTECHNOLOGY	GA0402Y103KXXA31G	Cancelled	 - 			
+										MURATA	GRM155R71E103KA01	Obsolete	 - 			
+										TDK	C1005X7R1E103K	Obsolete	 - 			
+										UNION TECHNOLOGY CORP.	CL0402X7R103KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B103K250C	Qualified	 - 			
+										YAGEO	IC0402KRX7R8BB103	Qualified	 - 			
+										YAGEO	AC0402K_X7R8BB103	Qualified	 - 			
+11-2821-01	40	CAP,CE,0.1uF,25.0 V,10%,X7R,SM,0603in,0.9mmH	A	N/A	="-"&"B0"	1	Push	N	N	VISHAY INTERTECHNOLOGY	GA0603Y104KXXA31G	Cancelled	C22_A	N	N
+										AVX	06033C104KAT_A	Obsolete	 - 			
+										MURATA	GRM188R71E104KA01	Obsolete	 - 			
+										KEMET	C0603C104K3RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	06033C104KAT_A	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10B104KA8NNW	Qualified	 - 			
+										TAIYO YUDEN	TMK107B7104KAHT	Qualified	 - 			
+										WALSIN TECHNOLOGY	MG18B104K250C	Qualified	 - 			
+										YAGEO	IC0603K_X7R8BB104	Qualified	 - 			
+11-2833-01	41	CAP,CE,1.0uF,25.0 V,10%,X7R,SM,1206in,1.8mmH	A	N/A	="-"&"C0"	1	Push	N	N	YAGEO	IC1206K_X7R8BB105	Qualified	C2865	N	N
+										AVX	12063C105KATA	Obsolete	 - 			
+										MURATA	GRM31MR71E105KC01	Obsolete	 - 			
+										TDK	C3216X7R1E105K	Obsolete	 - 			
+										KEMET	C1206C105K3RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	12063C105KATA	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL1206X7R105KW	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA1206Y105KXXB31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT31B105K250C	Qualified	 - 			
+11-2845-01	42	CAP,CE,0.47uF,16V,10%,X7R,SM,0603in,0.9mmH,Pb-FREE	A	N/A	="-"&"A0"	11	Push	N	N	YAGEO	IC0603K_X7R7BB474	Qualified	C06_91_5,C06_91_RTV1,	N	N
+										KEMET	C0603C474K4RAC	Qualified	C06_91_RTV2,C06_92_5,			
+										UNION TECHNOLOGY CORP.	CH0603X7R474KWT	Disqualified	C06_93_5,C06_94_5,			
+										TAIYO YUDEN	EMK107B7474KA-T	Qualified	C06_95_5,C06_96_5,			
+										TDK	C1608X7R1C474K	Deplete Stock	C06_98_5,C06_98_RTV1,			
+										UNION TECHNOLOGY CORP.	CE0603X7R474KWT	Deplete Stock	C06_98_RTV2			
+										SAMSUNG ELECTRO-MECHANICS	CL10B474KO8NNW	Cancelled	 - 			
+										TAIYO YUDEN	EMK107BJ474KA-TR	Cancelled	 - 			
+										MURATA	GRM188R71C474KA01	Deplete Stock	 - 			
+										TDK	C1608X7R1C474K	Deplete Stock	 - 			
+										UNION TECHNOLOGY CORP.	CE0603X7R474KWT	Deplete Stock	 - 			
+										UNION TECHNOLOGY CORP.	CH0603X7R474KWT	Disqualified	 - 			
+										KEMET	C0603C474K4RAC	Qualified	 - 			
+										MURATA	GRM188R71C474KA88D	Qualified	 - 			
+										TAIYO YUDEN	EMK107B7474KA-T	Qualified	 - 			
+11-2956-01	43	CAP,CE,100uF,6.3V,20%,X5R,SM,1206in,1.9mmH,Pb-FREE,**No Broker or Disty Buys allowed on Yageo CC1206MX5R5BB107 MPN	A	N/A	="-"&"B0"	31	Push	N	N	KEMET	C1206C107M9PAC	Qualified	C13_A,C15_1V2S,C15_SF0,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQHNNN	End of Production	C15_SF1,C16_1V2S,C16_SF0,			
+										KEMET	C1206C107M9PAC	Qualified	C16_SF1,C17_1V2S,C17_SF0,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQKNNWE	Qualified	C17_SF1,C18_1V2S,C18_SF0,			
+										MURATA	GRM31CR60J107ME39	Qualified	C18_SF1,C191_3V3,			
+										NIC COMPONENTS	NMC1206X5R107M6.3TRPLPF	Deplete Stock	C193_3V3,C194_3V3,			
+										TAIYO YUDEN	JMK316BJ107ML-T	Qualified	C195_3V3,C20_1V2S,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQKNNW	Obsolete	C20_SF0,C20_SF1,C21_1V2S,			
+										YAGEO	IC1206MX5R5BB107	Qualified	C21_SF0,C21_SF1,C27_SF0,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQHNNWE	Obsolete	C27_SF1,C529,C59_5V,			
+										MURATA	GRM31CR60J107M	End of Production	C61_5V,C62_5V,C63_5V,			
+										TDK	C3216X5R0J107M	Deplete Stock	C9_6			
+										NIC COMPONENTS	NMC1206X5R107M6.3TRPLPF	Deplete Stock	 - 			
+										TDK	C3216X5R0J107M	Deplete Stock	 - 			
+										MURATA	GRM31CR60J107M	End of Production	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQHNNN	End of Production	 - 			
+										YAGEO	CC1206MX5R5BB107	End of Production	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQHNNWE	Obsolete	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQKNNW	Obsolete	 - 			
+										MURATA	GRM31CR60J107ME39	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A107MQKNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK316BJ107ML-T	Qualified	 - 			
+										YAGEO	IC1206MX5R5BB107	Qualified	 - 			
+11-2998-01	44	CAP,CE,10uF,16V,10%,SM,1206in,X7R,Pb Free	A	N/A	="-"&"A0"	15	Push	Y	N	MURATA	GRM31CR71C106KAC7	Deplete Stock	C14_A,C15_A,C1_6,C1_A,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL31B106KOHVPN	Disqualified	C24,C3055,C3056,C3058,			
+										KEMET	C1206C106K4RACAUTO	Qualified	C39,C4_6,C4_A,C70,C71,			
+										MURATA	GRM31CR71C106KA12	Deplete Stock	C73,C947			
+										MURATA	GRM31CR71C106KA12	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31B106KOHVPN	Disqualified	 - 			
+										AVX	1206YC106KAT4A	Obsolete	 - 			
+										KEMET	C1206C106K4RACAUTO	Qualified	 - 			
+										KEMET	C1206C106K4RACTU	Qualified	 - 			
+										KYOCERA	CM316X7R106K16AH-KA	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	1206YC106KAT4A	Qualified	 - 			
+										MURATA	GCM31CR71C106KA64	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31B106KOHNNWE	Qualified	 - 			
+										TAIYO YUDEN	EMK316AB7106KL-T	Qualified	 - 			
+										TAIYO YUDEN	EMK316AB7106KLHT	Qualified	 - 			
+										TDK	CGA5L1X7R1C106K160AC	Qualified	 - 			
+										TDK	C3216X7R1C106K	Qualified	 - 			
+										YAGEO	IC1206K_X7R7BB106	Qualified	 - 			
+11-3032-01	45	CAP,CE,1.0uF,6.3 V,10%,X5R,SM,0402,0.55mmH,-55 to 85 C	A	N/A	="-"&"B0"	303	Push	N	N	KYOCERA	CM05X5R105K10A-KA	In Process - Qual	C09_5,C09_RTV1,C09_RTV2,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL05A105KQ5NNWC	Qualified	C10,C1054,C10_3,C11_3,			
+										JOHANSON DIELECTRICS	6R3R07X105KV4	Cancelled	C12,C12_3,C13,C13_3,C14,			
+										AVX	04026D105KATA	Deplete Stock	C14_3,C15_3,C164,C16_3,			
+										KEMET	C0402C105K9PAC	Qualified	C17_3,C183,C18_3,C19_3,			
+										TAIYO YUDEN	JMK105BJ105KVHF	Qualified	C201_3,C202_3,C203_3,			
+										KYOCERA	CM05X5R105K10A-KA	In Process - Qual	C204_3,C205_3,C206_3,			
+										MURATA	GRM155R60J105KE19	Obsolete	C207_3,C208_3,C209_3,			
+										YAGEO	IC0402KRX5R5BB105	Qualified	C20_3,C210_3,C211_3,			
+										 - 	 - 	 - 	C212_3,C213_3,C214_3,			
+										 - 	 - 	 - 	C215_3,C216_3,C217_3,			
+										 - 	 - 	 - 	C218_3,C219_3,C21_3,			
+										 - 	 - 	 - 	C21_5,C21_RTV1,C21_RTV2,			
+										 - 	 - 	 - 	C220_3,C221_3,C222_3,			
+										 - 	 - 	 - 	C223_3,C224_3,C225_3,			
+										 - 	 - 	 - 	C226_3,C227_3,C22_3,			
+										 - 	 - 	 - 	C23_3,C24_3,C24_PM,C25_3,			
+										 - 	 - 	 - 	C25_SF0,C25_SF1,C26_3,			
+										 - 	 - 	 - 	C26_SF0,C26_SF1,C27,			
+										 - 	 - 	 - 	C27_3,C280_3,C281_3,			
+										 - 	 - 	 - 	C282_3,C283_3,C284_3,			
+										 - 	 - 	 - 	C287_3,C288_3,C289_3,			
+										 - 	 - 	 - 	C28_3,C290_3,C291_3,			
+										 - 	 - 	 - 	C292_3,C293_3,C294_3,			
+										 - 	 - 	 - 	C295_3,C296_3,C297_3,			
+										 - 	 - 	 - 	C298_3,C299_3,C29_3,C3,			
+										 - 	 - 	 - 	C300_3,C301_3,C302_3,			
+										 - 	 - 	 - 	C303_3,C304_3,C305_3,			
+										 - 	 - 	 - 	C306_3,C30_3,C31_3,C32,			
+										 - 	 - 	 - 	C32_3,C33,C330,C33_3,C34,			
+										 - 	 - 	 - 	C347,C34_3,C35,C350,C353,			
+										 - 	 - 	 - 	C354,C357,C35_3,C367,			
+										 - 	 - 	 - 	C369,C369_3,C36_3,C370,			
+										 - 	 - 	 - 	C372,C373,C373_3,C375,			
+										 - 	 - 	 - 	C376,C377_3,C37_3,C380,			
+										 - 	 - 	 - 	C381_3,C385_3,C386,			
+										 - 	 - 	 - 	C386_3,C387,C389_3,C38_3,			
+										 - 	 - 	 - 	C390,C390_3,C393_3,			
+										 - 	 - 	 - 	C394_3,C398_3,C39_3,C404,			
+										 - 	 - 	 - 	C407,C409,C40_3,C41,C410,			
+										 - 	 - 	 - 	C411,C412,C413,C414,C415,			
+										 - 	 - 	 - 	C415_3,C416,C417,C418,			
+										 - 	 - 	 - 	C419,C41_3,C420,C421,			
+										 - 	 - 	 - 	C422,C423,C424,C424_3,			
+										 - 	 - 	 - 	C425,C426,C427,C428_3,			
+										 - 	 - 	 - 	C429,C42_3,C431,C432_3,			
+										 - 	 - 	 - 	C433,C435,C436_3,C437,			
+										 - 	 - 	 - 	C439,C43_3,C440_3,C442,			
+										 - 	 - 	 - 	C444,C444_3,C448,C44_3,			
+										 - 	 - 	 - 	C450,C452_3,C455,C456_3,			
+										 - 	 - 	 - 	C459,C459_3,C45_3,C462_3,			
+										 - 	 - 	 - 	C468,C469,C46_3,C470,			
+										 - 	 - 	 - 	C471,C472,C473,C474,C475,			
+										 - 	 - 	 - 	C476,C476_3,C477,C477_3,			
+										 - 	 - 	 - 	C478,C478_3,C479,C479_3,			
+										 - 	 - 	 - 	C480,C480_3,C481_3,C482,			
+										 - 	 - 	 - 	C482_3,C483,C483_3,C484,			
+										 - 	 - 	 - 	C484_3,C485_3,C486_3,			
+										 - 	 - 	 - 	C487_3,C488_3,C489_3,			
+										 - 	 - 	 - 	C490_3,C491_3,C492,			
+										 - 	 - 	 - 	C492_3,C493_3,C494_3,			
+										 - 	 - 	 - 	C495_3,C496,C496_3,			
+										 - 	 - 	 - 	C497_3,C498,C498_3,			
+										 - 	 - 	 - 	C499_3,C500_3,C501,			
+										 - 	 - 	 - 	C501_3,C504,C509,C51,			
+										 - 	 - 	 - 	C512,C515,C516,C523,C526,			
+										 - 	 - 	 - 	C53,C531,C537,C54,C540,			
+										 - 	 - 	 - 	C541,C544,C547,C548,C55,			
+										 - 	 - 	 - 	C550,C551,C552,C553,C556,			
+										 - 	 - 	 - 	C557,C558,C559,C560,C561,			
+										 - 	 - 	 - 	C562,C563,C564,C565,C566,			
+										 - 	 - 	 - 	C567,C568,C569,C57,C58,			
+										 - 	 - 	 - 	C588_3,C59,C5_3,C6,			
+										 - 	 - 	 - 	C615_3,C619_3,C623_3,			
+										 - 	 - 	 - 	C626_3,C629_3,C632_3,			
+										 - 	 - 	 - 	C635_3,C639_3,C643_3,			
+										 - 	 - 	 - 	C645_3,C649_3,C651_3,			
+										 - 	 - 	 - 	C657_3,C661_3,C67,C679_3,			
+										 - 	 - 	 - 	C684_3,C688_3,C6_3,			
+										 - 	 - 	 - 	C712_3,C713_3,C714_3,			
+										 - 	 - 	 - 	C7_3,C8_3,C9,C965,			
+										 - 	 - 	 - 	C968,C98,C9_3			
+										JOHANSON DIELECTRICS	6R3R07X105KV4	Cancelled	 - 			
+										AVX	04026D105KATA	Deplete Stock	 - 			
+										MURATA	GRM155R60J105KE19	Obsolete	 - 			
+										KEMET	C0402C105K9PAC	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A105KQ5NNWC	Qualified	 - 			
+										TAIYO YUDEN	JMK105BJ105KV	Qualified	 - 			
+										TAIYO YUDEN	JMK105BJ105KVHF	Qualified	 - 			
+										YAGEO	IC0402KRX5R5BB105	Qualified	 - 			
+11-3046-01	46	CAP,AO,220uF,6.3V,20%,SM,2816,4.3mmH,LOW ESR 15mOhm	A	N/A	="-"&"A0"	3	Push	N	N	PANASONIC	EEFUE0J221ER	End of Production	C19_1V2S,C221_5V,C228_3V3	N	N
+										KEMET	A700X227M006ATE015	Qualified	 - 			
+										MURATA	ECASD60J227M010K00	Qualified	 - 			
+										PANASONIC	EEFCX0J221R	Qualified	 - 			
+11-3055-01	47	CAP,CE,0.1uF,50V,10%,X7R,SM,0603in	A	N/A	="-"&"A0"	1	Push	N	N	SAMSUNG ELECTRO-MECHANICS	CL10B104KB8NNW	Qualified	C578	N	N
+										TAIYO YUDEN	UMK107B7104KAT	Cancelled	 - 			
+										WALSIN TECHNOLOGY	0603B104K500C	Cancelled	 - 			
+										MURATA	GRM188R71H104KA93	Obsolete	 - 			
+										TDK	C1608X7R1H104KB	Obsolete	 - 			
+										KEMET	C0603C104K5RAC	Qualified	 - 			
+										MURATA	GCM188R71H104KA57D	Qualified	 - 			
+										TAIYO YUDEN	UMK107B7104KAHT	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	GA0603Y104KXAA31G	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT18B104K500C	Qualified	 - 			
+										YAGEO	IC0603K_X7R9BB104	Qualified	 - 			
+11-3112-01	48	CAP,CE,2.2uF,16.0 V,10%,X5R,SM,0603in,0.95mmH,85 to -55 C	A	N/A	="-"&"A1"	1	Push	N	N	KYOCERA AVX COMPONENTS CORP	0603YD225KAT_A	Qualified	C19_A	N	N
+										WALSIN TECHNOLOGY	0603X225K160C	Cancelled	 - 			
+										AVX	0603YD225KAT_A	Obsolete	 - 			
+										MURATA	GRM188R61C225KE15D	Obsolete	 - 			
+										KEMET	C0603C225K4PACTU	Qualified	 - 			
+										TAIYO YUDEN	EMK107ABJ225KAHT	Qualified	 - 			
+										TAIYO YUDEN	EMK107BJ225KA	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CE0603X5R225KW	Qualified	 - 			
+										YAGEO	IC0603K_X5R7BB225	Qualified	 - 			
+11-3113-01	49	CAP,CE,0.1uF,16.0 V,10%,X7R,SM,0402in,0.55mmH,125 to -55 C	A	N/A	="-"&"B0"	26	Push	N	N	MURATA	GRM155R71C104KA88D	Qualified	C05_91_5,C05_91_RTV1,	N	N
+										YAGEO	IC0402KRX7R7BB104	Qualified	C05_91_RTV2,C05_92_5,			
+										TAIYO YUDEN	EMK105B7104KV-F	Qualified	C05_93_5,C05_94_5,			
+										MURATA	GRM155R71C104KA88D	Qualified	C05_95_5,C05_96_5,			
+										YAGEO	AC0402K_X7R7BB104	Qualified	C05_98_5,C05_98_RTV1,			
+										TDK	C1005X7R1C104K	Obsolete	C05_98_RTV2,C07_5,			
+										KEMET	C0402C104K4RACTU	Qualified	C07_RTV1,C07_RTV2,C08_5,			
+										UNION TECHNOLOGY CORP.	CE0402X7R104KW	Qualified	C08_RTV1,C08_RTV2,C20_5,			
+										 - 	 - 	 - 	C20_RTV1,C20_RTV2,C2_6,			
+										 - 	 - 	 - 	C2_A,C3060,C5_6,C5_A,C75			
+										TDK	C1005X7R1C104K	Obsolete	 - 			
+										KEMET	C0402C104K4RACTU	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7104KV-F	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CE0402X7R104KW	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B104K160C	Qualified	 - 			
+										YAGEO	AC0402K_X7R7BB104	Qualified	 - 			
+										YAGEO	IC0402KRX7R7BB104	Qualified	 - 			
+11-3132-02	50	CAP,CE,1uF,16V,X7R,10%,SM,0603in,0.94mmH,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	AVX	0603YC105KATA	Obsolete	C18_A,C20_A,C3059,C74	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL10B105KO8ZP1C	Cancelled	 - 			
+										MURATA	GRM188R71C105KA12C	Obsolete	 - 			
+										JOHANSON DIELECTRICS	160R14W105KV4	Qualified	 - 			
+										KEMET	C0603C105K4RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	0603YC105KATA	Qualified	 - 			
+										TAIYO YUDEN	EMK107B7105KAHT	Qualified	 - 			
+										YAGEO	IC0603K_X7R7BB105	Qualified	 - 			
+11-3194-01	51	CAP,CE,2.2uF,6.3V,X7R,10%,SM,0603in,0.94mmH	A	N/A	="-"&"A0"	2	Push	N	N	JOHANSON DIELECTRICS	6R3R14W225KV4	Qualified	C937,C939	N	N
+										AVX	06036C225KAT	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	06036C225KAT	Qualified	 - 			
+										MURATA	GCM188R70J225KE22	Qualified	 - 			
+										TAIYO YUDEN	JMK107B7225KAHTR	Qualified	 - 			
+										TAIYO YUDEN	JMK107B7225KA	Qualified	 - 			
+										YAGEO	IC0603KRX7R5BB225	Qualified	 - 			
+11-3219-01	52	CAP,CE,1uF,10V,X5R,10%,SM,0402in,0.64mmH,**No Broker or Disty Buys allowed on Yageo CC0402K_X5R6BB105 MPN	A	N/A	="-"&"B0"	38	Push	N	N	YAGEO	CC0402RX5R6BB105	Cancelled	C07_91_5,C07_91_RTV1,	N	N
+										YAGEO	IC0402K_X5R6BB105	Qualified	C07_91_RTV2,C07_92_5,			
+										YAGEO	CI0402KX5R6BB105	End of Production	C07_93_5,C07_94_5,			
+										KEMET	C0402C105K8PACTU	Qualified	C07_95_5,C07_96_5,			
+										TAIYO YUDEN	LMK105BJ105KVHF	Qualified	C07_98_5,C07_98_RTV1,			
+										VISHAY INTERTECHNOLOGY	VJ0402G105KXQCW1B	Qualified	C07_98_RTV2,C09_91_5,			
+										NIC COMPONENTS	NMC0402X5R105K10F	Deplete Stock	C09_91_RTV1,C09_91_RTV2,			
+										TAIYO YUDEN	LMK105BJ105KV	Qualified	C09_92_5,C09_93_5,			
+										JOHANSON DIELECTRICS	100R07X105KV4	Qualified	C09_94_5,C09_95_5,			
+										KYOCERA	CM05X5R105K10A-KA	Qualified	C09_96_5,C09_98_5,			
+										TDK	C1005X5R1A105K	Deplete Stock	C09_98_RTV1,C09_98_RTV2,			
+										YAGEO	CC0402RX5R6BB105	Cancelled	C120,C121,C122,C123,C124,			
+										YAGEO	CC0402K_X5R6BB105	End of Production	C125,C127,C128,C2045,			
+										 - 	 - 	 - 	C2046,C2047,C2048,C2049,			
+										 - 	 - 	 - 	C2050,C7_6,C7_A			
+										NIC COMPONENTS	NMC0402X5R105K10F	Deplete Stock	 - 			
+										TDK	C1005X5R1A105K	Deplete Stock	 - 			
+										YAGEO	CC0402K_X5R6BB105	End of Production	 - 			
+										YAGEO	CI0402KX5R6BB105	End of Production	 - 			
+										JOHANSON DIELECTRICS	100R07X105KV4	Qualified	 - 			
+										KEMET	C0402C105K8PACTU	Qualified	 - 			
+										KYOCERA	CM05X5R105K10A-KA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A105KP5NNW	Qualified	 - 			
+										TAIYO YUDEN	LMK105BJ105KV	Qualified	 - 			
+										TAIYO YUDEN	LMK105BJ105KVHF	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	VJ0402G105KXQCW1B	Qualified	 - 			
+										YAGEO	IC0402K_X5R6BB105	Qualified	 - 			
+11-3235-01	53	CAP,CE,22uF,25V,X5R,20%,SM,1210in,2.79mmH,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KEMET	C1210C226M3PACTU	Qualified	C2864	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL32A226MAJNNW	Deplete Stock	 - 			
+										AVX	12103D226MATA	Obsolete	 - 			
+										MURATA	GRM32ER61E226ME15	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	12103D226MATA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL32A226KAJNNW	Qualified	 - 			
+										TAIYO YUDEN	TMK325BJ226MM	Qualified	 - 			
+11-3245-01	54	CAP,CE,4.7uF,6.3V,X5R,20%,SM,0402in,**No Broker or Disty Buys allowed on Yageo CC0402MX5R5BB475 MPN	A	N/A	="-"&"B0"	171	Push	N	N	TAIYO YUDEN	JMK105BBJ475MV	Qualified	C174_3,C175_3,C176_3,	N	N
+										KYOCERA	CM05X5R475M10A-KA	In Process - Qual	C177_3,C178_3,C179_3,			
+										MURATA	GRM155R60J475ME87D	Qualified	C180_3,C181_3,C182_3,			
+										YAGEO/PHYCOMP	CC0402MX5R5BB475	End of Production	C183_3,C184_3,C185_3,			
+										YAGEO	CC0402MX5R5BB475	End of Production	C186_3,C187_3,C188_3,			
+										AVX	04026D475MATA	Cancelled	C189_3,C190_3,C191_3,			
+										KEMET	C0402C475M9PACTU	Cancelled	C192_3,C193_3,C194_3,			
+										SAMSUNG ELECTRO-MECHANICS	CL05A475MQ5NQWC	Qualified	C195_3,C196_3,C197_3,			
+										NIC COMPONENTS	NMC0402X5R475M6.3TRPF	Deplete Stock	C198_3,C199_3,C200_3,			
+										JOHANSON DIELECTRICS	6R3R07X475MV4	Cancelled	C274_3,C275_3,C276_3,			
+										YAGEO	CI0402MRX5R5BB475	End of Production	C277_3,C278_3,C279_3,			
+										YAGEO	IC0402M_X5R5BB475	Qualified	C348_3,C349_3,C350_3,			
+										TDK	C1005X5R0J475M	Qualified	C351_3,C352_3,C353_3,			
+										 - 	 - 	 - 	C354_3,C355_3,C356_3,			
+										 - 	 - 	 - 	C357_3,C358_3,C359_3,			
+										 - 	 - 	 - 	C360_3,C361_3,C362_3,			
+										 - 	 - 	 - 	C363_3,C364_3,C365_3,			
+										 - 	 - 	 - 	C366_3,C367_3,C370_3,			
+										 - 	 - 	 - 	C371_3,C374_3,C375_3,			
+										 - 	 - 	 - 	C378_3,C379_3,C382_3,			
+										 - 	 - 	 - 	C383_3,C387_3,C391_3,			
+										 - 	 - 	 - 	C395_3,C399_3,C403_3,			
+										 - 	 - 	 - 	C407_3,C411_3,C416_3,			
+										 - 	 - 	 - 	C463_3,C465_3,C467_3,			
+										 - 	 - 	 - 	C469_3,C471_3,C473_3,			
+										 - 	 - 	 - 	C475_3,C47_3,C48_3,C49_3,			
+										 - 	 - 	 - 	C50_3,C51_3,C52_3,C53_3,			
+										 - 	 - 	 - 	C54_3,C550_3,C552_3,			
+										 - 	 - 	 - 	C554_3,C556_3,C558_3,			
+										 - 	 - 	 - 	C55_3,C560_3,C562_3,			
+										 - 	 - 	 - 	C564_3,C566_3,C568_3,			
+										 - 	 - 	 - 	C56_3,C570_3,C572_3,			
+										 - 	 - 	 - 	C574_3,C575_3,C576_3,			
+										 - 	 - 	 - 	C577_3,C578_3,C579_3,			
+										 - 	 - 	 - 	C57_3,C580_3,C581_3,			
+										 - 	 - 	 - 	C582_3,C583_3,C584_3,			
+										 - 	 - 	 - 	C585_3,C586_3,C587_3,			
+										 - 	 - 	 - 	C589_3,C58_3,C591_3,			
+										 - 	 - 	 - 	C593_3,C595_3,C597_3,			
+										 - 	 - 	 - 	C599_3,C59_3,C601_3,			
+										 - 	 - 	 - 	C603_3,C605_3,C607_3,			
+										 - 	 - 	 - 	C609_3,C60_3,C611_3,			
+										 - 	 - 	 - 	C613_3,C617_3,C61_3,			
+										 - 	 - 	 - 	C621_3,C624_3,C627_3,			
+										 - 	 - 	 - 	C62_3,C630_3,C633_3,			
+										 - 	 - 	 - 	C637_3,C63_3,C64_3,C65_3,			
+										 - 	 - 	 - 	C667_3,C66_3,C672_3,			
+										 - 	 - 	 - 	C674_3,C677_3,C67_3,			
+										 - 	 - 	 - 	C682_3,C68_3,C69_3,C70_3,			
+										 - 	 - 	 - 	C710_3,C711_3,C71_3,			
+										 - 	 - 	 - 	C72_3,C73_3,C74_3,C75_3,			
+										 - 	 - 	 - 	C76_3,C77_3,C78_3,C79_3,			
+										 - 	 - 	 - 	C80_3,C81_3,C82_3,C83_3,			
+										 - 	 - 	 - 	C84_3,C85_3,C86_3,C87_3,			
+										 - 	 - 	 - 	C88_3			
+										AVX	04026D475MATA	Cancelled	 - 			
+										JOHANSON DIELECTRICS	6R3R07X475MV4	Cancelled	 - 			
+										KEMET	C0402C475M9PACTU	Cancelled	 - 			
+										NIC COMPONENTS	NMC0402X5R475M6.3TRPF	Deplete Stock	 - 			
+										YAGEO	CC0402MX5R5BB475	End of Production	 - 			
+										YAGEO	CI0402MRX5R5BB475	End of Production	 - 			
+										YAGEO/PHYCOMP	CC0402MX5R5BB475	End of Production	 - 			
+										KYOCERA	CM05X5R475M10A-KA	In Process - Qual	 - 			
+										MURATA	GRM155R60J475ME87D	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05A475MQ5NQWC	Qualified	 - 			
+										TDK	C1005X5R0J475M	Qualified	 - 			
+										YAGEO	IC0402M_X5R5BB475	Qualified	 - 			
+11-3347-01	55	CAP,CE,4.7uF,25V,X5R,10%,SM,0805in,1.4mmH,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	MURATA	GRM21BR61E475KA12	Obsolete	C316,C321,C582,C583	N	N
+										AVX	08053D475KATA	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	08053D475KATA	Qualified	 - 			
+										TAIYO YUDEN	TMK212BJ475KG	Qualified	 - 			
+11-3462-01	56	CAP,CE,47nF,16V,X7R,10%,SM,0402in,0.55mmH,Pb-FREE	A	N/A	="-"&"A0"	5	Push	N	N	KEMET	C0402C473K4RAC	Qualified	C202_3V3,C57_5V,C7_1V2S,	N	N
+										MURATA	GRM155R71C473KA01	Obsolete	C7_SF0,C7_SF1			
+										VISHAY INTERTECHNOLOGY	GA0402Y473KXJA31G	Cancelled	 - 			
+										MURATA	GRM155R71C473KA01	Obsolete	 - 			
+										MURATA	GCM155R71C473KA37	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B473KO5NNW	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7473KV	Qualified	 - 			
+										TAIYO YUDEN	EMK105B7473KVHF	Qualified	 - 			
+										TDK	CGA2B2X7R1C473K	Qualified	 - 			
+11-3495-01	57	CAP,CE,8.2nF,25.0 V,10%,X7R,SM,0402in,0.55mmH	A	N/A	="-"&"B0"	6	Push	N	N	AVX	04023C822KATA	Obsolete	C11_SF0,C11_SF1,C14_SF0,	N	N
+										SAMSUNG ELECTRO-MECHANICS	CL05B822KA5NNWC	Qualified	C14_SF1,C217_5V,C220_5V			
+										SAMSUNG ELECTRO-MECHANICS	CL05B822KA5NNNC	Deplete Stock	 - 			
+										KEMET	C0402C822K3RAC	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	04023C822KATA	Qualified	 - 			
+										MURATA	GCM155R71E822KA37	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL05B822KA5NNWC	Qualified	 - 			
+										WALSIN TECHNOLOGY	MT15B822K250C	Qualified	 - 			
+11-3497-01	58	CAP,CE,47uF,6.3V,X5R,20%,SM,0805in,1.25mmH,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KEMET	C0805C476M9PAC	Qualified	C1543	N	N
+										MURATA	GRM21BR60J476ME15	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL21A476MQYNNWE	Qualified	 - 			
+										TAIYO YUDEN	JMK212BJ476MG	Qualified	 - 			
+										TDK	C2012X5R0J476M	Qualified	 - 			
+11-3590-01	59	CAP,CE,22.0uF,25.0 V,10%,X5R,SM,1206in,1.9mmH,-55 to 85 C	A	N/A	="-"&"C0"	20	Push	Y	N	TAIYO YUDEN	TMK316BBJ226KL	Qualified	C187_3V3,C1_1V2S,C1_SF0,	N	N
+										MURATA	GRM31CR61E226KE15	Obsolete	C1_SF1,C200_3V3,C212_5V,			
+										YAGEO	IC1206K_X5R8BB226	Qualified	C213_5V,C222_3V3,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KAHNNWE	Qualified	C223_3V3,C2_1V2S,C2_SF0,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KAHNNN	Deplete Stock	C2_SF1,C3_1V2S,C3_SF0,			
+										 - 	 - 	 - 	C3_SF1,C4_1V2S,C4_SF0,			
+										 - 	 - 	 - 	C4_SF1,C52_5V,C53_5V			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KAHNNN	Deplete Stock	 - 			
+										MURATA	GRM31CR61E226KE15	Obsolete	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KAHNNWE	Qualified	 - 			
+										YAGEO	IC1206K_X5R8BB226	Qualified	 - 			
+11-3594-01	60	CAP,CE,2.2uF,6.3V,X5R,20%,SM,0402in,0.55mmH,Pb-FREE,**No Broker or Disty Buys allowed on Yageo CC0402MRX5R5BB225 MPN	A	N/A	="-"&"C0"	1	Push	N	N	YAGEO	CC0402MRX5R5BB225	End of Production	C17	N	N
+										NIC COMPONENTS	NMC0402X5R225M6.3F	Deplete Stock	 - 			
+										YAGEO	CI0402MRX5R5BB225	End of Production	 - 			
+										KYOCERA	CM05X5R225K06A-KA	Qualified	 - 			
+										TAIYO YUDEN	JMK105BJ225MV	Qualified	 - 			
+										TDK	C1005X5R0J225M	Qualified	 - 			
+										YAGEO	IC0402M_X5R5BB225	Qualified	 - 			
+11-3611-01	61	CAP,TO,150uF,4V,SM,3528,20% , Low  ESR,MX HGT 2.1mm,PB-FREE	A	N/A	="-"&"D0"	18	Push	N	N	AVX	TCJB157M004R0070	Deplete Stock	C25_RT1_2,C25_RT3_4,	N	N
+										KEMET	T520B157M004ATE070	Qualified	C25_RT5_6,C25_RT7_8,			
+										PANASONIC	4TPE150MAZB	Qualified	C25_RT9,C60_RT1_2,			
+										KYOCERA AVX COMPONENTS CORP	TCJB157M004R0070E	Qualified	C60_RT3_4,C60_RT5_6,			
+										VISHAY INTERTECHNOLOGY	T55B157M004C0070	Qualified	C60_RT7_8,C60_RT9,			
+										AVX	TCJB157M004R0070	Deplete Stock	C75_RT1_2,C75_RT3_4,			
+										 - 	 - 	 - 	C75_RT5_6,C75_RT7_8,			
+										 - 	 - 	 - 	C76_RT1_2,C76_RT3_4,			
+										 - 	 - 	 - 	C76_RT5_6,C76_RT7_8			
+										AVX	TCJB157M004R0070E	Obsolete	 - 			
+										KEMET	T520B157M004ATE070	Qualified	 - 			
+										KYOCERA AVX COMPONENTS CORP	TCJB157M004R0070E	Qualified	 - 			
+										PANASONIC	4TPE150MAZB	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	T55B157M004C0070	Qualified	 - 			
+11-3613-01	62	CAP,TP,470uF,2.5V,20%,SM,7343mm,1.9mmH,ESR 7mOhm,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	KEMET	T520V477M2R5ATE007	Qualified	C19_SF0,C19_SF1	N	N
+										SANYO ELECTRONIC DEVICE	2R5TPE470M7	Deplete Stock	 - 			
+										PANASONIC	2R5TPE470M7	Qualified	 - 			
+11-3617-01	63	CAP,CE,0.22UF,16V,10%,X5R,SM,0402in,PB-FREE,**No Broker or Disty Buys allowed on Yageo CC0402KX5R7BB224 MPN	A	N/A	="-"&"B0"	11	Push	N	N	TAIYO YUDEN	EMK105BJ224KV-F	Qualified	C08_91_5,C08_91_RTV1,	N	N
+										AVX	0402YD224KATA	Cancelled	C08_91_RTV2,C08_92_5,			
+										TAIYO YUDEN	EMK105BJ224KV-F	Qualified	C08_93_5,C08_94_5,			
+										YAGEO	IC0402K_X5R7BB224	Qualified	C08_95_5,C08_96_5,			
+										YAGEO	CC0402KX5R7BB224	End of Production	C08_98_5,C08_98_RTV1,			
+										MURATA	GRM155R61C224KA12	Cancelled	C08_98_RTV2			
+										AVX	0402YD224KATA	Cancelled	 - 			
+										MURATA	GRM155R61C224KA12	Cancelled	 - 			
+										YAGEO	CC0402KX5R7BB224	End of Production	 - 			
+										YAGEO	CI0402KX5R7BB224	End of Production	 - 			
+										UNION TECHNOLOGY CORP.	CE0402X5R224KW	Qualified	 - 			
+										YAGEO	IC0402K_X5R7BB224	Qualified	 - 			
+11-3635-01	64	CAP,CE,10.0uF,25.0 V,10%,X7R,SM,1206in,1.8mmH,-55 to 125 C	A	N/A	="-"&"B0"	3	Push	N	N	MURATA	GRM31CR71E106KA12	Qualified	C101,C105,C106	N	N
+										KEMET	C1206C106K3RAC	Qualified	 - 			
+										KEMET	C1206C106K3RACAUTO	Qualified	 - 			
+										KYOCERA	CM316X7R106K25A-KA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31B106KAHNNW	Qualified	 - 			
+										TAIYO YUDEN	TMK316AB7106KLHT	Qualified	 - 			
+										TAIYO YUDEN	TMK316AB7106KL	Qualified	 - 			
+										YAGEO	IC1206K_X7R8BB106	Qualified	 - 			
+11-3636-01	65	CAP,CE,1.0uF,25.0 V,10%,X7R,SM,0603in,0.95mmH,-40 to 125 C	A	N/A	="-"&"B0"	11	Push	N	N	TAIYO YUDEN	TMK107B7105KA	Qualified	C04_91_5,C04_91_RTV1,	N	N
+										KEMET	C0603C105K3RACTU	Qualified	C04_91_RTV2,C04_92_5,			
+										WALSIN TECHNOLOGY	0603B105K250C	Cancelled	C04_93_5,C04_94_5,			
+										TAIYO YUDEN	TMK107B7105KA	Qualified	C04_95_5,C04_96_5,			
+										UNION TECHNOLOGY CORP.	CL0603X7R105KW	Qualified	C04_98_5,C04_98_RTV1,			
+										SAMSUNG ELECTRO-MECHANICS	CL10B105KA8NNW	Cancelled	C04_98_RTV2			
+										SAMSUNG ELECTRO-MECHANICS	CL10B105KA8NNW	Cancelled	 - 			
+										WALSIN TECHNOLOGY	0603B105K250C	Cancelled	 - 			
+										MURATA	GRM188R71E105KA12	Obsolete	 - 			
+										KEMET	C0603C105K3RACTU	Qualified	 - 			
+										UNION TECHNOLOGY CORP.	CL0603X7R105KW	Qualified	 - 			
+										YAGEO	IC0603K_X7R8BB105	Qualified	 - 			
+11-3644-01	66	ACQ,CAP, CE, 0.47uF, 6.3V, 10%, SM, X6S, 0402in, STARENT USE ONLY, NO EXCEPTIONS.  DOES NOT MEET CISCO RELIABILITY.,A-TEMP (-40 to 125'C)	A	N/A	="-"&"A0"	4	Push	Y	N	MURATA	GRM155C80J474KE19	Obsolete	C702_3,C704_3,C706_3,	N	N
+										MURATA	GRM155C80J474KE19	Obsolete	C708_3			
+										NIC COMPONENTS	NMC0402X6S474K6.3TRPF	Qualified	 - 			
+11-3690-01	67	CAP,TP,47uF,16V,20%,SM,7343mm,-40'C to 85'C,D CASE,LOW ESR,Pb-FREE,I-TEMP	A	N/A	="-"&"A0"	4	Push	N	N	KEMET	T521D476M016ATE070	Qualified	C23_SF0,C23_SF1,C24_SF0,	N	N
+										SANYO ELECTRONIC DEVICE	16TQC47MYFD	Deplete Stock	C24_SF1			
+										AVX	TCJY476M0160070	Cancelled	 - 			
+										AVX	TCJY476M020R0070	Deplete Stock	 - 			
+										SANYO ELECTRONIC DEVICE	16TQC47MYFD	Deplete Stock	 - 			
+										KEMET	T521D476M016ATE080	End of Production	 - 			
+										PANASONIC	16TQC47M	End of Production	 - 			
+										SANYO ELECTRONIC DEVICE	16TQC47M	End of Production	 - 			
+										VISHAY INTERTECHNOLOGY	T55D476M016C0070	In Process - Qual	 - 			
+										AVX	TCJY476M020R0070E	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	TCJY476M020R0070E	Qualified	 - 			
+										PANASONIC	16TQC47MYFD	Qualified	 - 			
+11-3834-01	68	CAP,CE,0.1uF,6.3V,10%,X7R,0402in,MAX HGT 0.5mm,A-TEMP (-40 to 125'C)	A	N/A	="-"&"A0"	22	Push	N	N	WALSIN TECHNOLOGY	MG15B104K6R3C	Qualified	C1242,C1243,C171,C172,	N	N
+										KEMET	C0402C104K9RAC	Qualified	C173,C174,C175,C176,C177,			
+										WALSIN TECHNOLOGY	MG15B104K6R3C	Qualified	C178,C179,C180,C181,C182,			
+										YAGEO	IC0402K_X7R6BB104	Qualified	C359,C360,C3_3,C4_3,C727,			
+										TAIYO YUDEN	JMK105B7104KVHF	Qualified	C728,R1023,R1024			
+										KEMET	C0402C104K9RAC	Qualified	 - 			
+										TAIYO YUDEN	JMK105B7104KV	Qualified	 - 			
+										TAIYO YUDEN	JMK105B7104KVHF	Qualified	 - 			
+										YAGEO	IC0402K_X7R6BB104	Qualified	 - 			
+11-3838-01	69	CAP,CE,10.0uF,6.3 V,10%,X5R,SM,0603in,1.0mmH,-40 to 85 C,**No Broker or Disty Buys allowed on Yageo CC0603KX5R5BB106 MPN	A	N/A	="-"&"C0"	25	Push	N	N	TAIYO YUDEN	JMK107ABJ106KAHT	Qualified	C15,C20,C21,C22,C23,C30,	N	N
+										KYOCERA AVX COMPONENTS CORP	06036D106KATA	Qualified	C36,C38,C396,C398,C400,			
+										YAGEO	CI0603KRX5R5BB106	End of Production	C403,C430,C434,C441,C446,			
+										MURATA	GRM188R60J106KE47	Qualified	C458,C528,C533,C535,C554,			
+										TAIYO YUDEN	JMK107ABJ106KAHT	Qualified	C61,C62,C63,C99			
+										YAGEO	CI0603KRX5R5BB106	End of Production	 - 			
+										YAGEO	CC0603KX5R5BB106	End of Production	 - 			
+										AVX	06036D106KATA	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	06036D106KATA	Qualified	 - 			
+										MURATA	GRM188R60J106KE47	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10A106KP8NNW	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10A106KQ8NNWC	Qualified	 - 			
+										TDK	C1608X5R0J106K	Qualified	 - 			
+										YAGEO	IC0603K_X5R5BB106	Qualified	 - 			
+11-3838-03	70	CAP,CE,10.0uF,6.3 V,10%,X5R,SM,0603in,1.0mmH,-40 to 85 C,For IOTBU USE ONLY	A	N/A	="-"&"A0"	4	Push	N	N	YAGEO	IC0603K_X5R5BB106	Qualified	C138,C148,C16,C188	N	N
+										AVX	06036D106KATA	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	06036D106KATA	Qualified	 - 			
+										MURATA	GRM188R60J106KE47	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10A106KQ8NNWC	Qualified	 - 			
+										TAIYO YUDEN	JMK107ABJ106KAHT	Qualified	 - 			
+										TDK	C1608X5R0J106K	Qualified	 - 			
+11-3844-01	71	CAP,CE,10.0uF,4.0 V,20%,X5R,SM,0402in,0.7mmH,-55 to 85 C	A	N/A	="-"&"B0"	10	Push	N	N	JOHANSON DIELECTRICS	6R3R07X106MV4	Cancelled	C104_3,C105_3,C106_3,	N	N
+										KEMET	C0402C106M7PAC	Cancelled	C107_3,C108_3,C109_3,			
+										TAIYO YUDEN	AMK105CBJ106MVH	Qualified	C110_3,C111_3,C112_3,			
+										AVX	04024D106MATA	Obsolete	C113_3			
+										KEMET	C0402C106M7PAC	Cancelled	 - 			
+										AVX	04024D106MATA	Obsolete	 - 			
+										KYOCERA AVX COMPONENTS CORP	04024D106MATA	Qualified	 - 			
+										MURATA	GRM155R60G106ME44	Qualified	 - 			
+										TAIYO YUDEN	AMK105CBJ106MVH	Qualified	 - 			
+										TAIYO YUDEN	AMK105CBJ106MV-F	Qualified	 - 			
+11-3848-01	72	CAP,CE,22.0uF,16.0 V,10%,X5R,SM,1206in,1.8mmH,-55 to 85 C	A	N/A	="-"&"B0"	51	Push	N	N	KYOCERA AVX COMPONENTS CORP	1206YD226KATA	Qualified	C01_91_5,C01_91_RTV1,	N	N
+										KYOCERA AVX COMPONENTS CORP	1206YD226KATA	Qualified	C01_91_RTV2,C01_92_5,			
+										KYOCERA	CM316X5R226K16AH-KA	Qualified	C01_93_5,C01_94_5,			
+										MURATA	GRM31CR61C226KE15	Obsolete	C01_95_5,C01_96_5,			
+										AVX	1206YD226KATA	Obsolete	C01_98_5,C01_98_RTV1,			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KOHNNW	Qualified	C01_98_RTV2,C02_91_5,			
+										 - 	 - 	 - 	C02_91_RTV1,C02_91_RTV2,			
+										 - 	 - 	 - 	C02_92_5,C02_93_5,			
+										 - 	 - 	 - 	C02_94_5,C02_95_5,			
+										 - 	 - 	 - 	C02_96_5,C02_98_5,			
+										 - 	 - 	 - 	C02_98_RTV1,C02_98_RTV2,			
+										 - 	 - 	 - 	C03_91_5,C03_91_RTV1,			
+										 - 	 - 	 - 	C03_91_RTV2,C03_92_5,			
+										 - 	 - 	 - 	C03_93_5,C03_94_5,			
+										 - 	 - 	 - 	C03_95_5,C03_96_5,			
+										 - 	 - 	 - 	C03_98_5,C03_98_RTV1,			
+										 - 	 - 	 - 	C03_98_RTV2,C15_91_5,			
+										 - 	 - 	 - 	C15_91_RTV1,C15_91_RTV2,			
+										 - 	 - 	 - 	C15_92_5,C15_93_5,			
+										 - 	 - 	 - 	C15_94_5,C15_95_5,			
+										 - 	 - 	 - 	C15_96_5,C15_98_5,			
+										 - 	 - 	 - 	C15_98_RTV1,C15_98_RTV2,			
+										 - 	 - 	 - 	C16_A,C17_A,C217_5,			
+										 - 	 - 	 - 	C217_RTV1,C217_RTV2,			
+										 - 	 - 	 - 	C218_RTV1,C218_RTV2			
+										AVX	1206YD226KATA	Obsolete	 - 			
+										MURATA	GRM31CR61C226KE15	Obsolete	 - 			
+										KYOCERA	CM316X5R226K16AH-KA	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL31A226KOHNNW	Qualified	 - 			
+										TAIYO YUDEN	EMK316ABJ226KL-	Qualified	 - 			
+11-3911-01	73	CAP,CE,2.2uF,10V,10%,X7R,0603in,1mmH,A-TEMP (-40 to 125'C),**No Broker or Disty Buys allowed on Yageo CC0603KX7R6BB225 MPN	A	N/A	="-"&"B0"	10	Push	N	N	KEMET	C0603C225K8RAC	Qualified	C214_5V,C215_5V,C224_3V3,	N	N
+										YAGEO	CC0603KX7R6BB225	End of Production	C225_3V3,C6_1V2S,C6_SF0,			
+										MURATA	GRM188R71A225KE15	Qualified	C6_SF1,C8_1V2S,C8_SF0,			
+										TAIYO YUDEN	LMK107B7225KA	Qualified	C8_SF1			
+										KEMET	C0603C225K8RACT	Deplete Stock	 - 			
+										YAGEO	CC0603KX7R6BB225	End of Production	 - 			
+										YAGEO	CI0603KRX7R6BB225	End of Production	 - 			
+										MURATA	GRM188R71A225KE15	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	CL10B225KP8NNWC	Qualified	 - 			
+										TAIYO YUDEN	LMK107B7225KA	Qualified	 - 			
+12-100720-01	74	RES, TNF, 845ohm, 0.063W, 0.1%, SM, 0402, Pb-FREE	A	N/A	="-"&"B0"	1	Push	N	N	KOA	RN731ETTP8450B25	Obsolete	R590	N	N
+										KOA	RN73R1ET8450B25	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U8450BL	Qualified	 - 			
+										YAGEO	RT0402BRD07845RL	Qualified	 - 			
+12-101503-01	75	RES,TNF,22.6k ohm,0.063 W,0.1 %,SM0402,0.4mmH,25.0 ppm	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RN731ET2262B25	Obsolete	R2_A	N	N
+										KOA	RN73R1ET2262B25	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	TNPW040222K6BEE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U2262BL	Qualified	 - 			
+										YAGEO	RT0402BD22K6L	Qualified	 - 			
+12-101688-01	76	RES,TNF,4.42k ohm,0.063W,0.1%,SM0402,0.45mmH,25.0ppm	A	N/A	="-"&"A0"	1	Push	N	N	WALSIN TECHNOLOGY	WF04U4421BL	Qualified	R14_A	N	N
+										KOA	RN731ET4421B25	Obsolete	 - 			
+										KOA	RN73R1ET4421B25	Qualified	 - 			
+										YAGEO	RT0402BD4K42L	Qualified	 - 			
+12-1371-01	77	RES,TKF,130 ohm,0.1W,5%,SM,0603	 - 	 - 	="-"&"A0"	5	Push	N	N	KOA	RM73B1J131J	End of Production	R256,R53,R540,R63,R64	N	N
+										AVX	CR10-131J	End of Production	 - 			
+										BECKMAN	BCR1/16131J	End of Production	 - 			
+										KOA	RK73B1JL131J	End of Production	 - 			
+										ROHM	MCR03ZHJW131	End of Production	 - 			
+										VISHAY/DALE	CRCW0603131J	End of Production	 - 			
+										VISHAY/DALE	CRCW0603130RJNE	End of Production	 - 			
+										KOA	RK73B1JT131J	Qualified	 - 			
+										ROHM	MCR03PJ131	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0603130RJNE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR06X131 JL	Qualified	 - 			
+										YAGEO	RC0603J-130RL	Qualified	 - 			
+12-1639-02	78	RES,TKF,100 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"B0"	14	Push	N	N	KOA	RK73B1ET101J	Qualified	R15_3,R606,R607,R608,	N	N
+										KOA	RK73B1ET101J	Qualified	R609,R612,R615,R616,R617,			
+										YAGEO	RC0402J-100RL	Qualified	R618,R619,R620,R624,R626			
+										ROHM	MCR01PJ101	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN101	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X101 JL	Qualified	 - 			
+										YAGEO	RC0402J-100RL	Qualified	 - 			
+12-1805-02	79	RES,TKF,56 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	WALSIN TECHNOLOGY	WR04X560 JL	Qualified	R4_A	N	N
+										KOA	RK73B1ET560J	Qualified	 - 			
+										ROHM	MCR01PJ560	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040256R0JNE	Qualified	 - 			
+										YAGEO	RC0402J-56RL	Qualified	 - 			
+12-1965-02	80	RES,TKF,100 k ohm,0.1W,1%,SM,0603,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	YAGEO	RC0603FR-07100KL	Qualified	R201_PM	N	N
+										YAGEO	RC0603F-100KL	End of Production	 - 			
+										KOA	RK73H1JT1003F	Qualified	 - 			
+										ROHM	MCR03PFX1003	Qualified	 - 			
+										TA-I TECHNOLOGY	RM06FN1003	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR06X1003FL	Qualified	 - 			
+12-2188-01	81	RES,TKF,2 ohm,0.125W,5%,SM,0805,Pb-FREE	 - 	 - 	="-"&"A0"	7	Push	N	N	KOA	SR73K2A2R0J	Disqualified	R2_SF0,R2_SF1,R73_5V,	N	N
+										KOA	RK73B2AT2R0J	Qualified	R871_3V3,R9_1V2S,R9_SF0,			
+										KOA	SR73K2A2R0J	Disqualified	R9_SF1			
+										AVX	CR21-2R0J	Cancelled	 - 			
+										KOA	RK73B2AL2R0J	Cancelled	 - 			
+										KOA	RM73B2A2R0J	Cancelled	 - 			
+										ROHM	MCR10J2R0	Cancelled	 - 			
+										VISHAY/DALE	CRCW08052R0J	Cancelled	 - 			
+										KOA	RK73B2AT2R0J	Qualified	 - 			
+										ROHM	MCR10PJ2R0	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR08X2R0JL	Qualified	 - 			
+										YAGEO	RC0805J-2RL	Qualified	 - 			
+12-2209-02	82	RES,TKF,10 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	6	Push	N	N	KOA	RK73H1ET10R0F	Qualified	R01_5,R01_RTV1,R01_RTV2,	N	N
+										WALSIN TECHNOLOGY	WR04X10R0FL	Qualified	R03_5,R03_RTV1,R03_RTV2			
+										TA-I TECHNOLOGY	RM04FN10R0	Cancelled	 - 			
+										ROHM	MCR01PF10R0	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040210R0FK	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X10R0FL	Qualified	 - 			
+										YAGEO	RC0402F-10RL	Qualified	 - 			
+12-2221-02	83	RES,TKF,332 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	WALSIN TECHNOLOGY	WR04X3320FL	Qualified	R1136,R1142	N	N
+										KOA	RK73H1ET3320F	Qualified	 - 			
+										ROHM	MCR01PF3320	Qualified	 - 			
+										YAGEO	RC0402F-332RL	Qualified	 - 			
+12-2267-02	84	RES,TKF,49.9 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	38	Push	N	N	YAGEO	RC0402FR-49R9L	Qualified	R150,R151,R181,R182,R183,	N	N
+										KOA	RK73H1ET49R9F	Qualified	R184,R186,R187,R188,R212,			
+										WALSIN TECHNOLOGY	WR04X49R9FL	Qualified	R356,R357,R359,R361,R362,			
+										YAGEO	RC0402FR-49R9L	Qualified	R363,R364,R368,R369,R370,			
+										 - 	 - 	 - 	R371,R372,R373,R374,R375,			
+										 - 	 - 	 - 	R376,R379,R380,R381,R382,			
+										 - 	 - 	 - 	R383,R384,R3_3,R4_3,R502,			
+										 - 	 - 	 - 	R503,R504,R505			
+										KOA	RK73H1ET49R9F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN49R9	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X49R9FL	Qualified	 - 			
+12-2370-02	85	RES,TKF,33.2 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	57	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW040233R2FKE	Qualified	R1077,R10_S0,R10_S1,	N	N
+										KOA	RK73H1ET33R2F	Qualified	R12_S0,R12_S1,R14_S0,			
+										WALSIN TECHNOLOGY	WR04X33R2FL	Qualified	R14_S1,R16_S0,R16_S1,			
+										VISHAY INTERTECHNOLOGY	CRCW040233R2FKE	Qualified	R18_S0,R18_S1,R20_S0,			
+										TA-I TECHNOLOGY	RM04FN33R2	Cancelled	R20_S1,R22_S0,R22_S1,			
+										 - 	 - 	 - 	R24_S0,R24_S1,R26_S0,			
+										 - 	 - 	 - 	R26_S1,R28_S0,R28_S1,			
+										 - 	 - 	 - 	R2_S0,R2_S1,R30_S0,			
+										 - 	 - 	 - 	R30_S1,R32_S0,R32_S1,			
+										 - 	 - 	 - 	R34_S0,R34_S1,R36_S0,			
+										 - 	 - 	 - 	R36_S1,R38_S0,R38_S1,			
+										 - 	 - 	 - 	R40_S0,R40_S1,R479,R480,			
+										 - 	 - 	 - 	R4_S0,R4_S1,R50_S0,			
+										 - 	 - 	 - 	R50_S1,R52_S0,R52_S1,			
+										 - 	 - 	 - 	R54_S0,R54_S1,R56_S0,			
+										 - 	 - 	 - 	R56_S1,R6_Q0,R6_Q1,R6_Q2,			
+										 - 	 - 	 - 	R6_S0,R6_S1,R8_Q0,R8_Q1,			
+										 - 	 - 	 - 	R8_Q2,R8_S0,R8_S1			
+										TA-I TECHNOLOGY	RM04FN33R2	Cancelled	 - 			
+										KOA	RK73H1ET33R2F	Qualified	 - 			
+										ROHM	MCR01PF33R2	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X33R2FL	Qualified	 - 			
+12-2373-02	86	RES,TKF,4.75 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	11	Push	N	N	VISHAY/DALE	CRCW04024K75FKE	End of Production	R126,R131,R20_5,R20_RTV1,	N	N
+										VISHAY/DALE	CRCW04024K75FKE	End of Production	R20_RTV2,R21_5,R21_RTV1,			
+										TA-I TECHNOLOGY	RM04FN4751	Qualified	R21_RTV2,R29_5,R29_RTV1,			
+										YAGEO	RC0402F-4K75L	Qualified	R29_RTV2			
+										KOA	RK73H1ET4751F	Qualified	 - 			
+										ROHM	MCR01PF4751	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN4751	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04024K75FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X4751FL	Qualified	 - 			
+										YAGEO	RC0402F-4K75L	Qualified	 - 			
+12-2474-02	87	RES,TKF,10 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"B0"	1	Push	N	N	ROHM	MCR01PJ100	Qualified	R1031	N	N
+										TA-I TECHNOLOGY	RM04JN100	In Process - Qual	 - 			
+										KOA	RK73B1ET100J	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X100JL	Qualified	 - 			
+										YAGEO	RC0402J-10RL	Qualified	 - 			
+12-2475-02	88	RES,TKF,1 k ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	20	Push	N	N	ROHM	MCR01PJ102	Qualified	R1156,R29_3,R30_3,R371_3,	N	N
+										KOA	RK73B1ET102J	Qualified	R373_3,R384_3,R385_3,			
+										YAGEO	RC0402J-1KL	Qualified	R403,R412,R4_Q0,R4_Q1,			
+										WALSIN TECHNOLOGY	WR04X102JL	Qualified	R4_Q2,R589,R5_Q0,R5_Q1,			
+										ROHM	MCR01PJ102	Qualified	R5_Q2,R62_3,R685,R742,			
+										 - 	 - 	 - 	R88			
+										TA-I TECHNOLOGY	RM04JN102	In Process - Qual	 - 			
+										KOA	RK73B1ET102J	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X102JL	Qualified	 - 			
+										YAGEO	RC0402J-1KL	Qualified	 - 			
+12-2478-02	89	RES,TKF,10 k ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	ROHM	MCR01PJ103	Qualified	R545,R687,R688	N	N
+										VISHAY/DALE	CRCW040210K0JNE	End of Production	 - 			
+										KOA	RK73B1ET103J	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN103	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040210K0JNE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X103JL	Qualified	 - 			
+										YAGEO	RC0402J-10KL	Qualified	 - 			
+12-2537-02	90	RES,TKF,1 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	40	Push	N	N	TA-I TECHNOLOGY	RM04FN1001	Qualified	R105,R107,R1099,R112,	N	N
+										WALSIN TECHNOLOGY	WR04X1001FL	Qualified	R115,R1256,R16_RT1_2,			
+										YAGEO	RC0402F-1KL	Qualified	R16_RT3_4,R16_RT5_6,			
+										KOA	RK73H1ET1001F	Qualified	R16_RT7_8,R2427,R2428,			
+										ROHM	MCR01PF1001	Qualified	R2429,R26,R27,R28,R30,			
+										 - 	 - 	 - 	R300,R31,R321,R33,R34,			
+										 - 	 - 	 - 	R3_RT1_2,R3_RT3_4,			
+										 - 	 - 	 - 	R3_RT5_6,R3_RT7_8,R3_RT9,			
+										 - 	 - 	 - 	R414,R44,R464,R465,R51,			
+										 - 	 - 	 - 	R564,R58_3,R595,R59_3,			
+										 - 	 - 	 - 	R731,R74,R75,R96			
+										KOA	RK73H1ET1001F	Qualified	 - 			
+										ROHM	MCR01PF1001	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1001FL	Qualified	 - 			
+										YAGEO	RC0402F-1KL	Qualified	 - 			
+12-2544-02	91	RES,TKF,100 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	5	Push	N	N	KOA	RK73H1ET1003F	Qualified	R1_PM,R2_PM,R432,R577,R72	N	N
+										TA-I TECHNOLOGY	RM04FN1003	In Process - Qual	 - 			
+										ROHM	MCR01PF1003	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1003FL	Qualified	 - 			
+										YAGEO	RC0402F-100KL	Qualified	 - 			
+12-2551-02	92	RES,TKF,0 ohm,0.063W,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	197	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW04020000Z0E	Qualified	R02_5,R02_RTV1,R02_RTV2,	N	N
+										KOA	RK73Z1ET	Qualified	R04_5,R04_RTV1,R04_RTV2,			
+										WALSIN TECHNOLOGY	WR04X000PL	Qualified	R05_5,R05_RTV1,R05_RTV2,			
+										YAGEO	RC0402JR-0RL	Qualified	R06_5,R06_RTV1,R06_RTV2,			
+										ROHM	MCR01PJ000	Qualified	R11_1V2S,R11_S0,R11_S1,			
+										TA-I TECHNOLOGY	RM04JN0	Qualified	R11_SF0,R11_SF1,R13_S0,			
+										VISHAY INTERTECHNOLOGY	CRCW04020000Z0E	Qualified	R13_S1,R14,R15_S0,R15_S1,			
+										 - 	 - 	 - 	R163,R17_S0,R17_S1,			
+										 - 	 - 	 - 	R19_S0,R19_S1,R1_S0,			
+										 - 	 - 	 - 	R1_S1,R204,R218,R21_S0,			
+										 - 	 - 	 - 	R21_S1,R23,R23_S0,R23_S1,			
+										 - 	 - 	 - 	R24,R25_S0,R25_S1,R26_5,			
+										 - 	 - 	 - 	R26_RTV1,R26_RTV2,R27_S0,			
+										 - 	 - 	 - 	R27_S1,R28_5,R28_RTV1,			
+										 - 	 - 	 - 	R28_RTV2,R291,R292,			
+										 - 	 - 	 - 	R29_S0,R29_S1,R3,R310,			
+										 - 	 - 	 - 	R311,R31_S0,R31_S1,			
+										 - 	 - 	 - 	R33_S0,R33_S1,R35_S0,			
+										 - 	 - 	 - 	R35_S1,R37_S0,R37_S1,			
+										 - 	 - 	 - 	R39_S0,R39_S1,R3_S0,			
+										 - 	 - 	 - 	R3_S1,R43,R459,R470,			
+										 - 	 - 	 - 	R49_S0,R49_S1,R4_1V2S,			
+										 - 	 - 	 - 	R4_SF0,R4_SF1,R51_S0,			
+										 - 	 - 	 - 	R51_S1,R53_S0,R53_S1,			
+										 - 	 - 	 - 	R55_S0,R55_S1,R5_1V2S,			
+										 - 	 - 	 - 	R5_91_5,R5_91_RTV1,			
+										 - 	 - 	 - 	R5_91_RTV2,R5_92_5,			
+										 - 	 - 	 - 	R5_93_5,R5_94_5,R5_95_5,			
+										 - 	 - 	 - 	R5_96_5,R5_98_5,			
+										 - 	 - 	 - 	R5_98_RTV1,R5_98_RTV2,			
+										 - 	 - 	 - 	R5_S0,R5_S1,R5_SF0,			
+										 - 	 - 	 - 	R5_SF1,R6_1V2S,R6_SF0,			
+										 - 	 - 	 - 	R6_SF1,R702,R703,R71_5V,			
+										 - 	 - 	 - 	R72_5V,R737,R739,R756,			
+										 - 	 - 	 - 	R757,R764,R765,R776,R777,			
+										 - 	 - 	 - 	R79_91_5,R79_91_RTV1,			
+										 - 	 - 	 - 	R79_91_RTV2,R79_92_5,			
+										 - 	 - 	 - 	R79_93_5,R79_94_5,			
+										 - 	 - 	 - 	R79_95_5,R79_96_5,			
+										 - 	 - 	 - 	R79_98_5,R79_98_RTV1,			
+										 - 	 - 	 - 	R79_98_RTV2,R7_1V2S,			
+										 - 	 - 	 - 	R7_Q0,R7_Q1,R7_Q2,R7_S0,			
+										 - 	 - 	 - 	R7_S1,R7_SF0,R7_SF1,R818,			
+										 - 	 - 	 - 	R819,R820,R821,R822,R823,			
+										 - 	 - 	 - 	R824,R826,R827,R828,R830,			
+										 - 	 - 	 - 	R831,R832,R833,R834,R835,			
+										 - 	 - 	 - 	R837,R838,R839,R840,R842,			
+										 - 	 - 	 - 	R842_3V3,R843,R844,R845,			
+										 - 	 - 	 - 	R846,R847,R848,R849,			
+										 - 	 - 	 - 	R849_3V3,R850,R851,R852,			
+										 - 	 - 	 - 	R855,R856,R857,R858,R859,			
+										 - 	 - 	 - 	R860,R861,R862,R870,R872,			
+										 - 	 - 	 - 	R873,R878,R879,R880,R881,			
+										 - 	 - 	 - 	R882,R888,R90,R91,R919,			
+										 - 	 - 	 - 	R928_5V,R930_5V,R934_5V,			
+										 - 	 - 	 - 	R943,R949_3V3,R95,			
+										 - 	 - 	 - 	R951_3V3,R961_3V3,R99,			
+										 - 	 - 	 - 	R9_Q0,R9_Q1,R9_Q2,R9_S0,			
+										 - 	 - 	 - 	R9_S1			
+										VISHAY/DALE	CRCW04020000Z0E	End of Production	 - 			
+										KOA	RK73Z1ET	Qualified	 - 			
+										ROHM	MCR01PJ000	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN0	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X000PL	Qualified	 - 			
+										YAGEO	RC0402JR-0RL	Qualified	 - 			
+12-2559-01	93	RES,TKF,33.2 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	ROHM	MCR01F3322	Disqualified	R689	N	N
+										AVX	CR05-3322F	Disqualified	 - 			
+										KOA	RK73H1E3322F	Disqualified	 - 			
+										KOA	RK73H1EL3322F	Disqualified	 - 			
+										VISHAY/DALE	CRCW04023322F	Disqualified	 - 			
+										VISHAY/DALE	CRCW040233K2FKE	End of Production	 - 			
+										KOA	RK73H1ET3322F	Qualified	 - 			
+										ROHM	MCR01PF3322	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040233K2FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X3322FL	Qualified	 - 			
+										YAGEO	RC0402F-33K2L	Qualified	 - 			
+12-2560-01	94	RES,TKF,30.1 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	AVX	CR05-3012F	Cancelled	R15_A,R306	N	N
+										KOA	RK73H1E3012F	Cancelled	 - 			
+										KOA	RK73H1EL3012F	Cancelled	 - 			
+										ROHM	MCR01F3012	Cancelled	 - 			
+										VISHAY/DALE	CRCW04023012F	Cancelled	 - 			
+										VISHAY/DALE	CRCW040230K1FKE	End of Production	 - 			
+										KOA	RK73H1ET3012F	Qualified	 - 			
+										ROHM	MCR01PF3012	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040230K1FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X3012FL	Qualified	 - 			
+										YAGEO	RC0402F-30K1L	Qualified	 - 			
+12-2563-02	95	RES,TKF,20 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	YAGEO	RC0402F-20KL	Qualified	R10_PM,R174_PM,R390	N	N
+										KOA	RK73H1ET2002F	Qualified	 - 			
+										ROHM	MCR01PF2002	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN2002	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2002FL	Qualified	 - 			
+12-2570-02	96	RES,TKF,10 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	20	Push	N	N	TA-I TECHNOLOGY	RM04FN1002	Qualified	R100,R102,R16_A,R1844,	N	N
+										ROHM	MCR01PF1002	Qualified	R1845,R22_5,R22_RTV1,			
+										TA-I TECHNOLOGY	RM04FN1002	Qualified	R22_RTV2,R23_5,R23_RTV1,			
+										YAGEO	RC0402F-10KL	Qualified	R23_RTV2,R38,R535,R536,			
+										WALSIN TECHNOLOGY	WR04X1002FL	Qualified	R549,R551,R553,R600,R601,			
+										 - 	 - 	 - 	R738			
+										KOA	RK73H1ET1002F	Qualified	 - 			
+										ROHM	MCR01PF1002	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1002FL	Qualified	 - 			
+										YAGEO	RC0402F-10KL	Qualified	 - 			
+12-2584-02	97	RES,TKF,2.21 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	VISHAY/DALE	CRCW04022K21FKE	End of Production	R433,R73	N	N
+										TA-I TECHNOLOGY	RM04FN2211	In Process - Qual	 - 			
+										KOA	RK73H1ET2211F	Qualified	 - 			
+										ROHM	MCR01PF2211	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04022K21FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2211FL	Qualified	 - 			
+										YAGEO	RC0402F-2K21L	Qualified	 - 			
+12-2585-02	98	RES,TKF,2 k ohm,0.063W,1%,SM,0402,Pb-Free	A	N/A	="-"&"A0"	1	Push	N	N	YAGEO	RC0402F-2KL	Qualified	R550	N	N
+										VISHAY/DALE	CRCW04022K00FKE	End of Production	 - 			
+										KOA	RK73H1ET2001F	Qualified	 - 			
+										ROHM	MCR01PF2001	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04022K00FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2001FL	Qualified	 - 			
+12-2601-02	99	RES,TKF,200 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	ROHM	MCR01PF2000	Qualified	R1017,R1018	N	N
+										TA-I TECHNOLOGY	RM04FN2000	In Process - Qual	 - 			
+										KOA	RK73H1ET2000F	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2000FL	Qualified	 - 			
+										YAGEO	RC0402F-200RL	Qualified	 - 			
+12-2603-01	100	RES,TKF,162 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	10	Push	N	N	KOA	RK73H1ET1620F	Qualified	R643,R691,R692,R693,R694,	N	N
+										KOA	RK73H1ET1620F	Qualified	R695,R698,R699,R700,R701			
+										AVX	CR05-1620F	End of Production	 - 			
+										KOA	RK73H1E1620F	End of Production	 - 			
+										KOA	RK73H1EL1620F	End of Production	 - 			
+										ROHM	MCR01F1620	End of Production	 - 			
+										VISHAY/DALE	CRCW04021620F	End of Production	 - 			
+										VISHAY/DALE	CRCW0402162RFKE	End of Production	 - 			
+										ROHM	MCR01PF1620	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402162RFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1620FL	Qualified	 - 			
+										YAGEO	RC0402F-162RL	Qualified	 - 			
+12-2604-02	101	RES,TKF,150 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	44	Push	N	N	YAGEO	RC0402F-150RL	Qualified	R1019,R1020,R1021,R1022,	N	N
+										WALSIN TECHNOLOGY	WR04X1500FL	Qualified	R159,R160,R189,R190,R191,			
+										ROHM	MCR01PF1500	Qualified	R192,R193,R194,R195,R196,			
+										TA-I TECHNOLOGY	RM04FN1500	Qualified	R21,R247,R250,R377,R378,			
+										KOA	RK73H1ET1500F	Qualified	R387,R388,R389,R391,R392,			
+										VISHAY/DALE	CRCW0402150RFKE	End of Production	R393,R394,R395,R396,R398,			
+										VISHAY INTERTECHNOLOGY	CRCW0402150RFKE	Qualified	R400,R401,R436,R439,R440,			
+										 - 	 - 	 - 	R441,R442,R443,R444,R445,			
+										 - 	 - 	 - 	R523,R524,R525,R526,R67			
+										VISHAY/DALE	CRCW0402150RFKE	End of Production	 - 			
+										KOA	RK73H1ET1500F	Qualified	 - 			
+										ROHM	MCR01PF1500	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN1500	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402150RFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1500FL	Qualified	 - 			
+12-2605-01	102	RES,TKF,130 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW0402130RFKE	Qualified	R492,R493	N	N
+										AVX	CR05-1300F	Cancelled	 - 			
+										KOA	RK73H1E1300F	Cancelled	 - 			
+										KOA	RK73H1EL1300F	Cancelled	 - 			
+										ROHM	MCR01F1300	Cancelled	 - 			
+										VISHAY/DALE	CRCW04021300F	Cancelled	 - 			
+										VISHAY/DALE	CRCW0402130RFKE	End of Production	 - 			
+										TA-I TECHNOLOGY	RM04FN1300	In Process - Qual	 - 			
+										KOA	RK73H1ET1300F	Qualified	 - 			
+										ROHM	MCR01PF1300	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1300FL	Qualified	 - 			
+										YAGEO	RC0402F-130RL	Qualified	 - 			
+12-2607-02	103	RES,TKF,100 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	27	Push	N	N	VISHAY/DALE	CRCW0402100RFKE	End of Production	R1015,R1016,R13_RT1_2,	N	N
+										ROHM	MCR01PF1000	Qualified	R13_RT3_4,R13_RT5_6,			
+										YAGEO	RC0402F-100RL	Qualified	R13_RT7_8,R144,R145,			
+										VISHAY INTERTECHNOLOGY	CRCW0402100RFKE	Qualified	R14_RT1_2,R14_RT3_4,			
+										TA-I TECHNOLOGY	RM04FN1000	In Process - Qual	R14_RT5_6,R14_RT7_8,R155,			
+										WALSIN TECHNOLOGY	WR04X1000FL	Qualified	R15_PM,R245,R2_RT1_2,			
+										VISHAY/DALE	CRCW0402100RFKE	End of Production	R2_RT3_4,R2_RT5_6,			
+										 - 	 - 	 - 	R2_RT7_8,R2_RT9,R984,			
+										 - 	 - 	 - 	R985,R9_RT1_2,R9_RT3_4,			
+										 - 	 - 	 - 	R9_RT5_6,R9_RT7_8,R9_RT9			
+										TA-I TECHNOLOGY	RM04FN1000	In Process - Qual	 - 			
+										KOA	RK73H1ET1000F	Qualified	 - 			
+										ROHM	MCR01PF1000	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402100RFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1000FL	Qualified	 - 			
+										YAGEO	RC0402F-100RL	Qualified	 - 			
+12-2609-01	104	RES,TKF,82.5 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	VISHAY/DALE	CRCW040282R5F	Disqualified	R495,R496	N	N
+										AVX	CR05-82R5F	Disqualified	 - 			
+										KOA	RK73H1EL82R5F	Disqualified	 - 			
+										KOA	RK73H1E82R5F	Disqualified	 - 			
+										ROHM	MCR01F82R5	Disqualified	 - 			
+										VISHAY/DALE	CRCW040282R5FKE	End of Production	 - 			
+										KOA	RK73H1ET82R5F	Qualified	 - 			
+										ROHM	MCR01PF82R5	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040282R5FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X82R5FL	Qualified	 - 			
+										YAGEO	RC0402F-82R5L	Qualified	 - 			
+12-2610-01	105	RES,TKF,75 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	ROHM	MCR01F75R0	Disqualified	R19	N	N
+										AVX	CR05-75R0F	Cancelled	 - 			
+										KOA	RK73H1E75R0F	Cancelled	 - 			
+										KOA	RK73H1EL75R0F	Cancelled	 - 			
+										VISHAY/DALE	CRCW040275R0F	Cancelled	 - 			
+										ROHM	MCR01PF75R0	End of Production	 - 			
+										KOA	RK73H1ET75R0F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN75R0	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X75R0FL	Qualified	 - 			
+										YAGEO	RC0402F-75RL	Qualified	 - 			
+12-2636-01	106	RES,TKF,9.09 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	VISHAY/DALE	CRCW04029K09FKE	End of Production	R931_5V	N	N
+										ROHM	MCR01MZSF9091	End of Production	 - 			
+										VISHAY/DALE	CRCW04029091FRT1	End of Production	 - 			
+										KOA	RK73H1ET9091F	Qualified	 - 			
+										ROHM	MCR01PF9091	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN9091	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04029K09FKE	Qualified	 - 			
+12-2752-02	107	RES,TKF,866 ohm,0.1W,1%,SM,0603,Pb-FREE	 - 	 - 	="-"&"A0"	1	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW0603866RFKE	Qualified	R8	N	N
+										VISHAY/DALE	CRCW0603866RFKE	End of Production	 - 			
+										KOA	RK73H1JT8660F	Qualified	 - 			
+										ROHM	MCR03PFX8660	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR06X8660FL	Qualified	 - 			
+										YAGEO	RC0603F-866RL	Qualified	 - 			
+12-2775-02	108	RES,TKF,0 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	72	Push	N	N	TA-I TECHNOLOGY	RM04JN0	In Process - Qual	R1008,R1046,R10_A,R119,	N	N
+										ROHM	MCR01PJ000	Qualified	R1192,R1193,R1195,R1197,			
+										YAGEO	RC0402JR-0RL	Qualified	R13,R13_PM,R165_PM,			
+										TA-I TECHNOLOGY	RM04JN0	In Process - Qual	R166_PM,R17,R177_PM,			
+										WALSIN TECHNOLOGY	WR04X000PL	Qualified	R19_PM,R209,R213,R217,			
+										 - 	 - 	 - 	R236,R251,R26_3,R286,			
+										 - 	 - 	 - 	R287,R288,R289,R298,R308,			
+										 - 	 - 	 - 	R309,R42,R451,R453,R491,			
+										 - 	 - 	 - 	R512,R513,R572,R573,R576,			
+										 - 	 - 	 - 	R578,R579,R580,R581,R586,			
+										 - 	 - 	 - 	R591,R592,R594,R599,R603,			
+										 - 	 - 	 - 	R604,R605,R627,R628,R663,			
+										 - 	 - 	 - 	R668,R669,R671,R672,R673,			
+										 - 	 - 	 - 	R68,R69,R6_A,R70,R71,			
+										 - 	 - 	 - 	R733,R734,R740,R766,R767,			
+										 - 	 - 	 - 	R770,R771,R780,R791,R9_A			
+										KOA	RK73Z1ET	Qualified	 - 			
+										ROHM	MCR01PJ000	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X000PL	Qualified	 - 			
+										YAGEO	RC0402JR-0RL	Qualified	 - 			
+12-2781-02	109	RES,TKF,220 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	54	Push	N	N	VISHAY/DALE	CRCW0402220RJNE	End of Production	R1053,R113,R1203,R1204,	N	N
+										YAGEO	RC0402J-220RL	Qualified	R1223,R154,R1706,R211,			
+										VISHAY/DALE	CRCW0402220RJNE	End of Production	R32_3,R33_3,R345,R346,			
+										WALSIN TECHNOLOGY	WR04X221 JL	Qualified	R34_3,R353,R354,R35_3,			
+										ROHM	MCR01PJ221	Qualified	R36_3,R37_3,R38_3,R39_3,			
+										VISHAY INTERTECHNOLOGY	CRCW0402220RJNE	Qualified	R40_3,R41_3,R42_3,R43_3,			
+										TA-I TECHNOLOGY	RM04JN221	Qualified	R44_3,R452,R454,R45_3,			
+										 - 	 - 	 - 	R463,R468,R469,R46_3,			
+										 - 	 - 	 - 	R47_3,R48_3,R556,R558,			
+										 - 	 - 	 - 	R559,R602,R61,R62,R661,			
+										 - 	 - 	 - 	R665,R704,R705,R706,R709,			
+										 - 	 - 	 - 	R710,R711,R712,R754,R940,			
+										 - 	 - 	 - 	R941,R944,R945			
+										KOA	RK73B1ET221J	Qualified	 - 			
+										ROHM	MCR01PJ221	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN221	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402220RJNE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X221 JL	Qualified	 - 			
+										YAGEO	RC0402J-220RL	Qualified	 - 			
+12-2785-02	110	RES,TKF,330 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	WALSIN TECHNOLOGY	WR04X331JL	Qualified	R566,R653,R654	N	N
+										VISHAY/DALE	CRCW0402330RJNE	End of Production	 - 			
+										KOA	RK73B1ET331J	Qualified	 - 			
+										ROHM	MCR01PJ331	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN331	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402330RJNE	Qualified	 - 			
+										YAGEO	RC0402J-330RL	Qualified	 - 			
+12-2809-01	111	RES,TKF,2.87 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	TT/IRC	WCR-WCR0402-2871-F	Disqualified	R736	N	N
+										AVX	CR05-2871F	Disqualified	 - 			
+										NIC COMPONENTS	NRC04F2871	Disqualified	 - 			
+										NIC COMPONENTS	NCR04F2871R	Disqualified	 - 			
+										ROHM	MCR01MZSF2871	Disqualified	 - 			
+										SEI (STACKPOLE)	RMC1/16S2871F	Disqualified	 - 			
+										SEI (STACKPOLE)	RMC 1/16S 2.87K 1%	Disqualified	 - 			
+										VISHAY/DALE	CRCW04022871FRT1	Disqualified	 - 			
+										VISHAY/DALE	CRCW04022K87FKE	End of Production	 - 			
+										TT/IRC	WCR-WCR0402LF-2871-F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04022K87FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2871FL	Qualified	 - 			
+12-2857-01	112	RES,TKF,2.2 ohm,0.063W,5%,SM,0402	A	N/A	="-"&"A0"	11	Push	N	N	TA-I TECHNOLOGY	RM04JN2R2	Cancelled	R4_91_5,R4_91_RTV1,	N	N
+										KOA	RK73B1ET2R2J	Qualified	R4_91_RTV2,R4_92_5,			
+										WALSIN TECHNOLOGY	WR04X2R2 JL	Qualified	R4_93_5,R4_94_5,R4_95_5,			
+										NIC COMPONENTS	NRC04J2R2	Disqualified	R4_96_5,R4_98_5,			
+										KOA	RM73B1ET2R2J	Disqualified	R4_98_RTV1,R4_98_RTV2			
+										ROHM	MCR01J2R2	Cancelled	 - 			
+										KOA	RK73B1EL2R2J	Disqualified	 - 			
+										KOA	RM73B1ET2R2J	Disqualified	 - 			
+										NIC COMPONENTS	NRC04J2R2	Disqualified	 - 			
+										SEI (STACKPOLE)	RMC1/16S2R2J	Disqualified	 - 			
+										VISHAY/DALE	CRCW04022R2J	Disqualified	 - 			
+										VISHAY/DALE	CRCW04022R20JNE	End of Production	 - 			
+										KOA	RK73B1ET2R2J	Qualified	 - 			
+										ROHM	MCR01PJ2R2	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04022R20JNE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2R2 JL	Qualified	 - 			
+										YAGEO	RC0402J-2R2L	Qualified	 - 			
+12-2875-02	113	RES,1.5 k ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	ROHM	MCR01PJ152	End of Production	R12_3	N	N
+										VISHAY/DALE	CRCW04021K50JNE	End of Production	 - 			
+										KOA	RK73B1ET152J	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04021K50JNE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X152 JL	Qualified	 - 			
+										YAGEO	RC0402J-1K5L	Qualified	 - 			
+12-2887-02	114	RES,TKF,22 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	28	Push	N	N	KOA	RK73B1ET220J	Qualified	R114,R116,R1194,R166,	N	N
+										KOA	RK73B1ET220J	Qualified	R177,R216,R428,R46,R49,			
+										TA-I TECHNOLOGY	RM04JN220	Qualified	R494,R596,R60,R662,R667,			
+										ROHM	MCR01PJ220	Qualified	R670,R674,R675,R676,R677,			
+										YAGEO	RC0402J-22RL	Qualified	R678,R679,R717,R748,R867,			
+										 - 	 - 	 - 	R868,R920,R921,R922			
+										ROHM	MCR01PJ220	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN220	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X220JL	Qualified	 - 			
+										YAGEO	RC0402J-22RL	Qualified	 - 			
+12-2905-02	115	RES,TKF,4.7 k ohm,.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	91	Push	N	N	TA-I TECHNOLOGY	RM04JN472	Qualified	R1027,R1028,R1029,R10_3,	N	N
+										KOA	RK73B1ET472J	Qualified	R1101,R1139,R1154,R1198,			
+										ROHM	MCR01PJ472	Qualified	R1199,R11_3,R12,R1200,			
+										WALSIN TECHNOLOGY	WR04X472-JL	Qualified	R1201,R1202,R129,R132,			
+										TA-I TECHNOLOGY	RM04JN472	Qualified	R134,R13_3,R14_3,R157,			
+										 - 	 - 	 - 	R1582,R1583,R164,R165,			
+										 - 	 - 	 - 	R1767,R1768,R18,R1855_3,			
+										 - 	 - 	 - 	R1856_3,R1951,R1952,			
+										 - 	 - 	 - 	R202_PM,R203,R205,R206,			
+										 - 	 - 	 - 	R207,R219,R21_3,R223,			
+										 - 	 - 	 - 	R22_3,R232,R234,R243,			
+										 - 	 - 	 - 	R249,R254,R262,R266,R274,			
+										 - 	 - 	 - 	R283,R294,R295,R297,R32,			
+										 - 	 - 	 - 	R327,R3780,R402,R450,			
+										 - 	 - 	 - 	R539,R53_3,R563,R56_3,			
+										 - 	 - 	 - 	R57_3,R582,R583,R584,			
+										 - 	 - 	 - 	R585,R6,R60_3,R629,R657,			
+										 - 	 - 	 - 	R658,R659,R660,R664,R686,			
+										 - 	 - 	 - 	R690,R747,R759,R760,R77,			
+										 - 	 - 	 - 	R775,R778,R779,R793,R794,			
+										 - 	 - 	 - 	R7_3,R81,R8_3,R929,R93,			
+										 - 	 - 	 - 	R9_3			
+										KOA	RK73B1ET472J	Qualified	 - 			
+										ROHM	MCR01PJ472	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X472-JL	Qualified	 - 			
+										YAGEO	RC0402J-4K7L	Qualified	 - 			
+12-3568-02	116	RES,TKF,150 ohm,0.063W,5%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW0402150RJNE	Qualified	R1317,R1318	N	N
+										VISHAY/DALE	CRCW0402150RJNE	End of Production	 - 			
+										TA-I TECHNOLOGY	RM04JN151	In Process - Qual	 - 			
+										KOA	RK73B1ET151J	Qualified	 - 			
+										ROHM	MCR01PJ151	Qualified	 - 			
+										SAMSUNG ELECTRO-MECHANICS	RC1005J151	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X151JL	Qualified	 - 			
+										YAGEO	RC0402J-150RL	Qualified	 - 			
+12-3576-02	117	RES,TKF,120 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	ROHM	MCR01PF1200	Qualified	R1324	N	N
+										KOA	RK73H1ET1200F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN1200	Qualified	 - 			
+										YAGEO	RC0402F-120RL	Qualified	 - 			
+12-3673-02	118	RES,TKF,487 ohm,0.100W,1%,SM,0603,Pb-FREE	 - 	 - 	="-"&"A0"	2	Push	N	N	ROHM	MCR03PFX4870	Qualified	R1422,R52	N	N
+										KOA	RK73H1JT4870F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0603487RFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR06X4870FL	Qualified	 - 			
+										YAGEO	RC0603F-487RL	Qualified	 - 			
+12-3678-01	119	RES,TKF,1.78 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1EL1781F	End of Production	R745	N	N
+										KOA	RK73H1E1781F	End of Production	 - 			
+										NIC COMPONENTS	NRC04F1781	End of Production	 - 			
+										ROHM	MCR01F1781	End of Production	 - 			
+										VISHAY/DALE	CRCW04021781F	End of Production	 - 			
+										VISHAY/DALE	CRCW04021K78FKE	End of Production	 - 			
+										KOA	RK73H1ET1781F	Qualified	 - 			
+										ROHM	MCR01PF1781	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04021K78FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1781FL	Qualified	 - 			
+										YAGEO	RC0402F-1K78L	Qualified	 - 			
+12-3688-02	120	RES,TKF,5.36 k ohm,0.063W,1%,SM,0402,Pb-FREE,PRDB project only	A	N/A	="-"&"B0"	2	Push	N	N	VISHAY/DALE	CRCW04025K36FKE	End of Production	R8_1V2S,R952_3V3	N	N
+										KOA	RK73H1ET5361F	Qualified	 - 			
+										ROHM	MCR01PF5361	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04025K36FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X5361FL	Qualified	 - 			
+										YAGEO	RC0402F-5K36L	Qualified	 - 			
+12-3689-01	121	RES,TKF,4.22 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1EL4221F	End of Production	R55_3	N	N
+										NIC COMPONENTS	NCR04F4221	Disqualified	 - 			
+										KOA	RK73H1E4221F	End of Production	 - 			
+										NIC COMPONENTS	NRC04F4221	End of Production	 - 			
+										ROHM	MCR01F4221	End of Production	 - 			
+										VISHAY/DALE	CRCW04024K22FKE	End of Production	 - 			
+										VISHAY/DALE	CRCW04024221F	End of Production	 - 			
+										KOA	RK73H1ET4221F	Qualified	 - 			
+										ROHM	MCR01PF4221	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04024K22FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X4221FL	Qualified	 - 			
+										YAGEO	RC0402F-4K22L	Qualified	 - 			
+12-3693-02	122	RES,TKF,2 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	12	Push	N	N	WALSIN TECHNOLOGY	WR04X2001FL	Qualified	R1129,R1132,R1133,R1148,	N	N
+										YAGEO	RC0402F-2KL	Qualified	R1151,R1152,R1153,			
+										KOA	RK73H1ET2001F	Qualified	R206_PM,R290,R37,R47,R48			
+										KOA	RK73H1ET2001F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN2001	Qualified	 - 			
+										YAGEO	RC0402F-2KL	Qualified	 - 			
+12-3749-02	123	RES,TKF,3 k ohm,0.1W,1%,SM,0603,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	VISHAY/DALE	CRCW06033K00FKE	End of Production	R1665	N	N
+										KOA	RK73H1JT3001F	Qualified	 - 			
+										ROHM	MCR03PFX3001	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW06033K00FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR06X3001FL	Qualified	 - 			
+										YAGEO	RC0603F-3KL	Qualified	 - 			
+12-3792-02	124	RES,TKF,33 ohm,0.063W,5%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	12	Push	N	N	WALSIN TECHNOLOGY	WR04X330JL	Qualified	R103,R140,R162,R200,R202,	N	N
+										YAGEO	RC0402J-33RL	Qualified	R544,R554,R610,R611,R649,			
+										TA-I TECHNOLOGY	RM04JN330	Qualified	R683,R684			
+										KOA	RK73B1ET330J	Qualified	 - 			
+										ROHM	MCR01PJ330	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04JN330	Qualified	 - 			
+										YAGEO	RC0402J-33RL	Qualified	 - 			
+12-3972-01	125	RES,TKF,249 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"B0"	1	Push	N	N	KOA	RK73H1EL2493F	Cancelled	R562	N	N
+										AVX	CR05-2493F	Cancelled	 - 			
+										KOA	RK73H1E2493F	Cancelled	 - 			
+										ROHM	MCR01F2493	Cancelled	 - 			
+										VISHAY/DALE	CRCW04022493F	Cancelled	 - 			
+										VISHAY/DALE	CRCW0402249KFKE	End of Production	 - 			
+										KOA	RK73H1ET2493F	Qualified	 - 			
+										ROHM	MCR01PF2493	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402249KFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2493FL	Qualified	 - 			
+										YAGEO	RC0402F-249KL	Qualified	 - 			
+12-4210-01	126	RES,TF,2.2ohm,0.125W,5%,SM,0805	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73B2AT2R2J	Qualified	R13_A	N	N
+										AVX	CR21-2R2J	Cancelled	 - 			
+										KOA	RK73B2AL2R2J	Cancelled	 - 			
+										ROHM	MCR10J2R2	Cancelled	 - 			
+										ROHM	MCR10PJ2R2	Qualified	 - 			
+										TA-I TECHNOLOGY	RM10JN2R2	Qualified	 - 			
+										YAGEO	RC0805J-2R2L	Qualified	 - 			
+12-4252-01	127	RES,TKF,5.49 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	AVX	CR05-5491F	Disqualified	R768	N	N
+										KOA	RK73H1EL5491F	Cancelled	 - 			
+										ROHM	MCR01F5491	Disqualified	 - 			
+										KOA	RK73H1ET5491F	Qualified	 - 			
+										ROHM	MCR01PF5491	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X5491FL	Qualified	 - 			
+										YAGEO	RC0402F-5K49L	Qualified	 - 			
+12-4254-01	128	RES,TKF,174 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW0402174RFKE	Qualified	R12_1V2S,R971_3V3	N	N
+										KOA	RK73H1EL1740F	End of Production	 - 			
+										VISHAY/DALE	CRCW0402174RFKE	End of Production	 - 			
+										VISHAY/DALE	CRCW04021740F	End of Production	 - 			
+										KOA	RK73H1ET1740F	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1740FL	Qualified	 - 			
+										YAGEO	RC0402F-174RL	Qualified	 - 			
+12-4314-01	129	RES,TKF,4.12 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1EL4121F	Disqualified	R825	N	N
+										TT/IRC	WCR-WCR0402-4121-F	Disqualified	 - 			
+										VISHAY/DALE	CRCW04024121F	Disqualified	 - 			
+										KOA	RK73H1ET4121F	Qualified	 - 			
+										ROHM	MCR01PF4121	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X4121FL	Qualified	 - 			
+										YAGEO	RC0402F-4K12L	Qualified	 - 			
+12-4319-02	130	RES,TKF,21.5 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	WALSIN TECHNOLOGY	WR04X2152FL	Qualified	R101,R97	N	N
+										KOA	RK73H1ET2152F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040221K5FKEA	Qualified	 - 			
+										YAGEO	RC0402F-21K5L	Qualified	 - 			
+12-4335-02	131	RES,MF,0.001 ohm,2W,1%,SM,2512	A	N/A	="-"&"A0"	1	Push	N	N	VISHAY INTERTECHNOLOGY	WSL25121L000FEA18	Qualified	R162_PM	N	N
+										BOURNS	CRE2512-FZ-R001E-2	In Process - Qual	 - 			
+										KOA	TLR3AWD1L00F	Qualified	 - 			
+										TA-I TECHNOLOGY	RLM25FEER001	Qualified	 - 			
+12-4354-02	132	RES,TKF,4.02 k ohm,.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	YAGEO	RC0402F-4K02L	Qualified	R164_PM	N	N
+										VISHAY/DALE	CRCW04024K02FKE	End of Production	 - 			
+										KOA	RK73H1ET4021F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04024K02FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X4021FL	Qualified	 - 			
+12-4383-02	133	RES,TKF,1 ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	11	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW04021R00FKE	Qualified	R3_91_5,R3_91_RTV1,	N	N
+										YAGEO	RC0402F-1RL	Qualified	R3_91_RTV2,R3_92_5,			
+										VISHAY/DALE	CRCW04021R00FKE	End of Production	R3_93_5,R3_94_5,R3_95_5,			
+										TA-I TECHNOLOGY	RM04FN1R00	Cancelled	R3_96_5,R3_98_5,			
+										YAGEO	RC0402F-1R0L	End of Production	R3_98_RTV1,R3_98_RTV2			
+										TA-I TECHNOLOGY	RM04FN1R00	Cancelled	 - 			
+										VISHAY/DALE	CRCW04021R00FKE	End of Production	 - 			
+										YAGEO	RC0402F-1R0L	End of Production	 - 			
+										WALSIN TECHNOLOGY	WR04W1R00FL	Qualified	 - 			
+										YAGEO	RC0402F-1RL	Qualified	 - 			
+12-4386-01	134	RES,TKF,45.3 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	YAGEO	RC0402F-45R3L	Qualified	R475,R477	N	N
+										KOA	RK73H1EL45R3F	Disqualified	 - 			
+										ROHM	MCR01F45R3	Disqualified	 - 			
+										VISHAY/DALE	CRCW040245R3F	Disqualified	 - 			
+										VISHAY/DALE	CRCW040245R3FKE	End of Production	 - 			
+										KOA	RK73H1ET45R3F	Qualified	 - 			
+										ROHM	MCR01PF45R3	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040245R3FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X45R3FL	Qualified	 - 			
+12-4412-01	135	RES,TKF,150 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1ET1503F	Qualified	R8_A	N	N
+										KOA	RK73H1EL1503F	Cancelled	 - 			
+										YAGEO	RC0402F-150K	Cancelled	 - 			
+										ROHM	MCR01F1503	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN1503	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1503FL	Qualified	 - 			
+										YAGEO	RC0402F-150KL	Qualified	 - 			
+12-4451-01	136	RES,TKF,105 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	1	Push	N	N	VISHAY/DALE	CRCW04021053F	Disqualified	R557	N	N
+										KOA	RK73H1EL1053F	Disqualified	 - 			
+										YAGEO	RC0402F-105K	Disqualified	 - 			
+										VISHAY/DALE	CRCW0402105KFKE	End of Production	 - 			
+										KOA	RK73H1ET1053F	Qualified	 - 			
+										ROHM	MCR01PF1053	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW0402105KFKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1053FL	Qualified	 - 			
+										YAGEO	RC0402F-105KL	Qualified	 - 			
+12-4471-02	137	RES,TNF,1 k ohm,0.063W,.1%,SM,0402,25PPM,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	YAGEO	RT0402BRD1KL	Qualified	R12_A,R755,R758	N	N
+										KOA	RN731ET1001B25	Obsolete	 - 			
+										KOA	RN73R1ET1001B25	Qualified	 - 			
+										TA-I TECHNOLOGY	RB04BP1001	Qualified	 - 			
+										TT/IRC	PCF-W0402LF-03-1001-B	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U1001BL	Qualified	 - 			
+12-4483-01	138	RES,TKF,13.7 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	YAGEO	RC0402F-13K7L	Qualified	R5_6	N	N
+										KOA	RK73H1ET1372F	Qualified	 - 			
+										ROHM	MCR01PF1372	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1372FL	Qualified	 - 			
+12-4533-01	139	RES,TNF,10 k ohm,0.063W,0.1%,SM,0402,25PPM,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	YAGEO	RT0402BD10KL	Qualified	R1_6,R1_A,R3_A	N	N
+										KOA	RN731ET1002B25	Obsolete	 - 			
+										KOA	RN73R1ET1002B25	Qualified	 - 			
+										TA-I TECHNOLOGY	RB04BP1002	Qualified	 - 			
+										TT/IRC	PCF-W0402LF-03-1002-B	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04U1002BL	Qualified	 - 			
+12-4577-01	140	RES,TKF,124 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1ET1243F	Qualified	R4_6	N	N
+										ROHM	MCR01PF1243	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1243FL	Qualified	 - 			
+										YAGEO	RC0402F-124KL	Qualified	 - 			
+12-4605-01	141	RES,TKF,169 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	3	Push	N	N	KOA	RK73H1ET1690F	Qualified	R12_SF0,R12_SF1,R948_5V	N	N
+										ROHM	MCR01PF1690	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1690FL	Qualified	 - 			
+										YAGEO	RC0402F-169RL	Qualified	 - 			
+12-4650-01	142	RES,TKF,33 ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	37	Push	N	N	KOA	RK73H1ET33R0F	Qualified	R118,R125,R135,R136,R137,	N	N
+										YAGEO	RC0402F-33RL	Qualified	R16,R2439,R253,R255,R257,			
+										KOA	RK73H1ET33R0F	Qualified	R259,R261,R264,R265,R267,			
+										TA-I TECHNOLOGY	RM04FN33R0	Cancelled	R269,R271,R273,R275,R276,			
+										ROHM	MCR01PF33R0	Qualified	R278,R280,R282,R284,R285,			
+										 - 	 - 	 - 	R322,R324,R325,R326,R40,			
+										 - 	 - 	 - 	R41,R45,R546,R547,R548,			
+										 - 	 - 	 - 	R587,R89			
+										TA-I TECHNOLOGY	RM04FN33R0	Cancelled	 - 			
+										ROHM	MCR01PF33R0	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X33R0FL	Qualified	 - 			
+										YAGEO	RC0402F-33RL	Qualified	 - 			
+12-4680-01	143	RES,TKF,24.3 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	3	Push	N	N	WALSIN TECHNOLOGY	WR04X2432FL	Qualified	R3_Q0,R3_Q1,R3_Q2	N	N
+										VISHAY/DALE	CRCW040224K3FKE	End of Production	 - 			
+										KOA	RK73H1ET2432F	Qualified	 - 			
+										ROHM	MCR01PF2432	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040224K3FKE	Qualified	 - 			
+										YAGEO	RC0402F-24K3L	Qualified	 - 			
+12-4823-01	144	RES,TKF,3.48 k ohm,0.063W,1%,SM,0402	A	N/A	="-"&"A0"	2	Push	N	N	YAGEO	RC0402FR-073K48L	Cancelled	R1007,R854	N	N
+										KOA	RK73H1ETTP3481F	Cancelled	 - 			
+										KOA	RK73H1ET3481F	Qualified	 - 			
+										ROHM	MCR01PF3481	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X3481FL	Qualified	 - 			
+										YAGEO	RC0402F-3K48L	Qualified	 - 			
+12-4947-01	145	RES,TKF,200 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	KOA	RK73H1ET2003F	Qualified	R399	N	N
+										WALSIN TECHNOLOGY	WR04X2000FL	Disqualified	 - 			
+										ROHM	MCR01PF2003	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2003FL	Qualified	 - 			
+										YAGEO	RC0402F-200KL	Qualified	 - 			
+12-4974-01	146	RES,TKF,220 ohm,0.063W,1%,SM,0402,100PPM,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	TA-I TECHNOLOGY	RM04FN2200	Qualified	R158,R347,R355,R614	N	N
+										KOA	RK73H1ET2200F	Qualified	 - 			
+										ROHM	MCR01PF2200	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X2200FL	Qualified	 - 			
+										YAGEO	RC0402F-220RL	Qualified	 - 			
+12-5102-01	147	RES,TKF,28.7 ohm,0.063W,1%,SM,0402,100PPM,Pb-FREE	A	N/A	="-"&"A0"	2	Push	N	N	ROHM	MCR01PF28R7	Qualified	R296,R307	N	N
+										KOA	RK73H1ET28R7F	Qualified	 - 			
+										YAGEO	RC0402F-28R7L	Qualified	 - 			
+12-5341-01	148	RES,TKF,8.87 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	TA-I TECHNOLOGY	RM04FN8871	Qualified	R769	N	N
+										KOA	RK73H1ET8871F	Qualified	 - 			
+										ROHM	MCR01PF8871	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04028K87FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X8871FL	Qualified	 - 			
+12-5354-01	149	RES,TNF,2.4 k ohm,0.063W,0.1%,SM,0402,25PPM,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	KOA	RN731ET2401B25	Obsolete	R24_5,R24_RTV1,R24_RTV2	N	N
+										VIKING TECH	AR02BTC2401	End of Production	 - 			
+										KOA	RN73R1ET2401B25	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	TNPW04022K40BE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U2401BL	Qualified	 - 			
+										YAGEO	RT0402BD2K4L	Qualified	 - 			
+12-5355-01	150	RES,TNF,7.87 k ohm,0.063W,0.1%,SM,0402,25PPM	A	N/A	="-"&"A0"	4	Push	N	N	YAGEO	RT0402BD7K87L	Qualified	R741,R746,R836,R853	N	N
+										VIKING TECH	AR02BTC7871	End of Production	 - 			
+										KOA	RN731ET7871B25	Obsolete	 - 			
+										KOA	RN73R1ET7871B25	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	TNPW04027K87BE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U7871BL	Qualified	 - 			
+12-5406-01	151	RES,TKF,57.6 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	1	Push	N	N	WALSIN TECHNOLOGY	WR04X5762FL	Qualified	R7_A	N	N
+										VISHAY INTERTECHNOLOGY	RCS040257K6FK	Cancelled	 - 			
+										KOA	RK73H1ET5762F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW040257K6FK	Qualified	 - 			
+										YAGEO	RC0402F-57K6L	Qualified	 - 			
+12-5420-01	152	RES,TKF,4.7 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	8	Push	N	N	YAGEO	AC0402F-4K7L	Qualified	R156,R293,R344,R352,R541,	N	N
+										YAGEO	AC0402F-4K7L	Qualified	R542,R543,R613			
+										KOA	RK73H1ET4701F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN4701	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04024K70FKE	Qualified	 - 			
+12-5423-01	153	RES,TKF,3 k ohm,0.063W,1%,SM,0402,Pb-FREE	A	N/A	="-"&"A0"	3	Push	N	N	WALSIN TECHNOLOGY	WR04X3001FL	Qualified	R23_3,R24_3,R25_3	N	N
+										YAGEO	RC0402FR-7D3KL	Deplete Stock	 - 			
+										BOURNS	CR0402-FX-3001LF	Qualified	 - 			
+										KOA	RK73H1ET3001F	Qualified	 - 			
+										YAGEO	RC0402F-3KL	Qualified	 - 			
+12-5606-01	154	RES,TKF,13.0 k ohm,0.063W,1.0%,SM,0402,Pb-FREE,S grade,A-TEMP (-40 to 125'C)	S	N/A	="-"&"A0"	6	Push	N	N	KOA	RK73H1ET1302F	Qualified	R10_5,R10_RTV1,R10_RTV2,	N	N
+										KOA	RK73H1ET1302F	Qualified	R25_5,R25_RTV1,R25_RTV2			
+										VISHAY INTERTECHNOLOGY	CRCW040213K0FKE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1302FLV	Qualified	 - 			
+12-5607-01	155	RES,TKF,4.99 k ohm,0.063W,1.0%,SM,0402,Pb-FREE,S grade,A-TEMP (-40 to 125'C)	S	N/A	="-"&"A0"	5	Push	N	N	WALSIN TECHNOLOGY	WR04X4991FLV	Qualified	R10_1V2S,R10_SF0,R10_SF1,	N	N
+										WALSIN TECHNOLOGY	WR04X4991FLV	Qualified	R938_5V,R970_3V3			
+										KOA	RK73H1ET4991F	Qualified	 - 			
+										TA-I TECHNOLOGY	RM04FN4991	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW04024K99FKE	Qualified	 - 			
+12-5630-01	156	RES,TKF,1.30 k ohm,0.063W,1.0%,SM,0402,Pb-FREE,S grade,A-TEMP,-40 to 125'C	S	N/A	="-"&"A0"	1	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW04021K30FKE	Qualified	R76	N	N
+										KOA	RK73H1ET1301F	Qualified	 - 			
+										WALSIN TECHNOLOGY	WR04X1301FLV	Qualified	 - 			
+12-5731-01	157	RES,TNF,4.53 k ohm,0.063W,0.1%,SM,0402,25PPM,Pb-FREE,A-TEMP,-40 to 125'C	A	N/A	="-"&"A0"	1	Push	N	N	YAGEO	RT0402BD4K53L	Qualified	R11_A	N	N
+										KOA	RN731ET4531B25	Obsolete	 - 			
+										KOA	RN73R1ET4531B25	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U4531BL	Qualified	 - 			
+12-5890-01	158	RES,TNF,1 k ohm,0.063W,0.1%,SM,0402,Pb-FREE,S grade,A-TEMP,-40 to 125'C	S	N/A	="-"&"A0"	3	Push	N	N	YAGEO	AT0402BD1KL	Qualified	R09_5,R09_RTV1,R09_RTV2	N	N
+										KOA	RN73R1ET1001B25	In Process - Qual	 - 			
+										KOA	RN731ET1001B25	Obsolete	 - 			
+										VISHAY INTERTECHNOLOGY	TNPW04021K00BEE	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U1001BLQ	Qualified	 - 			
+12-6142-01	159	RES,TNF,22.1 k ohm,0.063W,0.1%,SM,0402,25PPM,Pb-FREE,A-TEMP,-40 to 125'C	A	N/A	="-"&"A0"	1	Push	N	N	TA-I TECHNOLOGY	RB04BP2212	Qualified	R3_6	N	N
+										KOA	RN731ET2212B25	Obsolete	 - 			
+										BOURNS	CRT0402-BY-2212LF	Qualified	 - 			
+										KOA	RN73R1ET2212B25	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	MCS04020D2212B00	Qualified	 - 			
+										WALSIN TECHNOLOGY	WF04U2212BL	Qualified	 - 			
+										YAGEO	RT0402BD22K1L	Qualified	 - 			
+13-0995-02	160	DIO,SH,30V,200mA,SOD-123,BAT54T1,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	VISHAY INTERTECHNOLOGY	BAT54W-V	Deplete Stock	CR1,CR3,CR8,CR9	N	N
+										ONSEMI	BAT54T1G	Deplete Stock	 - 			
+										VISHAY/GENERAL SEMICONDUCTOR	BAT54W-V	End of Production	 - 			
+										NEXPERIA USA INC	BAT54GW	In Process - Qual	 - 			
+										DIODES INC	BAT42W-7-F	Qualified	 - 			
+										ONSEMI	BAT54__G	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	BAT54W-E3	Qualified	 - 			
+13-1001218-01	161	DIO,SH,0.5VF,40VR,2.0A,DO214AA	A	N/A	="-"&"B0"	6	Push	Y	N	ONSEMI	SS24__G	Qualified	CR1_Q0,CR1_Q1,CR1_Q2,	N	Y
+										VISHAY INTERTECHNOLOGY	SS24-E3/52T	Qualified	CR2_Q0,CR2_Q1,CR2_Q2			
+										DIODES INC	B340B-F	Deplete Stock	 - 			
+										FAIRCHILD SEMICONDUCTOR	SS24	Obsolete	 - 			
+										ONSEMI	SS24	Obsolete	 - 			
+										DIODES INC	B340B-93-F	Qualified	 - 			
+										VISHAY INTERTECHNOLOGY	SS24-E3/52T	Qualified	 - 			
+14-0921-02	162	RNW-ISO,1k Ohm,5%,4R,63mW,0804,CRA8	A	 - 	="-"&"A0"	24	Push	N	N	KOA	CN1E4KT102J	Deplete Stock	RN103_S0,RN103_S1,	N	N
+										WALSIN TECHNOLOGY	WA04X102JL	Qualified	RN104_S0,RN104_S1,			
+										YAGEO	YC124-J-1KL	Qualified	RN107_S0,RN107_S1,			
+										 - 	 - 	 - 	RN108_S0,RN108_S1,			
+										 - 	 - 	 - 	RN38_S0,RN38_S1,RN48_S0,			
+										 - 	 - 	 - 	RN48_S1,RN49_S0,RN49_S1,			
+										 - 	 - 	 - 	RN50_S0,RN50_S1,RN58_S0,			
+										 - 	 - 	 - 	RN58_S1,RN59_S0,RN59_S1,			
+										 - 	 - 	 - 	RN60_S0,RN60_S1,RN68_S0,			
+										 - 	 - 	 - 	RN68_S1			
+										WALSIN TECHNOLOGY	WA04X102JL	Qualified	 - 			
+										YAGEO	YC124-J-1KL	Qualified	 - 			
+14-0931-04	163	RNW,ISO, 4.7K, 5%, 4R,63mW,CRA8,0804,CONVEX, ANTI SULFUR,Pb-free,C-TEMP (0 to 70'C)	A	N/A	="-"&"A0"	1	Push	N	N	KOA	CN1E4KRT472J	Deplete Stock	RN1	N	N
+										WALSIN TECHNOLOGY	MA04X472JL	Qualified	 - 			
+										YAGEO	AF124-J-4K7L	Qualified	 - 			
+14-1007-02	164	RNW-ISO,150 Ohm,4R,5%,.063W,0804,CONCAVE	 - 	 - 	="-"&"A0"	27	Push	N	N	VISHAY INTERTECHNOLOGY	CRA04P083150RJ	Obsolete	RN1_Q0,RN1_Q1,RN1_Q2,	N	N
+										BOURNS	CAT10-151J4LF	Qualified	RN31_S0,RN31_S1,RN32_S0,			
+										CTS	741C083151JP	Qualified	RN32_S1,RN41_S0,RN41_S1,			
+										YAGEO	TC124J-150RL	Qualified	RN42_S0,RN42_S1,RN51_S0,			
+										 - 	 - 	 - 	RN51_S1,RN52_S0,RN52_S1,			
+										 - 	 - 	 - 	RN61_S0,RN61_S1,RN62_S0,			
+										 - 	 - 	 - 	RN62_S1,RN80_S0,RN80_S1,			
+										 - 	 - 	 - 	RN89_S0,RN89_S1,RN92_S0,			
+										 - 	 - 	 - 	RN92_S1,RN93_S0,RN93_S1			
+										BOURNS	CAT10-151J4LF	Qualified	 - 			
+										CTS	741C083151JP	Qualified	 - 			
+										YAGEO	TC124J-150RL	Qualified	 - 			
+14-1023-03	165	RNW-ISO,2.2k Ohm,5%,4R,63mW,0804,CONCAVE,Pb-free	A	N/A	="-"&"A0"	66	Push	N	N	YAGEO	TC124-J-2K2L	Qualified	RN100_S0,RN100_S1,	N	N
+										SAMSUNG ELECTRO-MECHANICS	RN104PJ222	Deplete Stock	RN102_S0,RN102_S1,			
+										YAGEO	TC124-J-2K2L	Qualified	RN109_S0,RN109_S1,			
+										KOA	CN1E4T222J	Deplete Stock	RN111_S0,RN111_S1,RN2_Q0,			
+										PANASONIC	EXBN8V222JV	Deplete Stock	RN2_Q1,RN2_Q2,RN33_S0,			
+										 - 	 - 	 - 	RN33_S1,RN34_S0,RN34_S1,			
+										 - 	 - 	 - 	RN35_S0,RN35_S1,RN36_S0,			
+										 - 	 - 	 - 	RN36_S1,RN37_S0,RN37_S1,			
+										 - 	 - 	 - 	RN3_Q0,RN3_Q1,RN3_Q2,			
+										 - 	 - 	 - 	RN43_S0,RN43_S1,RN44_S0,			
+										 - 	 - 	 - 	RN44_S1,RN45_S0,RN45_S1,			
+										 - 	 - 	 - 	RN46_S0,RN46_S1,RN47_S0,			
+										 - 	 - 	 - 	RN47_S1,RN53_S0,RN53_S1,			
+										 - 	 - 	 - 	RN54_S0,RN54_S1,RN55_S0,			
+										 - 	 - 	 - 	RN55_S1,RN56_S0,RN56_S1,			
+										 - 	 - 	 - 	RN57_S0,RN57_S1,RN63_S0,			
+										 - 	 - 	 - 	RN63_S1,RN64_S0,RN64_S1,			
+										 - 	 - 	 - 	RN65_S0,RN65_S1,RN66_S0,			
+										 - 	 - 	 - 	RN66_S1,RN67_S0,RN67_S1,			
+										 - 	 - 	 - 	RN69_S0,RN69_S1,RN79_S0,			
+										 - 	 - 	 - 	RN79_S1,RN94_S0,RN94_S1,			
+										 - 	 - 	 - 	RN96_S0,RN96_S1,RN97_S0,			
+										 - 	 - 	 - 	RN97_S1,RN99_S0,RN99_S1			
+										KOA	CN1E4T222J	Deplete Stock	 - 			
+										PANASONIC	EXBN8V222JV	Deplete Stock	 - 			
+										SAMSUNG ELECTRO-MECHANICS	RN104PJ222	Deplete Stock	 - 			
+										BOURNS	CAT10-222J4LF	Qualified	 - 			
+15-102821-01	166	IC-TIMING,BUFFER,NON ZERO DLY,250.0 MHz,3.3 V,TSSOP,8 P,-40 to 85 C,2.5V option available,Pb-Free	A	N/A	="-"&"A0"	2	Push	N	N	IDT	5PB1102PGGI	End of Production	U14,U6	N	N
+										RENESAS ELECTRONICS	5PB1102PGGI	Qualified	 - 			
+										TEXAS INSTRUMENTS	CDCLVC1102PW	Qualified	 - 			
+15-102962-01	167	IC-LOGIC,TRANSCEIVER,TSSOP,24 P,0.8 V to 3.6 V,-40°C TO 125°C,8-BIT,3-STATE OUTPUT,PB FREE	A	N/A	="-"&"A0"	2	Push	N	N	TEXAS INSTRUMENTS	SN74AXC8T245PW	In Process - Qual	U42,U43	N	N
+										NXP	74AVC8T245PW	Deplete Stock	 - 			
+										NEXPERIA USA INC	74AVC8T245PW	Qualified	 - 			
+15-104128-01	168	IC-LIN,VREG,SW,BUCK,PQFN,40 P,16.0 V IN,5.5 V OUT,1.5 MHz,70.0 A,40 to 125 C	A	1	="-"&"A0"	11	Push	N	N	INFINEON TECHNOLOGIES	TDA21470 >=1722	Cancelled	U1_91_5,U1_91_RTV1,	N	N
+										INFINEON TECHNOLOGIES	TDA21470 (DC>=1722)	Qualified	U1_91_RTV2,U1_92_5,			
+										INFINEON TECHNOLOGIES	TDA21470	Deplete Stock	U1_93_5,U1_94_5,U1_95_5,			
+										 - 	 - 	 - 	U1_96_5,U1_98_5,			
+										 - 	 - 	 - 	U1_98_RTV1,U1_98_RTV2			
+										INFINEON TECHNOLOGIES	TDA21470	Deplete Stock	 - 			
+										INFINEON TECHNOLOGIES	TDA21470 (DC>=1722)	Qualified	 - 			
+15-104658-01	169	IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free	A	2	="-"&"A0"	9	Push	N	N	MARVELL SEMICONDUCTOR	88EC808-A1-BVU4C000	Qualified	U1_RT1_2,U1_RT3_4,	N	N
+										MARVELL SEMICONDUCTOR	88EC808-A0-BVU4C000	Cancelled	U1_RT5_6,U1_RT7_8,U1_RT9,			
+										MARVELL SEMICONDUCTOR	88EC808-A1-BVU4C000	Qualified	U2_RT1_2,U2_RT3_4,			
+										 - 	 - 	 - 	U2_RT5_6,U2_RT7_8			
+										MARVELL SEMICONDUCTOR	88EC808-XX-BUM4C000	Cancelled	 - 			
+										MARVELL SEMICONDUCTOR	88EC808-A0-BVU4C000	Cancelled	 - 			
+15-104898-01	170	IC-LOGIC,REGISTER,TSSOP,14 P,-40 to 85 C	A	1	="-"&"A0"	1	Push	N	N	FAIRCHILD SEMICONDUCTOR	MM74HC164MTC	Obsolete	U40	N	N
+										ONSEMI	MM74HC164MTC	Deplete Stock	 - 			
+										DIODES INC	74HC164T14	Qualified	 - 			
+										NEXPERIA USA INC	74HC164PW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74HC164PWR	Qualified	 - 			
+										TOSHIBA	74VHC164FT	Qualified	 - 			
+15-105048-01	171	IC-LIN,VREG,SW,BUCK,QFN,28 P,18.0 V IN,5.5 V OUT,1.0 MHz,15.0 A,40 to 125 C	B	3	="-"&"A0"	1	Push	N	N	TEXAS INSTRUMENTS	TPS549A20RVE	Qualified	U3_A	N	N
+15-105653-01	172	IC-TIMING,SYNTHESIZER,1045.0 MHz,3.3 V,LGA,80 P,-40 to 85 C	A	2	="-"&"A0"	1	Push	N	N	MICROSEMI	ZL30772LF7	Cancelled	U59	N	N
+										MICROSEMI	ZL30772	Cancelled	 - 			
+										MICROCHIP	ZL30772LF7	Qualified	 - 			
+15-106515-01	173	IC-LIN,Precision Digital Power Monitor,MSOP,10 P,5.05x3.05mm PKGSIZE,0.5mm PITCH,5.5 V (Max),-40 to 125 C	A	N/A	="-"&"A0"	1	Push	N	N	RENESAS ELECTRONICS	ISL28022FUZ	Qualified	U13_PM	N	N
+										TEXAS INSTRUMENTS	INA220BQDGSRQ1	Qualified	 - 			
+15-106608-01	174	IC-LIN,OP AMP,MSOP,10 P,5.15x3.1mm PKGSIZE,0.5mm PITCH,-40 to 85 C	A	N/A	="-"&"A0"	1	Push	N	N	ANALOG DEVICES	AD8553ARMZ	Qualified	U1_PM	N	N
+15-107246-01	175	IC-LIN,INTFC DRVR,DFN,10 P,3.0x3.0mm PKGSIZE,0.5mm PITCH,3.0V to 5.5V,20Mbps,-40 to 125 C	A	1	="-"&"A0"	2	Push	N	Y	MAXLINEAR INC	XR33202EEHBTR-F	Qualified	U20,U21	Y	Y
+15-109054-01	176	IC-LIN,PWRMGT,VRM,FET DRVR,WQFN,34P,5x7mm PKGSIZE,0.50mm PITCH,12V NOM,-40to150Cn/a	A	1	="-"&"02"	3	Push	Y	Y	ONSEMI	FAN251015MN	In Process - Qual	U15_5V,U16_3V3,U1_1V2S	Y	Y
+15-109360-01	177	IC-LIN,PWRMGT,FET DRVR,WQFN,34 P,5.0x7.0mm PKGSIZE,0.5mm PITCH,12.0 V NOM,-40 to 125 C35A	A	2	="-"&"02"	2	Push	Y	Y	ONSEMI	FAN251030MNTXG	In Process - Qual	U1_SF0,U1_SF1	Y	Y
+15-11039-02	178	IC-TIMING,JITTER ATTEN,QFN36,SI5326,CLK MULT,ANY RATE MUL PLL/JITTER ATTEN,Pb-Free	A	 - 	="-"&"A0"	1	Push	N	Y	SILICON LABORATORIES	SI5326C-C-GM	Obsolete	U56	N	N
+										SKYWORKS SOLUTIONS	SI5326C-C-GM	Qualified	 - 			
+15-12152-01	179	IC-LIN,VREG,SYNC SW,QFN14,Tj -40'C to +150'C,6A,1.6MHZ,Pb-FREE,ADJ	A	1	="-"&"A0"	2	Push	Y	Y	RICHTEK TECHNOLOGY	RT2856GQW	In Process - Qual	U11,U114	N	N
+										TEXAS INSTRUMENTS	SN0906027RGYR	In Process - Qual	 - 			
+										TEXAS INSTRUMENTS	TPS54620RGYR	Qualified	 - 			
+15-12877-01	180	IC-LIN,PWRMGT,HOTSWAP,SON10,TPS2560,CURRENT LTD POWER SWITCH,ADJ,DUAL,Pb-FREE	A	1	="-"&"A0"	3	Push	Y	Y	TEXAS INSTRUMENTS	TPS2560DRC	Qualified	U1_Q0,U1_Q1,U1_Q2	Y	N
+15-13379-01	181	IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE	A	N/A	="-"&"A0"	12	Push	N	Y	NEXPERIA USA INC	74LV595PW	Qualified	U103,U106,U107,U108,U115,	Y	N
+										NXP	74LV595PW/AU	Deplete Stock	U116,U26,U27,U31,U32,U35,			
+										NXP	74LV595PW [DC>1329 CU]	Cancelled	U36			
+										NXP	74LV595PW [DC>1329 CU]	Cancelled	 - 			
+										NXP	74LV595PW (DC<1329 AU)	Deplete Stock	 - 			
+										NXP	74LV595PW/AU	Deplete Stock	 - 			
+										NXP	74LV595PW	Deplete Stock	 - 			
+										TEXAS INSTRUMENTS	SN74LV595APW	Qualified	 - 			
+15-13454-01	182	IC-TIMING,BUFFER,TSSOP8,1:2,LVPECL,ICS853S011BGILFT,BUFFER,LVPECL-LVPECL,Jitter < 150 fs additive RMS in 12k to 20MHz band,with a 25 MHz clock,Pb-Free	A	N/A	="-"&"A0"	1	Push	N	Y	IDT	853S011BGILF	End of Production	U63	Y	N
+										RENESAS ELECTRONICS	853S011BGILF	Qualified	 - 			
+15-14031-01	183	IC-LIN,VREG,SYNC SW,HTSSOP16,I-TEMP -40 to 85'C,4.5-18VIN,0.76-7VOUT,700 kHz,3A,Pb-FREE,TPS54394,DUAL CH	A	N/A	="-"&"A0"	2	Push	N	N	TEXAS INSTRUMENTS	TPS54394PWP	Qualified	U1_6,U1_A	Y	N
+15-14484-01	184	IC-LIN,INTFC I2C,MSOP8,0.8V-5.5V,I-TEMP (-40 to 85'C),I2C REPEATER	A	N/A	="-"&"B0"	1	Push	N	N	PERICOM	PI6ULS5V9617AUE	Deplete Stock	U41	Y	N
+										TEXAS INSTRUMENTS	TCA9617DGKR	Cancelled	 - 			
+										DIODES INC	PI6ULS5V9617AUE	Qualified	 - 			
+										NXP	PCA9617ADP	Qualified	 - 			
+										TEXAS INSTRUMENTS	TCA9617ADGKR	Qualified	 - 			
+										TEXAS INSTRUMENTS	TCA9617BDGKR	Qualified	 - 			
+15-14497-02	185	IC-MP,MCU,8/16BIT,QFN20,2.7V to 3.6V,-40 to 95'C,A2L1.5,Pb-FREE,I-TEMP	A	1	="-"&"B0"	1	Push	Y	Y	WISEKEY SEMICONDUCTORS	AT90SO72-028-Z	Qualified	U24	Y	N
+										RENESAS TECHNOLOGY	R5H30315XD01NB01	Cancelled	 - 			
+										INSIDE SECURE	AT90SO72-028-Z	Deplete Stock	 - 			
+										VAULT IC FRANCE SAS	AT90SO72-028-Z	Deplete Stock	 - 			
+										RENESAS ELECTRONICS	R5H30315XD02NB01	Disqualified	 - 			
+										WISEKEY SEMICONDUCTORS	AT90SO72-046-Z	In Process - Qual	 - 			
+										RENESAS ELECTRONICS	R5H30315XD04NB01	Qualified	 - 			
+										ST MICROELECTRONICS	PINEDQ20OPAA	Qualified	 - 			
+15-2811-02	186	IC-LOGIC-BUFFER,TSSOP20,5V,-40C to +85C,74LVC244A,OCTL,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	NXP	74LVC244APW	Deplete Stock	U25,U47,U48,U7	N	N
+										NXP	74LVC244APW (DC >1321 CU)	Cancelled	 - 			
+										NXP	74LVC244APW/AU	Deplete Stock	 - 			
+										NXP	74LVC244APW (DC<1321 AU)	Deplete Stock	 - 			
+										IDT	IDT74LVC244APGG	End of Production	 - 			
+										NEXPERIA USA INC	74LVC244APW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC244APW	Qualified	 - 			
+15-3204-02	187	IC-LOGIC-MUX,TSSOP16,Industrial Temp -40C to +85C,74LVC157A,QUAD 2-TO-1,Pb-FREE	A	 - 	="-"&"A0"	1	Push	N	N	NXP	74LVC157APW/AU	Deplete Stock	U57	N	N
+										NXP	74LVC157APW (DC >1321 CU)	Cancelled	 - 			
+										NXP	74LVC157APW	Deplete Stock	 - 			
+										NXP	74LVC157APW (DC<1321 AU)	Deplete Stock	 - 			
+										NEXPERIA USA INC	74LVC157APW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC157APW	Qualified	 - 			
+15-3699-03	188	IC-LOGIC-DEMUX,QSOP16,PI3B3257,DMUX,QUAD	A	N/A	="-"&"A0"	1	Push	N	N	RENESAS ELECTRONICS	74CBTLV3257QG	In Process - Qual	U96	N	N
+										PERICOM	PI3B3257QE	Deplete Stock	 - 			
+										NEXPERIA USA INC	74CBTLV3257DS	In Process - Qual	 - 			
+										DIODES INC	PI3B3257QE	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74CBTLV3257DBQR	Qualified	 - 			
+15-3958-02	189	IC-LOGIC-BUFFER,TSSOP20,VNOM 2.0-3.6V,74LVC2244A	A	N/A	="-"&"B0"	2	Push	N	N	ONSEMI	74LCX244MTC	Cancelled	U50,U61	N	N
+										NXP	74LVC2244APW (DC >1321 CU)	Cancelled	 - 			
+										NXP	74LVC2244APW	Deplete Stock	 - 			
+										NXP	74LVC2244APW (DC<1321 AU)	Deplete Stock	 - 			
+										NXP	74LVC2244APW/AU	Deplete Stock	 - 			
+										TOSHIBA	TC74VCX2244FT	In Process - Qual	 - 			
+										NEXPERIA USA INC	74LVC2244APW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC2244APW	Qualified	 - 			
+15-4189-02	190	IC-LOGIC-BUFFER,TSSOP14,74LVC07A,HEX,Pb-FREE	 - 	 - 	="-"&"A0"	1	Push	N	Y	NXP	74LVC07APW (DC >1321 CU)	Cancelled	U55	N	N
+										NXP	74LVC07APW/AU	Deplete Stock	 - 			
+										NXP	74LVC07APW (DC<1321 AU)	Deplete Stock	 - 			
+										NXP	74LVC07APW	Deplete Stock	 - 			
+										NEXPERIA USA INC	74LVC07APW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC07APW	Qualified	 - 			
+15-6728-02	191	IC-LOGIC-AND,SOT353,3.6V,-40 TO 85C,Pb-FREE,74LVC1G08,SINGLE POS	A	N/A	="-"&"A0"	1	Push	N	N	NXP	74LVC1G08GW	Deplete Stock	U45	N	N
+										NXP	74LVC1G08GW (DC>1518 CU)	Cancelled	 - 			
+										NXP	74LVC1G08GW/AU	Deplete Stock	 - 			
+										NXP	74LVC1G08GW (DC<1518 AU)	Deplete Stock	 - 			
+										NEXPERIA USA INC	74LVC1G08GW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC1G08DCK	Qualified	 - 			
+15-6939-02	192	IC-LOGIC-BUFFER,PSOP5,-40 TO 85'C,74LVC1G07,SINGL BUFFR,0.65,Pb-FREE	A	N/A	="-"&"A1"	2	Push	N	N	TEXAS INSTRUMENTS	SN74LVC1G07DCKR	Qualified	U4,U46	N	N
+										NXP	74LVC1G07GW (DC>1518 CU)	Cancelled	 - 			
+										NXP	74LVC1G07GW (DC<1518 AU)	Deplete Stock	 - 			
+										NXP	74LVC1G07GW	Deplete Stock	 - 			
+										NXP	74LVC1G07GW/AU	Deplete Stock	 - 			
+										DIODES INC	74LVC1G07SE	In Process - Qual	 - 			
+										ONSEMI	NLV17SZ07DFT2G	In Process - Qual	 - 			
+										NEXPERIA USA INC	74LVC1G07GW	Qualified	 - 			
+										TOSHIBA	TC7SZ07FU,LJ(CT	Qualified	 - 			
+15-7346-01	193	IC-LOGIC,QSOP16,QS3VH257,QUAD,2:1,MUX/DEMUX	 - 	 - 	="-"&"A0"	3	Push	N	N	IDT	QS3VH257QG	Obsolete	U10,U12,U8	N	N
+										PERICOM	PI3CH480QE	Deplete Stock	 - 			
+										TEXAS INSTRUMENTS	SN74CB3Q3257DBQRE4	Deplete Stock	 - 			
+										IDT	IDTQS3VH257Q	End of Production	 - 			
+										IDT	IDTQS3VH257QG	Obsolete	 - 			
+										RENESAS ELECTRONICS	IDTQS3VH257QG	Obsolete	 - 			
+										DIODES INC	PI3CH480QE	Qualified	 - 			
+										RENESAS ELECTRONICS	QS3VH257QG	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74CB3Q3257DBQR	Qualified	 - 			
+15-7481-02	194	IC-LIN,TEMP MON,QSOP-16,MAX1668,4/5 CHNL TEMP SENS,Pb-FREE	A	N/A	="-"&"A0"	1	Push	Y	Y	MAXIM INTEGRATED PRODUCTS	MAX1668MEE+	Qualified	U72	N	N
+15-8153-02	195	IC-LOGIC-BUFFER,SC706,NC7WZ17,SCHMITT INPUT,Pb-FREE	A	 - 	="-"&"A0"	1	Push	N	N	TOSHIBA	TC7PZ17FU	In Process - Qual	U19	N	N
+										ONSEMI	NL27WZ17DFT2G	Disqualified	 - 			
+										DIODES INC	74LVC2G17DW	In Process - Qual	 - 			
+										NEXPERIA USA INC	74LVC2G17GW	In Process - Qual	 - 			
+										ONSEMI	NC7WZ17P6X-L22347	In Process - Qual	 - 			
+										FAIRCHILD SEMICONDUCTOR	NC7WZ17P6X	Obsolete	 - 			
+										ONSEMI	NC7WZ17P6X	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC2G17DCK	Qualified	 - 			
+15-8366-01	196	IC-LOGIC,MUX,SC70,6 P,2.0x2.1mm PKGSIZE,0.65mm PITCH,1.65 V to 5.5 V,-40 to 85 C,2-IN,NON-INV	A	N/A	="-"&"A1"	1	Push	N	N	NEXPERIA USA INC	74LVC1G157GW	Qualified	U23	N	N
+										NXP	74LVC1G157GW	Deplete Stock	 - 			
+										PHILIPS SEMICONDUCTOR	74LVC1G157GW	Disqualified	 - 			
+										FAIRCHILD SEMICONDUCTOR	NC7SZ157P6X	Obsolete	 - 			
+										ONSEMI	NC7SZ157P6X	Qualified	 - 			
+15-9367-02	197	IC-LOGIC,TSSOP20,1.8-3.3V,SI-GATE CMOS.5V TOL,3-STATE OUTPUTS,LOW-POWER,LOW-VOL,Pb-FREE	A	 - 	="-"&"A0"	1	Push	N	N	NXP	74LVC244APW/AU	Deplete Stock	U138	N	N
+										NXP	74LVC244APW (DC >1321 CU)	Cancelled	 - 			
+										NXP	74LVC244APW	Deplete Stock	 - 			
+										NXP	74LVC244APW (DC<1321 AU)	Deplete Stock	 - 			
+										NEXPERIA USA INC	74LVC244APW	Qualified	 - 			
+										TEXAS INSTRUMENTS	SN74LVC244APW	Qualified	 - 			
+15-9846-02	198	IC-TIMING,BUFFER,3.3V,TSSOP20,-40C TO 85C,1:5,LVPECL,DIF to LVPECL,2.5V option available,Pb-Free PRDB project only	A	 - 	="-"&"A0"	4	Push	N	N	PERICOM	PI6C4911505-07LIE	Deplete Stock	U13,U17,U28,U5	N	N
+										IDT	853S014AGILF	Cancelled	 - 			
+										ONSEMI	MC100LVEP14DTG	Cancelled	 - 			
+										MICREL	SY100EP14UK4G	Deplete Stock	 - 			
+										IDT	ICS853014BGLF	LTB	 - 			
+										DIODES INC	PI6C4911505-07LIE	Qualified	 - 			
+										MAXIM INTEGRATED PRODUCTS	MAX9315EUP+	Qualified	 - 			
+										MICROCHIP	SY100EP14UK4G	Qualified	 - 			
+16-101568-01	199	IC-FPGA,5CGXFC5C7-8.0,FBGA,672 P,1.0 mm,28.0nm,1.1 VCORE,YES-JTAG,3.3 V I/O,0 to 85 C,Pb-Free	A	2	="-"&"A0"	1	Push	N	N	INTEL	5CGXFC5C7F27C8N	Qualified	U49	N	N
+17-15181-02	201	IC,LINEAR,PWR SEQ, PWR_CONTROLLER,IR35215, ELYSIAN (SD1_6P1_0P875)	A	2	="-"&"A0"	1	Push	N	N	SMART MODULAR	17-15181-02	Qualified	U1_5	N	N
+										AVNET	17-15181-02	Qualified	 - 			
+.15-103791-01	0	IC-LIN,VREG,SW,PWM CNTRL,QFN,40 P,3.63 V IN,2.55 V OUT,2.0 MHz,-40 to 85 C	A	1	="-"&"A0"	1	Push	N	N	INFINEON TECHNOLOGIES	IR35215MTRPBF	Cancelled	 - 	N	N
+										INTERNATIONAL RECTIFIER	IR35215MTRPBF	Cancelled	 - 			
+										INFINEON TECHNOLOGIES	IR35215MCC01TRP	Disqualified	 - 			
+										INFINEON TECHNOLOGIES	IR35215MCC02TRP	Qualified	 - 			
+17-15781-01	202	IC,LINEAR,PWR SEQ,PWR_CONTROLLER,IR35215,BEARVALLEY	A	2	="-"&"A0"	2	Push	N	N	AVNET	17-15781-01	Qualified	U1_RTV1,U1_RTV2	Y	N
+										SMART MODULAR	17-15781-01	Qualified	 - 			
+.15-103791-01	0	IC-LIN,VREG,SW,PWM CNTRL,QFN,40 P,3.63 V IN,2.55 V OUT,2.0 MHz,-40 to 85 C	A	1	="-"&"A0"	1	Push	N	N	INFINEON TECHNOLOGIES	IR35215MTRPBF	Cancelled	 - 	N	N
+										INTERNATIONAL RECTIFIER	IR35215MTRPBF	Cancelled	 - 			
+										INFINEON TECHNOLOGIES	IR35215MCC01TRP	Disqualified	 - 			
+										INFINEON TECHNOLOGIES	IR35215MCC02TRP	Qualified	 - 			
+17-15887-02	203	FLASH,PROG,TOR,ELYSIAN,MIROM,V16, FOR SUPERFUZZ ONLY	A	2	="-"&"A0"	1	Push	Y	Y	SMART MODULAR	17-15887-02	Qualified	U54	Y	Y
+										AVNET	17-15887-02	Qualified	 - 			
+.16-1011779-03	0	IC-FEPROM-D,SPI,NOR,UNIFORM BLOCK,128 Mb,104MHz,2.7 to3.6 V,SO16,-40 to 85 C,Minimim sector=4KB,Do not add Cypress,INSBU only	A	N/A	="-"&"A0"	1	Push	N	N	MACRONIX	MX25L12833FMI-10G	In Process - Qual	 - 	N	N
+										MACRONIX	MX25L12835FMI-10G	Qualified	 - 			
+										MICRON TECHNOLOGY	MT25QL128ABA8ESF-0SIT	Qualified	 - 			
+										MICRON TECHNOLOGY	MT25QL128ABA8ESF-0AAT	Qualified	 - 			
+										WINBOND	W25Q128JVFIQ	Qualified	 - 			
+										WINBOND	W25Q128JVFIM	Qualified	 - 			
+17-16600-01	200	PLD,PROG,LATTICE, TOR, DEER VALLEY, CPLD	A	2	="-"&"01"	3	Push	N	N	SMART MODULAR	17-16600-01	In Process - Qual	U29,U30,U37	N	N
+										ARROW ELECTRONICS	17-16600-01	In Process - Qual	 - 			
+.16-101956-01	0	IC-CPLD,LCMXO2-1200HC-4.0,TQFP,144 P,0.5 mm,65 nm,3.0 VCORE,YES-JTAG,3.0 V I/O,0 to 85 C,PB-FREE,Cu WIRE, ULA MOLD COMPOUND AND ONLY FROM ASEM SITE,FOR SAVBU ONLY	A	N/A	="-"&"A0"	1	Push	N	N	LATTICE	LCMXO2-1200HC-4TG144C	Qualified	 - 	N	N
+										LATTICE	LCMXO2-1200HC-4TG144I	Qualified	 - 			
+17-16601-01	200	PLD,PROG,LATTICE,TOR,SUMPIN,CPLD4	A	2	="-"&"01"	1	Push	N	N	SMART MODULAR	17-16601-01	In Process - Qual	U38	N	N
+										ARROW ELECTRONICS	17-16601-01	In Process - Qual	 - 			
+.16-101956-01	0	IC-CPLD,LCMXO2-1200HC-4.0,TQFP,144 P,0.5 mm,65 nm,3.0 VCORE,YES-JTAG,3.0 V I/O,0 to 85 C,PB-FREE,Cu WIRE, ULA MOLD COMPOUND AND ONLY FROM ASEM SITE,FOR SAVBU ONLY	A	N/A	="-"&"A0"	1	Push	N	N	LATTICE	LCMXO2-1200HC-4TG144C	Qualified	 - 	N	N
+										LATTICE	LCMXO2-1200HC-4TG144I	Qualified	 - 			
+19-100470-01	204	OSC,XO,CMOS,114.285MHz,25.0 ppm,SMD,5X7 mm,3.3 VNOM,-40 to 85 C	A	N/A	="-"&"A0"	1	Push	N	N	PERICOM	UX71B42003	Cancelled	U2	N	N
+										VECTRON	VCC1-1537-114M285000	Obsolete	 - 			
+										DIODES INC	UX71B42003	Qualified	 - 			
+										MICROCHIP	VCC1-1537-114M285000	Qualified	 - 			
+19-100512-01	205	OSC,XO,LVPECL,212.5MHz,25.0 ppm,SMD,6 P,5x7x1.7 mm,3.3 VNOM,45/55%,-40 to 85 C	A	2	="-"&"A0"	1	Push	N	N	DIODES INC	UX7021D0212.500000	Qualified	U51	N	N
+										VECTRON	VC-709-0050-212M500000	Obsolete	 - 			
+										MICROCHIP	VC-709-0050-212M500000	Qualified	 - 			
+19-100573-01	206	OSC,TCXO,CMOS,25.0MHz,2.5 ppm,SMD,4 P,3.2 x 2.5 x 1 mm,3.3 VNOM,45/55%,-40 to 85 C,RMS Jitter 2.1ps,P-P jitter 40ps	A	N/A	="-"&"A0"	1	Push	N	N	VECTRON	VT-822-HAE-5060-25M0000000	Cancelled	U9	N	N
+										VECTRON	VT-822-EAE-2560-25M0000000	Obsolete	 - 			
+										DIODES INC	WT3211T0025.000000	Qualified	 - 			
+										MICROCHIP	VT-822-EAE-2560-25M0000000	Qualified	 - 			
+19-100581-01	207	OSC,OCXO,LVCMOS,24.576MHz,4.6 ppm,SMD,7 P,25.4x22x12.1 mm,3.3 VNOM,45/55%,-40 to 85 C,S3E compliant according GR1244	A	N/A	="-"&"A0"	1	Push	N	Y	RAKON LIMITED	STP2979 LF	Qualified	U1	Y	N
+										MICROCHIP	OX-221-9101-24M576	Qualified	 - 			
+19-2220-01	208	OSC,HCMOS,125.0000MHz,50PPM,3.3V,-40'C to 105'C,45/55%	 - 	 - 	="-"&"A0"	1	Push	N	N	NDK	2560TKAJT-125M	Obsolete	U44	N	N
+										TXC CORPORATION	7WA2570014	Cancelled	 - 			
+										PERICOM	FNC500152	Deplete Stock	 - 			
+										PERICOM	FNC500087	Deplete Stock	 - 			
+										SARONIX	FNC500087	Deplete Stock	 - 			
+										SARONIX	FNC500152	Deplete Stock	 - 			
+										KYOCERA	KC7050A125.000C3GESX	Obsolete	 - 			
+										DIODES INC	FNC500152	Qualified	 - 			
+19-2245-01	209	XTAL,114.285MHz,100PPM,SMD4,-40'C to 85'C,18pF, C0/ESR follow attached Silab spec,DO NOT USE WITH SILABS MPN SI5368 Series	A	N/A	="-"&"A2"	1	Push	N	N	NDK	EXS00A-CS00871	Qualified	Y3	N	N
+										SARONIX	FLB420001	Cancelled	 - 			
+										M-TRON	M1253S061	Deplete Stock	 - 			
+										DIODES INC	FLB420001(>DC1633)	Disqualified	 - 			
+										PERICOM	FLB420001	Disqualified	 - 			
+										PERICOM	FLB420001(>DC1633)	Disqualified	 - 			
+										DIODES INC	FLB420001(>DC1742)	Qualified	 - 			
+20-0643-01	210	XTR,NPN,MMBT3904,40V,0.2A,SOT-23,Pb-FREE	A	N/A	="-"&"A1"	2	Push	N	N	NXP	MMBT3904	Deplete Stock	Q23,Q27	N	N
+										DIODES INC	MMBT3904	Cancelled	 - 			
+										FAIRCHILD SEMICONDUCTOR	MMBT3904_NL	Cancelled	 - 			
+										NXP	PMBT3904	Deplete Stock	 - 			
+										ONSEMI	MMBT3904LT1G	Disqualified	 - 			
+										FAIRCHILD SEMICONDUCTOR	MMBT3904	Obsolete	 - 			
+										ONSEMI	MMBT3904	Obsolete	 - 			
+										DIODES INC	MMBT3904-7-F	Qualified	 - 			
+										NEXPERIA USA INC	MMBT3904	Qualified	 - 			
+										NEXPERIA USA INC	PMBT3904	Qualified	 - 			
+20-0671-02	211	XTR,NCH,BSS138,50V,200mA,SOT-23,Pb-FREE	A	N/A	="-"&"B0"	10	Push	N	N	LISION TECHNOLOGY INC	BSS138G	In Process - Qual	Q1,Q15,Q1_Q0,Q1_Q1,Q1_Q2,	N	N
+										FAIRCHILD SEMICONDUCTOR	BSS138_F169	Obsolete	Q24,Q2_Q0,Q2_Q1,Q2_Q2,Q3			
+										DIODES INC	BSS138-F	Cancelled	 - 			
+										DIODES INC	BSS138Q-F	Cancelled	 - 			
+										NXP	BSS138P	Deplete Stock	 - 			
+										ONSEMI	BSS138-F169	Deplete Stock	 - 			
+										ONSEMI	BSS138LT1G	Deplete Stock	 - 			
+										INFINEON TECHNOLOGIES	BSS138N	Disqualified	 - 			
+										FAIRCHILD SEMICONDUCTOR	BSS138_T	End of Production	 - 			
+										DIODES INC	BSS138-F-93	In Process - Qual	 - 			
+										TAIWAN SEMICONDU	BSS138	In Process - Qual	 - 			
+										TOSHIBA	T2N7002AK	In Process - Qual	 - 			
+										FAIRCHILD SEMICONDUCTOR	BSS138	Obsolete	 - 			
+										FAIRCHILD SEMICONDUCTOR	BSS138_F169	Obsolete	 - 			
+										NEXPERIA USA INC	BSS138P	Qualified	 - 			
+										ONSEMI	BSS138LG	Qualified	 - 			
+										ONSEMI	BSS138	Qualified	 - 			
+21-1336-02	212	CP-THERMISTOR,PTC,6VDC,1.10A,SM,1210	A	N/A	="-"&"A0"	48	Push	Y	Y	BOURNS	MF-USMF110-2-H5	Qualified	F0_S0,F0_S1,F10_S0,	N	N
+										TYCO ELECTRONICS	MICROSMD110F	Deplete Stock	F10_S1,F11_S0,F11_S1,			
+										BEL FUSE	0ZCH0110FF	In Process - Qual	F12_S0,F12_S1,F13_S0,			
+										BOURNS	MF-USMF110-2-H5	Qualified	F13_S1,F14_S0,F14_S1,			
+										 - 	 - 	 - 	F15_S0,F15_S1,F1_S0,			
+										 - 	 - 	 - 	F1_S1,F24_S0,F24_S1,			
+										 - 	 - 	 - 	F25_S0,F25_S1,F26_S0,			
+										 - 	 - 	 - 	F26_S1,F27_S0,F27_S1,			
+										 - 	 - 	 - 	F2_S0,F2_S1,F32_S0,			
+										 - 	 - 	 - 	F32_S1,F33_S0,F33_S1,			
+										 - 	 - 	 - 	F34_S0,F34_S1,F35_S0,			
+										 - 	 - 	 - 	F35_S1,F3_S0,F3_S1,F4_S0,			
+										 - 	 - 	 - 	F4_S1,F5_S0,F5_S1,F6_S0,			
+										 - 	 - 	 - 	F6_S1,F7_S0,F7_S1,F8_S0,			
+										 - 	 - 	 - 	F8_S1,F9_S0,F9_S1			
+										TYCO ELECTRONICS	MICROSMD110F	Deplete Stock	 - 			
+										BEL FUSE	0ZCH0110FF	In Process - Qual	 - 			
+										LITTELFUSE	MICROSMD110F	Qualified	 - 			
+21-1353-01	213	FILTER,2A,10V,0.02Ohm DCR,SM,0805,20%,1.0uF	A	 - 	="-"&"A0"	1	Push	Y	Y	TDK	YFF21PC1A105MT000N	Qualified	FL1	N	N
+										TDK	CKD510JB1A105S	Deplete Stock	 - 			
+										MURATA	NFM21PC105B1A3	Qualified	 - 			
+24-100524-01	214	INDUCT,FERR,150 nH,10%,67A rated current ,DCR 0.18 mOhm +/-5%,SM2,Pb-FREE,I-TEMP (0 to 125'C)	A	N/A	="-"&"B0"	11	Push	N	N	PULSE	PA3784.151HL	Qualified	L1_91_5,L1_91_RTV1,	Y	Y
+										MAG LAYERS	MSI-100808-R15K-LCS-RU	Qualified	L1_91_RTV2,L1_92_5,			
+										TDK	VLB10080HT-R15K	Qualified	L1_93_5,L1_94_5,L1_95_5,			
+										MAG LAYERS	MSI-100808-R15K-ICS-RU	Disqualified	L1_96_5,L1_98_5,			
+										 - 	 - 	 - 	L1_98_RTV1,L1_98_RTV2			
+										MAG LAYERS	MSI-100808-R15K-ICS-RU	Disqualified	 - 			
+										MAG LAYERS	MSI-100808-R15K-LCS-RU	Qualified	 - 			
+										TDK	VLB10080HT-R15K	Qualified	 - 			
+24-101325-01	215	INDUCT,PWR,IRON/ALLOY POWDER CORE,0.47 uH,20.0 %,0.0033 ohms DCRmax,SM,2 P,20.0 A SAT,86.0 MHz,YES-SHIELDING,0.1 MHz TEST,-40 to 125 C	S	N/A	="-"&"B0"	1	Push	N	Y	ETRONIC TEAM CO LTD	SPIM0603BS-R47MA-1	In Process - Qual	L1_1V2S	Y	Y
+										MAG LAYERS	MMD-06CZIR47M-X1C-RU	Qualified	 - 			
+24-101326-01	216	INDUCT,PWR,IRON/ALLOY POWDER CORE,1.5 uH,20.0 %,0.0062 ohms DCRmax,SM,2 P,16.0 A SAT,37.0 MHz,YES-SHIELDING,0.1 MHz TEST,-40 to 125 C	S	N/A	="-"&"B0"	1	Push	N	Y	MAG LAYERS	MMD-06EZN1R5M-M1C-RU	Qualified	L9_3V3	Y	Y
+										ETRONIC TEAM CO LTD	SPIM0605BS-1R5MA-1	In Process - Qual	 - 			
+24-101327-01	217	INDUCT,PWR,IRON/ALLOY POWDER CORE,4.7 uH,20.0 %,0.021 ohms DCRmax,SM,2 P,12.0 A SAT,SRF 15 MHz,YES-SHIELDING,0.1 MHz TEST,-40 to 125 C	S	N/A	="-"&"C0"	1	Push	N	Y	MAG LAYERS	MMD-06EZE4R7M-M1C-RU	Qualified	L8_5V	Y	Y
+										ETRONIC TEAM CO LTD	SPIM0605BS-4R7MA-21M	In Process - Qual	 - 			
+24-2388-01	218	INDUCT,FERR,1.0uH,20%,SM,1210,DCR<.07ohms	A	 - 	="-"&"A0"	5	Push	Y	N	E&E MAGNETIC PRODUCTS LIMITED	831-02640F	Qualified	L10,L115,L26,L28,L3	N	N
+										TDK	NLCV32T-1R0M-PF	End of Production	 - 			
+										MURATA	LQH32CN1R0M33L	Qualified	 - 			
+24-2567-01	219	INDUCT,PWR,1uH,20%,2ADC,SM,1210,(0.058ohmDCR MAX),Pb-FREE	S	N/A	="-"&"A0"	18	Push	N	N	MAG LAYERS	MSCH-3225C-1R0M-MCS-RU	Qualified	L1_Q0,L1_Q1,L1_Q2,L2_Q0,	N	N
+										DELTA	SIH42-1R0APF	End of Production	L2_Q1,L2_Q2,L3_Q0,L3_Q1,			
+										COILCRAFT	ME3220-102ML	Qualified	L3_Q2,L4_Q0,L4_Q1,L4_Q2,			
+										E&E MAGNETIC PRODUCTS LIMITED	831-03245F	Qualified	L5_Q0,L5_Q1,L5_Q2,L6_Q0,			
+										 - 	 - 	 - 	L6_Q1,L6_Q2			
+										DELTA	SIH42-1R0APF	End of Production	 - 			
+										COILCRAFT	ME3220-102ML	Qualified	 - 			
+										E&E MAGNETIC PRODUCTS LIMITED	831-03245F	Qualified	 - 			
+24-2950-01	220	INDUCT,PWR,0.5UH,20%,28.1A,SM,2829(2.4mOHM DCR MAX)	A	N/A	="-"&"B0"	2	Push	N	N	MAG LAYERS	MHD-07EZPR50M-XCC-RU	Qualified	L1_SF0,L1_SF1	N	Y
+										ETRONIC TEAM CO LTD	SPI0705-R50M-SN	Disqualified	 - 			
+										COILCRAFT	XCL7050-501MEC	Qualified	 - 			
+24-2953-01	221	INDUCT,PWR,1.5UH,20%,18.8A,SM,2829(6.6mOHM DCR MAX)	A	N/A	="-"&"B0"	1	Push	N	N	COILCRAFT	XCL7050-152MEC	Qualified	L4_A	N	Y
+										ETRONIC TEAM CO LTD	SPI0706-1R5M-SN	Disqualified	 - 			
+										MAG LAYERS	MHD-07EZP1R5M-XCC-RU	Qualified	 - 			
+24-3062-01	222	INDUCT,PWR,4.7uH,20%,Ir 6.5A,25mOhm DCR MAX,SM2,CORROSION-PROOF,PB-FREE	A	N/A	="-"&"B0"	6	Push	N	N	ETRONIC TEAM CO LTD	SPIM0604FS-4R7MA	Cancelled	L1_6,L1_A,L2_6,L2_A,L439,	Y	Y
+										ETRONIC TEAM CO LTD	SPIM0604FS-4R7MA-1	Qualified	L8			
+										PULSE	PA5404.472NL	Cancelled	 - 			
+										DELTA	MPT750-4R7H1CS	End of Production	 - 			
+										E&E MAGNETIC PRODUCTS LIMITED	831-03564F	Qualified	 - 			
+										ETRONIC TEAM CO LTD	SPIM0604FS-4R7MA-1	Qualified	 - 			
+										MAG LAYERS	MMD-06EZ-4R7M-D2C-RU	Qualified	 - 			
+25-100290-01	223	LED, SING, G, WATER CLEAR, 2.1V, SM,  20MA, 0.075W, 574NM, -40C, 85C, 60°-2?1/2, SAVBU ONLY	A	N/A	="-"&"A0"	2	Push	N	N	LITE-ON	LTST-C191KGKT-CS1	Qualified	CR108,CR2	N	N
+										EVERLIGHT	EAST3015GA4	Cancelled	 - 			
+										KINGBRIGHT	APTD1608CGCK	Qualified	 - 			
+25-100298-01	224	LED,1.6mm D,ST,SING,G,water clear,SM,5.0 mA,-40 to 85 C	A	N/A	="-"&"A3"	2	Push	N	N	HARVATEK CORPORATION	B1911UYG-05D-001114	Qualified	P12V,P5V	N	N
+										EVERLIGHT	19-213/GVC-BH2K1LY/3T	Cancelled	 - 			
+										LITE-ON	LTST-C191KGKT-CS	Qualified	 - 			
+25-1188-01	225	LED,SING,RA,SM,B,SBRI,2.1X.6mm	A	 - 	="-"&"A0"	1	Push	N	N	KINGBRIGHT	APA2106-CC52	Qualified	CR101	N	N
+										EVERLIGHT	12-115/BHC-AN1P2/3C	Cancelled	 - 			
+										EVERLIGHT	12-215/B3C-AM1P2N/3C	Cancelled	 - 			
+										LITE-ON	LTST-S221TBKT	Cancelled	 - 			
+										KINGBRIGHT	APA2106PBC/A	Deplete Stock	 - 			
+										EVERLIGHT	12-215/BHC-AP1Q2/3C	Qualified	 - 			
+										LITE-ON	LTST-S221TBKT-CS	Qualified	 - 			
+25-1282-01	226	LED,1.6*0.8mm,ST,SING,Nres,R,I-TEMP (-40 to 85'C)"	A	N/A	="-"&"A1"	15	Push	N	N	LITE-ON	LTST-C190KRKT	Cancelled	CR13,CR14,CR16,CR17,CR18,	N	N
+										KINGBRIGHT	APT1608SURCK-AMT	Qualified	CR19,CR22,CR25,CR28,CR29,			
+										LITE-ON	LTST-C190KRKT	Cancelled	CR30,CR31,CR32,CR33,CR4			
+										EVERLIGHT	19-21/R6C-AP1Q2/3T(CIS)	Qualified	 - 			
+										KINGBRIGHT	APT1608SURCK-AMT	Qualified	 - 			
+										LITE-ON	LTST-C190KRKT-CS	Qualified	 - 			
+25-1289-01	227	LED,BICO,Y-G,SM,20mA,I-TEMP,-40 to 85'C,0606,NRES,TIGHTER BIN minimum 34mcd,Pb-FREE	A	N/A	="-"&"A0"	54	Push	N	N	EVERLIGHT	19-223/Y2G6C-A32/2T	Qualified	P0_S0,P0_S1,P10_S0,	N	N
+										EVERLIGHT	19-223/Y2G6C-A32/2T	Qualified	P10_S1,P11_S0,P11_S1,			
+										HARVATEK CORPORATION	HT-264UYUYG-6681	Qualified	P12_S0,P12_S1,P13_S0,			
+										LITE-ON	LTST-C197KGKSKTCS2	Qualified	P13_S1,P14_S0,P14_S1,			
+										 - 	 - 	 - 	P15_S0,P15_S1,P16_S0,			
+										 - 	 - 	 - 	P16_S1,P17_S0,P17_S1,			
+										 - 	 - 	 - 	P18_S0,P18_S1,P19_S0,			
+										 - 	 - 	 - 	P19_S1,P1_Q0,P1_Q1,P1_Q2,			
+										 - 	 - 	 - 	P1_S0,P1_S1,P20_S0,			
+										 - 	 - 	 - 	P20_S1,P21_S0,P21_S1,			
+										 - 	 - 	 - 	P22_S0,P22_S1,P23_S0,			
+										 - 	 - 	 - 	P23_S1,P2_Q0,P2_Q1,P2_Q2,			
+										 - 	 - 	 - 	P2_S0,P2_S1,P3_S0,P3_S1,			
+										 - 	 - 	 - 	P4_S0,P4_S1,P5_S0,P5_S1,			
+										 - 	 - 	 - 	P6_S0,P6_S1,P7_S0,P7_S1,			
+										 - 	 - 	 - 	P8_S0,P8_S1,P9_S0,P9_S1			
+										HARVATEK CORPORATION	HT-264UYUYG-6681	Qualified	 - 			
+										KINGBRIGHT	APTB1615-F01-CC34	Qualified	 - 			
+										LITE-ON	LTST-C197KGKSKTCS2	Qualified	 - 			
+25-1295-01	228	LED,RA,SING,BICO,R-G,SM,I-TEMP (-40 to 85'C),3.00mm x 1.00mm x 2.00mm	A	2	="-"&"A0"	5	Push	N	N	EVERLIGHT	12-22/G6R8C-A30/2C	Obsolete	CR10,CR11,CR5,CR6,CR7	N	N
+										EVERLIGHT	12-22/G6R8C-A30/2C(CIS)	Qualified	 - 			
+										LITE-ON	LTST-S326KRKGKT-CS	Qualified	 - 			
+27-0839-02	229	HDR,ST,2R,10P,0.100"C,SM,Pb-FREE	A	1	="-"&"A0"	1	Push	N	N	SAMTEC	TSM-105-01-S-DV-P-TR	Qualified	P5	N	N
+										TYCO ELECTRONICS	5-147279-2	Obsolete	 - 			
+										FCI	54202-G0805ALF	Qualified	 - 			
+										TE CONNECTIVITY CORP	5-147279-2	Qualified	 - 			
+28-102746-01	231	PCBFAB, OSP, 18L, 115mil, SUPERFUZZ-AC, TOR, Data board	A	2	="-"&"03"	1	Push	Y	Y	TTM TECH TRADING ASIA LTD	28-102746-01	In Process - Qual	 - 	Y	N
+										WUS PRINTED CIRCUIT	28-102746-01	In Process - Qual	 - 			
+29-100622-01	232	CON,BTB,BERGSTAK,R,ST,SMT-NON-BGA,2 R,60 P,0.8mm C,3.7 Hx6.0 Wx29.8 Lmm	N/A	N/A	="-"&"A0"	1	Push	N	N	FCI	61082-061602LF	Qualified	J7	N	N
+29-100692-01	233	CON,ZSFP+,R,RA,PF,2 R,480 P,0.8mm Cx171.85 Wx63.25 Lmm, 2X12 STACKED,VENTED W INNER /LIGHT PIPES.	A	N/A	="-"&"A0"	2	Push	Y	N	AMPHENOL	UE86-3GC620-2036	Cancelled	SFP_S0,SFP_S1	Y	Y
+										TE CONNECTIVITY CORP	2-2227838-9	Cancelled	 - 			
+										TYCO ELECTRONICS	2227838-7	Cancelled	 - 			
+										AMPHENOL	UE86-3GC620-H036	Deplete Stock	 - 			
+										TYCO ELECTRONICS	2227838-9	Obsolete	 - 			
+										AMPHENOL	UE86-3GC620-H0361	Qualified	 - 			
+										MOLEX	171224-1231	Qualified	 - 			
+										TE CONNECTIVITY CORP	2227838-9	Qualified	 - 			
+29-101417-01	234	CON,ZQSFP+,R,RA,2R,76P,2X1,STACKED,W/EMI SPRING FINGER,C-TEMP,0 to 70'C	A	N/A	="-"&"A0"	3	Push	Y	N	AMPHENOL	U95-R1G5-4081-L40-A	Qualified	QSFP_Q0,QSFP_Q1,QSFP_Q2	Y	Y
+										MOLEX	171722-7812	Cancelled	 - 			
+										TYCO ELECTRONICS	2170656-2	Cancelled	 - 			
+										TYCO ELECTRONICS	2307998-2	Cancelled	 - 			
+										AMPHENOL	U95-R1G5-4081-L40	Deplete Stock	 - 			
+										MOLEX	171722-8802	Deplete Stock	 - 			
+										MOLEX	171722-7802	Deplete Stock	 - 			
+										TE CONNECTIVITY CORP	2307998-2	Disqualified	 - 			
+										AMPHENOL	U95-R1G5-S081-L40-A	In Process - Qual	 - 			
+										MOLEX	171722-8812	Qualified	 - 			
+										TE CONNECTIVITY CORP	1-2307998-2	Qualified	 - 			
+29-101740-01	235	CON,PWR,EXTreme LPH Power,R,RA,TH,4 P,2.0x18.6 Wx31.01 L,30.0 A,250.0 V	A	2	="-"&"A0"	1	Push	N	N	MOLEX	45984-4924	Qualified	J1	N	N
+29-101743-01	236	CON,Airmax VS2,P,RA,PF,9 R,48 P,1.4mm Cx17.9 Wx29.65 Lmm,24 GP,HDR,3 PAIR,8COL	A	2	="-"&"A0"	1	Push	N	N	FCI	10124755-101LF	In Process - Qual	P4	N	N
+										FCI	10136590-101LF	Qualified	 - 			
+29-2327-02	237	CON,P,ST,1R,3P,0.100"C,w/LATCH,Pb-FREE,SHRD	A	 - 	="-"&"A0"	1	Push	Y	N	MOLEX	70543-0107	Qualified	P3	N	N
+29-7786-01	238	CON RF,SMA,R,RA,50Ohm,JACK,A-TEMP,-40'C to 125'C	A	N/A	="-"&"A0"	1	Push	Y	N	MOLEX	73251-2201	Cancelled	J19	Y	Y
+										MOLEX	73251-5920	Qualified	 - 			
+36-0148-02	239	FERRITE,SHLD,600Ohm@100MHz,210mA,0.45Ohms DCR Max,0603,Pb-FREE	A	N/A	="-"&"A0"	4	Push	N	N	TDK	MMZ1608S601A	Qualified	L14,L15,L16,L39	N	N
+										G-MAG	MCB1608S601F-SN-02	Cancelled	 - 			
+										ETRONIC TEAM CO LTD	MCB1608S601F-SN-02	Qualified	 - 			
+36-0152-02	240	FERRITE,BEAD,220Ohm@100MHz,2.0A,0.05Ohms DCR Max,SM,0805,Industrial temp,Pb-FREE	A	N/A	="-"&"A0"	96	Push	N	N	MURATA	BLM21PG221SN1D	Qualified	L11_S0,L11_S1,L12_S0,	N	N
+										G-MAG	MHC2012S221PQ-SN-02	End of Production	L12_S1,L13_S0,L13_S1,			
+										ETRONIC TEAM CO LTD	MHC2012S221PQ-SN-02	Qualified	L14_S0,L14_S1,L15_S0,			
+										MURATA	BLM21PG221SN1D	Qualified	L15_S1,L16_S0,L16_S1,			
+										LAIRD TECHNOLOGIES	MI0805M221R-10	Qualified	L18_S0,L18_S1,L19_S0,			
+										 - 	 - 	 - 	L19_S1,L1_S0,L1_S1,			
+										 - 	 - 	 - 	L20_S0,L20_S1,L23_S0,			
+										 - 	 - 	 - 	L23_S1,L24_S0,L24_S1,			
+										 - 	 - 	 - 	L25_S0,L25_S1,L28_S0,			
+										 - 	 - 	 - 	L28_S1,L29_S0,L29_S1,			
+										 - 	 - 	 - 	L2_S0,L2_S1,L30_S0,			
+										 - 	 - 	 - 	L30_S1,L33_S0,L33_S1,			
+										 - 	 - 	 - 	L34_S0,L34_S1,L35_S0,			
+										 - 	 - 	 - 	L35_S1,L38_S0,L38_S1,			
+										 - 	 - 	 - 	L39_S0,L39_S1,L3_S0,			
+										 - 	 - 	 - 	L3_S1,L40_S0,L40_S1,			
+										 - 	 - 	 - 	L43_S0,L43_S1,L44_S0,			
+										 - 	 - 	 - 	L44_S1,L45_S0,L45_S1,			
+										 - 	 - 	 - 	L48_S0,L48_S1,L49_S0,			
+										 - 	 - 	 - 	L49_S1,L4_S0,L4_S1,			
+										 - 	 - 	 - 	L51_S0,L51_S1,L52_S0,			
+										 - 	 - 	 - 	L52_S1,L53_S0,L53_S1,			
+										 - 	 - 	 - 	L54_S0,L54_S1,L55_S0,			
+										 - 	 - 	 - 	L55_S1,L56_S0,L56_S1,			
+										 - 	 - 	 - 	L57_S0,L57_S1,L58_S0,			
+										 - 	 - 	 - 	L58_S1,L66_S0,L66_S1,			
+										 - 	 - 	 - 	L67_S0,L67_S1,L68_S0,			
+										 - 	 - 	 - 	L68_S1,L69_S0,L69_S1,			
+										 - 	 - 	 - 	L70_S0,L70_S1,L71_S0,			
+										 - 	 - 	 - 	L71_S1,L72_S0,L72_S1,			
+										 - 	 - 	 - 	L7_S0,L7_S1,L8_S0,L8_S1,			
+										 - 	 - 	 - 	L9_S0,L9_S1			
+										STEWARD	MI0805M221R-10	Deplete Stock	 - 			
+										G-MAG	MHC2012S221PQ-SN-02	End of Production	 - 			
+										ETRONIC TEAM CO LTD	MHC2012S221PQ-SN-02	Qualified	 - 			
+										LAIRD TECHNOLOGIES	MI0805M221R-10	Qualified	 - 			
+36-0207-01	241	FERRITE,BEAD,600Ohm@100MHz,1.5A,0.1Ohms DCR MAX,SM,0805,?40 to +125°C	A	N/A	="-"&"B0"	2	Push	N	N	STEWARD	MI0805K601R-10	End of Production	L19,L66	N	N
+										STEWARD	MI0805K601R-00	Cancelled	 - 			
+										ETRONIC TEAM CO LTD	MHC2012S601N-SN-02	Qualified	 - 			
+										LAIRD TECHNOLOGIES	MI0805K601R-10	Qualified	 - 			
+										TDK	MPZ2012S601A	Qualified	 - 			
+36-0212-01	242	FERRITE,BEAD,56Ohm@100MHz,10A,0.004Ohms DCR,SM,1612	S	N/A	="-"&"A0"	18	Push	N	N	STEWARD	DM1612X560R-00	End of Production	L3_RT1_2,L3_RT3_4,	N	N
+										LAIRD TECHNOLOGIES	DM1612X560R-10	Qualified	L3_RT5_6,L3_RT7_8,L3_RT9,			
+										STEWARD	DM1612X560R-00	End of Production	L5_RT1_2,L5_RT3_4,			
+										ETRONIC TEAM CO LTD	MHC4030S560ZA	Qualified	L5_RT5_6,L5_RT7_8,L5_RT9,			
+										 - 	 - 	 - 	L6_RT1_2,L6_RT3_4,			
+										 - 	 - 	 - 	L6_RT5_6,L6_RT7_8,			
+										 - 	 - 	 - 	L7_RT1_2,L7_RT3_4,			
+										 - 	 - 	 - 	L7_RT5_6,L7_RT7_8			
+										STEWARD	DM1612X560R-10	End of Production	 - 			
+										ETRONIC TEAM CO LTD	MHC4030S560ZA	Qualified	 - 			
+										LAIRD TECHNOLOGIES	DM1612X560R-10	Qualified	 - 			
+36-0265-01	243	FERRITE,BEAD,600Ohm@100MHz,500mA,0.35Ohms DCR Max,SM,0603,Pb-FREE	A	N/A	="-"&"A0"	8	Push	N	N	MAG LAYERS	GMLB-160808-0600WP-N8-RU	In Process - Qual	L25,L33,L34,L35,L36,L37,	N	N
+										LAIRD TECHNOLOGIES	HZ0603E601R-11	In Process - Qual	L38,L60			
+										LAIRD TECHNOLOGIES	HZ0603E601R-11	In Process - Qual	 - 			
+										MURATA	BLM18EG601SN1D	Qualified	 - 			
+										TDK	MMZ1608Y601CTAH0	Qualified	 - 			
+36-0300-01	244	ACQ,FERRITE,BEAD,26Ohm@100MHz,6A,SM,0603,STARENT USE ONLY, NO EXCEPTIONS	A	N/A	="-"&"A0"	4	Push	N	N	MURATA	BLM18SG260TN1	Qualified	L1_3,L2_3,L5_3,L7_3	Y	N
+36-0307-01	245	FERRITE,BEAD,330Ohm@100MHz,1.5A,0.08Ohms DCR Max,SM,0603,Pb-FREE	A	N/A	="-"&"A0"	10	Push	N	N	MURATA	BLM18SG331TN1D	Qualified	L1,L11,L12,L13,L2,L5,L6,	Y	N
+										TDK	MPZ1608S331A	Qualified	L68,L7,L9			
+										TDK	MPZ1608S331A	Qualified	 - 			
+36-100166-01	246	FERRITE,BEAD,120 Ohms@100MHz,25%,6.0 A,0.011 Ohms DCR Max,SM,2 P,1206,-55 to 125 C	A	N/A	="-"&"A0"	6	Push	N	N	MURATA	BLM31KN121SN1L	Qualified	L26_3,L28_3,L29_3,L3_3,	N	N
+										MURATA	BLM31KN121SN1L	Qualified	L4_3,L8_3			
+										LAIRD TECHNOLOGIES	HI1206T121R-11	Qualified	 - 			
+471-100281-01	247	LBL,ESTG, 2 - 1 LABEL , PCBA + SN + BARCODES, 1.1 x .33 in, POLYMIDE	N/A	N/A	="-"&"A0"	1	Push	N	N	CCL DESIGN ELECTRONICS	471-100281-01	Qualified	AN1	N	N
+										WORLDMARK	471-100281-01	Deplete Stock	 - 			
+										CYMMETRIK	471-100281-01	Qualified	 - 			
+.95-105699-01	1	SPEC,ESTG, 2 - 1 LABEL , PCBA + SN + BARCODES, 1.1 x .33 in, POLYMIDE	 - 	 - 	="-"&"A0"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+50-100860-01	248	STDF,RND,5.56mmD,M3x0.5,6mmH,CSwMatte Sn,F/F,SMT	N/A	N/A	="-"&"A0"	2	Push	Y	N	HARDWARE SPECIALTY COMP.	924284 REV A	Qualified	H2,H3	N	N
+										PEM	SMTSO-M3-6ET	Qualified	 - 			
+60-105172-01	250	N9K, Superfuzz-AC, Data board	 - 	 - 	="-"&"03"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+61-106060-01	252	PCAMAP, N9K, TOR, SUPERFUZZ-AC	 - 	 - 	="-"&"03"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+700-26993-01	253	FABHSNK,0.75inSQx0.7inH,8 FIN,AL,w/o TIM	N/A	N/A	="-"&"B1"	9	Push	N	N	JAN MAO INDUSTRIES CO LTD.	700-26993-01	Obsolete	U1_RT1_2A,U1_RT3_4A,	N	N
+										VETTE	700-26993-01	In Process - Qual	U1_RT5_6A,U1_RT7_8A,			
+										COOLER MASTER	700-26993-01	Qualified	U1_RT9A,U2_RT1_2A,			
+										CHAUN CHOUNG TECHNOLOGY	700-26993-01	Qualified	U2_RT3_4A,U2_RT5_6A,			
+										 - 	 - 	 - 	U2_RT7_8A			
+										VETTE	700-26993-01	In Process - Qual	 - 			
+										CHAUN CHOUNG TECHNOLOGY	700-26993-01	Qualified	 - 			
+										COOLER MASTER	700-26993-01	Qualified	 - 			
+.95-7118-01	100	SPEC, HEATSINK, ALUMINUM, MECH ACCEPTANCE	 - 	 - 	="-"&"H0"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+73-102884-01	254	PCA,TPS7A5201 INTERPOSER MODULE, RAISIN-1P8V-2A	A	2	="-"&"03"	2	Phantom	N	Y	FOXCONN	73-102884-01	In Process - Qual	U3,U87	Y	N
+.11-101287-01	2	CAP,CE,1.0uF,6.3 V,20%,X5R,SM,0201in,0.35mmH,-55 to 85 C	A	N/A	="-"&"A0"	1	Push	N	N	SAMSUNG ELECTRO-MECHANICS	CL03A105MQ3CSWC	Qualified	C2	N	N
+										YAGEO	IC0201M_X5R5BB105	End of Production	 - 			
+										YAGEO	CC0201M_X5R5BB105	End of Production	 - 			
+										MURATA	GRM033R60J105MEA2	Qualified	 - 			
+										TAIYO YUDEN	JMK063ABJ105MP-F	Qualified	 - 			
+.12-102252-01	3	RES,TKF,8.25k ohm,0.05W,1.0%,SM0201in,0.26mmH,200.0ppm	A	N/A	="-"&"02"	1	Push	N	N	KOA	RK73H1HT8251F	In Process - Qual	R1	N	N
+										KOA	RK73H1HT8252F	Cancelled	 - 			
+										VISHAY INTERTECHNOLOGY	CRCW02018K25FNE	In Process - Qual	 - 			
+										WALSIN TECHNOLOGY	WR02X8251FL	In Process - Qual	 - 			
+										YAGEO	RC0201F-8K25L	In Process - Qual	 - 			
+.12-102253-01	0	RES,TKF,6.49k ohm,0.05W,1.0%,SM0201in,0.26mmH,200.0ppm	A	N/A	="-"&"02"	1	Push	N	N	VISHAY INTERTECHNOLOGY	CRCW02016K49FNE	In Process - Qual	R2	N	N
+										KOA	RK73H1HT6492F	Cancelled	 - 			
+										KOA	RK73H1HT6491F	In Process - Qual	 - 			
+										WALSIN TECHNOLOGY	WR02X6491FL	In Process - Qual	 - 			
+										YAGEO	RC0201F-6K49L	In Process - Qual	 - 			
+.15-104297-01	1	IC-LIN,VREG,LDO,VQFN,20 P,3.5x3.5mm PKGSIZE,0.5mm PITCH,6.5 V IN,5.2 V OUT,2.0 A,-40 to 125 C	A	1	="-"&"A0"	1	Push	N	Y	TEXAS INSTRUMENTS	TPS7A5201QRGRR	Qualified	U1_T	Y	Y
+.28-102689-01	1000	PCBFAB,TPS7A5201 INTERPOSER MODULE, RAISIN	A	2	="-"&"03"	1	Push	Y	Y	TTM TECH TRADING ASIA LTD	28-102689-01	Cancelled	 - 	Y	N
+										ZHUHAI FOUNDER PCB	28-102689-01	Cancelled	 - 			
+										MEADVILLE TECHNOLOGIES	28-102689-01	In Process - Qual	 - 			
+										WUS PRINTED CIRCUIT	28-102689-01	In Process - Qual	 - 			
+.60-104882-01	1001	PCADWG, TPS7A5201 INTERPOSER MODULE, RAISIN	 - 	 - 	="-"&"03"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+.92-104888-01	1003	SCHEM, TPS7A5201 INTERPOSER MODULE, RAISIN	 - 	 - 	="-"&"01"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-
+92-105157-01	256	N9K, Superfuzz-AC, Data board	 - 	 - 	="-"&"03"	0	Bulk	N	N	 - 	 - 	 - 	 - 	-	-

@@ -1,0 +1,23 @@
+!!!!    6    0    1 1573520780  Vdf0e                                         
+!Setup Library for 17-11868-03
+warning "Setup Library Only"
+
+sequential
+
+assign PWR to pins 32,10,5
+assign GND to pins 37,8,31
+
+assign IN  to pins 12,13,16,17,19,20,21,36,22,26,25,24,1
+assign OUT to pins 35,34,28,29,18,4,3
+assign NC  to pins 15,11,27,33,30,14,9,2
+assign BIR to pins 23
+assign NON to pins 6,7
+
+family LVT
+
+power PWR, GND
+inputs IN
+outputs OUT
+nondigital NC,NON
+bidirectional BIR
+

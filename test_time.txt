@@ -1,0 +1,37 @@
+S/N:FLM264509W1\\\\\\\\\
+Preshort_test_time:  0                   sec
+Shorts_test_time:    0                   sec
+Testjet_test_time:   0                   sec
+Analog_unp_test_time:                    0                   sec
+Pre_Powered_test_time:                   0                   sec
+Pins_Long_test_time:                     0                  sec
+Setup_power_time:    0                   sec
+ACT2_Program_Status_test_time:           0                  sec
+Analog_functional_time:                  0                   sec
+Digital_test_time:   0                   sec
+BScan_Interconnect_time:                 0                   sec
+Bscan_incircuit_time:                    0                   sec
+Bscan_silicon_nail_time:                 0                   sec
+Functional_test_time:                    0                   sec
+Disconnect_Power_test_time:              0                   sec
+Total_test_time:     1673647482.63       sec
+!--------------------------------------------
+!--------------------------------------------
+S/N:FLM12345678\\\\\\\\\
+Pre_short_test_time:                     .001                sec
+Short_test_time:     0                   sec
+Testjet_test_time:   0                   sec
+Analog_unp_test_time:                    .016                sec
+Analog_Prepowered_test_time:             0                   sec
+Setup_power_test_time:                   35.378              sec
+Regulators_Programming_test_time:        0                   sec
+Disconnect_Power_test_time:              3.004               sec
+Setup_power_test_time:                   35.378              sec
+BScan_Powered_Shorts_test_time:          0                   sec
+BScan_Interconnect_test_time:            0                   sec
+Bscan_incircuit_test_time:               0                   sec
+Digital_test_time:   .001                sec
+Analog_functional_test_time:             .001                sec
+Functional_test_time:                    .142                sec
+Total_test_time:     48.63               sec
+!--------------------------------------------

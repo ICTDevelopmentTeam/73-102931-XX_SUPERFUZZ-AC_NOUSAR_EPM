@@ -1,0 +1,10 @@
+!!!!    2    0    1 1647863919   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:40 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "r147_pm" is shorted out by device "r165_pm".
+! "r147_pm" is shorted out by device "r162_pm%1_2".
+! "r147_pm" is shorted out by device "r162_pm%1_3".
+! "r147_pm" is shorted out by device "l8_3".
+! "r147_pm" is shorted out by device "l29_3".
+! "r147_pm" is shorted out by device "r218".

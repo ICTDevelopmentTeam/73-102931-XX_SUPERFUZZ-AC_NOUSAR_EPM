@@ -1,0 +1,10 @@
+!!!!    2    0    1 1684889755   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:34 2022
+disconnect all
+connect s to "GND"
+connect i to "MIFPGA_DCLK"
+connect g to "P3_3VA"
+resistor 100k, 15.00, 15.00, re6, ar100m, am.90m, ed
+!resistor 100k, 28, 28,  ar100m, re5, wa10m !JV
+!resistor 100k, 25.00, 25.00, ed, wb, ar100m, re5
+! "r577" test.

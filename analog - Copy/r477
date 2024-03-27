@@ -1,0 +1,8 @@
+!!!!    2    0    1 1576029241  V9b73                                         
+! IPG: rev 08.40p  Wed Nov 13 12:36:14 2019
+disconnect all
+connect s to "CLK_1_PPS_Y1"
+connect i to "CLK_1_PPS_DIG_OUT"
+!ORG!resistor 45.3,25.00,10.00,re1,wb,ar200m,ed,en
+resistor 45.3, 30.00, 20.00,re1,wb,ar200m,ed,en
+! "r477" test.

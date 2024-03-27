@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V6252                                         
+
+!  12-3689-01
+!  12-3689-01 RES,TKF,4.22 k ohm,0.063W,1%,
+
+resistor *, 4.22k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

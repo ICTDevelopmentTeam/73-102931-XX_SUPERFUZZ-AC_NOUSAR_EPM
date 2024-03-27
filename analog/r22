@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863907   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:28 2022
+disconnect all
+connect i to "AC_CLK25M_MI0_SYNC_E_REFCLK_N"
+connect s to "P3_3VA"
+jumper 10.0k, re4, wb, ar100m, op
+! "r22" test.

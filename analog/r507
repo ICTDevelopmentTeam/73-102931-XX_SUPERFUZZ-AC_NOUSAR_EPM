@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863941   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:02 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "AC_CLK103M_DAV_SNDN1_CORE_REFCLK_P"
+jumper 10.0k, re4, wb, ar100m, op
+! "r507" test.

@@ -1,0 +1,3951 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XML files gathered 2023-02-27 12:37:07.929 -->
+<TestList name="Digital">
+
+<Test name = "u10">
+<FileList>
+<File name = "u10">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u10</FilePath>
+<LastModified>Thu May 12, 2022   4:12 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u10">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u103">
+<FileList>
+<File name = "u103">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u103</FilePath>
+<LastModified>Thu May 12, 2022   2:52 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u103">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u106">
+<FileList>
+<File name = "u106">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u106</FilePath>
+<LastModified>Thu May 12, 2022   2:52 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u106">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u107">
+<FileList>
+<File name = "u107">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u107</FilePath>
+<LastModified>Thu May 12, 2022   2:53 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u107">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u108">
+<FileList>
+<File name = "u108">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u108</FilePath>
+<LastModified>Thu May 12, 2022   2:54 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u108">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u115">
+<FileList>
+<File name = "u115">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u115</FilePath>
+<LastModified>Thu May 12, 2022   2:55 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u115">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u116">
+<FileList>
+<File name = "u116">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u116</FilePath>
+<LastModified>Thu May 12, 2022   2:55 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u116">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u12">
+<FileList>
+<File name = "u12">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/digital/u12</FilePath>
+<LastModified>Fri Nov 18, 2022  12:53 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u12">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u13">
+<FileList>
+<File name = "u13">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u13</FilePath>
+<LastModified>Wed Mar 30, 2022  10:57 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u13">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u138">
+<FileList>
+<File name = "u138">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u138</FilePath>
+<LastModified>Sun Aug  1, 2021  11:15 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u138">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u13_pm">
+<FileList>
+<File name = "u13_pm">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u13_pm</FilePath>
+<LastModified>Tue May 17, 2022   2:06 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u13_pm">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u14">
+<FileList>
+<File name = "u14">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u14</FilePath>
+<LastModified>Fri May 13, 2022   2:19 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u14">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u15_5v">
+<FileList>
+<File name = "u15_5v">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u15_5v</FilePath>
+<LastModified>Thu May 12, 2022  10:45 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u15_5v">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u15_5v_prog_ver">
+<FileList>
+<File name = "u15_5v_prog_ver">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/programming/u15_5v_prog_ver</FilePath>
+<LastModified>Wed Jan  4, 2023  12:01 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u15_5v">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u16_3v3">
+<FileList>
+<File name = "u16_3v3">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u16_3v3</FilePath>
+<LastModified>Thu May 12, 2022  10:47 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u16_3v3">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u16_3v3_prog_ver">
+<FileList>
+<File name = "u16_3v3_prog_ver">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/programming/u16_3v3_prog_ver</FilePath>
+<LastModified>Wed Jan  4, 2023  12:02 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u16_3v3">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u17">
+<FileList>
+<File name = "u17">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u17</FilePath>
+<LastModified>Thu Mar 31, 2022   9:07 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u17">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u19">
+<FileList>
+<File name = "u19">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u19</FilePath>
+<LastModified>Sun Aug  1, 2021  11:12 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u19">
+<TestablePinList>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_1v2s">
+<FileList>
+<File name = "u1_1v2s">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_1v2s</FilePath>
+<LastModified>Thu May 12, 2022  10:07 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_1v2s">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_1v2s_prog_ver">
+<FileList>
+<File name = "u1_1v2s_prog_ver">
+<FilePath>C:/Agilent_ICT/NPI/PK/Superfuzz_AC_73-102931_01_A0/programming/u1_1v2s_prog_ver</FilePath>
+<LastModified>Mon Jun 27, 2022   3:36 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_1v2s">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_3_connect">
+<FileList>
+<File name = "u1_3_connect">
+<FilePath>C:/Agilent_ICT/npi/0425/Superfuzz_AC_73-102898_01/digital/u1_3_connect.vcl</FilePath>
+<LastModified>Wed Apr 27, 2022   2:32 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_3_connect_a">
+<FileList>
+<File name = "u1_3_connect_a">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_3_connect_a.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:35 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_3_connect_b">
+<FileList>
+<File name = "u1_3_connect_b">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_3_connect_b.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:35 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_5">
+<FileList>
+<File name = "u1_5">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_5</FilePath>
+<LastModified>Thu May 12, 2022  10:19 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_5">
+<TestablePinList>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="34">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_q0">
+<FileList>
+<File name = "u1_q0">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/mixed/u1_q0/digital</FilePath>
+<LastModified>Wed May 11, 2022   1:52 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_q0">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_q1">
+<FileList>
+<File name = "u1_q1">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/mixed/u1_q1/digital</FilePath>
+<LastModified>Wed May 11, 2022   1:54 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_q1">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_q2">
+<FileList>
+<File name = "u1_q2">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/mixed/u1_q2/digital</FilePath>
+<LastModified>Wed May 11, 2022   2:00 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_q2">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_rt1_2_connect">
+<FileList>
+<File name = "u1_rt1_2_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rt1_2_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_rt3_4_connect">
+<FileList>
+<File name = "u1_rt3_4_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rt3_4_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_rt5_6_connect">
+<FileList>
+<File name = "u1_rt5_6_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rt5_6_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_rt7_8_connect">
+<FileList>
+<File name = "u1_rt7_8_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rt7_8_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_rt9_connect">
+<FileList>
+<File name = "u1_rt9_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rt9_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:35 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u1_rtv1">
+<FileList>
+<File name = "u1_rtv1">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rtv1</FilePath>
+<LastModified>Thu May 12, 2022  10:38 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_rtv1">
+<TestablePinList>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="34">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+<Device name="u1_rtv2">
+<TestablePinList>
+<Pin name="34">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_rtv2">
+<FileList>
+<File name = "u1_rtv2">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_rtv2</FilePath>
+<LastModified>Thu May 12, 2022  10:39 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_rtv1">
+<TestablePinList>
+<Pin name="34">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+<Device name="u1_rtv2">
+<TestablePinList>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="34">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_sf0">
+<FileList>
+<File name = "u1_sf0">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_sf0</FilePath>
+<LastModified>Thu May 12, 2022  10:42 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_sf0">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_sf0_prog_ver">
+<FileList>
+<File name = "u1_sf0_prog_ver">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/programming/u1_sf0_prog_ver</FilePath>
+<LastModified>Wed Jan  4, 2023  11:59 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_sf0">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_sf1">
+<FileList>
+<File name = "u1_sf1">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u1_sf1</FilePath>
+<LastModified>Thu May 12, 2022  10:43 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_sf1">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u1_sf1_prog_ver">
+<FileList>
+<File name = "u1_sf1_prog_ver">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/programming/u1_sf1_prog_ver</FilePath>
+<LastModified>Wed Jan  4, 2023  12:00 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u1_sf1">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u20">
+<FileList>
+<File name = "u20">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u20</FilePath>
+<LastModified>Thu May 12, 2022   2:11 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u20">
+<TestablePinList>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u21">
+<FileList>
+<File name = "u21">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC/Superfuzz_AC_73-102898_01/digital/u21</FilePath>
+<LastModified>Fri Jun 10, 2022  10:22 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u21">
+<TestablePinList>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u23">
+<FileList>
+<File name = "u23">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC/Superfuzz_AC_73-102898_01/digital/u23</FilePath>
+<LastModified>Thu Jun  9, 2022   4:14 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u23">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%capture_id">
+<FileList>
+<File name = "u24%capture_id">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u24%capture_id</FilePath>
+<LastModified>Thu Mar 31, 2022   9:56 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%dump">
+<FileList>
+<File name = "u24%dump">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/act2_q2/u24%dump</FilePath>
+<LastModified>Thu Mar 31, 2022  10:07 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%pro_p1">
+<FileList>
+<File name = "u24%pro_p1">
+<FilePath>C:/Agilent_ICT/board/Superfuzz_AC/Superfuzz_AC_73-102931_01_A0/act2_818/u24%pro_p1</FilePath>
+<LastModified>Wed Jun 29, 2022  10:58 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%pro_p2">
+<FileList>
+<File name = "u24%pro_p2">
+<FilePath>C:/Agilent_ICT/board/Superfuzz_AC/Superfuzz_AC_73-102931_01_A0/act2_818/u24%pro_p2</FilePath>
+<LastModified>Wed Jun 29, 2022  10:58 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%pro_p3">
+<FileList>
+<File name = "u24%pro_p3">
+<FilePath>C:/Agilent_ICT/board/Superfuzz_AC/Superfuzz_AC_73-102931_01_A0/act2_818/u24%pro_p3</FilePath>
+<LastModified>Wed Jun 29, 2022  10:58 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24%status_check">
+<FileList>
+<File name = "u24%status_check">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u24%status_check</FilePath>
+<LastModified>Mon May 16, 2022   4:07 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u24">
+<FileList>
+<File name = "u24">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u24</FilePath>
+<LastModified>Thu May 12, 2022  10:14 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u24">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u25">
+<FileList>
+<File name = "u25">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u25</FilePath>
+<LastModified>Thu May 12, 2022  11:18 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u25">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u26">
+<FileList>
+<File name = "u26">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u26</FilePath>
+<LastModified>Thu May 12, 2022   2:14 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u26">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u27">
+<FileList>
+<File name = "u27">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u27</FilePath>
+<LastModified>Thu May 12, 2022   2:48 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u27">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u28">
+<FileList>
+<File name = "u28">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u28</FilePath>
+<LastModified>Wed Mar 30, 2022  10:57 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u28">
+<TestablePinList>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u29_connect">
+<FileList>
+<File name = "u29_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u29_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u29_u1_3">
+<FileList>
+<File name = "u29_u1_3">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u29_u1_3.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u29_u1_3_aio">
+<FileList>
+<File name = "u29_u1_3_aio">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u29_u1_3_aio.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u29_u1_3_dis">
+<FileList>
+<File name = "u29_u1_3_dis">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u29_u1_3_dis.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:35 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u2_rt1_2_connect">
+<FileList>
+<File name = "u2_rt1_2_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u2_rt1_2_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u2_rt3_4_connect">
+<FileList>
+<File name = "u2_rt3_4_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u2_rt3_4_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u2_rt5_6_connect">
+<FileList>
+<File name = "u2_rt5_6_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u2_rt5_6_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u2_rt7_8_connect">
+<FileList>
+<File name = "u2_rt7_8_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u2_rt7_8_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:34 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u30_connect">
+<FileList>
+<File name = "u30_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u30_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u31">
+<FileList>
+<File name = "u31">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u31</FilePath>
+<LastModified>Thu May 12, 2022   2:48 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u31">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u32">
+<FileList>
+<File name = "u32">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u32</FilePath>
+<LastModified>Thu May 12, 2022   2:49 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u32">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u33">
+<FileList>
+<File name = "u33">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u33</FilePath>
+<LastModified>Tue Mar 22, 2022   4:59 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u33">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u35">
+<FileList>
+<File name = "u35">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u35</FilePath>
+<LastModified>Mon May 16, 2022   4:45 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u35">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u36">
+<FileList>
+<File name = "u36">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/digital/u36</FilePath>
+<LastModified>Fri Nov 18, 2022  12:45 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u36">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u37_connect">
+<FileList>
+<File name = "u37_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u37_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u38_connect">
+<FileList>
+<File name = "u38_connect">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u38_connect.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:33 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u3_a%digital">
+<FileList>
+<File name = "u3_a%digital">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u3_a%digital</FilePath>
+<LastModified>Thu May 12, 2022   1:34 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u3_a">
+<TestablePinList>
+<Pin name="27">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="28">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u4">
+<FileList>
+<File name = "u4">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u4</FilePath>
+<LastModified>Thu May 12, 2022  11:10 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u4">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u40">
+<FileList>
+<File name = "u40">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u40</FilePath>
+<LastModified>Tue May 17, 2022   2:22 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u40">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u41">
+<FileList>
+<File name = "u41">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u41</FilePath>
+<LastModified>Thu May 12, 2022   2:18 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u41">
+<TestablePinList>
+<Pin name="2">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u42">
+<FileList>
+<File name = "u42">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u42</FilePath>
+<LastModified>Thu May 12, 2022   2:41 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u42">
+<TestablePinList>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="22">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u43">
+<FileList>
+<File name = "u43">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u43</FilePath>
+<LastModified>Tue May 17, 2022   2:17 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u43">
+<TestablePinList>
+<Pin name="3">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="21">
+<Type>Bidir</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="22">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u45">
+<FileList>
+<File name = "u45">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u45</FilePath>
+<LastModified>Thu May 12, 2022   3:10 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u45">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u46">
+<FileList>
+<File name = "u46">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u46</FilePath>
+<LastModified>Fri May 13, 2022   2:39 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u46">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u47">
+<FileList>
+<File name = "u47">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u47</FilePath>
+<LastModified>Tue Mar 29, 2022  11:12 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u47">
+<TestablePinList>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u48">
+<FileList>
+<File name = "u48">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u48</FilePath>
+<LastModified>Thu May 12, 2022   1:48 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u48">
+<TestablePinList>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u49_u49_dis">
+<FileList>
+<File name = "u49_u49_dis">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u49_u49_dis.vcl</FilePath>
+<LastModified>Tue May 17, 2022   8:35 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+</DeviceList>
+</Test>
+<Test name = "u5">
+<FileList>
+<File name = "u5">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u5</FilePath>
+<LastModified>Wed Mar 30, 2022  10:57 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u5">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u50">
+<FileList>
+<File name = "u50">
+<FilePath>C:/Agilent_ICT/board/Superfuzz_AC/Superfuzz_AC_73-102931_01_A0/digital/u50</FilePath>
+<LastModified>Wed Jun 29, 2022   2:27 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u50">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u52">
+<FileList>
+<File name = "u52">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u52</FilePath>
+<LastModified>Tue Mar 22, 2022   4:59 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u52">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+</Pin>
+<Pin name="7">
+<Type>Bidir</Type>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u54">
+<FileList>
+<File name = "u54">
+<FilePath>C:/Agilent_ICT/boards/Superfuzz_AC_73-102898_01/digital/u54</FilePath>
+<LastModified>Mon Mar 21, 2022   8:21 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u54">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+</Pin>
+<Pin name="9">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u55">
+<FileList>
+<File name = "u55">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u55</FilePath>
+<LastModified>Thu May 12, 2022   2:29 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u55">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u56">
+<FileList>
+<File name = "u56">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u56</FilePath>
+<LastModified>Thu May 12, 2022   4:21 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u56">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="22">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="23">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u57">
+<FileList>
+<File name = "u57">
+<FilePath>C:/Agilent_ICT/boards/Superfuzz_AC_73-102931_01_B0/digital/u57</FilePath>
+<LastModified>Tue Sep 13, 2022   7:25 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u57">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u59">
+<FileList>
+<File name = "u59">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u59</FilePath>
+<LastModified>Thu May 12, 2022  11:05 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u59">
+<TestablePinList>
+<Pin name="16">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="75">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u6">
+<FileList>
+<File name = "u6">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC/Superfuzz_AC_73-102898_01/digital/u6</FilePath>
+<LastModified>Thu Jun  9, 2022   4:12 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u6">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u61">
+<FileList>
+<File name = "u61">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u61</FilePath>
+<LastModified>Thu May 12, 2022   3:10 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u61">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="8">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="17">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u63">
+<FileList>
+<File name = "u63">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u63</FilePath>
+<LastModified>Wed Mar 30, 2022  10:57 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u63">
+<TestablePinList>
+<Pin name="1">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u7">
+<FileList>
+<File name = "u7">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u7</FilePath>
+<LastModified>Thu May 12, 2022  11:15 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u7">
+<TestablePinList>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="16">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="18">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="19">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u72">
+<FileList>
+<File name = "u72">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u72</FilePath>
+<LastModified>Thu May 12, 2022  11:01 am</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u72">
+<TestablePinList>
+<Pin name="10">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u8">
+<FileList>
+<File name = "u8">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u8</FilePath>
+<LastModified>Thu May 12, 2022   4:13 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u8">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="9">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="11">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>
+<Test name = "u96">
+<FileList>
+<File name = "u96">
+<FilePath>C:/Agilent_ICT/NPI/Superfuzz_AC_73-102898_01/digital/u96</FilePath>
+<LastModified>Thu May 12, 2022   1:42 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u96">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="2">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="4">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="5">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="6">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="12">
+<Type>Output</Type>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="14">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test></TestList>

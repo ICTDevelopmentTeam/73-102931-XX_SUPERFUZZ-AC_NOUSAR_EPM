@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  Vf4d6                                         
+
+!  12-5747-01
+!  12-5747-01 RES,TKF,30.9 k ohm,0.063W,1%,
+
+resistor *, 30.9k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

@@ -1,0 +1,53 @@
+!!!!    2    0    1 1648516729  Vc510                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:09 2022
+on failure
+report parallel devices
+report "c59_5v 100u"
+report "c61_5v 100u"
+report "c62_5v 100u"
+report "c63_5v 100u"
+report "c07_91_5 1.00u"
+report "c07_91_rtv1 1.00u"
+report "c07_91_rtv2 1.00u"
+report "c07_92_5 1.00u"
+report "c07_93_5 1.00u"
+report "c07_94_5 1.00u"
+report "c07_95_5 1.00u"
+report "c07_96_5 1.00u"
+report "c07_98_5 1.00u"
+report "c07_98_rtv1 1.00u"
+report "c07_98_rtv2 1.00u"
+report "c09_91_5 1.00u"
+report "c09_91_rtv1 1.00u"
+report "c09_91_rtv2 1.00u"
+report "c09_92_5 1.00u"
+report "c09_93_5 1.00u"
+report "c09_94_5 1.00u"
+report "c09_95_5 1.00u"
+report "c09_96_5 1.00u"
+report "c09_98_5 1.00u"
+report "c09_98_rtv1 1.00u"
+report "c09_98_rtv2 1.00u"
+report "c08_91_5 220n"
+report "c08_91_rtv1 220n"
+report "c08_91_rtv2 220n"
+report "c08_92_5 220n"
+report "c08_93_5 220n"
+report "c08_94_5 220n"
+report "c08_95_5 220n"
+report "c08_96_5 220n"
+report "c08_98_5 220n"
+report "c08_98_rtv1 220n"
+report "c08_98_rtv2 220n"
+report "c218_5v 2.20n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P5V"; b to "P5V"
+connect g to "UNNAMED_7_CAP_I279_B_5"
+connect g to "UNNAMED_7_CAP_I279_B_RTV1"
+connect g to "UNNAMED_7_CAP_I279_B_RTV2"
+!B!acitor 644.422u, 30.00, 30.41, fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+capacitor 644.422u,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb,en,nocomp
+! "c221_5v" test.
+off failure

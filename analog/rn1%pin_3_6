@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519714  Vbe61                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:16 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "JTAG_TMS_HDR_3V3"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "rn1%pin_3_6" test.

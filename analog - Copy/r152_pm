@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863921   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:42 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "MON_ADDR_A1_PM"
+jumper 9.04k, re4, wb, ar100m, op
+! "r152_pm" test.

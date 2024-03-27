@@ -1,0 +1,8 @@
+!!!!    2    0    1 1676000219   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:25 2022
+disconnect all
+connect s to "PWR_P3V3_QSFP_P1_Q2"
+connect i to "FLTR_QSFP_P1_VCC_TX_Q2"
+jumper 20, re1, ar50m
+!!!jumper 5.94, re1, ar200m
+! "l1_q2" test.

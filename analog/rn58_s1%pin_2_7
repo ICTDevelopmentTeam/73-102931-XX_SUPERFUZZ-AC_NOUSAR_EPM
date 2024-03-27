@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519257  Vc8a0                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:39 2022
+disconnect all
+connect s to "FPGA_SFP_RX_RATE_SEL<33>"
+connect i to "SFP_RS0_R<9>_S1"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "rn58_s1%pin_2_7" test.

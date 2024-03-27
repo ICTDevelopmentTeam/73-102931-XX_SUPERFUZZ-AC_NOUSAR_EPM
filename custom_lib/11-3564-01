@@ -1,0 +1,13 @@
+!!!!   21    2    1 1552271950   0000                                         
+
+!#  11-3564-01
+!#  11-3564-01 CAP,CE,22uF,4V,X6S,20%,SM,080
+!#  Mon Mar 11 09:45:02 2019
+
+capacitor *, 22u, 20, 20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

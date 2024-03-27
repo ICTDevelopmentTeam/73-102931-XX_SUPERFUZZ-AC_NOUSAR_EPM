@@ -1,0 +1,37 @@
+!!!!    6    0    1 1399518066  V0f38                                         
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VCC      to pins "K9","J10","F5","E6"
+assign VCCQ     to pins "P5","P3","N4","M4","C6"
+assign GND      to pins "K8","H10","E7","G5","P6","P4","N5","N2","C4"
+
+assign DBUS     to pins "A3","A4","A5","B2","B3","B4","B5","B6"
+assign CLK      to pins "M6"
+assign CMD      to pins "M5"
+assign RST      to pins "K5"
+
+assign VDDI     to pins "C2"
+assign RFU      to pins "P10","P7","K10","K7","K6","J5","H5","G10"
+assign RFU      to pins "G3","F10","E10","E9","E8","E5","A7","A6","C5"
+assign NC       to pins "P14","A1","A2","A8","B1","B7","B8","C1","C3","D1","D2","D3"
+assign NC       to pins "A9","A10","A11","A12","A13","A14","B9","B10","B11","B12","B13","B14","C7","C8"
+assign NC       to pins "C9","C10","C11","C12","C13","C14","D4","D12","D13","D14","E1","E2","E3","E12"
+assign NC       to pins "E13","E14","F1","F2","F3","F12","F13","F14","G1","G2","G12","G13","G14","H1"
+assign NC       to pins "H2","H3","H12","H13","H14","J1","J2","J3","J12","J13","J14","K1","K2","K3"
+assign NC       to pins "K12","K13","K14","L1","L2","L3","L12","L13","L14","M1","M2","M3","M7","M8"
+assign NC       to pins "M9","M10","M11","M12","M13","M14","N1","N3","N6","N7","N8","N9","N10","N11"
+assign NC       to pins "N12","N13","N14","P1","P2","P8","P9","P11","P12","P13"
+
+power  VCC,VCCQ,GND
+inputs RFU,CLK,CMD,RST
+bidirectional DBUS
+nondigital VDDI,NC
+
+family LVT
+
+!*****************************************************************************
+!****************************Setup Only***************************************

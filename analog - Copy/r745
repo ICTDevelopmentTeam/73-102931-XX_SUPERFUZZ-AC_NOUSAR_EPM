@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521864  V344f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:31 2022
+disconnect all
+connect s to "UNNAMED_4095_RES_I464_A"
+connect i to "UNNAMED_4095_RES_I464_B"
+!B!resistor 1.78k, 15.00, 15.00, re4, wb, ar500m
+resistor 1.78k,25.0,20.0,re4,wb,ar500m
+! "r745" test.

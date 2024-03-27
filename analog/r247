@@ -1,0 +1,10 @@
+!!!!    2    0    1 1652947428  V2f98                                         
+!* Top probe [SRT_CLK_10M_ZL_SI5326_OUT] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:04:38 2022                                     
+disconnect all
+connect i to "SRT_CLK_10M_ZL_SI5326_OUT"
+connect s to "P3_3VA"
+connect g to "GND"
+!B!resistor 150, 13.33, 10.00, re3, ar1.00, wa84.6u                             
+resistor 150, 30.0, 20.00, re3, ar100m
+! "r247" test.                                                                  

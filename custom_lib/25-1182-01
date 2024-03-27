@@ -1,0 +1,15 @@
+!!!!   21    2    1 1408341822  V13d7                                         
+diode "LED1", 2.5,  1.8, nr, "25-1182-01"
+diode "LED2", 2.5,  1.8, nr, "25-1182-01"
+
+external pins 1
+   device  "LED1" pins "A"
+
+external pins 2
+   device  "LED1" pins "C"
+
+external pins 3
+   device  "LED2" pins "A"
+
+external pins 4
+   device  "LED2" pins "C"

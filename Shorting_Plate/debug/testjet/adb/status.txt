@@ -1,0 +1,16 @@
+
+
+-------------------------------------------------------------------------------
+AGILENT VECTORLESS TEST EP AUTODEBUG	Thu Feb 23, 2023 15:40:18 PM
+
+testjet
+-------------------------------------------------------------------------------
+
+Autodebugging the entire test.
+
+	Devices:                        53
+	Pins:                           1147
+	Pins iVTEP:                     0
+	Power, ground, and fixed pins: Not Reported
+	Pins commented:  303
+

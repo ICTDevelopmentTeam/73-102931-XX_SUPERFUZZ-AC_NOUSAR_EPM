@@ -1,0 +1,267 @@
+----------------------------------------
+73-102898-01_03
+Tue Mar 19 07:45:42 2024
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   140.72p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2742057D
+----------------------------------------
+73-102898-01_03
+Tue Mar 19 07:46:09 2024
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   140.91p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2742057D
+----------------------------------------
+73-102898-01_03
+Tue Mar 19 07:46:13 2024
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   141.00p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2742057D
+----------------------------------------
+73-102898-01_03
+Tue Mar 19 07:46:16 2024
+----------------------------------------
+c06_5 HAS FAILED
+11-1767-01 CAP,CE,220.0pF,50.0 V,5.0%,X7
+Measured:   141.13p
+Nominal:    220.00p
+High Limit: 297.00p
+Low Limit:  143.00p
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM2742057D
+----------------------------------------
+Shorts Report for "shorts".
+Tue Mar 19 18:37:57 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_1V2S          21713 1444
+               c6_1v2s.1
+               c7_1v2s.1
+               r6_1v2s.1
+               u1_1v2s.24
+To:   PMOD_VCC_1V2S          221133 1444
+               c8_1v2s.1
+               r6_1v2s.2
+               u1_1v2s.22
+Common Devices:
+                r6_1v2s
+                u1_1v2s
+Message is:
+Check R6_1V2S
+------End, 1 Problem Reported-----------
+S/N:FLM27150K8G
+----------------------------------------
+Shorts Report for "shorts".
+Tue Mar 19 18:38:07 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: GND                    215142  474
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   vdd_ph_2                20352  474
+               r4_91_5.1
+               u1_91_5.32
+Common Devices:
+                u1_91_5
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: vdd_ph_2                20352  480
+               r4_91_5.1
+               u1_91_5.32
+To:   VDD_BOOT_R_2            20213  480
+               c06_91_5.1
+               r4_91_5.2
+Common Devices:
+                r4_91_5
+Message is:
+Check R4_91_5
+----------------------------------------
+Open #3 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_1V2S          21713   74
+               c6_1v2s.1
+               c7_1v2s.1
+               r6_1v2s.1
+               u1_1v2s.24
+To:   PMOD_VCC_1V2S          221133   74
+               c8_1v2s.1
+               r6_1v2s.2
+               u1_1v2s.22
+Common Devices:
+                r6_1v2s
+                u1_1v2s
+Message is:
+Check R6_1V2S
+----------------------------------------
+Open #4 Thresh 24, Delay 200us      Ohms
+From:   v                    223131   52
+UNNAMED_17_RES_I375_A_S0                
+                r51_s0.1
+               sfp_s0.V4
+To:   i2c_sda_sfp<17>        214118   52
+                r51_s0.2
+               rn94_s0.3
+           rn94_s0%pin_3_6.1
+                u49.U17
+Common Devices:
+                 r51_s0
+Message is:
+Check R51_S0
+----------------------------------------
+Open #5 Thresh 24, Delay 200us      Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    208109
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PM_1
+                 r822.2
+               u1_1v2s.19
+Common Devices:
+                  r822
+Message is:
+Check R822
+------End, 5 Problems Reported----------
+S/N:FLM27150K8G
+----------------------------------------
+Shorts Report for "shorts".
+Tue Mar 19 18:38:17 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_1V2S          21713   47
+               c6_1v2s.1
+               c7_1v2s.1
+               r6_1v2s.1
+               u1_1v2s.24
+To:   PMOD_VCC_1V2S          221133   47
+               c8_1v2s.1
+               r6_1v2s.2
+               u1_1v2s.22
+Common Devices:
+                r6_1v2s
+                u1_1v2s
+Message is:
+Check R6_1V2S
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: sndn_p0v9_en           214124   26
+                r26_5.1
+                 r759.2
+                u49.B14
+To:   imon_tp_5              223125   26
+                r26_5.2
+                u1_5.20
+Common Devices:
+                 r26_5
+Message is:
+Check R26_5
+----------------------------------------
+Open #3 Thresh 24, Delay 200us      Ohms
+From: mifpga_pmbus_sda        21162   71
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    208109   71 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PM_1
+                 r822.2
+               u1_1v2s.19
+Common Devices:
+                  r822
+Message is:
+Check R822
+------End, 3 Problems Reported----------
+S/N:FLM27150K8G
+----------------------------------------
+Shorts Report for "shorts".
+Tue Mar 19 18:38:27 2024
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: PMOD_PVCC_1V2S          21713   61
+               c6_1v2s.1
+               c7_1v2s.1
+               r6_1v2s.1
+               u1_1v2s.24
+To:   PMOD_VCC_1V2S          221133   61
+               c8_1v2s.1
+               r6_1v2s.2
+               u1_1v2s.22
+Common Devices:
+                r6_1v2s
+                u1_1v2s
+Message is:
+Check R6_1V2S
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    208109
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PM_1
+                 r822.2
+               u1_1v2s.19
+Common Devices:
+                  r822
+Message is:
+Check R822
+------End, 2 Problems Reported----------
+S/N:FLM27150K8G

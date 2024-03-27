@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521965  V68ae                                         
+! IPG: rev 09.20p  Mon Mar 21 20:07:15 2022
+disconnect all
+connect s to "P3V3_SFP0"
+connect i to "SFP_RX_LOS_FPGA<0>"
+!B!resistor 2.2k, 10.00, 10.00, re4, wb, ar500m
+resistor 2.2k,25.00,20.00,re4,wb,ar500m
+! "rn33_s0%pin_2_7" test.

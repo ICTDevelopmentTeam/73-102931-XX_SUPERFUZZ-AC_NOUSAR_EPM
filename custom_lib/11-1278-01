@@ -1,0 +1,13 @@
+!!!!   21    2    1 1489746260   0000                                         
+
+!#  11-1278-01
+!#  11-1278-01 CAP,CE,1nF,50V,X7R,5%,SM,0603
+!#  Fri Mar 17 17:18:44 2017
+
+capacitor *, 1n, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

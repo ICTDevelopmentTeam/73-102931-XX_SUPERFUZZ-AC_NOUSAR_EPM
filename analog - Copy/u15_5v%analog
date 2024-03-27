@@ -1,0 +1,18 @@
+!!!!    2    0    1 1652248925  Va810                                         
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+   disconnect all
+   connect i to nodes "P5V"
+   connect l to ground
+
+   detector dcv, expect 5.0
+   measure 5.0 * 1.05, 5.0 * 0.95
+end subtest
+
+
+
+

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863904   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:25 2022
+disconnect all
+connect s to "ISEN5_5"
+connect i to "ISENRTN_5"
+jumper 10.0k, re4, wb, ar100m, op
+! "r15_5" test.

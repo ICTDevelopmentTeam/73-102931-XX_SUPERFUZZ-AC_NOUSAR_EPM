@@ -1,0 +1,9 @@
+!!!!   21    2    1 1647592081  Vedcf                                         
+
+diode "red", 2.60, 1.20, nr
+
+external pins 1
+   device "red" pins "A"
+
+external pins 2
+   device "red" pins "C"

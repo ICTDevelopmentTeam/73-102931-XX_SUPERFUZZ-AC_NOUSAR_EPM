@@ -1,0 +1,9 @@
+!!!!   21    2    1 1552306561  V5bd2                                         
+
+resistor *, 1.5k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

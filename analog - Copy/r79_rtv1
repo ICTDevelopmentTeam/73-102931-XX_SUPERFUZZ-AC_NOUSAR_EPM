@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863913   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:34 2022
+on failure
+   report parallel devices
+   report "r86_rtv1"
+end on failure
+disconnect all
+connect i to "PWR_P1V0RT1_OVR_PWR_L"
+connect s to "P3_3VA"
+jumper 5.00k, re4, wb, ar200m, op
+! "r79_rtv1" test.
+off failure

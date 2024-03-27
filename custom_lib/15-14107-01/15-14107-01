@@ -1,0 +1,47 @@
+!!!!    6    0    1 1385435238   0000                                         
+!    Function:
+!    Revision:
+!    Author:
+
+warning "This is a SETUP-ONLY Test."
+
+sequential
+
+assign  GND to pins 10, 11, 12, 13, 14, 22, 29
+assign  P12V to pins 15, 16, 17, 18
+
+assign  ALL_INPUTS to pins 24
+assign  ALL_BIDIRS to pins 1, 2, 3, 4, 5, 6, 7, 8, 9, 19, 20, 21, 23, 25, 26
+assign  ALL_BIDIRS to pins 27, 28
+assign  UNNAMED_4459_RES_I119_B to pins 1
+assign  P3V3_PGOOD to pins 2
+assign  P3V3_EN to pins 3
+assign  UNNAMED_4459_RES_I143_A to pins 4
+assign  UNNAMED_4459_CAP_I144_A to pins 5, 6, 7, 8, 9
+assign  UNNAMED_4459_CAP_I130_B to pins 19
+assign  UNNAMED_4459_CAP_I125_B to pins 20
+assign  UNNAMED_4459_RES_I136_B to pins 21
+assign  UNNAMED_4459_RES_I142_B to pins 23
+! The following group was connected to a Fixed Node on the board:
+assign  P3_3V to pins 24
+assign  UNNAMED_4459_RES_I137_B to pins 25
+assign  PMBUS1_ALERT_L to pins 26
+assign  PMBUS1_SDA to pins 27
+assign  PMBUS1_SCL to pins 28
+
+family TTL
+
+
+power GND, P12V
+
+inputs ALL_INPUTS, P3_3V
+
+bidirectional ALL_BIDIRS, UNNAMED_4459_RES_I119_B, P3V3_PGOOD, P3V3_EN
+bidirectional UNNAMED_4459_RES_I143_A, UNNAMED_4459_CAP_I144_A
+bidirectional UNNAMED_4459_CAP_I130_B, UNNAMED_4459_CAP_I125_B
+bidirectional UNNAMED_4459_RES_I136_B, UNNAMED_4459_RES_I142_B
+bidirectional UNNAMED_4459_RES_I137_B, PMBUS1_ALERT_L, PMBUS1_SDA, PMBUS1_SCL
+
+!
+!    End of Test
+!

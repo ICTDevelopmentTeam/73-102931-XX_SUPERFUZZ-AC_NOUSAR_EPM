@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521879  Vbe76                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:41 2022
+disconnect all
+connect s to "PMOD_COMP_5V"
+connect i to "PMOD_COMP_RC_5V"
+!B!resistor 9.09k, 15.00, 15.00, re4, wb, ar100m
+resistor 9.09k,25.0,20.0,re4,wb,ar100m
+! "r931_5v" test.

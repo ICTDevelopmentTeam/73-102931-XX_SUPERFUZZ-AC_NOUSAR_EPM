@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863898   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:19 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "UNNAMED_31_CAP_I22_B"
+jumper 10.0k, re4, wb, ar100m, op
+! "l31" test.

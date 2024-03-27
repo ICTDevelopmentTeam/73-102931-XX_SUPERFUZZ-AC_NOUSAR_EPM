@@ -1,0 +1,26 @@
+!!!!    2    0    1 1648516737  V5a06                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:12 2022
+on failure
+report parallel devices
+report "c61 10.0u"
+report "c62 10.0u"
+report "c63 10.0u"
+report "c188 10.0u"
+report "c947 10.0u"
+report "c41 1.00u"
+report "c51 1.00u"
+report "c53 1.00u"
+report "c54 1.00u"
+report "c55 1.00u"
+report "c57 1.00u"
+report "c58 1.00u"
+report "c59 1.00u"
+report "c965 1.00u"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "PWR_1V8_ADOMAIN"; b to "PWR_1V8_ADOMAIN"
+!B!capacitor 69u, 15.00, 15.04, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+capacitor 69u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+! "c30" test.
+off failure

@@ -1,0 +1,18 @@
+!!!!    2    0    1 1652163475  V0ef7                                         
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+   disconnect all
+   connect i to nodes "P3V3_SFP1"
+   connect l to ground
+
+   detector dcv, expect 3.3
+   measure 3.3 * 1.08, 3.3 * 0.92
+end subtest
+
+
+
+

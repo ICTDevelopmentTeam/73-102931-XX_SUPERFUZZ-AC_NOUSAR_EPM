@@ -1,0 +1,7 @@
+!!!!    2    0    1 1648804351  V5e72                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:38 2022
+disconnect all
+connect s to "P1V0RT2_DVDD"
+connect i to "P1V0RT2_DVDD_SENSE"
+jumper 20.0, re1, ar200m
+! "r68" test.

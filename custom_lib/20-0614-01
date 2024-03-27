@@ -1,0 +1,16 @@
+!!!!   21    1    1 1552355648  Vf46f                                         
+
+diode "cr", 800m, 400m, nr
+
+pin library "pwr", nr, pn"nfet_pwr", "FET ON OFF Tests Failed."
+
+external pins 1
+   device "pwr" pins 1
+
+external pins 2
+   device "cr" pins "A"
+   device "pwr" pins 3
+
+external pins 3
+   device "cr" pins "C"
+   device "pwr" pins 2

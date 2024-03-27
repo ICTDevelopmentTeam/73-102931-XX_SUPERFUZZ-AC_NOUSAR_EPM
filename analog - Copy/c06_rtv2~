@@ -1,0 +1,9 @@
+!!!!    2    0    1 1652766596   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:51 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "TSEN2_R_RTV2"                                                                                                                                     
+connect g to "P3_3VA"                                                                                                                                           
+!B!capacitor 220p, 27.27, 15.00, fr1024, re5, wb, ar20.0m, comp                                                                                                 
+capacitor 220p,35,35,fr8192,re5,ar100m,comp,ed,en                                                                                                       
+! "c06_rtv2" test.                                                                                                                                              

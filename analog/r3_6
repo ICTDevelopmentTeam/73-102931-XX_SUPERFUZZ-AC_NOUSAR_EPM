@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026677  Vaeb8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:57 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "VFB1_6"                                                                                                                                           
+connect g to "ANT_5V"                                                                                                                                           
+resistor 22.1k,25.00,25.00,re5,wb,ar500m                                                                                                                        
+! "r3_6" test.                                                                                                                                                  

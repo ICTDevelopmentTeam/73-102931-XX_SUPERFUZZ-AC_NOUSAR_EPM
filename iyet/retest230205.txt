@@ -1,0 +1,4339 @@
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:23:04 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6984
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:23:11 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7017
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:23:18 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7097
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:23:24 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7044
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:23:31 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6993
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:33:45 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7195
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:33:52 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7174
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:33:58 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7176
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:34:05 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7250
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:34:12 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7106
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:36:52 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7066
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:36:59 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7070
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:37:05 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7053
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:37:12 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7068
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:37:19 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7034
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:38:51 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7135
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:39:00 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6732
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:39:07 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6766
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:39:14 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7231
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:39:21 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7284
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:40:44 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7027
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:40:50 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7145
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:40:57 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7205
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:41:04 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7226
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:41:11 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7250
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:42:34 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7310
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:42:41 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7344
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:42:47 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7248
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:42:54 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6732
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:43:01 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6868
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Q
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 01:44:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: srt_sfp21_i2c_scl_edge  22043   37
+                 r91.1
+                u49.AF19
+To:   I2C_SCL_SFP<21>         21953   37
+                r36_s0.2
+                 r91.2
+               rn94_s0.4
+           rn94_s0%pin_4_5.1
+Common Devices:
+                  r91
+Message is:
+Check R91
+------End, 1 Problem Reported-----------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:45:03 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7075
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:45:13 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7063
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:45:20 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7042
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:45:27 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7063
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:45:34 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7017
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:46:21 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6643
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:46:30 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6768
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:46:37 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6804
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:46:44 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6856
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:46:51 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6898
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:47:40 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6994
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:47:50 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7132
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:47:57 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7116
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:48:04 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7104
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:48:11 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7099
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:49:13 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7342
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:49:20 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7270
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:49:27 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7363
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:49:33 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7378
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:49:40 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6833
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:50:51 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7173
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:50:58 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7241
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:51:04 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7251
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:51:11 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7197
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:51:18 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7186
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM2704019Y
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:53:45 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7116
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:53:52 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7092
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:53:59 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7125
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:54:06 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7171
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:54:12 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7198
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:56:31 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7250
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270400CZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:56:37 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7305
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270400CZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:56:44 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7325
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270400CZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:56:51 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7277
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270400CZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 01:56:58 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7265
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270400CZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 02:01:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223124 Open
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_2
+               r4_1v2s.1
+                 r311.1
+To:   VDDHA_1P2V_MAIN         22323
+               c15_1v2s.1
+               c16_1v2s.1
+               c17_1v2s.1
+               c18_1v2s.1
+               c19_1v2s.1
+               c20_1v2s.1
+               c21_1v2s.1
+                 c204.2
+               l1_1v2s.2
+               r162_pm.4
+Too many to print.
+Common Devices:
+                  r311
+Message is:
+Check R311
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                    223124 Open
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_2
+               r4_1v2s.1
+                 r311.1
+To:   PMOD_VSENP_1V2S         22325
+               r4_1v2s.2
+               u1_1v2s.12
+Common Devices:
+                r4_1v2s
+Message is:
+Check R4_1V2S
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: VDD_PH                  10554 Open
+              r4_91_rtv2.1
+             u1_91_rtv2.32
+To:   VDD_BOOT_R              10538
+             c06_91_rtv2.1
+              r4_91_rtv2.2
+Common Devices:
+               r4_91_rtv2
+Message is:
+Check R4_91_RTV2
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_95            220136
+               c09_95_5.2
+               r3_95_5.2
+               u1_95_5.3
+Common Devices:
+                r3_95_5
+                u1_95_5
+Message is:
+Check R3_95_5
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                    217131 Open
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+To:   GND                    215142
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+Common Devices:
+                  r310
+Message is:
+Check R310
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                    217131 Open
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+To:   PMOD_VSENN_1V2S        222104
+               r5_1v2s.2
+               u1_1v2s.11
+Common Devices:
+                r5_1v2s
+Message is:
+Check R5_1V2S
+------End, 6 Problems Reported----------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 02:02:22 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.6960
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 02:02:29 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7169
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 02:02:36 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7185
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 02:02:43 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7190
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 02:02:49 2023
+----------------------------------------
+cr11%grn HAS FAILED
+
+REPLACE DEVICE: cr11
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   2.7183
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM270203BN
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:38:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165  156
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258  156
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM270203BN
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:38:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   40
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT3_4    22258   40
+              c19_rt3_4.1
+              c23_rt3_4.1
+              c38_rt3_4.1
+              c41_rt3_4.1
+              c44_rt3_4.1
+              c47_rt3_4.1
+              c50_rt3_4.1
+              c60_rt3_4.1
+              c61_rt3_4.1
+              c62_rt3_4.1
+Too many to print.
+Common Devices:
+                l3_rt3_4
+Message is:
+Check L3_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM270203BN
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:45:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1329
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1329
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:45:26 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1463
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1463
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:45:38 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1286
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1286
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:45:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1327
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1327
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:46:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1270
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1270
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:47:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1332
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1332
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:47:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1322
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1322
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:47:27 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1251
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1251
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:47:38 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1293
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1293
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:47:50 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1230
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1230
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:51:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1337
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1337
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:52:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1269
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1269
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:52:22 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1305
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1305
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:52:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    204114 Open
+UNNAMED_4141_RES_I146_A                 
+                 r780.1
+                  u3.1
+To:   p1v8                   205114
+                 c16.2
+                 c17.2
+                 c19.1
+                 c25.1
+                 c127.1
+                 c141.2
+                 c142.2
+                c370_3.2
+                c374_3.2
+                c378_3.2
+Too many to print.
+Common Devices:
+                  r780
+                   u3
+Message is:
+Check R780
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1309
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1309
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 2 Problems Reported----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:52:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    204114 Open
+UNNAMED_4141_RES_I146_A                 
+                 r780.1
+                  u3.1
+To:   p1v8                   205114
+                 c16.2
+                 c17.2
+                 c19.1
+                 c25.1
+                 c127.1
+                 c141.2
+                 c142.2
+                c370_3.2
+                c374_3.2
+                c378_3.2
+Too many to print.
+Common Devices:
+                  r780
+                   u3
+Message is:
+Check R780
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1205
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1205
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 2 Problems Reported----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:54:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1311
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1311
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:54:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1271
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1271
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:54:24 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1252
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1252
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:54:36 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1373
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1373
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:54:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1351
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1351
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:56:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1282
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1282
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:56:12 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1331
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1331
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:56:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1345
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1345
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:56:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1379
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1379
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 03:56:47 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1250
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1250
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:00:52 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:01:01 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:01:08 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:01:15 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:01:22 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:04:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: GND                    215142 Open
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   vdd_ph_92               20353
+               r4_92_5.1
+               u1_92_5.32
+Common Devices:
+                u1_92_5
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: vdd_ph_92               20353 Open
+               r4_92_5.1
+               u1_92_5.32
+To:   VDD_BOOT_R_92          202113
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                r4_92_5
+Message is:
+Check R4_92_5
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From:   v                    223127 Open
+UNNAMED_3_RES_I175_A_S1                 
+                r3_s1.1
+               sfp_s1.B4
+To:   i2c_sda_sfp<25>        216104
+                r3_s1.2
+               rn34_s1.3
+           rn34_s1%pin_3_6.1
+                u49.Y16
+Common Devices:
+                 r3_s1
+Message is:
+Check R3_S1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                    119167   33
+UNNAMED_5_RES_I176_A_S1                 
+                r15_s1.1
+               sfp_s1.M4
+To:   i2c_sda_sfp<35>        117172   33
+                r15_s1.2
+               rn56_s1.3
+           rn56_s1%pin_3_6.1
+                u49.AE10
+Common Devices:
+                 r15_s1
+Message is:
+Check R15_S1
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<22>        217103   44
+                r37_s0.1
+               rn99_s0.3
+           rn99_s0%pin_3_6.1
+                u49.AC18
+To:     v                     22329   44 
+UNNAMED_16_RES_I295_B_S0                
+                r37_s0.2
+               sfp_s0.AC4
+Common Devices:
+                 r37_s0
+Message is:
+Check R37_S0
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<18>         21508 Open
+                r53_s0.1
+               rn97_s0.3
+           rn97_s0%pin_3_6.1
+                u49.AF21
+To:     v                     22331
+UNNAMED_17_RES_I313_B_S0                
+                r53_s0.2
+               sfp_s0.W4
+Common Devices:
+                 r53_s0
+Message is:
+Check R53_S0
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From:   v                    223130 Open
+UNNAMED_17_RES_I312_A_S0                
+                r55_s0.1
+               sfp_s0.Y4
+To:   i2c_sda_sfp<19>         21709
+                r55_s0.2
+               rn100_s0.3
+           rn100_s0%pin_3_6.1
+                u49.AF22
+Common Devices:
+                 r55_s0
+Message is:
+Check R55_S0
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    110126
+UNNAMED_4095_RES_I472_B                 
+                 r756.2
+               u1_sf1.20
+Common Devices:
+                  r756
+Message is:
+Check R756
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    211154
+UNNAMED_4095_RES_I457_B                 
+                 r764.2
+               u1_sf0.20
+Common Devices:
+                  r764
+Message is:
+Check R764
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10545
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMB
+                 r776.2
+               u15_5v.20
+Common Devices:
+                  r776
+Message is:
+Check R776
+----------------------------------------
+Open #13 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10863
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMBU
+                 r821.2
+               u1_1v2s.20
+Common Devices:
+                  r821
+Message is:
+Check R821
+----------------------------------------
+Open #14 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10547
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMBU
+                 r830.2
+               u16_3v3.20
+Common Devices:
+                  r830
+Message is:
+Check R830
+------End, 14 Problems Reported---------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:04:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    110126
+UNNAMED_4095_RES_I472_B                 
+                 r756.2
+               u1_sf1.20
+Common Devices:
+                  r756
+Message is:
+Check R756
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    211154
+UNNAMED_4095_RES_I457_B                 
+                 r764.2
+               u1_sf0.20
+Common Devices:
+                  r764
+Message is:
+Check R764
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10545
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMB
+                 r776.2
+               u15_5v.20
+Common Devices:
+                  r776
+Message is:
+Check R776
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10863
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMBU
+                 r821.2
+               u1_1v2s.20
+Common Devices:
+                  r821
+Message is:
+Check R821
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10547
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMBU
+                 r830.2
+               u16_3v3.20
+Common Devices:
+                  r830
+Message is:
+Check R830
+------End, 5 Problems Reported----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:04:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: GND                    215142   41
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   vdd_ph_92               20353   41
+               r4_92_5.1
+               u1_92_5.32
+Common Devices:
+                u1_92_5
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: vdd_ph_92               20353   43
+               r4_92_5.1
+               u1_92_5.32
+To:   VDD_BOOT_R_92          202113   43
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                r4_92_5
+Message is:
+Check R4_92_5
+------End, 2 Problems Reported----------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:05:24 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -10.495M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:05:37 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -24.024M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:05:43 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -10.495M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:05:50 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -24.024M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:05:57 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -10.495M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:09:03 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT5_6    11370
+               c8_rt5_6.1
+              c13_rt5_6.1
+              c15_rt5_6.1
+              c16_rt5_6.1
+              c21_rt5_6.1
+              c22_rt5_6.1
+              c24_rt5_6.1
+              c25_rt5_6.1
+              c27_rt5_6.1
+              c28_rt5_6.1
+Too many to print.
+Common Devices:
+                l5_rt5_6
+Message is:
+Check L5_RT5_6
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: qsfp_sda<4>             11635 Open
+                r7_q2.1
+                rn2_q2.2
+            rn2_q2%pin_2_7.1
+                u49.F16
+To:     v                     11437
+UNNAMED_4_RES_I229_B_Q2                 
+              qsfp_q2.A12
+                r7_q2.2
+Common Devices:
+                 r7_q2
+Message is:
+Check R7_Q2
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                    223128 Open
+UNNAMED_16_RES_I296_A_S0                
+                r39_s0.1
+               sfp_s0.AD4
+To:   i2c_sda_sfp<23>        216105
+                r39_s0.2
+               rn102_s0.3
+           rn102_s0%pin_3_6.1
+                u49.AD18
+Common Devices:
+                 r39_s0
+Message is:
+Check R39_S0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<43>         11649 Open
+                r56_s1.2
+                 r858.1
+               rn102_s1.4
+           rn102_s1%pin_4_5.1
+To:   srt_sfp43_i2c_scl_edge 219141
+                 r858.2
+                u49.D12
+Common Devices:
+                  r858
+Message is:
+Check R858
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: PMOD_PVCC_3V3           21611   27
+               c202_3v3.1
+               c224_3v3.1
+               r951_3v3.1
+               u16_3v3.24
+To:   PMOD_VCC_3V3            22108   27
+               c225_3v3.1
+               r951_3v3.2
+               u16_3v3.22
+Common Devices:
+                r951_3v3
+                u16_3v3
+Message is:
+Check R951_3V3
+------End, 5 Problems Reported----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:09:15 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: GND                    215142   36
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   vdd_ph_92               20353   36
+               r4_92_5.1
+               u1_92_5.32
+Common Devices:
+                u1_92_5
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: vdd_ph_92               20353   37
+               r4_92_5.1
+               u1_92_5.32
+To:   VDD_BOOT_R_92          202113   37
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                r4_92_5
+Message is:
+Check R4_92_5
+------End, 2 Problems Reported----------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:09:41 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   328.18
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r667 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   94.425
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:09:55 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -4.9355M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r667 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   1.8580M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:10:01 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -10.495M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r667 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -3.7157M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:10:08 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -10.495M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r667 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   35.298
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:10:15 2023
+----------------------------------------
+r523 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -6.7137M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:11:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     10957 Open
+JTAG_TDO_RT6_TDI_RT7_2V5                
+                 r110.2
+                 r122.2
+                 r288.1
+              u2_rt5_6.B8
+To:   JTAG_TDO_RT7_RT8_2V5RT  10962
+                 r123.1
+                 r288.2
+              u1_rt7_8.B9
+Common Devices:
+                  r288
+Message is:
+Check R288
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                    209104 Open
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 2 Problems Reported----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:11:33 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    209104 Open
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 1 Problem Reported-----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:11:44 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    209104 Open
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 1 Problem Reported-----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:11:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    209104 Open
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 1 Problem Reported-----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:12:07 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    209104  169
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147  169 
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 1 Problem Reported-----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:13:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    209104  571
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147  571 
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 1 Problem Reported-----------
+S/N:FLM270103BZ
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:15:54 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<0>         217141 Open
+                r1_s0.1
+               rn33_s0.3
+           rn33_s0%pin_3_6.1
+                u49.V19
+To:     v                     21967
+UNNAMED_3_RES_I174_B_S0                 
+                r1_s0.2
+               sfp_s0.A4
+Common Devices:
+                 r1_s0
+Message is:
+Check R1_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_I2C0_SCL        211166  335
+                 r295.2
+                 r308.1
+                 r627.1
+                 r921.2
+To:   srt_tempsense_i2c0_scl 210151  335
+                 r308.2
+                 u72.14
+Common Devices:
+                  r308
+Message is:
+Check R308
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_I2C0_SCL        211166  327
+                 r295.2
+                 r308.1
+                 r627.1
+                 r921.2
+To:   srt_act2_i2c0_scl      207150  327
+                 r627.2
+                 u24.12
+Common Devices:
+                  r627
+Message is:
+Check R627
+------End, 3 Problems Reported----------
+S/N:FLM270203BM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:16:06 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: i2c_sda_sfp<0>         217141 Open
+                r1_s0.1
+               rn33_s0.3
+           rn33_s0%pin_3_6.1
+                u49.V19
+To:     v                     21967
+UNNAMED_3_RES_I174_B_S0                 
+                r1_s0.2
+               sfp_s0.A4
+Common Devices:
+                 r1_s0
+Message is:
+Check R1_S0
+------End, 1 Problem Reported-----------
+S/N:FLM270203BM
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 05 04:30:16 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 4  Node fpga_sfp_led_grn_l<12>
+  Measured 82.4             (BRC 205145)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2701031K
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 05 04:30:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 4  Node fpga_sfp_led_grn_l<12>
+  Measured 83.1             (BRC 205145)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+Open #1  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 11.1             (BRC 107143)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2701031K
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 05 04:30:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 4  Node fpga_sfp_led_grn_l<12>
+  Measured 83.1             (BRC 205145)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2701031K
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 05 04:30:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u29
+  Pin 4  Node fpga_sfp_led_grn_l<12>
+  Measured 83.1             (BRC 205145)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2701031K
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:38:21 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:38:30 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:38:37 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:38:44 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 04:38:51 2023
+----------------------------------------
+p1_s1%yel HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401RR
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:44:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125   83
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   FLT_P3V3_OSC25M_OCXO    22135   83
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+Common Devices:
+                  fl1
+               fl1%jp1_3
+Message is:
+Check FL1%jp1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_32_CAP_I55_B   216125   80
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+To:   P3_3VA                 208153   80
+                c2_pm.1
+                  c3.1
+                  c6.1
+                 c12.1
+                c13_a.1
+                 c18.1
+                c20_pm.1
+                 c23.1
+                c23_a.1
+                 c24.1
+Too many to print.
+Common Devices:
+                  l66
+Message is:
+Check L66
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: PMOD_BOOTR_3V3          10546 Open
+               c189_3v3.1
+               r961_3v3.1
+To:   PMOD_BOOT_3V3          105145
+               r961_3v3.2
+               u16_3v3.6
+Common Devices:
+                r961_3v3
+Message is:
+Check R961_3V3
+------End, 3 Problems Reported----------
+S/N:FLM27040098
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:44:37 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT5_6    11370
+               c8_rt5_6.1
+              c13_rt5_6.1
+              c15_rt5_6.1
+              c16_rt5_6.1
+              c21_rt5_6.1
+              c22_rt5_6.1
+              c24_rt5_6.1
+              c25_rt5_6.1
+              c27_rt5_6.1
+              c28_rt5_6.1
+Too many to print.
+Common Devices:
+                l5_rt5_6
+Message is:
+Check L5_RT5_6
+------End, 1 Problem Reported-----------
+S/N:FLM27040098
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:47:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:47:57 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:48:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:48:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:48:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:49:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:50:07 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:50:18 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:50:30 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:50:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:52:05 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:52:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:52:28 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:52:40 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 04:52:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632 Open
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q2 115132
+                c11_q2.2
+                c12_q2.2
+                l2_q2.2
+              qsfp_q2.A10
+Common Devices:
+                 l2_q2
+Message is:
+Check L2_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM270401S6
+----------------------------------------
+TestJet Report for "testjet".
+Sun Feb 05 05:12:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u38
+  Pin 19  Node fpga_sfp_led_grn_l<30>
+  Measured 1.4              (BRC 10517)
+17-16601-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM2701031K
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:13:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165  158
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT3_4   214111  158
+              c76_rt3_4.1
+              c78_rt3_4.1
+              c80_rt3_4.1
+              c86_rt3_4.1
+              c88_rt3_4.1
+              c92_rt3_4.1
+              c94_rt3_4.1
+              c96_rt3_4.1
+              c98_rt3_4.1
+              c100_rt3_4.1
+Too many to print.
+Common Devices:
+                l7_rt3_4
+Message is:
+Check L7_RT3_4
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: p1v0rt_dvdd_en          20217   91
+               r26_rtv1.1
+               r26_rtv2.1
+                 r96.2
+                u49.AC9
+To:   imon_tp_rtv2            20330   91
+               r26_rtv2.2
+               u1_rtv2.20
+Common Devices:
+                r26_rtv2
+Message is:
+Check R26_RTV2
+------End, 2 Problems Reported----------
+S/N:FLM2701031K
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:15:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PMOD_PVCC_3V3           21611 Open
+               c202_3v3.1
+               c224_3v3.1
+               r951_3v3.1
+               u16_3v3.24
+To:   PMOD_VCC_3V3            22108
+               c225_3v3.1
+               r951_3v3.2
+               u16_3v3.22
+Common Devices:
+                r951_3v3
+                u16_3v3
+Message is:
+Check R951_3V3
+------End, 1 Problem Reported-----------
+S/N:FLM2701031K
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:17:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1314
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1314
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:17:58 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1315
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1315
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:18:09 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1276
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1276
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:18:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1368
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1368
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:18:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1274
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1274
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:24:25 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:24:35 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:24:42 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:24:49 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:24:56 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:34:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1264
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1264
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:34:29 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1324
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1324
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:34:40 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1296
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1296
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:34:52 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1333
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1333
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+Shorts Report for "shorts".
+Sun Feb 05 05:35:04 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 1358
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036 1358
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+------End, 1 Problem Reported-----------
+S/N:FLM27010G7X
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:36:22 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:36:32 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:36:39 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:36:46 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM
+----------------------------------------
+73-102898-01_03
+Sun Feb 05 05:36:53 2023
+----------------------------------------
+cr6%grn HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM270401PM

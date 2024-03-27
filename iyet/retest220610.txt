@@ -1,0 +1,64 @@
+----------------------------------------
+73-102898-01_03
+Fri Jun 10 11:24:31 2022
+----------------------------------------
+cr4%red HAS FAILED
+
+REPLACE DEVICE: cr4
+25-1282-01 LED,1.6*0.8mm,ST,SING,Nres,R,
+Measured:   2.8006
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Fri Jun 10 11:24:36 2022
+----------------------------------------
+cr4%red HAS FAILED
+
+REPLACE DEVICE: cr4
+25-1282-01 LED,1.6*0.8mm,ST,SING,Nres,R,
+Measured:   2.7907
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Fri Jun 10 11:24:40 2022
+----------------------------------------
+cr4%red HAS FAILED
+
+REPLACE DEVICE: cr4
+25-1282-01 LED,1.6*0.8mm,ST,SING,Nres,R,
+Measured:   2.7672
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Fri Jun 10 11:24:44 2022
+----------------------------------------
+cr4%red HAS FAILED
+
+REPLACE DEVICE: cr4
+25-1282-01 LED,1.6*0.8mm,ST,SING,Nres,R,
+Measured:   2.7637
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0

@@ -1,0 +1,6 @@
+!!!!    2    0    1 1647864042   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:43 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+! "c571" is not accessible at node "HSD_PE_CPU_MIFPGA_AC_N".
+! "c571" is not accessible at node "HSD_PE_CPU_MIFPGA_N".

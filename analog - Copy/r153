@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863921   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:42 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "CLK212M_SYNC_E_P"
+jumper 266, re3, wb, ar500m, op
+! "r153" test.

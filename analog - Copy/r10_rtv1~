@@ -1,0 +1,9 @@
+!!!!    2    0    1 1650873891   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:34 2022
+disconnect all
+connect i to "UNNAMED_7_CAP_I276_B_RTV1"
+connect s to "P12V"
+connect g to "GND"
+!B!resistor 13k, 10.00, 10.00, re5, wb, ar1.00, wa13.2m
+resistor 13k,25.00,25.00,re5,wb,ar100m,wa10m,ed
+! "r10_rtv1" is a limited test.

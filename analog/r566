@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648521811  Vdcd9                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:19 2022
+disconnect all
+connect s to "MIFPGA_PMBUS_SCL"
+connect i to "SRT_RT1_PMBUS2_SCL_R"
+connect g to "P3_3VA"
+!B!resistor 330, 6.00, 6.00, re3, ar200m
+resistor 330,25.00,20.00,re3,ar200m
+! "r566" test.

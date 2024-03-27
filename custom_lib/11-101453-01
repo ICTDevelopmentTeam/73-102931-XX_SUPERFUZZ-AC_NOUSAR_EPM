@@ -1,0 +1,13 @@
+!!!!   21    2    1 1308414910   0000                                         
+
+!  11-101453-01
+!  CAP,AP,270.0uF,16.0V,20%,SM,6.3mmD,10.0mmH,8.0mOhm,Ripple5800mA,-55to105C,5000hrs@105C
+
+capacitor *, 270.0u, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

@@ -1,0 +1,38 @@
+!!!!    6    0    1 1652325017  Vf9ff                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u4"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign NC  to pins *
+
+assign IN  to pins 2
+assign OUT to pins 4
+
+power   VCC,GND
+inputs  IN
+outputs OUT
+nondigital NC
+
+family LVT_1V8
+
+vector  OUT_0
+ set IN  to "0"
+ set OUT to "0"
+end vector
+
+vector  OUT_1
+ set IN  to "1"
+ set OUT to "1"
+end vector
+
+!*****************************************************************************
+
+unit  "OUT vs IN"
+ execute OUT_0
+ execute OUT_1
+end unit
+

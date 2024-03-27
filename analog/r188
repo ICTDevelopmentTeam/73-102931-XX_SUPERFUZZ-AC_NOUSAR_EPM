@@ -1,0 +1,8 @@
+!!!!    2    0    1 1652947349  V5424                                         
+!* Top probe [SRT_CLK212M_BUF_FC_TOP_REFCLK_N] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:55 2022
+disconnect all
+connect s to "CAP_CLK212M_BUF_MM_TOP_REFCLK_N"; a to "CAP_CLK212M_BUF_MM_TOP_REFCLK_N"
+connect i to "SRT_CLK212M_BUF_FC_TOP_REFCLK_N"; b to "SRT_CLK212M_BUF_FC_TOP_REFCLK_N"
+resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r188" test.

@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863944   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:05 2022
+on failure
+   report parallel devices
+   report "r1845 10.0k"
+end on failure
+disconnect all
+connect s to "P3_3VA"
+connect i to "MIFPGA_CONFIG_L"
+jumper 4.85k, re4, wb, ar200m, op
+! "r532" test.
+off failure

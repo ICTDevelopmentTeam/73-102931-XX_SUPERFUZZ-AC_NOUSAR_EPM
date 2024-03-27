@@ -1,0 +1,51 @@
+unidad Buena conocida
+
+Node               Time            Voltaje
+
+P12V                1	         12.0936504969  volts
+P3V3_STBY           1            3.29087471801  volts
+P2_5VA              1            2.52273557364  volts
+P3_3VA              1            3.32498584465  volts
+P1_1VA              1            1.11302090426  volts
+VDDHA_1P2V_MAIN     1            1.20957085766
+P3V3_SFP0           1            3.3055332741
+P3V3_SFP1           1            3.31740622363  volts
+P5V                 1            5.02546856552  volts
+P3_3V               1            3.31952146671  volts
+P2V5RT1             1            2.53124088052  volts
+P2V5RT2             1            2.53106461026  volts
+P1V0RT2_AVDD        1            1.0109099199  volts       
+P1V0RT2_DVDD        1            1.0149641358  volts
+P0_9V               1             .91272738714  volts
+P1V0RT1_AVDD        1            1.00986032342  volts
+P1V8                1            1.83024727381  volts
+ANT_5V              1            5.10253456436  volts
+P3V3_GPS            1            3.31818704717  volts
+P1V0RT1_DVDD        1            1.01647095086  volts  
+
+
+unidad mala conocida 
+
+Node               Time            Voltaje
+P12V                1              12.0964328851   volts
+P3V3_STBY           1               3.28965697085  volts
+P2_5VA              1               2.51454147744  volts
+P3_3VA              1               3.30718254877  volts
+P1_1VA              1               1.11389072366  volts
+VDDHA_1P2V_MAIN     1               1.21026671318  volts
+P3V3_SFP0           1               3.30971749343  volts
+P3V3_SFP1           1               3.3151147103   volts
+P5V                 1               5.0134650578  volts
+P3_3V               1               3.31564352107  volts
+P2V5RT1             1               2.53035952924  volts
+P2V5RT2             1               2.53265104257  volts
+P1V0RT2_AVDD        1               1.01073364964  volts     
+P1V0RT2_DVDD        1               1.01390651426  volts
+P0_9V               1                .913432468165  volts
+P1V0RT1_AVDD        1               1.01038221506  volts
+P1V8                1               1.82710910931  volts   
+ANT_5V              1               5.07800565728  volts
+P3V3_GPS            1               3.32044857761  volts         
+P1V0RT1_DVDD        1               1.0135135649  volts          
+
+

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1674445699   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:39 2022
+disconnect all
+connect i to "FPGA_SFP_TX_RATE_SEL<11>"
+connect s to "SFP_RS1_R<11>_S0"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k+0.2k,29.00,29.00,re3,ar100m
+! "rn59_s0%pin_4_5" test.

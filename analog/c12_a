@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863877   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:57:58 2022
+disconnect all
+connect s to "P1_1VA"
+connect i to "UNNAMED_2_RES_I471_B_A"
+jumper 3.01k, re4, wb, ar500m, op
+! "c12_a" test.

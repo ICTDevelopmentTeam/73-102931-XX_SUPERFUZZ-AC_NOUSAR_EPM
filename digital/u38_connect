@@ -1,0 +1,259 @@
+!!!!   24    0    1 1656471910  V1beb                                         
+connect "u38"
+
+test inputs only
+
+ground bounce suppression   on
+family "LVT"
+
+chain "u29_u1_3"
+  tdi "JTAG_TDI_HDR_CPLD1_3V3"  family "LVT"
+  tdo "JTAG_TDO_HDR_3V3"  family "LVT"
+  tms "JTAG_TMS_HDR_3V3"  family "LVT"
+  tck "SRT_JTAG_TCK_HDR_3V3" family "LVT"
+  trst "JTAG_TRST_L_HDR_3V3" family "LVT"
+  devices
+    "u29", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u30", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u37", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", yes
+    "u38", "custom_lib/b16434201_lcmxo2.bsm", "tqfp144", no
+    "u1_rt1_2", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt1_2", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt3_4", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt3_4", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt5_6", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt5_6", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt7_8", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u2_rt7_8", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_rt9", "custom_lib/b151046581_88ec808.bsm", "PACK", yes
+    "u1_3", "custom_lib/b081199_ec6955100c.bsm", "BGA", yes
+  end devices
+end chain
+
+
+disables "disable vector"
+  node "FPGA_SNDN_1P8_MS<0>" family "LVT_1V8" hybrid default "0"   !pull up
+  node "FPGA_SNDN_1P8_MS<1>" family "LVT_1V8" hybrid default "0"   !pull down
+  node "SNDN_CPU2JTAG_EN" family "LVT_1V8" hybrid default "0"      !pull down
+  node "SNDN_EXTLOOP_EN" family "LVT_1V8" hybrid default "0"       !pull down
+  node "SNDN_JTAG2CPU_EN" family "LVT_1V8" hybrid default "0"      !floating
+  node "TEST_ENABLE_3" family "LVT_1V8" hybrid default "0"         !pull down
+  node "JTAG_CABLE_PRSNT_L" family "LVT" hybrid default "0"
+
+  pcf order is nodes "FPGA_SNDN_1P8_MS<0>","FPGA_SNDN_1P8_MS<1>"
+  pcf order is nodes "SNDN_CPU2JTAG_EN","SNDN_EXTLOOP_EN"
+  pcf order is nodes "SNDN_JTAG2CPU_EN","TEST_ENABLE_3"
+  pcf order is nodes "JTAG_CABLE_PRSNT_L"
+  unit "disable_1"
+  pcf
+  "0000000"
+  end pcf
+  end unit
+end disables
+
+vector cycle 10u
+receive delay 8u
+
+set slew rate on nodes "JTAG_TDI_HDR_CPLD1_3V3" to 250
+set slew rate on nodes "JTAG_TMS_HDR_3V3" to 250
+set slew rate on nodes "SRT_JTAG_TCK_HDR_3V3" to 250
+
+nodes
+  node "CPLD4_FPGA_DATA" hybrid test "u38.61"
+  node "CPLD4_FPGA_SPI_MISO" hybrid test "u38.45"
+!#node "FPGA_CPLD4_CLK" hybrid test "u38.60"     ! Unstable
+!#node "FPGA_CPLD4_DATA" hybrid test "u38.68"    ! Unstable
+  node "FPGA_CPLD4_SPI_CS_L" hybrid test "u38.70"
+  node "FPGA_CPLD4_SPI_MOSI" hybrid test "u38.71"
+  node "FPGA_CPLD4_SPI_SCK" hybrid test "u38.44"
+  node "FPGA_SFP_LED_GRN_L<26>" hybrid test "u38.59"
+  node "FPGA_SFP_LED_GRN_L<27>" hybrid test "u38.48"
+  node "FPGA_SFP_LED_GRN_L<28>" hybrid test "u38.107"
+  node "FPGA_SFP_LED_GRN_L<29>" hybrid test "u38.35"
+  node "FPGA_SFP_LED_GRN_L<30>" hybrid test "u38.19"
+  node "FPGA_SFP_LED_GRN_L<31>" hybrid test "u38.14"
+  node "FPGA_SFP_LED_GRN_L<32>" hybrid test "u38.3"
+  node "FPGA_SFP_LED_YEL_L<26>" hybrid test "u38.56"
+  node "FPGA_SFP_LED_YEL_L<27>" hybrid test "u38.42"
+  node "FPGA_SFP_LED_YEL_L<28>" hybrid test "u38.106"
+  node "FPGA_SFP_LED_YEL_L<29>" hybrid test "u38.27"
+  node "FPGA_SFP_LED_YEL_L<30>" hybrid test "u38.20"
+  node "FPGA_SFP_LED_YEL_L<31>" hybrid test "u38.5"
+  node "FPGA_SFP_LED_YEL_L<32>" hybrid test "u38.4"
+  node "FPGA_SFP_TX_DISABLE<26>" hybrid test "u38.58"
+  node "FPGA_SFP_TX_DISABLE<27>" hybrid test "u38.47"
+  node "FPGA_SFP_TX_DISABLE<28>" hybrid test "u38.41"
+  node "FPGA_SFP_TX_DISABLE<29>" hybrid test "u38.34"
+  node "FPGA_SFP_TX_DISABLE<30>" hybrid test "u38.26"
+  node "FPGA_SFP_TX_DISABLE<31>" hybrid test "u38.13"
+  node "FPGA_SFP_TX_DISABLE<32>" hybrid test "u38.2"
+  node "QSFP_INT_L<0>" hybrid test "u38.111"
+  node "QSFP_INT_L<1>" hybrid test "u38.121"
+  node "QSFP_INT_L<2>" hybrid test "u38.132"
+  node "QSFP_INT_L<3>" hybrid test "u38.75"
+  node "QSFP_INT_L<4>" hybrid test "u38.77"
+  node "QSFP_INT_L<5>" hybrid test "u38.93"
+  node "QSFP_LED_GRN_L<0>" hybrid test "u38.114"
+  node "QSFP_LED_GRN_L<1>" hybrid test "u38.126"
+  node "QSFP_LED_GRN_L<2>" hybrid test "u38.143"
+  node "QSFP_LED_GRN_L<3>" hybrid test "u38.82"
+  node "QSFP_LED_GRN_L<4>" hybrid test "u38.84"
+  node "QSFP_LED_GRN_L<5>" hybrid test "u38.98"
+  node "QSFP_LED_YEL_L<0>" hybrid test "u38.113"
+  node "QSFP_LED_YEL_L<1>" hybrid test "u38.125"
+  node "QSFP_LED_YEL_L<2>" hybrid test "u38.142"
+  node "QSFP_LED_YEL_L<3>" hybrid test "u38.81"
+  node "QSFP_LED_YEL_L<4>" hybrid test "u38.83"
+  node "QSFP_LED_YEL_L<5>" hybrid test "u38.97"
+  node "QSFP_LPMODE<0>" hybrid test "u38.115"
+  node "QSFP_LPMODE<1>" hybrid test "u38.127"
+  node "QSFP_LPMODE<2>" hybrid test "u38.138"
+  node "QSFP_LPMODE<3>" hybrid test "u38.73"
+  node "QSFP_LPMODE<4>" hybrid test "u38.85"
+  node "QSFP_LPMODE<5>" hybrid test "u38.91"
+  node "QSFP_MOD_ABS<0>" hybrid test "u38.112"
+  node "QSFP_MOD_ABS<1>" hybrid test "u38.122"
+  node "QSFP_MOD_ABS<2>" hybrid test "u38.133"
+  node "QSFP_MOD_ABS<3>" hybrid test "u38.76"
+  node "QSFP_MOD_ABS<4>" hybrid test "u38.78"
+  node "QSFP_MOD_ABS<5>" hybrid test "u38.94"
+  node "QSFP_RST_L<0>" hybrid test "u38.117"
+  node "QSFP_RST_L<1>" hybrid test "u38.128"
+  node "QSFP_RST_L<2>" hybrid test "u38.139"
+  node "QSFP_RST_L<3>" hybrid test "u38.74"
+  node "QSFP_RST_L<4>" hybrid test "u38.86"
+  node "QSFP_RST_L<5>" hybrid test "u38.92"
+  node "SFP_MOD_ABS_FPGA<26>" hybrid test "u38.62"
+  node "SFP_MOD_ABS_FPGA<27>" hybrid test "u38.52"
+  node "SFP_MOD_ABS_FPGA<28>" hybrid test "u38.43"
+  node "SFP_MOD_ABS_FPGA<29>" hybrid test "u38.105"
+  node "SFP_MOD_ABS_FPGA<30>" hybrid test "u38.28"
+  node "SFP_MOD_ABS_FPGA<31>" hybrid test "u38.21"
+  node "SFP_MOD_ABS_FPGA<32>" hybrid test "u38.6"
+  node "SFP_RX_LOS_FPGA<26>" hybrid test "u38.65"
+  node "SFP_RX_LOS_FPGA<27>" hybrid test "u38.54"
+  node "SFP_RX_LOS_FPGA<28>" hybrid test "u38.38"
+  node "SFP_RX_LOS_FPGA<29>" hybrid test "u38.104"
+  node "SFP_RX_LOS_FPGA<30>" hybrid test "u38.23"
+  node "SFP_RX_LOS_FPGA<31>" hybrid test "u38.22"
+  node "SFP_RX_LOS_FPGA<32>" hybrid test "u38.9"
+  node "SFP_TX_FAULT_FPGA<26>" hybrid test "u38.67"
+  node "SFP_TX_FAULT_FPGA<27>" hybrid test "u38.49"
+  node "SFP_TX_FAULT_FPGA<28>" hybrid test "u38.39"
+  node "SFP_TX_FAULT_FPGA<29>" hybrid test "u38.32"
+  node "SFP_TX_FAULT_FPGA<30>" hybrid test "u38.24"
+  node "SFP_TX_FAULT_FPGA<31>" hybrid test "u38.11"
+  node "SFP_TX_FAULT_FPGA<32>" hybrid test "u38.10"
+  node "UNNAMED_4127_LCMXO2640U_I273_PT17CINITM" hybrid test "u38.110"
+  node "CPLD4_JTAGEN" hybrid test "u38.120"
+  node "FPGA_CPLD_RST_L" hybrid test "u38.55" !Kill power
+end nodes
+
+!IPG: Inaccessible nodes
+!IPG: node "NC_3326"
+!IPG: node "NC_3327"
+!IPG: node "NC_3330"
+!IPG: node "NC_3332"
+!IPG: node "NC_3333"
+!IPG: node "NC_3334"
+!IPG: node "NC_3335"
+!IPG: node "NC_3337"
+!IPG: node "NC_3340"
+!IPG: node "NC_3341"
+!IPG: node "NC_3342"
+!IPG: node "NC_3343"
+!IPG: node "NC_3345"
+!IPG: node "NC_3346"
+!IPG: node "NC_3348"
+!IPG: node "NC_3349"
+
+!IPG: Family information could not be found for node CPLD4_FPGA_DATA
+!IPG: Family information could not be found for node CPLD4_FPGA_SPI_MISO
+!IPG: Family information could not be found for node CPLD4_JTAGEN
+!IPG: Family information could not be found for node FPGA_CPLD4_CLK
+!IPG: Family information could not be found for node FPGA_CPLD4_DATA
+!IPG: Family information could not be found for node FPGA_CPLD4_SPI_CS_L
+!IPG: Family information could not be found for node FPGA_CPLD4_SPI_MOSI
+!IPG: Family information could not be found for node FPGA_CPLD4_SPI_SCK
+!IPG: Family information could not be found for node FPGA_CPLD_RST_L
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<26>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<27>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<28>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<29>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<30>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<31>
+!IPG: Family information could not be found for node FPGA_SFP_LED_GRN_L<32>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<26>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<27>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<28>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<29>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<30>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<31>
+!IPG: Family information could not be found for node FPGA_SFP_LED_YEL_L<32>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<26>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<27>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<28>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<29>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<30>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<31>
+!IPG: Family information could not be found for node FPGA_SFP_TX_DISABLE<32>
+!IPG: Family information could not be found for node QSFP_INT_L<0>
+!IPG: Family information could not be found for node QSFP_INT_L<1>
+!IPG: Family information could not be found for node QSFP_INT_L<2>
+!IPG: Family information could not be found for node QSFP_INT_L<3>
+!IPG: Family information could not be found for node QSFP_INT_L<4>
+!IPG: Family information could not be found for node QSFP_INT_L<5>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<0>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<1>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<2>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<3>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<4>
+!IPG: Family information could not be found for node QSFP_LED_GRN_L<5>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<0>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<1>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<2>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<3>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<4>
+!IPG: Family information could not be found for node QSFP_LED_YEL_L<5>
+!IPG: Family information could not be found for node QSFP_LPMODE<0>
+!IPG: Family information could not be found for node QSFP_LPMODE<1>
+!IPG: Family information could not be found for node QSFP_LPMODE<2>
+!IPG: Family information could not be found for node QSFP_LPMODE<3>
+!IPG: Family information could not be found for node QSFP_LPMODE<4>
+!IPG: Family information could not be found for node QSFP_LPMODE<5>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<0>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<1>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<2>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<3>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<4>
+!IPG: Family information could not be found for node QSFP_MOD_ABS<5>
+!IPG: Family information could not be found for node QSFP_RST_L<0>
+!IPG: Family information could not be found for node QSFP_RST_L<1>
+!IPG: Family information could not be found for node QSFP_RST_L<2>
+!IPG: Family information could not be found for node QSFP_RST_L<3>
+!IPG: Family information could not be found for node QSFP_RST_L<4>
+!IPG: Family information could not be found for node QSFP_RST_L<5>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<26>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<27>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<28>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<29>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<30>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<31>
+!IPG: Family information could not be found for node SFP_MOD_ABS_FPGA<32>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<26>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<27>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<28>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<29>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<30>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<31>
+!IPG: Family information could not be found for node SFP_RX_LOS_FPGA<32>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<26>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<27>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<28>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<29>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<30>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<31>
+!IPG: Family information could not be found for node SFP_TX_FAULT_FPGA<32>
+!IPG: Family information could not be found for node UNNAMED_4127_LCMXO2640U_I273_PT17CINITM
+end connect
+

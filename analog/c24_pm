@@ -1,0 +1,13 @@
+!!!!    2    0    1 1648516834  Vdb2f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:42 2022
+on failure
+report parallel devices
+report "c22_pm 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "SRT_VIN_MON_P_PM"
+!B!capacitor 1.1u, 15.00, 15.00, fr1024, re2, ar100m, nocomp
+capacitor 1.1u,35.00,40.0,fr1024,re2,ar100m,nocomp
+! "c24_pm" test.
+off failure

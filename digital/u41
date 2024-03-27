@@ -1,0 +1,99 @@
+!!!!    6    0    1 1652336277  V6db4                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u41"
+set terminators to on
+assign VDD  to pins *,*
+assign GND  to pins *
+
+assign EN   to pins 5
+assign SCL0 to pins 2
+assign SCL1 to pins 7
+assign SDA0 to pins 3
+assign SDA1 to pins 6
+
+power VDD, GND
+inputs EN
+bidirectional SCL0, SCL1, SDA0, SDA1
+
+family LVT_1V8
+
+!******************************************************************************
+vector V0to1_L
+  drive SCL0
+  drive SDA0
+  receive SCL1
+  receive SDA1
+
+  set EN to "1"
+  set SCL0 to "0"
+  set SDA0 to "0"
+  set SCL1 to "0"
+  set SDA1 to "0"
+end vector
+
+vector V0to1_H
+  drive SCL0
+  drive SDA0
+  receive SCL1
+  receive SDA1
+
+  set EN to "1"
+  set SCL0 to "1"
+  set SDA0 to "1"
+  set SCL1 to "1"
+  set SDA1 to "1"
+end vector
+
+vector V1to0_L
+  drive SCL1
+  drive SDA1
+  receive SCL0
+  receive SDA0
+
+  set EN to "1"
+  set SCL1 to "0"
+  set SDA1 to "0"
+  set SCL0 to "0"
+  set SDA0 to "0"
+end vector
+
+vector V1to0_H
+  drive SCL1
+  drive SDA1
+  receive SCL0
+  receive SDA0
+
+  set EN to "1"
+  set SCL1 to "1"
+  set SDA1 to "1"
+  set SCL0 to "1"
+  set SDA0 to "1"
+end vector
+
+vector V1to0_L_EN_0
+  drive SCL1
+  drive SDA1
+  receive SCL0
+  receive SDA0
+
+  set EN to "0"
+  set SCL1 to "0"
+  set SDA1 to "0"
+  set SCL0 to "1"
+  set SDA0 to "1"
+end vector
+
+unit "i2c bus repeater"
+  execute V0to1_L
+  execute V0to1_H
+
+
+  execute V1to0_L
+  execute V1to0_H
+  execute V1to0_L_EN_0 ! to test EN low
+
+end unit
+
+

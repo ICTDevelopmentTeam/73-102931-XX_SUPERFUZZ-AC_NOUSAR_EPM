@@ -1,0 +1,108 @@
+!!!!    6    0    1 1368172531  Vef34                                         
+!
+! Part Name:         PI3B3253
+! Part Type:         VLSI
+! Description:       Dual 4:1 Mux/Demux Bus Switch
+! Manufacturer:      Pericom
+! Package Style:     16 pin DIP,SOIC
+! Created:           Apr 26, 2000
+! Programmer:        jmalian
+! Tester:            HP3070
+! Processor:         VPU
+! Vector Format:     PCF
+! Fault coverage:    xx%
+! Constraints:       No
+! Cisco Part #:      15-4259-01
+
+family LVT
+
+vector cycle  10u
+receive delay 9u
+
+assign VCC to pins 16
+assign GND to pins 8
+assign EAB to pins 1
+assign S1 to pins 2
+
+assign IA0 to pins 6
+assign IA1 to pins 5
+assign IA2 to pins 4
+assign IA3 to pins 3
+assign IA to pins 6,5,4,3
+
+assign YA to pins 7
+assign YB to pins 9
+assign EBB to pins 15
+assign S0 to pins 14
+
+assign IB0 to pins 10
+assign IB1 to pins 11
+assign IB2 to pins 12
+assign IB3 to pins 13
+assign IB to pins 10,11,12,13
+
+power VCC, GND
+
+inputs IA, IB, S0, S1, EAB, EBB
+outputs YA, YB
+
+set load on pins 7,9 to pull up
+pcf order is EAB, EBB, S0, S1, IA, IB, YA, YB
+
+unit "Test Disables"
+  pcf
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 00 0000 0000 X X"
+  "11 00 0000 0000 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 00 1111 1111 X X"
+  "11 00 1111 1111 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 01 0000 0000 X X"
+  "11 01 0000 0000 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 01 1111 1111 X X"
+  "11 01 1111 1111 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 10 0000 0000 X X"
+  "11 10 0000 0000 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 10 1111 1111 X X"
+  "11 10 1111 1111 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 11 0000 0000 X X"
+  "11 11 0000 0000 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "11 11 1111 1111 X X"
+  "11 11 1111 1111 H H"
+  end pcf
+end unit
+
+unit "Test Device"
+  pcf
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 00 0111 0111 X X"
+  "00 00 0111 0111 L L"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 00 1000 1000 X X"
+  "00 00 1000 1000 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 01 1011 1011 X X"
+  "00 01 1011 1011 L L"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 01 0100 0100 X X"
+  "00 01 0100 0100 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 10 1101 1101 X X"
+  "00 10 1101 1101 L L"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 10 0010 0010 X X"
+  "00 10 0010 0010 H H"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 11 1110 1110 X X"
+  "00 11 1110 1110 L L"
+  "11 ZZ ZZZZ ZZZZ X X"
+  "00 11 0001 0001 X X"
+  "00 11 0001 0001 H H"
+  end pcf
+end unit

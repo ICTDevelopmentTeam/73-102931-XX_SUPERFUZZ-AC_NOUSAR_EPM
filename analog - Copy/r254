@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519517  V6bcb                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:57 2022
+disconnect all
+connect s to "P2V5RT1"
+connect i to "RT6_ADDR<1>"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r254" test.

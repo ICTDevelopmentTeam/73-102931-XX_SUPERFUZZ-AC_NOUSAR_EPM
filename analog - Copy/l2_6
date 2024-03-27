@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863964   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:25 2022
+disconnect all
+connect s to "SW1_6"
+connect i to "ANT_5V"
+jumper 5.94, re1, ar200m
+! "l2_6" test.

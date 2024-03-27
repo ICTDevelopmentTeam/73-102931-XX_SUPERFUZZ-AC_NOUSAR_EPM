@@ -1,0 +1,35 @@
+!!!!   24    0    1 1647864718  V643e                                         
+! Copyright (c) Agilent Technologies, Inc. 1995-1996, 1998-2000, 2002-2003, 2006-2008
+!IPG: rev 09.20p  Mon Mar 21 20:11:59 2022
+
+disable "u49_u49"
+
+!IPG: User may add option statements here if needed.
+
+ground bounce suppression   on
+!IPG  family "???"
+!IPG: Family information could not be found for any node; TTL will be assumed
+
+
+chain "u49_u49"
+  tdi "JTAG_TDI_MIFPGA_3V3"
+  tdo "JTAG_TDO_MIFPGA_3V3"
+  tms "JTAG_TMS_MIFPGA_3V3"
+  tck "SRT_JTAG_TCK_MIFPGA_3V3"
+  devices
+    "u49", "custom_lib/b161014361_5cgxfc4c.bsm", "FBGA672", no
+  end devices
+end chain
+
+!IPG: Family information could not be found for node JTAG_TDI_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TDO_MIFPGA_3V3
+!IPG: Family information could not be found for node JTAG_TMS_MIFPGA_3V3
+!IPG: Family information could not be found for node SRT_JTAG_TCK_MIFPGA_3V3
+
+!IPG: User may add VCL pass-through statements here if needed.
+
+nodes
+end nodes
+
+end disable
+

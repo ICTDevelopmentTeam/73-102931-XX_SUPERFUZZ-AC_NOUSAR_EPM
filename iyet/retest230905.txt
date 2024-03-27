@@ -1,0 +1,291 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Sep 05 08:01:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p1_1va                 214152 Open
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+To:   fltr_mifpga1_vccl_gxb   21958
+                 c428.1
+                 c429.1
+                 c430.1
+                 c431.1
+                 l34.2
+                 u49.J3
+                 u49.N3
+                 u49.U3
+Common Devices:
+                  l34
+                  u49
+Message is:
+Check L34
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<2>         217163   25
+                r6_s0.1
+                 r820.1
+               rn35_s0.4
+           rn35_s0%pin_4_5.1
+To:   srt_sfp2_i2c_scl_edge   21762   25
+                 r820.2
+                u49.Y20
+Common Devices:
+                  r820
+Message is:
+Check R820
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<4>             21945 Open
+                r6_q2.1
+                 r881.1
+                rn2_q2.1
+            rn2_q2%pin_1_8.1
+To:   srt_qsfp_scl<4>        221132
+                 r881.2
+                u49.E10
+Common Devices:
+                  r881
+Message is:
+Check R881
+------End, 3 Problems Reported----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Tue Sep 05 08:01:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p1_1va                 214152   68
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+To:   fltr_mifpga1_vccl_gxb   21958   68
+                 c428.1
+                 c429.1
+                 c430.1
+                 c431.1
+                 l34.2
+                 u49.J3
+                 u49.N3
+                 u49.U3
+Common Devices:
+                  l34
+                  u49
+Message is:
+Check L34
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From:   v                    219134  119
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+To:   GND                    215142  119
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+Common Devices:
+                 r72_5v
+                 u15_5v
+Message is:
+Check R72_5V
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                    219134  122
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+To:     v                    222106  122 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+Common Devices:
+                  r769
+                 u15_5v
+Message is:
+Check R769
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<4>             21945 3236
+                r6_q2.1
+                 r881.1
+                rn2_q2.1
+            rn2_q2%pin_1_8.1
+To:   srt_qsfp_scl<4>        221132 3236
+                 r881.2
+                u49.E10
+Common Devices:
+                  r881
+Message is:
+Check R881
+------End, 4 Problems Reported----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Tue Sep 05 08:01:39 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p1_1va                 214152 2350
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+To:   fltr_mifpga1_vccl_gxb   21958 2350
+                 c428.1
+                 c429.1
+                 c430.1
+                 c431.1
+                 l34.2
+                 u49.J3
+                 u49.N3
+                 u49.U3
+Common Devices:
+                  l34
+                  u49
+Message is:
+Check L34
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<4>             21945 Open
+                r6_q2.1
+                 r881.1
+                rn2_q2.1
+            rn2_q2%pin_1_8.1
+To:   srt_qsfp_scl<4>        221132
+                 r881.2
+                u49.E10
+Common Devices:
+                  r881
+Message is:
+Check R881
+------End, 2 Problems Reported----------
+S/N:FLM271905G7
+----------------------------------------
+Shorts Report for "shorts".
+Tue Sep 05 08:01:53 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: QSFP_SCL<4>             21945 Open
+                r6_q2.1
+                 r881.1
+                rn2_q2.1
+            rn2_q2%pin_1_8.1
+To:   srt_qsfp_scl<4>        221132
+                 r881.2
+                u49.E10
+Common Devices:
+                  r881
+Message is:
+Check R881
+------End, 1 Problem Reported-----------
+S/N:FLM271905G7
+----------------------------------------
+73-102898-01_03
+Tue Sep 05 09:14:14 2023
+----------------------------------------
+r616 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   153.33k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Tue Sep 05 09:14:28 2023
+----------------------------------------
+r616 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   83.716k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Tue Sep 05 09:14:37 2023
+----------------------------------------
+r616 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   141.56k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Tue Sep 05 09:14:46 2023
+----------------------------------------
+r616 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   153.33k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2
+----------------------------------------
+73-102898-01_03
+Tue Sep 05 09:14:55 2023
+----------------------------------------
+r616 HAS FAILED
+12-1639-02 RES,TKF,100 ohm,0.063W,5%,SM,
+Measured:   122.71k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150FA2

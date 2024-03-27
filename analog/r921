@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675266589   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "MIFPGA_I2C0_SCL" ;  a to "MIFPGA_I2C0_SCL"
+connect i to "SRT_MIFPGA_I2C0_SCL" ;  b to "SRT_MIFPGA_I2C0_SCL"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+!resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar50m,en
+! "r921" is a limited test.

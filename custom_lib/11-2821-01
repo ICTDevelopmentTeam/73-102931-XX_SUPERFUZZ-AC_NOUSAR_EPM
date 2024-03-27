@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555652972   0000                                         
+
+!#  11-2821-01
+!#  11-2821-01 CAP,CE,0.1uF,25V,10%,X7R,SM,0
+!#  Wed Apr 17 16:02:53 2019
+
+capacitor *, 0.1u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

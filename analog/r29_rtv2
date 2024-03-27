@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520303  V14df                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:21 2022
+disconnect all
+connect s to "P5V"
+connect i to "PS_EN_RTV2"
+!B!resistor 4.75k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.75k,25.00,20.00,re4,wb,ar200m
+! "r29_rtv2" test.

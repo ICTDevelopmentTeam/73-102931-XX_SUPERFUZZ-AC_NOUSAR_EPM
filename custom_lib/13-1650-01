@@ -1,0 +1,15 @@
+!!!!   21    2    1 1552361648  V8240                                         
+
+!#  13-1650-01
+!#  13-1650-01 DIO,SH,40V,5A,DO-214AB,SSC54
+!#  Fri Aug  1 12:00:47 2014
+
+diode "cr",0.80,0.40
+
+external pins 1
+   device "cr" pins "C"
+
+external pins 2
+   device "cr" pins "A"
+
+

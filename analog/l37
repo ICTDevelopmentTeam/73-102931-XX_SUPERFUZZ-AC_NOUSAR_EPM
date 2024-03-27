@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863970   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:31 2022
+disconnect all
+connect i to "FLTR_MIFPGA1_VCCA_FPLL"
+connect s to "P2_5VA"
+jumper 5.94, re1, ar200m
+! "l37" test.

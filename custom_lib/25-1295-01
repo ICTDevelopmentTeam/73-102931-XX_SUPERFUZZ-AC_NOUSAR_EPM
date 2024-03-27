@@ -1,0 +1,22 @@
+!!!!   21    2    1 1647833734  V4ce3                                         
+!Dual LED
+
+diode "red", 2.6, 1.2, nr, pn"25-1295-01"
+diode "grn", 2.6, 1.2, nr, pn"25-1295-01"
+
+external pins 2
+   device "red" pins "A"
+   device "grn" pins "A"
+
+external pins 1
+   device "grn" pins "C"
+
+external pins 3
+   device "red" pins "C"
+
+
+
+
+
+
+

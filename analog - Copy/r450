@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675192453   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:05 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect i to "UNNAMED_4103_PCA9617_I144_EN"                                                                                                                     
+connect s to "P2_5VA"                                                                                                                                           
+connect g to "GND"                                                                                                                                              
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m, ed, wa73.9u                                                                                                    
+!resistor 4.7k,25.00,20.00,re4,wb,ar200m,ed
+resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed   !ADV
+! "r450" test.                                                                                                                                                  

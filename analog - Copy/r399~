@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675267487   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:11 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "P1V8_TRIM"                                                                                                                                        
+connect i to "P1V8_FB"                                                                                                                                          
+connect g to "P1V8"                                                                                                                                           
+connect g to "GND"                                                                                                                                              
+!resistor 200k,20.00,20.00,re6,wb,ar500m,ed,en                                                                                                                     
+resistor 200k,20.00,20.00,re6,wb,ar50m,ed   !ADV                                                                                                                    
+! "r399" test.                                                                                                                                                  

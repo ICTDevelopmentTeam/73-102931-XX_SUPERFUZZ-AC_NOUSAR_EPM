@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026662  V426d                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:05 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect i to "UNNAMED_54_CAP_I25_A"                                                                                                                             
+connect s to "GND"                                                                                                                                              
+connect g to "UNNAMED_54_CAP_I22_A"                                                                                                                             
+!B!capacitor 39n, 20.00, 20.00, fr1024, re3, wb, ar50.0m, nocomp                                                                                                
+capacitor 39n,35.00,40.00,fr1024,re5,wb,ar100m,nocomp                                                                                                           
+! "c3062" test.                                                                                                                                                 

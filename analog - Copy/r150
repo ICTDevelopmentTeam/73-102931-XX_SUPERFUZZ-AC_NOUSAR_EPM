@@ -1,0 +1,8 @@
+!!!!    2    0    1 1652947135  V049e                                         
+!* Top probe [SRT_CLK212M_BUF_FC_BOT_REFCLK_P] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:54 2022
+disconnect all
+connect s to "CAP_CLK212M_BUF_MM_BOT_REFCLK_P"; a to "CAP_CLK212M_BUF_MM_BOT_REFCLK_P"
+connect i to "SRT_CLK212M_BUF_FC_BOT_REFCLK_P"; b to "SRT_CLK212M_BUF_FC_BOT_REFCLK_P"
+resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r150" test.

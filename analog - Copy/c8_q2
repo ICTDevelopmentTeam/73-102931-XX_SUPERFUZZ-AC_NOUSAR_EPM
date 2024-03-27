@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651024828   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:09 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"; a to "GND"                                                                                                                                  
+connect i to "QSFP_MOD_ABS<4>"                                                                                                                                  
+!#connect g to "P3V3_SFP1"; l to "P3V3_SFP1"                                                                                                                      
+!B!capacitor 220n, 20.00, 20.00, fr1024, re2, ar100m, sa, sl, en, nocomp                                                                                        
+capacitor 220n,35.00,40.0,fr1024,re4,ar100m,sa,nocomp                                                                                                           
+! "c8_q2" is a commented test.                                                                                                                                  

@@ -1,0 +1,1721 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 07:13:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    110165 Open
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+To:   p3_3v                   10756
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+Common Devices:
+                  l28
+Message is:
+Check L28
+------End, 1 Problem Reported-----------
+S/N:FLM27100AC6
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 07:13:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    110165  215
+fltr_p3v3_osc_rtm1_156m_buf_vcc         
+                 c168.2
+                 c183.2
+                 c184.2
+                 c185.2
+                 l28.1
+                 u17.18
+                 u17.20
+To:   p3_3v                   10756  215
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+Common Devices:
+                  l28
+Message is:
+Check L28
+------End, 1 Problem Reported-----------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 07:14:35 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   17.984k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 07:15:08 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   29.115k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 07:15:17 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   28.004k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 07:15:26 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   27.792k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 07:15:36 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   28.220k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:46:54 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  420
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  420
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:47:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  408
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  408
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:47:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  415
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  415
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:47:37 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  420
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  420
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:47:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  411
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  411
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 09:59:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  419
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  419
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 10:00:02 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  411
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  411
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 10:00:16 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  420
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  420
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 10:00:30 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  419
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  419
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 10:00:44 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610  415
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033  415
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+TestJet Report for "testjet".
+Tue Jul 04 11:44:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u3_a
+  Pin 3  Node p1v1_pgood_a
+  Measured 0.0              (BRC 215149)
+15-105048-01 IC-LIN,VREG,SW,BUCK,QFN,28 
+----------------------------------------
+Open #1  Device u30
+  Pin 131  Node jtag_tck_cpld2_3v3
+  Measured 1.2              (BRC 104174)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM271808RG
+----------------------------------------
+TestJet Report for "testjet".
+Tue Jul 04 11:45:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u30
+  Pin 131  Node jtag_tck_cpld2_3v3
+  Measured 2.2              (BRC 104174)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM271808RG
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 11:58:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758  384
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117  384
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 11:58:37 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT1_2   221165
+              c19_rt1_2.1
+              c23_rt1_2.1
+              c38_rt1_2.1
+              c41_rt1_2.1
+              c44_rt1_2.1
+              c47_rt1_2.1
+              c50_rt1_2.1
+              c60_rt1_2.1
+              c61_rt1_2.1
+              c62_rt1_2.1
+Too many to print.
+Common Devices:
+                l3_rt1_2
+Message is:
+Check L3_RT1_2
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758 Open
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 2 Problems Reported----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 11:58:51 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165   64
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDH_RT1_2   221165   64
+              c19_rt1_2.1
+              c23_rt1_2.1
+              c38_rt1_2.1
+              c41_rt1_2.1
+              c44_rt1_2.1
+              c47_rt1_2.1
+              c50_rt1_2.1
+              c60_rt1_2.1
+              c61_rt1_2.1
+              c62_rt1_2.1
+Too many to print.
+Common Devices:
+                l3_rt1_2
+Message is:
+Check L3_RT1_2
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758  151
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117  151
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 2 Problems Reported----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jul 04 11:59:05 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<34>         21758   61
+                r14_s1.1
+                 r849.1
+               rn55_s1.4
+           rn55_s1%pin_4_5.1
+To:   srt_sfp34_i2c_scl_edge 219117   61
+                 r849.2
+                u49.W12
+Common Devices:
+                  r849
+Message is:
+Check R849
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 11:59:39 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.2380M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+rn92_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn92_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   2.0994k
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 11:59:55 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   -1.2376M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+rn92_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn92_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   203.89
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 12:00:04 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.0000e+100
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 12:00:13 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   3.7137M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 12:00:22 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.8568M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 14:08:18 2023
+----------------------------------------
+p0_s0%grn HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6906
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p0_s0%yel HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.7048
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p1_s0%grn HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s0%yel HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s1%grn HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s0%grn HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.9553
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p2_s0%yel HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s1%yel HAS FAILED
+
+REPLACE DEVICE: p2_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6664
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p3_s0%grn HAS FAILED
+
+REPLACE DEVICE: p3_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p3_s1%grn HAS FAILED
+
+REPLACE DEVICE: p3_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.9153
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%grn HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3370
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%yel HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p6_s0%grn HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.5063
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p6_s0%yel HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p7_s0%grn HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3341
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p7_s0%yel HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p8_s0%yel HAS FAILED
+
+REPLACE DEVICE: p8_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27190D89
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 14:08:31 2023
+----------------------------------------
+p0_s0%grn HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6659
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p0_s0%yel HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.6984
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p1_s0%grn HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s0%yel HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s1%grn HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s0%grn HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.9482
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p2_s0%yel HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s1%yel HAS FAILED
+
+REPLACE DEVICE: p2_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6648
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p3_s0%grn HAS FAILED
+
+REPLACE DEVICE: p3_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p3_s1%grn HAS FAILED
+
+REPLACE DEVICE: p3_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.9189
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%grn HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3218
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%yel HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p6_s0%grn HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.5061
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p6_s0%yel HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p7_s0%grn HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3342
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p7_s0%yel HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p8_s0%yel HAS FAILED
+
+REPLACE DEVICE: p8_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27190D89
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 14:08:40 2023
+----------------------------------------
+p0_s0%grn HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6640
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p0_s0%yel HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.6962
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p1_s0%grn HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s0%yel HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s1%grn HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s0%grn HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.9467
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p2_s0%yel HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s1%yel HAS FAILED
+
+REPLACE DEVICE: p2_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6638
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p3_s0%grn HAS FAILED
+
+REPLACE DEVICE: p3_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p3_s1%grn HAS FAILED
+
+REPLACE DEVICE: p3_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.9269
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%grn HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3263
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%yel HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p6_s0%grn HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.5054
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p6_s0%yel HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p7_s0%grn HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3393
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p7_s0%yel HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p8_s0%yel HAS FAILED
+
+REPLACE DEVICE: p8_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27190D89
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 14:08:50 2023
+----------------------------------------
+p0_s0%grn HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6612
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p0_s0%yel HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.6953
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p1_s0%grn HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s0%yel HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s1%grn HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s0%grn HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.9479
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p2_s0%yel HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s1%yel HAS FAILED
+
+REPLACE DEVICE: p2_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6638
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p3_s0%grn HAS FAILED
+
+REPLACE DEVICE: p3_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p3_s1%grn HAS FAILED
+
+REPLACE DEVICE: p3_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.9116
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%grn HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3327
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%yel HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p6_s0%grn HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.5056
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p6_s0%yel HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p7_s0%grn HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3327
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p7_s0%yel HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p8_s0%yel HAS FAILED
+
+REPLACE DEVICE: p8_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27190D89
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 14:09:00 2023
+----------------------------------------
+p0_s0%grn HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6616
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p0_s0%yel HAS FAILED
+
+REPLACE DEVICE: p0_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.6952
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p1_s0%grn HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s0%yel HAS FAILED
+
+REPLACE DEVICE: p1_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p1_s1%grn HAS FAILED
+
+REPLACE DEVICE: p1_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s0%grn HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.9467
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p2_s0%yel HAS FAILED
+
+REPLACE DEVICE: p2_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p2_s1%yel HAS FAILED
+
+REPLACE DEVICE: p2_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.6642
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p3_s0%grn HAS FAILED
+
+REPLACE DEVICE: p3_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p3_s1%grn HAS FAILED
+
+REPLACE DEVICE: p3_s1
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   2.9184
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%grn HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3353
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p5_s0%yel HAS FAILED
+
+REPLACE DEVICE: p5_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p6_s0%grn HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.5065
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p6_s0%yel HAS FAILED
+
+REPLACE DEVICE: p6_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p7_s0%grn HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+Measured:   3.3242
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+p7_s0%yel HAS FAILED
+
+REPLACE DEVICE: p7_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+p8_s0%yel HAS FAILED
+
+REPLACE DEVICE: p8_s0
+25-1289-01 LED,BICO,Y-G,SM,20mA,I-TEMP,-
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27190D89
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 20:36:36 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   17.984k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 20:36:56 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   28.661k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 20:37:05 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   27.583k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 20:37:14 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   31.089k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+73-102898-01_03
+Tue Jul 04 20:37:23 2023
+----------------------------------------
+r144 HAS FAILED
+12-2607-02 RES,TKF,100 ohm,0.063W,1%,SM,
+Measured:   28.438k
+Nominal:    100.00
+High Limit: 130.00
+Low Limit:  80.000
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27100AC6
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 04:01:26 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: TSEN1_RTV2             220121  186
+              r5_91_rtv2.1
+               r05_rtv2.1
+To:   TSEN_R                  22221  186
+              r5_91_rtv2.2
+             u1_91_rtv2.36
+Common Devices:
+               r5_91_rtv2
+Message is:
+Check R5_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:01:50 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5084.9p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:02:10 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5125.3p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:02:19 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5142.6p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:02:28 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5148.4p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:02:38 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5161.9p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:07:31 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   4942.5p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:07:51 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   4986.7p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:08:00 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5021.4p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:08:09 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5036.8p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 04:08:18 2023
+----------------------------------------
+c181 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   5061.8p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+S/N:FLM27150PR1

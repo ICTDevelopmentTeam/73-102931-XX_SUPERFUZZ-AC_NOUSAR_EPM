@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520765  V1c7b                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:19 2022
+disconnect all
+connect s to "GND"
+connect i to "CPLD2_STROBE"
+!B!resistor 220, 12.27, 10.00, re3, ar500m
+resistor 220,30.0,20.00,re3,ar500m
+! "r62" test.

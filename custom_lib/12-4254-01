@@ -1,0 +1,12 @@
+!!!!   21    2    1 1647590627  Va1c3                                         
+
+!  12-4254-01 RES,TKF,174 ohm,0.063W,1%,SM
+
+resistor *, 174, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

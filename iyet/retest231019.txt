@@ -1,0 +1,65 @@
+----------------------------------------
+73-102898-01_03
+Thu Oct 19 14:33:39 2023
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM273909X4
+----------------------------------------
+73-102898-01_03
+Thu Oct 19 14:33:49 2023
+----------------------------------------
+cr5%grn HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM273909X4
+----------------------------------------
+TestJet Report for "testjet".
+Thu Oct 19 14:34:36 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u25
+  Pin 4  Node jtag_trst_l_sndn_muxed_3v3
+  Measured 1.4              (BRC 105166)
+15-2811-02 IC-LOGIC-BUFFER,TSSOP20,5V,-4
+----------------------------------------
+S/N:FLM273909X4

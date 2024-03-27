@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648039520   0000                                         
+! IPG: rev 09.20pc Wed Mar 23 20:45:21 2022
+! Common Lead Resistance 100m, Common Lead Inductance 1.00u
+! Fixture: EXPRESS
+disconnect all
+connect s to "P3_3VA"
+connect i to "FLTR_TSEN_P3V3_VCC"
+jumper 6.18, re1, ar200m
+! "r1031" test.
+! DUT: nominal 1, plus tol 0.00 %, minus tol 99.9 %
+! DUT: high 1, low 1m
+! TEST: high limit 6.177, low limit 3.874
+! Tolerance Multiplier 1.00
+! Remote Sensing is not Allowed

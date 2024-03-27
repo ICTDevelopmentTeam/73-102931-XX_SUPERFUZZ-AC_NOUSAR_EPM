@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863892   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:13 2022
+on failure
+   report parallel devices
+   report "r521"
+end on failure
+disconnect all
+connect i to "SNDN_CORE_CLK_VT1"
+connect s to "P3_3V"
+jumper 5.00k, re4, wb, ar200m, op
+! "c361" test.
+off failure

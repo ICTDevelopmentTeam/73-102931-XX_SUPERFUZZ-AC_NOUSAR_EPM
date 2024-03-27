@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863967   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+disconnect all
+connect s to "FLTR_P3V3_SFP_RX<11>_S1"
+connect i to "PWR_FUSED_SFP<11>_S1"
+jumper 5.94, re1, ar200m
+! "l8_s1" test.

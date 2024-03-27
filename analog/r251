@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863978   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:39 2022
+disconnect all
+connect i to "UNNAMED_69_AT90SO72_I676_MODE"
+connect s to "GND"
+jumper 5.94, re1, ar200m
+! "r251" test.

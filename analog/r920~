@@ -1,0 +1,9 @@
+!!!!    2    0    1 1675266530   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "FPGA_SNDN_I2C_CLK" ;  a to "FPGA_SNDN_I2C_CLK"
+connect i to "SRT_FPGA_SNDN_I2C_CLK" ;  b to "SRT_FPGA_SNDN_I2C_CLK"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+!resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar50m,en
+! "r920" is a limited test.

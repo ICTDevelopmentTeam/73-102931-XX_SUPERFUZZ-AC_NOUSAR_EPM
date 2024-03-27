@@ -1,0 +1,16 @@
+
+
+-------------------------------------------------------------------------------
+KEYSIGHT VECTORLESS TEST EP AUTODEBUG	Wed Aug 30, 2023 09:15:06 AM
+
+testjet
+-------------------------------------------------------------------------------
+
+Autodebugging u1_5.
+
+	Devices:         1
+	Pins:            29
+	Pins iVTEP:      1
+	Power, ground, and fixed pins: Not Reported
+	Pins commented:  0
+

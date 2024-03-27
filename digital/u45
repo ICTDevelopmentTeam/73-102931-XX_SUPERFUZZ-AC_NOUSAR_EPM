@@ -1,0 +1,62 @@
+!!!!    6    0    1 1652339439  Vf219                                         
+vector cycle  10u
+receive delay  8u
+
+default device "u45"
+set terminators to on
+assign VDD   to pins *
+assign GND   to pins *
+
+power VDD,GND
+
+assign AIN  to pins 1
+assign BIN  to pins 2
+assign YOUT to pins 4
+
+inputs  AIN,BIN
+outputs YOUT
+
+family LVT
+
+vector A0B0
+ set AIN  to "0"
+ set BIN  to "0"
+ set YOUT to "0"
+end vector
+
+vector A1B0
+ set AIN  to "1"
+ set BIN  to "0"
+ set YOUT to "0"
+end vector
+
+vector A0B1
+ set AIN  to "0"
+ set BIN  to "1"
+ set YOUT to "0"
+end vector
+
+vector A1B1
+ set AIN  to "1"
+ set BIN  to "1"
+ set YOUT to "1"
+end vector
+
+! ************************************************
+
+unit "AIN = 0, BIN = 0"
+ execute A0B0
+end unit
+
+unit "AIN = 1, BIN = 0"
+ execute A1B0
+end unit
+
+unit "AIN = 0, BIN = 1"
+ execute A0B1
+end unit
+
+unit "AIN = 1, BIN = 1"
+ execute A1B1
+end unit
+

@@ -1,0 +1,17 @@
+!!!!    2    0    1 1652163083  V2491                                         
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+   disconnect all
+   connect i to pins 4
+   connect l to pins 8
+
+   detector dcv, expect 1.65
+   measure 1.65 * 1.08, 1.65 * 0.92
+end subtest
+
+
+

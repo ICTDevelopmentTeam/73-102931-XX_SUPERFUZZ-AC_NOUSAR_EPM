@@ -1,0 +1,19 @@
+!!!!    6    0    1 1545099703  Va862                                         
+!setup lib
+
+assign VCC to pins 6
+assign GND to pins 3
+assign OUT1 to pins 4
+assign OUT2 to pins 5
+assign SDA to pins 7
+assign SCL to pins 8
+assign OE to pins 1
+assign ADD to pins2
+
+power VCC, GND
+inputs OE,ADD,SCL
+bidirectional SDA
+outputs OUT1, OUT2
+
+family LVT
+

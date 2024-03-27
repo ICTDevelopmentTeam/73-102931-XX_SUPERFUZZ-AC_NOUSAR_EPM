@@ -1,0 +1,55 @@
+{@BATCH|Board1|Rev|2500|1||Grading|220513150048|Grader|Cisco-10|testplan_bdg|i3070 09.10p WN(full)
+{@BTEST|Boundary Scan Interconnect Quality|00|220513150048|000028|0|all||n|1|220513150116||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150116|000026|0|all||n|2|220513150142||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150142|000026|0|all||n|3|220513150208||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150208|000025|0|all||n|4|220513150233||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150233|000026|0|all||n|5|220513150259||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150259|000026|0|all||n|6|220513150325||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150325|000026|0|all||n|7|220513150351||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150351|000026|0|all||n|8|220513150417||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150417|000026|0|all||n|9|220513150443||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}{@BTEST|Boundary Scan Interconnect Quality|00|220513150443|000026|0|all||n|10|220513150509||1
+{@BS-CON|u29_u1_3_aio|0|00000|00000}
+{@BS-CON|u29_u1_3|0|00000|00000}
+{@D-T|0|384||0|u29_u1_3_dis
+}
+}}
+{@BDG_END}
+*** END OF DATA *** 
+

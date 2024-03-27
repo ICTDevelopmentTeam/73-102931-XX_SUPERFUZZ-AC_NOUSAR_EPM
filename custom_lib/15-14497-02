@@ -1,0 +1,175 @@
+!!!!    6    0    1 1489802895  V7ff7                                         
+sequential
+
+vector cycle  10u
+receive delay  9u
+
+
+assign VCC  to pins 5
+assign GND  to pins 11
+
+assign NC   to pins 1,6,7,8,9,10
+assign NC   to pins 15,16,17,18,19
+assign NC   to pins 20,21
+
+assign RSTB to pins 4
+assign ADDR to pins 3,14,2  ! A2,A1,A0
+assign SDA  to pins 13
+assign SCL  to pins 12
+
+power   VCC,GND
+inputs  RSTB,SCL,ADDR
+bidirectional SDA
+nondigital NC
+
+disable SDA with RSTB to "0"
+
+family LVT
+set load on groups SDA to pull up
+pcf order SCAN is RSTB, ADDR, SCL, SDA
+
+! ******************************** ABUS = 000 ********************************
+unit "ACK Test"
+pcf
+  use pcf order SCAN
+  "0 000 11"   ! RST
+  "1 000 11"
+end pcf
+  wait 35m
+pcf
+  use pcf order SCAN
+  "1 000 11"    ! Init
+  "1 000 11"
+
+  "1 000 11"    ! P
+  "1 000 10"
+
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 00"
+  "1 000 10"
+
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 00"
+  "1 000 10"
+
+  "1 000 0X"
+  "1 000 1H"  ! NO ACK
+
+  "1 000 10"  ! P
+  "1 000 11"
+
+  "1 000 11"  ! Init
+  "1 000 11"
+
+  "1 000 11"  ! S
+  "1 000 10"
+
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 01"
+  "1 000 11"
+  "1 000 00"
+  "1 000 10"
+
+  "1 000 00"
+  "1 000 10"
+  "1 000 00"
+  "1 000 10"
+  "1 000 00"
+  "1 000 10"
+  "1 000 00"
+  "1 000 10"
+
+  "1 000 0X"
+  "1 000 1L"  ! ACK
+
+  "1 000 10"  ! P
+  "1 000 11"
+
+  "0 000 11"  ! Init
+  "0 000 11"
+
+  "0 000 11"  ! S
+  "0 000 10"
+
+  "0 000 01"
+  "0 000 11"
+  "0 000 01"
+  "0 000 11"
+  "0 000 01"
+  "0 000 11"
+  "0 000 00"
+  "0 000 10"
+
+  "0 000 00"
+  "0 000 10"
+  "0 000 00"
+  "0 000 10"
+  "0 000 00"
+  "0 000 10"
+  "0 000 00"
+  "0 000 10"
+
+  "0 000 0X"
+  "0 000 1H"  ! NO ACK
+
+  "0 000 10"  ! P
+  "0 000 11"
+end pcf
+
+pcf
+  use pcf order SCAN
+  "0 111 11"    ! RST
+  "1 111 11"
+end pcf
+  wait 35m
+pcf
+  use pcf order SCAN
+  "1 111 11"    ! Init
+  "1 111 11"
+
+  "1 111 11"    ! P
+  "1 111 10"
+
+  "1 111 01"
+  "1 111 11"
+  "1 111 01"
+  "1 111 11"
+  "1 111 01"
+  "1 111 11"
+  "1 111 00"
+  "1 111 10"
+
+  "1 111 01"
+  "1 111 11"
+  "1 111 01"
+  "1 111 11"
+  "1 111 01"
+  "1 111 11"
+  "1 111 00"
+  "1 111 10"
+
+  "1 111 0X"
+  "1 111 1L"  ! ACK
+
+  "1 111 10"  ! P
+  "1 111 11"
+end pcf
+end unit
+
+
+
+
+

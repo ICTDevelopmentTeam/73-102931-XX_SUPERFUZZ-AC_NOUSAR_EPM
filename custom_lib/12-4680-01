@@ -1,0 +1,13 @@
+!!!!   21    2    1 1550066740  V95d0                                         
+
+!#  12-4680-01
+!#  12-4680-01 RES,TKF,24.3 k ohm,0.063W
+!#  Wed Mar 18 10:50:10 2009
+
+resistor *, 24.3k, 1, 1, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

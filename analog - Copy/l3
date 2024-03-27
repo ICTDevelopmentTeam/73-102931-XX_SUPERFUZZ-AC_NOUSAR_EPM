@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863965   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:26 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "FLTR_P3V3_OSC_212M5"
+jumper 5.94, re1, ar200m
+! "l3" test.

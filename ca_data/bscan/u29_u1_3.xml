@@ -1,0 +1,167 @@
+<!-- Created Wed Jun 29 16:30:37 2022 from ITL Source digital/u29_u1_3 -->
+<Test name="u29_u1_3"><Type>"Boundary-Scan Interconnect Test"</Type>
+<Chain name="u29_u1_3"><ChainTCK><node name="SRT_JTAG_TCK_HDR_3V3" />
+<opensCoverage>Full</opensCoverage></ChainTCK>
+<ChainTMS><node name="JTAG_TMS_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTMS>
+<ChainTDI><node name="JTAG_TDI_HDR_CPLD1_3V3" /><opensCoverage>Full</opensCoverage></ChainTDI>
+<ChainTDO><node name="JTAG_TDO_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTDO>
+<ChainTRST><node name="JTAG_TRST_L_HDR_3V3" /><opensCoverage>Partial</opensCoverage></ChainTRST>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;0&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;1&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="JTAG_CABLE_PRSNT_L" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_CPU2JTAG_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_EXTLOOP_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_JTAG2CPU_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="TEST_ENABLE_3" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+</Chain>
+<Device name="u1_3"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="L9"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="N2"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="L11"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="L4"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="N1"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<DeviceEnable><Pin name="AL7"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AK1"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="K10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N9"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AL5"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+</Device>
+<Device name="u1_rt9"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u38"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Device name="u37"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Device name="u30"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Device name="u29"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Node name="NC_3257" /><Node name="NC_3258" /><Node name="NC_3261" /><Node name="NC_3263" />
+<Node name="NC_3264" /><Node name="NC_3265" /><Node name="NC_3266" /><Node name="NC_3268" />
+<Node name="NC_3271" /><Node name="NC_3272" /><Node name="NC_3274" /><Node name="NC_3275" />
+<Node name="NC_3276" /><Node name="NC_3277" /><Node name="NC_3279" /><Node name="NC_3280" />
+<Node name="NC_3281" /><Node name="NC_3284" /><Node name="NC_3286" /><Node name="NC_3287" />
+<Node name="NC_3288" /><Node name="NC_3289" /><Node name="NC_3291" /><Node name="NC_3294" />
+<Node name="NC_3295" /><Node name="NC_3297" /><Node name="NC_3298" /><Node name="NC_3299" />
+<Node name="NC_3300" /><Node name="NC_3302" /><Node name="NC_3303" /><Node name="NC_3304" />
+<Node name="NC_3307" /><Node name="NC_3309" /><Node name="NC_3310" /><Node name="NC_3311" />
+<Node name="NC_3312" /><Node name="NC_3314" /><Node name="NC_3317" /><Node name="NC_3318" />
+<Node name="NC_3320" /><Node name="NC_3321" /><Node name="NC_3322" /><Node name="NC_3323" />
+<Node name="NC_3325" /><Node name="NC_3326" /><Node name="NC_3327" /><Node name="NC_3330" />
+<Node name="NC_3332" /><Node name="NC_3333" /><Node name="NC_3334" /><Node name="NC_3335" />
+<Node name="NC_3337" /><Node name="NC_3340" /><Node name="NC_3341" /><Node name="NC_3342" />
+<Node name="NC_3343" /><Node name="NC_3345" /><Node name="NC_3346" /><Node name="NC_3348" />
+<Node name="NC_3349" /><Node name="RT1_M2_0_7_SYNCE_CLK" /><Node name="RT2_M2_0_7_SYNCE_CLK" />
+<Node name="RT3_M2_0_7_SYNCE_CLK" /><Node name="RT4_M2_0_7_SYNCE_CLK" />
+<Node name="RT5_M2_0_7_SYNCE_CLK" /><Node name="RT6_M2_0_7_SYNCE_CLK" />
+<Node name="RT7_M2_0_7_SYNCE_CLK" /><Node name="RT8_M2_0_7_SYNCE_CLK" />
+<Node name="RT9_M2_0_7_SYNCE_CLK" />
+</Test>

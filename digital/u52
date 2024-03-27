@@ -1,0 +1,26 @@
+!!!!    6    0    1 1647864690  Vff0d                                         
+! IPG: rev 09.20p  Mon Mar 21 20:11:31 2022
+!setup lib
+
+default device "u52"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+assign OUT1 to pins 4
+assign OUT2 to pins 5
+assign SDA to pins 7
+assign SCL to pins 8
+assign OE to pins 1
+assign ADD to pins2
+
+power VCC, GND
+inputs OE,ADD,SCL
+bidirectional SDA
+outputs OUT1, OUT2
+
+family LVT
+
+!IPG: Add defaults or loads to floating inputs and bidirs.
+assign Floating__Inputs to pins 2 default "0"
+inputs Floating__Inputs
+

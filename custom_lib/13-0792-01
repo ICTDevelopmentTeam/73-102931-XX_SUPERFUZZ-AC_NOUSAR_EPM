@@ -1,0 +1,15 @@
+!!!!   21    2    1 1565251510  Va8e4                                         
+
+!#  13-0792-01
+!#  13-0792-01 DIO,ZE,4.3V,50mA,SOT-23,BZ522
+!#  Fri Aug  1 12:00:47 2019
+
+diode "cr",0.80,0.40
+
+external pins 1
+   device "cr" pins "C"
+
+external pins 3
+   device "cr" pins "A"
+
+external pins 2; noconnect

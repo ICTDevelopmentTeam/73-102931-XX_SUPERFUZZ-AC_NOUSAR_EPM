@@ -1,0 +1,10 @@
+!!!!    2    0    1 1653010086  V6d1f                                         
+!* Top probe [SRT_CPU_PCIE_CLKOUT0_P] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:06:44 2022
+disconnect all
+connect s to "GND"
+connect i to "SRT_CPU_PCIE_CLKOUT0_P"
+connect g to "P3_3V"
+!B!resistor 200, 8.50, 6.00, re1, ar20.0m, ed, wa396u, sl
+resistor 200, 30.0, 20.0, re1, ar100m, ed, wa10m
+! "r1018" test.

@@ -1,0 +1,73 @@
+!!!!    6    0    1 1573461667  Vb38a                                         
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VCC to pins 10,1
+assign GND to pins 6,11
+
+assign DI    to pins 5
+assign DE    to pins 3
+assign RO    to pins 2
+assign A_Y   to pins 8
+assign B_Z   to pins 9
+assign RE    to pins 4
+assign NC    to pins 7
+
+power  VCC,GND
+inputs RE,DE,DI
+outputs A_Y,B_Z,RO
+nondigital NC
+
+family LVT
+
+! ******** I to Z ********
+
+vector RE_X_1110
+ set RE    to "0"
+ set DE    to "1"
+ set DI    to "1"
+ set A_Y   to "1"
+ set B_Z   to "0"
+ set RO    to "1"
+end vector
+
+vector RE_X_1001
+ set RE    to "x"
+ set DE    to "1"
+ set DI    to "0"
+ set A_Y   to "0"
+ set B_Z   to "1"
+end vector
+
+vector RE_0_0XZZ
+ set RE    to "0"
+ set DE    to "0"
+ set DI    to "x"
+ set A_Y   to "1" !z
+ set B_Z   to "1" !z
+!set RO    to "1"
+end vector
+
+vector RE_1_0XZZ
+ set RE    to "1"
+ set DE    to "0"
+ set DI    to "x"
+ set A_Y   to "0" !z
+ set B_Z   to "1" !z
+end vector
+
+
+!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+unit "A to Y"
+ execute RE_X_1110
+ execute RE_X_1001
+ execute RE_0_0XZZ
+ execute RE_1_0XZZ
+end unit
+
+
+

@@ -1,0 +1,11 @@
+!!!!   21    2    1 1130489275  Vce74                                         
+
+
+diode "led" , 2.4, 1.6, nr
+
+external pins 2
+   device "led" pins "A"
+
+external pins 1
+   device "led" pins "C"
+

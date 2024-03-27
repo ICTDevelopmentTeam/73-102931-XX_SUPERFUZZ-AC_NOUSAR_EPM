@@ -1,0 +1,31 @@
+!!!!    2    0    1 1552286062  V86d1                                         
+
+test powered analog
+  power     pins 5,4,3,2,15
+  nonanalog pins 7,9,10,1,13,11,8,14
+
+  test "VIN"
+  test "VOUT"
+
+end test
+
+! **********************************************************
+
+subtest "VIN"
+
+ connect i to pins 6
+ connect l to pins 2
+
+ detector dcv, expect 12.0  ! Modify during debug
+ measure 12.0 * 1.05, 12.0 * 0.95
+end subtest
+
+subtest "VOUT"
+
+ connect i to pins 12
+ connect l to pins 2
+
+ detector dcv, expect 3.3  ! Modify during debug
+ measure 3.3 * 1.05, 3.3 * 0.95
+end subtest
+

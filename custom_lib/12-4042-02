@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663165  V0e21                                         
+
+!  12-4042-02
+!  12-4042-02 RES,TKF,22.1 ohm,0.063W,1%,SM
+
+resistor *, 22.1, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

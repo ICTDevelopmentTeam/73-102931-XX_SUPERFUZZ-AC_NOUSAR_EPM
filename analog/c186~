@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651030318   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:12 2022
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "UNNAMED_4141_CAP_I133_B"; b to "UNNAMED_4141_CAP_I133_B"
+!B!capacitor 10u, 20.00, 20.00, fr1024, re1, ar100m, sa, sb, en, nocomp
+capacitor 10n,35.00,40.0,fr1024,re5,ar100m,sa,sb,nocomp
+! "c186" test.

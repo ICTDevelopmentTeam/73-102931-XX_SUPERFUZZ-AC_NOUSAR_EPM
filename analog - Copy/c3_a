@@ -1,0 +1,49 @@
+!!!!    2    0    1 1648516732  Vb7f8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:11 2022
+on failure
+report parallel devices
+report "c148 10.0u"
+report "c396 10.0u"
+report "c400 10.0u"
+report "c434 10.0u"
+report "c446 10.0u"
+report "c458 10.0u"
+report "c533 10.0u"
+report "c535 10.0u"
+report "c128 1.00u"
+report "c369 1.00u"
+report "c372 1.00u"
+report "c373 1.00u"
+report "c375 1.00u"
+report "c404 1.00u"
+report "c418 1.00u"
+report "c419 1.00u"
+report "c433 1.00u"
+report "c435 1.00u"
+report "c444 1.00u"
+report "c448 1.00u"
+report "c450 1.00u"
+report "c139 100n"
+report "c140 100n"
+report "c374 100n"
+report "c377 100n"
+report "c393 100n"
+report "c399 100n"
+report "c432 100n"
+report "c443 100n"
+report "c445 100n"
+report "c447 100n"
+report "c449 100n"
+report "c451 100n"
+report "c532 100n"
+report "c534 100n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P2_5VA"; b to "P2_5VA"
+connect g to "MIFPGA_POR_L"
+connect g to "UNNAMED_2_RES_I472_B_A"
+!B!capacitor 116.4u, 15.00, 15.07, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+capacitor 116.4u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+! "c3_a" test.
+off failure

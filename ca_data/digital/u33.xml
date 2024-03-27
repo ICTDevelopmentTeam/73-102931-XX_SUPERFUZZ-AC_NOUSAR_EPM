@@ -1,0 +1,42 @@
+
+<Test name = "u33">
+<FileList>
+<File name = "u33">
+<FilePath>C:/Agilent_ICT/boards/superfuzzAc/Superfuzz_AC_73-102898_01/digital/u33</FilePath>
+<LastModified>Tue Mar 22, 2022   4:59 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u33">
+<TestablePinList>
+<Pin name="1">
+<Type>Input</Type>
+</Pin>
+<Pin name="3">
+<Type>Input</Type>
+</Pin>
+<Pin name="4">
+<Type>Input</Type>
+</Pin>
+<Pin name="6">
+<Type>Output</Type>
+</Pin>
+<Pin name="7">
+<Type>Output</Type>
+</Pin>
+<Pin name="10">
+<Type>Input</Type>
+</Pin>
+<Pin name="13">
+<Type>Input</Type>
+</Pin>
+<Pin name="15">
+<Type>Input</Type>
+</Pin>
+<Pin name="16">
+<Type>Input</Type>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

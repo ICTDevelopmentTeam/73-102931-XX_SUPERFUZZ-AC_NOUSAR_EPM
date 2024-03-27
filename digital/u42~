@@ -1,0 +1,36 @@
+!!!!    6    0    1 1698710003   0000                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u42"
+set terminators to on
+assign   VCC       to pins   *,*,*
+assign   GND       to pins   *,*,*
+
+assign   All_A     to pins   3,*,5,6,*,8,9,10
+assign   All_B     to pins   *,*,19,18,*,16,15,14
+
+assign   Enable_bar  to pins   22
+assign   Dir         to pins   *
+
+family LVT_2V5
+family LVT_1V8 on All_B
+
+power    VCC, GND
+
+inputs   Enable_bar, Dir
+inputs   All_A
+outputs  All_B
+
+pcf order default SCAN is Enable_bar, Dir
+pcf order default SCAN is All_A, All_B
+
+unit
+pcf
+  "0 1 00101010 HLHLHLHL"
+  "0 1 01010101 LHLHLHLH"
+wait 200m
+  "1 1 10000000 HHHHHHHH"
+end pcf
+end unit
+

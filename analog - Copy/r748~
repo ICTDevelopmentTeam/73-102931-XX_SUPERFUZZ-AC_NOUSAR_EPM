@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520957  Va7a8                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "JTAG_SNDN_TCK" ;  a to "JTAG_SNDN_TCK"
+connect i to "SRT_JTAG_SNDN_TCK" ;  b to "SRT_JTAG_SNDN_TCK"
+!B!resistor 22, 28.73, 6.00, re2, ar500m ,sa,sb,ed,en
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r748" is a limited test.

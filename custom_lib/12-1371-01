@@ -1,0 +1,15 @@
+!!!!   21    2    1 1366820577   0000                                         
+
+!#  12-1368-01
+!#  RES,TF,82ohm,0.063W,5%,SM,0603,Pb-FREE
+!#  Created by reelaware
+!#  Wed Aug  6 18:43:40 2008
+
+resistor *, 130, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

@@ -1,0 +1,275 @@
+----------------------------------------
+73-102898-01_03
+Fri Oct 20 21:12:05 2023
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P5V
+Measured:   181.28m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3_3V
+Measured:   586.10m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3031
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT1
+Measured:   3.2610m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT2
+Measured:   3.9661m
+High Limit: 2.7000
+Low Limit:  2.3000
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.2185
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   6.7863m
+High Limit: 1.1000
+Low Limit:  890.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   3.2169m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P0_9V
+Measured:   5.4643m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   6.0138m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   2.2225m
+High Limit: 1.9440
+Low Limit:  1.6560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: ANT_5V
+Measured:   6.7848m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_GPS
+Measured:   9.2204m
+High Limit: 3.5640
+Low Limit:  3.0360
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   10.482m
+High Limit: 1.1000
+Low Limit:  900.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDD_P0V875
+Measured:   9.4815m
+High Limit: 1.0800
+Low Limit:  810.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   15.614m
+High Limit: 1.3200
+Low Limit:  1.0800
+Direct Current VOLTS
+----------------------------------------
+PS  1:  3.30 V  +.201 A 
+PS  2:   .02 V -0.000 A 
+PS  3: 12.08 V  -.547 A 
+PS  4: 12.10 V  +.250 A 
+PS  5:  3.30 V  +.034 A 
+PS  6: 20.00 V  +.114 A 
+PS  7: 12.10 V  +.154 A 
+PS  8: 12.10 V  +.190 A 
+PS  9:   .02 V -0.000 A 
+PS 10:   .02 V -0.000 A 
+PS 11: 12.10 V  +.084 A 
+PS 12: 12.10 V  +.125 A 
+PS 13:   .02 V -0.000 A 
+PS 14:   .02 V -0.000 A 
+PS 15: 12.10 V  -.106 A 
+PS 16: 12.10 V  +.412 A 
+----------------------------------------
+Shorts Report for "shorts".
+Fri Oct 20 22:13:20 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028   83
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   FLTR_VDDA_TX_0P9V_3     21715   83
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+Common Devices:
+                  l3_3
+                 l26_3
+                  u1_3
+Message is:
+Check L3_3 L26_3
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028   82
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   FLTR_VDDA_CLK_0P9V_3   215110   82
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+Common Devices:
+                  l4_3
+                 l28_3
+                  u1_3
+Message is:
+Check L4_3 L28_3
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028   84
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   AVDD_SENSE_N            22223   84
+                 p1_5.6
+                r01_5.1
+                r1008.2
+Common Devices:
+                 r1008
+Message is:
+Check R1008
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028   82
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   VDD_PH_3                10556   82
+               r4_98_5.1
+               u1_98_5.32
+Common Devices:
+                u1_98_5
+Message is:
+Check ExpectShort
+------End, 5 Problems Reported----------
+S/N:FLM27420563

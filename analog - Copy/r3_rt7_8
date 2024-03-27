@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519001  V2c99                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:00 2022
+disconnect all
+connect s to "GND"
+connect i to "RT7_RESET_L"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r3_rt7_8" test.

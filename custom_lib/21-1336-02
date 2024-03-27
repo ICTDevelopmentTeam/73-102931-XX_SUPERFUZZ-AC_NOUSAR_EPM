@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573441429  Vdcc7                                         
+
+!  21-1336-02
+!  21-1336-02 CP-THERMISTOR,PTC,6VDC,1.10A,
+
+jumper *, closed
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

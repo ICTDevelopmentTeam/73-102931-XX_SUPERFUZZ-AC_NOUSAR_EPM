@@ -1,0 +1,14 @@
+!!!!    2    0    1 1648516912  V864a                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:47 2022
+on failure
+report parallel devices
+report "c8_1v2s 2.20u"
+report "c7_1v2s 47.0n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "PMOD_PVCC_1V2S"
+!B!capacitor 4.447u, 20.00, 20.00, fr1024, re1, ar50.0m, nocomp
+capacitor 4.447u,35.00,40.0,fr1024,re1,ar100m,nocomp
+! "c6_1v2s" test.
+off failure

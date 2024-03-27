@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes SFP_GRN_R_L<7>_S0 P-Pin resistance"
+report "check nodes FPGA_SFP_LED_GRN_L<7> P-Pin resistance"
+end on failure
+disconnect all
+connect s to "SFP_GRN_R_L<7>_S0"
+connect i to "FPGA_SFP_LED_GRN_L<7>"
+resistor 10,20,100, re1, ar100m,ed
+off failure

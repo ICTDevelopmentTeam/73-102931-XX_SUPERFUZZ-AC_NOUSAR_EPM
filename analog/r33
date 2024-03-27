@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675180770   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:15 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "P3_3VA"                                                                                                                                           
+connect i to "UNNAMED_4134_RES_I290_A"                                                                                                                          
+connect g to "GND"                                                                                                                                              
+!B!resistor 1k, 10.00, 10.00, re3, ar100m, wa326u                                                                                                               
+!resistor 1k,25.00,20.00,re4,ar100m,ed                                                                                                                              
+resistor 1k,25.00,20.00,re4,ar50m,ed   !ADV                                                                                                                              
+! "r33" test.                                                                                                                                                   

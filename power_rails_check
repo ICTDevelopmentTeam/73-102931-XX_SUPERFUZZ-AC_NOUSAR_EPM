@@ -1,0 +1,154 @@
+pwr_check HAS PASSED
+Subtest: P12V
+Measured:   12.114
+High Limit: 12.600
+Low Limit:  11.400
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3_3V
+Measured:   689.40u
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P2_5VA
+Measured:   2.5044
+High Limit: 2.6250
+Low Limit:  2.3750
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3_3VA
+Measured:   3.3181
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT1
+Measured:   6.8938m
+High Limit: 2.6250
+Low Limit:  2.3750
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P2V5RT2
+Measured:   6.6353m
+High Limit: 2.6250
+Low Limit:  2.3750
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP1
+Measured:   2.3105
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_AVDD
+Measured:   3.4470m
+High Limit: 1.0400
+Low Limit:  960.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT2_DVDD
+Measured:   991.02u
+High Limit: 1.0400
+Low Limit:  960.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P0_9V
+Measured:   4.1364m
+High Limit: 936.00m
+Low Limit:  864.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_SFP0
+Measured:   2.3736
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_AVDD
+Measured:   5.3490m
+High Limit: 1.0400
+Low Limit:  960.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V8
+Measured:   1.1647m
+High Limit: 1.9800
+Low Limit:  1.6200
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P3V3_STBY
+Measured:   3.2964
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P5V
+Measured:   180.56m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: ANT_5V
+Measured:   912.13m
+High Limit: 5.2500
+Low Limit:  4.7500
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P3V3_GPS
+Measured:   3.1190m
+High Limit: 3.4650
+Low Limit:  3.1350
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: P1_1VA
+Measured:   1.1121
+High Limit: 1.1440
+Low Limit:  1.0560
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: P1V0RT1_DVDD
+Measured:   3.0312m
+High Limit: 1.0400
+Low Limit:  960.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS PASSED
+Subtest: PWR_1V8_ADOMAIN
+Measured:   1.8145
+High Limit: 1.8720
+Low Limit:  1.7280
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDD_P0V875
+Measured:   3.0745m
+High Limit: 972.00m
+Low Limit:  828.00m
+Direct Current VOLTS
+----------------------------------------
+pwr_check HAS FAILED
+Subtest: VDDHA_1P2V_MAIN
+Measured:   7.8812m
+High Limit: 1.2480
+Low Limit:  1.1520
+Direct Current VOLTS
+----------------------------------------

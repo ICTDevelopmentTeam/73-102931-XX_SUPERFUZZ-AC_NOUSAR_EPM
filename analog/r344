@@ -1,0 +1,13 @@
+!!!!    2    0    1 1648519589  Vb3eb                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:03 2022
+on failure
+report parallel devices
+report "r352 4.70k"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "CLK156M_RTM_BUF_CLK_SEL"
+!B!resistor 2.35k, 10.00, 10.00, re4, wb, ar500m
+resistor 2.35k,25.00,20.00,re4,wb,ar500m
+! "r344" test.
+off failure

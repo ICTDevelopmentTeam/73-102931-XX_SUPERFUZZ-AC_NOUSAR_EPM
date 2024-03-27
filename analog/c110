@@ -1,0 +1,9 @@
+!!!!    2    0    1 1656314463   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:51 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "PWR_1V8_ADOMAIN"                                                                                                                                  
+connect i to "UNNAMED_4141_CAP_I132_A"                                                                                                                          
+connect g to "GND"                                                                                                                                              
+!B!capacitor 220p, 27.27, 15.00, fr1024, re5, wb, ar20.0m, comp                                                                                                 
+capacitor 220p,35.0,35.00,fr8192,re4,wb,ar100m,comp,ed,en
+! "c110" test.                                                                                                                                                  

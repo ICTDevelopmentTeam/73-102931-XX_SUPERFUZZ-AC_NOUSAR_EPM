@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648516998  Vfe66                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:55 2022
+disconnect all
+connect s to "PMOD_DIF_RC_3V3"
+connect i to "PMOD_VDIF_3V3"
+connect g to "PMOD_FB_3V3"
+!B!capacitor 6.8n, 20.00, 20.00, fr1024, re4, wb, ar50.0m, nocomp
+capacitor 6.8n,35.00,40.00,fr1024,re4,wb,ar100m,nocomp
+! "c64_3v3" test.

@@ -1,0 +1,11 @@
+!!!!    2    0    1 1648517226  V4644                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:51 2022
+disconnect all
+connect s to "I2C_SCL_SFP<26>"
+connect a to "I2C_SCL_SFP<26>"
+connect i to "UNNAMED_3_RES_I170_B_S1"
+connect b to "UNNAMED_3_RES_I170_B_S1"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+resistor 33.2, 40, 20, ar50m, re2, sa, sb !JV
+!resistor 33.2, 40.0, 20.00, en, ed, ar200m, re2, sa, sb
+! "r6_s1" test.

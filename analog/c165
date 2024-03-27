@@ -1,0 +1,16 @@
+!!!!    2    0    1 1652766765   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:43 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c599 100n"                                                                                                                                              
+report "c600 100n"                                                                                                                                              
+report "c601 100n"                                                                                                                                              
+report "c602 100n"                                                                                                                                              
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "P3V3_STBY"                                                                                                                                        
+!B!capacitor 500n, 15.00, 15.00, fr1024, re2, ar50.0m, nocomp                                                                                                   
+capacitor 500n,30.00,40.0,fr1024,re4,ar100m,nocomp,wb,ed
+! "c165" test.                                                                                                                                                  
+off failure                                                                                                                                                     

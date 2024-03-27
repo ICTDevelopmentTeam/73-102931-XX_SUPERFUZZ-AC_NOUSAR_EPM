@@ -1,0 +1,78 @@
+Pins
+P
+Preshorts
+r
+Shorts
+S
+
+Auto Analog Debug
+D
+Calculate Test Limits ...
+L
+
+Analog Incircuit
+g
+Vectorless Test
+V
+Polarity Check
+k
+Connect Check
+c
+MagicTest
+M
+
+Fixture Power Supplies On
+x
+Fixture Power Supplies Off
+e
+
+Cpld Programming
+p
+Regulators Programming
+R
+
+Power_Supplies_PreProg
+C
+Power_Supplies_Disconnect
+i
+Power Supplies
+o
+Verify Channels
+C
+Digital Incircuit
+I
+Analog Functional
+n
+Act2 Programming
+A
+EEPROM Programming
+o
+Digital Functional
+F
+Analog Prepowered
+l
+
+BScan Powered Shorts
+h
+BScan Interconnect
+t
+BScan Incircuit
+B
+BScan Silicon Nails
+N
+Cover Extend
+o
+
+ScanWorks_Macros
+a
+
+Unpowered
+U
+Prepowered
+d
+Powered
+w
+
+Custom
+u
+

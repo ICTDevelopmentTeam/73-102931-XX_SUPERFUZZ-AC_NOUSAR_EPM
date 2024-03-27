@@ -1,0 +1,254 @@
+<!-- Created Wed Jun 29 11:04:19 2022 from ITL Source digital/u30_connect -->
+<Test name="u30_connect"><Type>"Boundary-Scan Connect Test"</Type>
+<Chain name="u29_u1_3"><ChainTCK><node name="SRT_JTAG_TCK_HDR_3V3" />
+<opensCoverage>Full</opensCoverage></ChainTCK>
+<ChainTMS><node name="JTAG_TMS_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTMS>
+<ChainTDI><node name="JTAG_TDI_HDR_CPLD1_3V3" /><opensCoverage>Full</opensCoverage></ChainTDI>
+<ChainTDO><node name="JTAG_TDO_HDR_3V3" /><opensCoverage>Full</opensCoverage></ChainTDO>
+<ChainTRST><node name="JTAG_TRST_L_HDR_3V3" /><opensCoverage>Partial</opensCoverage></ChainTRST>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;0&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="FPGA_SNDN_1P8_MS&lt;1&gt;" /><opensCoverage>Partial</opensCoverage>
+</ChainEnable>
+<ChainEnable><node name="JTAG_CABLE_PRSNT_L" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_CPU2JTAG_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_EXTLOOP_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="SNDN_JTAG2CPU_EN" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+<ChainEnable><node name="TEST_ENABLE_3" /><opensCoverage>Partial</opensCoverage></ChainEnable>
+</Chain>
+<Device name="u1_3"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="L9"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="N2"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="L11"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="L4"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="N1"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+<DeviceEnable><Pin name="AL7"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AK1"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="K10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N10"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="N9"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+<DeviceEnable><Pin name="AL5"><opensCoverage>Partial</opensCoverage></Pin></DeviceEnable>
+</Device>
+<Device name="u1_rt9"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt7_8"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt5_6"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt3_4"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u2_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u1_rt1_2"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="D7"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="B10"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="B9"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="B8"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<DeviceTRST><Pin name="D8"><opensCoverage>Partial</opensCoverage></Pin></DeviceTRST>
+</Device>
+<Device name="u38"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Device name="u37"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+<Device name="u30"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Full</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+<Pin name="2"><node name="SFP_RX_LOS_FPGA&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="3"><node name="FPGA_SFP_LED_YEL_L&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="4"><node name="FPGA_SFP_LED_GRN_L&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="5"><node name="FPGA_SFP_LED_GRN_L&lt;24&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="6"><node name="SFP_TX_FAULT_FPGA&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="9"><node name="FPGA_SFP_TX_DISABLE&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="10"><node name="SFP_MOD_ABS_FPGA&lt;25&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="11"><node name="SFP_MOD_ABS_FPGA&lt;24&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="13"><node name="SFP_RX_LOS_FPGA&lt;24&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="14"><node name="FPGA_SFP_LED_YEL_L&lt;24&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="19"><node name="FPGA_SFP_LED_YEL_L&lt;23&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="20"><node name="FPGA_SFP_LED_GRN_L&lt;23&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="21"><node name="SFP_TX_FAULT_FPGA&lt;24&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="22"><node name="FPGA_SFP_TX_DISABLE&lt;24&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="23"><node name="FPGA_SFP_TX_DISABLE&lt;23&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="24"><node name="SFP_MOD_ABS_FPGA&lt;23&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="26"><node name="SFP_RX_LOS_FPGA&lt;23&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="27"><node name="FPGA_SFP_LED_GRN_L&lt;22&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="28"><node name="SFP_TX_FAULT_FPGA&lt;23&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="32"><node name="SFP_MOD_ABS_FPGA&lt;22&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="34"><node name="SFP_RX_LOS_FPGA&lt;22&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="35"><node name="FPGA_SFP_LED_YEL_L&lt;22&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="38"><node name="SFP_TX_FAULT_FPGA&lt;18&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="39"><node name="FPGA_SFP_TX_DISABLE&lt;18&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="40"><node name="SFP_MOD_ABS_FPGA&lt;18&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="42"><node name="FPGA_SFP_LED_YEL_L&lt;17&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="43"><node name="FPGA_SFP_LED_GRN_L&lt;17&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="44"><node name="FPGA_CPLD2_SPI_SCK" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="45"><node name="CPLD2_FPGA_SPI_MISO" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="48"><node name="SFP_RX_LOS_FPGA&lt;17&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="49"><node name="FPGA_SFP_TX_DISABLE&lt;17&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="50"><node name="SFP_MOD_ABS_FPGA&lt;17&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="52"><node name="FPGA_SFP_LED_GRN_L&lt;16&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="54"><node name="SFP_TX_FAULT_FPGA&lt;17&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="56"><node name="FPGA_CPLD_RST_L" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="57"><node name="SFP_MOD_ABS_FPGA&lt;16&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="59"><node name="SFP_RX_LOS_FPGA&lt;16&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="60"><node name="FPGA_SFP_LED_YEL_L&lt;16&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="61"><node name="CPLD2_FPGA_DATA" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="62"><node name="FPGA_SFP_LED_GRN_L&lt;15&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="65"><node name="SFP_TX_FAULT_FPGA&lt;16&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="67"><node name="FPGA_SFP_TX_DISABLE&lt;16&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="69"><node name="CPLD2_STROBE" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="70"><node name="FPGA_CPLD2_SPI_CS_L" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="71"><node name="FPGA_CPLD2_SPI_MOSI" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="73"><node name="SFP_TX_FAULT_FPGA&lt;19&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="74"><node name="FPGA_SFP_LED_GRN_L&lt;18&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="75"><node name="FPGA_SFP_LED_YEL_L&lt;18&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="76"><node name="SFP_RX_LOS_FPGA&lt;18&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="77"><node name="SFP_RX_LOS_FPGA&lt;19&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="81"><node name="SFP_MOD_ABS_FPGA&lt;19&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="82"><node name="FPGA_SFP_TX_DISABLE&lt;19&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="83"><node name="FPGA_SFP_TX_DISABLE&lt;20&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="84"><node name="SFP_TX_FAULT_FPGA&lt;20&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="85"><node name="FPGA_SFP_LED_GRN_L&lt;19&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="86"><node name="FPGA_SFP_LED_YEL_L&lt;19&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="91"><node name="FPGA_SFP_LED_YEL_L&lt;20&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="92"><node name="SFP_RX_LOS_FPGA&lt;20&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="94"><node name="SFP_MOD_ABS_FPGA&lt;20&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="95"><node name="SFP_MOD_ABS_FPGA&lt;21&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="96"><node name="FPGA_SFP_TX_DISABLE&lt;21&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="97"><node name="SFP_TX_FAULT_FPGA&lt;21&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="98"><node name="FPGA_SFP_LED_GRN_L&lt;20&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="99"><node name="SFP_RX_LOS_FPGA&lt;21&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="104"><node name="FPGA_SFP_TX_DISABLE&lt;22&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="105"><node name="SFP_TX_FAULT_FPGA&lt;22&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="106"><node name="FPGA_SFP_LED_GRN_L&lt;21&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="107"><node name="FPGA_SFP_LED_YEL_L&lt;21&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="110"><node name="UNNAMED_4125_LCMXO2640U_I148_PT17CINITM" />
+<opensCoverage>Full</opensCoverage></Pin>
+<Pin name="111"><node name="FPGA_SFP_TX_DISABLE&lt;13&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="112"><node name="SFP_TX_FAULT_FPGA&lt;13&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="113"><node name="FPGA_SFP_LED_YEL_L&lt;13&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="114"><node name="SFP_RX_LOS_FPGA&lt;13&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="117"><node name="SFP_MOD_ABS_FPGA&lt;13&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="120"><node name="CPLD2_JTAGEN" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="121"><node name="SFP_TX_FAULT_FPGA&lt;14&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="122"><node name="FPGA_SFP_LED_GRN_L&lt;13&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="125"><node name="SFP_RX_LOS_FPGA&lt;14&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="127"><node name="SFP_MOD_ABS_FPGA&lt;14&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="128"><node name="FPGA_SFP_TX_DISABLE&lt;14&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="132"><node name="FPGA_SFP_LED_GRN_L&lt;14&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="133"><node name="FPGA_SFP_LED_YEL_L&lt;14&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="138"><node name="FPGA_SFP_TX_DISABLE&lt;15&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="139"><node name="SFP_TX_FAULT_FPGA&lt;15&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="140"><node name="FPGA_SFP_LED_YEL_L&lt;15&gt;" /><opensCoverage>Full</opensCoverage>
+</Pin>
+<Pin name="141"><node name="SFP_RX_LOS_FPGA&lt;15&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+<Pin name="143"><node name="SFP_MOD_ABS_FPGA&lt;15&gt;" /><opensCoverage>Full</opensCoverage></Pin>
+</Device>
+<Device name="u29"><FaultsCovered><DevicePresence>Full</DevicePresence>
+<DeviceOrientation>Full</DeviceOrientation><DeviceCorrect>Full</DeviceCorrect>
+<DeviceFunctional>Partial</DeviceFunctional></FaultsCovered>
+<DeviceTCK><Pin name="131"><opensCoverage>Full</opensCoverage></Pin></DeviceTCK>
+<DeviceTMS><Pin name="130"><opensCoverage>Full</opensCoverage></Pin></DeviceTMS>
+<DeviceTDI><Pin name="136"><opensCoverage>Full</opensCoverage></Pin></DeviceTDI>
+<DeviceTDO><Pin name="137"><opensCoverage>Full</opensCoverage></Pin></DeviceTDO>
+</Device>
+</Test>

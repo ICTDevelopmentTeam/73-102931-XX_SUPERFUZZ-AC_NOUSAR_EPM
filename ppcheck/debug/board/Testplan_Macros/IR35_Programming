@@ -1,0 +1,54 @@
+prerun
+dim IR_USER_CAP_PT_U1_3(32)
+dim IR_USER_PROG_PT_U1_3(6)
+dim IR_USER_VER_PT_U1_3(6)
+dim IR_CONFIG_CAP_PT_U1_3(5)
+dim IR_CONFIG_PROG_PT_U1_3(6)
+dim IR_CONFIG_VER_PT_U1_3(6)
+dim IR_USER_CAP_PT_U1_4(32)
+dim IR_USER_PROG_PT_U1_4(6)
+dim IR_USER_VER_PT_U1_4(6)
+dim IR_CONFIG_CAP_PT_U1_4(5)
+dim IR_CONFIG_PROG_PT_U1_4(6)
+dim IR_CONFIG_VER_PT_U1_4(6)
+dim IR_USER_CAP_PT_U1_5(32)
+dim IR_USER_PROG_PT_U1_5(6)
+dim IR_USER_VER_PT_U1_5(6)
+dim IR_CONFIG_CAP_PT_U1_5(5)
+dim IR_CONFIG_PROG_PT_U1_5(6)
+dim IR_CONFIG_VER_PT_U1_5(6)
+dim IR_USER_CAP_PT_U1_27(32)
+dim IR_USER_PROG_PT_U1_27(6)
+dim IR_USER_VER_PT_U1_27(6)
+dim IR_CONFIG_CAP_PT_U1_27(5)
+dim IR_CONFIG_PROG_PT_U1_27(6)
+dim IR_CONFIG_VER_PT_U1_27(6)
+dim IR_USER_CAP_PT_U1_8(32)
+dim IR_USER_PROG_PT_U1_8(6)
+dim IR_USER_VER_PT_U1_8(6)
+dim IR_CONFIG_CAP_PT_U1_8(5)
+dim IR_CONFIG_PROG_PT_U1_8(6)
+dim IR_CONFIG_VER_PT_U1_8(6)
+dim InvOn$[28]
+dim InvOff$[11]
+dim O$[128]
+dim Retry_Pintest$[168]
+dim Cycle_Vacuum$[128]
+dim Recycle_Vacuum$[128]
+call Initialize_Board_Constants
+call Initialize_Constants
+report level is report
+report is "debug/report"
+buffered reporting on
+log level is failures
+faon
+dim Psgroup(1:16)
+option bit 32
+call Enter_Second_Stage
+powered
+call Setup_Power_Supplies_Pre (Failed_In_Power_Supplies, PowerMsg$)
+call Program_ir35215 (Failed_In_Functional, Mode$ & DigitalFuncMsg$)
+log out "debug/log"
+log clear
+report out
+report is *

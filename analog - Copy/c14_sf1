@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517009  Vfda1                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:57 2022
+disconnect all
+connect s to "PMOD_FB_P3V3_SFP1_ALT"
+connect i to "PMOD_COMP_RC_P3V3_SFP1_ALT"
+!B!capacitor 8.2n, 20.00, 20.00, fr1024, re4, wb, ar100m, nocomp
+capacitor 8.2n,35.00,40.00,fr1024,re4,wb,ar100m,nocomp
+! "c14_sf1" test.

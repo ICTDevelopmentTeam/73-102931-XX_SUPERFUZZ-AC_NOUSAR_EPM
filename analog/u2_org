@@ -1,0 +1,32 @@
+!!!!    2    0    1 1647864658  V544c                                         
+! IPG: rev 09.20p  Mon Mar 21 20:10:59 2022
+
+!  19-100470-01
+!  19-100470-01 OSC,XO,CMOS,114.285MHz,25.0
+
+test powered analog
+   power pins 2
+   nonanalog pins 1,4
+
+   test "OUT"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "OUT"
+!  connect s to pins 1
+   connect rcva to pins 3
+   connect l to pins 2
+
+!  source dcv, am3.3, ico1, on
+   detector frequency, expect 7.14M     !Divided by 16
+   measure 7.14M * 1.05, 7.14M * 0.95
+end subtest
+
+
+
+!
+!  End test
+!

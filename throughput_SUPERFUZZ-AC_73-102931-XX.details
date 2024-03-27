@@ -1,0 +1,549 @@
+                              QuickReport Details
+                /F=/01_Programs/INSBU/73-102931-XX_SUPERFUZZ-AC
+                                73-102898-01_03
+                          Mon Feb 13, 2023 02:13:14 PM
+
+
+     By making suggested changes, tests could be made unstable.
+     Check test operation to verify testability after changes
+     are applied. Also backup files before you try the changes.
+
+
+POSSIBLE PRE-FIXTURE IMPROVEMENTS
+	Use Dual Well
+	Use Throughput Multiplier
+	Test panels where possible
+
+SHORTS
+	Check for phantom shorts during shorts testing.
+
+
+TESTPLAN
+
+     Fixture Vacuum                   
+         Vacuum defaults to 1.5s. The following statements meet
+         or exceed this time:
+
+		4427:    faon 2
+		8450: call Counter |  faon
+
+         You can improve test times by reducing these times to
+         as little as no delays.
+	       example: faon 0.0
+
+     sps Statements                   
+         The following statements do not have the optimize option.
+
+		4482:    sps 1,3.30,1.00
+		4484:    sps 6,20.0,1.00
+		4485:    sps 5,3.30,2.00  !P3V3_STBY
+		4545:    sps 5,3.30,2.00  !P3V3_STBY
+
+         Add the optimize option to improve test time.
+	       example: sps 5,10.00, 0.05;optimize
+
+     Object Checking                  
+         The default setting for object checking is on.
+
+		1814:   object checking on
+
+         Adding the "object checking off" statement in the
+         Initialize_Constants subroutine will increase production throughput.
+         Object checking can be useful during test development.
+
+     Interrupted Test Flow            
+         The following line numbers break up a test block
+         section, forcing the controller to leave the test mode.
+         This increases your test time.
+
+			2940, 4466, 4621, 4933, 4937-4939, 4944, 4948, 6434-6436, 6438-6442, 6465-6473, 6698, 6704, 6707, 6713, 6715, 6717, 6723, 6726, 6732, 6734, 6736, 6742, 6745, 6751, 6753, 6755, 6761, 6764, 6770, 6772, 6774, 6780, 6783, 6789, 6939-6942, 6948-6951, 6958, 6964-6966, 6972, 8544
+
+         Removing or moving the statements to the beginning
+         or end of the test block will improve test time.
+
+     gpconnect/disconnect             
+         The following lines in the testplan have
+         gpconnect or disconnect statements.
+
+		4479:    gpconnect "DB_PWR_EN" to "P3_3VA"
+
+         Moving these statements into individual device tests will
+         improve test time.
+
+     Waits                            
+         Check that the following "wait" statements in the
+         testplan are of the necessary length.
+
+		1570: wait 1
+		4420:    wait 1
+		4447:     wait 1
+		4457:   wait 5
+		4588:    wait 2
+		4613:    wait 2
+		4615:    wait 3
+		8449: wait 2
+		8683: wait 180m
+		8697: wait 1800m
+		8826: wait 3
+		8836: wait 3
+		8846: wait 3
+		8991:   wait 1
+
+
+BOARD CONFIG
+
+     Control XT/XTP                   
+
+         You are using the fastest control card available
+         today.
+
+     ASRU N Revision                  
+         The following modules/cards are not using
+         asru n revision.
+
+		module 0/ card 1
+		module 1/ card 1
+		module 2/ card 1
+		module 3/ card 1
+
+         Using asru n revision will improve test time.
+         (All ASRU cards must be the same revision to have improvement.)
+
+
+
+ANALOG
+
+    NOTE: Only the uncommented tests in the testorder file were evaluated.
+
+     Test Options                     
+         The following tests contain en, ed, fi options
+         or are without the ar option:
+
+analog/c2868:146 capacitor 4.544m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb,en,nocomp  ! ADV
+analog/c9_6:12 capacitor 122u, 38.26, 38.26, fr128, re1, ar100m,sa, sb,ed ! ADV
+analog/c8_6:12 capacitor 242u,35.00,40.0,fr128,re1,ar400m,sa,sb,ed  !ADV
+analog/c13_91_rtv1:153 capacitor 4.607m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb !ADV
+analog/c13_91_rtv2:187 capacitor 4.998m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb,en,nocomp
+analog/c228_3v3:57 capacitor 770.831u,35.00,40.0,fr128,re1,ar400m,ed,sm,sa !ADV
+analog/c13_98_rtv1:109 capacitor 3.535m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa !ADV
+analog/c13_98_rtv2:132 capacitor 3.669m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa  !ADV
+analog/c13_98_5:228 capacitor 7.9m,40.00,40.0,fr128,re1,ar10m,ed, en, nocomp, sm  !!!ADV 2
+analog/c419_3:32 capacitor 581.27u,35.00,40.0,fr128,re1,ar200m,ed,sa,sb !ADV
+analog/c19_1v2s:108 capacitor 1.509m,35.00,40.0,fr128,re1,ar600m,ed,sm,sa,sb,en  !ADV 
+analog/c23_a:207 capacitor 658.82u,35.00,40.0,fr128,re1,ar400m,ed,sm,sa,sb  !ADV                                                                                       
+analog/c221_5v:51 capacitor 644.422u,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb,nocomp !ADV
+analog/c3_a:47 capacitor 116.4u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+analog/c30:24 capacitor 69u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb,  nocomp !ADV
+analog/c1_q0:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+analog/c1_q1:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, en, nocomp
+analog/c1_q2:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, nocomp !ADV
+analog/c2_q0:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb,nocomp !ADV
+analog/c2_q1:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, nocomp !ADV
+analog/c2_q2:17 capacitor 88.4u, 25.00, 50.0, fr128, re1, ar100m, ed, sa, sb, nocomp !ADV
+analog/c19_sf1:180 capacitor 1.8m,35.00,40.0,fr128,re1,ar800m,ed,sm,sa,sb,nocomp !ADV
+analog/c529:59 capacitor 195.37u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb, nocomp !ADV
+analog/c19_sf0:172 capacitor 2.246m, 25.00, 50.0, fr128, re1, ar400m, ed, sm, sa, sb,nocomp !ADV
+analog/c78:27 capacitor 155u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb,nocomp !ADV
+analog/c90_rt1_2:27 capacitor 133.1u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb,nocomp !ADV
+analog/c13_91_5:368 capacitor 11m,40,30,fr128,re1,ar20m,ed,sm,sb,nocomp  !!! ADV 2
+analog/c703_3:11 capacitor 22.47u,35.00,40.0,fr128,re1,ar100m,ed,nocomp,en,wb
+analog/c705_3:11 capacitor 22.47u,35.00,40.0,fr128,re1,ar100m,ed,nocomp
+analog/c707_3:11 capacitor 22.47u,35.00,40.0,fr128,re1,ar100m,ed,nocomp
+analog/c709_3:11 capacitor 22.47u,35.00,40.0,fr128,re1,ar100m,ed,nocomp
+analog/c03_5:12 capacitor 10n,35.00,40.0,fr1024,re5,ar100m,sa,ed,en,nocomp
+analog/c03_rtv1:12 capacitor 10n,35.00,40.0,fr1024,re5,ar100m,sa,ed,en,nocomp                                                                                                      
+analog/c03_rtv2:12 capacitor 10n,35.00,40.0,fr1024,re5,ar100m,sa,ed,en,nocomp                                                                                                      
+analog/c04_5:12 capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,sa,ed,en,nocomp                                                                                                   
+analog/c04_rtv1:12 capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,sa,ed,en,nocomp                                                                                                   
+analog/c04_rtv2:12 capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,sa,ed,en,nocomp                                                                                                   
+analog/c10_5:12 capacitor 20n,35.00,40.0,fr1024,re5,wb,ar100m,nocomp,en                                                                                                            
+analog/c10_rtv1:11 capacitor 10n, 25.00, 50.0, fr1024, re3, ar100m, nocomp, ed, en
+analog/c10_rtv2:11 capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,nocomp,ed,en                                                                                                            
+analog/c21_pm:12 capacitor 100n,35.00,40.0,fr1024,re4,wb,ar100m,sa,sl,en,nocomp                                                                                                  
+analog/c165:14 capacitor 500n,30.00,40.0,fr1024,re4,ar100m,nocomp,wb,ed
+analog/c578:12 capacitor 100n,35.00,40.0,fr1024,re3,ar10m,sa,en,nocomp  !ADV 2                                                                                                    
+analog/c05_5:9 capacitor 220p,35.0,35.00,fr8192,re5,ed,en,ar100m,comp,wb
+analog/c05_rtv1:8 capacitor 220p,35,35,fr8192,re5,ar100m,comp,wb,ed,en                                                                                              
+analog/c05_rtv2:8 capacitor 220p,35,35,fr8192,re5,ar100m,comp,ed,en
+analog/c06_5:9 capacitor 220p,35,35,fr8192,re5,ar100m,comp,en !ADV
+analog/c06_rtv1:8 capacitor 220p,45,45,fr8192,re5,ar100m,comp,wb,ed,en
+analog/c06_rtv2:9 capacitor 220p,35,35,fr8192,re5,ar100m,comp,en !ADV                                                                                                       
+analog/c110:8 capacitor 220p,35.0,35.00,fr8192,re4,wb,ar100m,comp,ed,en
+analog/c06_91_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c06_91_rtv1:8 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en  !ADV                                                                                                           
+analog/c06_91_rtv2:8 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en  !ADV                                                                                                           
+analog/c06_92_5:8 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en !ADV                                                                                                            
+analog/c06_93_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c06_94_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c06_95_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c06_96_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                    
+analog/c06_98_5:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c06_98_rtv1:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                        
+analog/c06_98_rtv2:7 capacitor 470n,35.00,40.00,fr1024,re4,ar100m,nocomp,en                                                                                                             
+analog/c24_a:13 capacitor 100n,35.00,40.00,fr1024,re4,ar100m,en,sa ! ADV                                                                                                 
+analog/c87:12 capacitor 6.8p, 20.00, 20.00, fr8192, re1, ar100m, sa, sl, en, comp
+analog/c88:12 capacitor 6.8p, 20.00, 20.00, fr8192, re1, ar100m, sa, sl, en, comp
+analog/c389:9 capacitor 270p,35.0,35.0,fr8192,re5,wb,ar100m,comp,en !ADV
+analog/r16_a:12 resistor 10k,25.00,20.00,re4,wb,ar100m,wa20m,ed                                                                                                                 
+analog/r1844:12 resistor 10k,25.00,20.00,re4,wb,ar100m,wa10m,ed
+analog/r577:8 resistor 100k,25.00,25.00,re5,wb,ar100m,ed
+analog/r1015:9 resistor 100, 30.00, 20.00, re2, ar100m, wa10m, ed
+analog/r2_s0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed !ADV
+analog/r2_s1:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed !ADV
+analog/r4_s1:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,en     !ADV
+analog/r6_q0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed  !ADV
+analog/r6_q2:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,en !ADV
+analog/r6_s0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed !ADV
+analog/r6_s1:7 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+analog/r8_q0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,en !ADV
+analog/r8_q1:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed  !ADV
+analog/r8_q2:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,en !ADV
+analog/r8_s0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed  !ADV
+analog/r10_s1:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed  !ADV
+analog/r12_s0:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,en !ADV
+analog/r12_s1:8 resistor 33.2,40.0,20.00,re2,ar200m,sa,en !ADV
+analog/r16_s1:8 resistor 33.2,40.0,20.00,re2,ar200m,ed !ADV
+analog/r150:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r151:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r181:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r182:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r183:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r184:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r186:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r187:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r188:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r212:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r356:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r357:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r359:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r361:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r362:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r363:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r364:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r368:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r369:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r370:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r371:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r372:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r373:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r374:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r375:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r376:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r379:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r380:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r381:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r382:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r383:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r384:8 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r502:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r503:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r504:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r505:7 resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r09_5:13 resistor 1k,25.00,20.00,re4,ar100m,ed    !ADV                                                                                                              
+analog/r09_rtv1:13 resistor 1k,25.00,20.00,re3,ar100m,ed  !ADV                                                                                                                   
+analog/r09_rtv2:13 resistor 1k,25.00,20.00,re3,ar50m,ed !ADV
+analog/r12_a:9 resistor 1k,25.00,20.00,re3,ar50m,ed  !ADV                                                                                                                    
+analog/r28:9 resistor 1k,25.00,20.00,re3,ar50m,ed  !ADV                                                                                                                         
+analog/r29_3:10 resistor 1k,10.00,50.00,re3,ar50m,ed         !ADV
+analog/r33:9 resistor 1k,25.00,20.00,re4,ar50m,ed   !ADV                                                                                                                              
+analog/r34:9 resistor 1k,20.00,20.00,re4,ar50m,en  !ADV                                                                                                                             
+analog/rn38_s1%pin_3_6:7 resistor 1k, 25, 25, re3, ar100m, en, wb, ed, wa10m
+analog/rn38_s1%pin_4_5:7 resistor 1k,25.00,20.00,re4,ar100m,ed
+analog/rn48_s1%pin_3_6:7 resistor 1k,30.00,30.00,re3,ar100m, ed
+analog/rn107_s0%pin_3_6:8 resistor 1k,25.00,20.00,re3,ar50m,ed  !ADV
+analog/r4_6:9 resistor 124k, 30.00, 30.00,re6,wb,ar1.00,ed   !ADV
+analog/r4_a:9 resistor 56,30.0,20.00,re2,ar200m,en   !ADV
+analog/r7_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed !ADV
+analog/r8_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed  !ADV
+analog/r9_3:8 resistor 4.7k,25.00,20.00,re4,wb,ar200m,ed
+analog/r10_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed  !ADV
+analog/r11_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed !ADV
+analog/r13_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed  !ADV
+analog/r14_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed  !ADV
+analog/r21_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed  !ADV
+analog/r22_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed   !ADV
+analog/r53_3:11 resistor 4.7k,20.00,20.00,re4,ar50m,ed,wb  !ADV
+analog/r56_3:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed   !ADV
+analog/r57_3:8 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed    !ADV
+analog/r293:194 resistor 4.7k,25.00,99.00,re3,ar100m,ed,wa100m
+analog/r450:9 resistor 4.7k,25.00,20.00,re4,wb,ar50m,ed   !ADV
+analog/r1855_3:9 resistor 4.7k,25.00,20.00,re4,ar50m,ed   !ADV
+analog/r1856_3:8 resistor 4.7k,25.00,20.00,re4,ar50m,ed  !ADV
+analog/r10_5:9 resistor 13k,25.00,25.00,re5,ar50m,ed   !ADV
+analog/r10_rtv1:9 resistor 13k,25.00,25.00,re5,ar50m,ed     !ADV
+analog/r10_rtv2:9 resistor 13k,25.00,25.00,re5,ar50m,ed    !ADV
+analog/r10_pm:13 resistor 20k, 25, 25, re4, ar50m, ed   !ADV
+analog/r11_a:9 resistor 4.53k,25.00,20.00,re4,ar50m,ed   !adv
+analog/r14_a:9 resistor 4.42k,25.00,20.00,re4,ar50m,ed    !ADV
+analog/r15_a:9 resistor 30.1k,25.00,25.00,re5,ar50m, ed    !ADV
+analog/r306:9 resistor 30.1k,25.00,25.00,re5,ar50m,ed  !ADV
+analog/r16:8 resistor 33,40.0,20.00,re2,ar50m,en     !ADV
+analog/r40:8 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r41:8 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r45:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r89:8 resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r103:8 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r118:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r125:7 resistor 33,40.0,20.00,re2,ar50m,ed   !ADV
+analog/r135:7 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r136:7 resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+analog/r137:7 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r140:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r162:8 resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r200:12 resistor 16.5,50.0,20.00,re2,ar50m,en   !ADV
+analog/r202:12 resistor 16.5,50.0,20.00,re2,ar50m,en   !ADV
+analog/r322:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r324:8 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r325:8 resistor 33,40.0,20.00,re2,ar50m,en  !ADV
+analog/r326:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r544:7 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r546:8 resistor 33,40.0,20.00,re2,ar50m,en      !ADV
+analog/r547:8 resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+analog/r548:8 resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+analog/r554:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r587:8 resistor 33,40.0,20.00,re2,ar50m,en   !ADV
+analog/r610:7 resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r611:8 resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+analog/r649:8 resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+analog/r2439:8 resistor 33,40.0,20.00,re2,ar50m,en    !ADV
+analog/r19:8 resistor 75,30.0,20.00,re2,ar50m,ed        !ADV
+analog/r126:11 resistor 4.75k,25.00,20.00,re4,ar50m,ed   !ADV
+analog/r602:9 resistor 220,30.0,20.00,re3,ar50m,ed     !ADV
+analog/r46:8 resistor 22,40.0,20.00,re2,ar50m,ed  !ADV
+analog/r49:8 resistor 22,40.0,20.00,re2,ar50m,ed   !ADV
+analog/r60:8 resistor 22,40.0,20.00,re2,ar50m,ed   !ADV 
+analog/r114:8 resistor 22,40.0,20.00,re2,ar50m,ed    !ADV
+analog/r116:8 resistor 22,40.0,20.00,re2,ar50m,ed   !ADV
+analog/r177:8 resistor 22,40.0,20.00,re2,ar50m,ed   !ADV
+analog/r428:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r494:7 resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+analog/r596:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r662:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r667:8 resistor 22,40.0,20.00,re2,ar50m,en       !ADV
+analog/r670:8 resistor 22,40.0,20.00,re2,ar50m,en     !ADV
+analog/r674:8 resistor 22,40.0,20.00,re2,ar50m,en  !ADV
+analog/r675:7 resistor 22,40.0,20.00,re2,ar50m,en     !ADV
+analog/r676:8 resistor 22,40.0,20.00,re2,ar50m,en     !ADV
+analog/r677:8 resistor 22,40.0,20.00,re2,ar50m,en   !ADV
+analog/r678:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r679:8 resistor 22,40.0,20.00,re2,ar50m,en     !ADV
+analog/r717:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r748:8 resistor 22,40.0,20.00,re2,ar50m,en      !ADV
+analog/r867:8 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r868:8 resistor 22,40.0,20.00,re2,ar50m,en     !ADV
+analog/r920:8 resistor 22,40.0,20.00,re2,ar50m,en
+analog/r921:8 resistor 22,40.0,20.00,re2,ar50m,en
+analog/r922:8 resistor 22,40.0,20.00,re2,ar50m,en   !ADV
+analog/r1194:7 resistor 22,40.0,20.00,re2,ar50m,en    !ADV
+analog/r492:7 resistor 130,30.0,20.00,re3,ar100m,ed
+analog/r296:9 resistor 28.7,40.0,20.00,re2,ar50m,en  !ADV
+analog/r307:7 resistor 28.7,40.0,20.00,re2,ar50m,en    !ADV
+analog/r475:10 resistor 45.3, 30.00, 20.00,re1,ar100m,ed    !ADV
+analog/r477:7 resistor 45.3, 30.00, 20.00,re1,wb,ar200m,ed,en
+analog/r495:13 resistor 82.5,30.0,20.00,re1,ar100m,ed   !ADV
+analog/r496:13 resistor 82.5,30.0,20.00,re1,ar100m,ed            !ADV
+analog/r562:10 resistor 249k, 30.00, 30.00,re6,ar50m,ed    !ADV
+analog/r689:9 resistor 33.2k,25.0,25.00,re5,wb,ar50m,en     !ADV                                                                                                                       
+analog/r1017:9 resistor 200, 30.0, 20.0, re1, ar100m, ed, wa10m
+analog/r1018:9 resistor 200, 30.0, 20.0, re1, ar100m, ed, wa10m
+analog/r1136:8 resistor 332,20.0,20.0,re3,ar50m,en    !ADV
+analog/r1142:8 resistor 332,20.0,20.0,re3,ar50m,en    !ADV
+analog/cr1_q0%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+analog/cr1_q1%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+analog/cr1_q2%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+analog/cr2_q0%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+analog/cr2_q1%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+analog/cr2_q2%cr:19 warning "A 'wait' option may be required to correctly fail a reversed diode"                                                                                    
+
+         Removing the test option may improve test time.
+
+     Delays                           
+         The following tests contain dwa or wa waits:
+
+analog/r842_3v3:6 jumper 10, re1, ar200m, wa5m
+analog/c75:7 capacitor 100n,35.00,40.0,fr1024,re4,ar100m,nocomp, wa5m                                                                                                           
+analog/r16_a:12 resistor 10k,25.00,20.00,re4,wb,ar100m,wa20m,ed                                                                                                                 
+analog/r1844:12 resistor 10k,25.00,20.00,re4,wb,ar100m,wa10m,ed
+analog/r1015:9 resistor 100, 30.00, 20.00, re2, ar100m, wa10m, ed
+analog/r1016:9 resistor 100, 30.00, 20.00, re2, ar100m, wa5m
+analog/r62_3:8 resistor 1k,25.00,20.00,re3,ar100m,wa5m
+analog/rn38_s1%pin_3_6:7 resistor 1k, 25, 25, re3, ar100m, en, wb, ed, wa10m
+analog/r293:194 resistor 4.7k,25.00,99.00,re3,ar100m,ed,wa100m
+analog/r25_5:8 resistor 13k,25.00,25.00,re5,wb,ar100m,wa3.41m
+analog/r25_rtv1:8 resistor 13k,25.00,25.00,re5,wb,ar100m,wa3.41m
+analog/r25_rtv2:8 resistor 13k,25.00,25.00,re5,wb,ar100m,wa3.41m
+analog/r174_pm:8 resistor 20k,25.00,25.00,re5,wb,ar500m,wa5m
+analog/r24_5:12 resistor 2.4k,25.00,20.00,re4,wb,ar500m,wa5m
+analog/r24_rtv1:12 resistor 2.4k,25.00,20.00,re4,wb,ar500m,wa5m
+analog/r24_rtv2:12 resistor 2.4k,25.00,20.00,re4,wb,ar500m,wa5m
+analog/r1017:9 resistor 200, 30.0, 20.0, re1, ar100m, ed, wa10m
+analog/r1018:9 resistor 200, 30.0, 20.0, re1, ar100m, ed, wa10m
+analog/cr1%cr:7 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr1_q0%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr1_q1%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr1_q2%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr2_q0%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr2_q1%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr2_q2%cr:18 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr3%cr:7 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr8%cr:7 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr9%cr:11 diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+analog/cr2%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr4%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.6,wa20m                                                                                                                       
+analog/cr5%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr5%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.15,wa20m                                                                                                                       
+analog/cr6%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr6%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr7%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr7%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr10%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr10%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr11%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr11%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr13%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr14%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr16%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr17%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr18%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr19%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr22%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr25%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa30m                                                                                                                       
+analog/cr28%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr29%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr30%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr31%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr32%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr33%red:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr108%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p0_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p0_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p0_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p0_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q2%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_q2%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p1_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q2%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_q2%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p2_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p3_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p3_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p3_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p3_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p4_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p4_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p4_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p4_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p5_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p5_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p5_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p5_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p6_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p6_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p6_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p6_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p7_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p7_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p7_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p7_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p8_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p8_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p8_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p8_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p9_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p9_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p9_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p9_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p10_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p10_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p10_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p10_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p11_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p11_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p11_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p11_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p12_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p12_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p12_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p12_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p13_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p13_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p13_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p13_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p14_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p14_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p14_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p14_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p15_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p15_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p15_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p15_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p16_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p16_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p16_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p16_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p17_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p17_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p17_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p17_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p18_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p18_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p18_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p18_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p19_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p19_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p19_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p19_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p20_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p20_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p20_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p20_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p21_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p21_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p21_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p21_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p22_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p22_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p22_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p22_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p23_s0%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p23_s0%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p23_s1%grn:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/p23_s1%yel:7 diode 2.60,1.80,idc20m,co4.8,ar2.65,wa20m                                                                                                                       
+analog/cr101%blu:6 diode 3.80,2.80,idc20m,co6.0,ar3.80,wa20m                                                                                                                       
+analog/p5v%grn:6 diode 2.6,1.8,idc20m,co4.6,ar2.6,wa20m                                                                                                                       
+analog/p12v%grn:6 diode 2.6,1.80,idc20m,co4.6,ar2.6,wa20m                                                                                                                       
+
+         Removing or reducing the delays may improve test time.
+
+
+MIXED
+     Continue Statements              
+         The following tests have "continue analog" or
+         "continue digital" statements:
+
+mixed/u1_q0/analog:6   continue digital
+mixed/u1_q0/digital:43   continue analog
+mixed/u1_q0/digital:46   continue analog
+mixed/u1_q1/analog:6   continue digital
+mixed/u1_q1/digital:44   continue analog
+mixed/u1_q1/digital:47   continue analog
+mixed/u1_q2/analog:6   continue digital
+mixed/u1_q2/digital:44   continue analog
+mixed/u1_q2/digital:47   continue analog
+
+         To reduce test time, reduce the number of these
+         statements.

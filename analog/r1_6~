@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651024420  V04a3                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:08 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "UNNAMED_4143_5V2XV_I46_VFB2"                                                                                                                      
+connect g to "P3V3_GPS"                                                                                                                                         
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa62.8u                                                                                                         
+resistor 10k,25.00,20.00,re4,wb,ar100m                                                                                                                          
+! "r1_6" test.                                                                                                                                                  

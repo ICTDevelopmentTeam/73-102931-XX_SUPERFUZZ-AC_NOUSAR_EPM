@@ -1,0 +1,57 @@
+!!!!    6    0    1  865628250  Ve6f5                                         
+!
+!***  All contents copyright 2007 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:            74LVC1G07
+! Alias:                
+! Part Type:            VLSI
+! Description:          Single Non-Inverting Buffer
+! Manufacturer:         TI, IDT, Philips
+! Package Style:        5 pin SOT
+! Created:              Jan 03, 2007
+! Programmer:           sama
+! Tester:               HP3070
+! Processor:            VPU
+! Vector Format:        VCL
+! Testjet Testable:     yes
+! JTAG Device:          no
+! Fault coverage:       100%
+! Constraints:          
+! Cisco Part#:          15-6939-01
+
+assign VCC to pins 5
+assign GND to pins 3
+
+assign NC  to pins 1
+
+assign IN  to pins 2
+assign OUT to pins 4
+
+power   VCC,GND
+inputs  IN
+outputs OUT
+nondigital NC
+
+family LVT on OUT
+family LVT_1V5 on IN
+
+vector  OUT_0
+ set IN  to "0"
+ set OUT to "0"
+end vector
+
+vector  OUT_1
+ set IN  to "1"
+ set OUT to "1"
+end vector
+
+!*****************************************************************************
+
+unit  "OUT vs IN"
+ execute OUT_0
+ execute OUT_1
+end unit
+

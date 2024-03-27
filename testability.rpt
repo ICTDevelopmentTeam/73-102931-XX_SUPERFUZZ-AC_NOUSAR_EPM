@@ -1,0 +1,1409 @@
+
+                                                                                      TESTABILITY REPORT SUMMARY
+
+                                                                           C:/Agilent_ICT/boards/Superfuzz_AC_73-102898_01/
+                                                                                            73-102898-01_03
+
+                                                                                      Mon Mar 21, 2022 5:27:29 PM
+
+     RESULTS HAVE BEEN DERIVED FROM:
+       [X]           Board description and config entries
+       [X]           Information from library objects
+       [PARTIAL]     Information from bsdl objects
+       [ ]           Information from test generation
+       [ ]           Information from test compilation
+       [ ]           Information from AXI_tested_components file
+
+     AWARETEST XI RESULTS
+       Since AwareTest xi is enabled, most shorts and opens testing is being
+       done using X-ray inspection on the 5DX.
+       The file 'AXI_tested_components', which contains information from the
+       X-Ray system about which components are being X-Ray tested, was not
+       found.
+
+     MISSING LIBRARIES RESULTS
+       Library sources exist for all (4191) devices requiring them.
+
+     POLARITY CHECK TEST RESULTS
+       All 0 Capacitors will be tested using Polarity Check.
+       None are marked for "FUTURE" testing.
+
+     TESTJET RESULTS
+
+       52 of 4260 Pin Library and Connector devices will be tested using
+       TestJet.
+
+
+     KEEPOUTS/DEV-OUTLINES RESULTS
+       The bottom-side keepouts (0) appear to be sufficient for the bottom-side
+       devices using TestJet and/or Polarity Check with the Keepout method (0).
+
+
+     CONNECT CHECK RESULTS
+       None of the 4203 Pin Library devices will be tested using Connect Check.
+
+
+     SILICON NAILS RESULTS
+       None of the 4203 Pin Library devices will be tested using Silicon Nails.
+
+     BOUNDARY-SCAN RESULTS
+       15 of 4203 Library devices are in Boundary-Scan tests.  The number of
+       scan chains is 2.
+
+     HIGH VOLTAGE ZENER RESULTS
+       There are 0 high voltage zener devices.
+
+     TIED PINS RESULTS
+       Partial check: missing library objects.  
+       10 of 657 pins examined are tied high or low.
+
+     DISABLE METHODS RESULTS
+       Partial check: missing library objects.  
+       15 of 22 bussed pins cannot be disabled.
+
+     USEFUL DISABLING NODES RESULTS
+       Partial check: missing library objects.  
+       0 of 2 disabling pins examined are tied.  
+
+
+     NODE PROBING ACCESS RESULTS
+
+       1084 of 3456 nodes examined have no probing access.  
+       206 of 3456 nodes examined have marginal probing access.
+       All the guarded nodes have optimal access.
+
+     POWER NODE ACCESS RESULTS
+
+       2 of 2 power nodes examined have insufficient probing access.  
+       All (0) other nodes have sufficient, good probing access.
+       All the guarded nodes have optimal access.
+
+     GROUND NODE ACCESS RESULTS
+
+       The ground node has insufficient probing access.  
+
+       All the guarded nodes have optimal access.
+
+     CONFIG AND FIXTURE RESULTS
+       The configuration and the fixture type and size are consistent.
+
+     CONFIGURATION SIZE RESULTS
+       Partial check: missing library objects.  
+       The result shows that the board may fit in this configuration. The
+       accurate calculation will be done during Module Pin Assignment. More
+       cards may be required if resources are not enough.
+
+     DEVICE TEST RESULTS
+     The information necessary for this report is not yet available.
+
+     DEVICE DISABLE RESULTS
+     The information necessary for this report is not yet available.
+
+     SAFEGUARD ANALYSIS RESULTS
+     The information necessary for this report is not yet available.
+
+                                                                                      TESTABILITY REPORT DETAILS
+
+                                                                           C:/Agilent_ICT/boards/Superfuzz_AC_73-102898_01/
+                                                                                            73-102898-01_03
+
+                                                                                      Mon Mar 21, 2022 5:27:29 PM
+
+     RESULTS HAVE BEEN DERIVED FROM:
+       [X]           Board description and config entries
+       [X]           Information from library objects
+       [PARTIAL]     Information from bsdl objects
+       [ ]           Information from test generation
+       [ ]           Information from test compilation
+       [ ]           Information from AXI_tested_components file
+
+     AWARETEST XI RESULTS
+
+       Since AwareTest xi is enabled, most shorts and opens testing is being
+       done using X-ray inspection on the 5DX.
+
+       The file 'AXI_tested_components', which contains information from the
+       X-Ray system about which components are being X-Ray tested, was not
+       found.
+
+     MISSING LIBRARIES RESULTS
+
+       Library sources exist for all (4191) devices requiring them.
+
+       These devices do not have library sources, but are marked "Not Testable".
+       Part number "700-26993-01", used by:
+          U1_RT1_2A        U1_RT3_4A        U1_RT5_6A        U1_RT7_8A        
+          U1_RT9A          U2_RT1_2A        U2_RT3_4A        U2_RT5_6A        
+          U2_RT7_8A        
+       Part number "73-102884-01", used by:
+          U3               U87              
+       Part number "RFID", used by:
+          U39              
+
+       These devices do not have library sources, but are marked "No Library
+       Test Expected":
+       Part number "08-1199-01", used by:
+          U1_3             
+       Part number "15-104658-01", used by:
+          U1_RT1_2         U1_RT3_4         U1_RT5_6         U1_RT7_8         
+          U1_RT9           U2_RT1_2         U2_RT3_4         U2_RT5_6         
+          U2_RT7_8         
+       Part number "16-101568-01", used by:
+          U49              
+       Part number "17-16600-01", used by:
+          U29              U30              U37              
+       Part number "17-16601-01", used by:
+          U38              
+
+
+
+
+                                                                      Page 1
+
+
+     POLARITY CHECK TEST RESULTS
+
+       All 0 Capacitors will be tested using Polarity Check.
+       None are marked for "FUTURE" testing.
+
+     TESTJET RESULTS
+
+
+       52 of 4260 Pin Library and Connector devices will be tested using
+       TestJet.
+
+
+       These top-side Pin Library and Connector devices will be tested using
+       TestJet.
+       U1_5	(Keepout Method)	 
+       U1_91_5	(Keepout Method)	 
+       U1_92_5	(Keepout Method)	 
+       U1_93_5	(Keepout Method)	 
+       U1_94_5	(Keepout Method)	 
+       U1_95_5	(Keepout Method)	 
+       U1_96_5	(Keepout Method)	 
+       U1_RTV1	(Keepout Method)	 
+       U1_RTV2	(Keepout Method)	 
+       U3_A	(Keepout Method)	 
+       U5	(Keepout Method)	 
+       U6	(Keepout Method)	 
+       U7	(Keepout Method)	 
+       U13	(Keepout Method)	 
+       U17	(Keepout Method)	 
+       U24	(Keepout Method)	 
+       U25	(Keepout Method)	 
+       U28	(Keepout Method)	 
+       U30	(Keepout Method)	 
+       U33	(Keepout Method)	 
+       U35	(Keepout Method)	 
+       U36	(Keepout Method)	 
+       U38	(Keepout Method)	 
+       U40	(Keepout Method)	 
+       U45	(Keepout Method)	 
+       U49	(Keepout Method)	 
+       U50	(Keepout Method)	 
+       U54	(Keepout Method)	 
+       U56	(Keepout Method)	 
+       U59	(Keepout Method)	 
+       U63	(Keepout Method)	 
+       U72	(Keepout Method)	 
+       U96	(Keepout Method)	 
+       U103	(Keepout Method)	 
+       U106	(Keepout Method)	 
+       U107	(Keepout Method)	 
+       U108	(Keepout Method)	 
+
+
+       These bottom-side Pin Library and Connector devices will be tested using
+       TestJet.
+
+                                                                      Page 2
+
+       U13_PM	(Keepout Method)	 
+       U14	(Keepout Method)	 
+       U20	(Keepout Method)	 
+       U21	(Keepout Method)	 
+       U26	(Keepout Method)	 
+       U27	(Keepout Method)	 
+       U29	(Keepout Method)	 
+       U31	(Keepout Method)	 
+       U32	(Keepout Method)	 
+       U37	(Keepout Method)	 
+       U47	(Keepout Method)	 
+       U48	(Keepout Method)	 
+       U61	(Keepout Method)	 
+       U115	(Keepout Method)	 
+       U116	(Keepout Method)	 
+
+
+     KEEPOUTS/DEV-OUTLINES RESULTS
+
+       The bottom-side keepouts (0) appear to be sufficient for the bottom-side
+       devices using TestJet and/or Polarity Check with the Keepout method (0).
+
+
+     CONNECT CHECK RESULTS
+
+       None of the 4203 Pin Library devices will be tested using Connect Check.
+
+
+     SILICON NAILS RESULTS
+
+       None of the 4203 Pin Library devices will be tested using Silicon Nails.
+
+     BOUNDARY-SCAN RESULTS
+
+       15 of 4203 Library devices are in Boundary-Scan tests.  The number of
+       scan chains is 2.
+
+       Summary of Scan Chains and Devices
+       BOUNDARY SCAN CHAINS
+       U29_U1_3         
+          TDI JTAG_TDI_HDR_CPLD1_3V3
+          TDO JTAG_TDO_HDR_3V3
+          TCK SRT_JTAG_TCK_HDR_3V3
+          TMS JTAG_TMS_HDR_3V3
+          TRST JTAG_TRST_L_HDR_3V3
+             DEVICES
+               U29,  ! Full Test
+               U30,  ! Full Test
+               U37,  ! Full Test
+               U38,  ! Full Test
+               U1_RT1_2,  ! Full Test
+               U2_RT1_2,  ! Full Test
+               U1_RT3_4,  ! Full Test
+               U2_RT3_4,  ! Full Test
+               U1_RT5_6,  ! Full Test
+
+                                                                      Page 3
+
+               U2_RT5_6,  ! Full Test
+               U1_RT7_8,  ! Full Test
+               U2_RT7_8,  ! Full Test
+               U1_RT9,  ! Full Test
+               U1_3;  ! Full Test
+                              
+       U49_U49          
+          TDI JTAG_TDI_MIFPGA_3V3
+          TDO JTAG_TDO_MIFPGA_3V3
+          TCK SRT_JTAG_TCK_MIFPGA_3V3
+          TMS JTAG_TMS_MIFPGA_3V3
+             DEVICES
+               U49;  ! Full Test
+                              
+       !! Boundary Scan Disabling       is on.
+       !! Boundary Scan TAP Overdriving is off.
+       !! Boundary Scan Chain Override  is on.
+
+
+     HIGH VOLTAGE ZENER RESULTS
+
+       There are 0 high voltage zener devices.
+
+     TIED PINS RESULTS
+
+       Partial check: missing library objects.  
+       10 of 657 pins examined are tied high or low.
+
+       These device pins are used as VCL output or bidirectional pins, but are
+       connected to a fixed node.  Device damage may result:
+       U1_RTV1.18       U1_RTV2.18       
+
+       These device pins are used as VCL input pins, but are connected to a
+       fixed node.  Test coverage will be reduced:
+       U138.2           U138.4           U138.6           U138.11          
+       U138.13          U138.15          U1_RTV1.17       U1_RTV2.17       
+
+       These devices specified a part number, but are marked "Not Testable":
+       U1_RT1_2A        U1_RT3_4A        U1_RT5_6A        U1_RT7_8A        
+       U1_RT9A          U2_RT1_2A        U2_RT3_4A        U2_RT5_6A        
+       U2_RT7_8A        U3               U39              U87              
+
+       These devices specified a part number, but are marked "No Library Test
+       Expected":
+       U1_3             U1_RT1_2         U1_RT3_4         U1_RT5_6         
+       U1_RT7_8         U1_RT9           U29              U2_RT1_2         
+       U2_RT3_4         U2_RT5_6         U2_RT7_8         U30              
+       U37              U38              U49              
+
+       These devices did not have an associated library source or object, but
+       are marked "Not Testable":
+       Part number "700-26993-01", used by:
+          U1_RT1_2A        U1_RT3_4A        U1_RT5_6A        U1_RT7_8A        
+          U1_RT9A          U2_RT1_2A        U2_RT3_4A        U2_RT5_6A        
+
+                                                                      Page 4
+
+          U2_RT7_8A        
+       Part number "73-102884-01", used by:
+          U3               U87              
+       Part number "RFID", used by:
+          U39              
+
+       These devices did not have an associated library source or object, but
+       are marked "No Library Test Expected":
+       Part number "08-1199-01", used by:
+          U1_3             
+       Part number "15-104658-01", used by:
+          U1_RT1_2         U1_RT3_4         U1_RT5_6         U1_RT7_8         
+          U1_RT9           U2_RT1_2         U2_RT3_4         U2_RT5_6         
+          U2_RT7_8         
+       Part number "16-101568-01", used by:
+          U49              
+       Part number "17-16600-01", used by:
+          U29              U30              U37              
+       Part number "17-16601-01", used by:
+          U38              
+
+     DISABLE METHODS RESULTS
+
+       Partial check: missing library objects.  
+       15 of 22 bussed pins cannot be disabled.
+
+       These pins need to be disabled, but don't have disable methods in the
+       libraries:
+       U40.4            U40.5            U40.6            U40.10           
+       U40.11           U40.12           U40.13           U59.18           
+       U56.23           U13_PM.4         U1_5.9           U1_RTV1.9        
+       U1_RTV2.9        U1_RTV1.18       U1_RTV2.18       
+
+     USEFUL DISABLING NODES RESULTS
+
+       Partial check: missing library objects.  
+       0 of 2 disabling pins examined are tied.  
+
+
+     NODE PROBING ACCESS RESULTS
+
+
+       1084 of 3456 nodes examined have no probing access.  
+       206 of 3456 nodes examined have marginal probing access.
+       All the guarded nodes have optimal access.
+
+       These nodes have no probing access:
+       _D_U1_1V2S_25    _D_U1_3_P1       _D_U1_3_P2       _D_U1_RT1_2_N7   
+       _D_U1_RT3_4_N7   _D_U1_RT5_6_N7   _D_U1_RT7_8_N7   _D_U1_SF0_25     
+       _D_U1_SF1_25     _D_U2_RT1_2_N7   _D_U2_RT3_4_N7   _D_U2_RT5_6_N7   
+       _D_U2_RT7_8_N7   _D_U15_5V_25     _D_U16_3V3_25    _D_U24_21        
+       _D_U49_AA3       _D_U49_AA4       _D_U49_P1        _D_U49_P2        
+       _D_U49_W3        _D_U49_W4        AC_PCIE_RX_N_3   AC_PCIE_RX_P_3   
+       AC_SDC0_AC_RX_N_3
+       AC_SDC0_AC_RX_P_3
+       ANTENNA_GNSS_RF_CON_IN
+
+                                                                      Page 5
+
+       BV0_CLK_IN_AC_N_RT1_2
+       BV0_CLK_IN_AC_N_RT3_4
+       BV0_CLK_IN_AC_N_RT5_6
+       BV0_CLK_IN_AC_N_RT7_8
+       BV0_CLK_IN_AC_P_RT1_2
+       BV0_CLK_IN_AC_P_RT3_4
+       BV0_CLK_IN_AC_P_RT5_6
+       BV0_CLK_IN_AC_P_RT7_8
+       BV1_CLK_IN_AC_N_RT1_2
+       BV1_CLK_IN_AC_N_RT3_4
+       BV1_CLK_IN_AC_N_RT5_6
+       BV1_CLK_IN_AC_N_RT7_8
+       BV1_CLK_IN_AC_P_RT1_2
+       BV1_CLK_IN_AC_P_RT3_4
+       BV1_CLK_IN_AC_P_RT5_6
+       BV1_CLK_IN_AC_P_RT7_8
+       BV_CLK_IN_AC_N_RT9
+       BV_CLK_IN_AC_P_RT9
+       CLK25M_MI0_SYNC_E_REFCLK_N
+       CLK25M_MI0_SYNC_E_REFCLK_P
+       DPLL_SYNCE_GPIO7 
+       FPGA_LED_BMC_RED_L
+       HSD_PE_CPU_DAV_N HSD_PE_CPU_DAV_P 
+       HSD_PE_CPU_MIFPGA_AC_N
+       HSD_PE_CPU_MIFPGA_AC_P
+       HSD_PE_CPU_MIFPGA_N
+       HSD_PE_CPU_MIFPGA_P
+       HSD_PE_DAV_CPU_N HSD_PE_DAV_CPU_P 
+       HSD_PE_MIFPGA_CPU_N
+       HSD_PE_MIFPGA_CPU_P
+       HSD_QSFP0_IN_N<0>
+       HSD_QSFP0_IN_N<1>
+       HSD_QSFP0_IN_N<2>
+       HSD_QSFP0_IN_N<3>
+       HSD_QSFP0_IN_P<0>
+       HSD_QSFP0_IN_P<1>
+       HSD_QSFP0_IN_P<2>
+       HSD_QSFP0_IN_P<3>
+       HSD_QSFP0_OUT_N<0>
+       HSD_QSFP0_OUT_N<1>
+       HSD_QSFP0_OUT_N<2>
+       HSD_QSFP0_OUT_N<3>
+       HSD_QSFP0_OUT_P<0>
+       HSD_QSFP0_OUT_P<1>
+       HSD_QSFP0_OUT_P<2>
+       HSD_QSFP0_OUT_P<3>
+       HSD_QSFP1_IN_N<0>
+       HSD_QSFP1_IN_N<1>
+       HSD_QSFP1_IN_N<2>
+       HSD_QSFP1_IN_N<3>
+       HSD_QSFP1_IN_P<0>
+       HSD_QSFP1_IN_P<1>
+       HSD_QSFP1_IN_P<2>
+
+                                                                      Page 6
+
+       HSD_QSFP1_IN_P<3>
+       HSD_QSFP1_OUT_N<0>
+       HSD_QSFP1_OUT_N<1>
+       HSD_QSFP1_OUT_N<2>
+       HSD_QSFP1_OUT_N<3>
+       HSD_QSFP1_OUT_P<0>
+       HSD_QSFP1_OUT_P<1>
+       HSD_QSFP1_OUT_P<2>
+       HSD_QSFP1_OUT_P<3>
+       HSD_QSFP2_IN_N<0>
+       HSD_QSFP2_IN_N<1>
+       HSD_QSFP2_IN_N<2>
+       HSD_QSFP2_IN_N<3>
+       HSD_QSFP2_IN_P<0>
+       HSD_QSFP2_IN_P<1>
+       HSD_QSFP2_IN_P<2>
+       HSD_QSFP2_IN_P<3>
+       HSD_QSFP2_OUT_N<0>
+       HSD_QSFP2_OUT_N<1>
+       HSD_QSFP2_OUT_N<2>
+       HSD_QSFP2_OUT_N<3>
+       HSD_QSFP2_OUT_P<0>
+       HSD_QSFP2_OUT_P<1>
+       HSD_QSFP2_OUT_P<2>
+       HSD_QSFP2_OUT_P<3>
+       HSD_QSFP3_IN_N<0>
+       HSD_QSFP3_IN_N<1>
+       HSD_QSFP3_IN_N<2>
+       HSD_QSFP3_IN_N<3>
+       HSD_QSFP3_IN_P<0>
+       HSD_QSFP3_IN_P<1>
+       HSD_QSFP3_IN_P<2>
+       HSD_QSFP3_IN_P<3>
+       HSD_QSFP3_OUT_N<0>
+       HSD_QSFP3_OUT_N<1>
+       HSD_QSFP3_OUT_N<2>
+       HSD_QSFP3_OUT_N<3>
+       HSD_QSFP3_OUT_P<0>
+       HSD_QSFP3_OUT_P<1>
+       HSD_QSFP3_OUT_P<2>
+       HSD_QSFP3_OUT_P<3>
+       HSD_QSFP4_IN_N<0>
+       HSD_QSFP4_IN_N<1>
+       HSD_QSFP4_IN_N<2>
+       HSD_QSFP4_IN_N<3>
+       HSD_QSFP4_IN_P<0>
+       HSD_QSFP4_IN_P<1>
+       HSD_QSFP4_IN_P<2>
+       HSD_QSFP4_IN_P<3>
+       HSD_QSFP4_OUT_N<0>
+       HSD_QSFP4_OUT_N<1>
+       HSD_QSFP4_OUT_N<2>
+       HSD_QSFP4_OUT_N<3>
+
+                                                                      Page 7
+
+       HSD_QSFP4_OUT_P<0>
+       HSD_QSFP4_OUT_P<1>
+       HSD_QSFP4_OUT_P<2>
+       HSD_QSFP4_OUT_P<3>
+       HSD_QSFP5_IN_N<0>
+       HSD_QSFP5_IN_N<1>
+       HSD_QSFP5_IN_N<2>
+       HSD_QSFP5_IN_N<3>
+       HSD_QSFP5_IN_P<0>
+       HSD_QSFP5_IN_P<1>
+       HSD_QSFP5_IN_P<2>
+       HSD_QSFP5_IN_P<3>
+       HSD_QSFP5_OUT_N<0>
+       HSD_QSFP5_OUT_N<1>
+       HSD_QSFP5_OUT_N<2>
+       HSD_QSFP5_OUT_N<3>
+       HSD_QSFP5_OUT_P<0>
+       HSD_QSFP5_OUT_P<1>
+       HSD_QSFP5_OUT_P<2>
+       HSD_QSFP5_OUT_P<3>
+       HSD_RT_HOST_HS0_RX_S0_N<0>
+       HSD_RT_HOST_HS0_RX_S0_N<1>
+       HSD_RT_HOST_HS0_RX_S0_N<2>
+       HSD_RT_HOST_HS0_RX_S0_N<3>
+       HSD_RT_HOST_HS0_RX_S0_P<0>
+       HSD_RT_HOST_HS0_RX_S0_P<1>
+       HSD_RT_HOST_HS0_RX_S0_P<2>
+       HSD_RT_HOST_HS0_RX_S0_P<3>
+       HSD_RT_HOST_HS0_TX_S0_N<0>
+       HSD_RT_HOST_HS0_TX_S0_N<1>
+       HSD_RT_HOST_HS0_TX_S0_N<2>
+       HSD_RT_HOST_HS0_TX_S0_N<3>
+       HSD_RT_HOST_HS0_TX_S0_P<0>
+       HSD_RT_HOST_HS0_TX_S0_P<1>
+       HSD_RT_HOST_HS0_TX_S0_P<2>
+       HSD_RT_HOST_HS0_TX_S0_P<3>
+       HSD_RT_HOST_HS1_RX_S0_N<0>
+       HSD_RT_HOST_HS1_RX_S0_N<1>
+       HSD_RT_HOST_HS1_RX_S0_N<2>
+       HSD_RT_HOST_HS1_RX_S0_N<3>
+       HSD_RT_HOST_HS1_RX_S0_P<0>
+       HSD_RT_HOST_HS1_RX_S0_P<1>
+       HSD_RT_HOST_HS1_RX_S0_P<2>
+       HSD_RT_HOST_HS1_RX_S0_P<3>
+       HSD_RT_HOST_HS1_TX_S0_N<0>
+       HSD_RT_HOST_HS1_TX_S0_N<1>
+       HSD_RT_HOST_HS1_TX_S0_N<2>
+       HSD_RT_HOST_HS1_TX_S0_N<3>
+       HSD_RT_HOST_HS1_TX_S0_P<0>
+       HSD_RT_HOST_HS1_TX_S0_P<1>
+       HSD_RT_HOST_HS1_TX_S0_P<2>
+       HSD_RT_HOST_HS1_TX_S0_P<3>
+       HSD_RT_HOST_HS2_RX_S0_N<0>
+
+                                                                      Page 8
+
+       HSD_RT_HOST_HS2_RX_S0_N<1>
+       HSD_RT_HOST_HS2_RX_S0_N<2>
+       HSD_RT_HOST_HS2_RX_S0_N<3>
+       HSD_RT_HOST_HS2_RX_S0_P<0>
+       HSD_RT_HOST_HS2_RX_S0_P<1>
+       HSD_RT_HOST_HS2_RX_S0_P<2>
+       HSD_RT_HOST_HS2_RX_S0_P<3>
+       HSD_RT_HOST_HS2_TX_S0_N<0>
+       HSD_RT_HOST_HS2_TX_S0_N<1>
+       HSD_RT_HOST_HS2_TX_S0_N<2>
+       HSD_RT_HOST_HS2_TX_S0_N<3>
+       HSD_RT_HOST_HS2_TX_S0_P<0>
+       HSD_RT_HOST_HS2_TX_S0_P<1>
+       HSD_RT_HOST_HS2_TX_S0_P<2>
+       HSD_RT_HOST_HS2_TX_S0_P<3>
+       HSD_RT_HOST_HS3_RX_S0_N<0>
+       HSD_RT_HOST_HS3_RX_S0_N<1>
+       HSD_RT_HOST_HS3_RX_S0_N<2>
+       HSD_RT_HOST_HS3_RX_S0_N<3>
+       HSD_RT_HOST_HS3_RX_S0_P<0>
+       HSD_RT_HOST_HS3_RX_S0_P<1>
+       HSD_RT_HOST_HS3_RX_S0_P<2>
+       HSD_RT_HOST_HS3_RX_S0_P<3>
+       HSD_RT_HOST_HS3_TX_S0_N<0>
+       HSD_RT_HOST_HS3_TX_S0_N<1>
+       HSD_RT_HOST_HS3_TX_S0_N<2>
+       HSD_RT_HOST_HS3_TX_S0_N<3>
+       HSD_RT_HOST_HS3_TX_S0_P<0>
+       HSD_RT_HOST_HS3_TX_S0_P<1>
+       HSD_RT_HOST_HS3_TX_S0_P<2>
+       HSD_RT_HOST_HS3_TX_S0_P<3>
+       HSD_RT_HOST_HS4_RX_S0_N<0>
+       HSD_RT_HOST_HS4_RX_S0_N<1>
+       HSD_RT_HOST_HS4_RX_S0_N<2>
+       HSD_RT_HOST_HS4_RX_S0_N<3>
+       HSD_RT_HOST_HS4_RX_S0_P<0>
+       HSD_RT_HOST_HS4_RX_S0_P<1>
+       HSD_RT_HOST_HS4_RX_S0_P<2>
+       HSD_RT_HOST_HS4_RX_S0_P<3>
+       HSD_RT_HOST_HS4_TX_S0_N<0>
+       HSD_RT_HOST_HS4_TX_S0_N<1>
+       HSD_RT_HOST_HS4_TX_S0_N<2>
+       HSD_RT_HOST_HS4_TX_S0_N<3>
+       HSD_RT_HOST_HS4_TX_S0_P<0>
+       HSD_RT_HOST_HS4_TX_S0_P<1>
+       HSD_RT_HOST_HS4_TX_S0_P<2>
+       HSD_RT_HOST_HS4_TX_S0_P<3>
+       HSD_RT_HOST_HS5_RX_S0_N<0>
+       HSD_RT_HOST_HS5_RX_S0_N<1>
+       HSD_RT_HOST_HS5_RX_S0_N<2>
+       HSD_RT_HOST_HS5_RX_S0_N<3>
+       HSD_RT_HOST_HS5_RX_S0_P<0>
+       HSD_RT_HOST_HS5_RX_S0_P<1>
+
+                                                                      Page 9
+
+       HSD_RT_HOST_HS5_RX_S0_P<2>
+       HSD_RT_HOST_HS5_RX_S0_P<3>
+       HSD_RT_HOST_HS5_TX_S0_N<0>
+       HSD_RT_HOST_HS5_TX_S0_N<1>
+       HSD_RT_HOST_HS5_TX_S0_N<2>
+       HSD_RT_HOST_HS5_TX_S0_N<3>
+       HSD_RT_HOST_HS5_TX_S0_P<0>
+       HSD_RT_HOST_HS5_TX_S0_P<1>
+       HSD_RT_HOST_HS5_TX_S0_P<2>
+       HSD_RT_HOST_HS5_TX_S0_P<3>
+       HSD_RT_HOST_HS6_RX_S0_N<0>
+       HSD_RT_HOST_HS6_RX_S0_N<1>
+       HSD_RT_HOST_HS6_RX_S0_N<2>
+       HSD_RT_HOST_HS6_RX_S0_N<3>
+       HSD_RT_HOST_HS6_RX_S0_P<0>
+       HSD_RT_HOST_HS6_RX_S0_P<1>
+       HSD_RT_HOST_HS6_RX_S0_P<2>
+       HSD_RT_HOST_HS6_RX_S0_P<3>
+       HSD_RT_HOST_HS6_TX_S0_N<0>
+       HSD_RT_HOST_HS6_TX_S0_N<1>
+       HSD_RT_HOST_HS6_TX_S0_N<2>
+       HSD_RT_HOST_HS6_TX_S0_N<3>
+       HSD_RT_HOST_HS6_TX_S0_P<0>
+       HSD_RT_HOST_HS6_TX_S0_P<1>
+       HSD_RT_HOST_HS6_TX_S0_P<2>
+       HSD_RT_HOST_HS6_TX_S0_P<3>
+       HSD_RT_HOST_HS7_RX_S0_N<0>
+       HSD_RT_HOST_HS7_RX_S0_N<1>
+       HSD_RT_HOST_HS7_RX_S0_N<2>
+       HSD_RT_HOST_HS7_RX_S0_N<3>
+       HSD_RT_HOST_HS7_RX_S0_P<0>
+       HSD_RT_HOST_HS7_RX_S0_P<1>
+       HSD_RT_HOST_HS7_RX_S0_P<2>
+       HSD_RT_HOST_HS7_RX_S0_P<3>
+       HSD_RT_HOST_HS7_TX_S0_N<0>
+       HSD_RT_HOST_HS7_TX_S0_N<1>
+       HSD_RT_HOST_HS7_TX_S0_N<2>
+       HSD_RT_HOST_HS7_TX_S0_N<3>
+       HSD_RT_HOST_HS7_TX_S0_P<0>
+       HSD_RT_HOST_HS7_TX_S0_P<1>
+       HSD_RT_HOST_HS7_TX_S0_P<2>
+       HSD_RT_HOST_HS7_TX_S0_P<3>
+       HSD_RT_HOST_HS8_RX_S0_N<0>
+       HSD_RT_HOST_HS8_RX_S0_N<1>
+       HSD_RT_HOST_HS8_RX_S0_N<2>
+       HSD_RT_HOST_HS8_RX_S0_N<3>
+       HSD_RT_HOST_HS8_RX_S0_P<0>
+       HSD_RT_HOST_HS8_RX_S0_P<1>
+       HSD_RT_HOST_HS8_RX_S0_P<2>
+       HSD_RT_HOST_HS8_RX_S0_P<3>
+       HSD_RT_HOST_HS8_TX_S0_N<0>
+       HSD_RT_HOST_HS8_TX_S0_N<1>
+       HSD_RT_HOST_HS8_TX_S0_N<2>
+
+                                                                      Page 10
+
+       HSD_RT_HOST_HS8_TX_S0_N<3>
+       HSD_RT_HOST_HS8_TX_S0_P<0>
+       HSD_RT_HOST_HS8_TX_S0_P<1>
+       HSD_RT_HOST_HS8_TX_S0_P<2>
+       HSD_RT_HOST_HS8_TX_S0_P<3>
+       HSD_RT_HOST_HS9_RX_S0_N<0>
+       HSD_RT_HOST_HS9_RX_S0_N<1>
+       HSD_RT_HOST_HS9_RX_S0_N<2>
+       HSD_RT_HOST_HS9_RX_S0_N<3>
+       HSD_RT_HOST_HS9_RX_S0_P<0>
+       HSD_RT_HOST_HS9_RX_S0_P<1>
+       HSD_RT_HOST_HS9_RX_S0_P<2>
+       HSD_RT_HOST_HS9_RX_S0_P<3>
+       HSD_RT_HOST_HS9_TX_S0_N<0>
+       HSD_RT_HOST_HS9_TX_S0_N<1>
+       HSD_RT_HOST_HS9_TX_S0_N<2>
+       HSD_RT_HOST_HS9_TX_S0_N<3>
+       HSD_RT_HOST_HS9_TX_S0_P<0>
+       HSD_RT_HOST_HS9_TX_S0_P<1>
+       HSD_RT_HOST_HS9_TX_S0_P<2>
+       HSD_RT_HOST_HS9_TX_S0_P<3>
+       HSD_RT_HOST_HS10_RX_S0_N<0>
+       HSD_RT_HOST_HS10_RX_S0_N<1>
+       HSD_RT_HOST_HS10_RX_S0_N<2>
+       HSD_RT_HOST_HS10_RX_S0_N<3>
+       HSD_RT_HOST_HS10_RX_S0_P<0>
+       HSD_RT_HOST_HS10_RX_S0_P<1>
+       HSD_RT_HOST_HS10_RX_S0_P<2>
+       HSD_RT_HOST_HS10_RX_S0_P<3>
+       HSD_RT_HOST_HS10_TX_S0_N<0>
+       HSD_RT_HOST_HS10_TX_S0_N<1>
+       HSD_RT_HOST_HS10_TX_S0_N<2>
+       HSD_RT_HOST_HS10_TX_S0_N<3>
+       HSD_RT_HOST_HS10_TX_S0_P<0>
+       HSD_RT_HOST_HS10_TX_S0_P<1>
+       HSD_RT_HOST_HS10_TX_S0_P<2>
+       HSD_RT_HOST_HS10_TX_S0_P<3>
+       HSD_RT_HOST_HS11_RX_S0_N<0>
+       HSD_RT_HOST_HS11_RX_S0_N<1>
+       HSD_RT_HOST_HS11_RX_S0_N<2>
+       HSD_RT_HOST_HS11_RX_S0_N<3>
+       HSD_RT_HOST_HS11_RX_S0_P<0>
+       HSD_RT_HOST_HS11_RX_S0_P<1>
+       HSD_RT_HOST_HS11_RX_S0_P<2>
+       HSD_RT_HOST_HS11_RX_S0_P<3>
+       HSD_RT_HOST_HS11_TX_S0_N<0>
+       HSD_RT_HOST_HS11_TX_S0_N<1>
+       HSD_RT_HOST_HS11_TX_S0_N<2>
+       HSD_RT_HOST_HS11_TX_S0_N<3>
+       HSD_RT_HOST_HS11_TX_S0_P<0>
+       HSD_RT_HOST_HS11_TX_S0_P<1>
+       HSD_RT_HOST_HS11_TX_S0_P<2>
+       HSD_RT_HOST_HS11_TX_S0_P<3>
+
+                                                                      Page 11
+
+       HSD_RT_HOST_HS12_RX_S0_N<0>
+       HSD_RT_HOST_HS12_RX_S0_N<1>
+       HSD_RT_HOST_HS12_RX_S0_N<2>
+       HSD_RT_HOST_HS12_RX_S0_N<3>
+       HSD_RT_HOST_HS12_RX_S0_P<0>
+       HSD_RT_HOST_HS12_RX_S0_P<1>
+       HSD_RT_HOST_HS12_RX_S0_P<2>
+       HSD_RT_HOST_HS12_RX_S0_P<3>
+       HSD_RT_HOST_HS12_TX_S0_N<0>
+       HSD_RT_HOST_HS12_TX_S0_N<1>
+       HSD_RT_HOST_HS12_TX_S0_N<2>
+       HSD_RT_HOST_HS12_TX_S0_N<3>
+       HSD_RT_HOST_HS12_TX_S0_P<0>
+       HSD_RT_HOST_HS12_TX_S0_P<1>
+       HSD_RT_HOST_HS12_TX_S0_P<2>
+       HSD_RT_HOST_HS12_TX_S0_P<3>
+       HSD_RT_HOST_HS13_RX_S0_N<0>
+       HSD_RT_HOST_HS13_RX_S0_N<1>
+       HSD_RT_HOST_HS13_RX_S0_N<2>
+       HSD_RT_HOST_HS13_RX_S0_N<3>
+       HSD_RT_HOST_HS13_RX_S0_P<0>
+       HSD_RT_HOST_HS13_RX_S0_P<1>
+       HSD_RT_HOST_HS13_RX_S0_P<2>
+       HSD_RT_HOST_HS13_RX_S0_P<3>
+       HSD_RT_HOST_HS13_TX_S0_N<0>
+       HSD_RT_HOST_HS13_TX_S0_N<1>
+       HSD_RT_HOST_HS13_TX_S0_N<2>
+       HSD_RT_HOST_HS13_TX_S0_N<3>
+       HSD_RT_HOST_HS13_TX_S0_P<0>
+       HSD_RT_HOST_HS13_TX_S0_P<1>
+       HSD_RT_HOST_HS13_TX_S0_P<2>
+       HSD_RT_HOST_HS13_TX_S0_P<3>
+       HSD_RT_HOST_HS14_RX_S0_N<0>
+       HSD_RT_HOST_HS14_RX_S0_N<1>
+       HSD_RT_HOST_HS14_RX_S0_N<2>
+       HSD_RT_HOST_HS14_RX_S0_N<3>
+       HSD_RT_HOST_HS14_RX_S0_P<0>
+       HSD_RT_HOST_HS14_RX_S0_P<1>
+       HSD_RT_HOST_HS14_RX_S0_P<2>
+       HSD_RT_HOST_HS14_RX_S0_P<3>
+       HSD_RT_HOST_HS14_TX_S0_N<0>
+       HSD_RT_HOST_HS14_TX_S0_N<1>
+       HSD_RT_HOST_HS14_TX_S0_N<2>
+       HSD_RT_HOST_HS14_TX_S0_N<3>
+       HSD_RT_HOST_HS14_TX_S0_P<0>
+       HSD_RT_HOST_HS14_TX_S0_P<1>
+       HSD_RT_HOST_HS14_TX_S0_P<2>
+       HSD_RT_HOST_HS14_TX_S0_P<3>
+       HSD_RT_HOST_HS15_RX_S0_N<0>
+       HSD_RT_HOST_HS15_RX_S0_N<1>
+       HSD_RT_HOST_HS15_RX_S0_N<2>
+       HSD_RT_HOST_HS15_RX_S0_N<3>
+       HSD_RT_HOST_HS15_RX_S0_P<0>
+
+                                                                      Page 12
+
+       HSD_RT_HOST_HS15_RX_S0_P<1>
+       HSD_RT_HOST_HS15_RX_S0_P<2>
+       HSD_RT_HOST_HS15_RX_S0_P<3>
+       HSD_RT_HOST_HS15_TX_S0_N<0>
+       HSD_RT_HOST_HS15_TX_S0_N<1>
+       HSD_RT_HOST_HS15_TX_S0_N<2>
+       HSD_RT_HOST_HS15_TX_S0_N<3>
+       HSD_RT_HOST_HS15_TX_S0_P<0>
+       HSD_RT_HOST_HS15_TX_S0_P<1>
+       HSD_RT_HOST_HS15_TX_S0_P<2>
+       HSD_RT_HOST_HS15_TX_S0_P<3>
+       HSD_RT_HOST_HS16_RX_S0_N<0>
+       HSD_RT_HOST_HS16_RX_S0_N<1>
+       HSD_RT_HOST_HS16_RX_S0_N<2>
+       HSD_RT_HOST_HS16_RX_S0_N<3>
+       HSD_RT_HOST_HS16_RX_S0_P<0>
+       HSD_RT_HOST_HS16_RX_S0_P<1>
+       HSD_RT_HOST_HS16_RX_S0_P<2>
+       HSD_RT_HOST_HS16_RX_S0_P<3>
+       HSD_RT_HOST_HS16_TX_S0_N<0>
+       HSD_RT_HOST_HS16_TX_S0_N<1>
+       HSD_RT_HOST_HS16_TX_S0_N<2>
+       HSD_RT_HOST_HS16_TX_S0_N<3>
+       HSD_RT_HOST_HS16_TX_S0_P<0>
+       HSD_RT_HOST_HS16_TX_S0_P<1>
+       HSD_RT_HOST_HS16_TX_S0_P<2>
+       HSD_RT_HOST_HS16_TX_S0_P<3>
+       HSD_RT_HOST_HS17_RX_S0_N<0>
+       HSD_RT_HOST_HS17_RX_S0_N<1>
+       HSD_RT_HOST_HS17_RX_S0_N<2>
+       HSD_RT_HOST_HS17_RX_S0_N<3>
+       HSD_RT_HOST_HS17_RX_S0_P<0>
+       HSD_RT_HOST_HS17_RX_S0_P<1>
+       HSD_RT_HOST_HS17_RX_S0_P<2>
+       HSD_RT_HOST_HS17_RX_S0_P<3>
+       HSD_RT_HOST_HS17_TX_S0_N<0>
+       HSD_RT_HOST_HS17_TX_S0_N<1>
+       HSD_RT_HOST_HS17_TX_S0_N<2>
+       HSD_RT_HOST_HS17_TX_S0_N<3>
+       HSD_RT_HOST_HS17_TX_S0_P<0>
+       HSD_RT_HOST_HS17_TX_S0_P<1>
+       HSD_RT_HOST_HS17_TX_S0_P<2>
+       HSD_RT_HOST_HS17_TX_S0_P<3>
+       HSD_SFP_IN_N<0>  HSD_SFP_IN_N<1>  HSD_SFP_IN_N<2>  HSD_SFP_IN_N<3>  
+       HSD_SFP_IN_N<4>  HSD_SFP_IN_N<5>  HSD_SFP_IN_N<6>  HSD_SFP_IN_N<7>  
+       HSD_SFP_IN_N<8>  HSD_SFP_IN_N<9>  HSD_SFP_IN_N<10> HSD_SFP_IN_N<11> 
+       HSD_SFP_IN_N<12> HSD_SFP_IN_N<13> HSD_SFP_IN_N<14> HSD_SFP_IN_N<15> 
+       HSD_SFP_IN_N<16> HSD_SFP_IN_N<17> HSD_SFP_IN_N<18> HSD_SFP_IN_N<19> 
+       HSD_SFP_IN_N<20> HSD_SFP_IN_N<21> HSD_SFP_IN_N<22> HSD_SFP_IN_N<23> 
+       HSD_SFP_IN_N<24> HSD_SFP_IN_N<25> HSD_SFP_IN_N<26> HSD_SFP_IN_N<27> 
+       HSD_SFP_IN_N<28> HSD_SFP_IN_N<29> HSD_SFP_IN_N<30> HSD_SFP_IN_N<31> 
+       HSD_SFP_IN_N<32> HSD_SFP_IN_N<33> HSD_SFP_IN_N<34> HSD_SFP_IN_N<35> 
+       HSD_SFP_IN_N<36> HSD_SFP_IN_N<37> HSD_SFP_IN_N<38> HSD_SFP_IN_N<39> 
+
+                                                                      Page 13
+
+       HSD_SFP_IN_N<40> HSD_SFP_IN_N<41> HSD_SFP_IN_N<42> HSD_SFP_IN_N<43> 
+       HSD_SFP_IN_N<44> HSD_SFP_IN_N<45> HSD_SFP_IN_N<46> HSD_SFP_IN_N<47> 
+       HSD_SFP_IN_P<0>  HSD_SFP_IN_P<1>  HSD_SFP_IN_P<2>  HSD_SFP_IN_P<3>  
+       HSD_SFP_IN_P<4>  HSD_SFP_IN_P<5>  HSD_SFP_IN_P<6>  HSD_SFP_IN_P<7>  
+       HSD_SFP_IN_P<8>  HSD_SFP_IN_P<9>  HSD_SFP_IN_P<10> HSD_SFP_IN_P<11> 
+       HSD_SFP_IN_P<12> HSD_SFP_IN_P<13> HSD_SFP_IN_P<14> HSD_SFP_IN_P<15> 
+       HSD_SFP_IN_P<16> HSD_SFP_IN_P<17> HSD_SFP_IN_P<18> HSD_SFP_IN_P<19> 
+       HSD_SFP_IN_P<20> HSD_SFP_IN_P<21> HSD_SFP_IN_P<22> HSD_SFP_IN_P<23> 
+       HSD_SFP_IN_P<24> HSD_SFP_IN_P<25> HSD_SFP_IN_P<26> HSD_SFP_IN_P<27> 
+       HSD_SFP_IN_P<28> HSD_SFP_IN_P<29> HSD_SFP_IN_P<30> HSD_SFP_IN_P<31> 
+       HSD_SFP_IN_P<32> HSD_SFP_IN_P<33> HSD_SFP_IN_P<34> HSD_SFP_IN_P<35> 
+       HSD_SFP_IN_P<36> HSD_SFP_IN_P<37> HSD_SFP_IN_P<38> HSD_SFP_IN_P<39> 
+       HSD_SFP_IN_P<40> HSD_SFP_IN_P<41> HSD_SFP_IN_P<42> HSD_SFP_IN_P<43> 
+       HSD_SFP_IN_P<44> HSD_SFP_IN_P<45> HSD_SFP_IN_P<46> HSD_SFP_IN_P<47> 
+       HSD_SFP_OUT_N<0> HSD_SFP_OUT_N<1> HSD_SFP_OUT_N<2> HSD_SFP_OUT_N<3> 
+       HSD_SFP_OUT_N<4> HSD_SFP_OUT_N<5> HSD_SFP_OUT_N<6> HSD_SFP_OUT_N<7> 
+       HSD_SFP_OUT_N<8> HSD_SFP_OUT_N<9> 
+       HSD_SFP_OUT_N<10>
+       HSD_SFP_OUT_N<11>
+       HSD_SFP_OUT_N<12>
+       HSD_SFP_OUT_N<13>
+       HSD_SFP_OUT_N<14>
+       HSD_SFP_OUT_N<15>
+       HSD_SFP_OUT_N<16>
+       HSD_SFP_OUT_N<17>
+       HSD_SFP_OUT_N<18>
+       HSD_SFP_OUT_N<19>
+       HSD_SFP_OUT_N<20>
+       HSD_SFP_OUT_N<21>
+       HSD_SFP_OUT_N<22>
+       HSD_SFP_OUT_N<23>
+       HSD_SFP_OUT_N<24>
+       HSD_SFP_OUT_N<25>
+       HSD_SFP_OUT_N<26>
+       HSD_SFP_OUT_N<27>
+       HSD_SFP_OUT_N<28>
+       HSD_SFP_OUT_N<29>
+       HSD_SFP_OUT_N<30>
+       HSD_SFP_OUT_N<31>
+       HSD_SFP_OUT_N<32>
+       HSD_SFP_OUT_N<33>
+       HSD_SFP_OUT_N<34>
+       HSD_SFP_OUT_N<35>
+       HSD_SFP_OUT_N<36>
+       HSD_SFP_OUT_N<37>
+       HSD_SFP_OUT_N<38>
+       HSD_SFP_OUT_N<39>
+       HSD_SFP_OUT_N<40>
+       HSD_SFP_OUT_N<41>
+       HSD_SFP_OUT_N<42>
+       HSD_SFP_OUT_N<43>
+       HSD_SFP_OUT_N<44>
+       HSD_SFP_OUT_N<45>
+
+                                                                      Page 14
+
+       HSD_SFP_OUT_N<46>
+       HSD_SFP_OUT_N<47>
+       HSD_SFP_OUT_P<0> HSD_SFP_OUT_P<1> HSD_SFP_OUT_P<2> HSD_SFP_OUT_P<3> 
+       HSD_SFP_OUT_P<4> HSD_SFP_OUT_P<5> HSD_SFP_OUT_P<6> HSD_SFP_OUT_P<7> 
+       HSD_SFP_OUT_P<8> HSD_SFP_OUT_P<9> 
+       HSD_SFP_OUT_P<10>
+       HSD_SFP_OUT_P<11>
+       HSD_SFP_OUT_P<12>
+       HSD_SFP_OUT_P<13>
+       HSD_SFP_OUT_P<14>
+       HSD_SFP_OUT_P<15>
+       HSD_SFP_OUT_P<16>
+       HSD_SFP_OUT_P<17>
+       HSD_SFP_OUT_P<18>
+       HSD_SFP_OUT_P<19>
+       HSD_SFP_OUT_P<20>
+       HSD_SFP_OUT_P<21>
+       HSD_SFP_OUT_P<22>
+       HSD_SFP_OUT_P<23>
+       HSD_SFP_OUT_P<24>
+       HSD_SFP_OUT_P<25>
+       HSD_SFP_OUT_P<26>
+       HSD_SFP_OUT_P<27>
+       HSD_SFP_OUT_P<28>
+       HSD_SFP_OUT_P<29>
+       HSD_SFP_OUT_P<30>
+       HSD_SFP_OUT_P<31>
+       HSD_SFP_OUT_P<32>
+       HSD_SFP_OUT_P<33>
+       HSD_SFP_OUT_P<34>
+       HSD_SFP_OUT_P<35>
+       HSD_SFP_OUT_P<36>
+       HSD_SFP_OUT_P<37>
+       HSD_SFP_OUT_P<38>
+       HSD_SFP_OUT_P<39>
+       HSD_SFP_OUT_P<40>
+       HSD_SFP_OUT_P<41>
+       HSD_SFP_OUT_P<42>
+       HSD_SFP_OUT_P<43>
+       HSD_SFP_OUT_P<44>
+       HSD_SFP_OUT_P<45>
+       HSD_SFP_OUT_P<46>
+       HSD_SFP_OUT_P<47>
+       IO_MI2_DATA_FPGA 
+       IO_MI2_STROBE_FPGA
+       LAN1_PORT0_CPU_RX_AC_N
+       LAN1_PORT0_CPU_RX_AC_P
+       LAN1_PORT0_CPU_RX_N
+       LAN1_PORT0_CPU_RX_P
+       LAN1_PORT0_CPU_TX_N
+       LAN1_PORT0_CPU_TX_P
+       NC_3062          NC_3063          NC_3064          NC_3065          
+       NC_3066          NC_3067          NC_3068          NC_3069          
+
+                                                                      Page 15
+
+       NC_3070          NC_3071          NC_3072          NC_3073          
+       NC_3074          NC_3075          NC_3076          NC_3077          
+       NC_3078          NC_3079          NC_3080          NC_3082          
+       NC_3083          NC_3084          NC_3085          NC_3086          
+       NC_3087          NC_3088          NC_3089          NC_3090          
+       NC_3091          NC_3092          NC_3093          NC_3094          
+       NC_3095          NC_3096          NC_3097          NC_3098          
+       NC_3099          NC_3100          NC_3101          NC_3102          
+       NC_3103          NC_3104          NC_3105          NC_3106          
+       NC_3107          NC_3108          NC_3109          NC_3110          
+       NC_3111          NC_3112          NC_3113          NC_3114          
+       NC_3115          NC_3116          NC_3117          NC_3118          
+       NC_3119          NC_3120          NC_3121          NC_3122          
+       NC_3123          NC_3124          NC_3125          NC_3126          
+       NC_3127          NC_3128          NC_3129          NC_3130          
+       NC_3131          NC_3132          NC_3133          NC_3134          
+       NC_3135          NC_3136          NC_3137          NC_3138          
+       NC_3139          NC_3140          NC_3141          NC_3142          
+       NC_3143          NC_3144          NC_3145          NC_3146          
+       NC_3147          NC_3148          NC_3149          NC_3150          
+       NC_3151          NC_3152          NC_3153          NC_3154          
+       NC_3155          NC_3156          NC_3157          NC_3158          
+       NC_3159          NC_3160          NC_3161          NC_3162          
+       NC_3163          NC_3164          NC_3165          NC_3166          
+       NC_3167          NC_3168          NC_3169          NC_3170          
+       NC_3171          NC_3172          NC_3173          NC_3174          
+       NC_3175          NC_3176          NC_3177          NC_3178          
+       NC_3179          NC_3180          NC_3181          NC_3182          
+       NC_3183          NC_3184          NC_3185          NC_3186          
+       NC_3187          NC_3188          NC_3189          NC_3190          
+       NC_3191          NC_3192          NC_3193          NC_3194          
+       NC_3195          NC_3196          NC_3197          NC_3198          
+       NC_3199          NC_3200          NC_3201          NC_3202          
+       NC_3203          NC_3204          NC_3205          NC_3206          
+       NC_3207          NC_3208          NC_3209          NC_3210          
+       NC_3211          NC_3212          NC_3213          NC_3214          
+       NC_3215          NC_3216          NC_3217          NC_3218          
+       NC_3219          NC_3220          NC_3221          NC_3222          
+       NC_3223          NC_3224          NC_3225          NC_3226          
+       NC_3227          NC_3228          NC_3229          NC_3230          
+       NC_3231          NC_3232          NC_3233          NC_3234          
+       NC_3235          NC_3236          NC_3237          NC_3238          
+       NC_3239          NC_3240          NC_3241          NC_3242          
+       NC_3243          NC_3244          NC_3245          NC_3246          
+       NC_3247          NC_3248          NC_3249          NC_3250          
+       NC_3251          NC_3252          NC_3253          NC_3254          
+       NC_3255          NC_3256          NC_3257          NC_3258          
+       NC_3259          NC_3260          NC_3261          NC_3262          
+       NC_3263          NC_3264          NC_3265          NC_3266          
+       NC_3267          NC_3268          NC_3269          NC_3270          
+       NC_3271          NC_3272          NC_3273          NC_3274          
+       NC_3275          NC_3276          NC_3277          NC_3278          
+       NC_3279          NC_3280          NC_3281          NC_3282          
+
+                                                                      Page 16
+
+       NC_3283          NC_3284          NC_3285          NC_3286          
+       NC_3287          NC_3288          NC_3289          NC_3290          
+       NC_3291          NC_3292          NC_3293          NC_3294          
+       NC_3295          NC_3296          NC_3297          NC_3298          
+       NC_3299          NC_3300          NC_3301          NC_3302          
+       NC_3303          NC_3304          NC_3305          NC_3306          
+       NC_3307          NC_3308          NC_3309          NC_3310          
+       NC_3311          NC_3312          NC_3313          NC_3314          
+       NC_3315          NC_3316          NC_3317          NC_3318          
+       NC_3319          NC_3320          NC_3321          NC_3322          
+       NC_3323          NC_3324          NC_3325          NC_3326          
+       NC_3327          NC_3328          NC_3329          NC_3330          
+       NC_3331          NC_3332          NC_3333          NC_3334          
+       NC_3335          NC_3336          NC_3337          NC_3338          
+       NC_3339          NC_3340          NC_3341          NC_3342          
+       NC_3343          NC_3344          NC_3345          NC_3346          
+       NC_3347          NC_3348          NC_3349          NC_3350          
+       NC_3351          NC_3352          NC_3353          NC_3354          
+       NC_3355          NC_3356          NC_3357          NC_3358          
+       NC_3359          NC_3360          NC_3361          NC_3362          
+       NC_3363          NC_3364          NC_3365          NC_3366          
+       NC_3367          NC_3368          NC_3369          NC_3370          
+       NC_3371          NC_3372          NC_3373          NC_3374          
+       NC_3375          NC_3376          NC_3377          NC_3378          
+       NC_3379          NC_3380          NC_3381          NC_3382          
+       NC_3383          NC_3384          NC_3385          NC_3386          
+       NC_3387          NC_3388          NC_3389          NC_3390          
+       NC_3391          NC_3392          NC_3393          NC_3394          
+       NC_3395          NC_3396          NC_3397          NC_3398          
+       NC_3399          NC_3400          NC_3401          NC_3402          
+       NC_3403          NC_3404          NC_3405          NC_3406          
+       NC_3407          NC_3408          NC_3409          NC_3410          
+       NC_3411          NC_3412          NC_3413          NC_3414          
+       NC_3415          NC_3416          NC_3417          NC_3418          
+       NC_3419          NC_3420          NC_3421          NC_3422          
+       NC_3423          NC_3424          NC_3425          NC_3426          
+       NC_3427          NC_3428          NC_3429          NC_3430          
+       NC_3431          NC_3432          NC_3433          NC_3434          
+       NC_3435          NC_3436          NC_3437          NC_3438          
+       NC_3439          NC_3440          NC_3441          NC_3442          
+       NC_3443          NC_3444          NC_3445          NC_3446          
+       NC_3447          NC_3448          NC_3449          NC_3450          
+       NC_3451          NC_3452          NC_3453          NC_3454          
+       NC_3455          NC_3456          NC_3457          NC_3458          
+       NC_3459          NC_3460          NC_3461          NC_3462          
+       NC_3463          NC_3464          REFRES_SIDE_3    
+       RT1_M2_0_7_SYNCE_CLK
+       RT2_M2_0_7_SYNCE_CLK
+       RT3_M2_0_7_SYNCE_CLK
+       RT4_M2_0_7_SYNCE_CLK
+       RT5_M2_0_7_SYNCE_CLK
+       RT6_M2_0_7_SYNCE_CLK
+       RT7_M2_0_7_SYNCE_CLK
+
+                                                                      Page 17
+
+       RT8_M2_0_7_SYNCE_CLK
+       RT9_M2_0_7_SYNCE_CLK
+       SRT-RT9_M4_0_3_SYNCE_CLK
+       SRT_RT1_M4_0_3_SYNCE_CLK
+       SRT_RT1_M4_4_7_SYNCE_CLK
+       SRT_RT2_M4_0_3_SYNCE_CLK
+       SRT_RT2_M4_4_7_SYNCE_CLK
+       SRT_RT3_M4_0_3_SYNCE_CLK
+       SRT_RT3_M4_4_7_SYNCE_CLK
+       SRT_RT4_M4_0_3_SYNCE_CLK
+       SRT_RT4_M4_4_7_SYNCE_CLK
+       SRT_RT5_M4_0_3_SYNCE_CLK
+       SRT_RT5_M4_4_7_SYNCE_CLK
+       SRT_RT6_M4_0_3_SYNCE_CLK
+       SRT_RT6_M4_4_7_SYNCE_CLK
+       SRT_RT7_M4_0_3_SYNCE_CLK
+       SRT_RT7_M4_4_7_SYNCE_CLK
+       SRT_RT8_M4_0_3_SYNCE_CLK
+       SRT_RT8_M4_4_7_SYNCE_CLK
+       SRT_RT9_M4_4_7_SYNCE_CLK
+       VDD_SW           VDD_SW_1         VDD_SW_2         VDD_SW_3         
+       VDD_SW_91        VDD_SW_92        VDD_SW_93        VDD_SW_94        
+       VDD_SW_95        VDD_SW_96        VDD_SW_98        
+
+       These nodes have marginal probing access:
+       AC_CLK_10M_ZL_SI5326_OUT
+       AC_SNDN_CLK103M_N
+       AC_SNDN_CLK103M_P
+       BMC_LED_BCN_BLUE_L
+       BMC_LED_ENV_RED_L
+       CLK103M_DAV_SNDN1_CORE_REFCLK_N
+       CLK103M_DAV_SNDN1_CORE_REFCLK_P
+       CLK156M_BUF_EN   CLK212M_BUF_EN   CLK_1_PPS_Y1     CLK_1_PPS_Y2     
+       CLK_SILAB_ICS853014_103M_N
+       CLK_SILAB_ICS853014_103M_P
+       CPLD2_JTAGEN     CPLD4_JTAGEN     
+       FLT_P3V3_OSC114M_XO
+       FLTR_FC_MM_BOT_3 
+       FLTR_PLL_PCIE_TOP_3
+       FLTR_PLL_TEST_SIDE_3
+       FLTR_PLLCORE_TOP_3
+       FLTR_PLLGNDTEST_3
+       FPGA_SFP_LED_GRN_L<19>
+       FPGA_SFP_TX_DISABLE<18>
+       FPGA_SFP_TX_DISABLE<20>
+       FPGA_SFP_TX_DISABLE<43>
+       FPGA_SNDN_HW_I2C_SCL
+       IO_MI2_DATA_BMC  ISEN4_5          ISENRTN_5        ISENRTN_RTV1     
+       ISENRTN_RTV2     
+       JTAG_TDO_CPLD2_TDI_CPLD3_3V3
+       LED_BMC_GRN_L    LED_BMC_RED_L    MI1_PD_VREF5BN0  MI1_PD_VREF6AN0  
+       MIFPGA_CONFIG_DONE
+       MUX_LED_ENV_RED_L
+
+                                                                      Page 18
+
+       O_ATEST_1_3      PMOD_COMP_1V2S   PMOD_COMP_3V3    PMOD_COMP_5V     
+       PMOD_COMP_P3V3_SFP0_ALT
+       PMOD_COMP_P3V3_SFP1_ALT
+       PMOD_COMP_RC_1V2S
+       PMOD_COMP_RC_3V3 PMOD_COMP_RC_5V  
+       PMOD_COMP_RC_P3V3_SFP0_ALT
+       PMOD_COMP_RC_P3V3_SFP1_ALT
+       PMOD_SYNC_1V2S   PMOD_SYNC_3V3    PMOD_SYNC_5V     
+       PMOD_SYNC_P3V3_SFP0_ALT
+       PMOD_SYNC_P3V3_SFP1_ALT
+       POSC_CLK212M5_N  POSC_CLK212M5_P  
+       SFP_YEL_R_L<19>_S0
+       SFP_YEL_R_L<20>_S0
+       SILAB_TW_103_INT_L
+       SILAB_TW_103_LOS2
+       SLB_103_CMODE    SRT_CLK25M_OSC   SRT_CLK114M_XO   
+       SRT_CLK156M25_BUF_MM_BOT_REFCLK_N
+       SRT_CLK156M25_BUF_MM_BOT_REFCLK_P
+       SRT_CLK156M25_BUF_MM_SIDE_REFCLK_N
+       SRT_CLK156M25_BUF_MM_SIDE_REFCLK_P
+       SRT_CLK156M25_BUF_MM_TOP_REFCLK_N
+       SRT_CLK156M25_BUF_MM_TOP_REFCLK_P
+       SRT_CLK156M25_RT0_REFCLK_N
+       SRT_CLK156M25_RT0_REFCLK_P
+       SRT_CLK156M25_RT1_REFCLK_N
+       SRT_CLK156M25_RT1_REFCLK_P
+       SRT_CLK156M25_RT2_REFCLK_N
+       SRT_CLK156M25_RT2_REFCLK_P
+       SRT_CLK156M25_RT3_REFCLK_N
+       SRT_CLK156M25_RT3_REFCLK_P
+       SRT_CLK156M25_RT4_REFCLK_N
+       SRT_CLK156M25_RT4_REFCLK_P
+       SRT_CLK156M25_RT5_REFCLK_N
+       SRT_CLK156M25_RT5_REFCLK_P
+       SRT_CLK156M25_RT6_REFCLK_N
+       SRT_CLK156M25_RT6_REFCLK_P
+       SRT_CLK156M25_RT7_REFCLK_N
+       SRT_CLK156M25_RT7_REFCLK_P
+       SRT_CLK156M25_RT8_REFCLK_N
+       SRT_CLK156M25_RT8_REFCLK_P
+       SRT_CLK156M25_RT9_REFCLK_N
+       SRT_CLK156M25_RT9_REFCLK_P
+       SRT_CLK156M25_RT_BUFIN_LOWER_REFCLK_N
+       SRT_CLK156M25_RT_BUFIN_LOWER_REFCLK_P
+       SRT_CLK156M25_RT_BUFIN_UPPER_REFCLK_N
+       SRT_CLK156M25_RT_BUFIN_UPPER_REFCLK_P
+       SRT_CLK156M_OSC_N
+       SRT_CLK156M_OSC_P
+       SRT_CLK212M_BUF_FC_BOT_REFCLK_N
+       SRT_CLK212M_BUF_FC_BOT_REFCLK_P
+       SRT_CLK212M_BUF_FC_SIDE_REFCLK_N
+       SRT_CLK212M_BUF_FC_SIDE_REFCLK_P
+       SRT_CLK212M_BUF_FC_TOP_REFCLK_N
+
+                                                                      Page 19
+
+       SRT_CLK212M_BUF_FC_TOP_REFCLK_P
+       SRT_CLK_10M_ZL_SI5326_OUT
+       SRT_CLK_MIFPGA_ZL_1PPS
+       SRT_CLK_ZL_1PPS_OUT
+       SRT_CPU_PCIE_CLKOUT0_N
+       SRT_CPU_PCIE_CLKOUT0_P
+       SRT_FPGA_CPLD1_SPI_SCK
+       SRT_FPGA_SNDN_HW_I2C_SCL
+       SRT_MI_IO_DATA   SRT_MIFPGA_ASDO  SRT_QSFP_SCL<0>  SRT_QSFP_SCL<1>  
+       SRT_QSFP_SCL<2>  SRT_QSFP_SCL<5>  
+       SRT_SFP8_I2C_SCL_EDGE
+       SRT_SFP9_I2C_SCL_EDGE
+       SRT_SFP10_I2C_SCL_EDGE
+       SRT_SFP11_I2C_SCL_EDGE
+       SRT_SFP14_I2C_SCL_EDGE
+       SRT_SFP20_I2C_SCL_EDGE
+       SRT_SFP21_I2C_SCL_EDGE
+       SRT_SFP24_I2C_SCL_EDGE
+       SRT_SFP25_I2C_SCL_EDGE
+       SRT_SFP28_I2C_SCL_EDGE
+       SRT_SFP29_I2C_SCL_EDGE
+       SRT_SFP32_I2C_SCL_EDGE
+       SRT_SFP33_I2C_SCL_EDGE
+       SRT_TXRATE_SFP_R_CLK
+       TW_SILAB_103_RESET_L
+       TXRATE_SHIFT_REG_DATA_5
+       U40_DSA_BMC      
+       UNNAMED_2_CAP_I543_B_A
+       UNNAMED_2_RES_I151_A
+       UNNAMED_2_RES_I151_A_1
+       UNNAMED_2_RES_I151_A_2
+       UNNAMED_2_RES_I151_A_3
+       UNNAMED_2_RES_I151_A_91
+       UNNAMED_2_RES_I151_A_92
+       UNNAMED_2_RES_I151_A_93
+       UNNAMED_2_RES_I151_A_94
+       UNNAMED_2_RES_I151_A_95
+       UNNAMED_2_RES_I151_A_96
+       UNNAMED_2_RES_I151_A_98
+       UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT
+       UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT
+       UNNAMED_3_CAP_I59_B_P3V3_SFP0_ALT
+       UNNAMED_3_CAP_I59_B_P3V3_SFP1_ALT
+       UNNAMED_31_CAP_I42_A
+       UNNAMED_33_NC7WZ17_I15_A1
+       UNNAMED_69_AT90SO72_I676_A0
+       UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PM_1
+       UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMBU
+       UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_1
+       UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMB
+       UNNAMED_4095_RES_I457_B
+       UNNAMED_4095_RES_I458_B
+       UNNAMED_4095_RES_I471_B
+
+                                                                      Page 20
+
+       UNNAMED_4095_RES_I472_B
+       UNNAMED_4096_ICS853S011BI_I1155_Q0
+       UNNAMED_4096_ICS853S011BI_I1155_Q0_1
+       UNNAMED_4103_AVC8T245_I60_OE
+       UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+       UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_2
+       UNNAMED_4125_LCMXO2640U_I148_PT17CINITM
+       UNNAMED_4127_LCMXO2640U_I273_PT17CINITM
+       UNNAMED_4134_OSC_I308_OE
+       UNNAMED_4136_OSC_I456_OE
+       UNNAMED_4138_LED_I170_A
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_1
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_2
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_3
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_4
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_6
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBR_7
+       UNNAMED_4140_CV5CGXFC4CFG672_I392_GXBRXL
+       UNNAMED_4140_RES_I371_B
+       UNNAMED_4142_CDCLVC11XX_I180_EN1G
+       UNNAMED_4144_CAP_I65_B
+       UNNAMED_4144_CAP_I66_B
+       UNNAMED_4144_SI5326_I62_XA
+       UNNAMED_4144_SI5326_I62_XB
+       VDD_BOOT_R       VDD_BOOT_R_1     VDD_BOOT_R_2     VDD_BOOT_R_3     
+       VDD_BOOT_R_91    VDD_BOOT_R_92    VDD_BOOT_R_93    VDD_BOOT_R_94    
+       VDD_BOOT_R_95    VDD_BOOT_R_96    VDD_BOOT_R_98    VDD_VCIN         
+       VDD_VCIN_1       VDD_VCIN_2       VDD_VCIN_3       VDD_VCIN_91      
+       VDD_VCIN_92      VDD_VCIN_93      VDD_VCIN_94      VDD_VCIN_95      
+       VDD_VCIN_96      VDD_VCIN_98      VRM2_VDD_P3V3_5  
+       VRM2_VDD_P3V3_RTV1
+       VRM2_VDD_P3V3_RTV2
+
+
+     POWER NODE ACCESS RESULTS
+
+
+       2 of 2 power nodes examined have insufficient probing access.  
+       All (0) other nodes have sufficient, good probing access.
+       All the guarded nodes have optimal access.
+
+       These power nodes have insufficient probing access:
+       Node "P3V3_STBY" needs 3 probes, but has only
+          2 good probes, and 0 marginal probes.
+       Node "P12V" needs 24 probes, but has only
+          16 good probes, and 0 marginal probes.
+
+
+     GROUND NODE ACCESS RESULTS
+
+
+       The ground node has insufficient probing access.  
+
+       All the guarded nodes have optimal access.
+
+       The ground node has insufficient probing access:
+       Node "GND" needs 94 probes, but has only
+
+                                                                      Page 21
+
+          80 good probes, and 0 marginal probes.
+
+
+     CONFIG AND FIXTURE RESULTS
+
+       The configuration and the fixture type and size are consistent.
+
+     CONFIGURATION SIZE RESULTS
+
+       Partial check: missing library objects.  
+       The result shows that the board may fit in this configuration. The
+       accurate calculation will be done during Module Pin Assignment. More
+       cards may be required if resources are not enough.
+
+       The detailed comparison of the configuration to the board is:
+       Configuration        Board       Board/Configuration
+                        
+       5184 hybrid brcs  2375 hybrid,         46%         
+                              digital                     
+                              and                         
+                              analog                      
+                              nodes                       
+                        
+         32 GP relays       7 GP relays       22%         
+                        
+        576 independent   343 independent     60%         
+            channels          pins (maximum)              
+                                         
+       There were 1084 nodes without probing locations.
+       They were not included in the board numbers.  See
+       the Node Probing Access check for more information.
+                        
+       The numbers in the "Configuration" column represent
+       resources listed in the board configuration.
+       
+       The numbers listed in the "Board" column represent the
+       resources required by the board, based on the "board" and
+       "board_xy" files and the library objects.
+       
+       The numbers in the "Board/Configuration" column represent
+       the percentage of the resources in the configuration file
+       that will be required by the board.
+
+
+     DEVICE TEST RESULTS
+     The information necessary for this report is not yet available.
+
+     DEVICE DISABLE RESULTS
+     The information necessary for this report is not yet available.
+
+
+
+
+
+
+
+                                                                      Page 22
+
+
+     SAFEGUARD ANALYSIS RESULTS
+     The information necessary for this report is not yet available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                      Page 23
+

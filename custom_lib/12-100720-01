@@ -1,0 +1,13 @@
+!!!!   21    2    1 1308414910   0000                                         
+
+!  12-100720-01
+!  RES,TNF,845ohm,0.063W,0.1%,SM,0402,Pb-FREE
+
+resistor *, 845, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

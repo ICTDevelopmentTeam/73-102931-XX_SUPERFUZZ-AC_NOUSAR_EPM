@@ -1,0 +1,9 @@
+!!!!    2    0    1 1663223314   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:47 2022
+disconnect all
+connect s to "GND"
+connect i to "SNDN_PCIE_PLL_RST_L"
+connect g to "P1V8"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m,ed
+! "r11_3" test.

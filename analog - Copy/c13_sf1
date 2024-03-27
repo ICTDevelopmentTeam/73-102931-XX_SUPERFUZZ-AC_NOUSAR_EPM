@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647864059   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:00 2022
+disconnect all
+connect s to "PMOD_FB_P3V3_SFP1_ALT"
+connect i to "PMOD_COMP_P3V3_SFP1_ALT"
+capacitor 22p, 137.73, 15.00, fr8192, re5, wb, ar50.0m, comp
+! "c13_sf1" test.

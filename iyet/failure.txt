@@ -1,0 +1,11 @@
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Fri Mar 22 14:43:19 2024
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(20734) mifpga_iofpga_crcerr
+                 p4.E1
+                 u45.4
+------End, 1 Problem Reported-----------
+S/N:FLM27420591

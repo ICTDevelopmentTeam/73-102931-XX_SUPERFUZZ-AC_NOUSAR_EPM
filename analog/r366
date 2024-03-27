@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648862702  V7f72                                         
+!* Top probe [SRT_CLK156M_OSC_P] removed for power rails stable.
+!* srt_clk156m_osc_p (top) probe removed for frequency tsst(Osc_rt) stable test
+! IPG: rev 09.20p  Mon Mar 21 19:58:54 2022
+disconnect all
+connect s to "SRT_CLK156M_OSC_P"
+connect i to "CLK156M_OSC_P"
+jumper 10.0k, re4, wb, ar100m, op
+! "r366" test.

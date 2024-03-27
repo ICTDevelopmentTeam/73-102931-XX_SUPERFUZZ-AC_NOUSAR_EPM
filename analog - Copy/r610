@@ -1,0 +1,8 @@
+!!!!    2    0    1 1653009941  Ve98c                                         
+!* Top probe [POSC_CLK212M5_P] removed for power stable  ready
+!* posc_clk212m5_p (top) probe removed for frequency test (osc212p) stable test ready
+disconnect all
+connect s to "CLK212M_OSC_P"; a to "CLK212M_OSC_P"
+connect i to "POSC_CLK212M5_P"; b to "POSC_CLK212M5_P"
+resistor 33, 40.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r610" test.

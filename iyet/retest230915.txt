@@ -1,0 +1,231 @@
+----------------------------------------
+Shorts Report for "shorts".
+Fri Sep 15 13:02:46 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638   53
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q1  11538   53
+                c9_q1.2
+                c10_q1.2
+                l1_q1.2
+              qsfp_q1.A29
+Common Devices:
+                 l1_q1
+Message is:
+Check L1_Q1
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Fri Sep 15 13:03:00 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638  180
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q1  11538  180
+                c9_q1.2
+                c10_q1.2
+                l1_q1.2
+              qsfp_q1.A29
+Common Devices:
+                 l1_q1
+Message is:
+Check L1_Q1
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+Shorts Report for "shorts".
+Fri Sep 15 13:03:14 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638   87
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q1  11538   87
+                c9_q1.2
+                c10_q1.2
+                l1_q1.2
+              qsfp_q1.A29
+Common Devices:
+                 l1_q1
+Message is:
+Check L1_Q1
+------End, 1 Problem Reported-----------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Fri Sep 15 13:03:39 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   331.34u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Fri Sep 15 13:04:02 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   321.30u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Fri Sep 15 13:11:54 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   323.65u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM271905HC
+----------------------------------------
+73-102898-01_03
+Fri Sep 15 13:12:16 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   318.01u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+S/N:FLM271905HC

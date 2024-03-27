@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663165  V7ac9                                         
+
+!  12-5595-01
+!  12-5595-01 RES,TKF,510 ohm,0.063W,1%,SM
+
+resistor *, 510, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863967   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "VFLT_P3V3_VDDH_ZL30772_A"
+jumper 5.94, re1, ar200m
+! "l9" test.

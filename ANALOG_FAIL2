@@ -1,0 +1,34 @@
+----------------------------------------
+73-102898-01_03
+Thu Nov 17 16:31:57 2022
+----------------------------------------
+c178 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   35.726p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+rn80_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn80_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   1.0440k
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+cr8%cr HAS FAILED
+
+REPLACE DEVICE: cr8
+13-0995-02 DIO,SH,30V,200mA,SOD-123,BAT5
+High Limit: 550.00m
+Low Limit:  200.00m
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------

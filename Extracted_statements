@@ -1,0 +1,1299 @@
+j1%presence         	jumper    	          	9         	          	re1, ar200m
+j19%presence        	jumper    	          	9         	          	re1, ar200m
+p3%presence         	jumper    	          	9         	          	re1, ar200m
+p4%presence         	jumper    	          	9         	          	re1, ar200m
+p5%presence         	jumper    	          	9         	          	re1, ar200m
+qsfp_q0%presence    	jumper    	          	9         	          	re1, ar200m
+qsfp_q1%presence    	jumper    	          	9         	          	re1, ar200m
+qsfp_q2%presence    	jumper    	          	9         	          	re1, ar200m
+sfp_s0%presence     	jumper    	          	9         	          	re1, ar200m
+sfp_s1%presence     	jumper    	          	9         	          	re1, ar200m
+r29_3               	resistor  	1k        	10.00     	30.00     	re3, ar100m, ed, en, wa10m
+r1_1v2s             	resistor  	3.48k     	20        	20        	re4, ar100m
+r1_sf0              	resistor  	2.32k     	20        	20        	re4, ar100m
+r1_sf1              	resistor  	2.32k     	20        	20        	re4, ar100m
+r875_5v             	resistor  	3.48k     	20        	20        	re4, ar100m
+r877_3v3            	resistor  	3.48k     	20        	20        	re4, ar100m
+c2868               	capacitor 	4.544m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c9_6                	capacitor 	122u      	38.26     	38.26      	fr128, re1, ar200m, ed, sa, sb, en, nocomp
+c8_6                	capacitor 	242u      	35.00     	40.0      	fr128, re1, ar400m, ed, sa, sb, en, nocomp
+c13_91_rtv1         	capacitor 	4.607m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c13_91_rtv2         	capacitor 	4.998m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c228_3v3            	capacitor 	770.831u  	35.00     	40.0      	fr128, re1, ar400m, ed, sm, sa, sb, en, nocomp
+c13_98_rtv1         	capacitor 	3.535m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c13_98_rtv2         	capacitor 	3.669m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c13_98_5            	capacitor 	5.896m    	35.00     	40.0      	fr128, re1, ar800m, ed, en, nocomp, sa, sb, wa20m
+c419_3              	capacitor 	581.27u   	35.00     	40.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c19_1v2s            	capacitor 	1.509m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c23_a               	capacitor 	658.82u   	35.00     	40.0      	fr128, re1, ar400m, ed, sm, sa, sb, en, nocomp
+c7_q0               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c7_q1               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c7_q2               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c8_q0               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c8_q1               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c8_q2               	capacitor 	220n      	35.00     	40.0      	fr1024, re4, ar100m, sa, nocomp
+c221_5v             	capacitor 	644.422u  	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c3_a                	capacitor 	116.4u    	25.00     	50.0      	fr128, re1, ar200m, ed, sa, sb, en, nocomp
+c186                	capacitor 	10n       	35.00     	40.0      	fr1024, re5, ar100m, sa, sb, nocomp
+c30                 	capacitor 	69u       	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c1_q0               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c1_q1               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c1_q2               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c2_q0               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c2_q1               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c2_q2               	capacitor 	88.4u     	25.00     	50.0      	fr128, re1, ar100m, ed, sa, sb, en, nocomp
+c19_sf1             	capacitor 	2.308m    	35.00     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c529                	capacitor 	195.37u   	25.00     	50.0      	fr128, re1, ar200m, ed, sa, sb, en, nocomp
+c19_sf0             	capacitor 	2.246m    	25.00     	50.0      	fr128, re1, ar400m, ed, sm, sa, sb, en, nocomp
+c78                 	capacitor 	155u      	25.00     	50.0      	fr128, re1, ar200m, ed, sa, sb, en, nocomp
+c90_rt1_2           	capacitor 	133.1u    	25.00     	50.0      	fr128, re1, ar200m, ed, sa, sb, en, nocomp
+c13_91_5            	capacitor 	13.750m   	35.60     	40.0      	fr128, re1, ar800m, ed, sm, sa, sb, en, nocomp
+c03_5               	capacitor 	10n       	35.00     	40.0      	fr1024, re5, ar100m, sa, ed, en, nocomp
+c03_rtv1            	capacitor 	10n       	35.00     	40.0      	fr1024, re5, ar100m, sa, ed, en, nocomp
+c03_rtv2            	capacitor 	10n       	35.00     	40.0      	fr1024, re5, ar100m, sa, ed, en, nocomp
+c04_5               	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, sa, ed, en, nocomp
+c04_rtv1            	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, sa, ed, en, nocomp
+c04_rtv2            	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, sa, ed, en, nocomp
+c10_5               	capacitor 	20n       	35.00     	40.0      	fr1024, re5, wb, ar100m, nocomp, en
+c10_rtv1            	capacitor 	10n       	25.00     	50.0      	fr1024, re5, ar100m, nocomp, ed, en
+c10_rtv2            	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, nocomp, ed, en
+c72                 	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, nocomp
+c3057               	capacitor 	10n       	35.00     	40.0      	fr1024, re5, wb, ar100m, nocomp
+c2_6                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c2_a                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c5_6                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c5_a                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c09_5               	capacitor 	1.2u      	35.00     	40.0      	fr1024, re2, ar100m, nocomp
+c09_rtv1            	capacitor 	1.2u      	35.00     	40.0      	fr1024, re2, ar100m, nocomp
+c09_rtv2            	capacitor 	1.2u      	35.00     	40.0      	fr1024, re2, ar100m, nocomp
+c11                 	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c21_pm              	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, sa, sl, en, nocomp
+c24_pm              	capacitor 	1.1u      	35.00     	40.0      	fr1024, re2, ar100m, nocomp
+c75                 	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c165                	capacitor 	500n      	30.00     	40.0      	fr1024, re4, ar100m, nocomp, wb, ed
+c3060               	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c33                 	capacitor 	1u        	25.00     	50.0      	fr1024, re2, ar100m, nocomp
+c22_a               	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c146                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c171                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c172                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c173                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c174                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c175                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c176                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c177                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c178                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c179                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c180                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c181                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c182                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c578                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, sa, en, nocomp
+c727                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c728                	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c1242               	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c1243               	capacitor 	100n      	35.00     	40.0      	fr1024, re4, wb, ar100m, nocomp
+c6_1v2s             	capacitor 	4.447u    	35.00     	40.0      	fr1024, re1, ar100m, nocomp
+c6_sf0              	capacitor 	4.447u    	35.00     	40.0      	fr1024, re1, ar100m, nocomp
+c6_sf1              	capacitor 	4.447u    	35.00     	40.0      	fr1024, re1, ar100m, nocomp
+c214_5v             	capacitor 	4.447u    	45.00     	30.0      	fr1024, re1, ar100m, nocomp
+c224_3v3            	capacitor 	4.447u    	35.00     	40.0      	fr1024, re1, ar100m, nocomp
+c05_5               	capacitor 	220p      	35.0      	35.00     	fr8192, re5, ed, en, ar100m, comp, wb
+c05_rtv1            	capacitor 	220p      	35        	35        	fr8192, re5, ar100m, comp, wb, ed, en
+c05_rtv2            	capacitor 	220p      	35        	35        	fr8192, re5, ar100m, comp, ed, en
+c06_5               	capacitor 	220p      	35        	35        	fr8192, re5, ar100m, comp, ed, en
+c06_rtv1            	capacitor 	220p      	35        	35        	fr8192, re5, ar100m, comp, wb, ed, en
+c06_rtv2            	capacitor 	220p      	35        	35        	fr8192, re5, ar100m, comp, ed, en
+c110                	capacitor 	220p      	35.0      	35.00     	fr8192, re4, wb, ar100m, comp, ed, en
+c06_91_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_91_rtv1         	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, ed, en
+c06_91_rtv2         	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, ed, en
+c06_92_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_93_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_94_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_95_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_96_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_98_5            	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_98_rtv1         	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c06_98_rtv2         	capacitor 	470n      	35.00     	40.00     	fr1024, re4, ar100m, nocomp, en
+c7_6                	capacitor 	1u        	25.00     	50.00     	fr1024, re2, ar100m, nocomp
+c7_a                	capacitor 	1u        	25.00     	50.00     	fr1024, re2, ar100m, nocomp
+c18_a               	capacitor 	1u        	35.00     	40.00     	fr1024, re2, ar100m, nocomp
+c10_1v2s            	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, nocomp
+c10_sf0             	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, nocomp
+c10_sf1             	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, nocomp
+c24_a               	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, sa, en, nocomp
+c58_5v              	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, nocomp
+c189_3v3            	capacitor 	100n      	35.00     	40.00     	fr1024, re4, wb, ar100m, nocomp
+c408                	capacitor 	2.2n      	35.00     	40.00     	fr1024, re5, wb, ar100m, comp
+c1815               	capacitor 	2.2n      	35.00     	40.00     	fr1024, re5, wb, ar100m, comp
+c1816               	capacitor 	2.2n      	35.00     	40.00     	fr1024, re5, wb, ar100m, comp
+c23_pm              	capacitor 	1.2n      	35.0      	40.00     	fr1024, re5, wb, ar100m, comp
+c76                 	capacitor 	82p       	50.0      	50.00     	fr8192, re4, wb, ar100m, sl, comp
+c3061               	capacitor 	82p       	50.0      	50.00     	fr8192, re4, wb, ar100m, sl, comp
+c77                 	capacitor 	39n       	35.00     	40.00     	fr1024, re5, wb, ar100m, nocomp
+c3062               	capacitor 	39n       	35.00     	40.00     	fr1024, re5, wb, ar100m, nocomp
+c389                	capacitor 	270p      	35.0      	35.0      	fr8192, re5, wb, ar100m, comp, ed, en
+c401                	capacitor 	220p      	35.0      	35.0      	fr8192, re4, wb, ar100m, comp
+r1_6                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r1_a                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r3_a                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r16_a               	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m, wa20m, ed
+r22_5               	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r22_rtv1            	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r22_rtv2            	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r23_5               	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r23_rtv1            	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r23_rtv2            	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r38                 	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r100                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r102                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r535                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r536                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r545                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r549                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r551                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r553                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r600                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r601                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r687                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r688                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r738                	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r1844               	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m, wa10m, ed
+r1845               	resistor  	10k       	25.00     	20.00     	re4, wb, ar100m
+r1_pm               	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m
+r2_pm               	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m
+r72                 	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m
+r201_pm             	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m
+r432                	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m
+r577                	resistor  	100k      	25.00     	25.00     	re5, wb, ar100m, ed
+r2_a                	resistor  	22.6k     	25.00     	25.00     	re5, wb, ar500m
+r2_rt1_2            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r2_rt3_4            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r2_rt5_6            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r2_rt7_8            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r2_rt9              	resistor  	100       	30.00     	20.00     	re2, ar100m
+r9_rt1_2            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r9_rt3_4            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r9_rt5_6            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r9_rt7_8            	resistor  	100       	30.00     	20.00     	re2, ar100m
+r9_rt9              	resistor  	100       	30.00     	20.00     	re2, ar100m
+r13_rt1_2           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r13_rt3_4           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r13_rt5_6           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r13_rt7_8           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r14_rt1_2           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r14_rt3_4           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r14_rt5_6           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r14_rt7_8           	resistor  	100       	30.00     	20.00     	re2, ar100m
+r15_pm              	resistor  	100       	30.00     	20.00     	re2, ar100m
+r144                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r145                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r155                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r2_s0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r2_s1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r4_s0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r4_s1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r6_q0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r6_q1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r6_q2               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r6_s0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r6_s1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r8_q0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r8_q1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r8_q2               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r8_s0               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r8_s1               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r10_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r10_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r12_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r12_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r14_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r14_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r16_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r16_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r18_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r18_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r20_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r20_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r22_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r22_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r24_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r24_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r26_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r26_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r28_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r28_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r30_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r30_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r32_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r32_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r34_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r34_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r36_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r36_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r38_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r38_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r40_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r40_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r50_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r50_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r52_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r52_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r54_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r54_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r56_s0              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r56_s1              	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r479                	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r480                	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r1077               	resistor  	33.2      	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r3_3                	resistor  	49.9      	30.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r4_3                	resistor  	49.9      	30.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r3_6                	resistor  	22.1k     	25.00     	25.00     	re5, wb, ar500m
+r3_q0               	resistor  	24.3k     	25.00     	25.00     	re5, wb, ar500m
+r3_q1               	resistor  	24.3k     	25.00     	25.00     	re5, wb, ar500m
+r3_q2               	resistor  	24.3k     	25.00     	25.00     	re5, wb, ar500m
+r3_rt1_2            	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r3_rt3_4            	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r3_rt5_6            	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r3_rt7_8            	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r3_rt9              	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r4_q0               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r4_q1               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r4_q2               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r5_q0               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r5_q1               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r5_q2               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r09_5               	resistor  	1k        	25.00     	20.00     	re4, ar100m, wa10m, ed
+r09_rtv1            	resistor  	1k        	25.00     	20.00     	re3, ar100m, wa5m, ed
+r09_rtv2            	resistor  	1k        	25.00     	20.00     	re3, ar100m, wa5m, ed
+r12_a               	resistor  	1k        	25.00     	20.00     	re3, ar100m, wa5m, ed
+r16_rt1_2           	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r16_rt3_4           	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r16_rt5_6           	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r16_rt7_8           	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r26                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r27                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r28                 	resistor  	1k        	25.00     	20.00     	re3, ar100m, ed
+r30                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r30_3               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r31                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r33                 	resistor  	1k        	25.00     	20.00     	re4, ar100m, ed
+r34                 	resistor  	1k        	20.00     	20.00     	re4, ar100m, ed
+r44                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r51                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r58_3               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r59_3               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r62_3               	resistor  	1k        	25.00     	20.00     	re3, ar100m, wa5m
+r74                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r75                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r88                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r96                 	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r105                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r107                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r112                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r115                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r300                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r321                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r371_3              	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r373_3              	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r384_3              	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r385_3              	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r403                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r412                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r414                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r464                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r465                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r564                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r589                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r595                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r685                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r731                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r742                	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r755                	resistor  	500       	25.00     	20.00     	re3, ar200m
+r1099               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r1156               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r1256               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r2427               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r2428               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r2429               	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn38_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re4, ar100m, ed
+rn48_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn48_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn49_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn50_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn58_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn59_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn60_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s0%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s0%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s0%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s0%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s1%pin_1_8     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s1%pin_2_7     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s1%pin_3_6     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn68_s1%pin_4_5     	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s0%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s0%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s0%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s0%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s1%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s1%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s1%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn103_s1%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s0%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s0%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s0%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s0%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s1%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s1%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s1%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn104_s1%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s0%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s0%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s0%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s0%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s1%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s1%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s1%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn107_s1%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s0%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s0%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s0%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s0%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s1%pin_1_8    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s1%pin_2_7    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s1%pin_3_6    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+rn108_s1%pin_4_5    	resistor  	1k        	25.00     	20.00     	re3, ar100m
+r4_6                	resistor  	124k      	30.00     	30.00     	re6, wb, ar1.00, wa10m, ed
+r4_a                	resistor  	56        	30.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r5_6                	resistor  	13.7k     	25.00     	20.00     	re5, wb, ar100m
+r6                  	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r7_3                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r8_3                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r9_3                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r10_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r11_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r12                 	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r13_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r14_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r18                 	resistor  	1.175k    	25.00     	20.00     	re4, wb, ar100m
+r21_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r22_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r32                 	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r53_3               	resistor  	4.7k      	20.00     	20.00     	re4, ar200m, ed, wb, wa10m
+r56_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed, wa10m
+r57_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed, wa10m
+r60_3               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r77                 	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r81                 	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r93                 	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r129                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r132                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r134                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r156                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r157                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r164                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r165                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r202_pm             	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r203                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r205                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r206                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r207                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r219                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r223                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r232                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r234                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r243                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r249                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r254                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r262                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r266                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r274                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r283                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r294                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r295                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r297                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r327                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r344                	resistor  	2.35k     	25.00     	20.00     	re4, wb, ar500m
+r402                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r450                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r539                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r541                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r542                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r543                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r563                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r582                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r583                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r584                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r585                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r613                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r657                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r658                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r659                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r660                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r664                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r686                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r690                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r759                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r760                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r775                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r778                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r779                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r793                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r794                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r929                	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1027               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1028               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1029               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1101               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1154               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1198               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1199               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1200               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1201               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1202               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1582               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1583               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1767               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1768               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1855_3             	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r1856_3             	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m, ed
+r1951               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r1952               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r3780               	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+rn1%pin_2_7         	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+rn1%pin_3_6         	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+rn1%pin_4_5         	resistor  	4.7k      	25.00     	20.00     	re4, wb, ar200m
+r7_a                	resistor  	57.6k     	25.00     	25.00     	re5, wb, ar200m
+r8                  	resistor  	866       	25.00     	20.00     	re3, ar100m
+r8_a                	resistor  	150k      	15.00     	15.00     	re6, wb, ar100m
+r10_5               	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa10m, ed
+r10_rtv1            	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa10m, ed
+r10_rtv2            	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa10m, ed
+r25_5               	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa3.41m
+r25_rtv1            	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa3.41m
+r25_rtv2            	resistor  	13k       	25.00     	25.00     	re5, wb, ar100m, wa3.41m
+r10_pm              	resistor  	20k       	25.00     	25.00     	re5, wb, ar500m, ed
+r174_pm             	resistor  	20k       	25.00     	25.00     	re5, wb, ar500m, wa5m
+r390                	resistor  	20k       	25.00     	25.00     	re5, wb, ar500m
+r11_a               	resistor  	4.53k     	25.00     	20.00     	re4, wb, ar200m, wa10m, ed
+r12_3               	resistor  	1.5k      	25.00     	20.00     	re4, wb, ar100m
+r14_a               	resistor  	4.42k     	25.00     	20.00     	re4, wb, ar200m, ed
+r15_3               	resistor  	100       	30.00     	20.00     	re2, ar100m
+r606                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r607                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r608                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r609                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r612                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r615                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r616                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r617                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r618                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r619                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r620                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r624                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r626                	resistor  	100       	30.00     	20.00     	re2, ar100m
+r15_a               	resistor  	30.1k     	25.00     	25.00     	re5, wb, ar500m, wa30m, ed
+r306                	resistor  	30.1k     	25.00     	25.00     	re5, wb, ar500m, wa30m, ed
+r16                 	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r40                 	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r41                 	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r45                 	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r103                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r118                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r125                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r135                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r136                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r137                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r140                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r200                	resistor  	16.5      	50.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r202                	resistor  	16.5      	50.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r322                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r324                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r325                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r326                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r544                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r546                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r547                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r548                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r554                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r587                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r649                	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r2439               	resistor  	33        	40.0      	20.00     	re2, ar200m, sa, sb, ed, en
+r19                 	resistor  	75        	30.0      	20.00     	re2, ar100m, ed, wa10m, sa, sb
+r20_5               	resistor  	1.188k    	25.00     	20.00     	re4, wb, ar100m
+r21_5               	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r21_rtv1            	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r21_rtv2            	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r29_5               	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r29_rtv1            	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r29_rtv2            	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m
+r126                	resistor  	4.75k     	25.00     	20.00     	re4, wb, ar200m, ed, wa20m, sl
+r21                 	resistor  	150       	30.0      	20.00     	re3, ar100m
+r67                 	resistor  	150       	30.0      	20.00     	re3, ar100m
+r159                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r160                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r189                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r190                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r191                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r192                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r193                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r194                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r195                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r196                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r377                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r378                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r387                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r388                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r389                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r391                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r392                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r393                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r394                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r395                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r396                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r398                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r400                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r401                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r436                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r439                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r440                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r441                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r442                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r443                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r444                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r445                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r523                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r524                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r525                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r526                	resistor  	150       	30.0      	20.00     	re3, ar100m
+r1019               	resistor  	150       	30.0      	20.00     	re3, ar100m
+r1020               	resistor  	150       	30.0      	20.00     	re3, ar100m
+r1021               	resistor  	150       	30.0      	20.00     	re3, ar100m
+r1022               	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q0%pin_1_8      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q0%pin_2_7      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q0%pin_3_6      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q0%pin_4_5      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q1%pin_1_8      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q1%pin_2_7      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q1%pin_3_6      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q1%pin_4_5      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q2%pin_1_8      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q2%pin_2_7      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q2%pin_3_6      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn1_q2%pin_4_5      	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn31_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn32_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn41_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn42_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn51_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn52_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn61_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn62_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn80_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn89_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn92_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s0%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s0%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s0%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s0%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s1%pin_1_8     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s1%pin_2_7     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s1%pin_3_6     	resistor  	150       	30.0      	20.00     	re3, ar100m
+rn93_s1%pin_4_5     	resistor  	150       	30.0      	20.00     	re3, ar100m
+r23_3               	resistor  	3k        	25.00     	20.00     	re4, wb, ar500m
+r25_3               	resistor  	3k        	25.00     	20.00     	re4, wb, ar500m
+r1665               	resistor  	3k        	25.00     	20.00     	re4, wb, ar500m
+r24_5               	resistor  	2.4k      	25.00     	20.00     	re4, wb, ar500m, wa5m
+r24_rtv1            	resistor  	2.4k      	25.00     	20.00     	re4, wb, ar500m, wa5m
+r24_rtv2            	resistor  	2.4k      	25.00     	20.00     	re4, wb, ar500m, wa5m
+r32_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r33_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r34_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r35_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r36_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r37_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r38_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r39_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r40_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r41_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r42_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r43_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r44_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r45_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r46_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r47_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r48_3               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r61                 	resistor  	220       	30.0      	20.00     	re3, ar500m
+r62                 	resistor  	220       	30.0      	20.00     	re3, ar500m
+r113                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r154                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r158                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r211                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r345                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r346                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r347                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r353                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r354                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r355                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r452                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r454                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r463                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r468                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r469                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r556                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r558                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r559                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r602                	resistor  	220       	30.0      	20.00     	re3, ar500m, ed, wa10m
+r614                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r661                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r665                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r704                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r705                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r706                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r709                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r710                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r711                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r712                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r754                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r940                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r941                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r944                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r945                	resistor  	220       	30.0      	20.00     	re3, ar500m
+r1053               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r1203               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r1204               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r1223               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r1706               	resistor  	220       	30.0      	20.00     	re3, ar500m
+r37                 	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r47                 	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r48                 	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r206_pm             	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r290                	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r550                	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1129               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1132               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1133               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1148               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1151               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1152               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r1153               	resistor  	2k        	25.00     	20.00     	re4, wb, ar500m
+r46                 	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r49                 	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r60                 	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r114                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r116                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r166                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r177                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r216                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r428                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r494                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r596                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r662                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r667                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r670                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r674                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r675                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r676                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r677                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r678                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r679                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r717                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r748                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r867                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r868                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r920                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r921                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r922                	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r1194               	resistor  	22        	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r52                 	resistor  	487       	25.0      	20.00     	re3, ar200m
+r1422               	resistor  	487       	25.0      	20.00     	re3, ar200m
+r53                 	resistor  	130       	30.0      	20.00     	re3, ar100m
+r63                 	resistor  	130       	30.0      	20.00     	re3, ar100m
+r64                 	resistor  	130       	30.0      	20.00     	re3, ar100m
+r256                	resistor  	130       	30.0      	20.00     	re3, ar100m
+r492                	resistor  	130       	30.0      	20.00     	re3, ar100m, ed
+r493                	resistor  	130       	30.0      	20.00     	re3, ar100m, ed
+r540                	resistor  	130       	30.0      	20.00     	re3, ar100m
+r55_3               	resistor  	4.22k     	25.00     	20.00     	re4, wb, ar200m
+r73                 	resistor  	2.21k     	25.00     	20.00     	re4, wb, ar500m
+r433                	resistor  	2.21k     	25.00     	20.00     	re4, wb, ar500m
+r76                 	resistor  	1.3k      	25.00     	20.00     	re4, wb, ar100m
+r97                 	resistor  	21.5k     	25.00     	25.00     	re5, wb, ar500m
+r101                	resistor  	21.5k     	25.00     	25.00     	re5, wb, ar500m
+r164_pm             	resistor  	4.02k     	25.00     	20.00     	re4, wb, ar200m
+r296                	resistor  	28.7      	40.0      	20.00     	re2, ar500m, ed, en, sa, sb
+r307                	resistor  	28.7      	40.0      	20.00     	re2, ar500m, sa, sb, ed, en
+r399                	resistor  	200k      	20.00     	20.00     	re6, wb, ar500m, ed, en
+r475                	resistor  	45.3      	30.00     	20.00     	re1, wb, ar200m, ed, en
+r477                	resistor  	45.3      	30.00     	20.00     	re1, wb, ar200m, ed, en
+r495                	resistor  	82.5      	30.0      	20.00     	re1, ar100m, ed, wa10m, sa, sb, en
+r496                	resistor  	82.5      	30.0      	20.00     	re1, ar100m, ed, wa5m, sa, sb, en
+r557                	resistor  	105k      	30.00     	30.00     	re5, wb, ar100m
+r562                	resistor  	249k      	30.00     	30.00     	re6, ar500m, ed, en
+r566                	resistor  	330       	25.00     	20.00     	re3, ar200m
+r653                	resistor  	330       	25.00     	20.00     	re3, ar200m
+r654                	resistor  	330       	25.00     	20.00     	re3, ar200m
+r590                	resistor  	845       	25.00     	20.00     	re3, ar100m
+r643                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r691                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r692                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r693                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r694                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r695                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r698                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r699                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r700                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r701                	resistor  	162       	30.0      	20.0      	re3, ar500m
+r689                	resistor  	33.2k     	25.0      	25.00     	re5, wb, ar500m, ed
+r736                	resistor  	2.87k     	25.0      	20.0      	re4, wb, ar500m
+r853                	resistor  	7.87k     	25.0      	20.0      	re4, wb, ar100m
+r745                	resistor  	1.78k     	25.0      	20.0      	re4, wb, ar500m
+r768                	resistor  	5.49k     	25.0      	20.0      	re4, wb, ar200m
+r825                	resistor  	4.12k     	25.0      	20.0      	re4, wb, ar200m
+r1007               	resistor  	3.48k     	25.0      	20.0      	re4, wb, ar200m
+r1136               	resistor  	332       	20.0      	20.0      	re3, ar500m, ed
+r1142               	resistor  	332       	20.0      	20.0      	re3, ar500m, ed
+r1317               	resistor  	150       	30.0      	20.0      	re3, ar100m
+r1318               	resistor  	150       	30.0      	20.0      	re3, ar100m
+r1324               	resistor  	120       	30.0      	20.0      	re3, ar100m
+rn2_q0%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q0%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q0%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q0%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q1%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q1%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q1%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q1%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q2%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q2%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q2%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn2_q2%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q0%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q0%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q0%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q0%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q1%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q1%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q1%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q1%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q2%pin_1_8      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q2%pin_2_7      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q2%pin_3_6      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn3_q2%pin_4_5      	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn33_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn34_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn35_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn36_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn37_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn43_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn44_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn45_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn46_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn47_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn53_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn54_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn55_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn56_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn57_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn63_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn64_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn65_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn66_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn67_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn69_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn79_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn94_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn96_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn97_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s0%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s0%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s0%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s0%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s1%pin_1_8     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s1%pin_2_7     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s1%pin_3_6     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn99_s1%pin_4_5     	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s0%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s0%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s0%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s0%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s1%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s1%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s1%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn100_s1%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s0%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s0%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s0%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s0%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s1%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s1%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s1%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn102_s1%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s0%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s0%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s0%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s0%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s1%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s1%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s1%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn109_s1%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s0%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s0%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s0%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s0%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s1%pin_1_8    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s1%pin_2_7    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s1%pin_3_6    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+rn111_s1%pin_4_5    	resistor  	2.2k      	25.00     	20.00     	re4, wb, ar500m
+cr1%cr              	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr1_q0%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr1_q1%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr1_q2%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr2_q0%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr2_q1%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr2_q2%cr           	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr3%cr              	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr8%cr              	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr9%cr              	diode     	          	550m      	200m      	idc10m, co2.8, ar597m, wa20m
+cr2%grn             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr4%red             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.6, wa20m
+cr5%grn             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr5%red             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr6%grn             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr6%red             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr7%grn             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr7%red             	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr10%grn            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr10%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr11%grn            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr11%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr13%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr14%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr16%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr17%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr18%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr19%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr22%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr25%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa30m
+cr28%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr29%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr30%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr31%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr32%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr33%red            	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr108%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p0_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p0_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p0_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p0_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q2%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_q2%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p1_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q2%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_q2%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p2_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p3_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p3_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p3_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p3_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p4_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p4_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p4_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p4_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p5_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p5_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p5_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p5_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p6_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p6_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p6_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p6_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p7_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p7_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p7_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p7_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p8_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p8_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p8_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p8_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p9_s0%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p9_s0%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p9_s1%grn           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p9_s1%yel           	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p10_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p10_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p10_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p10_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p11_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p11_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p11_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p11_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p12_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p12_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p12_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p12_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p13_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p13_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p13_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p13_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p14_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p14_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p14_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p14_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p15_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p15_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p15_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p15_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p16_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p16_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p16_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p16_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p17_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p17_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p17_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p17_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p18_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p18_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p18_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p18_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p19_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p19_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p19_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p19_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p20_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p20_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p20_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p20_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p21_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p21_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p21_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p21_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p22_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p22_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p22_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p22_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p23_s0%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p23_s0%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p23_s1%grn          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+p23_s1%yel          	diode     	          	2.60      	1.80      	idc20m, co4.8, ar2.65, wa20m
+cr101%blu           	diode     	          	3.80      	2.80      	idc20m, co6.0, ar3.80, wa20m
+p5v%grn             	diode     	          	2.6       	1.8       	idc20m, co4.6, ar2.6, wa20m
+p12v%grn            	diode     	          	2.6       	1.80      	idc20m, co4.6, ar2.6, wa20m
+q27%q:B-E           	diode     	          	980m      	450m      	idc10m, co3.0, ar980m, wa20m
+q23%q:B-E           	diode     	          	980m      	450m      	idc10m, co3.0, ar980m, wa20m

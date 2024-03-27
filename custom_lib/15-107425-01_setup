@@ -1,0 +1,26 @@
+!!!!    6    0    1 1573522382  V074b                                         
+!Setup Library for 17-11868-03
+warning "Setup Library Only"
+
+sequential
+
+assign PWR to pins 76,34,35
+assign PWR to pins 12,61,80,21,14
+assign GND to pins 26,15,96,95,94,93,92,91,90,89,88
+assign GND to pins 87,86,85,84,83,82,81
+assign PWR to pins 73,69,40,38,72,68,62,55,54,53,47,41,39
+assign PWR to pins 44,50,58,65
+
+assign  IN to pins 9,7,5,6,3,4,1,2,16,18,17,19,75,37,77
+assign  IN to pins 70,22
+assign OUT to pins 43,42,45,46,51,52,57,59,60,78,79,13,56
+assign IN  to pins 31,28,29,27,25,20,74,36,30
+assign NC  to pins 10,24,23,33,32,11,71,49
+assign NC  to pins 48,64,63,66,67,8
+
+family LVT
+
+power PWR, GND
+inputs IN
+outputs OUT
+nondigital NC

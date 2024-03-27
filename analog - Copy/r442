@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520391  V01f7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:58 2022
+disconnect all
+connect s to "GND"
+connect i to "CLK156M_RT0_N"
+!B!resistor 150, 13.33, 10.00, re3, ar1.00
+resistor 150,30.0,20.00,re3,ar100m
+! "r442" test.

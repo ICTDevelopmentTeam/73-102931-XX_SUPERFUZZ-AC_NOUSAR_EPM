@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520192  V63af                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:08 2022
+disconnect all
+connect s to "MIFPGA_SPI_CS_L" ;  a to "MIFPGA_SPI_CS_L"
+connect i to "SRT_MIFPGA_SPI_CS_L" ;  b to "SRT_MIFPGA_SPI_CS_L"
+!B!resistor 33, 25.15, 10.00, re2, ar200m ,sa,sb,ed,en
+resistor 33,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r547" test.

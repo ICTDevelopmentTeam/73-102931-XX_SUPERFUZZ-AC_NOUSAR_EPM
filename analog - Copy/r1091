@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863957   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:18 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "DPLL_SYNCE_GPIO6"
+jumper 964, re3, wb, ar100m, op
+! "r1091" test.

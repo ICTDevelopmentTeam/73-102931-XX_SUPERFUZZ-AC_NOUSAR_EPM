@@ -1,0 +1,13 @@
+!!!!   21    2    1 1542636874   0000                                         
+
+!#  11-3497-01
+!#  11-3497-01 CAP,CE,47uF,6.3V,X5R,20%,SM,0
+!#  Fri Nov 16 16:41:26 2018
+
+capacitor *, 47u,20,20, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

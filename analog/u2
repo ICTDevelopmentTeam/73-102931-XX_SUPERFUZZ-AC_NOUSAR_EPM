@@ -1,0 +1,15 @@
+!!!!    2    0    1 1652251805   0000                                         
+ 
+ test powered analog
+   on failure
+      report "Test u2 at Nodes: CLK114M_XO "
+      report "Freq Measuremet = 114.0M"
+      report "Use Clock Divider. 114.0M/16"
+   end on failure
+ 
+     connect rcva to nodes  "OUT_CLK_DIV_2"
+ 
+     detector frequency, gate 1, expect (114.0M * 0.125), threshold 2.5
+     measure (114.0M * 0.125) * 1.05, (114.0M * 0.125) *.95
+ off failure
+ end test

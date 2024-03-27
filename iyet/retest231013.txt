@@ -1,0 +1,90 @@
+----------------------------------------
+TestJet Report for "testjet".
+Fri Oct 13 11:59:21 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 26  Node unnamed_4134_res_i294_b
+  Measured 1.1              (BRC 217129)
+Open #2  Device u59
+  Pin 34  Node unnamed_4134_res_i288_b
+  Measured 2.8              (BRC 20324)
+Open #3  Device u59
+  Pin 35  Node unnamed_4134_res_i287_b
+  Measured 1.6              (BRC 203124)
+Open #4  Device u59
+  Pin 42  Node unnamed_4134_res_i379_a
+  Measured 6.0              (BRC 110177)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+S/N:FLM27400B45
+----------------------------------------
+TestJet Report for "testjet".
+Fri Oct 13 11:59:32 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 26  Node unnamed_4134_res_i294_b
+  Measured 2.3              (BRC 217129)
+Open #2  Device u59
+  Pin 34  Node unnamed_4134_res_i288_b
+  Measured 2.5              (BRC 20324)
+Open #3  Device u59
+  Pin 35  Node unnamed_4134_res_i287_b
+  Measured 1.6              (BRC 203124)
+Open #4  Device u59
+  Pin 42  Node unnamed_4134_res_i379_a
+  Measured 5.8              (BRC 110177)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+S/N:FLM27400B45
+----------------------------------------
+TestJet Report for "testjet".
+Fri Oct 13 11:59:44 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u59
+  Pin 26  Node unnamed_4134_res_i294_b
+  Measured 1.2              (BRC 217129)
+Open #2  Device u59
+  Pin 34  Node unnamed_4134_res_i288_b
+  Measured 2.5              (BRC 20324)
+Open #3  Device u59
+  Pin 35  Node unnamed_4134_res_i287_b
+  Measured 1.8              (BRC 203124)
+Open #4  Device u59
+  Pin 42  Node unnamed_4134_res_i379_a
+  Measured 5.4              (BRC 110177)
+15-105653-01 IC-TIMING,SYNTHESIZER,1045.
+----------------------------------------
+S/N:FLM27400B45
+----------------------------------------
+73-102898-01_03
+Fri Oct 13 12:18:42 2023
+----------------------------------------
+rn79_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn79_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   2.9113k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B45
+----------------------------------------
+73-102898-01_03
+Fri Oct 13 12:34:14 2023
+----------------------------------------
+rn79_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn79_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   2.7950k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27400B45

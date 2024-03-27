@@ -1,0 +1,11 @@
+!!!!   21    2    1 1312300101  Vbadc                                         
+
+diode "cr",    600m, 400m, nr
+
+external pins 1,3
+   device "cr" pins "A"
+
+external pins 2; noconnect
+
+external pins 4
+   device "cr" pins "C"

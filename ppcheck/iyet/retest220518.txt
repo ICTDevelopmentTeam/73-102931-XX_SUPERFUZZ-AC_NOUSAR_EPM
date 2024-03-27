@@ -1,0 +1,72 @@
+----------------------------------------
+73-102898-01_03
+Wed May 18 09:04:19 2022
+----------------------------------------
+r322 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   16.777
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+----------------------------------------
+check nodes SRT_FPGA_CPLD4_SPI_SCK P-Pin resistance
+check nodes FPGA_CPLD4_SPI_SCK P-Pin resistance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Wed May 18 09:04:24 2022
+----------------------------------------
+r322 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   35.595
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+----------------------------------------
+check nodes SRT_FPGA_CPLD4_SPI_SCK P-Pin resistance
+check nodes FPGA_CPLD4_SPI_SCK P-Pin resistance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Wed May 18 09:04:28 2022
+----------------------------------------
+r322 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   48.751
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+----------------------------------------
+check nodes SRT_FPGA_CPLD4_SPI_SCK P-Pin resistance
+check nodes FPGA_CPLD4_SPI_SCK P-Pin resistance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0
+----------------------------------------
+73-102898-01_03
+Wed May 18 09:04:31 2022
+----------------------------------------
+r322 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   57.867
+Nominal:    12.000
+High Limit: 14.400
+Low Limit:  0.0000
+Resistance in OHMS
+----------------------------------------
+check nodes SRT_FPGA_CPLD4_SPI_SCK P-Pin resistance
+check nodes FPGA_CPLD4_SPI_SCK P-Pin resistance
+----------------------------------------
+Board #: 0 
+Version:
+S/N:FDO26100JV0

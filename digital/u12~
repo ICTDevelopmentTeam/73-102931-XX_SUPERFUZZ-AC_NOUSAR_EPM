@@ -1,0 +1,48 @@
+!!!!    6    0    1 1652767999  Vaa93                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u12"
+set terminators to on
+assign VCC to pins *
+assign GND to pins *
+
+assign EB  to pins 15
+assign SEL to pins 1
+
+assign A0  to pins 2
+assign A1  to pins *
+assign YA  to pins 4
+
+assign B0  to pins 5
+assign B1  to pins *
+assign YB  to pins 7
+
+assign C0  to pins *
+assign C1  to pins *
+assign YC  to pins *
+
+assign D0  to pins *
+assign D1  to pins *
+assign YD  to pins *
+
+power  VCC,GND
+inputs EB,SEL
+inputs A0,A1,B0,B1,C0,C1,D0,D1
+outputs YA,YB,YC,YD
+
+family LVT
+
+pcf order default SCAN is EB,SEL
+pcf order default SCAN is A0,A1,B0,B1,C0,C1,D0,D1
+pcf order default SCAN is YA,YB,YC,YD
+
+unit
+pcf
+  "0 0 10101010 HHHH"
+  "0 0 01010101 LLLL"
+  "0 1 01010101 HHHH"
+  "1 0 01010101 HHHH"
+end pcf
+end unit
+

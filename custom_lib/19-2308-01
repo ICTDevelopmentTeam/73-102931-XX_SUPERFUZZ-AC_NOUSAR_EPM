@@ -1,0 +1,24 @@
+!!!!    2    0    1 1545029983  Vdde4                                         
+test powered analog
+
+! nonanalog pins 2,3
+
+  test "Freq_in"
+  test "Freq_out"
+end test
+
+subtest "Freq_in"
+
+  clear connect rcva to pins 1
+  detector frequency, expect  32.768k
+  measure   32.768k * 1.05,  32.768k * .95
+end subtest
+
+subtest "Freq_out"
+
+  clear connect rcva to pins 2
+  detector frequency, expect  32.768k
+  measure   32.768k * 1.05,  32.768k * .95
+end subtest
+
+

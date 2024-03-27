@@ -1,0 +1,25 @@
+!!!!    2    0    1 1678380516  Vd06b                                         
+
+test powered analog
+
+ test "VOUT"
+end test
+
+subtest "VOUT"
+
+   on failure
+   report "VALIDA QUE EL U87 (RAISIN)"
+   report "SEA EL CORRECTO"
+   end on failure
+
+   disconnect all
+   connect i to pins 15
+   connect l to pins 7
+
+   detector dcv, expect 1.8
+   measure 1.8 * 1.08, 1.8 * 0.92
+end subtest
+
+
+
+

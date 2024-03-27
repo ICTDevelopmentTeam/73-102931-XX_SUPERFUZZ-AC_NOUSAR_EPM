@@ -1,0 +1,549 @@
+!!!!    6    0    1 1584512117  Vdcd1                                         
+! IPG: rev 08.40p  Wed Nov 13 12:40:12 2019
+!
+!***  All contents copyright 2007 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:         MC100EP14
+! Alias:             SY100EP14U,MC100ES6014
+! Part Type:         VLSI
+! Description:       1 to 5 Clock Driver
+! Manufacturer:      On Semiconductor, Micrel, Motorola
+! Package Style:     20 pin SOP
+! Created:           Apr 24, 2007
+! Programmer:        sama
+! Tester:            HP3070
+! Processor:         VPU
+! Vector Format:     VCL
+! Testjet Testable:  yes
+! JTAG Device:       no
+! Fault coverage:    88%. CLK1 and CLK0 may not fully coverered for stuck
+!                         low or high faults because of differential pairs.
+! Constraints:       Test written for VCC connects to 2.5V and VEE to 0V
+! Cisco Part #:      15-7908-01,15-9846-01
+
+sequential
+
+vector cycle  500n
+receive delay 400n
+
+default device "u17"
+set terminators to on
+assign VCC  to pins *,*
+assign VEE  to pins *
+assign VBB  to pins *
+
+assign SEL  to pins 12
+assign CLK0 to pins 13,14
+assign CLK0_P to pins 13
+assign CLK0_N to pins 14
+assign CLK1 to pins 16,17
+assign ENB  to pins 19
+assign Q4_P to pins 9
+assign Q4_N to pins 10
+assign Q4   to pins 9,10
+assign Q3   to pins 7,8
+assign Q2   to pins 5,6
+assign Q1   to pins 3,4
+assign Q0   to pins 1,2
+assign Q0_P   to pins 1
+assign Q0_N   to pins 2
+assign RST    to nodes "TW_SILAB_103_RESET_L"
+
+power   VCC,VEE,VBB
+inputs  SEL,CLK0,CLK1,ENB,CLK0_P,CLK0_N,RST
+outputs Q4,Q3,Q2,Q1,Q0, Q0_P, Q0_N,Q4_P,Q4_N
+
+disable Q4 with ENB,CLK0,CLK1 to "1tttt" 4 times
+disable Q3 with ENB,CLK0,CLK1 to "1tttt" 4 times
+disable Q2 with ENB,CLK0,CLK1 to "1tttt" 4 times
+disable Q1 with ENB,CLK0,CLK1 to "1tttt" 4 times
+disable Q0 with ENB,CLK0,CLK1 to "1tttt" 4 times
+
+family LVT_2V5
+family LVT_1V8 on RST
+
+set ref on pins 9,10 to rh 1.8, rl 1.6
+set ref on pins 7,8  to rh 1.8, rl 1.6
+set ref on pins 5,6  to rh 1.8, rl 1.6
+set ref on pins 3,4  to rh 1.8, rl 1.6
+set ref on pins 1,2  to rh 1.8, rl 1.6
+set load on device "U17" pins "10" to pull down
+
+pcf order SCAN_N is SEL, CLK0_N,Q4_N
+
+!@assign TDI  to nodes "JTAG_TDI_MIFPGA_3V3"
+!@assign TDO  to nodes "JTAG_TDO_MIFPGA_3V3"
+!@assign TMS  to nodes "JTAG_TMS_MIFPGA_3V3"
+!@assign TCK  to nodes "SRT_JTAG_TCK_MIFPGA_3V3"
+!@
+!@
+!@inputs      TCK
+!@inputs      TMS
+!@inputs      TDI
+!@outputs     TDO
+!@
+!@
+!@set slew rate on nodes "JTAG_TDI_MIFPGA_3V3" to 250
+!@set slew rate on nodes "JTAG_TMS_MIFPGA_3V3" to 250
+!@set slew rate on nodes "SRT_JTAG_TCK_MIFPGA_3V3" to 250
+!@pcf order default Scan is   TCK,  TMS,  TDI,  TDO
+
+
+vector INIT1
+ set SEL  to "x"
+ set CLK0 to "01"
+ set CLK1 to "01"
+ set ENB  to "0"
+ set Q4   to "xx"
+ set Q3   to "xx"
+ set Q2   to "xx"
+ set Q1   to "xx"
+ set Q0   to "xx"
+end vector
+
+vector KEEP1
+ set SEL  to "k"
+ set CLK0 to "kk"
+ set CLK1 to "kk"
+ set ENB  to "k"
+ set Q4   to "xx"
+ set Q3   to "xx"
+ set Q2   to "xx"
+ set Q1   to "xx"
+ set Q0   to "xx"
+end vector
+
+vector SEL_0
+ initialize to KEEP1
+ set SEL    to "0"
+end vector
+
+vector SEL_1
+ initialize to KEEP1
+ set SEL    to "1"
+end vector
+
+vector ENB_0
+ initialize to KEEP1
+ set ENB    to "0"
+end vector
+
+vector ENB_1
+ initialize to KEEP1
+ set ENB    to "1"
+end vector
+
+vector CLK1_01
+ initialize to KEEP1
+ set CLK1   to "01"
+end vector
+
+vector CLK1_10
+ initialize to KEEP1
+ set CLK1   to "10"
+end vector
+
+vector CLK0_00
+ initialize to KEEP1
+ set CLK0   to "00"
+end vector
+
+vector CLK0_P_1
+ initialize to KEEP1
+ set CLK0_P to "1"
+end vector
+
+vector CLK0_P_0
+ initialize to KEEP1
+ set CLK0_P to "0"
+end vector
+
+vector CLK0_N_0
+ initialize to KEEP1
+ set CLK0_N to "0"
+end vector
+
+vector CLK0_N_1
+ initialize to KEEP1
+ set CLK0_N to "1"
+end vector
+
+vector CLK0_01
+ initialize to KEEP1
+ set CLK0   to "01"
+end vector
+
+vector CLK0_10
+ initialize to KEEP1
+ set CLK0   to "10"
+end vector
+
+vector CLK0_11
+ initialize to KEEP1
+ set CLK0   to "11"
+end vector
+
+vector OUT_P_1
+ initialize to KEEP1
+ set Q4   to "X1"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+!set Q0_P to "1"
+end vector
+
+vector OUT_P_0
+ initialize to KEEP1
+ set Q4   to "01"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+!set Q0_P to "0"
+end vector
+
+vector OUT_N_X
+ initialize to KEEP1
+ set Q4   to "XX"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+!set Q0_N to "1"
+end vector
+
+vector OUT_N_1
+ initialize to KEEP1
+!set RST  to "1"
+ set Q4_N to "1"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+!set Q0_N to "1"
+end vector
+
+vector OUT0_N_0
+ initialize to KEEP1
+ set Q4_N to "0"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+ set Q0_N   to "0"
+end vector
+
+vector OUT_N_0
+ initialize to KEEP1
+!set RST  to "1"
+ set Q4_N to "0"
+!set Q3   to "01"
+!set Q2   to "01"
+!set Q1   to "01"
+!set Q0_N to "0"
+end vector
+
+vector OUT_01
+ initialize to KEEP1
+ set Q4   to "01"
+ set Q3   to "01"
+ set Q2   to "01"
+ set Q1   to "01"
+ set Q0   to "01"
+end vector
+
+vector OUT_10
+ initialize to KEEP1
+ set Q4   to "10"
+ set Q3   to "10"
+ set Q2   to "10"
+ set Q1   to "10"
+ set Q0   to "10"
+end vector
+
+! ***************************************************************************
+
+!@unit "Disable Test" ! Vector 1
+!@pcf
+!@use pcf order Scan
+!@"01ZX"
+!@"11ZX"
+!@"01ZX"
+!@"11ZX"
+!@"01ZX"
+!@"11ZX"
+!@"01ZX"
+!@"11ZX"
+!@"01ZX"
+!@"11ZX"
+!@"01ZX"
+!@"11ZX"!Test-Logic-Reset
+!@"00ZX"
+!@"10ZX"!Run-Test/Idle
+!@"01ZX"
+!@"11ZX"!Select-DR-Scan
+!@"01ZX"
+!@"11ZX"!Select-IR-Scan
+!@"00ZX"
+!@"10ZX"!Capture-IR
+!@"00ZX"
+!@"10ZX"!Shift-IR
+!@end pcf
+!@message "IEEE Std 1149.1-1994 Integrity Failure"
+!@message "  Device U49 has failed,"
+!@message "  suspect device or these pins:"
+!@message "  (tck)  Y5"
+!@message "  (tms)  R6"
+!@message "  (tdi)  T6"
+!@message "  (tdo)  V7"
+!@pcf
+!@use pcf order Scan
+!@"000H"!0+0
+!@"100X"
+!@"001L"!1 Vector 25
+!@"101X"
+!@! Loading device U49 with instruction IDCODE(0000000110).
+!@"000H"!2+0
+!@"100X"
+!@"001L"!1
+!@"101X"
+!@"001H"!2
+!@"101X"
+!@"000L"!3
+!@"100X"
+!@"000H"!4
+!@"100X"
+!@"000L"!5
+!@"100X"
+!@"000H"!6
+!@"100X"
+!@"000L"!7
+!@"100X"
+!@"000L"!8
+!@"100X"
+!@"010H"!9
+!@"110X"!Exit1-IR
+!@"01ZX"
+!@"11ZX"!Update-IR
+!@end pcf
+!@message ""
+!@pcf
+!@use pcf order Scan
+!@"10ZX"!Suppress Ground Bounce
+!@"00ZX"! Vector 50
+!@"10ZX"!Run-Test/Idle
+!@"01ZX"
+!@"11ZX"!Select-DR-Scan
+!@"00ZX"
+!@"10ZX"!Capture-DR
+!@"00ZX"
+!@"10ZX"!Shift-DR
+!@end pcf
+!@message "IEEE Std 1149.1-1994 Integrity Failure"
+!@message "  Device U49 has failed,"
+!@message "  suspect device or these pins:"
+!@message "  (tck)  Y5"
+!@message "  (tms)  R6"
+!@message "  (tdi)  T6"
+!@message "  (tdo)  V7"
+!@! Testing data integrity of device U49.
+!@pcf
+!@use pcf order Scan
+!@"001H"!0+0
+!@"101X"
+!@end pcf
+!@message "IEEE Std 1149.1-1994 IDCODE failure"
+!@message "in Device U49, expecting:"
+!@message "  00000010101100000010000011011101"
+!@pcf
+!@use pcf order Scan
+!@"001L"!1
+!@"101X"
+!@"001H"!2
+!@"101X"
+!@"001H"!3
+!@"101X"
+!@"001H"!4
+!@"101X"
+!@"001L"!5
+!@"101X"
+!@"001H"!6
+!@"101X"
+!@"001H"!7
+!@"101X"
+!@"001L"!8
+!@"101X"! Vector 75
+!@"001L"!9
+!@"101X"
+!@"001L"!10
+!@"101X"
+!@"001L"!11
+!@"101X"
+!@"001L"!12
+!@"101X"
+!@"001H"!13
+!@"101X"
+!@"001L"!14
+!@"101X"
+!@"001L"!15
+!@"101X"
+!@"001L"!16
+!@"101X"
+!@"001L"!17
+!@"101X"
+!@"001L"!18
+!@"101X"
+!@"001L"!19
+!@"101X"
+!@"001H"!20
+!@"101X"
+!@"001H"!21 Vector 100
+!@"101X"
+!@"001L"!22
+!@"101X"
+!@"001H"!23
+!@"101X"
+!@"001L"!24
+!@"101X"
+!@"001H"!25
+!@"101X"
+!@"001L"!26
+!@"101X"
+!@"001L"!27
+!@"101X"
+!@"001L"!28
+!@"101X"
+!@"001L"!29
+!@"101X"
+!@"001L"!30
+!@"101X"
+!@"011L"!31
+!@"111X"!Exit1-DR
+!@"01ZX"
+!@"11ZX"!Update-DR
+!@end pcf
+!@message ""
+!@pcf
+!@use pcf order Scan
+!@"10ZX"!Suppress Ground Bounce
+!@"00ZX"! Vector 125
+!@"10ZX"!Run-Test/Idle
+!@"01ZX"
+!@"11ZX"!Select-DR-Scan
+!@"01ZX"
+!@"11ZX"!Select-IR-Scan
+!@! Set up Chain for Disables
+!@end pcf
+!@message "Disabling failed after Integrity Check"
+!@message "passed.  This could be caused by noise"
+!@message "or instability."
+!@! The following Instruction Shifting will produce the disabling:
+!@!   U49                  in BYPASS (TAP-Only Device)
+!@pcf
+!@use pcf order Scan
+!@"00ZX"
+!@"10ZX"!Capture-IR
+!@"00ZX"
+!@"10ZX"!Shift-IR
+!@! Loading device U49 with instruction BYPASS(1111111111).
+!@"001H"!0+0
+!@"101X"
+!@"001L"!1
+!@"101X"
+!@"001H"!2
+!@"101X"
+!@"001L"!3
+!@"101X"
+!@"001H"!4
+!@"101X"
+!@"001L"!5
+!@"101X"
+!@"001H"!6
+!@"101X"
+!@"001L"!7
+!@"101X"! Vector 150
+!@"001H"!8
+!@"101X"
+!@"011L"!9
+!@"111X"!Exit1-IR
+!@"01ZX"
+!@"11ZX"!Update-IR
+!@"10ZX"!Suppress Ground Bounce
+!@"00ZX"
+!@"10ZX"!Run-Test/Idle
+!@! Park chain in Run-Test/Idle State
+!@"00ZX"
+!@"10ZX"!Run-Test/Idle
+!@end pcf
+!@end unit ! Disable Test Vector 161
+
+unit "Outputs vs CLK0"
+ execute INIT1
+ execute SEL_0
+ repeat 2 times
+  execute CLK0_10
+  execute CLK0_01
+ end repeat
+ homingloop 100 times
+ execute CLK0_01
+ execute OUT_01
+ execute CLK0_10
+ execute OUT_10 exit if pass
+ end homingloop
+end unit
+
+unit "ENB test"
+ execute ENB_1
+ repeat 2 times
+  execute CLK0_10
+  execute CLK0_01
+ end repeat
+ homingloop 100 times
+ execute CLK0_01
+ execute OUT_01
+ execute CLK0_10
+ execute OUT_01 exit if pass
+ end homingloop
+end unit
+
+unit "ENB_N test"
+ execute ENB_1
+ repeat 2 times
+  execute CLK0_N_0
+  execute CLK0_N_1
+ end repeat
+ execute CLK0_N_1
+ execute OUT_N_1
+ execute CLK0_N_0
+ execute OUT_N_1
+end unit
+
+unit "Outputs vs CLK1"
+ execute INIT1
+ execute SEL_1
+ repeat 2 times
+  execute CLK1_10
+  execute CLK1_01
+ end repeat
+ homingloop 100 times
+ execute CLK1_10
+ execute OUT_10
+ execute CLK1_01
+ execute OUT_01 exit if pass
+ end homingloop
+end unit
+
+unit "ENB test"
+ execute ENB_1
+ repeat 2 times
+  execute CLK1_10
+  execute CLK1_01
+ end repeat
+ homingloop 100 times
+ execute CLK1_10
+ execute OUT_01
+ execute CLK1_01
+ execute OUT_01 exit if pass
+ end homingloop
+end unit
+
+

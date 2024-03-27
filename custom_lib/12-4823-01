@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V588a                                         
+
+!  12-4823-01
+!  12-4823-01 RES,TKF,3.48 k ohm,0.063W,1%,
+
+resistor *, 3.48k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

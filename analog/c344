@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863891   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:12 2022
+on failure
+   report parallel devices
+   report "r514"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_31_CAP_I42_A"
+jumper 5.00k, re4, wb, ar200m, op
+! "c344" test.
+off failure

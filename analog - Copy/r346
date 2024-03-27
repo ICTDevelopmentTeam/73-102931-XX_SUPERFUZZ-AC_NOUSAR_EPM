@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520781  V9674                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:22 2022
+disconnect all
+connect s to "GND"
+connect i to "CLK156M25_RT_BUFIN_UPPER_REFCLK_P"
+!B!resistor 220, 12.27, 10.00, re3, ar500m
+resistor 220,30.0,20.00,re3,ar500m
+! "r346" test.

@@ -1,0 +1,17 @@
+!!!!    2    0    1 1681505975  V8df9                                         
+
+test powered analog; Values
+
+  connect i to nodes "P5V"
+  connect l to ground
+
+  detector dcv, expect 5.0
+  !!measure 3.564, 3.036
+  initiate detector
+  fetch Values
+
+end test
+
+! **********************************************************
+
+

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519093  V262f                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:23 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "UNNAMED_4134_RES_I288_B"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m
+! "r107" test.

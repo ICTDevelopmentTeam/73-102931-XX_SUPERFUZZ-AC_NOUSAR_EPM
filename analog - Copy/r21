@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651026803  V40c7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:25 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect i to "AC_CLK25M_MI0_SYNC_E_REFCLK_P"                                                                                                                    
+connect s to "P3_3VA"                                                                                                                                           
+connect g to "GND"                                                                                                                                              
+!B!resistor 150, 13.33, 10.00, re3, ar1.00, wa84.3u                                                                                                             
+resistor 150,30.0,20.00,re3,ar100m                                                                                                                              
+! "r21" test.                                                                                                                                                   

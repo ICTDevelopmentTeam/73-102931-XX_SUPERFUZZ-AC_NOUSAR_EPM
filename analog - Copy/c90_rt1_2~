@@ -1,0 +1,29 @@
+!!!!    2    0    1 1648516766  Vc749                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:24 2022
+on failure
+report parallel devices
+report "c90_rt3_4 22.0u"
+report "c130_rt1_2 22.0u"
+report "c130_rt3_4 22.0u"
+report "c3063 22.0u"
+report "c3064 22.0u"
+report "c29_rt1_2 100n"
+report "c29_rt3_4 100n"
+report "c35_rt1_2 100n"
+report "c35_rt3_4 100n"
+report "c128_rt1_2 100n"
+report "c128_rt3_4 100n"
+report "c129_rt1_2 100n"
+report "c129_rt3_4 100n"
+report "c572 100n"
+report "c573 100n"
+report "c574 100n"
+end on failure
+disconnect all
+connect s to "GND"; a to "GND"
+connect i to "P2V5RT1"; b to "P2V5RT1"
+connect g to "P2V5RT1_SNS"
+!B!capacitor 133.1u, 15.00, 15.08, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+capacitor 133.1u, 25.00, 50.0, fr128, re1, ar200m, ed, sa, sb, en, nocomp
+! "c90_rt1_2" test.
+off failure

@@ -1,0 +1,13 @@
+!!!!    2    0    1 1651025241   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:37 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r76 1.30k"                                                                                                                                              
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "UNNAMED_53_ACADIAMPPS11LV_I47_PMBADDR"                                                                                                            
+!B!capacitor 10n, 20.00, 20.00, fr1024, re3, wb, ar100m, nocomp                                                                                                 
+capacitor 10n,35.00,40.0,fr1024,re5,wb,ar100m,nocomp,ed,en                                                                                                            
+! "c10_rtv2" test.                                                                                                                                              
+off failure                                                                                                                                                     

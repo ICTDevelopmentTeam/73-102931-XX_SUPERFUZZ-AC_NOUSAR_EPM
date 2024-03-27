@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863980   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:41 2022
+disconnect all
+connect s to "SRT_SFP19_I2C_SCL_EDGE"
+connect i to "I2C_SCL_SFP<19>"
+jumper 5.94, re1, ar200m
+! "r834" test.

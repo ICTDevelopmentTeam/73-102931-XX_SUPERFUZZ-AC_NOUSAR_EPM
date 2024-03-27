@@ -1,0 +1,9 @@
+!!!!    2    0    1 1653009649  V0b59                                         
+!* Top probe [SRT_CLK156M25_RT3_REFCLK_P] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:55 2022
+disconnect all
+connect s to "CLK156M_RT3_P"; a to "CLK156M_RT3_P"
+connect i to "SRT_CLK156M25_RT3_REFCLK_P"; b to "SRT_CLK156M25_RT3_REFCLK_P"
+!B!resistor 49.9, 20.02, 10.00, re2, ar200m ,sa,sb,ed,en
+resistor 49.9, 30.0, 20.00, re2, ar200m, sa, sb, ed, en
+! "r375" test.

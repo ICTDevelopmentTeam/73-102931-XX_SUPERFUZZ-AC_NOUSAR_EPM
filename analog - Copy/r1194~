@@ -1,0 +1,7 @@
+!!!!    2    0    1 1648521668  V864c                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:50 2022
+disconnect all
+connect s to "UNNAMED_55_PI3B3257PG_I126_YC" ;  a to "UNNAMED_55_PI3B3257PG_I126_YC"
+connect i to "JTAG_TCK_SNDN_MUXED_3V3" ;  b to "JTAG_TCK_SNDN_MUXED_3V3"
+resistor 22,40.0,20.00,re2,ar500m,sa,sb,ed,en
+! "r1194" is a limited test.

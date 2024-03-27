@@ -1,0 +1,39 @@
+!!!!    2    0    1 1119957082  V8697                                         
+test powered analog
+
+test "ON"
+test "OFF"
+
+end test
+
+subtest "ON"
+   disconnect all
+   connect s to pins "D"
+   connect i to pins "D"
+   connect l to pins "S"
+   connect a to pins "G"
+
+   source dcv,am3, terminated 500 , on
+   auxiliary dcv, am3, ico1, on
+   detector dcv, expect 100m
+   wait 10m
+   measure 0.5, -0.1
+end subtest
+
+subtest "OFF"
+   disconnect all
+   connect s to pins "D"
+   connect i to pins "D"
+   connect l to pins "S"
+   connect a to pins "G"
+   
+   source dcv,am3, terminated 500 , on
+   auxiliary dcv, am-0.1, ico1, on
+   detector dcv, expect 3
+   wait 10m
+   measure 3.2, 2
+end subtest
+
+!
+! End of test
+!

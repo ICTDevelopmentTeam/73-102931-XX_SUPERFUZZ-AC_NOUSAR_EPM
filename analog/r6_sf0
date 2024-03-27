@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863976   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:37 2022
+disconnect all
+connect s to "PMOD_PVCC_P3V3_SFP0_ALT"
+connect i to "PMOD_VCC_P3V3_SFP0_ALT"
+jumper 5.94, re1, ar200m
+! "r6_sf0" test.

@@ -1,0 +1,9 @@
+!!!!   21    2    1 1647592081  Vce3c                                         
+
+diode "blu", 3.80, 2.80, nr
+
+external pins 1
+   device "blu" pins "C"
+
+external pins 2
+   device "blu" pins "A"

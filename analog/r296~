@@ -1,0 +1,9 @@
+!!!!    2    0    1 1651211565   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:09 2022
+disconnect all
+connect s to "AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_P"
+connect i to "SRT_CLK103M_DAV_SYNC_E_CORE_REFCLK_P"
+connect a to "AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_P"
+connect b to "SRT_CLK103M_DAV_SYNC_E_CORE_REFCLK_P"
+resistor 28.7,40.0,20.00,re2,ar500m,ed,en,sa,sb
+! "r296" test.

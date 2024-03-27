@@ -1,0 +1,8 @@
+!!!!    2    0    1 1689301889   0000                                         
+!* 102898 nostuff ,102931 stuff                                                                                                                                 
+disconnect all                                                                                                                                                  
+connect s to "UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO"                                                                                                         
+connect i to "PMOD_SYNC_5V"                                                                                                                                     
+!@jumper 5.94, re1, ar200m                                                                                                                                      
+resistor 3.48k,20,20,re1,ar100m                                                                                                                                 
+! "r875_5v" test.                                                                                                                                               

@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648520290  V6ef7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:04:14 2022
+disconnect all
+connect i to "SRT_P0V9_SNDN_SCL"
+connect s to "P3_3VA"
+connect g to "MIFPGA_PMBUS_SCL"
+!B!resistor 4.75k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.75k,25.00,20.00,re4,wb,ar200m
+! "r21_5" test.

@@ -1,0 +1,5 @@
+Failure type	|Probe	|Usage	|Node Name	|Device Name	|Date/Time	|
+-------------------------------------------------------------------------------
+Open Failure	|P2005	|1	|UNNAMED_4_NMOSFET_I218_D_Q0	|	|230930074722	|
+Open Failure	|P2005	|1	|UNNAMED_4_NMOSFET_I218_D_Q0	|	|230930074910	|
+Open Failure	|P2005	|1	|UNNAMED_4_NMOSFET_I218_D_Q0	|	|230930075053	|

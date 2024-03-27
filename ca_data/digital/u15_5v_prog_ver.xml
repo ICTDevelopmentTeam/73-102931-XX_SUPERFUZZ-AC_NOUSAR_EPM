@@ -1,0 +1,27 @@
+
+<Test name = "u15_5v_prog_ver">
+<FileList>
+<File name = "u15_5v_prog_ver">
+<FilePath>F:/01_Programs/INSBU/NPI/73-102931_XX_SUPERFUZZ-AC_NEW/Superfuzz_AC_73-102931-01_B0/programming/u15_5v_prog_ver</FilePath>
+<LastModified>Wed Jan  4, 2023  12:01 pm</LastModified>
+</File>
+</FileList>
+<DeviceList>
+<Device name="u15_5v">
+<TestablePinList>
+<Pin name="19">
+<Type>Bidir</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+<ReceiveLow value="true"/>
+<ReceiveHigh value="true"/>
+</Pin>
+<Pin name="20">
+<Type>Input</Type>
+<DriveLow value="true"/>
+<DriveHigh value="true"/>
+</Pin>
+</TestablePinList>
+</Device>
+</DeviceList>
+</Test>

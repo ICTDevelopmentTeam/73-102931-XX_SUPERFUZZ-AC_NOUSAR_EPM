@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863967   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:28 2022
+disconnect all
+connect s to "P1V0RT1_AVDD"
+connect i to "FLTR_BV1_AVDDL_RT3_4"
+jumper 5.94, re1, ar200m
+! "l7_rt3_4" test.

@@ -1,0 +1,85 @@
+!!!!    6    0    1  846554888  V0417                                         
+!
+!***  All contents copyright 2007 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:         NC7SZ157
+! Alias:             
+! Part Type:         VLSI
+! Description:       TinyLogic UHS 2-Input Non-Inverting Multiplexer
+! Manufacturer:      Fairchild, Texas Instruments
+! Package Style:     6 pin SC70
+! Created:           Jan 03, 2007
+! Programmer:        sama
+! Tester:            HP3070
+! Processor:         VPU
+! Vector Format:     VCL
+! Testjet Testable:  yes
+! JTAG Device:       no
+! Fault coverage:    100%
+! Constraints:       No
+! Cisco Part #:      15-8366-01
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VDD to pins 5
+assign GND to pins 2
+
+assign SEL to pins 6
+assign IN1 to pins 1
+assign IN0 to pins 3
+assign OUT to pins 4
+
+power   VDD,GND
+inputs  SEL,IN1,IN0
+outputs OUT
+
+family LVT
+
+vector IN0_OUT_0
+ set SEL to "0"
+ set IN0 to "0"
+ set OUT to "0"
+end vector
+
+vector IN0_OUT_1
+ set SEL to "0"
+ set IN0 to "1"
+ set OUT to "1"
+end vector
+
+vector IN1_OUT_0
+ set SEL to "1"
+ set IN1 to "0"
+ set OUT to "0"
+end vector
+
+vector IN1_OUT_1
+ set SEL to "1"
+ set IN1 to "1"
+ set OUT to "1"
+end vector
+
+! ***************************************************************************
+
+unit "OUT vs IN0, Low"
+ execute IN0_OUT_0
+end unit
+
+unit "OUT vs IN0, High"
+ execute IN0_OUT_1
+end unit
+
+unit "OUT vs IN1, Low"
+ execute IN1_OUT_0
+end unit
+
+unit "OUT vs IN1, High"
+ execute IN1_OUT_1
+end unit
+

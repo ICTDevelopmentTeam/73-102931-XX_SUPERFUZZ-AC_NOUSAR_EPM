@@ -1,0 +1,11 @@
+!!!!    2    0    1 1675180659   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:11 2022
+disconnect all
+connect i to "GND"
+connect s to "FUSE_FSRC_3"
+connect g to "P1V8"
+connect g to "P12V"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+!resistor 1k,10.00,50.00,re3,ar100m,ed,en,wa10m   !tolerance relax for ASIC low resistance issue
+resistor 1k,10.00,50.00,re3,ar50m,ed         !ADV
+! "r29_3" test.

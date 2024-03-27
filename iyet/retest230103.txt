@@ -1,0 +1,793 @@
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 03 16:11:14 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I487_B_A 205135  104
+                 c2_a.1
+                 l1_a.1
+                u1_a.14
+To:   P2_5VA                  20853  104
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l1_a
+Message is:
+Check L1_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  107
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vccbat     20546  107
+                 c404.1
+                 l33.2
+                 u49.E8
+Common Devices:
+                  l33
+                  u49
+Message is:
+Check L33
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  106
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vcch_gxb   20547  106
+                 c432.1
+                 c433.1
+                 c434.1
+                 c435.1
+                 l35.2
+                 u49.L3
+                 u49.R3
+                 u49.T4
+Common Devices:
+                  l35
+                  u49
+Message is:
+Check L35
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcca_fpll 205147  110
+                 c443.2
+                 c444.2
+                 c445.2
+                 c446.2
+                 l37.1
+                u49.G21
+                 u49.J6
+                 u49.W7
+                u49.Y21
+To:   P2_5VA                  20853  110
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l37
+                  u49
+Message is:
+Check L37
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcc_aux    20548  112
+                 c447.2
+                 c448.2
+                 c449.2
+                 c450.2
+                 c451.2
+                 c458.2
+                 l38.1
+                u49.AA8
+                u49.AB14
+                u49.AB20
+Too many to print.
+To:   P2_5VA                  20853  112
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l38
+                  u49
+Message is:
+Check L38
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  115
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427  115 
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853  117
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                    205148  117 
+UNNAMED_4103_AVC8T245_I56_DIR           
+                 r453.2
+                 u43.2
+Common Devices:
+                  r453
+                  u43
+Message is:
+Check R453
+------End, 7 Problems Reported----------
+S/N:FLM2701031F
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 03 16:11:26 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I487_B_A 205135 Open
+                 c2_a.1
+                 l1_a.1
+                u1_a.14
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l1_a
+Message is:
+Check L1_A
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vccbat     20546
+                 c404.1
+                 l33.2
+                 u49.E8
+Common Devices:
+                  l33
+                  u49
+Message is:
+Check L33
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vcch_gxb   20547
+                 c432.1
+                 c433.1
+                 c434.1
+                 c435.1
+                 l35.2
+                 u49.L3
+                 u49.R3
+                 u49.T4
+Common Devices:
+                  l35
+                  u49
+Message is:
+Check L35
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcca_fpll 205147 Open
+                 c443.2
+                 c444.2
+                 c445.2
+                 c446.2
+                 l37.1
+                u49.G21
+                 u49.J6
+                 u49.W7
+                u49.Y21
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l37
+                  u49
+Message is:
+Check L37
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcc_aux    20548 Open
+                 c447.2
+                 c448.2
+                 c449.2
+                 c450.2
+                 c451.2
+                 c458.2
+                 l38.1
+                u49.AA8
+                u49.AB14
+                u49.AB20
+Too many to print.
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l38
+                  u49
+Message is:
+Check L38
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                    205148
+UNNAMED_4103_AVC8T245_I56_DIR           
+                 r453.2
+                 u43.2
+Common Devices:
+                  r453
+                  u43
+Message is:
+Check R453
+------End, 7 Problems Reported----------
+S/N:FLM2701031F
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 03 16:11:38 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT1_2    21416
+              c76_rt1_2.1
+              c78_rt1_2.1
+              c80_rt1_2.1
+              c86_rt1_2.1
+              c88_rt1_2.1
+              c92_rt1_2.1
+              c94_rt1_2.1
+              c96_rt1_2.1
+              c98_rt1_2.1
+              c100_rt1_2.1
+Too many to print.
+Common Devices:
+                l7_rt1_2
+Message is:
+Check L7_RT1_2
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_2_CAP_I487_B_A 205135 Open
+                 c2_a.1
+                 l1_a.1
+                u1_a.14
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l1_a
+Message is:
+Check L1_A
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vccbat     20546
+                 c404.1
+                 l33.2
+                 u49.E8
+Common Devices:
+                  l33
+                  u49
+Message is:
+Check L33
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:   fltr_mifpga1_vcch_gxb   20547
+                 c432.1
+                 c433.1
+                 c434.1
+                 c435.1
+                 l35.2
+                 u49.L3
+                 u49.R3
+                 u49.T4
+Common Devices:
+                  l35
+                  u49
+Message is:
+Check L35
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcca_fpll 205147 Open
+                 c443.2
+                 c444.2
+                 c445.2
+                 c446.2
+                 l37.1
+                u49.G21
+                 u49.J6
+                 u49.W7
+                u49.Y21
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l37
+                  u49
+Message is:
+Check L37
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: fltr_mifpga1_vcc_aux    20548 Open
+                 c447.2
+                 c448.2
+                 c449.2
+                 c450.2
+                 c451.2
+                 c458.2
+                 l38.1
+                u49.AA8
+                u49.AB14
+                u49.AB20
+Too many to print.
+To:   P2_5VA                  20853
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+Common Devices:
+                  l38
+                  u49
+Message is:
+Check L38
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                    205148
+UNNAMED_4103_AVC8T245_I56_DIR           
+                 r453.2
+                 u43.2
+Common Devices:
+                  r453
+                  u43
+Message is:
+Check R453
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    110126
+UNNAMED_4095_RES_I472_B                 
+                 r756.2
+               u1_sf1.20
+Common Devices:
+                  r756
+Message is:
+Check R756
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                    211154
+UNNAMED_4095_RES_I457_B                 
+                 r764.2
+               u1_sf0.20
+Common Devices:
+                  r764
+Message is:
+Check R764
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10545
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMB
+                 r776.2
+               u15_5v.20
+Common Devices:
+                  r776
+Message is:
+Check R776
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10863
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMBU
+                 r821.2
+               u1_1v2s.20
+Common Devices:
+                  r821
+Message is:
+Check R821
+----------------------------------------
+Open #13 Thresh 24, Delay 50us      Ohms
+From: MIFPGA_PMBUS_SCL       205154 Open
+                  p5.9
+                 r60.1
+                 r67.1
+                 r126.2
+                 r566.1
+                 r653.1
+                 r654.1
+                 r756.1
+                 r764.1
+                 r776.1
+Too many to print.
+To:     v                     10547
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMBU
+                 r830.2
+               u16_3v3.20
+Common Devices:
+                  r830
+Message is:
+Check R830
+------End, 13 Problems Reported---------
+S/N:FLM2701031F
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 03 16:24:23 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: FLTR_VDDHA_1P2V         21607   25
+                c274_3.2
+                c275_3.2
+                c276_3.2
+                c277_3.2
+                c278_3.2
+                c279_3.2
+                c280_3.2
+                c281_3.2
+                c282_3.2
+                c283_3.2
+Too many to print.
+To:   VDDHA_1P2V             217115   25
+                c710_3.2
+                c711_3.2
+                c712_3.2
+                c713_3.2
+                c714_3.1
+                c715_3.2
+                c716_3.2
+                c717_3.2
+                c718_3.2
+                c719_3.2
+Too many to print.
+Common Devices:
+                  l8_3
+                 l29_3
+                  u1_3
+Message is:
+Check L8_3 L29_3
+------End, 1 Problem Reported-----------
+S/N:FLM2701031L
+----------------------------------------
+Shorts Report for "shorts".
+Tue Jan 03 16:24:35 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: FLTR_VDDHA_1P2V         21607 Open
+                c274_3.2
+                c275_3.2
+                c276_3.2
+                c277_3.2
+                c278_3.2
+                c279_3.2
+                c280_3.2
+                c281_3.2
+                c282_3.2
+                c283_3.2
+Too many to print.
+To:   VDDHA_1P2V             217115
+                c710_3.2
+                c711_3.2
+                c712_3.2
+                c713_3.2
+                c714_3.1
+                c715_3.2
+                c716_3.2
+                c717_3.2
+                c718_3.2
+                c719_3.2
+Too many to print.
+Common Devices:
+                  l8_3
+                 l29_3
+                  u1_3
+Message is:
+Check L8_3 L29_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: VDDHA_FLTR_SENSE        22029 Open
+                r13_pm.1
+               r147_pm.2
+                 r218.1
+To:   FLTR_VDDHA_1P2V         21607
+                c274_3.2
+                c275_3.2
+                c276_3.2
+                c277_3.2
+                c278_3.2
+                c279_3.2
+                c280_3.2
+                c281_3.2
+                c282_3.2
+                c283_3.2
+Too many to print.
+Common Devices:
+                  r218
+Message is:
+Check R218
+------End, 2 Problems Reported----------
+S/N:FLM2701031L

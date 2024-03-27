@@ -1,0 +1,12 @@
+!!!!    2    0    1 1651026761  Vd335                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:36 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r758 1.00k"                                                                                                                                             
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "P3V3_SFP_EN"                                                                                                                                      
+resistor 500,25.00,20.00,re3,ar200m                                                                                                                             
+! "r755" test.                                                                                                                                                  
+off failure                                                                                                                                                     

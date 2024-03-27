@@ -1,0 +1,178 @@
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:35:14 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114146   30
+UNNAMED_16_RES_I296_A_S1                
+                r39_s1.1
+               sfp_s1.AD4
+To:   i2c_sda_sfp<47>         11650   30
+                r39_s1.2
+               rn102_s1.3
+           rn102_s1%pin_3_6.1
+                u49.F12
+Common Devices:
+                 r39_s1
+Message is:
+Check R39_S1
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:35:28 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114146   90
+UNNAMED_16_RES_I296_A_S1                
+                r39_s1.1
+               sfp_s1.AD4
+To:   i2c_sda_sfp<47>         11650   90
+                r39_s1.2
+               rn102_s1.3
+           rn102_s1%pin_3_6.1
+                u49.F12
+Common Devices:
+                 r39_s1
+Message is:
+Check R39_S1
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:35:42 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114146  211
+UNNAMED_16_RES_I296_A_S1                
+                r39_s1.1
+               sfp_s1.AD4
+To:   i2c_sda_sfp<47>         11650  211
+                r39_s1.2
+               rn102_s1.3
+           rn102_s1%pin_3_6.1
+                u49.F12
+Common Devices:
+                 r39_s1
+Message is:
+Check R39_S1
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:35:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114146  366
+UNNAMED_16_RES_I296_A_S1                
+                r39_s1.1
+               sfp_s1.AD4
+To:   i2c_sda_sfp<47>         11650  366
+                r39_s1.2
+               rn102_s1.3
+           rn102_s1%pin_3_6.1
+                u49.F12
+Common Devices:
+                 r39_s1
+Message is:
+Check R39_S1
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:36:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    114146  259
+UNNAMED_16_RES_I296_A_S1                
+                r39_s1.1
+               sfp_s1.AD4
+To:   i2c_sda_sfp<47>         11650  259
+                r39_s1.2
+               rn102_s1.3
+           rn102_s1%pin_3_6.1
+                u49.F12
+Common Devices:
+                 r39_s1
+Message is:
+Check R39_S1
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+Shorts Report for "shorts".
+Wed Aug 23 09:39:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: pwr_p1v0rt2_ovr_cur_l  203127   82
+               r86_rtv2.1
+                 r703.1
+               u1_rtv2.14
+To:   pwr_p1v0rt2_ovr_pwr_l  203126   82
+               r79_rtv2.1
+                 r703.2
+               u1_rtv2.15
+Common Devices:
+                  r703
+                u1_rtv2
+Message is:
+Check R703
+------End, 1 Problem Reported-----------
+S/N:FLM27190D8W
+----------------------------------------
+73-102898-01_03
+Wed Aug 23 09:40:01 2023
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   86.287
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27190D8W
+----------------------------------------
+73-102898-01_03
+Wed Aug 23 09:40:14 2023
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -406.78k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27190D8W
+----------------------------------------
+73-102898-01_03
+Wed Aug 23 09:40:23 2023
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   900.42
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27190D8W
+----------------------------------------
+73-102898-01_03
+Wed Aug 23 09:40:32 2023
+----------------------------------------
+r49 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -226.65k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27190D8W

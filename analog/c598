@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863895   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:16 2022
+disconnect all
+connect i to "SRT_IO_MI2_STROBE_BMC"
+connect s to "GND"
+jumper 4.87k, re4, wb, ar200m, op
+! "c598" test.

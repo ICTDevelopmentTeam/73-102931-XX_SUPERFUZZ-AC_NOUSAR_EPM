@@ -1,0 +1,62 @@
+!!!!    6    0    1 1654762477   0000                                         
+vector cycle 10u
+receive delay 8u
+
+default device "u23"
+set terminators to on
+assign VDD to pins *
+assign GND to pins *
+
+assign SEL to pins 6
+assign IN1 to pins 1
+assign IN0 to pins 3
+assign OUT to pins 4
+
+power   VDD,GND
+inputs  SEL,IN1,IN0
+outputs OUT
+
+family LVT
+
+vector IN0_OUT_0
+ set SEL to "0"
+ set IN0 to "0"
+ set OUT to "0"
+end vector
+
+vector IN0_OUT_1
+ set SEL to "0"
+ set IN0 to "1"
+ set OUT to "1"
+end vector
+
+vector IN1_OUT_0
+ set SEL to "1"
+ set IN1 to "0"
+ set OUT to "0"
+end vector
+
+vector IN1_OUT_1
+ set SEL to "1"
+ set IN1 to "1"
+ set OUT to "1"
+end vector
+
+! ***************************************************************************
+
+unit
+ homingloop 100 times
+ execute IN0_OUT_0 exit if pass
+ end homingloop
+ homingloop 100 times
+ execute IN0_OUT_1 exit if pass
+ end homingloop
+! pin 1 change to short travel probe for power stable
+! homingloop 100 times 
+! execute IN1_OUT_0 exit if pass
+! end homingloop
+! homingloop 100 times
+! execute IN1_OUT_1 exit if pass
+! end homingloop
+end unit
+

@@ -1,0 +1,30 @@
+---------------------------------------------------------------------
+PRESENCE SWITCH TEST WIRING INSTRUCTION  (Wed Mar 23 19:13:15 2022)
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+                |     From      |               To                  |
+Length|Ga|Color |(b   r      c )|          Presence Switch          |
+------|--|------|---------------|-----------------------------------|
+   0.0 28 Black  (2 15.00  43.0) J19_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.00  42.0) J19_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) J1_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.50  42.0) J1_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) P3_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.00  61.0) P3_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) P4_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.50  61.0) P4_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) P5_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 22.50  62.0) P5_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) QSFP_Q0_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.00  62.0) QSFP_Q0_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) QSFP_Q1_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 23.50  62.0) QSFP_Q1_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) QSFP_Q2_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 22.00  63.0) QSFP_Q2_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) SFP_S0_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 22.50  63.0) SFP_S0_PRESENCE_SWITCH_PIN_2
+   0.0 28 Black  (2 15.00  43.0) SFP_S1_PRESENCE_SWITCH_PIN_1
+   0.0 28  Blue  (2 22.00  64.0) SFP_S1_PRESENCE_SWITCH_PIN_2
+
+Add	20

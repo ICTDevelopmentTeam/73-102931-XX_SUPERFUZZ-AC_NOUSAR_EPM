@@ -1,0 +1,9 @@
+!!!!    2    0    1 1650962312   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:21 2022
+disconnect all
+connect s to "P1V8"
+connect i to "FPGA_SNDN_1P8_MS<0>"
+connect g to "GND"
+!B!resistor 1k, 10.00, 10.00, re3, ar100m
+resistor 1k,25.00,20.00,re3,ar100m,wa5m
+! "r62_3" test.

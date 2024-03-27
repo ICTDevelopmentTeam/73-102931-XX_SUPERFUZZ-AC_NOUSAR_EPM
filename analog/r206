@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519496  Vca26                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:56 2022
+disconnect all
+connect s to "FLTR_P3V3_1PPS_MUX_IN"
+connect i to "UNNAMED_4142_CDCLVC11XX_I144_EN1G"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.7k,25.00,20.00,re4,wb,ar200m
+! "r206" test.

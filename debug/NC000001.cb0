@@ -1,0 +1,468 @@
+----------------------------------------
+Shorts Report for "shorts".
+Sat Apr 15 21:20:06 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: UNNAMED_3_CAP_I59_B_5V  22031 Open
+               c218_5v.1
+                l8_5v.1
+               u15_5v.26
+               u15_5v.27
+               u15_5v.28
+               u15_5v.29
+               u15_5v.30
+               u15_5v.31
+To:   p5v                     21610
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+Common Devices:
+                 l8_5v
+Message is:
+Check L8_5V
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_2             220132
+               c09_91_5.2
+               r3_91_5.2
+               u1_91_5.3
+Common Devices:
+                r3_91_5
+                u1_91_5
+Message is:
+Check R3_91_5
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN_91            215163
+             c09_91_rtv1.2
+              r3_91_rtv1.2
+              u1_91_rtv1.3
+Common Devices:
+               r3_91_rtv1
+               u1_91_rtv1
+Message is:
+Check R3_91_RTV1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_92            220133
+               c09_92_5.2
+               r3_92_5.2
+               u1_92_5.3
+Common Devices:
+                r3_92_5
+                u1_92_5
+Message is:
+Check R3_92_5
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_93             22035
+               c09_93_5.2
+               r3_93_5.2
+               u1_93_5.3
+Common Devices:
+                r3_93_5
+                u1_93_5
+Message is:
+Check R3_93_5
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_94             22036
+               c09_94_5.2
+               r3_94_5.2
+               u1_94_5.3
+Common Devices:
+                r3_94_5
+                u1_94_5
+Message is:
+Check R3_94_5
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_95            220136
+               c09_95_5.2
+               r3_95_5.2
+               u1_95_5.3
+Common Devices:
+                r3_95_5
+                u1_95_5
+Message is:
+Check R3_95_5
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   vdd_vcin_96            220137
+               c09_96_5.2
+               r3_96_5.2
+               u1_96_5.3
+Common Devices:
+                r3_96_5
+                u1_96_5
+Message is:
+Check R3_96_5
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN_3              22038
+               c09_98_5.2
+               r3_98_5.2
+               u1_98_5.3
+Common Devices:
+                r3_98_5
+                u1_98_5
+Message is:
+Check R3_98_5
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN_98             21663
+             c09_98_rtv1.2
+              r3_98_rtv1.2
+              u1_98_rtv1.3
+Common Devices:
+               r3_98_rtv1
+               u1_98_rtv1
+Message is:
+Check R3_98_RTV1
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN_1             220138
+             c09_98_rtv2.2
+              r3_98_rtv2.2
+              u1_98_rtv2.3
+Common Devices:
+               r3_98_rtv2
+               u1_98_rtv2
+Message is:
+Check R3_98_RTV2
+----------------------------------------
+Open #13 Thresh 24, Delay 50us      Ohms
+From: p5v                     21610 Open
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   PMOD_VSENP_5V          221107
+                r71_5v.2
+               u15_5v.12
+Common Devices:
+                 r71_5v
+Message is:
+Check R71_5V
+------End, 13 Problems Reported---------
+----------------------------------------
+Shorts Report for "shorts".
+Sat Apr 15 21:20:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    217167  328
+UNNAMED_3_RES_I175_A_S0                 
+                r3_s0.1
+               sfp_s0.B4
+To:   i2c_sda_sfp<1>          21741  328
+                r3_s0.2
+               rn34_s0.3
+           rn34_s0%pin_3_6.1
+                u49.W18
+Common Devices:
+                 r3_s0
+Message is:
+Check R3_S0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: TSEN2_RTV1              21748 Open
+              r5_98_rtv1.1
+               r06_rtv1.1
+To:   TSEN_R_98              219164
+              r5_98_rtv1.2
+             u1_98_rtv1.36
+Common Devices:
+               r5_98_rtv1
+Message is:
+Check R5_98_RTV1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                    209104 Open
+srt_jtag_tdo_zl_tdi_rt1_2v5             
+                 r663.1
+                 u48.12
+To:     v                    204147
+JTAG_TDO_ZL_TDI_RT1_2V5                 
+                 r555.1
+                 r663.2
+              u1_rt1_2.B9
+Common Devices:
+                  r663
+Message is:
+Check R663
+------End, 3 Problems Reported----------
+S/N:FLM27150F5Y
+----------------------------------------
+Shorts Report for "shorts".
+Sat Apr 15 21:21:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: TSEN2_RTV1              21748   55
+              r5_98_rtv1.1
+               r06_rtv1.1
+To:   TSEN_R_98              219164   55
+              r5_98_rtv1.2
+             u1_98_rtv1.36
+Common Devices:
+               r5_98_rtv1
+Message is:
+Check R5_98_RTV1
+------End, 1 Problem Reported-----------
+S/N:FLM27150F5Y
+----------------------------------------
+Shorts Report for "shorts".
+Sat Apr 15 21:21:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<31>         21558  210
+                r32_s1.2
+                 r846.1
+               rn46_s1.4
+           rn46_s1%pin_4_5.1
+To:   srt_sfp31_i2c_scl_edge  21662  210
+                 r846.2
+                u49.AC15
+Common Devices:
+                  r846
+Message is:
+Check R846
+------End, 1 Problem Reported-----------
+S/N:FLM27150F5Y
+----------------------------------------
+73-102898-01_03
+Sat Apr 15 21:21:45 2023
+----------------------------------------
+r536 HAS FAILED
+12-2570-02 RES,TKF,10 k ohm,0.063W,1%,SM
+Measured:   60.133M
+Nominal:    10.000k
+High Limit: 12.500k
+Low Limit:  7.5000k
+Resistance in OHMS
+----------------------------------------
+r3_3 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   92.500k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r140 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   1.0000e+100
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F5Y
+----------------------------------------
+73-102898-01_03
+Sat Apr 15 21:22:03 2023
+----------------------------------------
+r3_3 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   30.456M
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+r140 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   76.799
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F5Y
+----------------------------------------
+73-102898-01_03
+Sat Apr 15 21:22:09 2023
+----------------------------------------
+r3_3 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   2.9640k
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F5Y
+----------------------------------------
+73-102898-01_03
+Sat Apr 15 21:22:16 2023
+----------------------------------------
+r3_3 HAS FAILED
+12-2267-02 RES,TKF,49.9 ohm,0.063W,1%,SM
+Measured:   67.887
+Nominal:    49.900
+High Limit: 64.870
+Low Limit:  39.920
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F5Y

@@ -1,0 +1,17 @@
+  DC_RESPWRAILS
+    1.P5V
+    2.GND
+    3.P3_3V
+    4.GND
+    5.P3_3VA
+    6.GND
+    7.P1V0RT1_AVDD
+    8.GBD
+    9.P1V0RT1_DVDD
+    10.GND
+    11.P1V0RT2_AVDD
+    12.GND
+    13.P1V0RT2_DVDD
+    14.GND
+    15.P0_9V
+    16.GND

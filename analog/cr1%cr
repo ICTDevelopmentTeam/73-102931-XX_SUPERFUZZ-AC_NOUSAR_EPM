@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026954  V1f41                                         
+! IPG: rev 09.20p  Mon Mar 21 20:08:51 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "P2V5RT1_EN"                                                                                                                                       
+connect i to "UNNAMED_54_DIODE_I15_A"                                                                                                                           
+!B!diode 597m, 227m, idc10m, co2.8, ar597m                                                                                                                      
+diode 550m,200m,idc10m,co2.8,ar597m,wa20m                                                                                                                       
+! "cr1%cr" test.                                                                                                                                                

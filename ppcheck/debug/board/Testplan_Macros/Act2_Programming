@@ -1,0 +1,48 @@
+prerun
+dim EpromData(0:511)
+dim EpromData_4k(0:4095)
+dim HDR1_ACT2(0:127)
+dim EE_D1_ACT2(0:2048)
+dim XSUM1_ACT2(0:15)
+dim EE_R1_ACT2(0:2048)
+dim HDR1(0:127),HDR2(0:127),HDR3(0:127),HDR4(0:127)
+dim HDR5(0:127),HDR6(0:127),HDR7(0:127),HDR8(0:127)
+dim EE_D1(0:1023),EE_D2(0:1023),EE_D3(0:1023),EE_D4(0:1023)
+dim EE_D5(0:1023),EE_D6(0:1023),EE_D7(0:1023),EE_D8(0:1023)
+dim XSUM1(0:15),XSUM2(0:15),XSUM3(0:15),XSUM4(0:15)
+dim XSUM5(0:15),XSUM6(0:15),XSUM7(0:15),XSUM8(0:15)
+dim XSUMB1(0:15),XSUMB2(0:15),XSUMB3(0:15),XSUMB4(0:15)
+dim XSUMB5(0:15),XSUMB6(0:15),XSUMB7(0:15),XSUMB8(0:15)
+dim EE_R1(0:1023),EE_R2(0:1023),EE_R3(0:1023),EE_R4(0:1023)
+dim EE_R5(0:1023),EE_R6(0:1023),EE_R7(0:1023),EE_R8(0:1023)
+dim Wdata(0:1023)
+dim InvOn$[28]
+dim InvOff$[11]
+dim O$[128]
+dim Retry_Pintest$[168]
+dim Cycle_Vacuum$[128]
+dim Recycle_Vacuum$[128]
+call Initialize_Board_Constants
+call Initialize_Constants
+report level is report
+report is "debug/report"
+buffered reporting on
+log level is failures
+input "SN:", Serial$
+input "PN:", Input_pcba$
+input "BOM VER:", Bom_Rev$
+Board$ = Input_pcba$[1;11]
+Board_Rev$ = Input_pcba$[13;2]
+wait for start
+faon
+dim Psgroup(1:16)
+option bit 32
+call Enter_Second_Stage
+powered
+call Setup_Power_Supplies (Failed_In_Power_Supplies, PowerMsg$)
+call Check_Power_Rails (Failed_In_Power_Supplies, PowerMsg$)
+call Functional_Tests (Failed_In_Functional, Mode$ & DigitalFuncMsg$)
+log out "debug/log"
+log clear
+report out
+report is *

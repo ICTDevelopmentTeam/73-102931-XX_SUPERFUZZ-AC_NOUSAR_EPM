@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863979   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:40 2022
+disconnect all
+connect s to "AC_CLK103M_DAV_SYNC_E_CORE_REFCLK_N"
+connect i to "AC_CLK103M_DAV_SNDN1_CORE_REFCLK_N"
+jumper 5.94, re1, ar200m
+! "r513" test.

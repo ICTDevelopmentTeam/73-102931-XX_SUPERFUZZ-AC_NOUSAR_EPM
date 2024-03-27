@@ -1,0 +1,13 @@
+!!!!    2    0    1 1696117878   0000                                         
+
+on failure
+   report "Check for QSFP_Q2 presence."
+end on failure
+
+disconnect all
+connect s to ground
+connect i to "QSFP_Q2_PRESENCE_SWITCH_PIN_2"
+jumper 20, re1, ar200m
+
+off failure
+

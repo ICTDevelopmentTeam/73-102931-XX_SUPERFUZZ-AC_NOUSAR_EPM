@@ -1,0 +1,9 @@
+!!!!   21    2    1 1552439836  Vc951                                         
+
+resistor *, 33, 1, 1, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

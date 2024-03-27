@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863922   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:43 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "CAP_CLK156M25_BUF_MM_TOP_REFCLK_P"
+jumper 204, re3, wb, ar500m, op
+! "r172" test.

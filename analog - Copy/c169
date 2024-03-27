@@ -1,0 +1,8 @@
+!!!!    2    0    1 1647863884   0000                                         
+!* Top probe [AC_SNDN_CLK103M_P] removed for power rails stable.
+! IPG: rev 09.20p  Mon Mar 21 19:58:05 2022
+disconnect all
+connect s to "CLK103M_DAV_CORE_REFCLK_P"
+connect i to "AC_SNDN_CLK103M_P"
+jumper 10.0k, re4, wb, ar100m, op
+! "c169" test.

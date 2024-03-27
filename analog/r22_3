@@ -1,0 +1,10 @@
+!!!!    2    0    1 1686468163   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:52 2022
+disconnect all
+connect s to "GND"
+connect i to "PLL_OBS_EN_3"
+connect g to "P1V8"
+!B!resistor 4.7k, 10.00, 10.00, re4, wb, ar200m
+!resistor 4.7k,25.00,20.00,re4,wb,ar200m,ed
+resistor 4.7k,25.00,25.00,re4,wb,ar50m,ed   !ADV
+! "r22_3" test.

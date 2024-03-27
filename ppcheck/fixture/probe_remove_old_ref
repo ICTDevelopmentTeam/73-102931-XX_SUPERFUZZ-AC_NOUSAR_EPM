@@ -1,0 +1,6 @@
+Main Power Rails	SRT_CLK25M_OSC	R89.1,U9.4;	top probe removed for power test stable ready
+N/A	SRT_CLK125M_MIFPGA	R544.1,U44.3;    	top probe removed for frequency test (u44) stable ready
+N/A	SRT_CLK156M_OSC_N	OSC_RT.5,R367.1; 	top probe removed for frequency test (osc_rt) stable ready 
+N/A	SRT_CLK156M_OSC_P	OSC_RT.4,R366.1; 	top probe removed for frequency test (osc_rt) stable ready 
+N/A	POSC_CLK212M5_N	OSC212P.5,R611.1;	top probe removed for frequency test (osc212p) stable ready
+N/A	POSC_CLK212M5_P	OSC212P.4,R610.1;	top probe removed for frequency test (osc212p) stable ready

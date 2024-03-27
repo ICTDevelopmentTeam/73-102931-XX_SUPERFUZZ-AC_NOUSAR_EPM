@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863916   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:37 2022
+disconnect all
+connect s to "P2V5RT1"
+connect i to "JTAG_TDO_RT4_TDI_RT5_2V5"
+jumper 10.0k, re4, wb, ar100m, op
+! "r108" test.

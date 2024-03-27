@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675191004   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:43 2022
+disconnect all
+connect s to "P1_1VA" ;  a to "P1_1VA"
+connect i to "UNNAMED_2_RES_I489_A_A" ;  b to "UNNAMED_2_RES_I489_A_A"
+connect g to "UNNAMED_2_RES_I471_B_A"
+!B!resistor 56, 18.93, 10.00, re2, ar200m ,sa,sb,ed,en
+!resistor 56,30.0,20.00,re2,ar200m,sa,sb,ed,en
+resistor 56,30.0,20.00,re2,ar200m,en   !ADV
+! "r4_a" test.

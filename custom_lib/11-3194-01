@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573441429  V81d7                                         
+
+!#  11-3194-01
+!#  11-3194-01 CAP,CE,2.2uF,6.3V,X7R,10%,SM,
+!#  Fri Mar 17 17:18:46 2017
+
+capacitor *, 2.2u, 10, 10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

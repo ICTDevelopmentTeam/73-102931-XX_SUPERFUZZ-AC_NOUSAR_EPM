@@ -1,0 +1,10 @@
+!!!!    2    0    1 1663040359   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:50 2022
+disconnect all
+connect s to "GND"
+connect i to "TSEN1_R_5"
+connect g to "P3_3VA"
+connect g to "P12V"
+!B!capacitor 220p, 27.27, 15.00, fr1024, re5, wb, ar20.0m, comp
+capacitor 220p,35.0,35.00,fr8192,re5,ed,en,ar100m,comp,wb
+! "c05_5" test.

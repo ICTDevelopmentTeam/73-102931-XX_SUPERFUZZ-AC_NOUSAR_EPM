@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648517092  V7bb7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:23 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "JTAG_TDO_MIFPGA_3V3"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m
+resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+!resistor 10k, 25.00, 20.00, wb, ar100m, re4
+! "r545" test.

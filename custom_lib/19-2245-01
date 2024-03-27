@@ -1,0 +1,37 @@
+!!!!    2    0    1 1573522337  Va19c                                         
+
+!  19-2245-01
+!  19-2245-01 XTAL,114.285MHz,100PPM,SMD4,-
+
+test powered analog
+   power pins 2,4
+   nonanalog pins 1,2
+
+   test "XA"
+   test "XB"
+end test
+
+!
+!-----------------------------------------------------------------------
+!
+
+subtest  "XA"
+   connect rcva to pins 1
+   connect l to pins 2
+
+   detector frequency, expect 114.285M
+   measure 114.285M * 1.05, 114.285M * 0.95
+end subtest
+
+subtest  "XB"
+   connect rcva to pins 3
+   connect l to pins 2
+
+   detector frequency, expect 114.285M
+   measure 114.285M * 1.05, 114.285M * 0.95
+end subtest
+
+
+!
+!  End test
+!

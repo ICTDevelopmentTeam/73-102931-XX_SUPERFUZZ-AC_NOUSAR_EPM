@@ -1,0 +1,11 @@
+!!!!    2    0    1 1487059933  V6729                                         
+!*CISCO P-PIN check test automation tool
+on failure
+report "check nodes UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO P-Pin resistance"
+report "check nodes PMOD_SYNC_5V P-Pin resistance"
+end on failure
+disconnect all
+connect s to "UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO"
+connect i to "PMOD_SYNC_5V"
+resistor 10,20,100, re1, ar100m,ed
+off failure

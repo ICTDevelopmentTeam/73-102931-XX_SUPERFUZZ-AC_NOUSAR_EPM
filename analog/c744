@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863897   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:18 2022
+on failure
+   report parallel devices
+   report "c745"
+end on failure
+disconnect all
+connect i to "FLTR_MI1_CLK125M_P3V3_OPT"
+connect s to "GND"
+jumper 5.00k, re4, wb, ar200m, op
+! "c744" test.
+off failure

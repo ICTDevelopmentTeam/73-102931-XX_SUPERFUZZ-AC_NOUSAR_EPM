@@ -1,0 +1,22 @@
+!!!!    2    0    1 1426362675  Vf12b                                         
+test analog
+  test "GP_ON"
+  test "GP_OFF"
+end test
+
+subtest "GP_ON"
+   gpconnect 20650 to 20651 
+   wait100m
+   connect i to "GND"
+   connect s to "JTAG_CABLE_PRSNT_L"
+   jumper 15,re1,ar100m,ed
+end subtest
+
+subtest "GP_OFF"
+   gpdisconnect 20650 from 20651  
+   wait100m
+   connect i to "GND"
+   connect s to "JTAG_CABLE_PRSNT_L"
+   jumper 15k,re2,ar100m,op
+end subtest
+

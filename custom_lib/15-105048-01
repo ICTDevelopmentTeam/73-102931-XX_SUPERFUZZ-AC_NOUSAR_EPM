@@ -1,0 +1,22 @@
+!!!!    2    0    1 1577414177  V1e7b                                         
+test powered analog
+power pins 15,16,17,18,10,11,12,13,14,22,29
+nonanalog pins 19,3,2,21,26,28,27,25,1,20,6,7,8,9,4,24,23
+
+
+!test "VIN"
+!test "VOUT1"
+ test "VOUT"
+
+end test
+
+subtest "VOUT"
+     connect i to pins 5
+     connect l to pins 29
+
+   detector dcv, expect 3.3              !change to fit value
+   measure 3.3 * 1.05, 3.3 * 0.95
+end subtest
+
+
+

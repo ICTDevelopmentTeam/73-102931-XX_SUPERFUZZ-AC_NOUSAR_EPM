@@ -1,0 +1,13 @@
+!!!!   21    2    1 1542636874   0000                                         
+
+!#  11-1008060-01
+!#  11-1008060-01 CAP,CE,0.01uF,25V,X7R,10%,
+!#  Fri Nov 16 16:41:25 2018
+
+capacitor *, 0.01u,10,10, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

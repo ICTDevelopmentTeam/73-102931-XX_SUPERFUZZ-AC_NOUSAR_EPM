@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648517221  V2296                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:51 2022
+disconnect all
+connect s to "QSFP_SCL<4>" ;  a to "QSFP_SCL<4>"
+connect i to "UNNAMED_4_RES_I228_B_Q2" ;  b to "UNNAMED_4_RES_I228_B_Q2"
+!B!resistor 33.2, 21.06, 6.00, re2, ar200m ,sa,sb,ed,en
+resistor 33.2,40.0,20.00,re2,ar200m,sa,sb,ed,en
+! "r6_q2" test.

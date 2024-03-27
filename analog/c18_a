@@ -1,0 +1,10 @@
+!!!!    2    0    1 1675873311   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 20:00:53 2022
+disconnect all
+connect i to "UNNAMED_4141_FPGA3RAIL15A3A3A_I145_PMBAD"
+connect s to "GND"
+connect g to "UNNAMED_4141_RES_I66_A"
+!B!capacitor 1u, 20.00, 20.00, fr1024, re2, ar100m, nocomp
+capacitor 0.85u,35,30,fr1024,re2,ar20m,nocomp  !!!!ADV 2
+!!!capacitor 1u,35.00,40.00,fr1024,re2,ar100m,nocomp
+! "c18_a" test.

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521861  V2ee4                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:30 2022
+disconnect all
+connect s to "UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD"
+connect i to "UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PVOU"
+!B!resistor 7.87k, 15.00, 15.00, re4, wb, ar100m
+resistor 7.87k,25.0,20.0,re4,wb,ar100m
+! "r853" test.

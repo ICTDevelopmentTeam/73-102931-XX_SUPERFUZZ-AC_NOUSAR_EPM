@@ -1,0 +1,98 @@
+!!!!    2    0    1 1381220950  Vdedb                                         
+!***  All contents copyright 2003 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!-----------------------------------------------------------------------
+! Part Name:         tps53915
+! Alias:
+! Part Type:         Power On Analog
+! Manufacturer:      Texas Instruments
+! Package Style:     29 pin unknown
+! Created:           Oct 8, 2013
+! Programmer:        sc
+! Tester:            HP3070
+! Processor:
+! Testjet Testable:  no
+! JTAG Device:       no
+! Fault coverage:    mixed
+! Constraints:
+
+test powered mixed
+  power     pins 15,16,17,18,5,6,7,8,9,19
+  nonanalog pins 1,2,3,21,25,26,27,28
+
+  test "vin1"
+  test "sw1"
+  test "fb"
+  test "vo"
+  test "vbst"
+  test "vreg"
+  test "mode"
+  continue digital
+end test
+
+! **********************************************************
+
+subtest "vin1"
+
+ connect i to pins 15
+ connect l to pins 10
+
+ detector dcv, expect 12.0  ! Modify during debug
+ measure 12*1.05, 12*0.95
+end subtest
+
+subtest "sw1"
+
+ connect i to pins 5
+ connect l to pins 11
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "fb"
+
+ connect i to pins 23
+ connect l to pins 12
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "vo"
+
+ connect i to pins 24
+ connect l to pins 13
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "vbst"
+
+ connect i to pins 4
+ connect l to pins 14
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "vreg"
+
+ connect i to pins 20
+ connect l to pins 22
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest
+
+subtest "mode"
+
+ connect i to pins 21
+ connect l to pins 29
+
+ detector dcv, expect 3.3   ! Modify during debug
+ measure 3.3*1.05, 3.3*0.95
+end subtest

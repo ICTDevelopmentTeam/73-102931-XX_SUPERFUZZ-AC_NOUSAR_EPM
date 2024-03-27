@@ -1,0 +1,12 @@
+!!!!   21    2    1 1552285118  V539c                                         
+
+!* 12-2584-02
+!* 12-2584-02 RES,TKF,2.21 k ohm,0.063W,1%,
+
+resistor *, 2.21k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

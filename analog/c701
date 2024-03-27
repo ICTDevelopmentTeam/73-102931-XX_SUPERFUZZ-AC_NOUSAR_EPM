@@ -1,0 +1,13 @@
+!!!!    2    0    1 1647863896   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:17 2022
+on failure
+   report parallel devices
+   report "c702"
+   report "c703"
+end on failure
+disconnect all
+connect s to "FLTR_P3V3_OSC_103M"
+connect i to "GND"
+jumper 3.33k, re4, wb, ar200m, op
+! "c701" test.
+off failure

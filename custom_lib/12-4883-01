@@ -1,0 +1,9 @@
+!!!!   21    2    1 1565254040  Ve9d2                                         
+
+resistor *, 240, 1, 1, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

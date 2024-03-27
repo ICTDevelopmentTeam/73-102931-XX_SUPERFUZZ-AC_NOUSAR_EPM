@@ -1,0 +1,154 @@
+!!!!    6    0    1 1552300432  V1bfa                                         
+!
+!***  All contents copyright 2007 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:         74CBTLV3245A
+! Alias:
+! Part Type:         VLSI
+! Description:       LOW-VOL OCTAL FET BUS SWITCH
+! Manufacturer:      TI store
+! Package Style:
+! Created:           May 22, 1998
+! Updated:           Nov 12, 2001. Added alias and Cisco part number.
+! Updated:           Jan 05, 2007. Added alias and Cisco part number.
+! Programmer:        sama
+! Tester:            HP3070
+! Processor:         VPU
+! Vector Format:     VCL
+! Testjet Testable:  yes
+! JTAG Device:       no
+! Fault coverage:    100%
+! Constraints:       No
+! Cisco Part #:      15-10118-02
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VCC to pins 20
+assign GND to pins 10
+
+assign OE  to pins 19
+assign A0  to pins 2
+assign A1  to pins 3
+assign A2  to pins 4
+assign A3  to pins 5
+assign A4  to pins 6
+assign A5  to pins 7
+assign A6  to pins 8
+assign A7  to pins 9
+assign B0  to pins 18
+assign B1  to pins 17
+assign B2  to pins 16
+assign B3  to pins 15
+assign B4  to pins 14
+assign B5  to pins 13
+assign B6  to pins 12
+assign B7  to pins 11
+assign NC  to pins 1
+
+power  VCC,GND
+inputs A1,A2,A3,A4,A5,A6,A7,A0,OE
+outputs B1,B2,B3,B4,B5,B6,B7,B0
+nondigital NC
+
+family LVT
+
+
+! ******** A to X ********
+
+vector AB_00
+ set OE  to "0"
+ set A0  to "0"
+ set A1  to "0"
+ set A2  to "0"
+ set A3  to "0"
+ set A4  to "0"
+ set A5  to "0"
+ set A6  to "0"
+ set A7  to "0"
+ set B0  to "0"
+ set B1  to "0"
+ set B2  to "0"
+ set B3  to "0"
+ set B4  to "0"
+ set B5  to "0"
+ set B6  to "0"
+ set B7  to "0"
+end vector
+
+vector AB_11
+ set OE  to "0"
+ set A0  to "1"
+ set A1  to "1"
+ set A2  to "1"
+ set A3  to "1"
+ set A4  to "1"
+ set A5  to "1"
+ set A6  to "1"
+ set A7  to "1"
+ set B0  to "1"
+ set B1  to "1"
+ set B2  to "1"
+ set B3  to "1"
+ set B4  to "1"
+ set B5  to "1"
+ set B6  to "1"
+ set B7  to "1"
+end vector
+
+vector AB_11_dis
+ set OE  to "1"
+ set A0  to "0"
+ set A1  to "0"
+ set A2  to "0"
+ set A3  to "0"
+ set A4  to "0"
+ set A5  to "0"
+ set A6  to "0"
+ set A7  to "0"
+ set B0  to "1"
+ set B1  to "1"
+ set B2  to "1"
+ set B3  to "1"
+ set B4  to "1"
+ set B5  to "1"
+ set B6  to "1"
+ set B7  to "1"
+end vector
+
+vector AB_00_dis
+ set OE  to "1"
+ set A0  to "1"
+ set A1  to "1"
+ set A2  to "1"
+ set A3  to "1"
+ set A4  to "1"
+ set A5  to "1"
+ set A6  to "1"
+ set A7  to "1"
+ set B0  to "0"
+ set B1  to "0"
+ set B2  to "0"
+ set B3  to "0"
+ set B4  to "0"
+ set B5  to "0"
+ set B6  to "0"
+ set B7  to "0"
+end vector
+
+
+! **************************************************************************
+
+unit "A to B"
+ execute AB_00
+ execute AB_11
+ execute AB_00_dis
+ execute AB_11_dis
+end unit
+
+

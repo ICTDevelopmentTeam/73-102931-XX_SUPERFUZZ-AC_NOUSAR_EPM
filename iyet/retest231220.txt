@@ -1,0 +1,769 @@
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 04:14:17 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_CLK          207142   70
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021   71
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_DATA         205136   69
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526   72
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM274400DV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 04:14:26 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_CLK          207142  130
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021  134
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_DATA         205136  132
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526  136
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM274400DV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 04:14:34 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_CLK          207142  302
+                 p4.B5
+                 r141.1
+                 u12.7
+To:   IO_MI2_STROBE_BMC       21021  306
+                 r140.1
+                 r141.2
+                 r536.1
+                 u12.5
+Common Devices:
+                  r141
+                  u12
+Total of 2 nodes, Message is:  None.
+----------------------------------------
+Short #2, Thresh 800, Delay 200us   Ohms
+From: IO_MI_SER_DATA         205136  309
+                 p4.A5
+                 r142.1
+                 u12.4
+To:   io_mi2_data_bmc         20526  325
+                 r142.2
+                 r535.1
+                 u12.2
+                 u40.2
+Common Devices:
+                  r142
+                  u12
+Total of 2 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM274400DV
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 06:14:15 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   7.9659M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 06:14:23 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   12.132M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 06:14:27 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   12.132M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 06:14:30 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   16.427M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Wed Dec 20 06:38:42 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(115157) sfp_mod_abs_fpga<40>
+               rn69_s1.1
+           rn69_s1%pin_1_8.1
+               sfp_s1.U6
+                 u37.40
+------End, 1 Problem Reported-----------
+S/N:FLM275006TN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Wed Dec 20 06:38:50 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(115157) sfp_mod_abs_fpga<40>
+               rn69_s1.1
+           rn69_s1%pin_1_8.1
+               sfp_s1.U6
+                 u37.40
+------End, 1 Problem Reported-----------
+S/N:FLM275006TN
+----------------------------------------
+CHEK-POINT Report for "pins_long".
+Wed Dec 20 06:38:58 2023
+73-102898-01_03
+----------------------------------------
+Failed Open #1
+(115157) sfp_mod_abs_fpga<40>
+               rn69_s1.1
+           rn69_s1%pin_1_8.1
+               sfp_s1.U6
+                 u37.40
+------End, 1 Problem Reported-----------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 07:52:41 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   5.9297M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 07:52:48 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   16.427M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 07:52:52 2023
+----------------------------------------
+rn69_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn69_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   16.427M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006TN
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 10:43:59 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 1 Problem Reported-----------
+S/N:FLM275100DC
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 10:44:08 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT3_4    21413
+               c8_rt3_4.1
+              c13_rt3_4.1
+              c15_rt3_4.1
+              c16_rt3_4.1
+              c21_rt3_4.1
+              c22_rt3_4.1
+              c24_rt3_4.1
+              c25_rt3_4.1
+              c27_rt3_4.1
+              c28_rt3_4.1
+Too many to print.
+Common Devices:
+                l5_rt3_4
+Message is:
+Check L5_RT3_4
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 2 Problems Reported----------
+S/N:FLM275100DC
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 10:44:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT3_4    21413
+               c8_rt3_4.1
+              c13_rt3_4.1
+              c15_rt3_4.1
+              c16_rt3_4.1
+              c21_rt3_4.1
+              c22_rt3_4.1
+              c24_rt3_4.1
+              c25_rt3_4.1
+              c27_rt3_4.1
+              c28_rt3_4.1
+Too many to print.
+Common Devices:
+                l5_rt3_4
+Message is:
+Check L5_RT3_4
+----------------------------------------
+Open #2 Thresh 24, Delay 200us      Ohms
+From: p3_3v                   10756 Open
+                 c109.1
+                 c138.1
+                 c152.1
+               c191_3v3.1
+               c193_3v3.1
+               c194_3v3.1
+               c195_3v3.1
+               c228_3v3.1
+                 c316.1
+                 c317.1
+Too many to print.
+To:   FLTR_P3V3_OSC_212M5     11064
+                 c132.1
+                 c133.1
+                 c330.1
+                  l3.2
+                 u51.6
+Common Devices:
+                   l3
+Message is:
+Check L3
+------End, 2 Problems Reported----------
+S/N:FLM275100DC
+----------------------------------------
+Shorts Report for "shorts".
+Wed Dec 20 10:44:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 200us      Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT3_4    21413
+               c8_rt3_4.1
+              c13_rt3_4.1
+              c15_rt3_4.1
+              c16_rt3_4.1
+              c21_rt3_4.1
+              c22_rt3_4.1
+              c24_rt3_4.1
+              c25_rt3_4.1
+              c27_rt3_4.1
+              c28_rt3_4.1
+Too many to print.
+Common Devices:
+                l5_rt3_4
+Message is:
+Check L5_RT3_4
+------End, 1 Problem Reported-----------
+S/N:FLM275100DC
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:28:28 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   265.24u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4344k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4333k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:28:44 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4331k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4321k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:28:47 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4321k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4315k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:28:51 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4315k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4321k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:29:47 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4018k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.4004k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:29:57 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3969k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3950k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:30:01 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3892k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3880k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:30:04 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3806k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3783k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:31:21 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3504k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3469k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:31:28 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3526k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3513k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:31:32 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3523k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3507k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ
+----------------------------------------
+73-102898-01_03
+Wed Dec 20 21:31:36 2023
+----------------------------------------
+rn97_s1%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn97_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3421k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+rn99_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn99_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   1.3385k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM275006VJ

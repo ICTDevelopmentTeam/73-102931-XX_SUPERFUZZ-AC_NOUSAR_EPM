@@ -1,0 +1,13 @@
+!!!!   21    2    1 1456729615  Ve09f                                         
+
+!#  12-3749-02
+!#  12-3749-02 RES,TKF,3 k ohm,0.1W,1%,SM,06
+!#  Tue Aug 14 10:44:36 2012
+
+resistor *, 3k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

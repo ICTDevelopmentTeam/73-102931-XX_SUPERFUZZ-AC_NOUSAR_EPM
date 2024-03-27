@@ -1,0 +1,9 @@
+!!!!    2    0    1 1648519752  V7545                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:37 2022
+disconnect all
+connect i to "UNNAMED_7_CAP_I279_B_5"
+connect s to "P5V"
+connect g to "GND"
+!B!resistor 13k, 10.00, 10.00, re5, wb, ar1.00, wa3.41m
+resistor 13k,25.00,25.00,re5,wb,ar100m,wa3.41m
+! "r25_5" is a limited test.

@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648520443  V0a3d                                         
+! IPG: rev 09.20p  Mon Mar 21 20:05:07 2022
+disconnect all
+connect s to "QSFP_PORT1_YEL_L_Q2"
+connect i to "QSFP_LED_YEL_L<4>"
+!B!resistor 150, 13.33, 10.00, re3, ar1.00
+resistor 150,30.0,20.00,re3,ar100m
+! "rn1_q2%pin_1_8" test.

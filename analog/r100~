@@ -1,0 +1,10 @@
+!!!!    2    0    1 1651024447  Vfdf7                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:20 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "GND"
+connect i to "P2V5RT1_SNS"
+connect g to "P2V5RT1"
+!B!resistor 10k, 10.00, 10.00, re4, wb, ar100m, wa60.9u                                                                                                         
+resistor 10k, 25, 25, wb, ar100m, re4 !JJSR
+!resistor 10k, 25.00, 20.00, wb, ar100m, re4
+! "r100" test.                                                                                                                                                  

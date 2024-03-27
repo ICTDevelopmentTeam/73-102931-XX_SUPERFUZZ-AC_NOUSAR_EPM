@@ -1,0 +1,10 @@
+!!!!    2    0    1 1653010047  Vea75                                         
+!* Top probe [SRT_CPU_PCIE_CLKOUT0_P] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:49 2022
+disconnect all
+connect s to "P3_3V"
+connect i to "SRT_CPU_PCIE_CLKOUT0_P"
+connect g to "GND"
+!B!resistor 100, 15.00, 10.00, re2, ar100m, wa396u
+resistor 100, 30.00, 20.00, re2, ar100m, wa5m
+! "r1016" test.

@@ -1,0 +1,13 @@
+!!!!   21    2    1 1555663165  V5d36                                         
+
+!  12-2581-02
+!  12-2581-02 RES,TKF3.01 k ohm,0.063W,1%,S
+
+resistor *, 3.01k, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

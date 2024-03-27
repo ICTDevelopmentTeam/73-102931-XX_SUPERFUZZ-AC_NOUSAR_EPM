@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863887   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:08 2022
+on failure
+   report parallel devices
+   report "r445 150"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "CLK156M_RT1_P"
+jumper 146, re3, wb, ar1.00, op
+! "c314" test.
+off failure

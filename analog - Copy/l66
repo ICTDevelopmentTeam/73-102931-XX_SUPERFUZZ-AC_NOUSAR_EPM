@@ -1,0 +1,7 @@
+!!!!    2    0    1 1647863972   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:59:33 2022
+disconnect all
+connect i to "UNNAMED_32_CAP_I55_B"
+connect s to "P3_3VA"
+jumper 5.94, re1, ar200m
+! "l66" test.

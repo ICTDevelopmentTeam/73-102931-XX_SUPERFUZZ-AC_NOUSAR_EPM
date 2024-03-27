@@ -1,0 +1,8 @@
+!!!!    2    0    1 1651026799  V32b5                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:25 2022                                                                                                                     
+disconnect all                                                                                                                                                  
+connect s to "PWR_ADOMAIN_PGOOD"                                                                                                                                
+connect i to "UNNAMED_2_RES_I635_B_A"                                                                                                                           
+!B!resistor 150k, 15.00, 15.00, re6, wb, ar1.00, wa1.72u                                                                                                        
+resistor 150k,15.00,15.00,re6,wb,ar100m                                                                                                                         
+! "r8_a" test.                                                                                                                                                  

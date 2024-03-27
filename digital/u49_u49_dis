@@ -1,0 +1,25 @@
+!!!!   24    0    1 1652162151  V1d28                                         
+disable "u49_u49"
+
+ground bounce suppression   on
+  family "LVT"
+
+chain "u49_u49"
+  tdi "JTAG_TDI_MIFPGA_3V3"
+  tdo "JTAG_TDO_MIFPGA_3V3"
+  tms "JTAG_TMS_MIFPGA_3V3"
+  tck "SRT_JTAG_TCK_MIFPGA_3V3"
+  devices
+    "u49", "custom_lib/b161014361_5cgxfc4c.bsm", "FBGA672", yes
+  end devices
+end chain
+
+set slew rate on nodes "JTAG_TDI_MIFPGA_3V3" to 250
+set slew rate on nodes "JTAG_TMS_MIFPGA_3V3" to 250
+set slew rate on nodes "SRT_JTAG_TCK_MIFPGA_3V3" to 250
+
+nodes
+end nodes
+
+end disable
+

@@ -1,0 +1,17 @@
+!!!!    2    0    1 1395653296  Vd13b                                         
+test powered analog
+
+  nonanalog pins 1,2,4
+
+  test "Freq_out"
+
+end test
+
+subtest "Freq_out"
+
+  connect rcva to pins 3
+  detector frequency, expect  25M, gate 1
+  measure   25M * 1.05,  25M * .95
+end subtest
+
+

@@ -1,0 +1,60 @@
+u1_1v2s_prog_ver     File:  17-102470-01_P1V2_12A_VishaySIC453_Config_V1.txt
+u1_sf0_prog_ver      File:  17-102471-01_P3V3_30A_VishaySIC450_Config_V1.txt
+u1_sf1_prog_ver      File:  17-102471-01_P3V3_30A_VishaySIC450_Config_V1.txt
+u15_5v_prog_ver      File:  17-102463-01_P5V_5A_VishaySIC453_Config_V1.txt
+u16_3v3_prog_ver     File:  17-102464-01_P3V3_9A_VishaySIC453_Config_V1.txt
+
+
+u1_1v2s  PN"15-109054-01"  
+u1_sf0   PN"15-109360-01" 
+u1_sf1   PN"15-109360-01"
+u15_5v   PN"15-109054-01"
+u16_3v3  PN"15-109054-01"
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+December 30, 2022  COMMENTS:
+Componentes del PCAMAP para programcion:
+!######################################################################################|
+!  RefDes        |        Part Number          |              Filename                 |
+!################|#############################|#######################################|  
+MIROM1           | 17-15887-04  16-1011779-07  |  mi_elysian_v16_auto.rpd              |
+CPLD1-CPLD3      | 17-13886-01  16-4342-01     |  salt_lake_city_imp_0_v2              |
+CPLD4            | 17-14336-01  16-4342-01     |  sumpin_imp_0_v2                      |
+U1_5             | 17-15181-02  15-103791-01   |  17-15181-02-00_SD1_6P1_0P875.mic     |
+U1_RTV1, U1_TRV2 | 17-15781-01  15-103791-01   |  17-15781-01-00-pmbaddr-0x60-BV1+1.mic|
+!################|#############################|#######################################|  
+
+
+!~ call Regulators_Programming
+u1_1v2s  PN"15-109054-01"  
+u1_sf0   PN"15-109360-01" 
+u1_sf1   PN"15-109360-01"
+u15_5v   PN"15-109054-01"
+u16_3v3  PN"15-109054-01"
+
+
+MIROM1          Must be pre-programmed    No subroutine availabel on the testplan
+!@ test "digital/u54"      !MIROM FLASH
+
+
+CPLD1-CPLD3     Must be pre-programmed    No subroutine availabel on the testplan   Se programan en DL
+CPLD4           Must be pre-programmed    No subroutine availabel on the testplan
+!#############################################################################
+sub CPLDs (Status_Code, Message$)
+global Status
+
+   if Message$ <> "" then  print tab(5);Message$
+   Status = Status_Code
+
+subend
+!############################################################################
+
+
+U1_5            programming/u1_5_user_capture      Test no available on the folder programming.
+
+U1_RTV1         No programming test  just  digital/u1_rtv1
+U1_RTV2         No programming test  just  digital/u1_rtv2
+
+Agregar el nuevo numero de desviacion.
+

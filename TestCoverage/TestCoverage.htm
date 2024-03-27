@@ -1,0 +1,2148 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>ICT Coverage Report 73-102931-01</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+a:link{ text-decoration: none;
+	color: blue;
+}
+	
+a:visited{ text-decoration: none;
+	color: blue;
+}
+
+a:hover{ text-decoration: none;
+	color: green;
+	font-weight: bolder;
+}
+</style>
+</head>
+
+<body>
+<p align="center"><font size="5"><strong>ICT Coverage Report<br>
+  Cisco Systems - Structural Test</strong></font></p>
+<table>
+  <tr valign="top"> 
+    <td><strong>Board Name:</strong></td>
+    <td><strong>PCA, N9K, TOR, Superfuzz-AC, Data board (Vishay)</strong></td>
+  </tr>
+  <tr valign="top"> 
+    <td><strong>Board Part Number:</strong></td>
+    <td><strong><a style="text-decoration:none" href="https://tools.cisco.com/emco/inbiz/inbiz/Home?module=Detail&InventoryItemId=7109642&OrgID=1&ItemNumber=73-102931-01&OrgCode=GLO">73-102931-01</a></strong></td>
+  </tr>
+  <tr valign="top"> 
+    <td><strong>Schematic Part Number:</strong></td>
+    <td><strong><a style="text-decoration:none" href="https://tools.cisco.com/emco/inbiz/inbiz/Home?InventoryItemId=9117740&OrgID=1&module=Detail&ItemNumber=92-105229-01">92-105229-01</a></strong></td>
+  </tr>
+  <tr> 
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr valign="top"> 
+    <td><strong>Board Directory:</strong></td>
+    <td><strong>C:/Agilent_ICT/boards/Superfuzz_AC_73-102898_01</strong></td>
+  </tr>
+  <tr valign="top"> 
+    <td><strong>Tester Type:</strong></td>
+    <td><strong>Agilent 3070</strong></td>
+  </tr>
+  <tr valign="top"> 
+    <td><strong>Run By:</strong></td>
+    <td><strong>dmnfazhu (dmnfazhu)</strong></td>
+  </tr>
+</table>
+<div align="center"><br>
+  <table width="80%" border="1" cellpadding="0" cellspacing="0">
+    <tr bgcolor="#d5dec9"> 
+      <td height="36" colspan="4"> 
+        <div align="center"><strong><font size="+1">Device Coverage 
+          Summary</font></strong></div></td>
+    </tr>
+    <tr bgcolor="#d5dec9"> 
+      <th height="36"> 
+        <div align="center"><strong>Device Type</strong></div></th>
+      <th height="36"> 
+        <div align="center"><strong>Number Tested</strong></div></th>
+      <th height="36"> 
+        <div align="center"><strong>Total Devices</strong></div></th>
+      <th height="36"> 
+        <div align="center"><strong>Percentage</strong></div></th>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Capacitor"><strong>Capacitor</strong></a></td>
+      <td><div align="center">149</div></td>
+      <td><div align="center">192</div></td>
+      <td><div align="center">77.6%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Connector"><strong>Connector</strong></a></td>
+      <td><div align="center">1</div></td>
+      <td><div align="center">11</div></td>
+      <td><div align="center">9.1%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Diode"><strong>Diode</strong></a></td>
+      <td><div align="center">10</div></td>
+      <td><div align="center">10</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Filter"><strong>Filter</strong></a></td>
+      <td><div align="center">49</div></td>
+      <td><div align="center">49</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Fuse"><strong>Fuse</strong></a></td>
+      <td><div align="center">-</div></td>
+      <td><div align="center">-</div></td>
+      <td><div align="center">-</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Inductor"><strong>Inductor</strong></a></td>
+      <td><div align="center">183</div></td>
+      <td><div align="center">194</div></td>
+      <td><div align="center">94.3%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Jumper"><strong>Jumper</strong></a></td>
+      <td><div align="center">-</div></td>
+      <td><div align="center">-</div></td>
+      <td><div align="center">-</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Resistor"><strong>Resistor</strong></a></td>
+      <td><div align="center">883</div></td>
+      <td><div align="center">936</div></td>
+      <td><div align="center">94.3%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Transistor"><strong>Transistor</strong></a></td>
+      <td><div align="center">12</div></td>
+      <td><div align="center">12</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Resistor_Pack"><strong>Resistor Pack</strong></a></td>
+      <td><div align="center">118</div></td>
+      <td><div align="center">118</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#LED"><strong>LED</strong></a></td>
+      <td><div align="center">79</div></td>
+      <td><div align="center">79</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Oscillator"><strong>Oscillator</strong></a></td>
+      <td><div align="center">3</div></td>
+      <td><div align="center">6</div></td>
+      <td><div align="center">50.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Digital"><strong>Digital</strong></a></td>
+      <td><div align="center">72</div></td>
+      <td><div align="center">72</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><a style="text-decoration:none" href="#Powered_Analog"><strong>Powered Analog</strong></a></td>
+      <td><div align="center">22</div></td>
+      <td><div align="center">22</div></td>
+      <td><div align="center">100.0%</div></td>
+    </tr>
+    <tr> 
+      <td><strong>Total</strong></td>
+      <td><div align="center"><strong>1581</strong></div></td>
+      <td><div align="center"><strong>1701</strong></div></td>
+      <td><div align="center"><strong>92.9%</strong></div></td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<table width="80%" border="1" align="center" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#d5dec9"> 
+    <td height="36" colspan="4">
+<div align="center"><strong><font size="+1">Pin Coverage Summary</font></strong></div></td>
+  </tr>
+  <tr bgcolor="#d5dec9"> 
+    <th width="27%" height="36"> 
+      <div align="center"><strong>Device Type</strong></div></th>
+    <th width="23%" height="36"> 
+      <div align="center"><strong>Tested Pin Count</strong></div></th>
+    <th width="25%" height="36"> 
+      <div align="center"><strong>Total Pin Count</strong></div></th>
+    <th width="25%" height="36"> 
+      <div align="center"><strong>Percentage</strong></div></th>
+  </tr>
+  <tr> 
+    <td><strong>Unpowered Analog<br>
+     </strong></td>
+    <td><div align="center">3754<br>
+      </div></td>
+    <td><div align="center">3966<br>
+      </div></td>
+    <td><div align="center">94.7%<br>
+      </div></td>
+  </tr>
+  <tr> 
+    <td><strong>Digital</strong></td>
+    <td><div align="center">2079</div></td>
+    <td><div align="center">2511</div></td>
+    <td><div align="center">82.8%</div></td>
+  </tr>
+  <tr> 
+    <td><strong>Total</strong></td>
+    <td><div align="center"><strong>5833</strong></div></td>
+    <td><div align="center"><strong>6477</strong></div></td>
+    <td><div align="center"><strong>90.1%</strong></div></td>
+  </tr>
+</table>
+<p>&nbsp;</p><hr>
+<p><strong><u><font color="#0000FF" size="+2">Devices Not Tested</font></u></strong></p>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Capacitor<a name="Capacitor"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c1_3</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.22uF,6.3V,10%,X5R,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node ac_pcie_rx_n_3<br>not accessible at node hsd_pe_cpu_dav_n</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c01_5</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,3.3nF,50V,X7R,10%,SM,04</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>The capacitor not able to test due to shorted out by asic(u1_3) internal</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c1_rt9</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv_clk_in_ac_p_rt9</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c2_3</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.22uF,6.3V,10%,X5R,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node ac_pcie_rx_p_3<br>not accessible at node hsd_pe_cpu_dav_p</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c2_rt9</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv_clk_in_ac_n_rt9</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c3_3</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node ac_sdc0_ac_rx_p_3<br>not accessible at node lan1_port0_cpu_tx_p</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c4_3</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node ac_sdc0_ac_rx_n_3<br>not accessible at node lan1_port0_cpu_tx_n</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c7_1v2s</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,47nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c6_1v2s, 4.70u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c07_5</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_5, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c07_rtv1</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_rtv1, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c07_rtv2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_rtv2, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c7_sf0</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,47nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c6_sf0, 4.70u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c7_sf1</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,47nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c6_sf1, 4.70u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c08_5</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_5, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c08_rtv1</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_rtv1, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c08_rtv2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,16.0 V,10%,X7R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c09_rtv2, 1.00u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c57_5v</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,47nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c214_5v, 4.70u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c87</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,6.8pF,50V,C0G,0.50pF,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>According to tg spec, not test ict</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c88</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,6.8pF,50V,C0G,0.50pF,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>According to tg spec, not test ict</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c131_rt1_2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_p_rt1_2</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c131_rt3_4</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_p_rt3_4</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c131_rt5_6</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_p_rt5_6</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c131_rt7_8</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_p_rt7_8</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c132_rt1_2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_n_rt1_2</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c132_rt3_4</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_n_rt3_4</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c132_rt5_6</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_n_rt5_6</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c132_rt7_8</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv0_clk_in_ac_n_rt7_8</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c139_rt1_2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_p_rt1_2</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c139_rt3_4</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_p_rt3_4</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c139_rt5_6</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_p_rt5_6</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c139_rt7_8</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_p_rt7_8</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c140_rt1_2</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_n_rt1_2</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c140_rt3_4</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_n_rt3_4</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c140_rt5_6</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_n_rt5_6</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c140_rt7_8</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,10nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node bv1_clk_in_ac_n_rt7_8</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c147</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,100.0nF,25.0 V,10%,X5R,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [ac_clk_10m_zl_si5326_out] removed for power stable ready<br>top probe [srt_clk_10m_zl_si5326_out] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c202_3v3</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,47nF,16V,X7R,10%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>In parallel with c224_3v3, 4.70u</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c359</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [clk103m_dav_sndn1_core_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c360</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [clk103m_dav_sndn1_core_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c570</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,10.0 V,10%,X5R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node hsd_pe_cpu_mifpga_ac_p<br>not accessible at node hsd_pe_cpu_mifpga_p</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">c571</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,10.0 V,10%,X5R,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node hsd_pe_cpu_mifpga_ac_n<br>not accessible at node hsd_pe_cpu_mifpga_n</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1023</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1024</td>
+    <td width="40%" bgcolor="#F3F3F3">CAP,CE,0.1uF,6.3V,10%,X7R,0402</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td colspan="3"><div align="center"><strong><br>
+        There are 2136 Bypass Capacitors on this board that cannot be tested with ICT.</strong></div></td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Connector<a name="Connector"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">j1</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,PWR,EXTreme LPH Power,R,RA</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in j1%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">j19</td>
+    <td width="40%" bgcolor="#F3F3F3">CON RF,SMA,R,RA,50Ohm,JACK,A-T</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in j19%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">p3</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,P,ST,1R,3P,0.100"C,w/LATCH</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in p3%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">p4</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,Airmax VS2,P,RA,PF,9 R,48 </td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in p4%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">p5</td>
+    <td width="40%" bgcolor="#F3F3F3">HDR,ST,2R,10P,0.100"C,SM,Pb-FR</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in p5%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">qsfp_q0</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,ZQSFP+,R,RA,2R,76P,2X1,STA</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in qsfp_q0%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">qsfp_q1</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,ZQSFP+,R,RA,2R,76P,2X1,STA</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in qsfp_q1%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">qsfp_q2</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,ZQSFP+,R,RA,2R,76P,2X1,STA</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in qsfp_q2%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">sfp_s0</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,ZSFP+,R,RA,PF,2 R,480 P,0.</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in sfp_s0%presence</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">sfp_s1</td>
+    <td width="40%" bgcolor="#F3F3F3">CON,ZSFP+,R,RA,PF,2 R,480 P,0.</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence test found in sfp_s1%presence</em></td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Diode<a name="Diode"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Filter<a name="Filter"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Fuse<a name="Fuse"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Inductor<a name="Inductor"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_91_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_2</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_91_rtv1</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence covered by cluster in pwr_check<br>not accessible at node vdd_sw_91</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_91_rtv2</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence covered by cluster in pwr_check<br>not accessible at node vdd_sw</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_92_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_92</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_93_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_93</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_94_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_94</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_95_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_95</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_96_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_96</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_98_5</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node vdd_sw_3</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_98_rtv1</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence covered by cluster in pwr_check<br>not accessible at node vdd_sw_98</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">l1_98_rtv2</td>
+    <td width="40%" bgcolor="#F3F3F3">INDUCT,FERR,150 nH,10%,67A rat</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Presence covered by cluster in pwr_check<br>not accessible at node vdd_sw_1</em></td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Jumper<a name="Jumper"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Resistor<a name="Resistor"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r24_3</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,3 k ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node refres_side_3</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r89</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,33 ohm,0.063W,1%,SM,04</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk25m_osc] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r150</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_bot_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r151</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_bot_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r162</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,33 ohm,0.063W,5%,SM,04</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk114m_xo] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r181</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_side_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r182</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_side_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r183</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_top_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r184</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_top_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r186</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_side_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r187</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_top_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r188</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_top_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r212</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk212m_buf_fc_side_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r245</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,100 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk_10m_zl_si5326_out] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r247</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,150 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk_10m_zl_si5326_out] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r250</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,150 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk_10m_zl_si5326_out] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r293</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,4.7 k ohm,0.063W,1%,SM</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Low impedance between p3_3va and gnd by asic internal</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r356</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt9_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r357</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt9_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r359</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt8_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r361</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt8_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r362</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt7_refclk_p] removed for power stable  ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r363</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt7_refclk_n] removed for power stable  ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r364</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt6_refclk_p] removed for power stable  ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r368</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_bot_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r369</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_buf_mm_bot_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r370</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt6_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r371</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt5_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r372</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt5_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r373</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt4_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r374</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt4_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r375</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt3_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r376</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt3_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r379</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt2_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r380</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt2_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r381</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt1_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r382</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt1_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r383</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt0_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r384</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt0_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r502</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt_bufin_upper_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r503</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt_bufin_upper_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r504</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt_bufin_lower_refclk_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r505</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,49.9 ohm,0.063W,1%,SM,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_clk156m25_rt_bufin_lower_refclk_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r573</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,0 ohm,0.063W,5%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node nc_3463</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r576</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,0 ohm,0.063W,5%,SM,040</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Not accessible at node nc_3464</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r610</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,33 ohm,0.063W,5%,SM,04</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [posc_clk212m5_p] removed for power stable  ready<br>posc_clk212m5_p (top) probe removed for frequency test (osc212p) stable test ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r611</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,33 ohm,0.063W,5%,SM,04</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [posc_clk212m5_n] removed for power stable ready<br>posc_clk212m5_n (top) probe removed for frequency test (osc212p) stable test  ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r984</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,100 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Parallel with a low impedance resistor(<= 3ohms) from asic u1_3</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r985</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,100 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Parallel with a low impedance resistor(<= 3ohms) from asic u1_3</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1015</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,100 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1016</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,100 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_p] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1017</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,200 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_n] removed for power stable ready</em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">r1018</td>
+    <td width="40%" bgcolor="#F3F3F3">RES,TKF,200 ohm,0.063W,1%,SM,0</td>
+    <td width="40%" bgcolor="#F3F3F3"><em>Top probe [srt_cpu_pcie_clkout0_p] removed for power stable ready</em></td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Transistor<a name="Transistor"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Resistor Pack<a name="Resistor_Pack"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>LED<a name="LED"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Oscillator<a name="Oscillator"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">u1</td>
+    <td width="40%" bgcolor="#F3F3F3">OSC,OCXO,LVCMOS,24.576MHz,4.6 </td>
+    <td width="40%" bgcolor="#F3F3F3"><em></em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">u9</td>
+    <td width="40%" bgcolor="#F3F3F3">OSC,TCXO,CMOS,25.0MHz,2.5 ppm,</td>
+    <td width="40%" bgcolor="#F3F3F3"><em></em></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">y3</td>
+    <td width="40%" bgcolor="#F3F3F3">XTAL,114.285MHz,100PPM,SMD4,-4</td>
+    <td width="40%" bgcolor="#F3F3F3"><em></em></td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Digital<a name="Digital"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<table width="95%">
+  <tr valign="top"> 
+    <td colspan="3"> 
+      <div align="left"><strong>Powered Analog<a name="Powered_Analog"></a></strong></div></td>
+  </tr>
+  <tr valign="top"> 
+    <td width="20%" bgcolor="#F3F3F3">None</td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+    <td width="40%" bgcolor="#F3F3F3"> </td>
+  </tr>
+</table>
+<br>
+<hr>
+<p><strong><u><font color="#0000FF" size="+2">Quality Reports</font></u></strong></p>
+<p><b>
+*******************************************************************************************************<br />
+*** For All Unpowered Analog Tests:<br />
+*** &nbsp;&nbsp;&nbsp;&nbsp;Refer to the new Cpk Analysis Reports and Tolerance Guidelines to review for Quality and Stability.<br />
+*** &nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none" href="../ST_REPORT"><strong>ST_REPORT</strong></a><br />
+*** &nbsp;&nbsp;&nbsp;&nbsp;Review this list for tests failed during Board Grading:<br />
+*** &nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none" href="FailedTests.htm"><strong>Failed Tests</strong></a><br />
+*******************************************************************************************************<br />
+</b></p>
+<p>&nbsp;</p>
+<table width="97%" border="1" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#d5dec9"> 
+    <td height="36" colspan="11"> 
+      <div align="center"><strong><font size="+1">Digital</font></strong></div></td>
+  </tr>
+  <tr> 
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th colspan="2" bgcolor="#d5dec9"> 
+      <div align="center"><strong>Drive Faults</strong></div></th>
+    <th colspan="2" bgcolor="#d5dec9"> 
+      <div align="center"><strong>Receive Faults</strong></div></th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+    <th bgcolor="#d5dec9">&nbsp;</th>
+  </tr>
+  <tr> 
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Designator</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Part Number</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Stuck at &quot;0&quot;</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Stuck at &quot;1&quot;</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Stuck at &quot;0&quot;</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Stuck at &quot;1&quot;</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Stuck-At Coverage</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Boundary Scan Coverage</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>TestJet Coverage</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Pin Coverage</strong></div></th>
+    <th bgcolor="#d5dec9"> 
+      <div align="center"><strong>Flag</strong></div></th>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_1v2s.htm">u1_1v2s</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-102470-01&OrgCode=GLO" TITLE="IC, LINEAR, PWRMGT, 1.2V12A">17-102470-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">18.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_1v2s_notest.htm">18.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u1_sf0.htm">u1_sf0</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-102471-01&OrgCode=GLO" TITLE="IC, LINEAR, PWRMGT, 3.3V30A">17-102471-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">18.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_sf0_notest.htm">18.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_sf1.htm">u1_sf1</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-102471-01&OrgCode=GLO" TITLE="IC, LINEAR, PWRMGT, 3.3V30A">17-102471-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">18.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_sf1_notest.htm">18.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u15_5v.htm">u15_5v</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-102463-01&OrgCode=GLO" TITLE="IC, LINEAR, PWRMGT, 5V5A">17-102463-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">18.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u15_5v_notest.htm">18.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u16_3v3.htm">u16_3v3</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-102464-01&OrgCode=GLO" TITLE="IC, LINEAR, PWRMGT, 3.3V9A">17-102464-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">18.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u16_3v3_notest.htm">18.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u49.htm">u49</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=16-101568-01&OrgCode=GLO" TITLE="IC-FPGA,5CGXFC5C7-8.0,FBGA,672 P,1.0 mm,28.0nm,1.1 VCORE,YES-JTAG,3.3 V I/O,0 to 85 C,Pb-Free">16-101568-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">1.1</div></td>
+    <td><div align="center">54.3</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u49_notest.htm">55.1</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_rt1_2.htm">u1_rt1_2</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rt1_2_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u1_rt3_4.htm">u1_rt3_4</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rt3_4_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_rt5_6.htm">u1_rt5_6</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rt5_6_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u1_rt7_8.htm">u1_rt7_8</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rt7_8_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_rt9.htm">u1_rt9</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rt9_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u2_rt1_2.htm">u2_rt1_2</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u2_rt1_2_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u2_rt3_4.htm">u2_rt3_4</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u2_rt3_4_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u2_rt5_6.htm">u2_rt5_6</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u2_rt5_6_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u2_rt7_8.htm">u2_rt7_8</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104658-01&OrgCode=GLO" TITLE="IC-COMM,ETHERNET,100.0Gb/s,0.0 W,105.0 Tj MAX,HFCBGA,256 P,1.0 mm,1.0 V,5.0 %,6.475,0 to 105 C,Pb Free">15-104658-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">75.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u2_rt7_8_notest.htm">75.9</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u13_pm.htm">u13_pm</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-106515-01&OrgCode=GLO" TITLE="IC-LIN,Precision Digital Power Monitor,MSOP,10 P,5.05x3.05mm PKGSIZE,0.5mm PITCH,5.5 V (Max),-40 to 125 C">15-106515-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">80.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">80.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u13_pm_notest.htm">80.0</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u59.htm">u59</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-105653-01&OrgCode=GLO" TITLE="IC-TIMING,SYNTHESIZER,1045.0 MHz,3.3 V,LGA,80 P,-40 to 85 C">15-105653-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">4.9</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">80.5</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u59_notest.htm">80.5</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u10.htm">u10</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-7346-01&OrgCode=GLO" TITLE="IC-LOGIC,QSOP16,QS3VH257,QUAD,2:1,MUX/DEMUX">15-7346-01</a></td>
+    <td><div align="center">75.0</div></td>
+    <td><div align="center">75.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">81.8</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u10_notest.htm">81.8</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_rtv1.htm">u1_rtv1</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-15781-01&OrgCode=GLO" TITLE="IC,LINEAR,PWR SEQ,PWR_CONTROLLER,IR35215,BEARVALLEY">17-15781-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">66.7</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">10.5</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">89.5</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rtv1_notest.htm">89.5</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u1_rtv2.htm">u1_rtv2</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-15781-01&OrgCode=GLO" TITLE="IC,LINEAR,PWR SEQ,PWR_CONTROLLER,IR35215,BEARVALLEY">17-15781-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">66.7</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">10.5</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">89.5</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_rtv2_notest.htm">89.5</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u1_5.htm">u1_5</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-15181-02&OrgCode=GLO" TITLE="IC,LINEAR,PWR SEQ, PWR_CONTROLLER,IR35215, ELYSIAN (SD1_6P1_0P875)">17-15181-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">66.7</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">6.5</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">90.3</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_5_notest.htm">90.3</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u1_3.htm">u1_3</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=08-1199-01&OrgCode=GLO" TITLE="ASIC,SUNDOWN1 Rev 3,NEW TIM MATERIAL DA6534,SCREENED WITH NEW FW 1201,14nm,BGA,1621 P,42.5x42.5x4.61mm PKGSIZE,24.699x16.427mm DIESIZE,105.0 C TJMAX,1.0mm PITCH,-5 to 105 C,">08-1199-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">91.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center"><a style="text-decoration:none" href="u1_3_notest.htm">91.2</a></div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u4.htm">u4</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-6939-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,PSOP5,-40 TO 85'C,74LVC1G07,SINGL BUFFR,0.65,Pb-FREE">15-6939-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u5.htm">u5</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-9846-02&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,3.3V,TSSOP20,-40C TO 85C,1:5,LVPECL,DIF to LVPECL,2.5V option available,Pb-Free PRDB project only">15-9846-02</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u6.htm">u6</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-102821-01&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,NON ZERO DLY,250.0 MHz,3.3 V,TSSOP,8 P,-40 to 85 C,2.5V option available,Pb-Free">15-102821-01</a></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">75.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u7.htm">u7</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-2811-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,5V,-40C to +85C,74LVC244A,OCTL,Pb-FREE">15-2811-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">41.2</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u8.htm">u8</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-7346-01&OrgCode=GLO" TITLE="IC-LOGIC,QSOP16,QS3VH257,QUAD,2:1,MUX/DEMUX">15-7346-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u12.htm">u12</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-7346-01&OrgCode=GLO" TITLE="IC-LOGIC,QSOP16,QS3VH257,QUAD,2:1,MUX/DEMUX">15-7346-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u13.htm">u13</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-9846-02&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,3.3V,TSSOP20,-40C TO 85C,1:5,LVPECL,DIF to LVPECL,2.5V option available,Pb-Free PRDB project only">15-9846-02</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u14.htm">u14</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-102821-01&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,NON ZERO DLY,250.0 MHz,3.3 V,TSSOP,8 P,-40 to 85 C,2.5V option available,Pb-Free">15-102821-01</a></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">75.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u17.htm">u17</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-9846-02&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,3.3V,TSSOP20,-40C TO 85C,1:5,LVPECL,DIF to LVPECL,2.5V option available,Pb-Free PRDB project only">15-9846-02</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u19.htm">u19</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-8153-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,SC706,NC7WZ17,SCHMITT INPUT,Pb-FREE">15-8153-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u20.htm">u20</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-107246-01&OrgCode=GLO" TITLE="IC-LIN,INTFC DRVR,DFN,10 P,3.0x3.0mm PKGSIZE,0.5mm PITCH,3.0V to 5.5V,20Mbps,-40 to 125 C">15-107246-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u21.htm">u21</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-107246-01&OrgCode=GLO" TITLE="IC-LIN,INTFC DRVR,DFN,10 P,3.0x3.0mm PKGSIZE,0.5mm PITCH,3.0V to 5.5V,20Mbps,-40 to 125 C">15-107246-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u23.htm">u23</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-8366-01&OrgCode=GLO" TITLE="IC-LOGIC,MUX,SC70,6 P,2.0x2.1mm PKGSIZE,0.65mm PITCH,1.65 V to 5.5 V,-40 to 85 C,2-IN,NON-INV">15-8366-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u24.htm">u24</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-14497-02&OrgCode=GLO" TITLE="IC-MP,MCU,8/16BIT,QFN20,2.7V to 3.6V,-40 to 95'C,A2L1.5,Pb-FREE,I-TEMP">15-14497-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u25.htm">u25</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-2811-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,5V,-40C to +85C,74LVC244A,OCTL,Pb-FREE">15-2811-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">85.7</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u26.htm">u26</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u27.htm">u27</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u28.htm">u28</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-9846-02&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,3.3V,TSSOP20,-40C TO 85C,1:5,LVPECL,DIF to LVPECL,2.5V option available,Pb-Free PRDB project only">15-9846-02</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u29.htm">u29</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-16600-01&OrgCode=GLO" TITLE="PLD,PROG,LATTICE, TOR, DEER VALLEY, CPLD">17-16600-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">97.8</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u30.htm">u30</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-16600-01&OrgCode=GLO" TITLE="PLD,PROG,LATTICE, TOR, DEER VALLEY, CPLD">17-16600-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">97.8</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u31.htm">u31</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u32.htm">u32</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u35.htm">u35</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u36.htm">u36</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u37.htm">u37</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-16600-01&OrgCode=GLO" TITLE="PLD,PROG,LATTICE, TOR, DEER VALLEY, CPLD">17-16600-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">97.8</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u38.htm">u38</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-16601-01&OrgCode=GLO" TITLE="PLD,PROG,LATTICE,TOR,SUMPIN,CPLD4">17-16601-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">97.8</div></td>
+    <td><div align="center">93.5</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u40.htm">u40</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-104898-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP,14 P,-40 to 85 C">15-104898-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u41.htm">u41</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-14484-01&OrgCode=GLO" TITLE="IC-LIN,INTFC I2C,MSOP8,0.8V-5.5V,I-TEMP (-40 to 85'C),I2C REPEATER">15-14484-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u42.htm">u42</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-102962-01&OrgCode=GLO" TITLE="IC-LOGIC,TRANSCEIVER,TSSOP,24 P,0.8 V to 3.6 V,-40°C TO 125°C,8-BIT,3-STATE OUTPUT,PB FREE">15-102962-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u43.htm">u43</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-102962-01&OrgCode=GLO" TITLE="IC-LOGIC,TRANSCEIVER,TSSOP,24 P,0.8 V to 3.6 V,-40°C TO 125°C,8-BIT,3-STATE OUTPUT,PB FREE">15-102962-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u45.htm">u45</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-6728-02&OrgCode=GLO" TITLE="IC-LOGIC-AND,SOT353,3.6V,-40 TO 85C,Pb-FREE,74LVC1G08,SINGLE POS">15-6728-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u46.htm">u46</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-6939-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,PSOP5,-40 TO 85'C,74LVC1G07,SINGL BUFFR,0.65,Pb-FREE">15-6939-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u47.htm">u47</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-2811-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,5V,-40C to +85C,74LVC244A,OCTL,Pb-FREE">15-2811-02</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u48.htm">u48</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-2811-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,5V,-40C to +85C,74LVC244A,OCTL,Pb-FREE">15-2811-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">87.5</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u50.htm">u50</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-3958-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,VNOM 2.0-3.6V,74LVC2244A">15-3958-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u54.htm">u54</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=17-15887-04&OrgCode=GLO" TITLE="FLASH,PROG,TOR,ELYSIAN,MIROM,V16, FOR SUPERFUZZ ONLY">17-15887-04</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u55.htm">u55</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-4189-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP14,74LVC07A,HEX,Pb-FREE">15-4189-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u56.htm">u56</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-11039-02&OrgCode=GLO" TITLE="IC-TIMING,JITTER ATTEN,QFN36,SI5326,CLK MULT,ANY RATE MUL PLL/JITTER ATTEN,Pb-Free">15-11039-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">66.7</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">9.5</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u57.htm">u57</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-3204-02&OrgCode=GLO" TITLE="IC-LOGIC-MUX,TSSOP16,Industrial Temp -40C to +85C,74LVC157A,QUAD 2-TO-1,Pb-FREE">15-3204-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u61.htm">u61</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-3958-02&OrgCode=GLO" TITLE="IC-LOGIC-BUFFER,TSSOP20,VNOM 2.0-3.6V,74LVC2244A">15-3958-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u63.htm">u63</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13454-01&OrgCode=GLO" TITLE="IC-TIMING,BUFFER,TSSOP8,1:2,LVPECL,ICS853S011BGILFT,BUFFER,LVPECL-LVPECL,Jitter < 150 fs additive RMS in 12k to 20MHz band,with a 25 MHz clock,Pb-Free">15-13454-01</a></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u72.htm">u72</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-7481-02&OrgCode=GLO" TITLE="IC-LIN,TEMP MON,QSOP-16,MAX1668,4/5 CHNL TEMP SENS,Pb-FREE">15-7481-02</a></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">50.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">15.4</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u96.htm">u96</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-3699-03&OrgCode=GLO" TITLE="IC-LOGIC-DEMUX,QSOP16,PI3B3257,DMUX,QUAD">15-3699-03</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">78.6</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u103.htm">u103</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u106.htm">u106</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u107.htm">u107</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u108.htm">u108</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u115.htm">u115</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#FFFFFF"> 
+    <td><a style="text-decoration:none" href="u116.htm">u116</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-13379-01&OrgCode=GLO" TITLE="IC-LOGIC,REGISTER,TSSOP16,74LV595,8BIT SHIFT REG,ITEMP,Pb-FREE">15-13379-01</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+  <tr BGCOLOR="#F3F3F3"> 
+    <td><a style="text-decoration:none" href="u138.htm">u138</a></td>
+    <td align=center><a href="https://mco.cisco.com/servlet/mco.ecm.inbiz.inbiz?module=Detail&InventoryItemId=289160&OrgID=1&ItemNumber=15-9367-02&OrgCode=GLO" TITLE="IC-LOGIC,TSSOP20,1.8-3.3V,SI-GATE CMOS.5V TOL,3-STATE OUTPUTS,LOW-POWER,LOW-VOL,Pb-FREE">15-9367-02</a></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">0.0</div></td>
+    <td><div align="center">100.0</div></td>
+    <td><div align="center">....</div></td>
+  </tr>
+</table>
+<br>
+<hr>
+<br>
+<table width="97%" border="1" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#d5dec9">
+    <th height="36" colspan="7"><font size="+1">Stability (5-Time Evaluation) Results</font></th>
+  </tr>
+  <tr bgcolor="#d5dec9">
+    <th width="21%" height="36">
+      <div align="center"><strong>Board Name</strong></div></th>
+    <th width="18%" height="36">
+      <div align="center"><strong>Tester Name </strong></div></th>
+    <th width="15%" height="36">
+      <div align="center"><strong>Start</strong></div></th>
+    <th width="15%" height="36">
+      <div align="center"><strong>End</strong></div></th>
+    <th width="11%" height="36">
+      <div align="center"><strong>Average Test<br>
+      Time (sec) </strong></div></th>
+    <th width="11%" height="36">
+      <div align="center"><strong>No. Of Runs</strong></div></th>
+    <th width="9%" height="36">
+      <div align="center"><strong>Failed</strong></div></th>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td align="left">73-102931-01</td>
+    <td><div align="center">CISCO-10</div></td>
+    <td><div align="center">220517164243</div></td>
+    <td><div align="center">220517170636</div></td>
+    <td><div align="center">143.3</div></td>
+    <td><div align="center">10</div></td>
+    <td><div align="center">0</div></td>
+  </tr>
+  <tr align="center">
+    <td colspan="7"><a href="Stability.htm"><strong>**Click here to view details**</strong></a></td>
+  </tr>
+</table>
+<br>
+<hr>
+<br>
+<table width="97%" border="1" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#FFFF00">
+    <th height="36" colspan="4"><font size="+1">User Defined</font></th>
+  </tr>
+  <tr bgcolor="#FFFF00">
+    <th width="21%" height="36">
+      <div align="center"><strong>Designator</strong></div></th>
+    <th width="18%" height="36">
+      <div align="center"><strong>Part Number</strong></div></th>
+    <th width="41%" height="36">
+      <div align="center"><strong>Description</strong></div></th>
+    <th width="20%" height="36">
+      <div align="center"><strong>User Value</strong></div></th>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left"></div></td>
+    <td><div align="left"></div></td>
+    <td><div align="left"></div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u1_1v2s</div></td>
+    <td><div align="left">17-102470-01</div></td>
+    <td><div align="left">IC, LINEAR, PWRMGT, 1.2V12A</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u1_5</div></td>
+    <td><div align="left">17-15181-02</div></td>
+    <td><div align="left">IC,LINEAR,PWR SEQ, PWR_CONTROL</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u1_rtv1</div></td>
+    <td><div align="left">17-15781-01</div></td>
+    <td><div align="left">IC,LINEAR,PWR SEQ,PWR_CONTROLL</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u1_rtv2</div></td>
+    <td><div align="left">17-15781-01</div></td>
+    <td><div align="left">IC,LINEAR,PWR SEQ,PWR_CONTROLL</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u1_sf0</div></td>
+    <td><div align="left">17-102471-01</div></td>
+    <td><div align="left">IC, LINEAR, PWRMGT, 3.3V30A</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u1_sf1</div></td>
+    <td><div align="left">17-102471-01</div></td>
+    <td><div align="left">IC, LINEAR, PWRMGT, 3.3V30A</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u15_5v</div></td>
+    <td><div align="left">17-102463-01</div></td>
+    <td><div align="left">IC, LINEAR, PWRMGT, 5V5A</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u16_3v3</div></td>
+    <td><div align="left">17-102464-01</div></td>
+    <td><div align="left">IC, LINEAR, PWRMGT, 3.3V9A</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u26</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u27</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u31</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u32</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u35</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u36</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u103</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u106</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u107</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u108</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u115</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u116</div></td>
+    <td><div align="left">15-13379-01</div></td>
+    <td><div align="left">IC-LOGIC,REGISTER,TSSOP16,74LV</div></td>
+    <td><div align="left">DIGITAL</div></td>
+  </tr>
+  <tr BGCOLOR=#F3F3F3>
+    <td><div align="left">u3</div></td>
+    <td><div align="left">73-102884-01</div></td>
+    <td><div align="left">PCA,TPS7A5201 INTERPOSER MODUL</div></td>
+    <td><div align="left">POWERED_ANALOG</div></td>
+  </tr>
+  <tr BGCOLOR=#FFFFFF>
+    <td><div align="left">u87</div></td>
+    <td><div align="left">73-102884-01</div></td>
+    <td><div align="left">PCA,TPS7A5201 INTERPOSER MODUL</div></td>
+    <td><div align="left">POWERED_ANALOG</div></td>
+  </tr>
+</table>
+<br>
+<hr>
+<br>
+<p><strong><u><font color="#0000FF" size="+2">More Detailed Reports </font></u></strong></p>
+<p><a style="text-decoration:none" href="PinCoverage.htm"><strong>Pin Coverage Details</strong></a></p>
+<p><a style="text-decoration:none" href="TestSource.htm"><strong>Test Source Log</strong></a></p>
+<br>
+<hr>
+<p>Cisco Systems - Structural Test<br>
+  ICT Test Coverage Software Version 3.8<br>
+  <em>(Created on Fri May 20 15:53:37 2022 from system &quot;DMNM2153&quot;)</em></p>
+</body>
+</html>

@@ -1,0 +1,205 @@
+----------------------------------------
+73-102898-01_03
+Tue Nov 22 22:07:21 2022
+----------------------------------------
+rn107_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn107_s0
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   1.4141k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W8
+----------------------------------------
+73-102898-01_03
+Tue Nov 22 22:07:55 2022
+----------------------------------------
+rn107_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn107_s0
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   1.4033k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W8
+----------------------------------------
+73-102898-01_03
+Tue Nov 22 22:08:02 2022
+----------------------------------------
+rn107_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn107_s0
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   1.4938k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W8
+----------------------------------------
+73-102898-01_03
+Tue Nov 22 22:47:48 2022
+----------------------------------------
+r8_q0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   -915.48k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W9
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 22:50:03 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223129 3418
+UNNAMED_16_RES_I233_A_S0                
+                r35_s0.1
+               sfp_s0.AB4
+To:   i2c_sda_sfp<21>         21706 3418
+                r35_s0.2
+               rn96_s0.3
+           rn96_s0%pin_3_6.1
+                u49.W15
+Common Devices:
+                 r35_s0
+Message is:
+Check R35_S0
+------End, 1 Problem Reported-----------
+S/N:FLM264509W1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 22:50:14 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223129  186
+UNNAMED_16_RES_I233_A_S0                
+                r35_s0.1
+               sfp_s0.AB4
+To:   i2c_sda_sfp<21>         21706  186
+                r35_s0.2
+               rn96_s0.3
+           rn96_s0%pin_3_6.1
+                u49.W15
+Common Devices:
+                 r35_s0
+Message is:
+Check R35_S0
+------End, 1 Problem Reported-----------
+S/N:FLM264509W1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 22:50:26 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223129   44
+UNNAMED_16_RES_I233_A_S0                
+                r35_s0.1
+               sfp_s0.AB4
+To:   i2c_sda_sfp<21>         21706   44
+                r35_s0.2
+               rn96_s0.3
+           rn96_s0%pin_3_6.1
+                u49.W15
+Common Devices:
+                 r35_s0
+Message is:
+Check R35_S0
+------End, 1 Problem Reported-----------
+S/N:FLM264509W1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 22:50:37 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223129  991
+UNNAMED_16_RES_I233_A_S0                
+                r35_s0.1
+               sfp_s0.AB4
+To:   i2c_sda_sfp<21>         21706  991
+                r35_s0.2
+               rn96_s0.3
+           rn96_s0%pin_3_6.1
+                u49.W15
+Common Devices:
+                 r35_s0
+Message is:
+Check R35_S0
+------End, 1 Problem Reported-----------
+S/N:FLM264509W1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 22:50:49 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    223129  215
+UNNAMED_16_RES_I233_A_S0                
+                r35_s0.1
+               sfp_s0.AB4
+To:   i2c_sda_sfp<21>         21706  215
+                r35_s0.2
+               rn96_s0.3
+           rn96_s0%pin_3_6.1
+                u49.W15
+Common Devices:
+                 r35_s0
+Message is:
+Check R35_S0
+------End, 1 Problem Reported-----------
+S/N:FLM264509W1
+----------------------------------------
+Shorts Report for "shorts".
+Tue Nov 22 23:04:44 2022
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p5v                     21610   43
+               c07_91_5.1
+             c07_91_rtv1.1
+             c07_91_rtv2.1
+               c07_92_5.1
+               c07_93_5.1
+               c07_94_5.1
+               c07_95_5.1
+               c07_96_5.1
+               c07_98_5.1
+             c07_98_rtv1.1
+Too many to print.
+To:   VDD_VCIN                22033   43
+             c09_91_rtv2.2
+              r3_91_rtv2.2
+              u1_91_rtv2.3
+Common Devices:
+               r3_91_rtv2
+               u1_91_rtv2
+Message is:
+Check R3_91_RTV2
+------End, 1 Problem Reported-----------
+S/N:FLM264509W7
+----------------------------------------
+73-102898-01_03
+Tue Nov 22 23:05:07 2022
+----------------------------------------
+r88 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   14.154k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM264509W7

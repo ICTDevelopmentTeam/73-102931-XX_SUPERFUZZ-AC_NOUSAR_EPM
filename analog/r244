@@ -1,0 +1,12 @@
+!!!!    2    0    1 1647863925   0000                                         
+! IPG: rev 09.20p  Mon Mar 21 19:58:46 2022
+on failure
+   report parallel devices
+   report "c146 100n"
+end on failure
+disconnect all
+connect s to "GND"
+connect i to "UNNAMED_4144_CAP_I71_B"
+jumper 10.0k, re4, wb, ar100m, op
+! "r244" test.
+off failure

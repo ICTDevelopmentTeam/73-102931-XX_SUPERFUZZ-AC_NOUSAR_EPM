@@ -1,0 +1,13 @@
+!!!!    2    0    1 1651026639  V6857                                         
+! IPG: rev 09.20p  Mon Mar 21 20:01:03 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "r201_pm 100k"                                                                                                                                           
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "VIN_RES_MON_P_PM"                                                                                                                                 
+connect i to "VFB_PM"                                                                                                                                           
+!B!capacitor 1.2n, 22.25, 20.00, fr1024, re4, wb, ar20.0m, comp                                                                                                 
+capacitor 1.2n,35.0,40.00,fr1024,re5,wb,ar100m,comp                                                                                                             
+! "c23_pm" test.                                                                                                                                                
+off failure                                                                                                                                                     

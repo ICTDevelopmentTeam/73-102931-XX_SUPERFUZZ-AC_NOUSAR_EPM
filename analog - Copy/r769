@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521869  V4a1a                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:35 2022
+disconnect all
+connect s to "UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO"
+connect i to "UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2"
+!B!resistor 8.87k, 15.00, 15.00, re4, wb, ar100m
+resistor 8.87k,25.0,20.0,re4,wb,ar100m
+! "r769" test.

@@ -1,0 +1,14 @@
+!!!!    2    0    1 1651026704  Vaceb                                         
+! IPG: rev 09.20p  Mon Mar 21 20:02:06 2022                                                                                                                     
+on failure                                                                                                                                                      
+report parallel devices                                                                                                                                         
+report "c03_rtv2 10.0n"                                                                                                                                         
+end on failure                                                                                                                                                  
+disconnect all                                                                                                                                                  
+connect s to "GND"                                                                                                                                              
+connect i to "UNNAMED_7_CAP_I276_B_RTV2"                                                                                                                        
+connect g to "P12V"                                                                                                                                             
+!B!resistor 1k, 10.00, 10.00, re3, ar100m, wa2.19m                                                                                                              
+resistor 1k,25.00,20.00,re3,ar100m,wa5m,ed                                                                                                                      
+! "r09_rtv2" test.                                                                                                                                              
+off failure                                                                                                                                                     

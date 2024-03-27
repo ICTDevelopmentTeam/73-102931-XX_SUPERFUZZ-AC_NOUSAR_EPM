@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648521710  Vf451                                         
+! IPG: rev 09.20p  Mon Mar 21 20:06:07 2022
+disconnect all
+connect s to "GAIN_10_PM"
+connect i to "GAIN_1_PM"
+!B!resistor 4.02k, 10.00, 10.00, re4, wb, ar200m
+resistor 4.02k,25.00,20.00,re4,wb,ar200m
+! "r164_pm" test.

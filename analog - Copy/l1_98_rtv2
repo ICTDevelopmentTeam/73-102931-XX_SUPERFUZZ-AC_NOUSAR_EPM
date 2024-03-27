@@ -1,0 +1,8 @@
+!!!!    2    0    1 1652865394  V6736                                         
+!* presence covered by cluster in pwr_check
+! "l1_98_rtv2" is not accessible at node "VDD_SW_1".
+disconnect all
+connect s to  "P1V0RT2_DVDD"
+connect i to "VDD_PH_1"
+jumper 15,re1,ar100m
+

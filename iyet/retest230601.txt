@@ -1,0 +1,5866 @@
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 05:21:56 2023
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   217.63u
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r40_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   164.93
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+rn51_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   406.61
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   9.9611M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2717002D
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 05:22:40 2023
+----------------------------------------
+r40_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   164.43
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+rn51_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   490.74
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   9.9611M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2717002D
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 05:22:52 2023
+----------------------------------------
+r40_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   164.20
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+rn51_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   445.93
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   9.9611M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2717002D
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 05:23:03 2023
+----------------------------------------
+r40_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   164.20
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+rn51_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   429.36
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   9.9611M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2717002D
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 05:23:14 2023
+----------------------------------------
+r40_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   164.34
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+rn51_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn51_s0
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   467.95
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn3_q2%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn3_q2
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   8.1901M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM2717002D
+----------------------------------------
+Shorts Report for "shorts".
+Thu Jun 01 16:46:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3005
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   p3v3_sfp1               11338 3005
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f0_s1
+Message is:
+Check F0_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<0>_S1 117171 2540
+                c25_s1.1
+                c33_s1.1
+                l11_s1.1
+               sfp_s1.A16
+To:   PWR_FUSED_SFP<0>_S1    115174 2540
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l11_s1
+Message is:
+Check L11_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<0>_S1 117169 2540
+                c26_s1.1
+                c34_s1.1
+                l12_s1.1
+               sfp_s1.A15
+To:   PWR_FUSED_SFP<0>_S1    115174 2540
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l12_s1
+Message is:
+Check L12_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 2723
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   PMOD_PH_P3V3_SFP1_ALT  109122 2723
+               c10_sf1.2
+                u1_sf1.4
+No common devices.
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV_AVDDL_RT9       11344
+                c8_rt9.1
+               c13_rt9.1
+               c15_rt9.1
+               c16_rt9.1
+               c21_rt9.1
+               c22_rt9.1
+               c24_rt9.1
+               c25_rt9.1
+               c27_rt9.1
+               c28_rt9.1
+Too many to print.
+Common Devices:
+                 l5_rt9
+Message is:
+Check L5_RT9
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: GND                    215142 Open
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   mi1_pd_vrefb4an0        21650
+                 r594.2
+                u49.AD15
+Common Devices:
+                  r594
+                  u49
+Message is:
+Check R594
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: srt_sfp17_i2c_scl_edge  22018  691
+                 r832.1
+                u49.AE21
+To:   I2C_SCL_SFP<17>         22125  691
+                r52_s0.2
+                 r832.2
+               rn96_s0.4
+           rn96_s0%pin_4_5.1
+Common Devices:
+                  r832
+Message is:
+Check R832
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<7>         219150 Open
+                r32_s0.2
+                 r872.1
+               rn46_s0.4
+           rn46_s0%pin_4_5.1
+To:   srt_sfp7_i2c_scl_edge   21561
+                 r872.2
+                u49.AA18
+Common Devices:
+                  r872
+Message is:
+Check R872
+------End, 10 Problems Reported---------
+S/N:FLM27160GRA
+----------------------------------------
+Shorts Report for "shorts".
+Thu Jun 01 16:46:27 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3180
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   p3v3_sfp1               11338 3180
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f0_s1
+Message is:
+Check F0_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<0>_S1 117171 3119
+                c25_s1.1
+                c33_s1.1
+                l11_s1.1
+               sfp_s1.A16
+To:   PWR_FUSED_SFP<0>_S1    115174 3119
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l11_s1
+Message is:
+Check L11_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<0>_S1 117169 3186
+                c26_s1.1
+                c34_s1.1
+                l12_s1.1
+               sfp_s1.A15
+To:   PWR_FUSED_SFP<0>_S1    115174 3186
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l12_s1
+Message is:
+Check L12_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3348
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   PMOD_PH_P3V3_SFP1_ALT  109122 3348
+               c10_sf1.2
+                u1_sf1.4
+No common devices.
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: GND                    215142 Open
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   mi1_pd_vrefb4an0        21650
+                 r594.2
+                u49.AD15
+Common Devices:
+                  r594
+                  u49
+Message is:
+Check R594
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: srt_sfp18_i2c_scl_edge 220141  110
+                 r24.1
+                u49.AB17
+To:   I2C_SCL_SFP<18>         21954  110
+                 r24.2
+                r54_s0.1
+               rn99_s0.4
+           rn99_s0%pin_4_5.1
+Common Devices:
+                  r24
+Message is:
+Check R24
+------End, 8 Problems Reported----------
+S/N:FLM27160GRA
+----------------------------------------
+Shorts Report for "shorts".
+Thu Jun 01 16:46:41 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3342
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   p3v3_sfp1               11338 3342
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f0_s1
+Message is:
+Check F0_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<0>_S1 117171 3661
+                c25_s1.1
+                c33_s1.1
+                l11_s1.1
+               sfp_s1.A16
+To:   PWR_FUSED_SFP<0>_S1    115174 3661
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l11_s1
+Message is:
+Check L11_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<0>_S1 117169 3795
+                c26_s1.1
+                c34_s1.1
+                l12_s1.1
+               sfp_s1.A15
+To:   PWR_FUSED_SFP<0>_S1    115174 3795
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l12_s1
+Message is:
+Check L12_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3644
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   PMOD_PH_P3V3_SFP1_ALT  109122 3644
+               c10_sf1.2
+                u1_sf1.4
+No common devices.
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: srt_sfp18_i2c_scl_edge 220141 Open
+                 r24.1
+                u49.AB17
+To:   I2C_SCL_SFP<18>         21954
+                 r24.2
+                r54_s0.1
+               rn99_s0.4
+           rn99_s0%pin_4_5.1
+Common Devices:
+                  r24
+Message is:
+Check R24
+------End, 7 Problems Reported----------
+S/N:FLM27160GRA
+----------------------------------------
+Shorts Report for "shorts".
+Thu Jun 01 16:46:56 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3566
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   p3v3_sfp1               11338 3566
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f0_s1
+Message is:
+Check F0_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<0>_S1 117171 3295
+                c25_s1.1
+                c33_s1.1
+                l11_s1.1
+               sfp_s1.A16
+To:   PWR_FUSED_SFP<0>_S1    115174 3295
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l11_s1
+Message is:
+Check L11_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<0>_S1 117169 3335
+                c26_s1.1
+                c34_s1.1
+                l12_s1.1
+               sfp_s1.A15
+To:   PWR_FUSED_SFP<0>_S1    115174 3335
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l12_s1
+Message is:
+Check L12_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3468
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   PMOD_PH_P3V3_SFP1_ALT  109122 3468
+               c10_sf1.2
+                u1_sf1.4
+No common devices.
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: GND                    215142   27
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+To:   mi1_pd_vrefb4an0        21650   27
+                 r594.2
+                u49.AD15
+Common Devices:
+                  r594
+                  u49
+Message is:
+Check R594
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: srt_sfp18_i2c_scl_edge 220141 Open
+                 r24.1
+                u49.AB17
+To:   I2C_SCL_SFP<18>         21954
+                 r24.2
+                r54_s0.1
+               rn99_s0.4
+           rn99_s0%pin_4_5.1
+Common Devices:
+                  r24
+Message is:
+Check R24
+------End, 8 Problems Reported----------
+S/N:FLM27160GRA
+----------------------------------------
+Shorts Report for "shorts".
+Thu Jun 01 16:47:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3760
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   p3v3_sfp1               11338 3760
+                c5_q0.1
+                c5_q1.1
+                c5_q2.1
+                c6_q0.1
+                c6_q1.1
+                c6_q2.1
+               c15_sf1.1
+               c16_sf1.1
+               c17_sf1.1
+               c18_sf1.1
+Too many to print.
+Common Devices:
+                 f0_s1
+Message is:
+Check F0_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_TX<0>_S1 117171 Open
+                c25_s1.1
+                c33_s1.1
+                l11_s1.1
+               sfp_s1.A16
+To:   PWR_FUSED_SFP<0>_S1    115174
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l11_s1
+Message is:
+Check L11_S1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: FLTR_P3V3_SFP_RX<0>_S1 117169 Open
+                c26_s1.1
+                c34_s1.1
+                l12_s1.1
+               sfp_s1.A15
+To:   PWR_FUSED_SFP<0>_S1    115174
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+Common Devices:
+                 l12_s1
+Message is:
+Check L12_S1
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_FUSED_SFP<0>_S1    115174 3967
+                c41_s1.1
+                c42_s1.1
+                f0_s1.1
+                l11_s1.2
+                l12_s1.2
+To:   PMOD_PH_P3V3_SFP1_ALT  109122 3967
+               c10_sf1.2
+                u1_sf1.4
+No common devices.
+Message is:
+Check ExpectShort
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<3>          21664 Open
+                  r3.1
+                r8_s0.2
+               rn36_s0.4
+           rn36_s0%pin_4_5.1
+To:   srt_sfp3_i2c_scl_edge  215162
+                  r3.2
+                u49.Y19
+Common Devices:
+                   r3
+Message is:
+Check R3
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: srt_sfp18_i2c_scl_edge 220141   40
+                 r24.1
+                u49.AB17
+To:   I2C_SCL_SFP<18>         21954   40
+                 r24.2
+                r54_s0.1
+               rn99_s0.4
+           rn99_s0%pin_4_5.1
+Common Devices:
+                  r24
+Message is:
+Check R24
+------End, 7 Problems Reported----------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 16:58:26 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.0              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.6              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.5             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.1             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.1             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.9              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.4              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.9              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.3              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.4              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.4              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.1              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.5              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 19.0             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.2              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.7              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.7             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.9             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.3              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 8.4              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 6.2              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 2.0              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 16.2             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.8              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.3             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.4             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.2             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.8             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.5              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.9             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 21.0             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 15.1             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.6             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.1              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 42.7             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.0             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 16.8             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.6             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.6             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.2             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 8.7              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.1             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.1             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.3             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.4             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 25.3             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 16:58:38 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.1              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 2.0              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 23.0             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.4             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.2             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.6              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 8.1              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 8.4              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.6              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.3              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.2              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.2              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.7              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 18.9             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.8              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.9              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.3             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 20.3             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.1              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 8.2              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.8              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.8              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.3             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.5              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.2             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.0             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 11.7             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.4             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.6              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.0             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.9             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.5             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.5             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 7.9              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.7             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 26.2             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 17.1             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.4             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.4             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.3             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 8.7              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.9             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.6             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.9             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.4             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.5             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 16:58:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.5              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.9              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 23.1             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.1             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 9.7              (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.5              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.2              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.8              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.4              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.1              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 2.8              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.3              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.4              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 19.1             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.2              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 8.0              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.1             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 20.0             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.3              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 8.0              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.9              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.3              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 14.9             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.2              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.5             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.8             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.4             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 61.3             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.5              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.4             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.4             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.6             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.8             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.4              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.0             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.5             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 16.9             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.5             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.6             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.6             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.3              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.6             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.3             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.0             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.2             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 25.6             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 16:59:01 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.8              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.7              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.8             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.5             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.5             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.9              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.7              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 8.0              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 3.2              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 6.1              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.3              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.6              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.6              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 18.8             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.6              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.4              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.4             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.7             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 2.8              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.9              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.5              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.7              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.5             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.2              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.4             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.4             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.0             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 61.0             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.3              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.5             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.9             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.7             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 43.2             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.3              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.9             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 26.3             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 16.7             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.3             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.2             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.8             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 8.5              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 24.5             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.7             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.6             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.6             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 25.0             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 16:59:13 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.4              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.9              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.6             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 24.8             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 9.6              (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.6              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.7              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.8              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.8              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.5              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.8              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.6              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.9              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 19.2             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.4              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.7              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.3             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.8             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.1              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.9              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.6              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.6              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.5             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.4              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.4             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.4             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.2             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.7             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.3              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 10.9             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.6             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.8             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.7             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.8              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.5             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.9             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 17.3             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.7             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.7             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.3             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.0              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.8             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 89.1             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.5             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 37.1             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.7             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 17:00:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.9              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.7              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.9             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.1             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.1             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.5              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 8.0              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.7              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.3              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.3              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.2              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.3              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.3              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 19.2             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 2.0              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 8.1              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 11.7             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.4             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 1.7              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.7              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.8              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.4              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.9             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.3              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.5             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.3             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.4             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.8             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.9              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.4             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 21.0             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.9             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.6             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.5              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.1             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.7             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 16.2             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 80.1             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.9             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.3             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.3              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 24.1             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.7             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.6             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.4             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.9             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 17:00:43 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.2              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.6              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.9             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.0             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.7             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.7              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.7              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.7              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.9              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.4              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.0              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.2              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.0              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 19.1             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.8              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.7              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.0             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.6             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.2              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.9              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.8              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 2.1              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.6             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.6              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 38.2             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.4             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 12.5             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 61.0             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.6              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.2             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.7             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 15.1             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 43.1             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.2              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.6             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 26.2             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 17.1             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.5             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 25.4             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.4             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.4              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 24.1             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.3             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.2             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.2             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.6             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 17:00:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.2              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.3              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.3             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.0             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.0             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.9              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.6              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 7.9              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.3              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.4              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.3              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.8              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.6              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 18.9             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.3              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 8.0              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.4             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 20.1             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.1              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 8.6              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 6.0              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 2.0              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.4             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 2.0              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.7             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 13.9             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 11.9             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.6             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 2.0              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.0             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 21.1             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 15.0             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.8             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.3              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 42.9             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.7             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 16.5             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.3             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.5             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 40.7             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.4              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.2             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.4             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.4             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.8             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.6             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 17:01:06 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.2              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.7              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 22.9             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 25.3             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.0             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 2.2              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 7.6              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 8.4              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 2.8              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.5              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 2.9              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.0              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.4              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 18.8             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.5              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.7              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 12.2             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 20.1             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 3.7              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.9              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.7              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.5              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.5             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 1.5              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.2             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.8             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 11.9             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 62.0             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.4              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.1             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 20.5             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 14.7             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 42.9             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.5              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.4             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 26.1             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 17.4             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.2             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.5             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 41.8             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.5              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 24.0             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.7             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.0             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 35.8             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 24.9             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+TestJet Report for "testjet".
+Thu Jun 01 17:01:18 2023
+73-102898-01_03
+----------------------------------------
+Open #1  Device u37
+  Pin 20  Node fpga_sfp_led_grn_l<45>
+  Measured 9.3              (BRC 10544)
+Open #2  Device u37
+  Pin 55  Node fpga_cpld3_clk
+  Measured 1.4              (BRC 20722)
+Open #3  Device u37
+  Pin 52  Node fpga_sfp_led_grn_l<38>
+  Measured 23.3             (BRC 10816)
+Open #4  Device u37
+  Pin 56  Node fpga_cpld_rst_l
+  Measured 24.6             (BRC 10732)
+Open #5  Device u37
+  Pin 19  Node fpga_sfp_led_yel_l<45>
+  Measured 10.1             (BRC 10535)
+Open #6  Device u37
+  Pin 131  Node jtag_tck_cpld3_3v3
+  Measured 1.7              (BRC 10474)
+Open #7  Device u37
+  Pin 91  Node fpga_sfp_led_yel_l<42>
+  Measured 8.2              (BRC 10743)
+Open #8  Device u37
+  Pin 122  Node fpga_sfp_led_grn_l<35>
+  Measured 8.2              (BRC 110161)
+Open #9  Device u37
+  Pin 96  Node fpga_sfp_tx_disable<43>
+  Measured 3.2              (BRC 10826)
+Open #10  Device u37
+  Pin 132  Node fpga_sfp_led_grn_l<36>
+  Measured 5.7              (BRC 105144)
+Open #11  Device u37
+  Pin 83  Node fpga_sfp_tx_disable<42>
+  Measured 3.7              (BRC 110144)
+Open #12  Device u37
+  Pin 82  Node fpga_sfp_tx_disable<41>
+  Measured 3.7              (BRC 110145)
+Open #13  Device u37
+  Pin 44  Node fpga_cpld3_spi_sck
+  Measured 2.1              (BRC 205124)
+Open #14  Device u37
+  Pin 27  Node fpga_sfp_led_grn_l<44>
+  Measured 18.9             (BRC 10746)
+Open #15  Device u37
+  Pin 136  Node jtag_tdo_cpld2_tdi_cpld3_3v3
+  Measured 1.3              (BRC 207165)
+Open #16  Device u37
+  Pin 9  Node fpga_sfp_tx_disable<47>
+  Measured 7.3              (BRC 108137)
+Open #17  Device u37
+  Pin 120  Node cpld3_jtagen
+  Measured 11.9             (BRC 105141)
+Open #18  Device u37
+  Pin 43  Node fpga_sfp_led_grn_l<39>
+  Measured 19.6             (BRC 11018)
+Open #19  Device u37
+  Pin 138  Node fpga_sfp_tx_disable<37>
+  Measured 2.7              (BRC 11048)
+Open #20  Device u37
+  Pin 67  Node fpga_sfp_tx_disable<38>
+  Measured 7.9              (BRC 11029)
+Open #21  Device u37
+  Pin 69  Node cpld3_strobe
+  Measured 5.4              (BRC 108116)
+Open #22  Device u37
+  Pin 68  Node fpga_cpld3_data
+  Measured 1.7              (BRC 210117)
+Open #23  Device u37
+  Pin 130  Node jtag_tms_3v3
+  Measured 15.4             (BRC 10930)
+Open #24  Device u37
+  Pin 70  Node fpga_cpld3_spi_cs_l
+  Measured 2.2              (BRC 21017)
+Open #25  Device u37
+  Pin 42  Node fpga_sfp_led_yel_l<39>
+  Measured 37.8             (BRC 10844)
+Open #26  Device u37
+  Pin 5  Node fpga_sfp_led_grn_l<46>
+  Measured 14.6             (BRC 105135)
+Open #27  Device u37
+  Pin 75  Node fpga_sfp_led_yel_l<40>
+  Measured 11.9             (BRC 10536)
+Open #28  Device u37
+  Pin 133  Node fpga_sfp_led_yel_l<36>
+  Measured 60.9             (BRC 10543)
+Open #29  Device u37
+  Pin 71  Node fpga_cpld3_spi_mosi
+  Measured 1.9              (BRC 209117)
+Open #30  Device u37
+  Pin 62  Node fpga_sfp_led_grn_l<37>
+  Measured 11.3             (BRC 11061)
+Open #31  Device u37
+  Pin 35  Node fpga_sfp_led_yel_l<44>
+  Measured 21.1             (BRC 107143)
+Open #32  Device u37
+  Pin 106  Node fpga_sfp_led_grn_l<43>
+  Measured 15.1             (BRC 110116)
+Open #33  Device u37
+  Pin 39  Node fpga_sfp_tx_disable<40>
+  Measured 43.7             (BRC 10831)
+Open #34  Device u37
+  Pin 22  Node fpga_sfp_tx_disable<46>
+  Measured 8.9              (BRC 11036)
+Open #35  Device u37
+  Pin 86  Node fpga_sfp_led_yel_l<41>
+  Measured 43.7             (BRC 10717)
+Open #36  Device u37
+  Pin 34  Node sfp_rx_los_fpga<44>
+  Measured 25.8             (BRC 107133)
+Open #37  Device u37
+  Pin 3  Node fpga_sfp_led_yel_l<47>
+  Measured 17.2             (BRC 108143)
+Open #38  Device u37
+  Pin 11  Node sfp_mod_abs_fpga<46>
+  Measured 79.0             (BRC 107136)
+Open #39  Device u37
+  Pin 74  Node fpga_sfp_led_grn_l<40>
+  Measured 24.4             (BRC 109116)
+Open #40  Device u37
+  Pin 140  Node fpga_sfp_led_yel_l<37>
+  Measured 40.9             (BRC 109144)
+Open #41  Device u37
+  Pin 32  Node sfp_mod_abs_fpga<44>
+  Measured 9.0              (BRC 107142)
+Open #42  Device u37
+  Pin 110  Node unnamed_4126_lcmxo2640u_i151_pt17cinitm
+  Measured 23.5             (BRC 109143)
+Open #43  Device u37
+  Pin 4  Node fpga_sfp_led_grn_l<47>
+  Measured 88.4             (BRC 105136)
+Open #44  Device u37
+  Pin 113  Node fpga_sfp_led_yel_l<35>
+  Measured 24.3             (BRC 108144)
+Open #45  Device u37
+  Pin 14  Node fpga_sfp_led_yel_l<46>
+  Measured 36.1             (BRC 10843)
+Open #46  Device u37
+  Pin 104  Node fpga_sfp_tx_disable<44>
+  Measured 25.7             (BRC 110136)
+17-16600-01 PLD,PROG,LATTICE, TOR, DEER
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:07:58 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   10.772k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:08:35 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.8892k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:08:44 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   10.019k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:08:53 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.7915k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:09:02 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   8.8988k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GRA
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:10:53 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.7863k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.0000e+100
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:11:22 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   8.7917k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   921.31k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:11:31 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   8.5562k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.2284M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:11:40 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   8.4560k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   736.96k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:11:49 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   8.5750k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   737.13k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:19:03 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   11.116k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+c171 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   38.943p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r378 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   -83.371M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:19:26 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   10.053k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:19:35 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.4097k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:19:44 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.6089k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:19:53 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.4616k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:26:15 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   10.023k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:26:38 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.8668k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:26:47 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.6169k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:26:56 2023
+----------------------------------------
+r875_5v HAS FAILED
+not-in-bom
+Measured:   9.1205k
+Nominal:    3.4800k
+High Limit: 4.1760k
+Low Limit:  2.7840k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271702MN
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:37:38 2023
+----------------------------------------
+r699 HAS FAILED
+12-2603-01 RES,TKF,162 ohm,0.063W,1%,SM,
+Measured:   -4.6285M
+Nominal:    162.00
+High Limit: 210.60
+Low Limit:  129.60
+Resistance in OHMS
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   59.938m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:37:52 2023
+----------------------------------------
+r699 HAS FAILED
+12-2603-01 RES,TKF,162 ohm,0.063W,1%,SM,
+Measured:   -2.3021M
+Nominal:    162.00
+High Limit: 210.60
+Low Limit:  129.60
+Resistance in OHMS
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.113m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:38:01 2023
+----------------------------------------
+r699 HAS FAILED
+12-2603-01 RES,TKF,162 ohm,0.063W,1%,SM,
+Measured:   -1.5320M
+Nominal:    162.00
+High Limit: 210.60
+Low Limit:  129.60
+Resistance in OHMS
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.113m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:38:11 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.113m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:38:20 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.288m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:58:13 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.508u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+r475 HAS FAILED
+12-4386-01 RES,TKF,45.3 ohm,0.063W,1%,SM
+Measured:   -181.66k
+Nominal:    45.300
+High Limit: 58.890
+Low Limit:  36.240
+Resistance in OHMS
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 17:58:34 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.531u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+r475 HAS FAILED
+12-4386-01 RES,TKF,45.3 ohm,0.063W,1%,SM
+Measured:   -181.66k
+Nominal:    45.300
+High Limit: 58.890
+Low Limit:  36.240
+Resistance in OHMS
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:00:37 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -32.978u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:00:59 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -32.655u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:01:08 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -32.862u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:01:17 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -32.586u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:01:26 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -32.378u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:03:16 2023
+----------------------------------------
+r103 HAS FAILED
+12-3792-02 RES,TKF,33 ohm,0.063W,5%,SM,0
+Measured:   11.964k
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.8425M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+rn109_s0%pin_2_7 HAS FAILED
+
+REPLACE DEVICE: rn109_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   437.26M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:03:29 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   3.6852M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:03:38 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.8424M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:03:47 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   1.0000e+100
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:03:57 2023
+----------------------------------------
+r136 HAS FAILED
+12-4650-01 RES,TKF,33 ohm,0.063W,1%,SM,0
+Measured:   -1.8427M
+Nominal:    33.000
+High Limit: 46.200
+Low Limit:  26.400
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:14:29 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.113m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:14:42 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.288m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:14:51 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.113m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:15:00 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.288m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 18:15:09 2023
+----------------------------------------
+cr5%red HAS FAILED
+
+REPLACE DEVICE: cr5
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+cr6%red HAS FAILED
+
+REPLACE DEVICE: cr6
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+Measured:   60.637m
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:44:27 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.7814k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:44:40 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.7758k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:44:49 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.8122k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:44:59 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.7827k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:45:08 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.8065k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:49:25 2023
+----------------------------------------
+r699 HAS FAILED
+12-2603-01 RES,TKF,162 ohm,0.063W,1%,SM,
+Measured:   -4.6285M
+Nominal:    162.00
+High Limit: 210.60
+Low Limit:  129.60
+Resistance in OHMS
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.8374k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+cr10%grn HAS FAILED
+
+REPLACE DEVICE: cr10
+25-1295-01 LED,RA,SING,BICO,R-G,SM,I-TEM
+High Limit: 2.6000
+Low Limit:  1.8000
+Forward VOLTAGE drop
+Status:  4H
+Moa Voltage/Current Compliance
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:49:39 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.9468k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:49:48 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.9960k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:49:57 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   3.9845k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:50:06 2023
+----------------------------------------
+rn34_s0%pin_1_8 HAS FAILED
+
+REPLACE DEVICE: rn34_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   4.2289k
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27120CQZ
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:58:56 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12459u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -871350u
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+c03_rtv2 HAS FAILED
+11-2819-01 CAP,CE,10nF,25V,X7R,10%,SM,04
+Measured:   78.140p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+r09_rtv2 1.00k
+----------------------------------------
+r36_s1 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   373.50k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4222k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4347k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   -5.1789M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   8.0081k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4255k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4284k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   -458.79M
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.548k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.500k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+rn94_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn94_s1
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   13.766M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:59:19 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12508u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -1.5803
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+c03_rtv2 HAS FAILED
+11-2819-01 CAP,CE,10nF,25V,X7R,10%,SM,04
+Measured:   78.173p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+r09_rtv2 1.00k
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4229k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4736k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   -4.0174M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9853k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4289k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4293k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   -458.79M
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.569k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.509k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:59:29 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12525u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -1.4542
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+c03_rtv2 HAS FAILED
+11-2819-01 CAP,CE,10nF,25V,X7R,10%,SM,04
+Measured:   5568.8p
+Nominal:    0.010000u
+High Limit: 0.013500u
+Low Limit:  6000.0p
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+r09_rtv2 1.00k
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4211k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4566k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4482k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9760k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4297k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4297k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4826k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.571k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.513k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:59:40 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12558u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -1.7542
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4209k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4706k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4516k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9774k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4293k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4293k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4948k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.573k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.509k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 20:59:51 2023
+----------------------------------------
+c13_91_rtv1 HAS FAILED
+11-101440-01 CAP,AP,560.0uF,2.0 V,20%,SM
+Measured:   12557u
+Nominal:    4607.0u
+High Limit: 6219.4u
+Low Limit:  2764.2u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c14_91_rtv1 560u
+c30_rtv1 560u
+c31_rtv1 560u
+c32_rtv1 560u
+c25_rt1_2 150u
+c25_rt3_4 150u
+c60_rt1_2 150u
+c60_rt3_4 150u
+c75_rt1_2 150u
+c75_rt3_4 150u
+c76_rt1_2 150u
+c76_rt3_4 150u
+c11_91_rtv1 100u
+c12_91_rtv1 100u
+c16_rt1_2 22.0u
+c16_rt3_4 22.0u
+c27_rt1_2 22.0u
+c27_rt3_4 22.0u
+c61_rt1_2 22.0u
+c61_rt3_4 22.0u
+c77_rt1_2 22.0u
+c77_rt3_4 22.0u
+c78_rt1_2 22.0u
+c78_rt3_4 22.0u
+c147_rt1_2 22.0u
+c147_rt3_4 22.0u
+c148_rt1_2 22.0u
+c148_rt3_4 22.0u
+c151_rt1_2 22.0u
+c151_rt3_4 22.0u
+c152_rt1_2 22.0u
+c152_rt3_4 22.0u
+c8_rt1_2 100n
+c8_rt3_4 100n
+c13_rt1_2 100n
+c13_rt3_4 100n
+c15_rt1_2 100n
+c15_rt3_4 100n
+c19_rt1_2 100n
+c19_rt3_4 100n
+c21_rt1_2 100n
+c21_rt3_4 100n
+c22_rt1_2 100n
+c22_rt3_4 100n
+c23_rt1_2 100n
+c23_rt3_4 100n
+c24_rt1_2 100n
+c24_rt3_4 100n
+c28_rt1_2 100n
+c28_rt3_4 100n
+c30_rt1_2 100n
+c30_rt3_4 100n
+c31_rt1_2 100n
+c31_rt3_4 100n
+c33_rt1_2 100n
+c33_rt3_4 100n
+c38_rt1_2 100n
+c38_rt3_4 100n
+c41_rt1_2 100n
+c41_rt3_4 100n
+c44_rt1_2 100n
+c44_rt3_4 100n
+c47_rt1_2 100n
+c47_rt3_4 100n
+c50_rt1_2 100n
+c50_rt3_4 100n
+c62_rt1_2 100n
+c62_rt3_4 100n
+c63_rt1_2 100n
+c63_rt3_4 100n
+c64_rt1_2 100n
+c64_rt3_4 100n
+c65_rt1_2 100n
+c65_rt3_4 100n
+c79_rt1_2 100n
+c79_rt3_4 100n
+c80_rt1_2 100n
+c80_rt3_4 100n
+c85_rt1_2 100n
+c85_rt3_4 100n
+c86_rt1_2 100n
+c86_rt3_4 100n
+c87_rt1_2 100n
+c87_rt3_4 100n
+c88_rt1_2 100n
+c88_rt3_4 100n
+c91_rt1_2 100n
+c91_rt3_4 100n
+c92_rt1_2 100n
+c92_rt3_4 100n
+c93_rt1_2 100n
+c93_rt3_4 100n
+c94_rt1_2 100n
+c94_rt3_4 100n
+c95_rt1_2 100n
+c95_rt3_4 100n
+c96_rt1_2 100n
+c96_rt3_4 100n
+c97_rt1_2 100n
+c97_rt3_4 100n
+c98_rt1_2 100n
+c98_rt3_4 100n
+c99_rt1_2 100n
+c99_rt3_4 100n
+c100_rt1_2 100n
+c100_rt3_4 100n
+c101_rt1_2 100n
+c101_rt3_4 100n
+c102_rt1_2 100n
+c102_rt3_4 100n
+c103_rt1_2 100n
+c103_rt3_4 100n
+c104_rt1_2 100n
+c104_rt3_4 100n
+c105_rt1_2 100n
+c105_rt3_4 100n
+c106_rt1_2 100n
+c106_rt3_4 100n
+c133_rt1_2 100n
+c133_rt3_4 100n
+c134_rt1_2 100n
+c134_rt3_4 100n
+c135_rt1_2 100n
+c135_rt3_4 100n
+c136_rt1_2 100n
+c136_rt3_4 100n
+c137_rt1_2 100n
+c137_rt3_4 100n
+c138_rt1_2 100n
+c138_rt3_4 100n
+c141_rt1_2 100n
+c141_rt3_4 100n
+c142_rt1_2 100n
+c142_rt3_4 100n
+c143_rt1_2 100n
+c143_rt3_4 100n
+c144_rt1_2 100n
+c144_rt3_4 100n
+c145_rt1_2 100n
+c145_rt3_4 100n
+c146_rt1_2 100n
+c146_rt3_4 100n
+c01_rtv1 3.30n
+----------------------------------------
+c228_3v3 HAS FAILED
+11-3046-01 CAP,AO,220uF,6.3V,20%,SM,2816
+Measured:   -2.9153
+Nominal:    770.83u
+High Limit: 1040.6u
+Low Limit:  462.50u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c191_3v3 100u
+c193_3v3 100u
+c194_3v3 100u
+c195_3v3 100u
+c66 22.0u
+c132 22.0u
+c163 22.0u
+c168 22.0u
+c406 22.0u
+c454 22.0u
+c138 10.0u
+c27 1.00u
+c67 1.00u
+c164 1.00u
+c183 1.00u
+c330 1.00u
+c407 1.00u
+c455 1.00u
+c68 100n
+c91 100n
+c107 100n
+c108 100n
+c109 100n
+c133 100n
+c152 100n
+c166 100n
+c167 100n
+c184 100n
+c185 100n
+c317 100n
+c456 100n
+c457 100n
+c494 100n
+c2724 100n
+c2725 100n
+c2761 100n
+c105 10.0n
+c106 10.0n
+c227_3v3 2.20n
+c316 2.20n
+c321 2.20n
+c582 2.20n
+c583 2.20n
+----------------------------------------
+r09_5 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4206k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_5 10.0n
+----------------------------------------
+r09_rtv1 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4697k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv1 10.0n
+----------------------------------------
+r09_rtv2 HAS FAILED
+12-5890-01 RES,TNF,1 k ohm,0.063W,0.1%,S
+Measured:   1.4390k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+DEVICES IN PARALLEL
+c03_rtv2 10.0n
+----------------------------------------
+r53_3 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   7.9746k
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.5250k
+Resistance in OHMS
+----------------------------------------
+r10_5 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4293k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv1 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4301k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r10_rtv2 HAS FAILED
+12-5606-01 RES,TKF,13.0 k ohm,0.063W,1.0
+Measured:   3.4658k
+Nominal:    13.000k
+High Limit: 16.250k
+Low Limit:  9.7500k
+Resistance in OHMS
+----------------------------------------
+r15_a HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.577k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+r306 HAS FAILED
+12-2560-01 RES,TKF,30.1 k ohm,0.063W,1%,
+Measured:   21.509k
+Nominal:    30.100k
+High Limit: 37.625k
+Low Limit:  22.575k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GPW
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:01:40 2023
+----------------------------------------
+rn96_s0%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Measured:   437.26M
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160T2F
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:05:55 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -34.200u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+r475 HAS FAILED
+12-4386-01 RES,TKF,45.3 ohm,0.063W,1%,SM
+Measured:   182.46k
+Nominal:    45.300
+High Limit: 58.890
+Low Limit:  36.240
+Resistance in OHMS
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:06:16 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.670u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:06:25 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.439u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:06:34 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.554u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Thu Jun 01 21:06:44 2023
+----------------------------------------
+c529 HAS FAILED
+11-2956-01 CAP,CE,100uF,6.3V,20%,X5R,SM,
+Measured:   -33.554u
+Nominal:    195.37u
+High Limit: 244.21u
+Low Limit:  97.685u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c6_a 22.0u
+c398 10.0u
+c403 10.0u
+c430 10.0u
+c441 10.0u
+c528 10.0u
+c429 1.00u
+c431 1.00u
+c437 1.00u
+c439 1.00u
+c442 1.00u
+c459 1.00u
+c468 1.00u
+c469 1.00u
+c470 1.00u
+c471 1.00u
+c472 1.00u
+c473 1.00u
+c474 1.00u
+c475 1.00u
+c476 1.00u
+c477 1.00u
+c478 1.00u
+c479 1.00u
+c480 1.00u
+c482 1.00u
+c483 1.00u
+c484 1.00u
+c397 100n
+c402 100n
+c428 100n
+c436 100n
+c438 100n
+c440 100n
+c485 100n
+c486 100n
+c487 100n
+c488 100n
+c489 100n
+c490 100n
+c491 100n
+c497 10.0n
+c506 10.0n
+c507 10.0n
+c517 10.0n
+c518 10.0n
+c520 10.0n
+c521 10.0n
+----------------------------------------
+rn96_s0%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn96_s0
+14-1023-03 RNW-ISO,2.2k Ohm,5%,4R,63mW,0
+Nominal:    2.2000k
+High Limit: 2.7500k
+Low Limit:  1.7600k
+Resistance in OHMS
+Status:  2cH
+Moa Voltage/Current Compliance
+Detector Over Range
+Integrator Over Voltage
+----------------------------------------
+S/N:FLM271508F6
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 07:21:45 2023
+----------------------------------------
+c171 HAS FAILED
+11-3834-01 CAP,CE,0.1uF,6.3V,10%,X7R,040
+Measured:   32.692p
+Nominal:    0.10000u
+High Limit: 0.13500u
+Low Limit:  0.060000u
+Capacitance in FARADS
+----------------------------------------
+r14_s0 HAS FAILED
+12-2370-02 RES,TKF,33.2 ohm,0.063W,1%,SM
+Measured:   -408.39k
+Nominal:    33.200
+High Limit: 46.480
+Low Limit:  26.560
+Resistance in OHMS
+----------------------------------------
+r3_rt7_8 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   41.638M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r16_rt1_2 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   -3.6950M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+rn68_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   41.638M
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r378 HAS FAILED
+12-2604-02 RES,TKF,150 ohm,0.063W,1%,SM,
+Measured:   4.8617M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+rn80_s1%pin_4_5 HAS FAILED
+
+REPLACE DEVICE: rn80_s1
+14-1007-02 RNW-ISO,150 Ohm,4R,5%,.063W,0
+Measured:   41.638M
+Nominal:    150.00
+High Limit: 195.00
+Low Limit:  120.00
+Resistance in OHMS
+----------------------------------------
+r678 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   31.138
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F9N
+----------------------------------------
+73-102898-01_03
+Fri Jun 02 07:22:05 2023
+----------------------------------------
+rn68_s1%pin_3_6 HAS FAILED
+
+REPLACE DEVICE: rn68_s1
+14-0921-02 RNW-ISO,1k Ohm,5%,4R,63mW,080
+Measured:   2.0266k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27150F9N

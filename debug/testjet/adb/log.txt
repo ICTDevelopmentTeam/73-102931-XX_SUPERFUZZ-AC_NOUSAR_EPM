@@ -1,0 +1,27 @@
+		Keysight Vectorless Test EP AutoDebug Tool
+
+
+
+-------------------------------------------------------------------------------
+KEYSIGHT VECTORLESS TEST EP AUTODEBUG	Wed Aug 30, 2023 09:15:06 AM
+
+testjet
+-------------------------------------------------------------------------------
+
+Autodebugging u1_5.
+Validating output file "testjet"
+Validating input file "debug/testjet/adb/tjraw.txt"
+Getting/validating the header from "testjet"
+Reading data from "debug/testjet/adb/tjraw.txt"
+cp: HiMinOffset 20.0 LowMinOffset 10.0 HiPercent 2.0 MinCpk 2.5 LowPercent 0.50 LowestLowLimit 2.0
+Reading test source "testjet"...
+Analyzing Test Data...
+Reading bd data from "debug/testjet/adb/testjet.bd.bkup6"
+Updating "u1_5" in "testjet"
+
+	Devices:         1
+	Pins:            29
+	Pins iVTEP:      1
+	Power, ground, and fixed pins: Not Reported
+	Pins commented:  0
+

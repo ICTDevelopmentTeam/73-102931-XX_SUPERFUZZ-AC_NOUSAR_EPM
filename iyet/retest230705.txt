@@ -1,0 +1,2879 @@
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 05:03:54 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028  253
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   FLTR_VDDA_TX_0P9V_3     21715  253
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+Common Devices:
+                  l3_3
+                 l26_3
+                  u1_3
+Message is:
+Check L3_3 L26_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q0     11644 Open
+                c1_q0.1
+                c3_q0.1
+                cr1_q0.2
+              cr1_q0%cr.C
+                l1_q0.1
+                l2_q0.1
+                l3_q0.1
+                r4_q0.1
+                rn2_q0.5
+                rn2_q0.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q0  11544
+                c9_q0.2
+                c10_q0.2
+                l1_q0.2
+              qsfp_q0.A29
+Common Devices:
+                 l1_q0
+Message is:
+Check L1_Q0
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q0     11644 Open
+                c1_q0.1
+                c3_q0.1
+                cr1_q0.2
+              cr1_q0%cr.C
+                l1_q0.1
+                l2_q0.1
+                l3_q0.1
+                r4_q0.1
+                rn2_q0.5
+                rn2_q0.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_RX_Q0 115144
+                c11_q0.2
+                c12_q0.2
+                l2_q0.2
+              qsfp_q0.A10
+Common Devices:
+                 l2_q0
+Message is:
+Check L2_Q0
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q0     11644 Open
+                c1_q0.1
+                c3_q0.1
+                cr1_q0.2
+              cr1_q0%cr.C
+                l1_q0.1
+                l2_q0.1
+                l3_q0.1
+                r4_q0.1
+                rn2_q0.5
+                rn2_q0.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC1_Q0    11545
+                c13_q0.2
+                c14_q0.2
+                l3_q0.2
+              qsfp_q0.A30
+Common Devices:
+                 l3_q0
+Message is:
+Check L3_Q0
+----------------------------------------
+Short #1, Thresh 40, Delay 100ms    Ohms
+From: UNNAMED_32_CAP_I55_B   216125    1
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+  &   FLT_P3V3_OSC25M_OCXO    22135
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+  &   P3_3VA                 208153
+                c2_pm.1
+                  c3.1
+                  c6.1
+                 c12.1
+                c13_a.1
+                 c18.1
+                c20_pm.1
+                 c23.1
+                c23_a.1
+                 c24.1
+Too many to print.
+  &     v                     20415
+vflt_p3v3_vddo_zl30772_b                
+                  c9.1
+                 c15.1
+                  l1.2
+                 u59.50
+  &     v                    204121
+vflt_p3v3_vddo_zl30772_d                
+                 c10.1
+                 c20.1
+                  l2.2
+                 u59.65
+  &   unnamed_2_cap_i541_a_a 204113
+                c21_a.2
+                c22_a.2
+                 l4_a.1
+                 u3_a.5
+                 u3_a.6
+                 u3_a.7
+                 u3_a.8
+                 u3_a.9
+  &     v                     20422
+vflt_p3v3_vddo_zl30772_a                
+                 c13.1
+                 c21.1
+                  l5.2
+                 u59.44
+  &     v                    204122
+vflt_p3v3_vddo_zl30772_c                
+                 c14.1
+                 c22.1
+                  l6.2
+                 u59.58
+  &     v                     20423
+vflt_p3v3_vddh_zl30772_b                
+                 c34.1
+                 c36.1
+                  l7.2
+                 u59.40
+  &     v                    204123
+vflt_p3v3_vddh_zl30772_a                
+                 c32.1
+                 c35.1
+                 c38.1
+                  l9.2
+                 u59.38
+                 u59.73
+To:   P0_9V                   22028   29
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   35
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   34
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   35
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   30
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   23
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   33
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   22
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   25
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   26
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   27
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      VDD_PH_98               22070   27
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   29
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      GND                    215142    1
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    2
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    2
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    2 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    3 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    2 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    2 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    4 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    4
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    2
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    2
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    2
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    2
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    3
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    2
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    2
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    4
+               c218_5v.2
+                r73_5v.2
+        v                    216138    2 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    3
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    3
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    2
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    2
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    2
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    2
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    2
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    1
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    2
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    1
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    2
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    2
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    2
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    1
+                 r604.1
+                 u49.C8
+        v                    222110    2 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    1 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    2 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    3 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    1 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    3 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    2 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    1 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    4 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    2
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    3
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    2
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    3
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    3
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    3
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   13
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    3
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    2
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    5
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    3
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    5
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    3
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    5
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    3
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    5
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    3
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    4
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                  c52
+                  c939
+                  c941
+                  fl1
+               fl1%jp1_2
+                  c937
+                  c938
+                  c940
+                   u1
+                 c2_pm
+Too many to print.
+Total of 101 nodes, Message is:  None.
+------End, 5 Problems Reported----------
+S/N:FLM271808PJ
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 05:04:26 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028 Open
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   FLTR_VDDA_TX_0P9V_3     21715
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+Common Devices:
+                  l3_3
+                 l26_3
+                  u1_3
+Message is:
+Check L3_3 L26_3
+----------------------------------------
+Short #1, Thresh 40, Delay 100ms    Ohms
+From: UNNAMED_32_CAP_I55_B   216125    0
+                 c52.1
+                 c939.1
+                 c941.1
+                 fl1.1
+              fl1%jp1_2.1
+              fl1%jp1_3.1
+                 l66.1
+  &   FLT_P3V3_OSC25M_OCXO    22135
+                 c937.1
+                 c938.1
+                 c940.1
+                 fl1.3
+              fl1%jp1_3.2
+                  u1.3
+  &   P3_3VA                 208153
+                c2_pm.1
+                  c3.1
+                  c6.1
+                 c12.1
+                c13_a.1
+                 c18.1
+                c20_pm.1
+                 c23.1
+                c23_a.1
+                 c24.1
+Too many to print.
+  &     v                     20415
+vflt_p3v3_vddo_zl30772_b                
+                  c9.1
+                 c15.1
+                  l1.2
+                 u59.50
+  &     v                    204121
+vflt_p3v3_vddo_zl30772_d                
+                 c10.1
+                 c20.1
+                  l2.2
+                 u59.65
+  &   unnamed_2_cap_i541_a_a 204113
+                c21_a.2
+                c22_a.2
+                 l4_a.1
+                 u3_a.5
+                 u3_a.6
+                 u3_a.7
+                 u3_a.8
+                 u3_a.9
+  &     v                     20422
+vflt_p3v3_vddo_zl30772_a                
+                 c13.1
+                 c21.1
+                  l5.2
+                 u59.44
+  &     v                    204122
+vflt_p3v3_vddo_zl30772_c                
+                 c14.1
+                 c22.1
+                  l6.2
+                 u59.58
+  &     v                     20423
+vflt_p3v3_vddh_zl30772_b                
+                 c34.1
+                 c36.1
+                  l7.2
+                 u59.40
+  &     v                    204123
+vflt_p3v3_vddh_zl30772_a                
+                 c32.1
+                 c35.1
+                 c38.1
+                  l9.2
+                 u59.38
+                 u59.73
+To:   P0_9V                   22028   29
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+      FLTR_VDDA_CLK_0P9V_3   215110   34
+                c368_3.2
+                c371_3.2
+                c372_3.2
+                c375_3.2
+                c376_3.2
+                c379_3.2
+                c380_3.2
+                c383_3.2
+                c384_3.2
+                c387_3.2
+Too many to print.
+      AVDD_SENSE_N            22223   34
+                 p1_5.6
+                r01_5.1
+                r1008.2
+      VDD_PH_3                10556   36
+               r4_98_5.1
+               u1_98_5.32
+      VDD_BOOT_R_3            10533   29
+               c06_98_5.1
+               r4_98_5.2
+      P1V0RT2_DVDD            21512   19
+             c11_98_rtv2.1
+             c12_98_rtv2.1
+             c13_98_rtv2.1
+             c14_98_rtv2.1
+               c33_rtv2.1
+              c34_rt5_6.1
+              c34_rt7_8.1
+               c34_rt9.1
+               c34_rtv2.1
+               c35_rtv2.1
+Too many to print.
+      P1V0RT2_DVDD_SENSE     220128   23
+               p1_rtv2.6
+               r01_rtv2.1
+                 r68.2
+      avdd_sense_r_rtv2      222123   33
+               c02_rtv2.2
+               p1_rtv2.8
+               r01_rtv2.2
+               u1_rtv2.30
+      VDD_PH_1                10550   22
+              r4_98_rtv2.1
+             u1_98_rtv2.32
+      VDD_BOOT_R_1           105134   24
+             c06_98_rtv2.1
+              r4_98_rtv2.2
+      P1V0RT1_DVDD           215127   26
+             c11_98_rtv1.1
+             c12_98_rtv1.1
+             c13_98_rtv1.1
+             c14_98_rtv1.1
+               c33_rtv1.1
+              c34_rt1_2.1
+              c34_rt3_4.1
+               c34_rtv1.1
+               c35_rtv1.1
+              c36_rt1_2.1
+Too many to print.
+      P1V0RT1_DVDD_SENSE      21653   26
+               p1_rtv1.6
+               r01_rtv1.1
+                 r578.2
+      VDD_PH_98               22070   26
+              r4_98_rtv1.1
+             u1_98_rtv1.32
+      VDD_BOOT_R_98           21571   29
+             c06_98_rtv1.1
+              r4_98_rtv1.2
+      GND                    215142    1
+               c1_1v2s.2
+                 c1_6.2
+                 c1_a.2
+                c1_q0.2
+                c1_q1.2
+                c1_q2.2
+                c1_s0.2
+                c1_s1.2
+                c1_sf0.2
+                c1_sf1.2
+Too many to print.
+      FLTR_PLLGND1P8V_3       21922    2
+                c704_3.2
+                c705_3.2
+                 r1_3.2
+                u1_3.K20
+                u1_3.L29
+      FLTR_PLLGNDCORE_3       21926    2
+                c708_3.2
+                c709_3.2
+                 r2_3.2
+                u1_3.K14
+                u1_3.L13
+        v                     21556    2 
+UNNAMED_3_CAP_I59_A_P3V3_SFP0_ALT       
+               c12_sf0.2
+                r2_sf0.2
+                r9_sf0.2
+        v                    219129    2 
+UNNAMED_3_CAP_I59_A_P3V3_SFP1_ALT       
+               c12_sf1.2
+                r2_sf1.2
+                r9_sf1.2
+        v                    220104    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PMOD
+               c8_1v2s.2
+               r1_1v2s.1
+               r7_1v2s.1
+                 r853.1
+                 r854.1
+               u1_1v2s.7
+               u1_1v2s.16
+        v                    215157    2 
+UNNAMED_4095_RES_I464_A                 
+                c8_sf0.2
+                r1_sf0.1
+                r7_sf0.1
+                 r745.1
+                 r746.1
+                u1_sf0.7
+               u1_sf0.16
+        v                    220105    1 
+UNNAMED_4095_RES_I478_A                 
+                c8_sf1.2
+                r1_sf1.1
+                r7_sf1.1
+                 r736.1
+                 r741.1
+                u1_sf1.7
+               u1_sf1.16
+        v                    220109    3 
+UNNAMED_3_CAP_I59_A_1V2S                
+               c12_1v2s.2
+               r9_1v2s.2
+      UNNAMED_2_CAP_I541_B_A 219112    4
+                c21_a.1
+                r13_a.1
+      FLTR_PLLGNDTEST_3      219116    2
+                c702_3.2
+                c703_3.2
+                r16_3.2
+               u1_3.AB28
+               u1_3.AD28
+                u1_3.V28
+                u1_3.Y28
+      FLTR_PLLGND_FC_3       219121    2
+                c706_3.2
+                c707_3.2
+                r17_3.2
+               u1_3.AM16
+               u1_3.AM24
+      0V_3                    20412    2
+                 r3_3.2
+                 r4_3.2
+                r26_3.1
+      P1V0RT2_DGND_SENSE     219132    3
+               r02_rtv2.1
+                 r69.2
+      agnd_sense_r_rtv2       22205    3
+               c02_rtv2.1
+               r02_rtv2.2
+               u1_rtv2.31
+      P1V0RT2_AGND_SENSE      21933    2
+               r04_rtv2.1
+                 r71.2
+      dgnd_sense_r_rtv2      222105    2
+               c01_rtv2.1
+               r04_rtv2.2
+               u1_rtv2.22
+        v                    219134    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_PMO
+               c215_5v.2
+                r72_5v.1
+                 r768.2
+                 r769.1
+               r875_5v.1
+                u15_5v.7
+               u15_5v.16
+      UNNAMED_3_CAP_I59_A_5V 220103    4
+               c218_5v.2
+                r73_5v.2
+        v                    216138    1 
+unnamed_69_at90so72_i676_mode           
+                 r251.1
+                 u24.15
+      AVDD_SENSE_P            21925    3
+                r02_5.1
+                 r298.2
+      agnd_sense_r_5         222103    3
+                c02_5.1
+                r02_5.2
+                u1_5.31
+        v                    217131    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_1
+               r5_1v2s.1
+                 r310.1
+      PMOD_VSENN_1V2S        222104    2
+               r5_1v2s.2
+               u1_1v2s.11
+      mi1_pd_vrefb3an0       216143    1
+                 r572.2
+                u49.AC7
+      P1V0RT1_DGND_SENSE      21649    2
+               r02_rtv1.1
+                 r579.2
+      agnd_sense_r_rtv1       21963    2
+               c02_rtv1.1
+               r02_rtv1.2
+               u1_rtv1.31
+      P1V0RT1_AGND_SENSE     216149    2
+               r04_rtv1.1
+                 r581.2
+      dgnd_sense_r_rtv1      219163    2
+               c01_rtv1.1
+               r04_rtv1.2
+               u1_rtv1.22
+      mi1_pd_vrefb3bn0        21733    2
+                 r586.1
+                u49.AC12
+      mi1_pd_vref5bn0         21458    1
+                 r591.2
+                u49.P25
+      mi1_pd_vref6an0        214158    1
+                 r592.1
+                u49.L26
+      mi1_pd_vrefb4an0        21650    2
+                 r594.2
+                u49.AD15
+      mi1_pd_vrefb5an0       216150    1
+                 r599.1
+                u49.W23
+      mi1_pd_vrefb7an0        21651    1
+                 r603.2
+                u49.B16
+      mi1_pd_vrefb8an0       217134    2
+                 r604.1
+                 u49.C8
+        v                    222110    2 
+UNNAMED_4095_RES_I482_B                 
+                 r741.2
+               u1_sf1.15
+        v                    214167    1 
+UNNAMED_4095_RES_I465_B                 
+                 r746.2
+               u1_sf0.15
+        v                     22004    2 
+UNNAMED_4095_RES_I468_A                 
+                r5_sf1.1
+                 r767.1
+        v                    222107    3 
+PMOD_VSENN_P3V3_SFP1_ALT                
+                r5_sf1.2
+               u1_sf1.11
+        v                    222106    2 
+UNNAMED_4095_ONSEMIVISHAY5V5A01_I506_P_2
+                 r769.2
+               u15_5v.15
+        v                     21935    1 
+UNNAMED_4095_RES_I454_A                 
+                r5_sf0.1
+                 r771.1
+        v                     21766    3 
+PMOD_VSENN_P3V3_SFP0_ALT                
+                r5_sf0.2
+               u1_sf0.11
+        v                     20941    2 
+unnamed_69_at90so72_i676_clk            
+                 r791.2
+                 u24.20
+        v                     22007    1 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PMOD
+               c225_3v3.2
+                 r825.2
+                 r836.1
+               r849_3v3.1
+               r877_3v3.1
+               u16_3v3.7
+               u16_3v3.16
+        v                    222113    2 
+UNNAMED_4095_ONSEMIVISHAY3V39A_I507_PV_1
+                 r836.2
+               u16_3v3.15
+        v                     22209    2 
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PV_3
+                 r854.2
+               u1_1v2s.15
+        v                    220107    4 
+UNNAMED_3_CAP_I59_A_3V3                 
+               c227_3v3.2
+               r871_3v3.2
+      PMOD_VSENN_5V           22008    2
+               r928_5v.2
+               u15_5v.11
+      PMOD_VSENN_3V3         220108    3
+               r949_3v3.2
+               u16_3v3.11
+      vdd_p0v875             215108    2
+                 c5_3.2
+                 c6_3.2
+                 c7_3.2
+                 c8_3.2
+                 c9_3.2
+                c10_3.2
+                c11_3.2
+               c11_91_5.1
+               c11_92_5.1
+               c11_93_5.1
+Too many to print.
+      SNDN_VSS_SENSE_N        22009    2
+                r04_5.1
+                 r985.2
+               u1_3.AK26
+      dgnd_sense_r_5         222114    3
+                c01_5.1
+                r04_5.2
+                u1_5.22
+      SNDN_VDD_SENSE_P       220127    3
+                 p1_5.2
+                r03_5.1
+                 r984.2
+               u1_3.AJ26
+      dvdd_sense_r_5         222122   13
+                c01_5.2
+                 p1_5.4
+                r03_5.2
+                u1_5.21
+      vdd_ph_2                20352    2
+               r4_91_5.1
+               u1_91_5.32
+      VDD_BOOT_R_2            20213    5
+               c06_91_5.1
+               r4_91_5.2
+      vdd_ph_93               20222    3
+               r4_93_5.1
+               u1_93_5.32
+      VDD_BOOT_R_93          202114    5
+               c06_93_5.1
+               r4_93_5.2
+      vdd_ph_94               10553    3
+               r4_94_5.1
+               u1_94_5.32
+      VDD_BOOT_R_94          105153    5
+               c06_94_5.1
+               r4_94_5.2
+      vdd_ph_95              105152    3
+               r4_95_5.1
+               u1_95_5.32
+      VDD_BOOT_R_95           10458    5
+               c06_95_5.1
+               r4_95_5.2
+      vdd_ph_96              105150    3
+               r4_96_5.1
+               u1_96_5.32
+      VDD_BOOT_R_96           10455    5
+               c06_96_5.1
+               r4_96_5.2
+      vdd_ph_92               20353    3
+               r4_92_5.1
+               u1_92_5.32
+      VDD_BOOT_R_92          202113    4
+               c06_92_5.1
+               r4_92_5.2
+Common Devices:
+                  c52
+                  c939
+                  c941
+                  fl1
+               fl1%jp1_2
+                  c937
+                  c938
+                  c940
+                   u1
+                 c2_pm
+Too many to print.
+Total of 101 nodes, Message is:  None.
+------End, 2 Problems Reported----------
+S/N:FLM271808PJ
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 06:15:11 2023
+----------------------------------------
+r59_3 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   815.22k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r748 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   224.84k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GM9
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 06:15:47 2023
+----------------------------------------
+r59_3 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   733.10k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r748 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   149.91k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GM9
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 06:15:56 2023
+----------------------------------------
+r59_3 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   666.00k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r748 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   224.84k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GM9
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 06:16:06 2023
+----------------------------------------
+r59_3 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   918.06k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r748 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   449.76k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GM9
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 06:16:15 2023
+----------------------------------------
+r59_3 HAS FAILED
+12-2537-02 RES,TKF,1 k ohm,0.063W,1%,SM,
+Measured:   918.06k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r748 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   149.89k
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM27160GM9
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 07:35:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    107167 Open
+unnamed_55_pi3b3257pg_i126_yd           
+                r1195.1
+                 u96.12
+To:     v                     10965
+jtag_tdi_sndn_muxed_3v3                 
+                r1195.2
+                 u25.8
+Common Devices:
+                 r1195
+Message is:
+Check R1195
+------End, 1 Problem Reported-----------
+S/N:FLM271906AA
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 07:36:14 2023
+----------------------------------------
+c419_3 HAS FAILED
+11-2686-04 CAP,CE,22.0uF,6.3 V,20%,X5R,S
+Measured:   35.534u
+Nominal:    581.27u
+High Limit: 784.71u
+Low Limit:  348.76u
+Capacitance in FARADS
+----------------------------------------
+DEVICES IN PARALLEL
+c423_3 22.0u
+c16 10.0u
+c370_3 4.70u
+c374_3 4.70u
+c378_3 4.70u
+c382_3 4.70u
+c17 2.20u
+c127 1.00u
+c386_3 1.00u
+c390_3 1.00u
+c394_3 1.00u
+c398_3 1.00u
+c752_3 470n
+c19 100n
+c25 100n
+c141 100n
+c142 100n
+c402_3 100n
+c406_3 100n
+c410_3 100n
+c414_3 100n
+----------------------------------------
+r62_3 HAS FAILED
+12-2475-02 RES,TKF,1 k ohm,0.063W,5%,SM,
+Measured:   1.3844k
+Nominal:    1.0000k
+High Limit: 1.2500k
+Low Limit:  800.00
+Resistance in OHMS
+----------------------------------------
+r234 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   19.234M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -3.6825M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271906AA
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 07:36:37 2023
+----------------------------------------
+r234 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   15.901M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -3.6817M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271906AA
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 07:36:46 2023
+----------------------------------------
+r234 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   10.463M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   1.0000e+100
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271906AA
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 07:36:55 2023
+----------------------------------------
+r234 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   9.3922M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   -1.8411M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271906AA
+----------------------------------------
+73-102898-01_03
+Wed Jul 05 07:37:04 2023
+----------------------------------------
+r234 HAS FAILED
+12-2905-02 RES,TKF,4.7 k ohm,.063W,5%,SM
+Measured:   8.5202M
+Nominal:    4.7000k
+High Limit: 5.8750k
+Low Limit:  3.7600k
+Resistance in OHMS
+----------------------------------------
+r428 HAS FAILED
+12-2887-02 RES,TKF,22 ohm,0.063W,5%,SM,0
+Measured:   3.6821M
+Nominal:    22.000
+High Limit: 30.800
+Low Limit:  17.600
+Resistance in OHMS
+----------------------------------------
+S/N:FLM271906AA
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 07:43:11 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: p1v8                   205114   25
+                 c16.2
+                 c17.2
+                 c19.1
+                 c25.1
+                 c127.1
+                 c141.2
+                 c142.2
+                c370_3.2
+                c374_3.2
+                c378_3.2
+Too many to print.
+To:   FLTR_PLL_PCIE_TOP_3     20302   25
+                c704_3.1
+                c705_3.1
+                 l1_3.2
+                u1_3.K21
+                u1_3.L28
+Common Devices:
+                  l1_3
+                  u1_3
+Message is:
+Check L1_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: p1v8                   205114   25
+                 c16.2
+                 c17.2
+                 c19.1
+                 c25.1
+                 c127.1
+                 c141.2
+                 c142.2
+                c370_3.2
+                c374_3.2
+                c378_3.2
+Too many to print.
+To:   FLTR_PLL_TEST_SIDE_3    20303   25
+                c702_3.1
+                c703_3.1
+                 l5_3.2
+               u1_3.AA28
+               u1_3.AB27
+               u1_3.AC28
+                u1_3.W28
+Common Devices:
+                  l5_3
+                  u1_3
+Message is:
+Check L5_3
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From:   v                    204114   25
+UNNAMED_4141_RES_I146_A                 
+                 r780.1
+                  u3.1
+To:   p1v8                   205114   25
+                 c16.2
+                 c17.2
+                 c19.1
+                 c25.1
+                 c127.1
+                 c141.2
+                 c142.2
+                c370_3.2
+                c374_3.2
+                c378_3.2
+Too many to print.
+Common Devices:
+                  r780
+                   u3
+Message is:
+Check R780
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From:   v                     10922 Open
+PMOD_BOOTR_P3V3_SFP1_ALT                
+               c10_sf1.1
+               r11_sf1.1
+To:     v                    110122
+PMOD_BOOT_P3V3_SFP1_ALT                 
+               r11_sf1.2
+                u1_sf1.6
+Common Devices:
+                r11_sf1
+Message is:
+Check R11_SF1
+------End, 4 Problems Reported----------
+S/N:FLM271906AA
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:38:25 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    115152 1019
+FLTR_P3V3_SFP_RX<19>_S1                 
+               c200_s1.1
+               c208_s1.1
+                l72_s1.1
+               sfp_s1.Y15
+To:   PWR_FUSED_SFP<19>_S1   116158 1019
+               c215_s1.1
+               c216_s1.1
+                f35_s1.1
+                l71_s1.2
+                l72_s1.2
+Common Devices:
+                 l72_s1
+Message is:
+Check L72_S1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT1_AVDD            22165 Open
+             c11_91_rtv1.1
+             c12_91_rtv1.1
+             c13_91_rtv1.1
+             c14_91_rtv1.1
+               c30_rtv1.1
+               c31_rtv1.1
+               c32_rtv1.1
+              l1_91_rtv1.2
+               l3_rt1_2.1
+               l3_rt3_4.1
+Too many to print.
+To:   FLTR_BV0_AVDDL_RT1_2    21423
+               c8_rt1_2.1
+              c13_rt1_2.1
+              c15_rt1_2.1
+              c16_rt1_2.1
+              c21_rt1_2.1
+              c22_rt1_2.1
+              c24_rt1_2.1
+              c25_rt1_2.1
+              c27_rt1_2.1
+              c28_rt1_2.1
+Too many to print.
+Common Devices:
+                l5_rt1_2
+Message is:
+Check L5_RT1_2
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT7_8    11345
+              c75_rt7_8.1
+              c77_rt7_8.1
+              c79_rt7_8.1
+              c85_rt7_8.1
+              c87_rt7_8.1
+              c91_rt7_8.1
+              c93_rt7_8.1
+              c95_rt7_8.1
+              c97_rt7_8.1
+              c99_rt7_8.1
+Too many to print.
+Common Devices:
+                l6_rt7_8
+Message is:
+Check L6_RT7_8
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: P2_5VA                  20853 Open
+                 c3_a.1
+                c11_a.1
+                 c128.1
+                 c139.1
+                 c140.1
+                 c148.1
+                 c369.2
+                 c372.2
+                 c373.2
+                 c374.2
+Too many to print.
+To:     v                     20427
+UNNAMED_4103_AVC8T245_I60_DIR           
+                 r451.2
+                 u42.2
+Common Devices:
+                  r451
+                  u42
+Message is:
+Check R451
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638   79
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC1_Q1    11537   79
+                c13_q1.2
+                c14_q1.2
+                l3_q1.2
+              qsfp_q1.A30
+Common Devices:
+                 l3_q1
+Message is:
+Check L3_Q1
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: p1_1va                 214152   99
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+To:   fltr_mifpga1_vccl_gxb   21958   99
+                 c428.1
+                 c429.1
+                 c430.1
+                 c431.1
+                 l34.2
+                 u49.J3
+                 u49.N3
+                 u49.U3
+Common Devices:
+                  l34
+                  u49
+Message is:
+Check L34
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 1215
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q2  11535 1215
+                c15_q2.2
+                c16_q2.2
+                l4_q2.2
+              qsfp_q2.B29
+Common Devices:
+                 l4_q2
+Message is:
+Check L4_Q2
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135  953
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q2  11534  953
+                c17_q2.2
+                c18_q2.2
+                l5_q2.2
+              qsfp_q2.B10
+Common Devices:
+                 l5_q2
+Message is:
+Check L5_Q2
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135  624
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC1_Q2   115135  624
+                c19_q2.2
+                c20_q2.2
+                l6_q2.2
+              qsfp_q2.B30
+Common Devices:
+                 l6_q2
+Message is:
+Check L6_Q2
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22129
+vflt_p1v8_vddl_zl30772_b                
+                 c53.1
+                 c55.1
+                 c61.1
+                 c965.1
+                 l11.2
+                 u59.62
+                 u59.68
+                 u59.72
+Common Devices:
+                  l11
+                  u59
+Message is:
+Check L11
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                    221129
+vflt_p1v8_vddl_zl30772_c                
+                 c58.1
+                 c62.1
+                 l12.2
+                 u59.39
+Common Devices:
+                  l12
+                  u59
+Message is:
+Check L12
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22130
+vflt_p1v8_vddl_zl30772_a                
+                 c41.1
+                 c51.1
+                 c54.1
+                 c57.1
+                 c59.1
+                 c63.1
+                 l68.2
+                 u59.41
+                 u59.47
+                 u59.53
+Too many to print.
+Common Devices:
+                  l68
+                  u59
+Message is:
+Check L68
+----------------------------------------
+Open #13 Thresh 24, Delay 50us      Ohms
+From:   v                     22066 Open
+UNNAMED_3_RES_I173_A_S0                 
+                r7_s0.1
+               sfp_s0.D4
+To:   i2c_sda_sfp<3>         216142
+                r7_s0.2
+               rn36_s0.3
+           rn36_s0%pin_3_6.1
+                u49.AC19
+Common Devices:
+                 r7_s0
+Message is:
+Check R7_S0
+----------------------------------------
+Open #14 Thresh 24, Delay 50us      Ohms
+From: srt_mifpga_ok           22118 Open
+                 r17.1
+                u49.W10
+To:   MIFPGA_OK              216136
+                 p4.H1
+                 r17.2
+                 r414.2
+Common Devices:
+                  r17
+Message is:
+Check R17
+----------------------------------------
+Open #15 Thresh 24, Delay 50us      Ohms
+From: sndn_p0v9_en           214124 Open
+                r26_5.1
+                 r759.2
+                u49.B14
+To:   imon_tp_5              223125
+                r26_5.2
+                u1_5.20
+Common Devices:
+                 r26_5
+Message is:
+Check R26_5
+----------------------------------------
+Open #16 Thresh 24, Delay 50us      Ohms
+From:   v                    117152   32
+UNNAMED_17_RES_I375_A_S1                
+                r51_s1.1
+               sfp_s1.V4
+To:   i2c_sda_sfp<41>        116163   32
+                r51_s1.2
+               rn94_s1.3
+           rn94_s1%pin_3_6.1
+                u49.Y23
+Common Devices:
+                 r51_s1
+Message is:
+Check R51_S1
+----------------------------------------
+Open #17 Thresh 24, Delay 50us      Ohms
+From: mifpga_pmbus_sda        21162 Open
+                 p1_5.3
+               p1_rtv1.3
+               p1_rtv2.3
+                 p5.10
+                r20_5.2
+               r20_rtv1.2
+               r20_rtv2.2
+                 r131.2
+               r199_pm.1
+                 r757.1
+Too many to print.
+To:     v                    208109
+UNNAMED_4121_ONSEMIVISHAYLV12A_I127_PM_1
+                 r822.2
+               u1_1v2s.19
+Common Devices:
+                  r822
+Message is:
+Check R822
+----------------------------------------
+Open #18 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<12>         22121 Open
+                r18_s0.1
+                 r826.1
+               rn63_s0.4
+           rn63_s0%pin_4_5.1
+To:   srt_sfp12_i2c_scl_edge 220161
+                 r826.2
+                u49.AD22
+Common Devices:
+                  r826
+Message is:
+Check R826
+----------------------------------------
+Open #19 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<13>         22122   39
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117   39
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+----------------------------------------
+Open #20 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<47>         21656 Open
+                r40_s1.2
+                 r862.1
+               rn100_s1.4
+           rn100_s1%pin_4_5.1
+To:   srt_sfp47_i2c_scl_edge  21761
+                 r862.2
+                u49.B11
+Common Devices:
+                  r862
+Message is:
+Check R862
+------End, 20 Problems Reported---------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:38:39 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDH_RT7_8    11345
+              c75_rt7_8.1
+              c77_rt7_8.1
+              c79_rt7_8.1
+              c85_rt7_8.1
+              c87_rt7_8.1
+              c91_rt7_8.1
+              c93_rt7_8.1
+              c95_rt7_8.1
+              c97_rt7_8.1
+              c99_rt7_8.1
+Too many to print.
+Common Devices:
+                l6_rt7_8
+Message is:
+Check L6_RT7_8
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638   35
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC1_Q1    11537   35
+                c13_q1.2
+                c14_q1.2
+                l3_q1.2
+              qsfp_q1.A30
+Common Devices:
+                 l3_q1
+Message is:
+Check L3_Q1
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22129
+vflt_p1v8_vddl_zl30772_b                
+                 c53.1
+                 c55.1
+                 c61.1
+                 c965.1
+                 l11.2
+                 u59.62
+                 u59.68
+                 u59.72
+Common Devices:
+                  l11
+                  u59
+Message is:
+Check L11
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                    221129
+vflt_p1v8_vddl_zl30772_c                
+                 c58.1
+                 c62.1
+                 l12.2
+                 u59.39
+Common Devices:
+                  l12
+                  u59
+Message is:
+Check L12
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: pwr_1v8_adomain         21613 Open
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22130
+vflt_p1v8_vddl_zl30772_a                
+                 c41.1
+                 c51.1
+                 c54.1
+                 c57.1
+                 c59.1
+                 c63.1
+                 l68.2
+                 u59.41
+                 u59.47
+                 u59.53
+Too many to print.
+Common Devices:
+                  l68
+                  u59
+Message is:
+Check L68
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From:   v                    223127   39
+UNNAMED_3_RES_I175_A_S1                 
+                r3_s1.1
+               sfp_s1.B4
+To:   i2c_sda_sfp<25>        216104   39
+                r3_s1.2
+               rn34_s1.3
+           rn34_s1%pin_3_6.1
+                u49.Y16
+Common Devices:
+                 r3_s1
+Message is:
+Check R3_S1
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From:   v                     22066 Open
+UNNAMED_3_RES_I173_A_S0                 
+                r7_s0.1
+               sfp_s0.D4
+To:   i2c_sda_sfp<3>         216142
+                r7_s0.2
+               rn36_s0.3
+           rn36_s0%pin_3_6.1
+                u49.AC19
+Common Devices:
+                 r7_s0
+Message is:
+Check R7_S0
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From: srt_mifpga_ok           22118 Open
+                 r17.1
+                u49.W10
+To:   MIFPGA_OK              216136
+                 p4.H1
+                 r17.2
+                 r414.2
+Common Devices:
+                  r17
+Message is:
+Check R17
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From:   v                    117152   26
+UNNAMED_17_RES_I375_A_S1                
+                r51_s1.1
+               sfp_s1.V4
+To:   i2c_sda_sfp<41>        116163   26
+                r51_s1.2
+               rn94_s1.3
+           rn94_s1%pin_3_6.1
+                u49.Y23
+Common Devices:
+                 r51_s1
+Message is:
+Check R51_S1
+----------------------------------------
+Open #10 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<13>         22122   26
+                r20_s0.2
+                 r827.1
+               rn64_s0.4
+           rn64_s0%pin_4_5.1
+To:   srt_sfp13_i2c_scl_edge 220117   26
+                 r827.2
+                u49.AD21
+Common Devices:
+                  r827
+Message is:
+Check R827
+----------------------------------------
+Open #11 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<40>         11654   27
+                r50_s1.1
+                 r855.1
+               rn79_s1.4
+           rn79_s1%pin_4_5.1
+To:   srt_sfp40_i2c_scl_edge  21562   27
+                 r855.2
+                u49.U20
+Common Devices:
+                  r855
+Message is:
+Check R855
+----------------------------------------
+Open #12 Thresh 24, Delay 50us      Ohms
+From: I2C_SCL_SFP<47>         21656 Open
+                r40_s1.2
+                 r862.1
+               rn100_s1.4
+           rn100_s1%pin_4_5.1
+To:   srt_sfp47_i2c_scl_edge  21761
+                 r862.2
+                u49.B11
+Common Devices:
+                  r862
+Message is:
+Check R862
+------End, 12 Problems Reported---------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:40:53 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q1     11638 Open
+                c1_q1.1
+                c3_q1.1
+                cr1_q1.2
+              cr1_q1%cr.C
+                l1_q1.1
+                l2_q1.1
+                l3_q1.1
+                r4_q1.1
+                rn2_q1.5
+                rn2_q1.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC1_Q1    11537
+                c13_q1.2
+                c14_q1.2
+                l3_q1.2
+              qsfp_q1.A30
+Common Devices:
+                 l3_q1
+Message is:
+Check L3_Q1
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q2  11535
+                c15_q2.2
+                c16_q2.2
+                l4_q2.2
+              qsfp_q2.B29
+Common Devices:
+                 l4_q2
+Message is:
+Check L4_Q2
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q2  11534
+                c17_q2.2
+                c18_q2.2
+                l5_q2.2
+              qsfp_q2.B10
+Common Devices:
+                 l5_q2
+Message is:
+Check L5_Q2
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC1_Q2   115135
+                c19_q2.2
+                c20_q2.2
+                l6_q2.2
+              qsfp_q2.B30
+Common Devices:
+                 l6_q2
+Message is:
+Check L6_Q2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<40>         11654   34
+                r50_s1.1
+                 r855.1
+               rn79_s1.4
+           rn79_s1%pin_4_5.1
+To:   srt_sfp40_i2c_scl_edge  21562   34
+                 r855.2
+                u49.U20
+Common Devices:
+                  r855
+Message is:
+Check R855
+------End, 5 Problems Reported----------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:41:07 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: pwr_1v8_adomain         21613   38
+                 c30.2
+                 c110.1
+                 c188.1
+                 c947.1
+                 l11.1
+                 l12.1
+                 l68.1
+                 u59.12
+                 u87.1
+                 u87.15
+Too many to print.
+To:     v                     22129   38 
+vflt_p1v8_vddl_zl30772_b                
+                 c53.1
+                 c55.1
+                 c61.1
+                 c965.1
+                 l11.2
+                 u59.62
+                 u59.68
+                 u59.72
+Common Devices:
+                  l11
+                  u59
+Message is:
+Check L11
+------End, 1 Problem Reported-----------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:55:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                     11432 Open
+UNNAMED_4_RES_I226_A_Q2                 
+              qsfp_q2.B12
+                r9_q2.1
+To:   qsfp_sda<5>             11435
+                r9_q2.2
+                rn3_q2.2
+            rn3_q2%pin_2_7.1
+                u49.M12
+Common Devices:
+                 r9_q2
+Message is:
+Check R9_Q2
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<44>        116166   25
+                r34_s1.1
+                 r859.1
+               rn69_s1.4
+           rn69_s1%pin_4_5.1
+To:   srt_sfp44_i2c_scl_edge  21941   25
+                 r859.2
+                u49.D11
+Common Devices:
+                  r859
+Message is:
+Check R859
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                    110147    2
+rxrate_shift_reg_data_5                 
+                 u115.9
+                u116.14
+To:     v                     10846    3 
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+Common Devices:
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 3 Problems Reported----------
+S/N:FLM27120GVB
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:55:50 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                    110147    3
+rxrate_shift_reg_data_5                 
+                 u115.9
+                u116.14
+To:     v                     10846    3 
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+Common Devices:
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM27120GVB
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:57:49 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                    110147    3
+rxrate_shift_reg_data_5                 
+                 u115.9
+                u116.14
+To:     v                     10846    3 
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+Common Devices:
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM27120GVB
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:58:03 2023
+73-102898-01_03
+----------------------------------------
+Short #1, Thresh 800, Delay 50us    Ohms
+From:   v                    110147    2
+rxrate_shift_reg_data_5                 
+                 u115.9
+                u116.14
+To:     v                     10846    3 
+fpga_sfp_rx_rate_sel<40>                
+               rn104_s1.1
+           rn104_s1%pin_1_8.1
+                u116.15
+Common Devices:
+                  u116
+Total of 2 nodes, Message is:  None.
+------End, 1 Problem Reported-----------
+S/N:FLM27120GVB
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:59:34 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    221116 Open
+UNNAMED_4095_RES_I448_A                 
+                r4_sf0.1
+                 r770.1
+To:     v                     22248
+PMOD_VSENP_P3V3_SFP0_ALT                
+                r4_sf0.2
+               u1_sf0.12
+Common Devices:
+                 r4_sf0
+Message is:
+Check R4_SF0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: P1V0RT2_AVDD           113148 Open
+             c11_91_rtv2.1
+             c12_91_rtv2.1
+             c13_91_rtv2.1
+             c14_91_rtv2.1
+               c30_rtv2.1
+               c31_rtv2.1
+               c32_rtv2.1
+              l1_91_rtv2.2
+               l3_rt5_6.1
+               l3_rt7_8.1
+Too many to print.
+To:   FLTR_BV1_AVDDL_RT5_6   113166
+              c76_rt5_6.1
+              c78_rt5_6.1
+              c80_rt5_6.1
+              c86_rt5_6.1
+              c88_rt5_6.1
+              c92_rt5_6.1
+              c94_rt5_6.1
+              c96_rt5_6.1
+              c98_rt5_6.1
+              c100_rt5_6.1
+Too many to print.
+Common Devices:
+                l7_rt5_6
+Message is:
+Check L7_RT5_6
+----------------------------------------
+Open #3 Thresh 24, Delay 50us       Ohms
+From: p1_1va                 214152 Open
+                 c6_a.1
+                c12_a.1
+                 c397.1
+                 c398.1
+                 c402.1
+                 c403.1
+                 c459.2
+                 c468.2
+                 c469.2
+                 c470.2
+Too many to print.
+To:   fltr_mifpga1_vccl_gxb   21958
+                 c428.1
+                 c429.1
+                 c430.1
+                 c431.1
+                 l34.2
+                 u49.J3
+                 u49.N3
+                 u49.U3
+Common Devices:
+                  l34
+                  u49
+Message is:
+Check L34
+----------------------------------------
+Open #4 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_TX_Q2  11535
+                c15_q2.2
+                c16_q2.2
+                l4_q2.2
+              qsfp_q2.B29
+Common Devices:
+                 l4_q2
+Message is:
+Check L4_Q2
+----------------------------------------
+Open #5 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC_RX_Q2  11534
+                c17_q2.2
+                c18_q2.2
+                l5_q2.2
+              qsfp_q2.B10
+Common Devices:
+                 l5_q2
+Message is:
+Check L5_Q2
+----------------------------------------
+Open #6 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P2_Q2    116135 Open
+                c2_q2.1
+                c4_q2.1
+                cr2_q2.2
+              cr2_q2%cr.C
+                l4_q2.1
+                l5_q2.1
+                l6_q2.1
+                r5_q2.1
+                rn3_q2.5
+                rn3_q2.7
+Too many to print.
+To:   FLTR_QSFP_P2_VCC1_Q2   115135
+                c19_q2.2
+                c20_q2.2
+                l6_q2.2
+              qsfp_q2.B30
+Common Devices:
+                 l6_q2
+Message is:
+Check L6_Q2
+----------------------------------------
+Open #7 Thresh 24, Delay 50us       Ohms
+From: sndn_p0v9_en           214124 Open
+                r26_5.1
+                 r759.2
+                u49.B14
+To:   imon_tp_5              223125
+                r26_5.2
+                u1_5.20
+Common Devices:
+                 r26_5
+Message is:
+Check R26_5
+----------------------------------------
+Open #8 Thresh 24, Delay 50us       Ohms
+From:   v                    119162   27
+UNNAMED_15_RES_I177_A_S1                
+                r27_s1.1
+               sfp_s1.F4
+To:   i2c_sda_sfp<29>         11978   27
+                r27_s1.2
+               rn44_s1.3
+           rn44_s1%pin_3_6.1
+                u49.V14
+Common Devices:
+                 r27_s1
+Message is:
+Check R27_S1
+----------------------------------------
+Open #9 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<22>         22126 Open
+                r38_s0.1
+                 r837.1
+               rn97_s0.4
+           rn97_s0%pin_4_5.1
+To:   srt_sfp22_i2c_scl_edge 220134
+                 r837.2
+                u49.AD17
+Common Devices:
+                  r837
+Message is:
+Check R837
+------End, 9 Problems Reported----------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 09:59:48 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From:   v                    221116  193
+UNNAMED_4095_RES_I448_A                 
+                r4_sf0.1
+                 r770.1
+To:     v                     22248  193 
+PMOD_VSENP_P3V3_SFP0_ALT                
+                r4_sf0.2
+               u1_sf0.12
+Common Devices:
+                 r4_sf0
+Message is:
+Check R4_SF0
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: I2C_SCL_SFP<22>         22126 2530
+                r38_s0.1
+                 r837.1
+               rn97_s0.4
+           rn97_s0%pin_4_5.1
+To:   srt_sfp22_i2c_scl_edge 220134 2530
+                 r837.2
+                u49.AD17
+Common Devices:
+                  r837
+Message is:
+Check R837
+------End, 2 Problems Reported----------
+S/N:FLM271808RV
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 11:57:55 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: SW2_6                   21555 Open
+                 c2_6.1
+                 l1_6.1
+                u1_6.14
+To:   p3v3_gps               214154
+                 c3_6.1
+                 c9_6.1
+                  j7.2
+                  j7.4
+                  j7.6
+                  j7.8
+                 l1_6.2
+                 r689.2
+Common Devices:
+                  l1_6
+Message is:
+Check L1_6
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  137
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  137
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 2 Problems Reported----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 11:58:10 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  134
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  134
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 11:58:24 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: P0_9V                   22028   49
+               c11_98_5.1
+               c12_98_5.1
+               c13_98_5.1
+               c14_98_5.1
+                c30_5.1
+                c31_5.1
+                c32_5.1
+                c33_5.1
+                c34_5.1
+                c35_5.1
+Too many to print.
+To:   FLTR_VDDA_TX_0P9V_3     21715   49
+                c369_3.1
+                c373_3.2
+                c377_3.2
+                c381_3.2
+                c385_3.2
+                c389_3.2
+                c393_3.1
+                c397_3.2
+                c401_3.2
+                c405_3.2
+Too many to print.
+Common Devices:
+                  l3_3
+                 l26_3
+                  u1_3
+Message is:
+Check L3_3 L26_3
+----------------------------------------
+Open #2 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  134
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  134
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 2 Problems Reported----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 12:01:49 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  137
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  137
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 12:02:03 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  135
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  135
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 12:02:17 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  137
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  137
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 12:02:31 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  136
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  136
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3
+----------------------------------------
+Shorts Report for "shorts".
+Wed Jul 05 12:02:45 2023
+73-102898-01_03
+----------------------------------------
+Open #1 Thresh 24, Delay 50us       Ohms
+From: PWR_P3V3_QSFP_P1_Q2     11632  137
+                c1_q2.1
+                c3_q2.1
+                cr1_q2.2
+              cr1_q2%cr.C
+                l1_q2.1
+                l2_q2.1
+                l3_q2.1
+                r4_q2.1
+                rn2_q2.5
+                rn2_q2.7
+Too many to print.
+To:   FLTR_QSFP_P1_VCC_TX_Q2  11532  137
+                c9_q2.2
+                c10_q2.2
+                l1_q2.2
+              qsfp_q2.A29
+Common Devices:
+                 l1_q2
+Message is:
+Check L1_Q2
+------End, 1 Problem Reported-----------
+S/N:FLM271503Q3

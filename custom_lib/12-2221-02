@@ -1,0 +1,13 @@
+!!!!   21    2    1 1573443101  V5074                                         
+
+!  12-2221-02
+!  12-2221-02 RES,TKF,332 ohm,0.063W,1%,SM,
+
+resistor *, 332, 5, 5, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2
+

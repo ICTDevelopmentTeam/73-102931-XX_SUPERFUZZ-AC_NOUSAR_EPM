@@ -1,0 +1,8 @@
+!!!!    2    0    1 1648519791  V2e58                                         
+! IPG: rev 09.20p  Mon Mar 21 20:03:58 2022
+disconnect all
+connect s to "P3_3VA"
+connect i to "UNNAMED_4140_CV5CGXFC4CFG672_I392_MSEL4"
+!B!resistor 100, 11.00, 6.00, re2, ar100m
+resistor 100,30.00,20.00,re2,ar100m
+! "r606" test.

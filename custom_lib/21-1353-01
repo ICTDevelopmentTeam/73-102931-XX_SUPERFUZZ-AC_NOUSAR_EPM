@@ -1,0 +1,15 @@
+!!!!   21    2    1 1573454060   0000                                         
+!  21-1353-01
+!  21-1353-01 FILTER,2A,10V,0.02Ohm DCR,SM,
+
+jumper "jp1_3", closed
+capacitor "jp1_2",1.0u, 20, 20, f
+
+external pins 1
+   device "jp1_3" pins 1
+   device "jp1_2" pins 1 
+
+external pins 2 
+   device "jp1_2" pins 2 
+external pins 3
+   device "jp1_3" pins 2

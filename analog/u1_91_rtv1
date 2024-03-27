@@ -1,0 +1,17 @@
+!!!!    2    0    1 1652162542  V02f6                                         
+test powered analog
+
+   test "VOLT_OUT"
+end test
+
+!*****************************************!
+
+subtest "VOLT_OUT"
+  disconnect all
+  connect i to nodes "P1V0RT1_AVDD"
+  connect l to ground
+  detector dcv, expect 1.0
+  measure 1.0 * 1.10, 1.0 * 0.90
+end subtest
+
+!*****************************************!

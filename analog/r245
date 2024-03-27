@@ -1,0 +1,9 @@
+!!!!    2    0    1 1652947407  V6076                                         
+!* Top probe [SRT_CLK_10M_ZL_SI5326_OUT] removed for power stable ready
+! IPG: rev 09.20p  Mon Mar 21 20:01:42 2022
+disconnect all
+connect s to "SRT_CLK_10M_ZL_SI5326_OUT"
+connect i to "CLK_10M_ZL_SI5326_OUT"
+!B!resistor 100, 15.00, 10.00, re2, ar100m
+resistor 100, 30.00, 20.00, re2, ar100m
+! "r245" test.

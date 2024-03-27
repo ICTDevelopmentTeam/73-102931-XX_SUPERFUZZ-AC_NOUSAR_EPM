@@ -1,0 +1,79 @@
+!!!!    6    0    1  846554888  V0417                                         
+!
+!***  All contents copyright 2006 Cisco Systems Inc.
+!***  All rights reserved.
+!***  No portion of this software may be used or reproduced in any form, or
+!***  by any means, without prior written permission from Cisco Systems, Inc.
+!
+! Part Name:         NC7SZ126
+! Alias:             NC7SZ126P,NC7SZ126M
+! Part Type:         VLSI
+! Description:       TinyLogic UHS Buffer with 3_State Output
+! Manufacturer:      Fairchild, Texas Instruments
+! Package Style:     5 pin SOT23,SC70
+! Created:           Jul 24, 2006
+! Programmer:        sama
+! Tester:            HP3070
+! Processor:         VPU
+! Vector Format:     VCL
+! Testjet Testable:  yes
+! JTAG Device:       no
+! Fault coverage:    100%
+! Constraints:       No
+! Cisco Part #:      15-4279-01,15-5124-01
+
+sequential
+
+vector cycle 500n
+receive delay 400n
+
+assign VDD   to pins 5
+assign GND   to pins 3
+
+power VDD,GND
+
+assign DIN  to pins 2
+assign DOUT to pins 4
+assign OE   to pins 1
+
+inputs  DIN,OE
+outputs DOUT
+
+disable DOUT with OE to "1"
+
+family LVT
+
+set load on pins 4 to pull up
+
+vector DOUT_0
+ set OE   to "1"
+ set DIN  to "0"
+ set DOUT to "0"
+end vector
+
+vector DOUT_1
+ set OE   to "1"
+ set DIN  to "1"
+ set DOUT to "1"
+end vector
+
+vector DOUT_Z
+ set OE   to "0"
+ set DIN  to "0"
+ set DOUT to "1"
+end vector
+
+! ************************************************
+
+unit "DOUT High test"
+ execute DOUT_1
+end unit
+
+unit "DOUT Low test"
+ execute DOUT_0
+end unit
+
+unit "DOUT HighZ test"
+ execute DOUT_Z
+end unit
+

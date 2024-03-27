@@ -1,0 +1,13 @@
+!!!!   21    2    1 1647590626  Vf544                                         
+
+!#  11-100206-01
+!#  11-100206-01 CAP,CE,56pF,50V,C0G,5%,SM,0
+!#  Thu Mar 17 16:55:37 2022
+
+capacitor *, 56p, 35, 35, f
+
+external pins 1
+   device * pins 1
+
+external pins 2
+   device * pins 2

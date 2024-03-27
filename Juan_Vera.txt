@@ -5,13 +5,3 @@ vector      = 3
 user vector = 3
 source line = 43
 source file = digital/u12
-Status:  17H
-Pass/Fail error on following pins:
-BRRCC  NODE            PIN
-205136 IO_MI_SER_DATA  U12.4
-207142 IO_MI_SER_CLK   U12.7
-Sequencer halted due to fatal error
-Fatal error on module: 2
-Overvoltage on following input pins:
-BRRCC  NODE            PIN
-208103 MIFPGA_POR_L    U12.1
